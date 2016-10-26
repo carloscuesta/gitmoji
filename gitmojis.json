@@ -1,0 +1,79 @@
+{
+    "gitmojis": [
+        {
+            "emoji": "⬆️",
+            "code": ":arrow_up:",
+            "description": "Upgrading dependencies."
+        },
+        {
+            "emoji": "⬇️",
+            "code": ":arrow_down:",
+            "description": "Downgrading dependencies."
+        },
+        {
+            "emoji": "🎨",
+            "code": ":art:",
+            "description": "Improving structure / format of the code."
+        },
+        {
+            "emoji": "🔥",
+            "code": ":fire:",
+            "description": "Removing code or files."
+        },
+        {
+            "emoji": "✨",
+            "code": ":sparkles:",
+            "description": "Introducing new features."
+        },
+        {
+            "emoji": "🐛",
+            "code": ":bug:",
+            "description": "Fixing a bug."
+        },
+        {
+            "emoji": "🚧",
+            "code": ":construction:",
+            "description": "Work in progress."
+        },
+        {
+            "emoji": "📝",
+            "code": ":memo:",
+            "description": "Writing docs."
+        },
+        {
+            "emoji": "✅",
+            "code": ":white_check_mark:",
+            "description": "Adding tests."
+        },
+        {
+            "emoji": "🍎",
+            "code": ":apple:",
+            "description": "Fixing something on macOS."
+        },
+        {
+            "emoji": "🐧",
+            "code": ":penguin:",
+            "description": "Fixing something on Linux."
+        },
+        {
+            "emoji": "🏁",
+            "code": ":checkered_flag:",
+            "description": "Fixing something on Windows."
+        },
+        {
+            "emoji": "🔖",
+            "code": ":bookmark:",
+            "description": "Releasing / Version tags."
+        },
+        {
+            "emoji": "🚨",
+            "code": ":rotating_light:",
+            "description": "Removing linter warnings."
+        },
+        {
+            "emoji": "⚡️",
+            "code": ":zap:",
+            "description": "Improving performance."
+        },
+    ]
+}
