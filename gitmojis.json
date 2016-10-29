@@ -21,6 +21,16 @@
             "description": "Removing code or files."
         },
         {
+            "emoji": "💚",
+            "code": ":green_heart:",
+            "description": "Fixing CI Build."
+        },
+        {
+            "emoji": "🔒",
+            "code": ":lock:",
+            "description": "Fixing security issues."
+        },
+        {
             "emoji": "✨",
             "code": ":sparkles:",
             "description": "Introducing new features."
@@ -69,6 +79,11 @@
             "emoji": "🚨",
             "code": ":rotating_light:",
             "description": "Removing linter warnings."
+        },
+        {
+            "emoji": "🚀",
+            "code": ":rocket:",
+            "description": "Deploying stuff."
         },
         {
             "emoji": "⚡️",
