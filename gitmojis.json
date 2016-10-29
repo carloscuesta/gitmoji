@@ -90,5 +90,10 @@
             "code": ":zap:",
             "description": "Improving performance."
         },
+        {
+            "emoji": "🔧",
+            "code": ":wrench:",
+            "description": "Changing configuration files."
+        }
     ]
 }
