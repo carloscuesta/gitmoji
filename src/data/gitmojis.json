@@ -3,7 +3,8 @@
         {
             "emoji": "⬆️",
             "code": ":arrow_up:",
-            "description": "Upgrading dependencies."
+            "description": "Upgrading dependencies.",
+            "image": "arrow-up"
         },
         {
             "emoji": "⬇️",

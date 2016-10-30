@@ -1,0 +1,64 @@
+@import '_includes/_vars';
+@import '_includes/_flexbox';
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Circular;
+	background-color: $lightGray;
+}
+
+code {
+	padding: 1px 3px;
+	font-size: .85em;
+	white-space: pre-wrap;
+	border: 1px solid #E3EDF3;
+	border-radius: 2px;
+	font-family: Consolas, Inconsolata, monospace, sans-serif;
+	background: #F7FAFB;
+}
+
+.header {
+	background-color: $yellow;
+	padding: 4em;
+}
+
+.gitmoji-logo {
+	width: 100%;
+	height: 90px;
+}
+
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3.5em 2em;
+}
+
+.emoji {
+	display: flex;
+
+	&-card {
+		background-color: $white;
+		margin: 1em 0;
+		flex: 1;
+	}
+
+	&-info {
+		padding: 20px 40px;
+
+		p {
+			text-align: center;
+		}
+	}
+
+	&-data {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.icon {
+			margin: 0 5px;
+		}
+	}
+}
