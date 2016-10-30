@@ -1,5 +1,7 @@
 language: node_js
-node_js: 6
+node_js:
+- 6
+- 4
 install:
 - npm install --only=production
 cache:
