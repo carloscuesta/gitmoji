@@ -4,7 +4,7 @@
   "description": "An emoji guide for your commit messages",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -15,16 +15,24 @@
   "bugs": {
     "url": "https://github.com/carloscuesta/gitmoji/issues"
   },
+  "pugLintConfig": {
+    "disallowHtmlText": true,
+    "disallowDuplicateAttributes": true,
+    "disallowClassAttributeWithStaticValue": true,
+    "disallowIdAttributeWithStaticValue": true,
+    "requireLowerCaseAttributes": true
+  },
   "homepage": "https://github.com/carloscuesta/gitmoji#readme",
   "dependencies": {
+  	"babel-core": "^6.18.0",
+	"babel-preset-es2015": "^6.18.0",
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.1.0",
     "gulp-pug": "^3.1.0",
+    "gulp-pug-lint": "^0.1.6",
     "gulp-sass": "^2.3.2"
   },
   "devDependencies": {
-    "babel-core": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0",
     "browser-sync": "^2.17.5"
   }
 }

@@ -3,8 +3,10 @@
 import gulp from 'gulp';
 import sass from 'gulp-sass';
 import pug from 'gulp-pug';
+import pugLint from 'gulp-pug-lint';
 import browserSync from 'browser-sync';
 import plumber from 'gulp-plumber';
+import gitmojis from './src/data/gitmojis.json';
 
 const baseDirs = {
 	src: 'src/',
@@ -31,7 +33,7 @@ gulp.task('templates', () => {
 		.pipe(plumber({}))
 		.pipe(pug({
 			locals: {
-				'emojis': require('./gitmojis.json')
+				'emojis': gitmojis
 			}
 		}))
 		.pipe(gulp.dest(routes.files.html))
@@ -46,6 +48,25 @@ gulp.task('styles', () => {
 		}))
 		.pipe(gulp.dest(routes.files.css))
 		.pipe(browserSync.stream())
+});
+
+gulp.task('test', () => {
+	return gulp.src([routes.templates.pug, '!' + routes.templates._pug])
+		.pipe(pugLint())
+		.pipe(plumber({}))
+		.pipe(pug({
+			locals: {
+				'emojis': gitmojis
+			}
+		}))
+		.pipe(gulp.dest(routes.files.html))
+
+	return gulp.src(routes.styles.scss)
+		.pipe(plumber({}))
+		.pipe(sass({
+			outputStyle: 'compressed'
+		}))
+		.pipe(gulp.dest(routes.files.css))
 });
 
 gulp.task('serve', () => {
