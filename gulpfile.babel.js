@@ -7,6 +7,7 @@ import pugLint from 'gulp-pug-lint';
 import browserSync from 'browser-sync';
 import plumber from 'gulp-plumber';
 import gitmojis from './src/data/gitmojis.json';
+import ghPages from 'gulp-gh-pages';
 
 const baseDirs = {
 	src: 'src/',
@@ -24,7 +25,8 @@ const routes = {
 	},
 	files: {
 		html: `${baseDirs.dist}`,
-		css: `${baseDirs.dist}css/`
+		css: `${baseDirs.dist}css/`,
+		deploy: `${baseDirs.dist}**/*`
 	}
 };
 
@@ -76,6 +78,13 @@ gulp.task('serve', () => {
 
 	gulp.watch([routes.templates.pug, routes.templates._pug], ['templates']);
 	gulp.watch([routes.styles.scss, routes.styles._scss], ['styles']);
+});
+
+gulp.task('deploy', () => {
+	return gulp.src(routes.files.deploy)
+		.pipe(ghPages({
+			message: ':rocket: gitmoji website [timestamp]'
+		}))
 });
 
 gulp.task('dev', ['templates', 'styles', 'serve']);

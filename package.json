@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/carloscuesta/gitmoji#readme",
   "dependencies": {
-  	"babel-core": "^6.18.0",
-	"babel-preset-es2015": "^6.18.0",
+    "babel-core": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.1.0",
     "gulp-pug": "^3.1.0",
@@ -33,6 +33,7 @@
     "gulp-sass": "^2.3.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.17.5"
+    "browser-sync": "^2.17.5",
+    "gulp-gh-pages": "^0.5.4"
   }
 }
