@@ -1,7 +1,7 @@
 language: node_js
 node_js: 6
 install:
-- npm install --only=dev
+- npm install --only=production
 cache:
   directories:
     - node_modules
