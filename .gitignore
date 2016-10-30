@@ -1,2 +1,3 @@
 .DS_Store
-list.txt
+dist/
+node_modules/

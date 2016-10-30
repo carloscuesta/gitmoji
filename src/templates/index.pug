@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		link(href="css/style.css", rel="stylesheet", type="text/css")
+		//-style
+			include ../../dist/css/style.css
+	body
+		h1 Hey!
+		each gitmoji in emojis.gitmojis
+			article
+				h3=gitmoji.code
+				span=gitmoji.emoji
+				p=gitmoji.description
