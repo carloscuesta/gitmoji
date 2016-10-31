@@ -83,7 +83,7 @@ gulp.task('serve', () => {
 gulp.task('deploy', () => {
 	return gulp.src(routes.files.deploy)
 		.pipe(ghPages({
-			message: ':rocket: gitmoji website [timestamp]'
+			message: ':rocket: gitmoji website'
 		}))
 });
 
