@@ -10,18 +10,19 @@ html
 		meta(name="twitter:card", content="summary")
 		meta(name="twitter:title", content="gitmoji")
 		meta(name="twitter:description", content="An emoji guide for your commit messages.")
-		meta(name="twitter:image:src", content="")
+		meta(name="twitter:image:src", content="https://gitmoji.carloscuesta.me/images/gitmoji.gif")
 		meta(name="twitter:creator", content="@crloscuesta")
 		meta(name="twitter:url", content="https://gitmoji.carloscuesta.me")
 		meta(property="og:title", content="gitmoji")
 		meta(name="og:description", content="An emoji guide for your commit messages.")
-		meta(property="og:image",  content="")
+		meta(property="og:image",  content="https://gitmoji.carloscuesta.me/images/gitmoji.gif")
 		meta(name="og:url", content="https://gitmoji.carloscuesta.me")
 		meta(name="robots", content="index, follow")
 		link(href="css/style.css", rel="stylesheet", type="text/css")
 		//-style
 			include ../../dist/css/style.css
 	body
+		include _includes/_icons.pug
 		include _includes/_nav.pug
 		header.header
 			include ../images/gitmoji.svg

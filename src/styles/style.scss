@@ -2,6 +2,10 @@
 @import '_includes/_flexbox';
 @import '_includes/_menu';
 
+h1 {
+	font-size: 2em;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -12,19 +16,11 @@ html, body {
 a {
 	transition: color .5s ease-in-out;
 	text-decoration: none;
+	color: $pink;
 
 	&:hover {
 		animation: zomg .5s infinite;
 	}
-}
-
-@keyframes zomg {
-  0%, 100% { color: #7ccdea; }
-  16%      { color: #0074D9; }
-  32%      { color: #2ECC40; }
-  48%      { color: #FFDC00; }
-  64%      { color: #B10DC9; }
-  80%      { color: #FF4136; }
 }
 
 code {
@@ -35,21 +31,28 @@ code {
 	border-radius: 2px;
 	font-family: Consolas, Inconsolata, monospace, sans-serif;
 	background: #F7FAFB;
-	transition: color .2s ease-out;
+}
 
-	&:hover {
-		animation: zomg .5s infinite;
-	}
+section {
+	padding: .5em;
 }
 
 .header {
 	background-color: $yellow;
-	padding: 4em;
+	padding: 5em 2em;
 }
 
 .gitmoji-logo {
 	width: 100%;
 	height: 90px;
+}
+
+.btn {
+	background-color: $pink;
+	color: $white;
+	border-radius: 4px;
+	font-weight: 500;
+	padding: 1em;
 }
 
 .wrap {
@@ -59,28 +62,6 @@ code {
 
 main.wrap {
 	padding: 3.5em 2em;
-}
-
-.footer {
-	padding: 1.5em;
-	background-color: $lightGray;
-
-	nav {
-		-webkit-box-pack: end;
-		-ms-flex-pack: end;
-		justify-content: flex-end;
-		text-align: end;
-
-		a:after {
-			content: "·";
-			color: #000!important;
-			margin: 0 .75em;
-		}
-
-		a:last-child:after {
-			content: "";
-		}
-	}
 }
 
 .emoji {
@@ -126,9 +107,47 @@ main.wrap {
 	}
 }
 
+.icon {
+	width: 1em;
+	height: 1em;
+	margin: 0 .25em;
+}
+
+.footer {
+	padding: 1.5em;
+	background-color: #00E5FF;
+	color: $white;
+
+	nav {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		text-align: end;
+
+		a:after {
+			content: "·";
+			color: $white!important;
+			margin: 0 .75em;
+		}
+
+		a:last-child:after {
+			content: "";
+		}
+	}
+}
+
 @media(max-width: 768px) {
 	footer nav, footer h3 {
 		justify-content: center!important;
 		text-align: center!important;
 	}
+}
+
+@keyframes zomg {
+  0%, 100% { color: #7ccdea;}
+  16%      { color: #0074D9;}
+  32%      { color: #2ECC40;}
+  48%      { color: #FFDC00;}
+  64%      { color: #B10DC9;}
+  80%      { color: #FF4136;}
 }

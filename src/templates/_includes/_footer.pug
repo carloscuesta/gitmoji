@@ -2,7 +2,12 @@ footer.footer
 	.wrap
 		.row.middle-xs
 			.made-with-love.col-xs-12.col-sm-6
-				h3 Made with <3 by #[a(href="https://carloscuesta.me") Carlos Cuesta]
+				h3
+					| Made with
+					svg.icon.icon-heart
+						use(xlink:href='#icon-heart')
+					| by
+					a(href='https://carloscuesta.me')  Carlos Cuesta
 			nav.col-xs-12.col-sm-6
 				a(href="/about") About
 				a(href="https://github.com/carloscuesta/gitmoji") GitHub

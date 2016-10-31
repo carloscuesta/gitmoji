@@ -10,25 +10,27 @@ html
 		meta(name="twitter:card", content="summary")
 		meta(name="twitter:title", content="gitmoji")
 		meta(name="twitter:description", content="An emoji guide for your commit messages.")
-		meta(name="twitter:image:src", content="")
+		meta(name="twitter:image:src", content="https://gitmoji.carloscuesta.me/images/gitmoji.gif")
 		meta(name="twitter:creator", content="@crloscuesta")
 		meta(name="twitter:url", content="https://gitmoji.carloscuesta.me/about")
 		meta(property="og:title", content="gitmoji")
 		meta(name="og:description", content="An emoji guide for your commit messages.")
-		meta(property="og:image",  content="")
+		meta(property="og:image",  content="https://gitmoji.carloscuesta.me/images/gitmoji.gif")
 		meta(name="og:url", content="https://gitmoji.carloscuesta.me/about")
 		meta(name="robots", content="index, follow")
 		link(href="css/style.css", rel="stylesheet", type="text/css")
 		//-style
 			include ../../dist/css/style.css
 	body
+		include _includes/_icons.pug
 		include _includes/_nav.pug
 		header.header
 			include ../images/gitmoji.svg
-		main
-			section.wrap.row.col-xs-12
+		main.wrap
+			section
 				h1 About
-				p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			h1 Contributting to gitmoji
-			h1 Share
+				p Gitmoji is an emoji guide for GitHub commit messages.
+			section
+				h1 Contributting to gitmoji
+				p You can contribute to gitmoji!
 		include _includes/_footer.pug
