@@ -1,12 +1,12 @@
 @import '_includes/_vars';
 @import '_includes/_flexbox';
+@import '_includes/_menu';
 
 html, body {
 	margin: 0;
 	padding: 0;
-	font-size: 16px;
-	font-family: Circular;
-	background-color: $lightGray;
+	font-size: 16.5px;
+	font-family: Avenir;
 }
 
 a {
@@ -62,8 +62,8 @@ main.wrap {
 }
 
 .footer {
-	padding: 1.5em 3.5em;
-	background-color: $white;
+	padding: 1.5em;
+	background-color: $lightGray;
 
 	nav {
 		-webkit-box-pack: end;
@@ -123,5 +123,12 @@ main.wrap {
 		.icon {
 			margin: 0 5px;
 		}
+	}
+}
+
+@media(max-width: 768px) {
+	footer nav, footer h3 {
+		justify-content: center!important;
+		text-align: center!important;
 	}
 }
