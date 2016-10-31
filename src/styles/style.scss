@@ -9,6 +9,15 @@ html, body {
 	background-color: $lightGray;
 }
 
+a {
+	transition: color .5s ease-in-out;
+	text-decoration: none;
+
+	&:hover {
+		animation: zomg .5s infinite;
+	}
+}
+
 @keyframes zomg {
   0%, 100% { color: #7ccdea; }
   16%      { color: #0074D9; }
@@ -53,7 +62,25 @@ main.wrap {
 }
 
 .footer {
-	padding-left: 2em;
+	padding: 1.5em 3.5em;
+	background-color: $white;
+
+	nav {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		text-align: end;
+
+		a:after {
+			content: "·";
+			color: #000!important;
+			margin: 0 .75em;
+		}
+
+		a:last-child:after {
+			content: "";
+		}
+	}
 }
 
 .emoji {

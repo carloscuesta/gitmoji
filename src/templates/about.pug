@@ -1,22 +1,22 @@
 doctype html
 html
 	head
-		title gitmoji | An emoji guide for your commit messages.
+		title gitmoji | About | An emoji guide for your commit messages.
 		meta(name="author", content="Carlos Cuesta")
 		meta(name="description", content="")
 		meta(charset="utf-8")
-		link(rel="canonical", href="https://gitmoji.carloscuesta.me")
+		link(rel="canonical", href="https://gitmoji.carloscuesta.me/about")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		meta(name="twitter:card", content="summary")
 		meta(name="twitter:title", content="gitmoji")
 		meta(name="twitter:description", content="An emoji guide for your commit messages.")
 		meta(name="twitter:image:src", content="")
 		meta(name="twitter:creator", content="@crloscuesta")
-		meta(name="twitter:url", content="https://gitmoji.carloscuesta.me")
+		meta(name="twitter:url", content="https://gitmoji.carloscuesta.me/about")
 		meta(property="og:title", content="gitmoji")
 		meta(name="og:description", content="An emoji guide for your commit messages.")
 		meta(property="og:image",  content="")
-		meta(name="og:url", content="https://gitmoji.carloscuesta.me")
+		meta(name="og:url", content="https://gitmoji.carloscuesta.me/about")
 		meta(name="robots", content="index, follow")
 		link(href="css/style.css", rel="stylesheet", type="text/css")
 		//-style
@@ -25,14 +25,4 @@ html
 		header.header
 			include ../images/gitmoji.svg
 		main.wrap
-			.row.around-xs
-				each gitmoji in emojis.gitmojis
-					article.col-xs-12.col-sm-6.col-md-4.emoji
-						.emoji-card
-							.emoji-icon
-							.emoji-info
-								header.emoji-data
-									span.icon=gitmoji.emoji
-									code=gitmoji.code
-								p=gitmoji.description
 		include _includes/_footer.pug
