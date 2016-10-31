@@ -9,6 +9,15 @@ html, body {
 	background-color: $lightGray;
 }
 
+@keyframes zomg {
+  0%, 100% { color: #7ccdea; }
+  16%      { color: #0074D9; }
+  32%      { color: #2ECC40; }
+  48%      { color: #FFDC00; }
+  64%      { color: #B10DC9; }
+  80%      { color: #FF4136; }
+}
+
 code {
 	padding: 1px 3px;
 	font-size: .85em;
@@ -17,6 +26,11 @@ code {
 	border-radius: 2px;
 	font-family: Consolas, Inconsolata, monospace, sans-serif;
 	background: #F7FAFB;
+	transition: color .2s ease-out;
+
+	&:hover {
+		animation: zomg .5s infinite;
+	}
 }
 
 .header {
@@ -32,7 +46,14 @@ code {
 .wrap {
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+main.wrap {
 	padding: 3.5em 2em;
+}
+
+.footer {
+	padding-left: 2em;
 }
 
 .emoji {
@@ -42,10 +63,25 @@ code {
 		background-color: $white;
 		margin: 1em 0;
 		flex: 1;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+		transition: all .25s ease-out;
+		border-radius: 2px;
+
+		&:hover {
+			box-shadow: 0 10px 20px 0 rgba(168, 182, 191, .6)
+		}
+	}
+
+	&-icon {
+		img {
+			width: 100%;
+			height: 100px;
+			padding: 1em;
+		}
 	}
 
 	&-info {
-		padding: 20px 40px;
+		padding: 2em 4em;
 
 		p {
 			text-align: center;
