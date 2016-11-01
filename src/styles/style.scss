@@ -21,6 +21,10 @@ a {
 	&:hover {
 		animation: zomg .5s infinite;
 	}
+
+	&.btn:hover {
+		animation: none;
+	}
 }
 
 code {
@@ -48,11 +52,38 @@ section {
 }
 
 .btn {
-	background-color: $pink;
-	color: $white;
+	display: inline-block;
+	cursor: pointer;
 	border-radius: 4px;
-	font-weight: 500;
-	padding: 1em;
+	font-weight: 600;
+	padding: .75em 1em;
+	transition: none;
+	margin: .25em 0;
+	position: relative;
+
+	&:not(:first-child) {
+		margin-left: 1em;
+	}
+
+	&-pink {
+		background-color: $pink;
+		color: $white;
+	    box-shadow: 0 4px darken($pink, 20%);
+
+		&:hover {
+			top: 2px;
+			box-shadow: 0 2px darken($pink, 20%);
+		}
+
+		&:active {
+			box-shadow: 0 0 $pink;
+			top: 4px;
+		}
+	}
+
+	.icon {
+		margin-right: .25em;
+	}
 }
 
 .wrap {
@@ -110,7 +141,10 @@ main.wrap {
 .icon {
 	width: 1em;
 	height: 1em;
-	margin: 0 .25em;
+
+	&-heart {
+		margin: 0 .25em;
+	}
 }
 
 .footer {
@@ -137,6 +171,9 @@ main.wrap {
 }
 
 @media(max-width: 768px) {
+	body {
+		font-size: 18px;
+	}
 	footer nav, footer h3 {
 		justify-content: center!important;
 		text-align: center!important;
