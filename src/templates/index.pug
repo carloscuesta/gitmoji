@@ -38,3 +38,6 @@ html
 									code=gitmoji.code
 								p=gitmoji.description
 		include _includes/_footer.pug
+	script.
+		var statuses = ['joy', 'loved', 'haha', 'sunglasses', 'sexy', 'tongue'];
+		document.getElementById(statuses[Math.floor(Math.random() * statuses.length)]).style.opacity=1;
