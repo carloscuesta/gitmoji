@@ -1,0 +1,40 @@
+{
+   "type":"object",
+   "$schema":"http://json-schema.org/draft-03/schema",
+   "id":"http://jsonschema.net",
+   "required": true,
+   "properties":{
+      "gitmojis":{
+         "type":"array",
+         "id":"http://jsonschema.net/gitmojis",
+         "required": true,
+         "items":{
+            "type":"object",
+            "id":"http://jsonschema.net/gitmojis/0",
+            "required": true,
+            "properties":{
+               "code":{
+                  "type":"string",
+                  "id":"http://jsonschema.net/gitmojis/0/code",
+                  "required": true
+               },
+               "description":{
+                  "type":"string",
+                  "id":"http://jsonschema.net/gitmojis/0/description",
+                  "required": true
+               },
+               "emoji":{
+                  "type":"string",
+                  "id":"http://jsonschema.net/gitmojis/0/emoji",
+                  "required": true
+               },
+               "image":{
+                  "type":"string",
+                  "id":"http://jsonschema.net/gitmojis/0/image",
+                  "required": false
+               }
+            }
+         }
+      }
+   }
+}

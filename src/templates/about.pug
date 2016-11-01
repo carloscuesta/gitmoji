@@ -31,8 +31,13 @@ html
 				h1 About
 				p #[strong Gitmoji is an emoji guide for GitHub commit messages]. Aims to be a standarization cheatsheet - guide for using #[a(href="http://emoji.muan.co") emojis] on GitHub's commit messages.
 				p #[strong Using emojis] on #[strong commit messages] provides an #[strong easy way] of #[strong identifying the purpose or intention of a commit] with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to ...
-				p This project is Open Source, that means everyone can participate, suggesting, discussing and adding new emojis. Contributting is very easy, take a look at the #[a(href="#contributting-gitmoji") contributting section] and #[a(href="https://github.com/carloscuesta/gitmoji/") the guidelines for contributting].
+				p This project is Open Source, that means everyone can participate, suggesting, discussing and adding new emojis. Take a look at the #[a(href="#contributing-gitmoji") contributing section] and #[a(href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md") the guidelines for contributing].
 			section
-				h1#contributting-gitmoji Contributting to gitmoji
-				p Contributting to gitmoji it's a piece of cake!
+				h1#contributing-gitmoji Contributing to gitmoji
+				p contributing to gitmoji it's a piece of cake! This project it's a static website built with #[i Pug, SCSS, Gulp and ES6]. All the gitmojis displayed are rendered from a JSON file. Before submitting any pull request, please follow the next steps:
+				ol
+					li #[a(href="https://github.com/carloscuesta/gitmoji/issues/new") Create an issue] filling the template.
+					li After discussing the idea, feature or suggestion, #[a(href="https://github.com/carloscuesta/gitmoji/fork") fork gitmoji]
+					li Create a new branch with the feature name. (Eg: add-emoji-deploy, fix-website-header)
+					li Make your changes and send a #[a(href="https://help.github.com/articles/creating-a-pull-request/") pull request ].
 		include _includes/_footer.pug

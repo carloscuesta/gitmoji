@@ -4,7 +4,8 @@
   "description": "An emoji guide for your commit messages",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+	"jsonvalidate": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
+    "test": "npm run jsonvalidate && gulp test"
   },
   "repository": {
     "type": "git",
