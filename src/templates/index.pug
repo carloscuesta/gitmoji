@@ -21,7 +21,7 @@ html
 		link(href="css/style.css", rel="stylesheet", type="text/css")
 		//-style
 			include ../../dist/css/style.css
-	body
+	body.emoji-container
 		include _includes/_icons.pug
 		include _includes/_nav.pug
 		header.header
@@ -29,13 +29,12 @@ html
 		main.wrap
 			.row.around-xs
 				each gitmoji in emojis.gitmojis
-					article.col-xs-12.col-sm-6.col-md-4.emoji
-						.emoji-card.row.middle-xs
-							.emoji-icon.col-md-4.center-xs
-								span.gitmoji=gitmoji.emoji
-							.emoji-info.col-md-8
-								header.emoji-data
-									code=gitmoji.code
+					article.emoji.col-xs-12.col-sm-6.col-md-3
+						.emoji-card
+							header(class=gitmoji.name+' emoji-header')
+								span.emoji-icon.gitmoji=gitmoji.emoji
+							.emoji-info
+								code=gitmoji.code
 								p=gitmoji.description
 		include _includes/_footer.pug
 	script.

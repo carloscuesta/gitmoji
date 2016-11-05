@@ -3,97 +3,116 @@
         {
             "emoji": "⬆️",
             "code": ":arrow_up:",
-            "description": "Upgrading dependencies."
+            "description": "Upgrading dependencies.",
+			"name": "arrow-up"
         },
         {
             "emoji": "⬇️",
             "code": ":arrow_down:",
-            "description": "Downgrading dependencies."
+            "description": "Downgrading dependencies.",
+			"name": "arrow-down"
         },
         {
             "emoji": "🎨",
             "code": ":art:",
-            "description": "Improving structure / format of the code."
+            "description": "Improving structure / format of the code.",
+			"name": "art"
         },
         {
             "emoji": "🔥",
             "code": ":fire:",
-            "description": "Removing code or files."
+            "description": "Removing code or files.",
+			"name": "fire"
         },
         {
             "emoji": "💚",
             "code": ":green_heart:",
-            "description": "Fixing CI Build."
+            "description": "Fixing CI Build.",
+			"name": "green-heart"
         },
         {
             "emoji": "🔒",
             "code": ":lock:",
-            "description": "Fixing security issues."
+            "description": "Fixing security issues.",
+			"name": "lock"
         },
         {
             "emoji": "✨",
             "code": ":sparkles:",
-            "description": "Introducing new features."
+            "description": "Introducing new features.",
+			"name": "sparkles"
         },
         {
             "emoji": "🐛",
             "code": ":bug:",
-            "description": "Fixing a bug."
+            "description": "Fixing a bug.",
+			"name": "bug"
         },
         {
             "emoji": "🚧",
             "code": ":construction:",
-            "description": "Work in progress."
+            "description": "Work in progress.",
+			"name": "construction"
         },
         {
             "emoji": "📝",
             "code": ":memo:",
-            "description": "Writing docs."
+            "description": "Writing docs.",
+			"name": "memo"
         },
         {
             "emoji": "✅",
             "code": ":white_check_mark:",
-            "description": "Adding tests."
+            "description": "Adding tests.",
+			"name": "white-check-mark"
         },
         {
             "emoji": "🍎",
             "code": ":apple:",
-            "description": "Fixing something on macOS."
+            "description": "Fixing something on macOS.",
+			"name": "apple"
         },
         {
             "emoji": "🐧",
             "code": ":penguin:",
-            "description": "Fixing something on Linux."
+            "description": "Fixing something on Linux.",
+			"name": "penguin"
         },
         {
             "emoji": "🏁",
             "code": ":checkered_flag:",
-            "description": "Fixing something on Windows."
+            "description": "Fixing something on Windows.",
+			"name": "checkered-flag"
         },
         {
             "emoji": "🔖",
             "code": ":bookmark:",
-            "description": "Releasing / Version tags."
+            "description": "Releasing / Version tags.",
+			"name": "bookmark"
         },
         {
             "emoji": "🚨",
             "code": ":rotating_light:",
-            "description": "Removing linter warnings."
+            "description": "Removing linter warnings.",
+			"name": "rotating-light"
         },
         {
             "emoji": "🚀",
             "code": ":rocket:",
-            "description": "Deploying stuff."
+            "description": "Deploying stuff.",
+			"name": "rocket"
         },
         {
             "emoji": "⚡️",
             "code": ":zap:",
-            "description": "Improving performance."
+            "description": "Improving performance.",
+			"name": "zap"
         },
         {
             "emoji": "🔧",
             "code": ":wrench:",
-            "description": "Changing configuration files."
+            "description": "Changing configuration files.",
+			"name": "wrench"
         }
     ]
 }

@@ -28,10 +28,10 @@
                   "id":"http://jsonschema.net/gitmojis/0/emoji",
                   "required": true
                },
-               "image":{
+               "name":{
                   "type":"string",
-                  "id":"http://jsonschema.net/gitmojis/0/image",
-                  "required": false
+                  "id":"http://jsonschema.net/gitmojis/0/name",
+                  "required": true
                }
             }
          }

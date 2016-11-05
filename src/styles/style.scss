@@ -28,13 +28,9 @@ a {
 }
 
 code {
-	padding: 1px 3px;
-	font-size: .85em;
-	white-space: pre-wrap;
-	border: 1px solid #E3EDF3;
-	border-radius: 2px;
-	font-family: Consolas, Inconsolata, monospace, sans-serif;
-	background: #F7FAFB;
+	font-family: Avenir;
+	font-weight: 700;
+	font-size: 1.25em;
 }
 
 section {
@@ -44,6 +40,10 @@ section {
 .header {
 	background-color: $yellow;
 	padding: 5em 2em;
+}
+
+.emoji-container {
+	background-color: #f5f5f5;
 }
 
 .gitmoji-logo {
@@ -87,7 +87,7 @@ section {
 }
 
 .wrap {
-	max-width: 1200px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
 
@@ -99,7 +99,7 @@ main.wrap {
 	display: flex;
 
 	.gitmoji {
-		font-size: 3em;
+		font-size: 5em;
 	}
 
 	&-card {
@@ -107,8 +107,10 @@ main.wrap {
 		margin: 1em 0;
 		flex: 1;
 		transition: all .25s ease-out;
-		border-radius: 2px;
-		box-shadow: 0 5px 10px 0 rgba(168, 182, 191, .6);
+		border-radius: 4px;
+		box-shadow: 0 1px 2px 0 rgba(168, 182, 191, .6);
+		overflow: hidden;
+		text-align: center;
 
 		&:hover {
 			box-shadow: 0 10px 20px 0 rgba(168, 182, 191, .6)
@@ -116,16 +118,18 @@ main.wrap {
 	}
 
 	&-info {
-		padding: 2em .5em;
+		padding: 1.5em;
+	}
+
+	&-header {
+		align-self: flex-start;
+		padding-top: 2em;
+		padding-bottom: .85em;
 	}
 
 	&-data {
 		display: flex;
 		align-items: center;
-
-		.icon {
-			margin: 0 5px;
-		}
 	}
 }
 
@@ -163,15 +167,18 @@ main.wrap {
 }
 
 @media(max-width: 768px) {
-	body {
-		font-size: 18px;
-	}
 	footer nav, footer h3 {
 		justify-content: center!important;
 		text-align: center!important;
 	}
 }
 
+
+@each $gitmoji, $color in (fire: $fire, lock: $lock, green-heart: $greenHeart, apple: $apple, rotating-light: $rotatingLight, bug: $bug, penguin: $penguin, rocket: $rocket) {
+	.#{$gitmoji} {
+		background-color: $color;
+	}
+}
 
 #joy, #loved, #haha, #sunglasses, #sexy, #tongue {
 	opacity: 0;
