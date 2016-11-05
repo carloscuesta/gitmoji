@@ -40,6 +40,11 @@ section {
 .header {
 	background-color: $yellow;
 	padding: 5em 2em;
+
+	&-buttons {
+		padding: 1em 0;
+		text-align: center;
+	}
 }
 
 .emoji-container {
@@ -48,7 +53,7 @@ section {
 
 .gitmoji-logo {
 	width: 100%;
-	height: 90px;
+	height: 115px;
 }
 
 .btn {
@@ -119,6 +124,10 @@ main.wrap {
 
 	&-info {
 		padding: 1.5em;
+
+		p {
+			color: #999;
+		}
 	}
 
 	&-header {
@@ -174,7 +183,7 @@ main.wrap {
 }
 
 
-@each $gitmoji, $color in (fire: $fire, lock: $lock, green-heart: $greenHeart, apple: $apple, rotating-light: $rotatingLight, bug: $bug, penguin: $penguin, rocket: $rocket) {
+@each $gitmoji, $color in (art: $art, apple: $apple, bookmark: $bookmark, bug: $bug, checkered-flag: $checkeredFlag, construction: $construction, fire: $fire, green-heart: $greenHeart, lock: $lock, memo: $memo, penguin: $penguin, rocket: $rocket, rotating-light: $rotatingLight, sparkles: $sparkles, white-check-mark: $whiteCheckMark, wrench: $wrench, zap: $zap) {
 	.#{$gitmoji} {
 		background-color: $color;
 	}

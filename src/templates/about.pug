@@ -30,7 +30,7 @@ html
 			section
 				h1 About
 				p #[strong Gitmoji is an emoji guide for GitHub commit messages]. Aims to be a standarization cheatsheet - guide for using #[a(href="http://emoji.muan.co") emojis] on GitHub's commit messages.
-				p #[strong Using emojis] on #[strong commit messages] provides an #[strong easy way] of #[strong identifying the purpose or intention of a commit] with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to ...
+				p #[strong Using emojis] on #[strong commit messages] provides an #[strong easy way] of #[strong identifying the purpose or intention of a commit] with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to use emojis easier.
 				p This project is Open Source, that means everyone can participate, suggesting, discussing and adding new emojis. Take a look at the #[a(href="#contributing-gitmoji") contributing section] and #[a(href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md") the guidelines for contributing].
 				div
 					a.btn.btn-pink(href="https://github.com/carloscuesta/gitmoji/")
@@ -51,4 +51,11 @@ html
 					li Make your changes and send a #[a(href="https://help.github.com/articles/creating-a-pull-request/") pull request ].
 				div
 					a.btn.btn-pink(href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md") Contributing guidelines
+
 		include _includes/_footer.pug
+	script.
+		var statuses = ['joy', 'loved', 'haha', 'sunglasses', 'sexy', 'tongue'];
+		document.getElementById(statuses[Math.floor(Math.random() * statuses.length)]).style.opacity=1;
+		//(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		//ga('create', 'UA-67824860-7', 'auto');
+		//ga('send', 'pageview');
