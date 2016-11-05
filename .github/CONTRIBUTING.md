@@ -25,6 +25,7 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 {
 	"emoji": "",
 	"code": ":code:",
-	"description": "Enter the description for the gitmoji."
+	"description": "Enter the description for the gitmoji.",
+	"name": "code (same as code but without ':' replace underscores for dashes _ => - )"
 }
 ```
