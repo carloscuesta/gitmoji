@@ -30,11 +30,11 @@ html
 			.row.around-xs
 				each gitmoji in emojis.gitmojis
 					article.col-xs-12.col-sm-6.col-md-4.emoji
-						.emoji-card
-							.emoji-icon
-							.emoji-info
+						.emoji-card.row.middle-xs
+							.emoji-icon.col-md-4.center-xs
+								span.gitmoji=gitmoji.emoji
+							.emoji-info.col-md-8
 								header.emoji-data
-									span.icon=gitmoji.emoji
 									code=gitmoji.code
 								p=gitmoji.description
 		include _includes/_footer.pug

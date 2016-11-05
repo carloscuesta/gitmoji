@@ -98,39 +98,30 @@ main.wrap {
 .emoji {
 	display: flex;
 
+	.gitmoji {
+		font-size: 3em;
+	}
+
 	&-card {
 		background-color: $white;
 		margin: 1em 0;
 		flex: 1;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
 		transition: all .25s ease-out;
 		border-radius: 2px;
+		box-shadow: 0 5px 10px 0 rgba(168, 182, 191, .6);
 
 		&:hover {
 			box-shadow: 0 10px 20px 0 rgba(168, 182, 191, .6)
 		}
 	}
 
-	&-icon {
-		img {
-			width: 100%;
-			height: 100px;
-			padding: 1em;
-		}
-	}
-
 	&-info {
-		padding: 2em 4em;
-
-		p {
-			text-align: center;
-		}
+		padding: 2em .5em;
 	}
 
 	&-data {
 		display: flex;
 		align-items: center;
-		justify-content: center;
 
 		.icon {
 			margin: 0 5px;
@@ -149,7 +140,7 @@ main.wrap {
 
 .footer {
 	padding: 1.5em;
-	background-color: #00E5FF;
+	background-color: #00e5ff;
 	color: $white;
 
 	nav {
