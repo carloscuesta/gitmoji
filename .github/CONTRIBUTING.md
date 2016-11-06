@@ -24,7 +24,6 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 ```json
 {
 	"emoji": "",
-	"entity": "emoji hexadecimal html entity",
 	"code": ":code:",
 	"description": "Enter the description for the gitmoji.",
 	"name": "code (same as code but without ':' replace underscores for dashes _ => - )"
