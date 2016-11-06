@@ -183,8 +183,13 @@ main.wrap {
 	}
 }
 
+@media(min-width: 2048px) {
+	html, body {
+		font-size: 19px;
+	}
+}
 
-@each $gitmoji, $color in (art: $art, apple: $apple, bookmark: $bookmark, bug: $bug, checkered-flag: $checkeredFlag, construction: $construction, fire: $fire, green-heart: $greenHeart, lock: $lock, memo: $memo, penguin: $penguin, rocket: $rocket, rotating-light: $rotatingLight, sparkles: $sparkles, white-check-mark: $whiteCheckMark, wrench: $wrench, zap: $zap) {
+@each $gitmoji, $color in (art: $art, apple: $apple, bookmark: $bookmark, bug: $bug, checkered-flag: $checkeredFlag, construction: $construction, fire: $fire, green-heart: $greenHeart, lock: $lock, memo: $memo, penguin: $penguin, rocket: $rocket, rotating-light: $rotatingLight, sparkles: $sparkles, white-check-mark: $whiteCheckMark, wrench: $wrench, zap: $zap, construction-worker: $constructionWorker, arrow-up: $arrowUp, arrow-down: $arrowDown) {
 	.#{$gitmoji} {
 		background-color: $color;
 	}
