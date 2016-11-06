@@ -28,6 +28,11 @@
                   "id":"http://jsonschema.net/gitmojis/0/emoji",
                   "required": true
                },
+			   "entity":{
+                  "type":"string",
+                  "id":"http://jsonschema.net/gitmojis/0/entity",
+                  "required": true
+               },
                "name":{
                   "type":"string",
                   "id":"http://jsonschema.net/gitmojis/0/name",
