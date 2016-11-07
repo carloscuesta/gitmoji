@@ -2,42 +2,10 @@ doctype html
 html
 	head
 		title gitmoji | About | An emoji guide for your commit messages
-		meta(name="author", content="Carlos Cuesta")
-		meta(name="description", content="")
-		meta(charset="utf-8")
 		link(rel="canonical", href="https://gitmoji.carloscuesta.me/about")
-		meta(name="viewport", content="width=device-width, initial-scale=1.0")
-		meta(name="twitter:card", content="summary")
-		meta(name="twitter:title", content="gitmoji")
-		meta(name="twitter:description", content="An emoji guide for your commit messages.")
-		meta(name="twitter:image:src", content="https://gitmoji.carloscuesta.me/images/gitmoji.gif")
-		meta(name="twitter:creator", content="@crloscuesta")
-		meta(name="twitter:url", content="https://gitmoji.carloscuesta.me/about")
-		meta(property="og:title", content="gitmoji")
-		meta(name="og:description", content="An emoji guide for your commit messages.")
-		meta(property="og:image",  content="https://gitmoji.carloscuesta.me/images/gitmoji.gif")
-		meta(name="og:url", content="https://gitmoji.carloscuesta.me/about")
-		meta(name="robots", content="index, follow")
-		//-link(href="css/style.css", rel="stylesheet", type="text/css")
 		style
 			include ../../dist/css/style.css
-		link(rel='apple-touch-icon', sizes='57x57', href='/images/apple-icon-57x57.png')
-		link(rel='apple-touch-icon', sizes='60x60', href='/images/apple-icon-60x60.png')
-		link(rel='apple-touch-icon', sizes='72x72', href='/images/apple-icon-72x72.png')
-		link(rel='apple-touch-icon', sizes='76x76', href='/images/apple-icon-76x76.png')
-		link(rel='apple-touch-icon', sizes='114x114', href='/images/apple-icon-114x114.png')
-		link(rel='apple-touch-icon', sizes='120x120', href='/images/apple-icon-120x120.png')
-		link(rel='apple-touch-icon', sizes='144x144', href='/images/apple-icon-144x144.png')
-		link(rel='apple-touch-icon', sizes='152x152', href='/images/apple-icon-152x152.png')
-		link(rel='apple-touch-icon', sizes='180x180', href='/images/apple-icon-180x180.png')
-		link(rel='icon', type='image/png', sizes='192x192', href='/images/android-icon-192x192.png')
-		link(rel='icon', type='image/png', sizes='32x32', href='/images/favicon-32x32.png')
-		link(rel='icon', type='image/png', sizes='96x96', href='/images/favicon-96x96.png')
-		link(rel='icon', type='image/png', sizes='16x16', href='/images/favicon-16x16.png')
-		link(rel='manifest', href='/assets/manifest.json')
-		meta(name='msapplication-TileColor', content='#FFDD67')
-		meta(name='msapplication-TileImage', content='/images/ms-icon-144x144.png')
-		meta(name='theme-color', content='#FFDD67')
+		include _includes/_meta.pug
 	body
 		include _includes/_icons.pug
 		include _includes/_nav.pug
