@@ -54,6 +54,10 @@ section {
 	}
 }
 
+.single-emoji-logo {
+	opacity: 0;
+}
+
 .emoji-container {
 	background-color: #f5f5f5;
 }
@@ -147,6 +151,10 @@ main.wrap {
 		display: flex;
 		align-items: center;
 	}
+	
+	&-visible {
+		opacity: 1;
+	}
 }
 
 .icon {
@@ -207,10 +215,6 @@ main.wrap {
 	.#{$gitmoji} {
 		background-color: $color;
 	}
-}
-
-#joy, #loved, #haha, #sunglasses, #sexy, #tongue {
-	opacity: 0;
 }
 
 @keyframes zomg {
