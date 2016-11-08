@@ -120,6 +120,7 @@ main.wrap {
 
 .emoji {
 	display: flex;
+	box-sizing: border-box;
 
 	.gitmoji {
 		font-size: 5em;
@@ -209,6 +210,15 @@ main.wrap {
 
 	.emoji-header {
 		padding-bottom: 1em;
+	}
+
+	.header h2 {
+		display: none;
+	}
+
+	.made-with-love, .footer-nav {
+		flex-basis: 100%;
+		max-width: 100%
 	}
 }
 
