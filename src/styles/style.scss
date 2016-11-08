@@ -10,9 +10,9 @@ html, body {
 	margin: 0;
 	padding: 0;
 	font-size: 16.5px;
-	font-family: Avenir, -apple-system, BlinkMacSystemFont, 
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
-    "Fira Sans", "Droid Sans", "Helvetica Neue", 
+	font-family: Avenir, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
 
@@ -31,9 +31,9 @@ a {
 }
 
 code {
-	font-family: Avenir, -apple-system, BlinkMacSystemFont, 
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
-    "Fira Sans", "Droid Sans", "Helvetica Neue", 
+	font-family: Avenir, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 	font-weight: 700;
 	font-size: 1.25em;
@@ -46,7 +46,14 @@ section {
 
 .header {
 	background-color: $yellow;
-	padding: 5em 2em;
+	padding: 4.5em 2em;
+	text-align: center;
+
+	h2 {
+		padding: .5em 0;
+		margin: 0;
+		font-size: 2em;
+	}
 
 	&-buttons {
 		padding: 1em 0;
@@ -151,7 +158,7 @@ main.wrap {
 		display: flex;
 		align-items: center;
 	}
-	
+
 	&-visible {
 		opacity: 1;
 	}
