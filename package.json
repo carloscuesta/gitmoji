@@ -23,6 +23,9 @@
     "disallowIdAttributeWithStaticValue": true,
     "requireLowerCaseAttributes": true
   },
+  "babel": {
+	"presets": ["es2015"]
+  },
   "homepage": "https://github.com/carloscuesta/gitmoji#readme",
   "dependencies": {
     "babel-core": "^6.18.0",
