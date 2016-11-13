@@ -53,6 +53,13 @@ gulp.task('styles', () => {
 });
 
 gulp.task('test', () => {
+	return gulp.src(routes.styles.scss)
+		.pipe(plumber({}))
+		.pipe(sass({
+			outputStyle: 'compressed'
+		}))
+		.pipe(gulp.dest(routes.files.css))
+
 	return gulp.src([routes.templates.pug, '!' + routes.templates._pug])
 		.pipe(pugLint())
 		.pipe(plumber({}))
@@ -62,13 +69,6 @@ gulp.task('test', () => {
 			}
 		}))
 		.pipe(gulp.dest(routes.files.html))
-
-	return gulp.src(routes.styles.scss)
-		.pipe(plumber({}))
-		.pipe(sass({
-			outputStyle: 'compressed'
-		}))
-		.pipe(gulp.dest(routes.files.css))
 });
 
 gulp.task('serve', () => {
