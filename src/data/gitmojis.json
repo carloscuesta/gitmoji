@@ -29,6 +29,13 @@
             "name":"bug"
         },
         {
+            "emoji": "🚑",
+            "entity": "&#128657;",
+            "code": ":ambulance:",
+            "description": "Critical hotfix.",
+            "name": "ambulance"
+        },
+        {
             "emoji":"✨",
             "entity":"&#x2728;",
             "code":":sparkles:",
