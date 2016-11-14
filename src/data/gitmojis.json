@@ -146,6 +146,13 @@
 			"code": ":hammer_and_wrench:",
 			"description": "Heavy refactoring.",
 			"name": "hammer-and-wrench"
+		},
+		{
+			"emoji": "🎉",
+			"entity": "&#127881;",
+			"code": ":tada:",
+			"description": "Initial commit",
+			"name": "tada"
 		}
     ]
 }
