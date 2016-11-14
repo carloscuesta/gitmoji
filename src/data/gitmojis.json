@@ -140,12 +140,19 @@
             "description": "Changing configuration files.",
 			"name": "wrench"
         },
+    {
+      "emoji": "🛠",
+      "entity": "&#128736;",
+      "code": ":hammer_and_wrench:",
+      "description": "Heavy refactoring.",
+      "name": "hammer-and-wrench"
+    },
 		{
-			"emoji": "🛠",
-			"entity": "&#128736;",
-			"code": ":hammer_and_wrench:",
-			"description": "Heavy refactoring.",
-			"name": "hammer-and-wrench"
+			"emoji": "💅",
+			"entity": "&#ff99cc;",
+			"code": ":nail_care:",
+			"description": "Changing only style (CSS) files.",
+			"name": "nail-care"
 		}
     ]
 }
