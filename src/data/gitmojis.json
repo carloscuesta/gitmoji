@@ -139,6 +139,13 @@
             "code": ":wrench:",
             "description": "Changing configuration files.",
 			"name": "wrench"
+        },
+		{
+            "emoji": "📏",
+			"entity": "&#x1F4CF;",
+            "code": ":ruler:",
+            "description": "UI design review",
+			"name": "ruler"
         }
     ]
 }
