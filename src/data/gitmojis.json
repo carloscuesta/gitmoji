@@ -139,6 +139,13 @@
             "code": ":wrench:",
             "description": "Changing configuration files.",
 			"name": "wrench"
-        }
+        },
+		{
+			"emoji": "🛠",
+			"entity": "&#128736;",
+			"code": ":hammer_and_wrench:",
+			"description": "Heavy refactoring.",
+			"name": "hammer-and-wrench"
+		}
     ]
 }
