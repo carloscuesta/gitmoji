@@ -153,6 +153,20 @@
 			"code": ":tada:",
 			"description": "Initial commit",
 			"name": "tada"
-		}
+		},
+        {
+            "emoji": "➕",
+            "entity": "&#10133;",
+            "code": ":heavy_plus_sign:",
+            "description": "Added dependency",
+            "name": "heavy-plus-sign"
+        },
+        {
+            "emoji": "➖",
+            "entity": "&#10134;",
+            "code": ":heavy_minus_sign:",
+            "description": "Removed dependency",
+            "name": "heavy-minus-sign"
+        }
     ]
 }
