@@ -29,3 +29,39 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 	"name": "code (same as code but without ':' replace underscores for dashes _ => - )"
 }
 ```
+
+## How to start gitmoji and update
+
+If you want to make changes to the site, follow the next steps:
+
+1. Clone gitmoji
+
+```bash
+$ git clone https://github.com/carloscuesta/gitmoji.git
+$ cd gitmoji
+```
+
+2. Install the dependencies and start the development task.
+
+```bash
+$ npm i && gulp
+```
+
+3. Make sure the styles are using a link instead of being inlined.
+
+_If you are updating the SCSS files and the styles doesn't get updated, go to the `index.pug` and `about.pug` paste the following code_
+
+```jade
+link(href="css/style.css", type="text/css", rel="stylesheet")
+```
+
+_Remove this one_
+
+```jade
+style
+	include ../../dist/css/style.css
+```
+
+**After making your changes, inline the styles as before.**
+
+The project is built with [Pug](http://pugjs.org) and [SCSS](http://sass-lang.com)

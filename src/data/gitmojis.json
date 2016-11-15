@@ -140,19 +140,26 @@
             "description": "Changing configuration files.",
 			"name": "wrench"
         },
-    {
-      "emoji": "🛠",
-      "entity": "&#128736;",
-      "code": ":hammer_and_wrench:",
-      "description": "Heavy refactoring.",
-      "name": "hammer-and-wrench"
-    },
 		{
-			"emoji": "💅",
+			"emoji": "🛠",
+			"entity": "&#128736;",
+			"code": ":hammer_and_wrench:",
+			"description": "Heavy refactoring.",
+			"name": "hammer-and-wrench"
+		},
+		{
+			"emoji": "🎉",
+			"entity": "&#127881;",
+			"code": ":tada:",
+			"description": "Initial commit",
+			"name": "tada"
+		},
+		{
+			"emoji": "💄",
 			"entity": "&#ff99cc;",
-			"code": ":nail_care:",
-			"description": "Changing only style (CSS) files.",
-			"name": "nail-care"
+			"code": ":lipstick:",
+			"description": "Updating the UI and style files.",
+			"name": "lipstick"
 		}
     ]
 }

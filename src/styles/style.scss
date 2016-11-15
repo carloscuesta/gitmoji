@@ -124,6 +124,7 @@ main.wrap {
 
 	.gitmoji {
 		font-size: 5em;
+		font-family: "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
 	}
 
 	&-card {
@@ -228,7 +229,7 @@ main.wrap {
 	}
 }
 
-@each $gitmoji, $color in (art: $art, apple: $apple, bookmark: $bookmark, bug: $bug, checkered-flag: $checkeredFlag, construction: $construction, fire: $fire, green-heart: $greenHeart, lock: $lock, memo: $memo, penguin: $penguin, rocket: $rocket, rotating-light: $rotatingLight, sparkles: $sparkles, white-check-mark: $whiteCheckMark, wrench: $wrench, zap: $zap, construction-worker: $constructionWorker, arrow-up: $arrowUp, arrow-down: $arrowDown) {
+@each $gitmoji, $color in (art: $art, apple: $apple, bookmark: $bookmark, bug: $bug, checkered-flag: $checkeredFlag, construction: $construction, fire: $fire, green-heart: $greenHeart, lock: $lock, memo: $memo, penguin: $penguin, rocket: $rocket, rotating-light: $rotatingLight, sparkles: $sparkles, white-check-mark: $whiteCheckMark, wrench: $wrench, zap: $zap, construction-worker: $constructionWorker, arrow-up: $arrowUp, arrow-down: $arrowDown, hammer-and-wrench: $hammerAndWrench, tada: $tada) {
 	.#{$gitmoji} {
 		background-color: $color;
 	}
