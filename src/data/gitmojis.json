@@ -141,11 +141,11 @@
 			"name": "wrench"
         },
 		{
-			"emoji": "🛠",
+			"emoji": "🔨",
 			"entity": "&#128736;",
-			"code": ":hammer_and_wrench:",
+			"code": ":hammer:",
 			"description": "Heavy refactoring.",
-			"name": "hammer-and-wrench"
+			"name": "hammer"
 		},
 		{
 			"emoji": "🎉",
