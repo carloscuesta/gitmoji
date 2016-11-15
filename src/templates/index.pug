@@ -27,10 +27,11 @@ html
 					article.emoji.col-xs-12.col-sm-6.col-md-3
 						.emoji-card
 							header(class=gitmoji.name+' emoji-header')
-								span.emoji-icon.gitmoji=gitmoji.emoji
+								span(data-clipboard-text=gitmoji.code).emoji-icon.gitmoji=gitmoji.emoji
 							.emoji-info
 								code=gitmoji.code
 								p=gitmoji.description
 		include _includes/_footer.pug
-	script
+	script(src='//cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js')
+	script.
 		include ../scripts/main.js
