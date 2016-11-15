@@ -153,6 +153,13 @@
 			"code": ":tada:",
 			"description": "Initial commit",
 			"name": "tada"
+		},
+		{
+			"emoji": "💄",
+			"entity": "&#ff99cc;",
+			"code": ":lipstick:",
+			"description": "Updating the UI and style files.",
+			"name": "lipstick"
 		}
     ]
 }
