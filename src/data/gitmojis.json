@@ -148,6 +148,13 @@
 			"name": "hammer-and-wrench"
 		},
 		{
+			"emoji": "🌐",
+			"entity": "&#127760;",
+			"code": ":globe_with_meridians:",
+			"description": "Internationalization and localization.",
+			"name": "globe-with-meridians"
+		},
+		{
 			"emoji": "🎉",
 			"entity": "&#127881;",
 			"code": ":tada:",
