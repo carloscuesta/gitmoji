@@ -154,6 +154,20 @@
 			"description": "Initial commit",
 			"name": "tada"
 		},
+        {
+            "emoji": "➕",
+            "entity": "&#10133;",
+            "code": ":heavy_plus_sign:",
+            "description": "Adding a dependency",
+            "name": "heavy-plus-sign"
+        },
+        {
+            "emoji": "➖",
+            "entity": "&#10134;",
+            "code": ":heavy_minus_sign:",
+            "description": "Removing a dependency",
+            "name": "heavy-minus-sign"
+        },
 		{
 			"emoji": "💄",
 			"entity": "&#ff99cc;",
