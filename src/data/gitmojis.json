@@ -84,6 +84,13 @@
 			"description": "Fixing something on Linux.",
 			"name": "penguin"
 		},
+	    {
+			"emoji": "🤖",
+			"entity": "&#x1f916;",
+			"code": ":robot_face:",
+			"description": "Fixing something on Android.",
+			"name": "robot-face"
+		},
 		{
 			"emoji": "🚨",
 			"entity": "&#x1f6a8;",
