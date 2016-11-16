@@ -22,7 +22,7 @@ html
 						use(xlink:href='#icon-twitter')
 					| Tweet
 		main.wrap
-			.row.center-xs
+			.row.center-xs#gitmoji-list
 				each gitmoji in emojis.gitmojis
 					article.emoji.col-xs-12.col-sm-6.col-md-3
 						.emoji-card
@@ -35,3 +35,5 @@ html
 	script(src='//cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js')
 	script
 		include ../scripts/main.js
+		include ../scripts/notificationFx.js
+		include ../scripts/notification.js
