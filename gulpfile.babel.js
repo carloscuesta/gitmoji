@@ -30,7 +30,7 @@ const routes = {
 	}
 };
 
-gulp.task('templates', () => {
+gulp.task('templates', ['styles'], () => {
 	return gulp.src([routes.templates.pug, '!' + routes.templates._pug])
 		.pipe(plumber({}))
 		.pipe(pug({
@@ -71,7 +71,7 @@ gulp.task('test', () => {
 		.pipe(gulp.dest(routes.files.html))
 });
 
-gulp.task('serve', () => {
+gulp.task('serve', ['styles', 'templates'], () => {
 	browserSync.init({
 		server: `${baseDirs.dist}`
 	});
@@ -87,7 +87,7 @@ gulp.task('deploy', () => {
 		}))
 });
 
-gulp.task('dev', ['templates', 'styles', 'serve']);
+gulp.task('dev', ['serve']);
 
 gulp.task('default', () => {
 	gulp.start('dev');
