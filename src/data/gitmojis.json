@@ -187,7 +187,14 @@
             "entity":"&#x1f433;",
             "code":":whale:",
             "description":"Work about Docker",
-            "name":"whale"
+			"name":"whale"
+        },
+        {
+            "emoji":"💩",
+            "entity":"&#x1f4a9;",
+            "code":":shit:",
+            "description":"Writing shitcode",
+            "name":"shit"
         }
     ]
 }
