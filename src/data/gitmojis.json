@@ -195,5 +195,11 @@
             "description":"Adding analytics or tracking code",
             "name":"chart-with-upwards-trend"
         }
+		{
+			"emoji":"✏️",
+			"entity":"&#59161;",
+			"code":":pencil2:",
+			"description":"Fixing typos",
+			"name":"pencil"
     ]
 }
