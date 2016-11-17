@@ -188,6 +188,12 @@
             "code":":whale:",
             "description":"Work about Docker",
             "name":"whale"
+        },
+        {
+            "emoji":"📈",
+            "code":":chart_with_upwards_trend:",
+            "description":"Adding analytics or tracking code",
+            "name":"chart-with-upwards-trend"
         }
     ]
 }
