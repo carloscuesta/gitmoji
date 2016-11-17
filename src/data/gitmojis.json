@@ -188,6 +188,13 @@
             "code":":whale:",
             "description":"Work about Docker",
             "name":"whale"
+        },
+        {
+            "emoji":"📱",
+            "entity":"&#x1F4F1;",
+            "code":":iphone:",
+            "description":"Fix for Mobile Version",
+            "name":"iphone"
         }
     ]
 }
