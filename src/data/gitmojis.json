@@ -188,6 +188,12 @@
             "code":":whale:",
             "description":"Work about Docker",
             "name":"whale"
+        },
+        {
+            "emoji": "🔍",
+            "code": ":mag:",
+            "description": "Optimise the responsiveness",
+            "name": "mag"
         }
     ]
 }
