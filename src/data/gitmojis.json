@@ -202,5 +202,12 @@
 			"description": "Internationalization and localization.",
 			"name": "globe-with-meridians"
 		}
+		{
+			"emoji":"✏️",
+			"entity":"&#59161;",
+			"code":":pencil2:",
+			"description":"Fixing typos",
+			"name":"pencil"
+		}
     ]
 }
