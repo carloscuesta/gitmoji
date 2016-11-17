@@ -194,6 +194,13 @@
             "code":":chart_with_upwards_trend:",
             "description":"Adding analytics or tracking code",
             "name":"chart-with-upwards-trend"
-        }
+        },
+		{
+			"emoji": "🌐",
+			"entity": "&#127760;",
+			"code": ":globe_with_meridians:",
+			"description": "Internationalization and localization.",
+			"name": "globe-with-meridians"
+		}
     ]
 }
