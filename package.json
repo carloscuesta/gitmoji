@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
 	"jsonvalidate": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
+	"contributors": "curl https://api.github.com/repos/carloscuesta/gitmoji/contributors -o ./src/data/contributors.json",
+	"start": "npm run contributors && gulp",
     "test": "npm run jsonvalidate && gulp test"
   },
   "repository": {
