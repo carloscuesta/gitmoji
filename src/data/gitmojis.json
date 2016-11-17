@@ -189,5 +189,11 @@
             "description":"Work about Docker",
             "name":"whale"
         }
+		{
+			"emoji":"✏️",
+			"entity":"&#59161;",
+			"code":":pencil2:",
+			"description":"Fixing typos",
+			"name":"pencil"
     ]
 }
