@@ -188,6 +188,13 @@
             "code":":whale:",
             "description":"Work about Docker",
             "name":"whale"
+        },
+        {
+            "emoji":"💯",
+            "entity":"&#x1f4af;",
+            "code":":100:",
+            "description":"For first releases",
+            "name":"100"
         }
     ]
 }
