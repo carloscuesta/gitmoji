@@ -190,6 +190,13 @@
             "name":"whale"
         },
         {
+            "emoji":"📱",
+            "entity":"&#x1F4F1;",
+            "code":":iphone:",
+            "description":"Fix for Mobile Version",
+            "name":"iphone"
+	    },
+        {
             "emoji":"📈",
             "code":":chart_with_upwards_trend:",
             "description":"Adding analytics or tracking code",
