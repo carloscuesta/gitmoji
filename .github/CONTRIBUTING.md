@@ -2,7 +2,7 @@
 
 Hello!
 
-Thanks for for contributing on [gitmoji](https://github.com/carloscuesta/gitmoji). Before implementing new features and changes, feel free to [submit an issue](https://github.com/carloscuesta/gitmoji/issues/new). We're going to talk here :stuck_out_tongue_winking_eye:.
+Thanks for contributing on [gitmoji](https://github.com/carloscuesta/gitmoji). Before implementing new features and changes, feel free to [submit an issue](https://github.com/carloscuesta/gitmoji/issues/new). We're going to talk here :stuck_out_tongue_winking_eye:.
 
 If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLATE` when creating an issue and take a look at the contributing section.
 
@@ -17,16 +17,16 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 
 ## How to add a gitmoji
 
-1. Open the **gitmoji.json** file located at `src/data/gitmojis.json`.
+1. Open the **gitmojis.json** file located at `src/data/gitmojis.json`.
 2. Add your emoji using the following code inside of the `gitmojis array []`:
 3. Save the file and create a pull request.
 
 ```json
 {
-	"emoji": "",
-	"code": ":code:",
-	"description": "Enter the description for the gitmoji.",
-	"name": "code (same as code but without ':' replace underscores for dashes _ => - )"
+  "emoji": "",
+  "code": ":code:",
+  "description": "Enter the description for the gitmoji.",
+  "name": "code (same as code but without ':' replace underscores for dashes _ => - )"
 }
 ```
 
@@ -59,7 +59,7 @@ _Remove this one_
 
 ```jade
 style
-	include ../../dist/css/style.css
+  include ../../dist/css/style.css
 ```
 
 **After making your changes, inline the styles as before.**
