@@ -1,0 +1,32 @@
+doctype html
+html
+	head
+		title gitmoji | Contributors | An emoji guide for your commit messages
+		link(rel="canonical", href="https://gitmoji.carloscuesta.me/contributors")
+		link(rel="stylesheet", href="css/style.css")
+		//-style
+			include ../../dist/css/style.css
+		include _includes/_meta.pug
+	body
+		include _includes/_icons.pug
+		include _includes/_nav.pug
+		header.header
+			include ../images/gitmoji.svg
+			h2 Contributors
+		main.wrap
+			.row.center-xs
+				each contributor in contributors
+					article.contributor.col-xs-12.col-sm-6.col-md-3
+						.emoji-card
+							a(href=contributor.html_url)
+								header
+									img.contributor-picture(src=contributor.avatar_url)
+								.contributor-info
+									h3.name=contributor.login
+		include _includes/_footer.pug
+		script.
+			var statuses = ['joy', 'loved', 'haha', 'sunglasses', 'sexy', 'tongue'];
+			document.getElementById(statuses[Math.floor(Math.random() * statuses.length)]).classList.add('emoji-visible');
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-67824860-7', 'auto');
+			ga('send', 'pageview');

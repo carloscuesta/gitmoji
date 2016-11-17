@@ -7,6 +7,7 @@ import pugLint from 'gulp-pug-lint';
 import browserSync from 'browser-sync';
 import plumber from 'gulp-plumber';
 import gitmojis from './src/data/gitmojis.json';
+import contributors from './src/data/contributors.json';
 import ghPages from 'gulp-gh-pages';
 
 const baseDirs = {
@@ -35,7 +36,8 @@ gulp.task('templates', ['styles'], () => {
 		.pipe(plumber({}))
 		.pipe(pug({
 			locals: {
-				'emojis': gitmojis
+				'emojis': gitmojis,
+				'contributors': contributors
 			}
 		}))
 		.pipe(gulp.dest(routes.files.html))
@@ -65,7 +67,8 @@ gulp.task('test', () => {
 		.pipe(plumber({}))
 		.pipe(pug({
 			locals: {
-				'emojis': gitmojis
+				'emojis': gitmojis,
+				'contributors': contributors
 			}
 		}))
 		.pipe(gulp.dest(routes.files.html))
