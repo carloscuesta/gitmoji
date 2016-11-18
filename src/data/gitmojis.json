@@ -208,6 +208,13 @@
 			"code":":pencil2:",
 			"description":"Fixing typos",
 			"name":"pencil"
+		},
+		{
+			"emoji":"💩",
+			"entity":"&#58613;",
+			"code":":hankey:",
+			"description":"Writing bad code that needs to be improved",
+			"name":"hankey"
 		}
     ]
 }
