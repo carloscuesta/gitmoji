@@ -36,7 +36,8 @@
     "gulp-plumber": "^1.1.0",
     "gulp-pug": "^3.1.0",
     "gulp-pug-lint": "^0.1.6",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "pdfkit": "^0.8.0"
   },
   "devDependencies": {
     "browser-sync": "^2.17.5",
