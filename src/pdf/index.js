@@ -33,10 +33,12 @@ loadEmoji(function (emojis) {
     console.log("Done fetching images");
     emojiList = emojis;
 
-    generatePDF();
+    // Wait for images to write to disk
+    setTimeout(generatePDF, 1000);
 });
 
 function generatePDF() {
+    console.log("Generating PDF");
     var doc = new PDFDocument;
     doc.pipe(fs.createWriteStream('../../dist/pdf/cheatsheet.pdf'));
 
@@ -55,7 +57,9 @@ function generatePDF() {
         doc.image('../../dist/pdf/emojis/'+emoji.name+'.png', x, y, {width: layout.emojiSize});
         doc.fontSize(14).text(emoji.code, x+layout.textLeftMargin, y);
         doc.fontSize(11).text(emoji.description, x+layout.textLeftMargin, y+layout.textDescTopMargin);
+
     }
 
     doc.end();
+    console.log("Done generating PDF")
 }
