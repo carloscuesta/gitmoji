@@ -215,6 +215,13 @@
 			"code":":hankey:",
 			"description":"Writing bad code that needs to be improved",
 			"name":"hankey"
+		},
+		{
+			"emoji":"⏪",
+			"entity":"&#9194;",
+			"code":":rewind:",
+			"description":"Reverting changes",
+			"name":"rewind"
 		}
     ]
 }
