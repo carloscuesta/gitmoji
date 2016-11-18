@@ -216,5 +216,14 @@
 			"description":"Writing bad code that needs to be improved",
 			"name":"hankey"
 		}
+
+    ,
+      {
+        "emoji":"💩",
+        "entity":"&#58613;",
+        "code":":abcd:",
+        "description":"Writing bad code that needs to be improved",
+        "name":"abcd"
+      }
     ]
 }

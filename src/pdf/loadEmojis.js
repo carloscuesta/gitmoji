@@ -38,6 +38,7 @@ var loadEmojis = function(callback){
                 if(err){
                     // Download emoji
                     downloadEmoji(emoji, callback);
+                    console.log("Emoji downloading: "+emoji.name);
                 } else {
                     console.log("Emoji found: "+emoji.name);
                     callback(null);
