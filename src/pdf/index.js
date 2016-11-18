@@ -2,7 +2,7 @@
 
 const PDFDocument = require('pdfkit');
 const fs = require('fs');
-const loadEmoji = require('./loadEmoji');
+const loadEmoji = require('./loadEmojis');
 
 // Check if directories exists, otherwise create them.
 if(!fs.existsSync('../../dist/')) {
@@ -14,13 +14,13 @@ if(!fs.existsSync('../../dist/')) {
     fs.mkdirSync('../../dist/pdf/emojis');
 }
 
-loadEmoji(":art:", function (err, emoji) {
-    console.log(emoji.path);
+loadEmoji(function (emojiList) {
+    console.log("Done");
 });
 
 var doc = new PDFDocument;
 doc.pipe(fs.createWriteStream('../../dist/pdf/cheatsheet.pdf'));
 
-doc.fontSize(24).text('Gitmoji Cheatsheet');
+doc.fontSize(24).text('Gitmoji Cheatsheet 🎨');
 
 doc.end();
