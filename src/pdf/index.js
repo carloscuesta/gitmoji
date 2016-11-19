@@ -2,7 +2,10 @@
 
 const PDFDocument = require('pdfkit');
 const fs = require('fs');
+const path = require('path');
 const loadEmoji = require('./loadEmojis');
+
+const __root = path.join(__dirname, '/../../');
 
 const layout = {
     leftMargin: 60,
@@ -18,13 +21,13 @@ const layout = {
 };
 
 // Check if directories exists, otherwise create them.
-if(!fs.existsSync('../../dist/')) {
-    fs.mkdirSync('../../dist');
-    fs.mkdirSync('../../dist/pdf');
-    fs.mkdirSync('../../dist/pdf/emojis');
-} else if(!fs.existsSync('../../dist/pdf')){
-    fs.mkdirSync('../../dist/pdf');
-    fs.mkdirSync('../../dist/pdf/emojis');
+if(!fs.existsSync(__root+'dist/')) {
+    fs.mkdirSync(__root+'dist');
+    fs.mkdirSync(__root+'dist/pdf');
+    fs.mkdirSync(__root+'dist/pdf/emojis');
+} else if(!fs.existsSync(__root+'dist/pdf')){
+    fs.mkdirSync(__root+'dist/pdf');
+    fs.mkdirSync(__root+'dist/pdf/emojis');
 }
 
 var emojiList = null;
@@ -40,7 +43,7 @@ loadEmoji(function (emojis) {
 function generatePDF() {
     console.log("Generating PDF");
     var doc = new PDFDocument;
-    doc.pipe(fs.createWriteStream('../../dist/pdf/cheatsheet.pdf'));
+    doc.pipe(fs.createWriteStream(__root+'dist/pdf/cheatsheet.pdf'));
 
     doc.fontSize(32).text('Gitmoji Cheatsheet', 40, 40);
 
@@ -54,12 +57,13 @@ function generatePDF() {
             doc.addPage();
         }
 
-        doc.image('../../dist/pdf/emojis/'+emoji.name+'.png', x, y, {width: layout.emojiSize});
+        doc.image(__root+'dist/pdf/emojis/'+emoji.name+'.png', x, y, {width: layout.emojiSize});
         doc.fontSize(14).text(emoji.code, x+layout.textLeftMargin, y);
         doc.fontSize(11).text(emoji.description, x+layout.textLeftMargin, y+layout.textDescTopMargin);
 
     }
 
     doc.end();
-    console.log("Done generating PDF")
+    console.log('PDF generated successfully');
+    console.log('Location: '+path.resolve(__root, 'dist/pdf/cheatsheet.pdf'));
 }

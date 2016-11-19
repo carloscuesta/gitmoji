@@ -5,13 +5,15 @@ const path = require('path');
 const request = require('request');
 const async = require('async');
 
+const __root = path.join(__dirname, '/../../');
+
 var emojiList = null;
 var emojiUrls = null;
 
 var loadEmojis = function(callback){
 
     if(emojiList==null)
-        emojiList = JSON.parse(fs.readFileSync('../data/gitmojis.json')).gitmojis;
+        emojiList = JSON.parse(fs.readFileSync(__root+'src/data/gitmojis.json')).gitmojis;
 
     // Get emoji urls, from github
     var options = {
@@ -33,7 +35,7 @@ var loadEmojis = function(callback){
     // Make sure all emojis from gitmojis.json, are downloaded from github
     function checkEmojis() {
         async.each(emojiList, function (emoji, callback) {
-            fs.access('../../dist/pdf/emojis/'+emoji.name+'.png', function (err) {
+            fs.access(__root+'dist/pdf/emojis/'+emoji.name+'.png', function (err) {
                 // Returns an error, if file wasn't found
                 if(err){
                     // Download emoji
@@ -74,9 +76,9 @@ var loadEmojis = function(callback){
             if(res.statusCode!=200) throw new Error('Server responded with non 200 code');
         }).on('end', function () {
             console.log("Emoji successfully downloaded: "+emoji.name);
-            emoji.path = path.resolve('../../dist/pdf/emojis/'+emoji.name+'.png');
+            emoji.path = path.resolve(__root+'dist/pdf/emojis/'+emoji.name+'.png');
             callback(null, emoji);
-        }).pipe(fs.createWriteStream('../../dist/pdf/emojis/'+emoji.name+'.png'));
+        }).pipe(fs.createWriteStream(__root+'dist/pdf/emojis/'+emoji.name+'.png'));
     }
 };
 
