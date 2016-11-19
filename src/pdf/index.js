@@ -7,6 +7,7 @@ const loadEmoji = require('./loadEmojis');
 
 const __root = path.join(__dirname, '/../../');
 
+// The layout of the PDF document
 const layout = {
     leftMargin: 60,
     topMargin: 100,
