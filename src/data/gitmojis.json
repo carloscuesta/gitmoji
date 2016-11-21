@@ -215,6 +215,13 @@
 			"code":":hankey:",
 			"description":"Writing bad code that needs to be improved.",
 			"name":"hankey"
+		},
+		{
+			"emoji":"🦄",
+			"entity":"&#129412;",
+			"code":":unicorn_face:",
+			"description":"shouldn't work but works anyway.",
+			"name":"unicorn-face"
 		}
     ]
 }
