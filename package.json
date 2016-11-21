@@ -4,9 +4,9 @@
   "description": "An emoji guide for your commit messages",
   "main": "index.js",
   "scripts": {
-	"jsonvalidate": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
-	"contributors": "curl https://api.github.com/repos/carloscuesta/gitmoji/contributors -o ./src/data/contributors.json",
-	"start": "npm run contributors && gulp",
+    "jsonvalidate": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
+    "contributors": "curl https://api.github.com/repos/carloscuesta/gitmoji/contributors -o ./src/data/contributors.json",
+    "start": "npm run contributors && gulp",
     "test": "npm run jsonvalidate && gulp test"
   },
   "repository": {
@@ -26,17 +26,22 @@
     "requireLowerCaseAttributes": true
   },
   "babel": {
-	"presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "homepage": "https://github.com/carloscuesta/gitmoji#readme",
   "dependencies": {
+    "async": "^2.1.2",
     "babel-core": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.1.0",
     "gulp-pug": "^3.1.0",
     "gulp-pug-lint": "^0.1.6",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "pdfkit": "^0.8.0",
+    "request": "^2.79.0"
   },
   "devDependencies": {
     "browser-sync": "^2.17.5",
