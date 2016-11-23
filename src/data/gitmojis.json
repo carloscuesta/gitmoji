@@ -215,6 +215,13 @@
 			"code":":hankey:",
 			"description":"Writing bad code that needs to be improved.",
 			"name":"hankey"
-		}
+		},
+    {
+      "emoji":"📦",
+      "entity":"&#1F4E6;",
+      "code":":package:",
+      "description":"Updating compiled files or packages.",
+      "name":"package"
+    }
     ]
 }
