@@ -220,7 +220,7 @@
       "emoji":"📦",
       "entity":"&#1F4E6;",
       "code":":package:",
-      "description":"Updating compiled files or packages",
+      "description":"Updating compiled files or packages.",
       "name":"package"
     }
     ]
