@@ -17,7 +17,7 @@
     "received_events_url": "https://api.github.com/users/carloscuesta/received_events",
     "type": "User",
     "site_admin": false,
-    "contributions": 74
+    "contributions": 77
   },
   {
     "login": "Spidersouris",
@@ -95,6 +95,26 @@
     "repos_url": "https://api.github.com/users/welcoMattic/repos",
     "events_url": "https://api.github.com/users/welcoMattic/events{/privacy}",
     "received_events_url": "https://api.github.com/users/welcoMattic/received_events",
+    "type": "User",
+    "site_admin": false,
+    "contributions": 2
+  },
+  {
+    "login": "viktorstrate",
+    "id": 4233458,
+    "avatar_url": "https://avatars.githubusercontent.com/u/4233458?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/viktorstrate",
+    "html_url": "https://github.com/viktorstrate",
+    "followers_url": "https://api.github.com/users/viktorstrate/followers",
+    "following_url": "https://api.github.com/users/viktorstrate/following{/other_user}",
+    "gists_url": "https://api.github.com/users/viktorstrate/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/viktorstrate/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/viktorstrate/subscriptions",
+    "organizations_url": "https://api.github.com/users/viktorstrate/orgs",
+    "repos_url": "https://api.github.com/users/viktorstrate/repos",
+    "events_url": "https://api.github.com/users/viktorstrate/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/viktorstrate/received_events",
     "type": "User",
     "site_admin": false,
     "contributions": 2
