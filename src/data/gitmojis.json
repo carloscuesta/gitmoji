@@ -49,27 +49,27 @@
             "description":"Writing docs.",
             "name":"memo"
         },
-		{
-			"emoji":"🚀",
-			"entity":"&#x1f680;",
-			"code":":rocket:",
-			"description":"Deploying stuff.",
-			"name":"rocket"
-		},
-		{
-			"emoji":"💄",
-			"entity":"&#ff99cc;",
-			"code":":lipstick:",
-			"description":"Updating the UI and style files.",
-			"name":"lipstick"
-		},
-		{
-			"emoji":"🎉",
-			"entity":"&#127881;",
-			"code":":tada:",
-			"description":"Initial commit.",
-			"name":"tada"
-		},
+        {
+            "emoji":"🚀",
+            "entity":"&#x1f680;",
+            "code":":rocket:",
+            "description":"Deploying stuff.",
+            "name":"rocket"
+        },
+        {
+            "emoji":"💄",
+            "entity":"&#ff99cc;",
+            "code":":lipstick:",
+            "description":"Updating the UI and style files.",
+            "name":"lipstick"
+        },
+        {
+            "emoji":"🎉",
+            "entity":"&#127881;",
+            "code":":tada:",
+            "description":"Initial commit.",
+            "name":"tada"
+        },
         {
             "emoji":"✅",
             "entity":"&#x2705;",
@@ -77,20 +77,20 @@
             "description":"Adding tests.",
             "name":"white-check-mark"
         },
-		{
-			"emoji":"🔒",
-			"entity":"&#x1f512;",
-			"code":":lock:",
-			"description":"Fixing security issues.",
-			"name":"lock"
-		},
-		{
-			"emoji":"🍎",
-			"entity":"&#x1f34e;",
-			"code":":apple:",
-			"description":"Fixing something on macOS.",
-			"name":"apple"
-		},
+        {
+            "emoji":"🔒",
+            "entity":"&#x1f512;",
+            "code":":lock:",
+            "description":"Fixing security issues.",
+            "name":"lock"
+        },
+        {
+            "emoji":"🍎",
+            "entity":"&#x1f34e;",
+            "code":":apple:",
+            "description":"Fixing something on macOS.",
+            "name":"apple"
+        },
         {
             "emoji":"🐧",
             "entity":"&#x1f427;",
@@ -98,14 +98,14 @@
             "description":"Fixing something on Linux.",
             "name":"penguin"
         },
-		{
-			"emoji":"🏁",
-			"entity":"&#x1f3c1;",
-			"code":":checkered_flag:",
-			"description":"Fixing something on Windows.",
-			"name":"checkered-flag"
-		},
-		{
+        {
+            "emoji":"🏁",
+            "entity":"&#x1f3c1;",
+            "code":":checkered_flag:",
+            "description":"Fixing something on Windows.",
+            "name":"checkered-flag"
+        },
+        {
             "emoji":"🔖",
             "entity":"&#x1f516;",
             "code":":bookmark:",
@@ -154,12 +154,12 @@
             "description":"Adding CI build system.",
             "name":"construction-worker"
         },
-		{
-			"emoji":"📈",
-			"code":":chart_with_upwards_trend:",
-			"description":"Adding analytics or tracking code.",
-			"name":"chart-with-upwards-trend"
-		},
+        {
+            "emoji":"📈",
+            "code":":chart_with_upwards_trend:",
+            "description":"Adding analytics or tracking code.",
+            "name":"chart-with-upwards-trend"
+        },
         {
             "emoji":"🔨",
             "entity":"&#128736;",
@@ -181,47 +181,47 @@
             "description":"Work about Docker.",
             "name":"whale"
         },
-		{
-			"emoji":"➕",
-			"entity":"&#10133;",
-			"code":":heavy_plus_sign:",
-			"description":"Adding a dependency.",
-			"name":"heavy-plus-sign"
-		},
-		{
-			"emoji":"🔧",
-			"entity":"&#x1f527;",
-			"code":":wrench:",
-			"description":"Changing configuration files.",
-			"name":"wrench"
-		},
-		{
-			"emoji": "🌐",
-			"entity": "&#127760;",
-			"code": ":globe_with_meridians:",
-			"description": "Internationalization and localization.",
-			"name": "globe-with-meridians"
-		},
-		{
-			"emoji":"✏️",
-			"entity":"&#59161;",
-			"code":":pencil2:",
-			"description":"Fixing typos.",
-			"name":"pencil"
-		},
-		{
-			"emoji":"💩",
-			"entity":"&#58613;",
-			"code":":hankey:",
-			"description":"Writing bad code that needs to be improved.",
-			"name":"hankey"
-		},
-    {
-      "emoji":"📦",
-      "entity":"&#1F4E6;",
-      "code":":package:",
-      "description":"Updating compiled files or packages.",
-      "name":"package"
-    }
+        {
+            "emoji":"➕",
+            "entity":"&#10133;",
+            "code":":heavy_plus_sign:",
+            "description":"Adding a dependency.",
+            "name":"heavy-plus-sign"
+        },
+        {
+            "emoji":"🔧",
+            "entity":"&#x1f527;",
+            "code":":wrench:",
+            "description":"Changing configuration files.",
+            "name":"wrench"
+        },
+        {
+            "emoji": "🌐",
+            "entity": "&#127760;",
+            "code": ":globe_with_meridians:",
+            "description": "Internationalization and localization.",
+            "name": "globe-with-meridians"
+        },
+        {
+            "emoji":"✏️",
+            "entity":"&#59161;",
+            "code":":pencil2:",
+            "description":"Fixing typos.",
+            "name":"pencil"
+        },
+        {
+            "emoji":"💩",
+            "entity":"&#58613;",
+            "code":":hankey:",
+            "description":"Writing bad code that needs to be improved.",
+            "name":"hankey"
+        },
+        {
+            "emoji":"📦",
+            "entity":"&#1F4E6;",
+            "code":":package:",
+            "description":"Updating compiled files or packages.",
+            "name":"package"
+        }
     ]
 }
