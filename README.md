@@ -16,9 +16,17 @@
 
 ## About
 
-[Gitmoji](https://gitmoji.carloscuesta.me) is an initiative to standarize and explain **the use of emojis on GitHub commit messages**.
+[Gitmoji](https://gitmoji.carloscuesta.me) is an initiative to standardize and explain **the use of emojis on GitHub commit messages**.
 
 **Using emojis** on **commit messages** provides an **easy way** of **identifying the purpose or intention of a commit** with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to use emojis easier.
+
+## Using [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli)
+
+To use gitmojis from your command line install [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli). A gitmoji interactive client for using emojis on commit messages.
+
+```bash
+npm i -g gitmoji-cli
+```
 
 ## Contributing to gitmoji
 
