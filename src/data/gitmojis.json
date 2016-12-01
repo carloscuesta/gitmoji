@@ -216,14 +216,14 @@
 			"description":"Writing bad code that needs to be improved.",
 			"name":"hankey"
 		},
-    {
-    	"emoji":"🔀",
-    	"entity":"&#128256;",
-    	"code":":twisted_rightwards_arrows:",
-    	"description":"Merging",
-    	"name":"twisted-rightwards-arrows"
-    },
-    {
+		{
+			"emoji":"🔀",
+			"entity":"&#128256;",
+			"code":":twisted_rightwards_arrows:",
+			"description":"Merging branches.",
+			"name":"twisted-rightwards-arrows"
+		},
+    	{
 		  "emoji":"📦",
 		  "entity":"&#1F4E6;",
 		  "code":":package:",
