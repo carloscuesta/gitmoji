@@ -217,6 +217,13 @@
 			"name":"hankey"
 		},
 		{
+			"emoji":"🔀",
+			"entity":"&#128256;",
+			"code":":twisted_rightwards_arrows:",
+			"description":"Merging branches.",
+			"name":"twisted-rightwards-arrows"
+		},
+    	{
 		  "emoji":"📦",
 		  "entity":"&#1F4E6;",
 		  "code":":package:",
