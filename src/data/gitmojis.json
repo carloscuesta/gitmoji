@@ -236,6 +236,13 @@
 		  "code":":alien:",
 		  "description":"Updating code due to external API changes.",
 		  "name":"alien"
+		},
+		{
+		  "emoji":"🚚",
+		  "entity":"&#1F69A;",
+		  "code":":truck:",
+		  "description":"Moving or renaming files.",
+		  "name":"truck"
 		}
 	]
 }
