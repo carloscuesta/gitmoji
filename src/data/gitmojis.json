@@ -222,7 +222,7 @@
 			"code":":rewind:",
 			"description":"Reverting changes.",
 			"name":"rewind"
-    },
+		},
 		{
 			"emoji":"🔀",
 			"entity":"&#128256;",
@@ -230,7 +230,7 @@
 			"description":"Merging branches.",
 			"name":"twisted-rightwards-arrows"
 		},
-  	{
+		{
 		  "emoji":"📦",
 		  "entity":"&#1F4E6;",
 		  "code":":package:",
