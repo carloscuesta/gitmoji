@@ -41,6 +41,13 @@ code {
 	word-break: break-all;
 }
 
+pre {
+	background-color: $yellow;
+	box-shadow: 0 4px darken($yellow, 15%);
+	padding: 1em;
+	border-radius: 4px
+}
+
 section {
 	padding: .5em;
 }
