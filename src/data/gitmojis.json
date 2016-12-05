@@ -250,6 +250,13 @@
 		  "code":":truck:",
 		  "description":"Moving or renaming files.",
 		  "name":"truck"
+		},
+		{
+		  "emoji":"📄",
+		  "entity":"&#1F4C4;",
+		  "code":":page_facing_up:",
+		  "description":"Adding or updating license.",
+		  "name":"page-facing-up"
 		}
 	]
 }
