@@ -138,16 +138,33 @@ main.wrap {
 
 	&-card {
 		background-color: $white;
-		margin: 1em 0;
-		flex: 1;
-		transition: all .25s ease-out;
 		border-radius: 4px;
 		box-shadow: 0 1px 2px 0 rgba(168, 182, 191, .6);
-		overflow: hidden;
+		flex: 1;
+		margin: 1em 0;
+		position: relative;
 		text-align: center;
 
 		&:hover {
-			box-shadow: 0 10px 20px 0 rgba(168, 182, 191, .6)
+
+			&::after {
+				opacity: 1;
+			}
+
+		}
+
+		&:after {
+			bottom: 0;
+			box-shadow: 0 10px 20px 0 rgba(168, 182, 191, .6);
+			content: '';
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			transition: opacity .25s ease-out;
+			will-change: opacity;
+			z-index: -1;
 		}
 	}
 
