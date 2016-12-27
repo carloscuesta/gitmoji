@@ -257,6 +257,13 @@
 		  "code":":page_facing_up:",
 		  "description":"Adding or updating license.",
 		  "name":"page-facing-up"
+		},
+		{
+			"emoji":"💥",
+			"entity":"&#x1f4a5;",
+			"code":":boom:",
+			"description":"Introducing breaking changes",
+			"name":"boom"
 		}
 	]
 }
