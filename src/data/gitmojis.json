@@ -257,6 +257,13 @@
 		  "code":":page_facing_up:",
 		  "description":"Adding or updating license.",
 		  "name":"page-facing-up"
+		},
+		{
+		  "emoji":"🍱",
+		  "entity":"&#1F371",
+		  "code":":bento:",
+		  "description":"Adding or updating assets.",
+		  "name":"bento"
 		}
 	]
 }
