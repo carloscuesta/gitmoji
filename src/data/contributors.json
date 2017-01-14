@@ -17,7 +17,7 @@
     "received_events_url": "https://api.github.com/users/carloscuesta/received_events",
     "type": "User",
     "site_admin": false,
-    "contributions": 84
+    "contributions": 89
   },
   {
     "login": "virzen",
@@ -315,6 +315,26 @@
     "repos_url": "https://api.github.com/users/SergiSMJ/repos",
     "events_url": "https://api.github.com/users/SergiSMJ/events{/privacy}",
     "received_events_url": "https://api.github.com/users/SergiSMJ/received_events",
+    "type": "User",
+    "site_admin": false,
+    "contributions": 1
+  },
+  {
+    "login": "sgraewe",
+    "id": 5310933,
+    "avatar_url": "https://avatars.githubusercontent.com/u/5310933?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sgraewe",
+    "html_url": "https://github.com/sgraewe",
+    "followers_url": "https://api.github.com/users/sgraewe/followers",
+    "following_url": "https://api.github.com/users/sgraewe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sgraewe/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sgraewe/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sgraewe/subscriptions",
+    "organizations_url": "https://api.github.com/users/sgraewe/orgs",
+    "repos_url": "https://api.github.com/users/sgraewe/repos",
+    "events_url": "https://api.github.com/users/sgraewe/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sgraewe/received_events",
     "type": "User",
     "site_admin": false,
     "contributions": 1
