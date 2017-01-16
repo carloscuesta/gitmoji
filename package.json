@@ -39,7 +39,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-pug": "^3.1.0",
     "gulp-pug-lint": "^0.1.6",
-    "gulp-sass": "^3.0.0",
+    "gulp-sass": "^3.1.0",
     "pdfkit": "^0.8.0",
     "request": "^2.79.0"
   },
