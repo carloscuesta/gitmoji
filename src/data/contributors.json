@@ -17,7 +17,7 @@
     "received_events_url": "https://api.github.com/users/carloscuesta/received_events",
     "type": "User",
     "site_admin": false,
-    "contributions": 89
+    "contributions": 93
   },
   {
     "login": "virzen",
@@ -75,6 +75,26 @@
     "repos_url": "https://api.github.com/users/duivvv/repos",
     "events_url": "https://api.github.com/users/duivvv/events{/privacy}",
     "received_events_url": "https://api.github.com/users/duivvv/received_events",
+    "type": "User",
+    "site_admin": false,
+    "contributions": 2
+  },
+  {
+    "login": "greenkeeperio-bot",
+    "id": 14790466,
+    "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/greenkeeperio-bot",
+    "html_url": "https://github.com/greenkeeperio-bot",
+    "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+    "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+    "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+    "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+    "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+    "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
     "type": "User",
     "site_admin": false,
     "contributions": 2
@@ -215,26 +235,6 @@
     "repos_url": "https://api.github.com/users/evrowe/repos",
     "events_url": "https://api.github.com/users/evrowe/events{/privacy}",
     "received_events_url": "https://api.github.com/users/evrowe/received_events",
-    "type": "User",
-    "site_admin": false,
-    "contributions": 1
-  },
-  {
-    "login": "greenkeeperio-bot",
-    "id": 14790466,
-    "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/greenkeeperio-bot",
-    "html_url": "https://github.com/greenkeeperio-bot",
-    "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
-    "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
-    "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
-    "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
-    "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
-    "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
     "type": "User",
     "site_admin": false,
     "contributions": 1
