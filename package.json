@@ -41,10 +41,10 @@
     "gulp-pug-lint": "^0.1.6",
     "gulp-sass": "^3.1.0",
     "pdfkit": "^0.8.0",
-	"browser-sync": "^2.17.5",
     "request": "^2.79.0"
   },
   "devDependencies": {
+	"browser-sync": "^2.17.5",
     "gulp-gh-pages": "^0.5.4",
     "jsonlint": "^1.6.2"
   }
