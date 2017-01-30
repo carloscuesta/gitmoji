@@ -398,5 +398,25 @@
     "type": "User",
     "site_admin": false,
     "contributions": 1
+  },
+  {
+    "login": "jlandure",
+    "id": 525974,
+    "avatar_url": "https://avatars.githubusercontent.com/u/525974?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jlandure",
+    "html_url": "https://github.com/jlandure",
+    "followers_url": "https://api.github.com/users/jlandure/followers",
+    "following_url": "https://api.github.com/users/jlandure/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jlandure/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jlandure/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jlandure/subscriptions",
+    "organizations_url": "https://api.github.com/users/jlandure/orgs",
+    "repos_url": "https://api.github.com/users/jlandure/repos",
+    "events_url": "https://api.github.com/users/jlandure/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jlandure/received_events",
+    "type": "User",
+    "site_admin": false,
+    "contributions": 1
   }
 ]
