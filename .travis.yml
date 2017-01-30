@@ -5,7 +5,7 @@ node_js:
 before_install:
 - npm install -g jsonlint
 install:
-- npm install --only=production
+- npm install
 cache:
   directories:
     - node_modules
