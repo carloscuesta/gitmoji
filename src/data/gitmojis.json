@@ -264,7 +264,8 @@
 			"code":":boom:",
 			"description":"Introducing breaking changes.",
 			"name":"boom"
-    },
+        },
+		{
 		  "emoji":"🍱",
 		  "entity":"&#1F371",
 		  "code":":bento:",
