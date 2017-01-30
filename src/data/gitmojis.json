@@ -259,6 +259,13 @@
 		  "name":"page-facing-up"
 		},
 		{
+			"emoji":"💥",
+			"entity":"&#x1f4a5;",
+			"code":":boom:",
+			"description":"Introducing breaking changes.",
+			"name":"boom"
+        },
+		{
 		  "emoji":"🍱",
 		  "entity":"&#1F371",
 		  "code":":bento:",
