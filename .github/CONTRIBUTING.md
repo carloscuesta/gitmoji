@@ -8,7 +8,7 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 
 ## How to submit a pull request?
 
-1. Fork [this repository](https://github.com/carloscuesta/gitmoji/issues/new).
+1. Fork [this repository](https://github.com/carloscuesta/gitmoji/fork).
 2. Create a new branch with the feature name. (Eg: add-emoji-deploy, fix-website-header)
 3. Make your changes.
 4. Commit your changes. Don't forget to add a commit title with an emoji and a description.
