@@ -278,6 +278,13 @@
 		  "code":":ok_hand:",
 		  "description":"Updating code due to code review changes.",
 		  "name":"ok_hand"
+	  	},
+	  	{
+			"emoji": "♿️",
+			"entity":"&#9855;",
+			"code": ":wheelchair:",
+			"description":"Improving accesibility.",
+			"name":"wheelchair"
 		}
 	]
 }
