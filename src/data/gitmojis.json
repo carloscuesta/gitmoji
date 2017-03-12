@@ -285,6 +285,13 @@
 			"code": ":wheelchair:",
 			"description":"Improving accessibility.",
 			"name":"wheelchair"
+		},
+		{
+			"emoji": "💡",
+			"entity":"&#128161;",
+			"code": ":bulb:",
+			"description":"Documenting source code.",
+			"name":"bulb"
 		}
 	]
 }
