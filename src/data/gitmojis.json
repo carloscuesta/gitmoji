@@ -292,6 +292,13 @@
 			"code": ":bulb:",
 			"description":"Documenting source code.",
 			"name":"bulb"
+		},
+		{
+			"emoji": "🍻",
+			"entity":"&#x1f37b;",
+			"code": ":beers:",
+			"description": "Writing code drunkenly.",
+			"name":"beers"
 		}
 	]
 }
