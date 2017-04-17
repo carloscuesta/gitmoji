@@ -277,7 +277,7 @@
 		  "entity":"&#x1f44c;",
 		  "code":":ok_hand:",
 		  "description":"Updating code due to code review changes.",
-		  "name":"ok_hand"
+		  "name":"ok-hand"
 	  	},
 	  	{
 			"emoji": "♿️",
@@ -299,6 +299,13 @@
 			"code": ":beers:",
 			"description": "Writing code drunkenly.",
 			"name":"beers"
+		},
+		{
+			"emoji": "💬",
+			"entity":"&#128172;",
+			"code": ":speech_balloon:",
+			"description": "Updating text and literals.",
+			"name":"speech-balloon"
 		}
 	]
 }
