@@ -203,6 +203,13 @@
 			"name": "globe-with-meridians"
 		},
 		{
+			"emoji":"📱",
+			"entity":"&#x1F4F1;",
+			"code":":iphone:",
+			"description":"Fix for Mobile Version",
+			"name":"iphone"
+		},
+		{
 			"emoji":"✏️",
 			"entity":"&#59161;",
 			"code":":pencil2:",
