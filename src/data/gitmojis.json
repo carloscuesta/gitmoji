@@ -287,6 +287,13 @@
 			"name":"wheelchair"
 		},
 		{
+			"emoji": "📱",
+			"entity":"&#128241;",
+			"code": ":cellphone:",
+			"description":"Improving compatibility on mobile devices.",
+			"name":"cellphone"
+		},
+		{
 			"emoji": "💡",
 			"entity":"&#128161;",
 			"code": ":bulb:",
