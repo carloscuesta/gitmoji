@@ -301,6 +301,13 @@
 			"name":"beers"
 		},
 		{
+			"emoji": "🖼",
+			"entity":"&#x1f5bc;",
+			"code": ":framed_picture:",
+			"description": "Updating binary resources.",
+			"name":"framed-picture"
+		},
+		{
 			"emoji": "💬",
 			"entity":"&#128172;",
 			"code": ":speech_balloon:",
