@@ -106,6 +106,20 @@
 			"name":"checkered-flag"
 		},
 		{
+			"emoji":"🤖",
+			"entity":"&#129302;",
+			"code":":robot:",
+			"description":"Fixing something on Android.",
+			"name":"robot"
+		},
+		{
+			"emoji":"🍏",
+			"entity":"&#127823;",
+			"code":":green_apple:",
+			"description":"Fixing something on iOS.",
+			"name":"green-apple"
+		},
+		{
 			"emoji":"🔖",
 			"entity":"&#x1f516;",
 			"code":":bookmark:",
