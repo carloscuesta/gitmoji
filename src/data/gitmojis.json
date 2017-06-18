@@ -306,6 +306,13 @@
 			"code": ":speech_balloon:",
 			"description": "Updating text and literals.",
 			"name":"speech-balloon"
+		},
+		{
+			"emoji": "🗃",
+			"entity":"&#128451;",
+			"code": ":card_file_box:",
+			"description": "Performing database related changes.",
+			"name":"card-file-box"
 		}
 	]
 }
