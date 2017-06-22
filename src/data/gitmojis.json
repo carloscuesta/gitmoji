@@ -268,7 +268,7 @@
 		{
 		  "emoji":"🔊",
 		  "entity":"&#128266;",
-		  "code":":loud_sound::",
+		  "code":":loud_sound:",
 		  "description":"Adding logs.",
 		  "name":"loud_sound"
 		}
