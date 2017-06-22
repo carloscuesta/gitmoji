@@ -257,6 +257,13 @@
 		  "code":":page_facing_up:",
 		  "description":"Adding or updating license.",
 		  "name":"page-facing-up"
+		},
+		{
+		  "emoji":"🔇",
+		  "entity":"&#128263;",
+		  "code":":mute:",
+		  "description":"Removing logs.",
+		  "name":"mute"
 		}
 	]
 }
