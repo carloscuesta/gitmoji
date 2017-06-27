@@ -1,49 +1,49 @@
 .c-hamburger {
-    display: block;
-    position: fixed;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    width: 80px;
-    height: 80px;
-    font-size: 0;
-    text-indent: -9999px;
-    appearance: none;
-    box-shadow: none;
-    border-radius: none;
-    border: none;
-    cursor: pointer;
-    transition: background 0.2s;
-    z-index: 10;
+	display: block;
+	position: fixed;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 80px;
+	height: 80px;
+	font-size: 0;
+	text-indent: -9999px;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+	border: none;
+	cursor: pointer;
+	transition: background 0.2s;
+	z-index: 10;
 
-    span {
-    	display: block;
-    	position: absolute;
-    	top: 44px;
-    	left: 18px;
-    	right: 18px;
-    	height: 3px;
-    	background: $menu;
-        border-radius: 50px;
+	span {
+		display: block;
+		position: absolute;
+		top: 44px;
+		left: 18px;
+		right: 18px;
+		height: 3px;
+		background: $menu;
+		border-radius: 50px;
 
-    	&::before, &::after {
-    		position: absolute;
-    		display: block;
-    		left: 0;
-    		width: 100%;
-    		height: 3px;
-            border-radius: 50px;
-    		background-color: $menu;
-    		content: "";
-    	}
+		&::before, &::after {
+			position: absolute;
+			display: block;
+			left: 0;
+			width: 100%;
+			height: 3px;
+			border-radius: 50px;
+			background-color: $menu;
+			content: "";
+		}
 
-    	&::before {
-    		top: -15px;
-    	}
+		&::before {
+			top: -15px;
+		}
 
-    	&::after {
+		&::after {
 			bottom: -15px;
-    	}
+		}
 	}
 
 	&:focus {
@@ -52,67 +52,67 @@
 }
 
 .c-hamburger--htx {
-    left: auto;
-    right: 5px;
-    top: 0px;
+	left: auto;
+	right: 5px;
+	top: 0px;
 
-    span {
-	    transition: background 0s 0.2s;
+	span {
+		transition: background 0s 0.2s;
 
-	    &::before, &::after {
-    	    transition-duration: 0.2s, 0.2s;
+		&::before, &::after {
+			transition-duration: 0.2s, 0.2s;
 			transition-delay: 0.2s, 0s;
-	    }
+		}
 
-	    &::before {
- 			transition-property: top, transform;
-	    }
+		&::before {
+			transition-property: top, transform;
+		}
 
-	    &::after {
+		&::after {
 			transition-property: bottom, transform;
-	    }
-    }
+		}
+	}
 }
 
 .c-hamburger__input:checked + .c-hamburger--htx {
 
-    span {
-    	background: none;
+	span {
+		background: none;
 
-    	&::before {
+		&::before {
 			top: 0;
 			transform: rotate(45deg);
-    	}
+		}
 
 		&::after {
-    		bottom: 0;
-    		transform: rotate(-45deg);
+			bottom: 0;
+			transform: rotate(-45deg);
 		}
 
 		&::before, &::after {
 			transition-delay: 0s, 0.2s;
 		}
-    }
+	}
 }
 
 .modal {
-    opacity: 0;
-    position: fixed;
-    text-align: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    transition: all .2s ease-in-out;
-    visibility: hidden;
+	opacity: 0;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	transition: all .2s ease-in-out;
+	visibility: hidden;
 }
 
 .modal__content {
-    background-color: $menu;
-    height: 300px;
-    width: 200px;
-    margin: 20px auto;
+	background-color: $menu;
+	height: 300px;
+	width: 200px;
+	margin: 20px auto;
 }
 
 .modal a {
@@ -120,33 +120,33 @@
 }
 
 .c-hamburger__input:checked ~ .modal {
-    opacity: 1;
-    background-color: $menu;
-    visibility: visible;
+	opacity: 1;
+	background-color: $menu;
+	visibility: visible;
 
-    .item {
-        font-weight: 700;
+	.item {
+		font-weight: 700;
 
-    	a {
-    		transform: scale(1);
-    	}
+		a {
+			transform: scale(1);
+		}
 
-    	&:nth-child(1) a {
-    		transition-delay: 0s;
-    	}
+		&:nth-child(1) a {
+			transition-delay: 0s;
+		}
 
-    	&:nth-child(2) a {
-    		transition-delay: 0.035s;
-    	}
+		&:nth-child(2) a {
+			transition-delay: 0.035s;
+		}
 
-    	&:nth-child(3) a {
-    		transition-delay: 0.075s;
-    	}
+		&:nth-child(3) a {
+			transition-delay: 0.075s;
+		}
 
-        &:nth-child(4) a {
-    		transition-delay: 0.0995s;
-    	}
-    }
+		&:nth-child(4) a {
+			transition-delay: 0.0995s;
+		}
+	}
 }
 
 .c-hamburger__input:checked ~ .c-hamburger span::after, .c-hamburger__input:checked ~ .c-hamburger span::before {
@@ -154,7 +154,7 @@
 }
 
 input#hamburger-menu {
-    display: none;
+	display: none;
 }
 
 nav.nav {
@@ -188,7 +188,7 @@ nav.nav {
 			height: 100px;
 			line-height: 100px;
 			transition: all 400ms cubic-bezier(.17,.67,.38,1.46);
-    		transform: scale(0.3);
+			transform: scale(0.3);
 		}
 
 	}

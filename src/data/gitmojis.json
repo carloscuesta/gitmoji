@@ -278,7 +278,7 @@
 			"code":":boom:",
 			"description":"Introducing breaking changes.",
 			"name":"boom"
-        },
+		},
 		{
 		  "emoji":"🍱",
 		  "entity":"&#1F371",
@@ -292,8 +292,8 @@
 		  "code":":ok_hand:",
 		  "description":"Updating code due to code review changes.",
 		  "name":"ok-hand"
-	  	},
-	  	{
+		},
+		{
 			"emoji": "♿️",
 			"entity":"&#9855;",
 			"code": ":wheelchair:",
@@ -327,6 +327,13 @@
 			"code": ":card_file_box:",
 			"description": "Performing database related changes.",
 			"name":"card-file-box"
+		},
+		{
+			"emoji": "🗑",
+			"entity":"&#128465;",
+			"code": ":wastebasket:",
+			"description": "Trashed stuff.",
+			"name":"wastebasket"
 		}
 	]
 }
