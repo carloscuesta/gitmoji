@@ -12,9 +12,9 @@ html, body {
 	padding: 0;
 	font-size: 16.5px;
 	font-family: Avenir, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+	"Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+	"Fira Sans", "Droid Sans", "Helvetica Neue",
+	sans-serif;
 }
 
 a {
@@ -33,9 +33,9 @@ a {
 
 code {
 	font-family: Avenir, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+	"Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+	"Fira Sans", "Droid Sans", "Helvetica Neue",
+	sans-serif;
 	font-weight: 700;
 	font-size: 1.25em;
 	word-break: break-all;
@@ -99,7 +99,7 @@ section {
 	&-pink {
 		background-color: $pink;
 		color: $white;
-	    box-shadow: 0 4px darken($pink, 20%);
+		box-shadow: 0 4px darken($pink, 20%);
 
 		&:hover {
 			top: 2px;
@@ -174,7 +174,7 @@ main.wrap {
 
 		p {
 			color: #999;
-		    word-break: normal;
+			word-break: normal;
 		}
 	}
 
@@ -272,10 +272,10 @@ main.wrap {
 }
 
 @keyframes zomg {
-  0%, 100% { color: #7ccdea;}
-  16%      { color: #0074D9;}
-  32%      { color: #2ECC40;}
-  48%      { color: #FFDC00;}
-  64%      { color: #B10DC9;}
-  80%      { color: #FF4136;}
+	0%, 100% { color: #7ccdea;}
+	16%      { color: #0074D9;}
+	32%      { color: #2ECC40;}
+	48%      { color: #FFDC00;}
+	64%      { color: #B10DC9;}
+	80%      { color: #FF4136;}
 }
