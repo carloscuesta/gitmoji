@@ -327,6 +327,13 @@
 			"code": ":card_file_box:",
 			"description": "Performing database related changes.",
 			"name":"card-file-box"
+		},
+		{
+			"emoji": "🗑",
+			"entity":"&#128465;",
+			"code": ":wastebasket:",
+			"description": "Trashed stuff.",
+			"name":"wastebasket"
 		}
 	]
 }
