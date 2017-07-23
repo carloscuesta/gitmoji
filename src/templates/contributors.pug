@@ -15,13 +15,9 @@ html
 		main.wrap
 			.row.center-xs
 				each contributor in contributors
-					article.contributor.col-xs-12.col-sm-6.col-md-3
-						.emoji-card
-							a(href=contributor.html_url)
-								header
-									img.contributor-picture(src=contributor.avatar_url)
-								.contributor-info
-									h3.name=contributor.login
+					article.contributor.col-xs-3.col-sm-2
+						a(href=contributor.html_url)
+							img.contributor-picture(src=contributor.avatar_url)
 		include _includes/_footer.pug
 		script.
 			var statuses = ['joy', 'loved', 'haha', 'sunglasses', 'sexy', 'tongue'];

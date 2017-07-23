@@ -106,6 +106,20 @@
 			"name":"checkered-flag"
 		},
 		{
+			"emoji":"🤖",
+			"entity":"&#129302;",
+			"code":":robot:",
+			"description":"Fixing something on Android.",
+			"name":"robot"
+		},
+		{
+			"emoji":"🍏",
+			"entity":"&#127823;",
+			"code":":green_apple:",
+			"description":"Fixing something on iOS.",
+			"name":"green-apple"
+		},
+		{
 			"emoji":"🔖",
 			"entity":"&#x1f516;",
 			"code":":bookmark:",
@@ -164,7 +178,7 @@
 			"emoji":"🔨",
 			"entity":"&#128736;",
 			"code":":hammer:",
-			"description":"Heavy refactoring.",
+			"description":"Refactoring code.",
 			"name":"hammer"
 		},
 		{
@@ -259,7 +273,63 @@
 		  "name":"page-facing-up"
 		},
 		{
-		  "emoji":"🔇",
+			"emoji":"💥",
+			"entity":"&#x1f4a5;",
+			"code":":boom:",
+			"description":"Introducing breaking changes.",
+			"name":"boom"
+    },
+		{
+		  "emoji":"🍱",
+		  "entity":"&#1F371",
+		  "code":":bento:",
+		  "description":"Adding or updating assets.",
+		  "name":"bento"
+		},
+		{
+		  "emoji":"👌",
+		  "entity":"&#x1f44c;",
+		  "code":":ok_hand:",
+		  "description":"Updating code due to code review changes.",
+		  "name":"ok-hand"
+	  	},
+	  	{
+			"emoji": "♿️",
+			"entity":"&#9855;",
+			"code": ":wheelchair:",
+			"description":"Improving accessibility.",
+			"name":"wheelchair"
+		},
+		{
+			"emoji": "💡",
+			"entity":"&#128161;",
+			"code": ":bulb:",
+			"description":"Documenting source code.",
+			"name":"bulb"
+		},
+		{
+			"emoji": "🍻",
+			"entity":"&#x1f37b;",
+			"code": ":beers:",
+			"description": "Writing code drunkenly.",
+			"name":"beers"
+		},
+		{
+			"emoji": "💬",
+			"entity":"&#128172;",
+			"code": ":speech_balloon:",
+			"description": "Updating text and literals.",
+			"name":"speech-balloon"
+		},
+		{
+			"emoji": "🗃",
+			"entity":"&#128451;",
+			"code": ":card_file_box:",
+			"description": "Performing database related changes.",
+			"name":"card-file-box"
+		},
+    {
+      "emoji":"🔇",
 		  "entity":"&#128263;",
 		  "code":":mute:",
 		  "description":"Removing logs.",
@@ -271,6 +341,6 @@
 		  "code":":loud_sound:",
 		  "description":"Adding logs.",
 		  "name":"loud_sound"
-		}
+    }
 	]
 }
