@@ -341,6 +341,13 @@
 		  "code":":mute:",
 		  "description":"Removing logs.",
 		  "name":"mute"
+		},
+		{
+		  "emoji": "👥",
+		  "entity": "&#128101;",
+		  "code": ":busts_in_silhouette:",
+		  "description": "Add contributor(s).",
+		  "name": "busts-in-silhouette"
 		}
 	]
 }
