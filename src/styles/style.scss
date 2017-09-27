@@ -134,6 +134,8 @@ main.wrap {
 		font-size: 5em;
 		cursor: pointer;
 		font-family: "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
+		padding-top: .35em;
+		padding-bottom: .35em
 	}
 
 	&-card {
@@ -181,8 +183,6 @@ main.wrap {
 
 	&-header {
 		align-self: flex-start;
-		padding-top: 2em;
-		padding-bottom: .85em;
 		border-top-left-radius: 4px;
 		border-top-right-radius: 4px;
 	}
@@ -246,10 +246,8 @@ main.wrap {
 
 	.emoji .gitmoji {
 		font-size: 50px;
-	}
-
-	.emoji-header {
-		padding-bottom: 1em;
+		padding-top: .5em;
+		padding-bottom: .5em
 	}
 
 	.header h2 {
