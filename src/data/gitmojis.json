@@ -348,6 +348,13 @@
 		  "code": ":busts_in_silhouette:",
 		  "description": "Add contributor(s).",
 		  "name": "busts-in-silhouette"
+		},
+		{
+		  "emoji": "🚸",
+		  "entity": "&#128696;",
+		  "code": ":children_crossing:",
+		  "description": "Improving user experience / usability.",
+		  "name": "children-crossing"
 		}
 	]
 }
