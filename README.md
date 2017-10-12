@@ -20,6 +20,10 @@
 
 **Using emojis** on **commit messages** provides an **easy way** of **identifying the purpose or intention of a commit** with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to use emojis easier.
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/NbtLi32wZqEa13D5s5unT5w1/carloscuesta/gitmoji'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/NbtLi32wZqEa13D5s5unT5w1/carloscuesta/gitmoji.svg' />
+</a>
+
 ## Using [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli)
 
 To use gitmojis from your command line install [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli). A gitmoji interactive client for using emojis on commit messages.
