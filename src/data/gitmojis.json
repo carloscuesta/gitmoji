@@ -162,6 +162,12 @@
 			"name":"arrow-up"
 		},
 		{
+			"emoji": "📌",
+			"code": ":pushpin:",
+			"description": "Pinning dependencies to specific versions.",
+			"name": "pushpin"
+		},
+		{
 			"emoji":"👷",
 			"entity":"&#x1f477;",
 			"code":":construction_worker:",
