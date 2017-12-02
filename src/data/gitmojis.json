@@ -175,11 +175,11 @@
 			"name":"chart-with-upwards-trend"
 		},
 		{
-			"emoji":"🔨",
-			"entity":"&#128736;",
-			"code":":hammer:",
+			"emoji":"♻️",
+			"entity":"&#x2672;",
+			"code":":recycle:",
 			"description":"Refactoring code.",
-			"name":"hammer"
+			"name":"recycle"
 		},
 		{
 			"emoji":"➖",

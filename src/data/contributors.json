@@ -17,7 +17,7 @@
     "received_events_url": "https://api.github.com/users/carloscuesta/received_events",
     "type": "User",
     "site_admin": false,
-    "contributions": 115
+    "contributions": 119
   },
   {
     "login": "virzen",
@@ -475,6 +475,26 @@
     "repos_url": "https://api.github.com/users/tamedro/repos",
     "events_url": "https://api.github.com/users/tamedro/events{/privacy}",
     "received_events_url": "https://api.github.com/users/tamedro/received_events",
+    "type": "User",
+    "site_admin": false,
+    "contributions": 1
+  },
+  {
+    "login": "Taranys",
+    "id": 4621525,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4621525?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Taranys",
+    "html_url": "https://github.com/Taranys",
+    "followers_url": "https://api.github.com/users/Taranys/followers",
+    "following_url": "https://api.github.com/users/Taranys/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Taranys/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Taranys/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Taranys/subscriptions",
+    "organizations_url": "https://api.github.com/users/Taranys/orgs",
+    "repos_url": "https://api.github.com/users/Taranys/repos",
+    "events_url": "https://api.github.com/users/Taranys/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Taranys/received_events",
     "type": "User",
     "site_admin": false,
     "contributions": 1
