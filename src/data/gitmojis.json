@@ -163,6 +163,7 @@
 		},
 		{
 			"emoji": "📌",
+			"entity": "&#x1F4CC;",
 			"code": ":pushpin:",
 			"description": "Pinning dependencies to specific versions.",
 			"name": "pushpin"
