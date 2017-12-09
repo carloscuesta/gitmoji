@@ -362,6 +362,13 @@
 		  "code": ":children_crossing:",
 		  "description": "Improving user experience / usability.",
 		  "name": "children-crossing"
+		},
+		{
+		  "emoji": "🏗",
+		  "entity": "&#1f3d7;",
+		  "code": ":building_construction:",
+		  "description": "Making architectural changes.",
+		  "name": "building-construction"
 		}
 	]
 }
