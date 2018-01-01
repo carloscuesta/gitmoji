@@ -369,6 +369,13 @@
 		  "code": ":building_construction:",
 		  "description": "Making architectural changes.",
 		  "name": "building-construction"
+		},
+		{
+		  "emoji": "👋",
+		  "entity": "&#128075;",
+		  "code": ":wave:",
+		  "description": "No longer maintaing project.",
+		  "name": "wave"
 		}
 	]
 }
