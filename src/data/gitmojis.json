@@ -369,6 +369,13 @@
 		  "code": ":building_construction:",
 		  "description": "Making architectural changes.",
 		  "name": "building-construction"
+		},
+		{
+		  "emoji": "🏇",
+		  "entity": "&#1f3c7;",
+		  "code": ":horse_racing:",
+		  "description": "piles of undocummented changes.",
+		  "name": "horse-racing"
 		}
 	]
 }
