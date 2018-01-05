@@ -252,32 +252,32 @@
 			"name":"twisted-rightwards-arrows"
 		},
 		{
-		  "emoji":"📦",
-		  "entity":"&#1F4E6;",
-		  "code":":package:",
-		  "description":"Updating compiled files or packages.",
-		  "name":"package"
+			"emoji":"📦",
+			"entity":"&#1F4E6;",
+			"code":":package:",
+			"description":"Updating compiled files or packages.",
+			"name":"package"
 		},
 		{
-		  "emoji":"👽",
-		  "entity":"&#1F47D;",
-		  "code":":alien:",
-		  "description":"Updating code due to external API changes.",
-		  "name":"alien"
+			"emoji":"👽",
+			"entity":"&#1F47D;",
+			"code":":alien:",
+			"description":"Updating code due to external API changes.",
+			"name":"alien"
 		},
 		{
-		  "emoji":"🚚",
-		  "entity":"&#1F69A;",
-		  "code":":truck:",
-		  "description":"Moving or renaming files.",
-		  "name":"truck"
+			"emoji":"🚚",
+			"entity":"&#1F69A;",
+			"code":":truck:",
+			"description":"Moving or renaming files.",
+			"name":"truck"
 		},
 		{
-		  "emoji":"📄",
-		  "entity":"&#1F4C4;",
-		  "code":":page_facing_up:",
-		  "description":"Adding or updating license.",
-		  "name":"page-facing-up"
+			"emoji":"📄",
+			"entity":"&#1F4C4;",
+			"code":":page_facing_up:",
+			"description":"Adding or updating license.",
+			"name":"page-facing-up"
 		},
 		{
 			"emoji":"💥",
@@ -287,18 +287,18 @@
 			"name":"boom"
 	},
 		{
-		  "emoji":"🍱",
-		  "entity":"&#1F371",
-		  "code":":bento:",
-		  "description":"Adding or updating assets.",
-		  "name":"bento"
+			"emoji":"🍱",
+			"entity":"&#1F371",
+			"code":":bento:",
+			"description":"Adding or updating assets.",
+			"name":"bento"
 		},
 		{
-		  "emoji":"👌",
-		  "entity":"&#x1f44c;",
-		  "code":":ok_hand:",
-		  "description":"Updating code due to code review changes.",
-		  "name":"ok-hand"
+			"emoji":"👌",
+			"entity":"&#x1f44c;",
+			"code":":ok_hand:",
+			"description":"Updating code due to code review changes.",
+			"name":"ok-hand"
 		},
 		{
 			"emoji": "♿️",
@@ -336,46 +336,46 @@
 			"name":"card-file-box"
 		},
 		{
-		  "emoji":"🔊",
-		  "entity":"&#128266;",
-		  "code":":loud_sound:",
-		  "description":"Adding logs.",
-		  "name":"loud-sound"
+			"emoji":"🔊",
+			"entity":"&#128266;",
+			"code":":loud_sound:",
+			"description":"Adding logs.",
+			"name":"loud-sound"
 		},
 		{
-		  "emoji":"🔇",
-		  "entity":"&#128263;",
-		  "code":":mute:",
-		  "description":"Removing logs.",
-		  "name":"mute"
+			"emoji":"🔇",
+			"entity":"&#128263;",
+			"code":":mute:",
+			"description":"Removing logs.",
+			"name":"mute"
 		},
 		{
-		  "emoji": "👥",
-		  "entity": "&#128101;",
-		  "code": ":busts_in_silhouette:",
-		  "description": "Adding contributor(s).",
-		  "name": "busts-in-silhouette"
+			"emoji": "👥",
+			"entity": "&#128101;",
+			"code": ":busts_in_silhouette:",
+			"description": "Adding contributor(s).",
+			"name": "busts-in-silhouette"
 		},
 		{
-		  "emoji": "🚸",
-		  "entity": "&#128696;",
-		  "code": ":children_crossing:",
-		  "description": "Improving user experience / usability.",
-		  "name": "children-crossing"
+			"emoji": "🚸",
+			"entity": "&#128696;",
+			"code": ":children_crossing:",
+			"description": "Improving user experience / usability.",
+			"name": "children-crossing"
 		},
 		{
-		  "emoji": "🏗",
-		  "entity": "&#1f3d7;",
-		  "code": ":building_construction:",
-		  "description": "Making architectural changes.",
-		  "name": "building-construction"
+			"emoji": "🏗",
+			"entity": "&#1f3d7;",
+			"code": ":building_construction:",
+			"description": "Making architectural changes.",
+			"name": "building-construction"
 		},
-    {
-      "emoji": "📱",
-      "entity": "&#128241;" ,
-      "code": ":iphone:",
-      "description": "Working on responsive design.",
-      "name": "iphone"
-    }
+		{
+			"emoji": "📱",
+			"entity": "&#128241;" ,
+			"code": ":iphone:",
+			"description": "Working on responsive design.",
+			"name": "iphone"
+		}
 	]
 }
