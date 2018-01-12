@@ -376,6 +376,13 @@
 			"code": ":iphone:",
 			"description": "Working on responsive design.",
 			"name": "iphone"
+		},
+		{
+			"emoji": "🤡",
+			"entity": "&#129313;" ,
+			"code": ":clown_face:",
+			"description": "Mocking things.",
+			"name": "clown-face"
 		}
 	]
 }
