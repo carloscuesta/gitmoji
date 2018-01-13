@@ -383,6 +383,13 @@
 			"code": ":clown_face:",
 			"description": "Mocking things.",
 			"name": "clown-face"
+		},
+		{
+			"emoji": "🚮",
+			"entity": "&#128686;" ,
+			"code": ":put_litter_in_its_place:",
+			"description": "Adding deprecation warnings.",
+			"name": "put-litter-in-its-place"
 		}
 	]
 }
