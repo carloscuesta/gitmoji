@@ -10,3 +10,10 @@ insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[*.js]
+indent_style = spaces
+tab_width = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
