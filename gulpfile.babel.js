@@ -83,6 +83,8 @@ gulp.task('serve', ['styles', 'templates'], () => {
 	gulp.watch([routes.styles.scss, routes.styles._scss], ['styles']);
 });
 
+gulp.task('build', ['templates', 'styles']);
+
 gulp.task('deploy', () => {
 	return gulp.src(routes.files.deploy)
 		.pipe(ghPages({
