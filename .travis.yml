@@ -12,3 +12,14 @@ cache:
 notifications:
   slack:
     secure: oTOAM8T5Qo3sZ+oB54OfwRA/F1IFrt3J2TFGobYqSk5GZFBJZ/idlSFmKsMCfqVYTMzNhWlYj4H+isdAVzVh/TgbFKY88/GcbtNG8QYCJcFaWOanIp38XQ2RiSImt5T4aMquq/pFj1cE+CNTIWRoieDteukq/bIT3Z1I8hpz5QCSxAFr0suPSwCv1MLXR0ytVldF16eeTVQ0BR8l4L/K5IBt6ZfnpkebZMS0Q3MCobUosAgE1hIHFYxdXYugfmnG0cO2wtLvXwQWQ6VoRGJdc0iAL4CFJxKORX43Y//T0P5e0dBiGfek7QP5gJk+8qeFd5D2O34pB/POUy2vtFvBKTSsgOhz94fmS5v5M4X60oHsNWYt8AUU9CMicYQ2U2pbYAlttTGN3tguC/usdJRS9kWdn6MbI8T6cjk2BCyriFXXXumLEINiHYexcb0PdAm2Lwc//5QSxCdFPGr5UfdhAfwpNOy21QhvcioGUJbtLuyEMP+F9+ZMYWypfacD507yqtr5Z+rtInp4qOuKwZFSir7IzTBbuEUuxJLagbwUTbT302sYarOPvpAjgzPbPWFuUVigZ1y/SPbdObbolOh2yGEfYwIIIPT8ijKPN+sgDFOr0TJ1ZkB59Kb5zW/pDAykWqf2kmLHCFQGcatPzg1ROrrR5CH6/+LVQKhxUEaGLaE=
+after_success: npm run build
+deploy:
+  provider: pages
+  local-dir: dist
+  skip-cleanup: true
+  github-token: $GITHUB_PAGES_DEPLOY_TOKEN
+  keep-history: true
+  target-branch: gh-pages
+  fqdn: gitmoji.carloscuesta.me
+  on:
+    branch: master
