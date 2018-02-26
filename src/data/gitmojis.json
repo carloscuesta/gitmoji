@@ -383,6 +383,12 @@
 			"code": ":clown_face:",
 			"description": "Mocking things.",
 			"name": "clown-face"
+		},
+		{
+			"emoji": "🎁",
+			"code": ":gift:",
+			"description": "Adding an easter egg.",
+			"name": "gift"
 		}
 	]
 }
