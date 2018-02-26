@@ -386,6 +386,7 @@
 		},
 		{
 			"emoji": "🥚",
+			"entity": "&#129370;",
 			"code": ":egg:",
 			"description": "Adding an easter egg.",
 			"name": "egg"
