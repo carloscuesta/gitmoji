@@ -385,10 +385,10 @@
 			"name": "clown-face"
 		},
 		{
-			"emoji": "🎁",
-			"code": ":gift:",
+			"emoji": "🥚",
+			"code": ":egg:",
 			"description": "Adding an easter egg.",
-			"name": "gift"
+			"name": "egg"
 		}
 	]
 }
