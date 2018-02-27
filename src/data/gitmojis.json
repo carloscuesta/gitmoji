@@ -383,6 +383,13 @@
 			"code": ":clown_face:",
 			"description": "Mocking things.",
 			"name": "clown-face"
+		},
+		{
+		  "emoji": "🙈",
+			"entity": "&#8bdfe7;" ,
+		  "code": ":see_no_evil:",
+		  "description": "Adding or updating a .gitignore file",
+		  "name": "see-no-evil"
 		}
 	]
 }
