@@ -383,6 +383,13 @@
 			"code": ":clown_face:",
 			"description": "Mocking things.",
 			"name": "clown-face"
+		},
+		{
+			"emoji": "💅",
+			"entity": "&#1F485;" ,
+			"code": ":nail_care:",
+			"description": "Improve code style, organization or formatting.",
+			"name": "nail-care"
 		}
 	]
 }
