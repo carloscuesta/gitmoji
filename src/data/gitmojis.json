@@ -385,11 +385,11 @@
 			"name": "clown-face"
 		},
     {
-			"code": ":nail_care:",
 			"emoji": "💅",
 			"entity": "&#1F485;" ,
-			"name": "clown-face",
-			"description": "Improve code style, organization or formatting."
+			"code": ":nail_care:",
+			"description": "Improve code style, organization or formatting.",
+			"name": "clown-face"
     }
 	]
 }
