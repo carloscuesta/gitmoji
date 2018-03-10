@@ -6,6 +6,8 @@ cache:
     - node_modules
 script: npm test
 deploy:
+  edge:
+    branch: v1.8.47
   provider: pages
   local-dir: dist
   skip-cleanup: true
