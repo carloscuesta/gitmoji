@@ -383,6 +383,13 @@
 			"code": ":clown_face:",
 			"description": "Mocking things.",
 			"name": "clown-face"
+		},
+		{
+			"emoji": "🥚",
+			"entity": "&#129370;",
+			"code": ":egg:",
+			"description": "Adding an easter egg.",
+			"name": "egg"
 		}
 	]
 }
