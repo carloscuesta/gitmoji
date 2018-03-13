@@ -397,6 +397,13 @@
 			"code": ":see_no_evil:",
 			"description": "Adding or updating a .gitignore file",
 			"name": "see-no-evil"
+		},
+		{ 
+		  "emoji": "??", 
+		  "code": ":baby:", 
+		  "entity": "&#128118;", 
+		  "description": "Code written by the intern", 
+		  "name": "baby" 
 		}
 	]
 }
