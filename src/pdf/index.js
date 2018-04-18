@@ -9,13 +9,13 @@ const __root = path.join(__dirname, '/../../');
 
 // The layout of the PDF document
 const layout = {
-    leftMargin: 60,
+    leftMargin: 30,
     topMargin: 100,
     emojiSpace: 38,
     emojiSize: 32,
 
     emojisHigh: 16,
-    secondMargin: 260,
+    secondMargin: 270,
 
     textLeftMargin: 40,
     textDescTopMargin: 18
@@ -48,20 +48,21 @@ function generatePDF() {
 
     doc.fontSize(32).text('Gitmoji Cheatsheet', 40, 40);
 
+    var count = 0
     for (var i = 0; i < emojiList.length; i++) {
         var emoji = emojiList[i];
 
-        var x = layout.leftMargin + Math.floor(i/layout.emojisHigh)*layout.secondMargin;
-        var y = layout.topMargin+ layout.emojiSpace * (i%layout.emojisHigh);
-
         if(Math.floor(i%(layout.emojisHigh*2))==0 && i!=0){
+            count = 0
             doc.addPage();
         }
+
+        var x = layout.leftMargin + Math.floor(count++/layout.emojisHigh)*layout.secondMargin;
+        var y = layout.topMargin+ layout.emojiSpace * (i%layout.emojisHigh);
 
         doc.image(__root+'dist/pdf/emojis/'+emoji.name+'.png', x, y, {width: layout.emojiSize});
         doc.fontSize(14).text(emoji.code, x+layout.textLeftMargin, y);
         doc.fontSize(11).text(emoji.description, x+layout.textLeftMargin, y+layout.textDescTopMargin);
-
     }
 
     doc.end();
