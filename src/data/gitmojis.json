@@ -294,6 +294,12 @@
 			"name":"bento"
 		},
 		{
+			"emoji": "😎",
+			"code": ":sunglasses:",
+			"description": "Updating OpenAPI Swagger files.",
+			"name": "sunglassses"
+		},
+		{
 			"emoji":"👌",
 			"entity":"&#x1f44c;",
 			"code":":ok_hand:",
