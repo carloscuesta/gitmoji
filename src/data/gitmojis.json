@@ -397,6 +397,13 @@
 			"code": ":see_no_evil:",
 			"description": "Adding or updating a .gitignore file",
 			"name": "see-no-evil"
+		},
+		{
+			"emoji": "📸",
+			"entity": "&#128248;" ,
+			"code": ":camera_flash:",
+			"description": "Adding or updating snapshots",
+			"name": "camera-flash"
 		}
 	]
 }
