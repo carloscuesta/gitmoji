@@ -377,6 +377,13 @@
 			"description": "Working on responsive design.",
 			"name": "iphone"
 		},
+        {
+            "emoji": "😎",
+            "entity": "&#x1f60e",
+            "code": ":sunglasses:",
+            "description": "Updating OpenAPI Swagger files.",
+            "name": "sunglassses"
+        },
 		{
 			"emoji": "🤡",
 			"entity": "&#129313;" ,
