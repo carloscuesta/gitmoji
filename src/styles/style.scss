@@ -144,16 +144,11 @@ main.wrap {
 		margin: 1em 0;
 		transition: all .25s ease-out;
 		text-align: center;
-		transition: transform .2s ease;
 		overflow: hidden;
 
 		&:hover {
-			box-shadow: 0 10px 20px 0 rgba(168, 182, 191, .6)
+			box-shadow: 0 10px 20px 0 rgba(168, 182, 191, .6);
 			transform: translateY(-1px);
-
-			&::after {
-				opacity: 1;
-			}
 		}
 	}
 
