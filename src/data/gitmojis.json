@@ -245,6 +245,13 @@
 			"name":"rewind"
 		},
 		{
+			"emoji":"⏩",
+			"entity":"&#9193;",
+			"code":":fast_forward:",
+			"description":"Reverting a revert.",
+			"name":"fast-forward"
+		},
+		{
 			"emoji":"🔀",
 			"entity":"&#128256;",
 			"code":":twisted_rightwards_arrows:",
