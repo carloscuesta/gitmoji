@@ -404,6 +404,13 @@
 			"code": ":camera_flash:",
 			"description": "Adding or updating snapshots",
 			"name": "camera-flash"
+		},
+		{
+			"emoji":"☸️",
+			"entity":"&#9784;",
+			"code":":wheel_of_dharma:",
+			"description":"Work about Kubernetes",
+			"name":"wheel-of-dharma"
 		}
 	]
 }
