@@ -404,6 +404,12 @@
 			"code": ":camera_flash:",
 			"description": "Adding or updating snapshots",
 			"name": "camera-flash"
+		},
+		{
+			"emoji":"🤞",
+			"code":":crossed_fingers:",
+			"description":"Hoping nothing breaks.",
+			"name":"crossed-fingers"
 		}
 	]
 }
