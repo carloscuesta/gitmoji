@@ -404,6 +404,12 @@
 			"code": ":camera_flash:",
 			"description": "Adding or updating snapshots",
 			"name": "camera-flash"
+		},
+		{
+			"emoji": "📇",
+			"code": ":card_index:",
+			"description": "Adding or updating typings",
+			"name": "card-index"
 		}
 	]
 }
