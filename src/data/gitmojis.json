@@ -404,6 +404,12 @@
 			"code": ":camera_flash:",
 			"description": "Adding or updating snapshots",
 			"name": "camera-flash"
+		},
+		{
+			"emoji": "🍾",
+			"code": ":champagne:",
+			"description": "Writing awesome code that you are excited to show off.",
+			"name": "champagne"
 		}
 	]
 }
