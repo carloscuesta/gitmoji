@@ -8,6 +8,20 @@
 			"name":"art"
 		},
 		{
+"emoji": "🏷️",
+"entity": "&#x1F516;",
+"code": ":label:",
+"description": "adding or updating types",
+"name": "label"
+},
+		{
+"emoji": "🔒",
+"entity": "&#x1f512;",
+"code": ":lock:",
+"description": "Lock For Dev",
+"name": "lock"
+},
+		{
 			"emoji":"⚡️",
 			"entity":"&#x26a1;",
 			"code":":zap:",
