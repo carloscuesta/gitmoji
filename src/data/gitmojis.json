@@ -1,5 +1,11 @@
 {
 	"gitmojis":[
+        {
+  "emoji": "📜",
+  "code": ":scroll:",
+  "description": "TOS added/updated.",
+  "name": "scroll"
+},
 		{
 			"emoji":"🎨",
 			"entity":"&#x1f3a8;",
@@ -7,6 +13,13 @@
 			"description":"Improving structure / format of the code.",
 			"name":"art"
 		},
+		{
+"emoji": "🔒",
+"entity": "&#x1f512;",
+"code": ":lock:",
+"description": "Lock For Dev",
+"name": "lock"
+},
 		{
 			"emoji":"⚡️",
 			"entity":"&#x26a1;",
