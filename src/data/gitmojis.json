@@ -404,6 +404,13 @@
 			"code": ":camera_flash:",
 			"description": "Adding or updating snapshots",
 			"name": "camera-flash"
+		},
+		{
+			"emoji": "⚗",
+			"entity": "&#128248;" ,
+			"code": ":alembic:",
+			"description": "Experimenting new things",
+			"name": "alembic"
 		}
 	]
 }
