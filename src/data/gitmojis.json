@@ -411,6 +411,12 @@
 			"code": ":alembic:",
 			"description": "Experimenting new things",
 			"name": "alembic"
+		},
+		{
+			"emoji": "💥",
+			"code": ":boom:",
+			"description": "Breaking changes",
+			"name": "boom"
 		}
 	]
 }
