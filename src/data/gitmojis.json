@@ -411,6 +411,13 @@
 			"code": ":alembic:",
 			"description": "Experimenting new things",
 			"name": "alembic"
+		},
+		{
+			"emoji": "📋",
+			"entity": "&#128203;" ,
+			"code": ":clipboard:",
+			"description": "Adding TODO(s)",
+			"name": "clipboard"
 		}
 	]
 }
