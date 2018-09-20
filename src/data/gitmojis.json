@@ -411,6 +411,13 @@
 			"code": ":alembic:",
 			"description": "Experimenting new things",
 			"name": "alembic"
-		}
+		},
+    	{
+      "emoji": "🔍",
+			"entity": "&#128269;" ,
+			"code": ":mag:",
+			"description": "Improving SEO",
+			"name": "mag"
+    	}
 	]
 }
