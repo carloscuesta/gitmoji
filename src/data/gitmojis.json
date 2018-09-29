@@ -425,6 +425,6 @@
 			"code": ":factory:",
 			"description": "Adding or updating automatically generated code",
 			"name": "factory"
-		},
+		}
 	]
 }
