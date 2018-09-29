@@ -418,6 +418,13 @@
 			"code": ":mag:",
 			"description": "Improving SEO",
 			"name": "mag"
-    	}
+    	},
+		{
+			"emoji": "🏭",
+			"entity": "&#127981;" ,
+			"code": ":factory:",
+			"description": "Adding or updating automatically generated code",
+			"name": "factory"
+		},
 	]
 }
