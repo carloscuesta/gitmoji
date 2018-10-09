@@ -418,6 +418,13 @@
 			"code": ":mag:",
 			"description": "Improving SEO",
 			"name": "mag"
-    	}
+			},
+		{
+      "emoji": "🤞",
+			"entity": "&#129310;" ,
+			"code": ":crossed-fingers:",
+			"description": "Hoping nothing breaks",
+			"name": "crossed-fingers"
+    }
 	]
 }
