@@ -412,12 +412,19 @@
 			"description": "Experimenting new things",
 			"name": "alembic"
 		},
-    	{
-      "emoji": "🔍",
+		{
+			"emoji": "🔍",
 			"entity": "&#128269;" ,
 			"code": ":mag:",
 			"description": "Improving SEO",
 			"name": "mag"
-    	}
+		},
+		{
+			"emoji": "📏",
+			"entity": "&#128248;" ,
+			"code": ":straight_ruler:",
+			"description": "Fixing indentation",
+			"name": "straight-ruler"
+		}
 	]
 }
