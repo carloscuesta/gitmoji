@@ -350,6 +350,13 @@
 			"name":"mute"
 		},
 		{
+			"emoji": "👤",
+			"entity": "&#128100;",
+			"code": ":bust_in_silhouette:",
+			"description": "Adding author(s).",
+			"name": "bust-in-silhouette"
+		},
+		{
 			"emoji": "👥",
 			"entity": "&#128101;",
 			"code": ":busts_in_silhouette:",
