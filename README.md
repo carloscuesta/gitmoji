@@ -28,6 +28,14 @@ To use gitmojis from your command line install [gitmoji-cli](https://github.com/
 npm i -g gitmoji-cli
 ```
 
+## Generating changelog [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog/)
+
+To generate a changelog from your command line install [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog). It uses emojis in your commit messages to group them and create a markdown file with your changes.
+
+```bash
+npm i -g gitmoji-changelog
+```
+
 ## Contributing to gitmoji
 
 Contributing to gitmoji it's a piece of :cake:, read the [contributing guidelines](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md). You can discuss emojis using the [issues section](https://github.com/carloscuesta/gitmoji/issues/new). To add a new emoji to the list create an issue and send a pull request, see [how to send a pull request and add a gitmoji](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md#how-to-add-a-gitmoji).
