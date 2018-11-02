@@ -24,8 +24,14 @@
 
 To use gitmojis from your command line install [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli). A gitmoji interactive client for using emojis on commit messages.
 
+### Universal Install
 ```bash
 npm i -g gitmoji-cli
+```
+
+### MacOS Install (Brew)
+```bash
+brew install gitmoji
 ```
 
 ## Contributing to gitmoji
