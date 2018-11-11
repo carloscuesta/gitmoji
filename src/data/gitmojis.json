@@ -418,6 +418,13 @@
 			"code": ":mag:",
 			"description": "Improving SEO",
 			"name": "mag"
-    	}
+    	},
+		{
+			"emoji": "",
+			"entity": "&#128064;" ,
+			"code": ":eyes:",
+			"description": "Monitoring service configuration",
+			"name": "eyes"
+		}
 	]
 }
