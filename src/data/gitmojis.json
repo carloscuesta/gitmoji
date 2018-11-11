@@ -189,13 +189,6 @@
 			"name":"recycle"
 		},
 		{
-			"emoji":"➖",
-			"entity":"&#10134;",
-			"code":":heavy_minus_sign:",
-			"description":"Removing a dependency.",
-			"name":"heavy-minus-sign"
-		},
-		{
 			"emoji":"🐳",
 			"entity":"&#x1f433;",
 			"code":":whale:",
@@ -208,6 +201,13 @@
 			"code":":heavy_plus_sign:",
 			"description":"Adding a dependency.",
 			"name":"heavy-plus-sign"
+		},
+		{
+			"emoji":"➖",
+			"entity":"&#10134;",
+			"code":":heavy_minus_sign:",
+			"description":"Removing a dependency.",
+			"name":"heavy-minus-sign"
 		},
 		{
 			"emoji":"🔧",
@@ -406,11 +406,25 @@
 			"name": "camera-flash"
 		},
 		{
-			"emoji":"☸️",
-			"entity":"&#9784;",
-			"code":":wheel_of_dharma:",
-			"description":"Work about Kubernetes",
-			"name":"wheel-of-dharma"
-		}
+			"emoji": "⚗",
+			"entity": "&#128248;" ,
+			"code": ":alembic:",
+			"description": "Experimenting new things",
+			"name": "alembic"
+		},
+    {
+      "emoji": "🔍",
+			"entity": "&#128269;" ,
+			"code": ":mag:",
+			"description": "Improving SEO",
+			"name": "mag"
+    },
+    {
+      "emoji":"☸️",
+      "entity":"&#9784;",
+      "code":":wheel_of_dharma:",
+      "description":"Work about Kubernetes",
+      "name":"wheel-of-dharma"
+    }
 	]
 }
