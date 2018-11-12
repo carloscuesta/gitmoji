@@ -285,7 +285,7 @@
 			"code":":boom:",
 			"description":"Introducing breaking changes.",
 			"name":"boom"
-	},
+		},
 		{
 			"emoji":"🍱",
 			"entity":"&#1F371",
@@ -425,6 +425,13 @@
 		  "code":":wheel_of_dharma:",
 		  "description":"Work about Kubernetes",
 		  "name":"wheel-of-dharma"
+		},
+		{
+		  "emoji": "🏷️",
+		  "entity": "&#127991;",
+		  "code": ":label:",
+		  "description": "Adding or updating types (Flow, TypesScript)",
+		  "name": "label"		
 		}
 	]
 }
