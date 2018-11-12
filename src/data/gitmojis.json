@@ -412,19 +412,26 @@
 			"description": "Experimenting new things",
 			"name": "alembic"
 		},
-    	{
-      		"emoji": "🔍",
+		{
+			"emoji": "🔍",
 			"entity": "&#128269;" ,
 			"code": ":mag:",
 			"description": "Improving SEO",
 			"name": "mag"
-    	},
+    },
 		{
 			"emoji": "",
 			"entity": "&#128064;" ,
 			"code": ":eyes:",
 			"description": "Monitoring service configuration",
 			"name": "eyes"
+		},
+		{
+		  "emoji":"☸️",
+		  "entity":"&#9784;",
+		  "code":":wheel_of_dharma:",
+		  "description":"Work about Kubernetes",
+		  "name":"wheel-of-dharma"
 		}
 	]
 }
