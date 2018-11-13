@@ -51,7 +51,7 @@ function generatePDF() {
     for (var i = 0; i < emojiList.length; i++) {
         var emoji = emojiList[i];
 
-        var x = layout.leftMargin + Math.floor(i/layout.emojisHigh)*layout.secondMargin;
+        var x = layout.leftMargin + Math.floor(i/layout.emojisHigh)%2*layout.secondMargin;
         var y = layout.topMargin+ layout.emojiSpace * (i%layout.emojisHigh);
 
         if(Math.floor(i%(layout.emojisHigh*2))==0 && i!=0){
