@@ -30,6 +30,10 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 }
 ```
 
+Then, after that you'll need to add a new color to [the vars.scss](https://github.com/carloscuesta/gitmoji/blob/master/src/styles/_includes/_vars.scss) file.
+
+You must follow the convention of adding a new item to the `$gitmojis array`. That matches the name that you added at the json file.
+
 ## How to start gitmoji and update
 
 If you want to make changes to the site, follow the next steps:

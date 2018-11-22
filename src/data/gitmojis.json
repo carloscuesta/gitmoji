@@ -285,7 +285,7 @@
 			"code":":boom:",
 			"description":"Introducing breaking changes.",
 			"name":"boom"
-	},
+		},
 		{
 			"emoji":"🍱",
 			"entity":"&#1F371",
@@ -412,19 +412,33 @@
 			"description": "Experimenting new things",
 			"name": "alembic"
 		},
-    	{
-      		"emoji": "🔍",
+		{
+			"emoji": "🔍",
 			"entity": "&#128269;" ,
 			"code": ":mag:",
 			"description": "Improving SEO",
 			"name": "mag"
-    	},
+    },
 		{
 			"emoji": "🏭",
 			"entity": "&#127981;" ,
 			"code": ":factory:",
 			"description": "Adding or updating automatically generated code",
 			"name": "factory"
+		},
+		{
+		  "emoji":"☸️",
+		  "entity":"&#9784;",
+		  "code":":wheel_of_dharma:",
+		  "description":"Work about Kubernetes",
+		  "name":"wheel-of-dharma"
+		},
+		{
+		  "emoji": "🏷️",
+		  "entity": "&#127991;",
+		  "code": ":label:",
+		  "description": "Adding or updating types (Flow, TypesScript)",
+		  "name": "label"
 		}
 	]
 }
