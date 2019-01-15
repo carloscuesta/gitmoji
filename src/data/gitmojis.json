@@ -431,7 +431,14 @@
 		  "entity": "&#127991;",
 		  "code": ":label:",
 		  "description": "Adding or updating types (Flow, TypeScript)",
-		  "name": "label"		
+		  "name": "label"
+		},
+		{
+		  "emoji": "🧭",
+		  "entity": "&#x1F9ED;",
+		  "code": ":compass:",
+		  "description": "Fixing something on Safari",
+		  "name": "compass"
 		}
 	]
 }
