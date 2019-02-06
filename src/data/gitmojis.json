@@ -432,6 +432,13 @@
 		  "code": ":label:",
 		  "description": "Adding or updating types (Flow, TypeScript)",
 		  "name": "label"		
+		},
+		{
+			"emoji": "👾",
+			"entity": "&#128126;",
+			"code": ":space_invader:",
+			"description": "Integrating third party libraries",
+			"name": "space_invader"
 		}
 	]
 }
