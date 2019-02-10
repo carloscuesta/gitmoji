@@ -24,11 +24,13 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 ```json
 {
   "emoji": "",
+  "entity": "entity (Ex: &#x1F440)",
   "code": ":code:",
   "description": "Enter the description for the gitmoji.",
   "name": "code (same as code but without ':' replace underscores for dashes _ => - )"
 }
 ```
+If you want to find the hexadecimal entity of icon, search for it in this site: <a>http://graphemica.com/</a>
 
 Then, after that you'll need to add a new color to [the vars.scss](https://github.com/carloscuesta/gitmoji/blob/master/src/styles/_includes/_vars.scss) file.
 
