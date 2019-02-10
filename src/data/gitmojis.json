@@ -74,7 +74,7 @@
 			"emoji":"✅",
 			"entity":"&#x2705;",
 			"code":":white_check_mark:",
-			"description":"Adding tests.",
+			"description":"Updating tests.",
 			"name":"white-check-mark"
 		},
 		{
@@ -430,7 +430,7 @@
 		  "emoji": "🏷️",
 		  "entity": "&#127991;",
 		  "code": ":label:",
-		  "description": "Adding or updating types (Flow, TypesScript)",
+		  "description": "Adding or updating types (Flow, TypeScript)",
 		  "name": "label"		
 		}
 	]
