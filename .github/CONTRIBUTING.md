@@ -34,7 +34,7 @@ If you want to find the hexadecimal entity of icon, search for it in this site: 
 
 Then, after that you'll need to add a new color to [the vars.scss](https://github.com/carloscuesta/gitmoji/blob/master/src/styles/_includes/_vars.scss) file.
 
-You must follow the convention of adding a new item to the `$gitmojis array`. That matches the name that you added at the json file.
+You must follow the convention of adding a new item to the `$gitmojis array`. That matches the name that you added at the json file, but second words should be capitalized and dashes, underscores, or other punctuation should be omitted.
 
 ## How to start gitmoji and update
 
