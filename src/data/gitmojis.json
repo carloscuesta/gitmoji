@@ -432,6 +432,13 @@
 		  "code": ":label:",
 		  "description": "Adding or updating types (Flow, TypeScript)",
 		  "name": "label"		
+		},
+		{
+			"emoji": "🆎 ",
+			"entity": "U+1F18E",
+			"code": ":ab_test:",
+			"description": "Implementing an A/B test",
+			"name": "ab-test"
 		}
 	]
 }
