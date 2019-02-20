@@ -434,7 +434,7 @@
 		  "name": "label"		
 		},
 		{
-			"emoji": "🆎 ",
+			"emoji": "🆎",
 			"entity": "U+1F18E",
 			"code": ":ab_test:",
 			"description": "Implementing an A/B test",
