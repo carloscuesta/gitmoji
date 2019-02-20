@@ -40,7 +40,7 @@
     "gulp-pug": "^3.3.0",
     "gulp-pug-lint": "^0.1.6",
     "gulp-sass": "^3.1.0",
-    "pdfkit": "^0.8.0",
+    "pdfkit": "^0.9.0",
     "request": "^2.79.0"
   },
   "devDependencies": {
