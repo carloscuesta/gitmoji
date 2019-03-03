@@ -196,6 +196,13 @@
 			"name":"whale"
 		},
 		{
+			"emoji":"\uD83D\uDE9B",
+			"entity":"&#x1F69B;",
+			"code":":articulated_lorry:",
+			"description":"Work about Containers.",
+			"name":"articulated-lorry"
+		},
+		{
 			"emoji":"➕",
 			"entity":"&#10133;",
 			"code":":heavy_plus_sign:",
