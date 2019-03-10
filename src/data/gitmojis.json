@@ -436,7 +436,7 @@
 		{
 			"emoji": "🆎",
 			"entity": "U+1F18E",
-			"code": ":ab_test:",
+			"code": ":ab:",
 			"description": "Implementing an A/B test",
 			"name": "ab-test"
 		}
