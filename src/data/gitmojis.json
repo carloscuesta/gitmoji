@@ -431,7 +431,14 @@
 		  "entity": "&#127991;",
 		  "code": ":label:",
 		  "description": "Adding or updating types (Flow, TypeScript)",
-		  "name": "label"		
+		  "name": "label"
+		},
+		{
+		  "emoji": "☄️",
+		  "entity": "&#x2604;",
+		  "code": ":comet:",
+		  "description": "Massive code update",
+		  "name": "comet"
 		}
 	]
 }
