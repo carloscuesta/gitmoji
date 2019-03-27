@@ -78,6 +78,13 @@
 			"name":"white-check-mark"
 		},
 		{
+			"emoji":"❌",
+			"entity":"&#x274C;",
+			"code":":x:",
+			"description":"Causing tests to knowingly fail.",
+			"name":"x"
+		},
+		{
 			"emoji":"🔒",
 			"entity":"&#x1f512;",
 			"code":":lock:",
