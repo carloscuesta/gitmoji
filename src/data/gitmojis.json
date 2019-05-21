@@ -45,9 +45,9 @@
 		{
 			"emoji":"📝",
 			"entity":"&#x1f4dd;",
-			"code":":memo:",
+			"code":":pencil:",
 			"description":"Writing docs.",
-			"name":"memo"
+			"name":"pencil"
 		},
 		{
 			"emoji":"🚀",
@@ -240,9 +240,9 @@
 		{
 			"emoji":"💩",
 			"entity":"&#58613;",
-			"code":":hankey:",
+			"code":":poop:",
 			"description":"Writing bad code that needs to be improved.",
-			"name":"hankey"
+			"name":"poop"
 		},
 		{
 			"emoji":"⏪",
