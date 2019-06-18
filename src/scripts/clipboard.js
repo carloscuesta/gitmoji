@@ -1,1 +1,1 @@
-var clipboard = new Clipboard('.gitmoji');
+var clipboard = new Clipboard('.emoji-card');

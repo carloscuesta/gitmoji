@@ -145,6 +145,7 @@ main.wrap {
 		transition: all .25s ease-out;
 		text-align: center;
 		overflow: hidden;
+		cursor: pointer;
 
 		&:hover {
 			box-shadow: 0 10px 20px 0 rgba(168, 182, 191, .6);
