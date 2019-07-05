@@ -43,10 +43,17 @@
 			"name":"sparkles"
 		},
 		{
+			"emoji":"📖",
+			"entity":"&#x1f4d6;",
+			"code":":book:",
+			"description":"Writing or updating docs",
+			"name":"book"
+		},
+		{
 			"emoji":"📝",
 			"entity":"&#x1f4dd;",
 			"code":":pencil:",
-			"description":"Writing docs.",
+			"description":"Writing or updating copy.",
 			"name":"pencil"
 		},
 		{
@@ -431,7 +438,7 @@
 		  "entity": "&#127991;",
 		  "code": ":label:",
 		  "description": "Adding or updating types (Flow, TypeScript)",
-		  "name": "label"		
+		  "name": "label"
 		}
 	]
 }
