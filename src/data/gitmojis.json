@@ -432,6 +432,13 @@
 		  "code": ":label:",
 		  "description": "Adding or updating types (Flow, TypeScript)",
 		  "name": "label"		
+		},
+		{
+		  "emoji": "🤔",
+		  "entity": "&#x1F914;",
+		  "code": ":thinking:",
+		  "description": "Do something that does not fit in any gitmoji's case",
+		  "name": "thinking"
 		}
 	]
 }
