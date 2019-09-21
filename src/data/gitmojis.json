@@ -432,6 +432,13 @@
 			"code": ":label:",
 			"description": "Adding or updating types (Flow, TypeScript)",
 			"name": "label"		
+		},
+		{
+			"emoji": "🌎",
+			"entity": "&#127758;",
+			"code": ":earth_americas:",
+			"description": "Anything that has to do with GitHub Pages",
+			"name": "earth_americas"
 		}
 	]
 }
