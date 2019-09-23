@@ -43,11 +43,11 @@
 			"name": "sparkles"
 		},
 		{
-			"emoji": "📝",
-			"entity": "&#x1f4dd;",
-			"code": ":memo:",
-			"description": "Writing docs.",
-			"name": "memo"
+			"emoji":"📝",
+			"entity":"&#x1f4dd;",
+			"code":":pencil:",
+			"description":"Writing docs.",
+			"name":"pencil"
 		},
 		{
 			"emoji": "🚀",
@@ -231,11 +231,11 @@
 			"name": "pencil"
 		},
 		{
-			"emoji": "💩",
-			"entity": "&#58613;",
-			"code": ":hankey:",
-			"description": "Writing bad code that needs to be improved.",
-			"name": "hankey"
+			"emoji":"💩",
+			"entity":"&#58613;",
+			"code":":poop:",
+			"description":"Writing bad code that needs to be improved.",
+			"name":"poop"
 		},
 		{
 			"emoji": "⏪",
@@ -420,11 +420,11 @@
 			"name": "mag"
 		},
 		{
-			"emoji": "☸️",
-			"entity": "&#9784;",
-			"code": ":wheel_of_dharma:",
-			"description": "Work about Kubernetes",
-			"name": "wheel-of-dharma"
+			"emoji":"☸️",
+			"entity":"&#9784;",
+			"code":":wheel_of_dharma:",
+			"description":"Work about Kubernetes",
+			"name":"wheel-of-dharma"
 		},
 		{
 			"emoji": "🏷️",
