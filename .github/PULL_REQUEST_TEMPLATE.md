@@ -4,5 +4,5 @@
 
 ## Tests
 
-<!-- Ensure that all the tests passed -->
-- [ ] All tests passed.
+<!-- Only needs to be filled out when changes to the website have been made -->
+- [ ] I have built the website and opened it. There were no problems on any of the pages.
