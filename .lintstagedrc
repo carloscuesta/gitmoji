@@ -1,0 +1,10 @@
+{
+  "*.js": ["prettier --write", "git add"],
+  "*.json": ["prettier --write", "git add"],
+  "gitmojis.json": [
+    "jsonlint -V src/data/schema.json",
+    "prettier --write",
+    "git add"
+  ],
+  "*.scss": ["prettier --write", "git add"]
+}
