@@ -14,19 +14,16 @@
 	</a>
 </p>
 
+## What is `updated-gitmoji`?
+
+`updated-gitmoji` is a fork of `carloscuesta/gitmoji` which tries to expand the emoji collection, as the official repo isn't really being maintained that much and there are many pull requests at the moment which haven't been merged.
+Most Links in the Readme still link to the original GitMoji, keep this in mind. The original Gitmoji can be found at [gitmoji.carloscuesta.me](https://gitmoji.carloscuesta.me), while updated-gitmoji is located at [gitmoji.crugg.de](http://gitmoji.crugg.de/)
+
 ## About
 
 [Gitmoji](https://gitmoji.carloscuesta.me) is an initiative to standardize and explain **the use of emojis on GitHub commit messages**.
 
 **Using emojis** on **commit messages** provides an **easy way** of **identifying the purpose or intention of a commit** with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to use emojis easier.
-
-## Using [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli)
-
-To use gitmojis from your command line install [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli). A gitmoji interactive client for using emojis on commit messages.
-
-```bash
-npm i -g gitmoji-cli
-```
 
 ## Contributing to gitmoji
 
