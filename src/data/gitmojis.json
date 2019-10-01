@@ -431,7 +431,14 @@
 			"entity": "&#127991;",
 			"code": ":label:",
 			"description": "Adding or updating types (Flow, TypeScript)",
-			"name": "label"		
+			"name": "label"
+		},
+		{
+			"emoji": "💫",
+			"entity": "&#128171;",
+			"code": ":dizzy:",
+			"description": "Add animations",
+			"name": "dizzy"
 		}
 	]
 }
