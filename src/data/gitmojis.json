@@ -431,7 +431,14 @@
 			"entity": "&#127991;",
 			"code": ":label:",
 			"description": "Adding or updating types (Flow, TypeScript)",
-			"name": "label"		
+			"name": "label"
+		},
+		{
+			"emoji": "💂",
+			"entity": "&#128130;",
+			"code": ":gard:",
+			"description": "Adding PR or Issue Template",
+			"name": "gard"
 		}
 	]
 }
