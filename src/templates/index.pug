@@ -23,7 +23,8 @@ html
 					| Tweet
 		main.wrap#gitmoji-list
 			each gitmoji_list, gitmoji_category in emojis.gitmojis
-				h5.gitmoji-category=gitmoji_category
+				unless gitmoji_category=="main"
+					h5.gitmoji-category=gitmoji_category
 				.row.center-xs
 					each gitmoji in gitmoji_list
 						article.emoji.col-xs-12.col-sm-6.col-md-3
