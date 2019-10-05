@@ -21,16 +21,18 @@ html
 					svg.icon.icon-twitter
 						use(xlink:href='#icon-twitter')
 					| Tweet
-		main.wrap
-			.row.center-xs#gitmoji-list
-				each gitmoji in emojis.gitmojis
-					article.emoji.col-xs-12.col-sm-6.col-md-3
-						.emoji-card
-							header(class=gitmoji.name+' emoji-header')
-								span(data-clipboard-text=gitmoji.code).emoji-icon.gitmoji=gitmoji.emoji
-							.emoji-info
-								code=gitmoji.code
-								p=gitmoji.description
+		main.wrap#gitmoji-list
+			each gitmoji_list, gitmoji_category in emojis.gitmojis
+				h5=gitmoji_category
+				.row.center-xs
+					each gitmoji in gitmoji_list
+						article.emoji.col-xs-12.col-sm-6.col-md-3
+							.emoji-card
+								header(class=gitmoji.name+' emoji-header')
+									span(data-clipboard-text=gitmoji.code).emoji-icon.gitmoji=gitmoji.emoji
+								.emoji-info
+									code=gitmoji.code
+									p=gitmoji.description
 		include _includes/_footer.pug
 	script(src='//cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js')
 	script
