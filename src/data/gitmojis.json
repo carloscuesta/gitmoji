@@ -177,6 +177,7 @@
 		},
 		{
 			"emoji":"📈",
+			"entity":"&#x1F4C8;",
 			"code":":chart_with_upwards_trend:",
 			"description":"Adding analytics or tracking code.",
 			"name":"chart-with-upwards-trend"
@@ -431,7 +432,7 @@
 			"entity": "&#127991;",
 			"code": ":label:",
 			"description": "Adding or updating types (Flow, TypeScript)",
-			"name": "label"		
+			"name": "label"
 		}
 	]
 }
