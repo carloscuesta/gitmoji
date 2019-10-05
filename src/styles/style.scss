@@ -180,6 +180,12 @@ main.wrap {
 	}
 }
 
+.gitmoji-category {
+	padding: 1.25rem;
+	font-size: 120%;
+	text-transform: capitalize;
+}
+
 .contributor {
 	&-picture {
 		max-width: 100%;
