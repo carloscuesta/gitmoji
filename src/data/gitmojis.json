@@ -176,6 +176,13 @@
 			"name":"construction-worker"
 		},
 		{
+			"emoji":"🐙",
+			"entity":"&#x1F419;",
+			"code":":octopus:",
+			"description":"Updating task runner tasks, project support utils or tooling.",
+			"name":"octopus"
+		},
+		{
 			"emoji":"📈",
 			"code":":chart_with_upwards_trend:",
 			"description":"Adding analytics or tracking code.",
