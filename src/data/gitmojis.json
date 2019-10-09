@@ -427,11 +427,11 @@
 			"name":"wheel-of-dharma"
 		},
 		{
-		    "emoji": "🏷️",
-		    "entity": "&#127991;",
-		    "code": ":label:",
-		    "description": "Adding or updating types (Flow, TypeScript)",
-		    "name": "label"		
+			"emoji": "🏷️",
+			"entity": "&#127991;",
+			"code": ":label:",
+			"description": "Adding or updating types (Flow, TypeScript)",
+			"name": "label"		
 		},
 		{
 			"emoji": "👾",
