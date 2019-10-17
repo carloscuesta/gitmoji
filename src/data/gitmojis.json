@@ -439,6 +439,13 @@
 			"code": ":seedling:",
 			"description": "Adding or updating seed files",
 			"name": "seedling"		
+		},
+		{
+			"emoji": "🚩",
+			"entity": "&#x1F6A9;",
+			"code": ":triangular_flag_on_post:",
+			"description": "Adding, updating, or removing feature flags",
+			"name": "triangular-flag-on-post"
 		}
 	]
 }
