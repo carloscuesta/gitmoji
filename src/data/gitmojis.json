@@ -120,6 +120,13 @@
 			"name":"green-apple"
 		},
 		{
+			"emoji":"🌍",
+			"entity":"&#x1F30D;",
+			"code":":earth_africa:",
+			"description":"Fixing something on web.",
+			"name":"web"
+		},
+		{
 			"emoji":"🔖",
 			"entity":"&#x1f516;",
 			"code":":bookmark:",
@@ -431,14 +438,14 @@
 			"entity": "&#127991;",
 			"code": ":label:",
 			"description": "Adding or updating types (Flow, TypeScript)",
-			"name": "label"		
+			"name": "label"
 		},
 		{
 			"emoji": "🌱",
 			"entity": "&#127793;",
 			"code": ":seedling:",
 			"description": "Adding or updating seed files",
-			"name": "seedling"		
+			"name": "seedling"
 		}
 	]
 }
