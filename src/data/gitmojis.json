@@ -439,6 +439,13 @@
 			"code": ":gard:",
 			"description": "Adding PR or Issue Template",
 			"name": "gard"
+		},
+		{
+			"emoji": "🌱",
+			"entity": "&#127793;",
+			"code": ":seedling:",
+			"description": "Adding or updating seed files",
+			"name": "seedling"		
 		}
 	]
 }
