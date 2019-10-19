@@ -438,7 +438,14 @@
 			"entity": "&#128171;",
 			"code": ":dizzy:",
 			"description": "Add animations",
-			"name": "dizzy"
+			"name": "dizzy"	
+		},
+		{
+			"emoji": "🌱",
+			"entity": "&#127793;",
+			"code": ":seedling:",
+			"description": "Adding or updating seed files",
+			"name": "seedling"		
 		}
 	]
 }
