@@ -431,14 +431,21 @@
 			"entity": "&#127991;",
 			"code": ":label:",
 			"description": "Adding or updating types (Flow, TypeScript)",
-			"name": "label"		
+			"name": "label"
 		},
 		{
 			"emoji": "🌱",
 			"entity": "&#127793;",
 			"code": ":seedling:",
 			"description": "Adding or updating seed files",
-			"name": "seedling"		
+			"name": "seedling"
+		},
+		{
+			"emoji":"🐭",
+			"entity":"&#x1F42D;",
+			"code":":mouse:",
+			"description":"Adding or updating a .editorconfig file",
+			"name":"art"
 		}
 	]
 }
