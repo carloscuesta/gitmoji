@@ -431,14 +431,14 @@
 			"entity": "&#127991;",
 			"code": ":label:",
 			"description": "Adding or updating types (Flow, TypeScript)",
-			"name": "label"		
+			"name": "label"
 		},
 		{
 			"emoji": "🌱",
 			"entity": "&#127793;",
 			"code": ":seedling:",
 			"description": "Adding or updating seed files",
-			"name": "seedling"		
+			"name": "seedling"
 		},
 		{
 			"emoji": "🚩",
@@ -446,6 +446,13 @@
 			"code": ":triangular_flag_on_post:",
 			"description": "Adding, updating, or removing feature flags",
 			"name": "triangular-flag-on-post"
+		},
+		{
+			"emoji": "💂",
+			"entity": "&#128130;",
+			"code": ":guardsman:",
+			"description": "Adding PR or issue template",
+			"name": "guardsman"
 		}
 	]
 }
