@@ -18,6 +18,10 @@
                   "id":"http://jsonschema.net/gitmojis/0/code",
                   "required": true
                },
+               "entity":{
+                  "type":"string",
+                  "id":"http://jsonschema.net/gitmojis/0/entity"
+               },
                "description":{
                   "type":"string",
                   "id":"http://jsonschema.net/gitmojis/0/description",
