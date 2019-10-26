@@ -1,140 +1,75 @@
-$yellow: #FFDD67;
-$lightGray: #EBEFF1;
-$white: #FFF;
+$yellow: #ffdd67;
+$lightGray: #ebeff1;
+$white: #fff;
 $menu: #ff5a79;
 $black: #000;
 $pink: #ff5a79;
 
 // Emoji colors
 
-$art: #ff7281;
-$arrowUp: #00E676;
-$arrowDown: #EF5350;
-$apple: #f94e43;
-$bookmark: #80DEEA;
-$bug: #8cd842;
-$checkeredFlag: #ff7281;
-$construction: #FFB74D;
-$fire: #ff9d44;
-$greenHeart: #c5e763;
-$lock: #ffce49;
-$memo: #00E676;
-$penguin: #fa9a3f;
-$rocket: #00a9f0;
-$rotatingLight: #536DFE;
-$sparkles: #ffe55f;
-$whiteCheckMark: #77e856;
-$wrench: #FFC400;
-$zap: #40C4FF;
-$constructionWorker: #64B5F6;
-$recycle: #77e856;
-$tada: #f74d5f;
-$lipstick: #80DEEA;
-$whale: #00cbe8;
-$heavyPlusSign: #00E676;
-$heavyMinusSign: #EF5350;
-$chartWithUpwardsTrend: #CEDAE6;
-$globeWithMeridians: #E7F4FF;
-$ambulance: #fb584a;
-$pencil: #ffce49;
-$poop: #a78674;
-$package: #fdd0ae;
-$alien: #c5e763;
-$truck: #ef584a;
-$rewind: #56d1d8;
-$twistedRightwardsArrows: #56d1d8;
-$pageFacingUp: #d9e3e8;
-$bento : #ff5864;
-$boom: #f94f28;
-$okHand: #c5e763;
-$wheelchair: #00b1fb;
-$bulb: #ffce49;
-$beers: #fbb64b;
-$speechBalloon: #CEDAE6;
-$cardFileBox: #c5e763;
-$appleiOS: #8dc448;
-$robot: #39c2f1;
-$mute: #e6ebef;
-$loadSound: #23b4d2;
-$bustsInSilhouette: #d9e3e8;
-$chidrenCrossing: #ffce49;
-$pushpin: #39c2f1;
-$buildingConstruction: #ffe55f;
-$iphone: #40C4FF;
-$clownFace: #ff7281;
-$egg: #77e856;
-$seeNoEvil: #8bdfe7;
-$cameraFlash: #00a9f0;
-$alembic: #7f39fb;
-$mag: #ffe55f;
-$wheelOfDarma: #40C4FF;
-$label: #cb63e6;
-$seedling: #c5e763;
-$triangularFlagOnPost: #ffce49;
-
 $gitmojis: (
-	art: $art,
-	apple: $apple,
-	bookmark: $bookmark,
-	bug: $bug,
-	checkered-flag: $checkeredFlag,
-	construction: $construction,
-	fire: $fire,
-	green-heart: $greenHeart,
-	lock: $lock,
-	memo: $memo,
-	penguin: $penguin,
-	rocket: $rocket,
-	rotating-light: $rotatingLight,
-	sparkles: $sparkles,
-	white-check-mark: $whiteCheckMark,
-	wrench: $wrench,
-	zap: $zap,
-	construction-worker: $constructionWorker,
-	arrow-up: $arrowUp,
-	arrow-down: $arrowDown,
-	recycle: $recycle,
-	tada: $tada,
-	lipstick: $lipstick,
-	whale: $whale,
-	heavy-plus-sign: $heavyPlusSign,
-	heavy-minus-sign: $heavyMinusSign,
-	chart-with-upwards-trend: $chartWithUpwardsTrend,
-	globe-with-meridians: $globeWithMeridians,
-	ambulance: $ambulance,
-	pencil: $pencil,
-	poop: $poop,
-	package: $package,
-	alien: $alien,
-	truck: $truck,
-	rewind: $rewind,
-	twisted-rightwards-arrows: $twistedRightwardsArrows,
-	page-facing-up: $pageFacingUp,
-	bento: $bento,
-	boom: $boom,
-	ok-hand: $okHand,
-	wheelchair: $wheelchair,
-	bulb: $bulb,
-	beers: $beers,
-	speech-balloon: $speechBalloon,
-	card-file-box: $cardFileBox,
-	green-apple: $appleiOS,
-	robot: $robot,
-	mute: $mute,
-	loud-sound: $loadSound,
-	busts-in-silhouette: $bustsInSilhouette,
-	children-crossing: $chidrenCrossing,
-	pushpin: $pushpin,
-	building-construction: $buildingConstruction,
-	iphone: $iphone,
-	clown-face: $clownFace,
-  egg: $egg,
-	see-no-evil: $seeNoEvil,
-  camera-flash: $cameraFlash,
-  alembic: $alembic,
-	mag: $mag,
-	wheel-of-dharma: $wheelOfDarma,
-	label: $label,
-	seedling: $seedling,
-	triangular-flag-on-post: $triangularFlagOnPost,
-)
+  alembic: #7f39fb,
+  alien: #c5e763,
+  ambulance: #fb584a,
+  apple: #f94e43,
+  arrow-down: #8dc448,
+  arrow-up: #ef5350,
+  art: #00e676,
+  beers: #ff7281,
+  bento: #fbb64b,
+  bookmark: #ff5864,
+  boom: #80deea,
+  bug: #f94f28,
+  building-construction: #8cd842,
+  bulb: #ffe55f,
+  busts-in-silhouette: #ffce49,
+  camera-flash: #d9e3e8,
+  card-file-box: #00a9f0,
+  chart-with-upwards-trend: #c5e763,
+  checkered-flag: #cedae6,
+  children-crossing: #ff7281,
+  clown-face: #ffce49,
+  construction-worker: #ff7281,
+  construction: #ffb74d,
+  egg: #64b5f6,
+  fire: #77e856,
+  globe-with-meridians: #ff9d44,
+  green-apple: #e7f4ff,
+  green-heart: #c5e763,
+  heavy-minus-sign: #ef5350,
+  heavy-plus-sign: #00e676,
+  iphone: #40c4ff,
+  label: #cb63e6,
+  lipstick: #80deea,
+  lock: #23b4d2,
+  loud-sound: #ffce49,
+  mag: #ffe55f,
+  memo: #00e676,
+  mute: #e6ebef,
+  ok-hand: #c5e763,
+  package: #fdd0ae,
+  page-facing-up: #d9e3e8,
+  pencil: #ffce49,
+  penguin: #fa9a3f,
+  poop: #a78674,
+  pushpin: #39c2f1,
+  recycle: #77e856,
+  rewind: #56d1d8,
+  robot: #39c2f1,
+  rocket: #00a9f0,
+  rotating-light: #536dfe,
+  see-no-evil: #c5e763,
+  seedling: #8bdfe7,
+  sparkles: #ffe55f,
+  speech-balloon: #cedae6,
+  tada: #f74d5f,
+  triangular-flag-on-post: #ffce49,
+  truck: #ef584a,
+  twisted-rightwards-arrows: #56d1d8,
+  whale: #00cbe8,
+  wheel-of-dharma: #00b1fb,
+  wheelchair: #40c4ff,
+  white-check-mark: #77e856,
+  wrench: #ffc400,
+  zap: #40c4ff
+);

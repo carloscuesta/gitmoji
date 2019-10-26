@@ -1,0 +1,2875 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages About should render the page 1`] = `
+Array [
+  <svg
+    height={0}
+    style={
+      Object {
+        "height": 0,
+        "position": "absolute",
+        "width": 0,
+      }
+    }
+    version="1.1"
+    width={0}
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <defs>
+      <symbol
+        id="icon-heart"
+        viewBox="0 0 64 64"
+      >
+        <title>
+          heart
+        </title>
+        <path
+          className="heart"
+          d="m61.1 18.2c-6.4-17-27.2-9.4-29.1-.9-2.6-9-22.9-15.7-29.1.9-6.9 18.5 26.7 35.1 29.1 37.8 2.4-2.2 36-19.6 29.1-37.8"
+          fill="#ff5a79"
+        />
+      </symbol>
+      <symbol
+        id="icon-star"
+        viewBox="0 0 64 64"
+      >
+        <title>
+          star
+        </title>
+        <path
+          className="twitter"
+          d="M62,25.2H39.1L32,3l-7.1,22.2H2l18.5,13.7l-7,22.1L32,47.3L50.5,61l-7.1-22.2L62,25.2z"
+          fill="#FFDD67"
+        />
+      </symbol>
+      <symbol
+        id="icon-twitter"
+        viewBox="0 0 64 64"
+      >
+        <title>
+          twitter
+        </title>
+        <g
+          fill="#42ade2"
+        >
+          <path
+            d="m59.8 24.3c0 0 1.1-6.2-3.5-3.4 0 0-.4-6.3-4.3-1.9 0 0-2.1-3.9-4.4-.3-3.1 4.8-5.2 12.4-3.2 25l3.8-2.5c2.7-7.9 12.4-8.8 13.7-13.1.9-3-2.1-3.8-2.1-3.8"
+          />
+          <path
+            d="m22.1 17.6l-9.9 3.6c2.2-12 16.6-11.2 16.6-11.2s-6.8 3.2-6.7 7.6"
+          />
+          <path
+            d="m23.7 19.8l-10.5 1.4c4.8-11.2 18.7-7.3 18.7-7.3s-7.3 1.6-8.2 5.9"
+          />
+        </g>
+        <g
+          fill="#ffd93b"
+        >
+          <path
+            d="m2 29l5.4-1.4v3.6c0-.1-3.3-.6-5.4-2.2"
+          />
+          <path
+            d="M7.4,27.5L2,24.8c3.6-2.8,7.7-1.9,7.7-1.9L7.4,27.5z"
+          />
+        </g>
+        <g
+          fill="#e08828"
+        >
+          <path
+            d="m33.8 53h-2.1v7.9c-.3.1-2.1-.1-2.9-.1-1.8 0-3.3 1.3-3.3 1.3h8.3v-9.1"
+          />
+          <path
+            d="m25 53h-2.1v7.9c-.3.1-2.1-.1-2.9-.1-1.8 0-3.3 1.3-3.3 1.3h8.3v-9.1"
+          />
+          <path
+            d="m54 36.2c3.9 0-4.1 17.5-23.3 17.5-13 0-23.9-5.2-23.9-21.5 0-10.1 6.4-18.3 19.5-15 13.3 3.5 6.5 19 27.7 19"
+            fill="#42ade2"
+          />
+          <path
+            d="m37.6 51.7c-15.6 0-14-12-27.9-11.2 5.1 15.8 27.9 11.2 27.9 11.2"
+            fill="#fff"
+          />
+          <path
+            d="m39.1 29.2c-10-9.8-20.2 6.2-7.9 12.6 12.1 6.2 20.4-4.8 20.4-4.8s-6.1-1.5-12.5-7.8"
+            fill="#297b9d"
+          />
+        </g>
+        <circle
+          cx="15.1"
+          cy="24.9"
+          fill="#3e4347"
+          r="2.5"
+        />
+      </symbol>
+    </defs>
+  </svg>,
+  <nav
+    className="nav row middle-xs"
+  >
+    <input
+      className="c-hamburger__input"
+      id="hamburger-menu"
+      type="checkbox"
+    />
+    <label
+      className="c-hamburger c-hamburger--htx"
+      htmlFor="hamburger-menu"
+    >
+      <span />
+    </label>
+    <div
+      className="modal"
+    >
+      <div
+        className="modal-content"
+      >
+        <ul
+          className="navigation"
+        >
+          <li
+            className="item"
+          >
+            <a
+              href="/"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li
+            className="item"
+          >
+            <a
+              href="/about"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+            >
+              About
+            </a>
+          </li>
+          <li
+            className="item"
+          >
+            <a
+              href="/contributors"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Contributors
+            </a>
+          </li>
+          <li
+            className="item"
+          >
+            <a
+              href="https://github.com/carloscuesta/gitmoji"
+              onMouseDown={[Function]}
+            >
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <header
+    className="header"
+  >
+    <svg
+      className="gitmoji-logo"
+      height="137px"
+      version="1.1"
+      viewBox="0 0 457 137"
+      width="457px"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <title>
+        gitmoji
+      </title>
+      <g
+        fill="none"
+        fillRule="evenodd"
+        id="gitmoji"
+      >
+        <g
+          id="Logo"
+          transform="translate(-270 -430)"
+        >
+          <g
+            id="gitmoji"
+            transform="translate(270 430)"
+          >
+            <path
+              d="m17.5 106c0.6 4 2.4 7 5.3 10 2.9 2 6.6 4 11.2 4 6.1 0 10.7-2 14-5s4.9-8 4.9-15.1v-5.1c-1.5 2.3-3.8 4.4-7.1 6.2-3.2 2-7.5 3-12.6 3-4.7 0-9.1-1-13.1-3-4.1-1.5-7.6-3.9-10.5-7-2.91-3-5.22-6.7-6.9-10.8-1.68-4.2-2.52-8.8-2.52-13.8 0.004-4.7 0.82-9.1 2.45-13.3s3.89-7.9 6.77-11c2.9-3.2 6.3-5.7 10.4-7.5 4-1.8 8.5-2.7 13.4-2.7 5.6 0 10.1 1 13.4 3 3.2 2 5.5 4.2 6.7 6.6v-8.3h18.5v63.2c0 4.6-0.7 9.6-2.1 13.6-1.4 5-3.6 9-6.6 12-3 4-6.8 6-11.5 8s-10.4 4-17 4c-4.9 0-9.3-1-13.3-3-4-1-7.5-3-10.5-5-2.94-3-5.34-5-7.16-8-1.82-4-2.98-7-3.46-10l17.3-5zm19-18.6c4.9 0 8.9-1.6 12-4.9 3.1-3.2 4.7-7.6 4.7-13.1s-1.7-9.8-4.9-13c-3.3-3.2-7.2-4.8-11.8-4.8-2.4 0-4.7 0.4-6.7 1.2-2.1 0.8-3.9 2-5.4 3.6-1.6 1.6-2.8 3.5-3.6 5.7-0.9 2.2-1.3 4.6-1.3 7.3 0 5.6 1.6 10 4.7 13.2 3.2 3.2 7.3 4.8 12.3 4.8zm54.7 19.6v-70.8h18.8v70.8h-18.8zm-2.3-94c0-3.39 1.1-6.22 3.4-8.53 2.3-2.3 5.1-3.45 8.7-3.45 3 0 6 1.15 8 3.45 2 2.31 4 5.14 4 8.53 0 3.1-2 5.9-4 8.2s-5 3.4-8 3.4c-3.6 0-6.4-1.1-8.7-3.4s-3.4-5.1-3.4-8.2zm65.1 23.2h15v16.9h-15v29.7c0 3.1 1 5.2 2 6.4 2 1.2 4 1.8 7 1.8 1 0 2 0 3-0.1s2-0.3 3-0.5v15.6c-1 1-3 1-4 1-2 1-4 1-7 1-7 0-13-2-17-6-4-3.6-6-9-6-15.9v-33h-12v-16.9h3c4 0 7-1.1 8-3.3 2-2.1 3-4.8 3-8v-9.9h17v21.2zm30 70.8v-70.8h18v8.6c1-1.7 2-3.3 4-4.6 1-1.4 3-2.5 5-3.3 2-0.9 4-1.6 6-2 2-0.5 4-0.8 6-0.8 5 0 9 1 13 3.1 3 2 6 4.9 8 8.7 3-4.3 6-7.3 10-9.1s8-2.7 12-2.7 7 0.5 10 1.5c3 1.1 6 2.7 8 4.9 3 2.2 4 5 6 8.4 1 3.4 2 7.5 2 12.2v45.9h-19v-42c0-3.9 0-7.1-2-9.6-2-2.6-6-3.8-10-3.8s-7 1.3-10 4.1c-2 2.7-3 6-3 9.8v41.5h-19v-42c0-3.9-1-7.1-3-9.6-2-2.6-5-3.8-10-3.8-4 0-7 1.3-9 4-3 2.7-4 6-4 9.9v41.5h-19zm159-15.3c3 0 5-0.4 7-1.3 2-0.8 4-2.1 6-3.8 1-1.7 3-3.7 4-6.2s1-5.5 1-8.8c0-3.4 0-6.3-1-8.8s-3-4.6-4-6.3c-2-1.7-4-2.9-6-3.8s-4-1.3-7-1.3c-2 0-4 0.4-6 1.3-3 0.9-5 2.1-6 3.8-2 1.7-3 3.8-4 6.3s-2 5.4-2 8.8c0 3.3 1 6.3 2 8.8s2 4.5 4 6.2c1 1.7 3 3 6 3.8 2 0.9 4 1.3 6 1.3zm0-57.7c6 0 11 0.9 15 2.8 5 1.9 9 4.5 12 7.8s6 7.2 8 11.9c2 4.6 2 9.6 2 15.1 0 5.4 0 10.5-2 15-2 4.6-5 8.5-8 11.9-3 3.5-7 5.5-12 7.5-4 2-9 3-15 3-5 0-10-1-14-3-5-2-9-4-12-7.5-4-3.4-6-7.3-8-11.9-2-4.5-3-9.6-3-15 0-5.5 1-10.5 3-15.1 2-4.7 4-8.6 8-11.9 3-3.3 7-5.9 12-7.8 4-1.9 9-2.8 14-2.8zm53 2.2h19v76.8c0 4-1 7-2 10-1 2-2 5-4 7s-4 4-7 5-6 2-9 2-6-1-8-1c-2-1-3-1-3-1v-16h2c1 1 2 1 4 1 3 0 5-1 6-3 1-1 2-3 2-6v-74.8zm-3-23.4c0-3.34 1-6.17 4-8.47 2-2.31 5-3.46 8-3.46 3 0.002 6 1.15 9 3.46 2 2.3 3 5.13 3 8.47 0 3.3-1 6-3 8.3-3 2.3-6 3.4-9 3.4s-6-1.1-8-3.4c-3-2.3-4-5-4-8.3zm42 94.2v-70.8h19v70.8h-19zm-2-94c0-3.39 1-6.22 3-8.53 3-2.3 5-3.45 9-3.45 3 0 6 1.15 8 3.45 2 2.31 4 5.14 4 8.53 0 3.1-2 5.9-4 8.2s-5 3.4-8 3.4c-4 0-6-1.1-9-3.4-2-2.3-3-5.1-3-8.2z"
+              fill="#000"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+    <h2>
+      An emoji guide for your commit messages
+    </h2>
+  </header>,
+  <main
+    className="wrap"
+  >
+    <section>
+      <h1>
+        About
+      </h1>
+      <p>
+        <strong>
+          Gitmoji is an emoji guide for GitHub commit messages
+        </strong>
+        . Aims to be a standarization cheatsheet - guide for using
+         
+        <a
+          href="https://emoji.muan.co"
+        >
+          emojis
+        </a>
+         on GitHub's commit messages.
+      </p>
+      <p>
+        <strong>
+          Using emojis
+        </strong>
+         on 
+        <strong>
+          commit messages
+        </strong>
+         
+        provides an 
+        <strong>
+          easy way
+        </strong>
+         of
+         
+        <strong>
+          identifying the purpose or intention of a commit
+        </strong>
+         with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to use emojis easier.
+      </p>
+      <p>
+        This project is Open Source, that means everyone can participate, suggesting, discussing and adding new emojis. Take a look at the
+         
+        <a
+          href="#contributing-gitmoji"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          contributing section
+        </a>
+         
+        and
+         
+        <a
+          href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md"
+        >
+          guidelines for contributing
+        </a>
+        .
+      </p>
+      <div>
+        <a
+          className="btn btn-pink"
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+          GitHub
+        </a>
+        <a
+          className="btn btn-pink"
+          target="_blank"
+        >
+          <svg
+            className="icon icon-twitter"
+          >
+            <use
+              xlinkHref="#icon-twitter"
+            />
+          </svg>
+          Tweet
+        </a>
+      </div>
+    </section>
+    <section>
+      <h1>
+        Using gitmoji with
+         
+        <a
+          href="https://github.com/carloscuesta/gitmoji-cli"
+        >
+          gitmoji-cli
+        </a>
+      </h1>
+      <p>
+        An easy solution for using gitmoji from your command line, is to install
+         
+        <a
+          href="https://github.com/carloscuesta/gitmoji-cli"
+        >
+          gitmoji-cli
+        </a>
+        . A gitmoji interactive client for using emojis on commit messages.
+      </p>
+      <pre>
+        <code>
+          $ npm i -g gitmoji-cli
+        </code>
+      </pre>
+    </section>
+    <section>
+      <h1
+        id="contributing-gitmoji"
+      >
+        Contributing to gitmoji
+      </h1>
+      <p>
+        Contributing to gitmoji it's a piece of cake 🍰! This project it's a static website built with 
+        <i>
+          Next.js
+        </i>
+        . All the gitmojis displayed are rendered from a JSON file. Before submitting any pull request, please follow the next steps:
+      </p>
+      <ol>
+        <li>
+          <a
+            href="https://github.com/carloscuesta/gitmoji/issues/new"
+          >
+            Create an issue
+          </a>
+           
+          filling the template.
+        </li>
+        <li>
+          After discussing the idea, feature or suggestion,
+           
+          <a
+            href="https://github.com/carloscuesta/gitmoji/fork"
+          >
+            fork gitmoji
+          </a>
+        </li>
+        <li>
+          Create a new branch with the feature name. (Eg: add-emoji-deploy, fix-website-header)
+        </li>
+        <li>
+          Make your changes and send a
+           
+          <a
+            href="https://help.github.com/articles/creating-a-pull-request/"
+          >
+            pull request
+             
+          </a>
+          .
+        </li>
+      </ol>
+    </section>
+  </main>,
+  <footer
+    className="footer"
+  >
+    <div
+      className="wrap"
+    >
+      <div
+        className="row middle-xs"
+      >
+        <div
+          className="col-sm-6 made-with-love"
+        >
+          <h3>
+            Made with 
+            <svg
+              className="icon icon-heart"
+            >
+              <use
+                xlinkHref="#icon-heart"
+              />
+            </svg>
+             by
+             
+            <a
+              href="https://carloscuesta.me"
+            >
+              Carlos Cuesta
+            </a>
+          </h3>
+        </div>
+        <div
+          className="col-sm-6 footer-nav"
+        >
+          <nav>
+            <a
+              href="/about"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              About
+            </a>
+            <a
+              href="/contributors"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Contributors
+            </a>
+            <a
+              href="https://github.com/carloscuesta/gitmoji"
+            >
+              GitHub
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>,
+]
+`;
+
+exports[`Pages Contributors should render the page 1`] = `
+Array [
+  <svg
+    height={0}
+    style={
+      Object {
+        "height": 0,
+        "position": "absolute",
+        "width": 0,
+      }
+    }
+    version="1.1"
+    width={0}
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <defs>
+      <symbol
+        id="icon-heart"
+        viewBox="0 0 64 64"
+      >
+        <title>
+          heart
+        </title>
+        <path
+          className="heart"
+          d="m61.1 18.2c-6.4-17-27.2-9.4-29.1-.9-2.6-9-22.9-15.7-29.1.9-6.9 18.5 26.7 35.1 29.1 37.8 2.4-2.2 36-19.6 29.1-37.8"
+          fill="#ff5a79"
+        />
+      </symbol>
+      <symbol
+        id="icon-star"
+        viewBox="0 0 64 64"
+      >
+        <title>
+          star
+        </title>
+        <path
+          className="twitter"
+          d="M62,25.2H39.1L32,3l-7.1,22.2H2l18.5,13.7l-7,22.1L32,47.3L50.5,61l-7.1-22.2L62,25.2z"
+          fill="#FFDD67"
+        />
+      </symbol>
+      <symbol
+        id="icon-twitter"
+        viewBox="0 0 64 64"
+      >
+        <title>
+          twitter
+        </title>
+        <g
+          fill="#42ade2"
+        >
+          <path
+            d="m59.8 24.3c0 0 1.1-6.2-3.5-3.4 0 0-.4-6.3-4.3-1.9 0 0-2.1-3.9-4.4-.3-3.1 4.8-5.2 12.4-3.2 25l3.8-2.5c2.7-7.9 12.4-8.8 13.7-13.1.9-3-2.1-3.8-2.1-3.8"
+          />
+          <path
+            d="m22.1 17.6l-9.9 3.6c2.2-12 16.6-11.2 16.6-11.2s-6.8 3.2-6.7 7.6"
+          />
+          <path
+            d="m23.7 19.8l-10.5 1.4c4.8-11.2 18.7-7.3 18.7-7.3s-7.3 1.6-8.2 5.9"
+          />
+        </g>
+        <g
+          fill="#ffd93b"
+        >
+          <path
+            d="m2 29l5.4-1.4v3.6c0-.1-3.3-.6-5.4-2.2"
+          />
+          <path
+            d="M7.4,27.5L2,24.8c3.6-2.8,7.7-1.9,7.7-1.9L7.4,27.5z"
+          />
+        </g>
+        <g
+          fill="#e08828"
+        >
+          <path
+            d="m33.8 53h-2.1v7.9c-.3.1-2.1-.1-2.9-.1-1.8 0-3.3 1.3-3.3 1.3h8.3v-9.1"
+          />
+          <path
+            d="m25 53h-2.1v7.9c-.3.1-2.1-.1-2.9-.1-1.8 0-3.3 1.3-3.3 1.3h8.3v-9.1"
+          />
+          <path
+            d="m54 36.2c3.9 0-4.1 17.5-23.3 17.5-13 0-23.9-5.2-23.9-21.5 0-10.1 6.4-18.3 19.5-15 13.3 3.5 6.5 19 27.7 19"
+            fill="#42ade2"
+          />
+          <path
+            d="m37.6 51.7c-15.6 0-14-12-27.9-11.2 5.1 15.8 27.9 11.2 27.9 11.2"
+            fill="#fff"
+          />
+          <path
+            d="m39.1 29.2c-10-9.8-20.2 6.2-7.9 12.6 12.1 6.2 20.4-4.8 20.4-4.8s-6.1-1.5-12.5-7.8"
+            fill="#297b9d"
+          />
+        </g>
+        <circle
+          cx="15.1"
+          cy="24.9"
+          fill="#3e4347"
+          r="2.5"
+        />
+      </symbol>
+    </defs>
+  </svg>,
+  <nav
+    className="nav row middle-xs"
+  >
+    <input
+      className="c-hamburger__input"
+      id="hamburger-menu"
+      type="checkbox"
+    />
+    <label
+      className="c-hamburger c-hamburger--htx"
+      htmlFor="hamburger-menu"
+    >
+      <span />
+    </label>
+    <div
+      className="modal"
+    >
+      <div
+        className="modal-content"
+      >
+        <ul
+          className="navigation"
+        >
+          <li
+            className="item"
+          >
+            <a
+              href="/"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li
+            className="item"
+          >
+            <a
+              href="/about"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+            >
+              About
+            </a>
+          </li>
+          <li
+            className="item"
+          >
+            <a
+              href="/contributors"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Contributors
+            </a>
+          </li>
+          <li
+            className="item"
+          >
+            <a
+              href="https://github.com/carloscuesta/gitmoji"
+              onMouseDown={[Function]}
+            >
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <header
+    className="header"
+  >
+    <svg
+      className="gitmoji-logo"
+      height="137px"
+      version="1.1"
+      viewBox="0 0 457 137"
+      width="457px"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <title>
+        gitmoji
+      </title>
+      <g
+        fill="none"
+        fillRule="evenodd"
+        id="gitmoji"
+      >
+        <g
+          id="Logo"
+          transform="translate(-270 -430)"
+        >
+          <g
+            id="gitmoji"
+            transform="translate(270 430)"
+          >
+            <path
+              d="m17.5 106c0.6 4 2.4 7 5.3 10 2.9 2 6.6 4 11.2 4 6.1 0 10.7-2 14-5s4.9-8 4.9-15.1v-5.1c-1.5 2.3-3.8 4.4-7.1 6.2-3.2 2-7.5 3-12.6 3-4.7 0-9.1-1-13.1-3-4.1-1.5-7.6-3.9-10.5-7-2.91-3-5.22-6.7-6.9-10.8-1.68-4.2-2.52-8.8-2.52-13.8 0.004-4.7 0.82-9.1 2.45-13.3s3.89-7.9 6.77-11c2.9-3.2 6.3-5.7 10.4-7.5 4-1.8 8.5-2.7 13.4-2.7 5.6 0 10.1 1 13.4 3 3.2 2 5.5 4.2 6.7 6.6v-8.3h18.5v63.2c0 4.6-0.7 9.6-2.1 13.6-1.4 5-3.6 9-6.6 12-3 4-6.8 6-11.5 8s-10.4 4-17 4c-4.9 0-9.3-1-13.3-3-4-1-7.5-3-10.5-5-2.94-3-5.34-5-7.16-8-1.82-4-2.98-7-3.46-10l17.3-5zm19-18.6c4.9 0 8.9-1.6 12-4.9 3.1-3.2 4.7-7.6 4.7-13.1s-1.7-9.8-4.9-13c-3.3-3.2-7.2-4.8-11.8-4.8-2.4 0-4.7 0.4-6.7 1.2-2.1 0.8-3.9 2-5.4 3.6-1.6 1.6-2.8 3.5-3.6 5.7-0.9 2.2-1.3 4.6-1.3 7.3 0 5.6 1.6 10 4.7 13.2 3.2 3.2 7.3 4.8 12.3 4.8zm54.7 19.6v-70.8h18.8v70.8h-18.8zm-2.3-94c0-3.39 1.1-6.22 3.4-8.53 2.3-2.3 5.1-3.45 8.7-3.45 3 0 6 1.15 8 3.45 2 2.31 4 5.14 4 8.53 0 3.1-2 5.9-4 8.2s-5 3.4-8 3.4c-3.6 0-6.4-1.1-8.7-3.4s-3.4-5.1-3.4-8.2zm65.1 23.2h15v16.9h-15v29.7c0 3.1 1 5.2 2 6.4 2 1.2 4 1.8 7 1.8 1 0 2 0 3-0.1s2-0.3 3-0.5v15.6c-1 1-3 1-4 1-2 1-4 1-7 1-7 0-13-2-17-6-4-3.6-6-9-6-15.9v-33h-12v-16.9h3c4 0 7-1.1 8-3.3 2-2.1 3-4.8 3-8v-9.9h17v21.2zm30 70.8v-70.8h18v8.6c1-1.7 2-3.3 4-4.6 1-1.4 3-2.5 5-3.3 2-0.9 4-1.6 6-2 2-0.5 4-0.8 6-0.8 5 0 9 1 13 3.1 3 2 6 4.9 8 8.7 3-4.3 6-7.3 10-9.1s8-2.7 12-2.7 7 0.5 10 1.5c3 1.1 6 2.7 8 4.9 3 2.2 4 5 6 8.4 1 3.4 2 7.5 2 12.2v45.9h-19v-42c0-3.9 0-7.1-2-9.6-2-2.6-6-3.8-10-3.8s-7 1.3-10 4.1c-2 2.7-3 6-3 9.8v41.5h-19v-42c0-3.9-1-7.1-3-9.6-2-2.6-5-3.8-10-3.8-4 0-7 1.3-9 4-3 2.7-4 6-4 9.9v41.5h-19zm159-15.3c3 0 5-0.4 7-1.3 2-0.8 4-2.1 6-3.8 1-1.7 3-3.7 4-6.2s1-5.5 1-8.8c0-3.4 0-6.3-1-8.8s-3-4.6-4-6.3c-2-1.7-4-2.9-6-3.8s-4-1.3-7-1.3c-2 0-4 0.4-6 1.3-3 0.9-5 2.1-6 3.8-2 1.7-3 3.8-4 6.3s-2 5.4-2 8.8c0 3.3 1 6.3 2 8.8s2 4.5 4 6.2c1 1.7 3 3 6 3.8 2 0.9 4 1.3 6 1.3zm0-57.7c6 0 11 0.9 15 2.8 5 1.9 9 4.5 12 7.8s6 7.2 8 11.9c2 4.6 2 9.6 2 15.1 0 5.4 0 10.5-2 15-2 4.6-5 8.5-8 11.9-3 3.5-7 5.5-12 7.5-4 2-9 3-15 3-5 0-10-1-14-3-5-2-9-4-12-7.5-4-3.4-6-7.3-8-11.9-2-4.5-3-9.6-3-15 0-5.5 1-10.5 3-15.1 2-4.7 4-8.6 8-11.9 3-3.3 7-5.9 12-7.8 4-1.9 9-2.8 14-2.8zm53 2.2h19v76.8c0 4-1 7-2 10-1 2-2 5-4 7s-4 4-7 5-6 2-9 2-6-1-8-1c-2-1-3-1-3-1v-16h2c1 1 2 1 4 1 3 0 5-1 6-3 1-1 2-3 2-6v-74.8zm-3-23.4c0-3.34 1-6.17 4-8.47 2-2.31 5-3.46 8-3.46 3 0.002 6 1.15 9 3.46 2 2.3 3 5.13 3 8.47 0 3.3-1 6-3 8.3-3 2.3-6 3.4-9 3.4s-6-1.1-8-3.4c-3-2.3-4-5-4-8.3zm42 94.2v-70.8h19v70.8h-19zm-2-94c0-3.39 1-6.22 3-8.53 3-2.3 5-3.45 9-3.45 3 0 6 1.15 8 3.45 2 2.31 4 5.14 4 8.53 0 3.1-2 5.9-4 8.2s-5 3.4-8 3.4c-4 0-6-1.1-9-3.4-2-2.3-3-5.1-3-8.2z"
+              fill="#000"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+    <h2>
+      An emoji guide for your commit messages
+    </h2>
+  </header>,
+  <main
+    className="wrap"
+  >
+    <section>
+      <h1>
+        Contributors
+      </h1>
+      <div
+        className="row center-xs"
+      />
+    </section>
+  </main>,
+  <footer
+    className="footer"
+  >
+    <div
+      className="wrap"
+    >
+      <div
+        className="row middle-xs"
+      >
+        <div
+          className="col-sm-6 made-with-love"
+        >
+          <h3>
+            Made with 
+            <svg
+              className="icon icon-heart"
+            >
+              <use
+                xlinkHref="#icon-heart"
+              />
+            </svg>
+             by
+             
+            <a
+              href="https://carloscuesta.me"
+            >
+              Carlos Cuesta
+            </a>
+          </h3>
+        </div>
+        <div
+          className="col-sm-6 footer-nav"
+        >
+          <nav>
+            <a
+              href="/about"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              About
+            </a>
+            <a
+              href="/contributors"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Contributors
+            </a>
+            <a
+              href="https://github.com/carloscuesta/gitmoji"
+            >
+              GitHub
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>,
+]
+`;
+
+exports[`Pages Index should render the page 1`] = `
+Array [
+  <svg
+    height={0}
+    style={
+      Object {
+        "height": 0,
+        "position": "absolute",
+        "width": 0,
+      }
+    }
+    version="1.1"
+    width={0}
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <defs>
+      <symbol
+        id="icon-heart"
+        viewBox="0 0 64 64"
+      >
+        <title>
+          heart
+        </title>
+        <path
+          className="heart"
+          d="m61.1 18.2c-6.4-17-27.2-9.4-29.1-.9-2.6-9-22.9-15.7-29.1.9-6.9 18.5 26.7 35.1 29.1 37.8 2.4-2.2 36-19.6 29.1-37.8"
+          fill="#ff5a79"
+        />
+      </symbol>
+      <symbol
+        id="icon-star"
+        viewBox="0 0 64 64"
+      >
+        <title>
+          star
+        </title>
+        <path
+          className="twitter"
+          d="M62,25.2H39.1L32,3l-7.1,22.2H2l18.5,13.7l-7,22.1L32,47.3L50.5,61l-7.1-22.2L62,25.2z"
+          fill="#FFDD67"
+        />
+      </symbol>
+      <symbol
+        id="icon-twitter"
+        viewBox="0 0 64 64"
+      >
+        <title>
+          twitter
+        </title>
+        <g
+          fill="#42ade2"
+        >
+          <path
+            d="m59.8 24.3c0 0 1.1-6.2-3.5-3.4 0 0-.4-6.3-4.3-1.9 0 0-2.1-3.9-4.4-.3-3.1 4.8-5.2 12.4-3.2 25l3.8-2.5c2.7-7.9 12.4-8.8 13.7-13.1.9-3-2.1-3.8-2.1-3.8"
+          />
+          <path
+            d="m22.1 17.6l-9.9 3.6c2.2-12 16.6-11.2 16.6-11.2s-6.8 3.2-6.7 7.6"
+          />
+          <path
+            d="m23.7 19.8l-10.5 1.4c4.8-11.2 18.7-7.3 18.7-7.3s-7.3 1.6-8.2 5.9"
+          />
+        </g>
+        <g
+          fill="#ffd93b"
+        >
+          <path
+            d="m2 29l5.4-1.4v3.6c0-.1-3.3-.6-5.4-2.2"
+          />
+          <path
+            d="M7.4,27.5L2,24.8c3.6-2.8,7.7-1.9,7.7-1.9L7.4,27.5z"
+          />
+        </g>
+        <g
+          fill="#e08828"
+        >
+          <path
+            d="m33.8 53h-2.1v7.9c-.3.1-2.1-.1-2.9-.1-1.8 0-3.3 1.3-3.3 1.3h8.3v-9.1"
+          />
+          <path
+            d="m25 53h-2.1v7.9c-.3.1-2.1-.1-2.9-.1-1.8 0-3.3 1.3-3.3 1.3h8.3v-9.1"
+          />
+          <path
+            d="m54 36.2c3.9 0-4.1 17.5-23.3 17.5-13 0-23.9-5.2-23.9-21.5 0-10.1 6.4-18.3 19.5-15 13.3 3.5 6.5 19 27.7 19"
+            fill="#42ade2"
+          />
+          <path
+            d="m37.6 51.7c-15.6 0-14-12-27.9-11.2 5.1 15.8 27.9 11.2 27.9 11.2"
+            fill="#fff"
+          />
+          <path
+            d="m39.1 29.2c-10-9.8-20.2 6.2-7.9 12.6 12.1 6.2 20.4-4.8 20.4-4.8s-6.1-1.5-12.5-7.8"
+            fill="#297b9d"
+          />
+        </g>
+        <circle
+          cx="15.1"
+          cy="24.9"
+          fill="#3e4347"
+          r="2.5"
+        />
+      </symbol>
+    </defs>
+  </svg>,
+  <nav
+    className="nav row middle-xs"
+  >
+    <input
+      className="c-hamburger__input"
+      id="hamburger-menu"
+      type="checkbox"
+    />
+    <label
+      className="c-hamburger c-hamburger--htx"
+      htmlFor="hamburger-menu"
+    >
+      <span />
+    </label>
+    <div
+      className="modal"
+    >
+      <div
+        className="modal-content"
+      >
+        <ul
+          className="navigation"
+        >
+          <li
+            className="item"
+          >
+            <a
+              href="/"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li
+            className="item"
+          >
+            <a
+              href="/about"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+            >
+              About
+            </a>
+          </li>
+          <li
+            className="item"
+          >
+            <a
+              href="/contributors"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Contributors
+            </a>
+          </li>
+          <li
+            className="item"
+          >
+            <a
+              href="https://github.com/carloscuesta/gitmoji"
+              onMouseDown={[Function]}
+            >
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <header
+    className="header"
+  >
+    <svg
+      className="gitmoji-logo"
+      height="137px"
+      version="1.1"
+      viewBox="0 0 457 137"
+      width="457px"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <title>
+        gitmoji
+      </title>
+      <g
+        fill="none"
+        fillRule="evenodd"
+        id="gitmoji"
+      >
+        <g
+          id="Logo"
+          transform="translate(-270 -430)"
+        >
+          <g
+            id="gitmoji"
+            transform="translate(270 430)"
+          >
+            <path
+              d="m17.5 106c0.6 4 2.4 7 5.3 10 2.9 2 6.6 4 11.2 4 6.1 0 10.7-2 14-5s4.9-8 4.9-15.1v-5.1c-1.5 2.3-3.8 4.4-7.1 6.2-3.2 2-7.5 3-12.6 3-4.7 0-9.1-1-13.1-3-4.1-1.5-7.6-3.9-10.5-7-2.91-3-5.22-6.7-6.9-10.8-1.68-4.2-2.52-8.8-2.52-13.8 0.004-4.7 0.82-9.1 2.45-13.3s3.89-7.9 6.77-11c2.9-3.2 6.3-5.7 10.4-7.5 4-1.8 8.5-2.7 13.4-2.7 5.6 0 10.1 1 13.4 3 3.2 2 5.5 4.2 6.7 6.6v-8.3h18.5v63.2c0 4.6-0.7 9.6-2.1 13.6-1.4 5-3.6 9-6.6 12-3 4-6.8 6-11.5 8s-10.4 4-17 4c-4.9 0-9.3-1-13.3-3-4-1-7.5-3-10.5-5-2.94-3-5.34-5-7.16-8-1.82-4-2.98-7-3.46-10l17.3-5zm19-18.6c4.9 0 8.9-1.6 12-4.9 3.1-3.2 4.7-7.6 4.7-13.1s-1.7-9.8-4.9-13c-3.3-3.2-7.2-4.8-11.8-4.8-2.4 0-4.7 0.4-6.7 1.2-2.1 0.8-3.9 2-5.4 3.6-1.6 1.6-2.8 3.5-3.6 5.7-0.9 2.2-1.3 4.6-1.3 7.3 0 5.6 1.6 10 4.7 13.2 3.2 3.2 7.3 4.8 12.3 4.8zm54.7 19.6v-70.8h18.8v70.8h-18.8zm-2.3-94c0-3.39 1.1-6.22 3.4-8.53 2.3-2.3 5.1-3.45 8.7-3.45 3 0 6 1.15 8 3.45 2 2.31 4 5.14 4 8.53 0 3.1-2 5.9-4 8.2s-5 3.4-8 3.4c-3.6 0-6.4-1.1-8.7-3.4s-3.4-5.1-3.4-8.2zm65.1 23.2h15v16.9h-15v29.7c0 3.1 1 5.2 2 6.4 2 1.2 4 1.8 7 1.8 1 0 2 0 3-0.1s2-0.3 3-0.5v15.6c-1 1-3 1-4 1-2 1-4 1-7 1-7 0-13-2-17-6-4-3.6-6-9-6-15.9v-33h-12v-16.9h3c4 0 7-1.1 8-3.3 2-2.1 3-4.8 3-8v-9.9h17v21.2zm30 70.8v-70.8h18v8.6c1-1.7 2-3.3 4-4.6 1-1.4 3-2.5 5-3.3 2-0.9 4-1.6 6-2 2-0.5 4-0.8 6-0.8 5 0 9 1 13 3.1 3 2 6 4.9 8 8.7 3-4.3 6-7.3 10-9.1s8-2.7 12-2.7 7 0.5 10 1.5c3 1.1 6 2.7 8 4.9 3 2.2 4 5 6 8.4 1 3.4 2 7.5 2 12.2v45.9h-19v-42c0-3.9 0-7.1-2-9.6-2-2.6-6-3.8-10-3.8s-7 1.3-10 4.1c-2 2.7-3 6-3 9.8v41.5h-19v-42c0-3.9-1-7.1-3-9.6-2-2.6-5-3.8-10-3.8-4 0-7 1.3-9 4-3 2.7-4 6-4 9.9v41.5h-19zm159-15.3c3 0 5-0.4 7-1.3 2-0.8 4-2.1 6-3.8 1-1.7 3-3.7 4-6.2s1-5.5 1-8.8c0-3.4 0-6.3-1-8.8s-3-4.6-4-6.3c-2-1.7-4-2.9-6-3.8s-4-1.3-7-1.3c-2 0-4 0.4-6 1.3-3 0.9-5 2.1-6 3.8-2 1.7-3 3.8-4 6.3s-2 5.4-2 8.8c0 3.3 1 6.3 2 8.8s2 4.5 4 6.2c1 1.7 3 3 6 3.8 2 0.9 4 1.3 6 1.3zm0-57.7c6 0 11 0.9 15 2.8 5 1.9 9 4.5 12 7.8s6 7.2 8 11.9c2 4.6 2 9.6 2 15.1 0 5.4 0 10.5-2 15-2 4.6-5 8.5-8 11.9-3 3.5-7 5.5-12 7.5-4 2-9 3-15 3-5 0-10-1-14-3-5-2-9-4-12-7.5-4-3.4-6-7.3-8-11.9-2-4.5-3-9.6-3-15 0-5.5 1-10.5 3-15.1 2-4.7 4-8.6 8-11.9 3-3.3 7-5.9 12-7.8 4-1.9 9-2.8 14-2.8zm53 2.2h19v76.8c0 4-1 7-2 10-1 2-2 5-4 7s-4 4-7 5-6 2-9 2-6-1-8-1c-2-1-3-1-3-1v-16h2c1 1 2 1 4 1 3 0 5-1 6-3 1-1 2-3 2-6v-74.8zm-3-23.4c0-3.34 1-6.17 4-8.47 2-2.31 5-3.46 8-3.46 3 0.002 6 1.15 9 3.46 2 2.3 3 5.13 3 8.47 0 3.3-1 6-3 8.3-3 2.3-6 3.4-9 3.4s-6-1.1-8-3.4c-3-2.3-4-5-4-8.3zm42 94.2v-70.8h19v70.8h-19zm-2-94c0-3.39 1-6.22 3-8.53 3-2.3 5-3.45 9-3.45 3 0 6 1.15 8 3.45 2 2.31 4 5.14 4 8.53 0 3.1-2 5.9-4 8.2s-5 3.4-8 3.4c-4 0-6-1.1-9-3.4-2-2.3-3-5.1-3-8.2z"
+              fill="#000"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+    <h2>
+      An emoji guide for your commit messages
+    </h2>
+  </header>,
+  <main
+    className="wrap"
+  >
+    <div
+      className="row center-xs"
+      id="gitmoji-list"
+    >
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="art emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":art:"
+              onClick={[Function]}
+            >
+              🎨
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :art:
+            </code>
+            <p>
+              Improving structure / format of the code.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="zap emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":zap:"
+              onClick={[Function]}
+            >
+              ⚡️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :zap:
+            </code>
+            <p>
+              Improving performance.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="fire emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":fire:"
+              onClick={[Function]}
+            >
+              🔥
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :fire:
+            </code>
+            <p>
+              Removing code or files.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="bug emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":bug:"
+              onClick={[Function]}
+            >
+              🐛
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :bug:
+            </code>
+            <p>
+              Fixing a bug.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="ambulance emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":ambulance:"
+              onClick={[Function]}
+            >
+              🚑
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :ambulance:
+            </code>
+            <p>
+              Critical hotfix.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="sparkles emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":sparkles:"
+              onClick={[Function]}
+            >
+              ✨
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :sparkles:
+            </code>
+            <p>
+              Introducing new features.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="pencil emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":pencil:"
+              onClick={[Function]}
+            >
+              📝
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :pencil:
+            </code>
+            <p>
+              Writing docs.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="rocket emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":rocket:"
+              onClick={[Function]}
+            >
+              🚀
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :rocket:
+            </code>
+            <p>
+              Deploying stuff.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="lipstick emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":lipstick:"
+              onClick={[Function]}
+            >
+              💄
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :lipstick:
+            </code>
+            <p>
+              Updating the UI and style files.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="tada emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":tada:"
+              onClick={[Function]}
+            >
+              🎉
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :tada:
+            </code>
+            <p>
+              Initial commit.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="white-check-mark emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":white_check_mark:"
+              onClick={[Function]}
+            >
+              ✅
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :white_check_mark:
+            </code>
+            <p>
+              Updating tests.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="lock emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":lock:"
+              onClick={[Function]}
+            >
+              🔒
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :lock:
+            </code>
+            <p>
+              Fixing security issues.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="apple emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":apple:"
+              onClick={[Function]}
+            >
+              🍎
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :apple:
+            </code>
+            <p>
+              Fixing something on macOS.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="penguin emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":penguin:"
+              onClick={[Function]}
+            >
+              🐧
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :penguin:
+            </code>
+            <p>
+              Fixing something on Linux.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="checkered-flag emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":checkered_flag:"
+              onClick={[Function]}
+            >
+              🏁
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :checkered_flag:
+            </code>
+            <p>
+              Fixing something on Windows.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="robot emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":robot:"
+              onClick={[Function]}
+            >
+              🤖
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :robot:
+            </code>
+            <p>
+              Fixing something on Android.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="green-apple emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":green_apple:"
+              onClick={[Function]}
+            >
+              🍏
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :green_apple:
+            </code>
+            <p>
+              Fixing something on iOS.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="bookmark emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":bookmark:"
+              onClick={[Function]}
+            >
+              🔖
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :bookmark:
+            </code>
+            <p>
+              Releasing / Version tags.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="rotating-light emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":rotating_light:"
+              onClick={[Function]}
+            >
+              🚨
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :rotating_light:
+            </code>
+            <p>
+              Removing linter warnings.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="construction emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":construction:"
+              onClick={[Function]}
+            >
+              🚧
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :construction:
+            </code>
+            <p>
+              Work in progress.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="green-heart emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":green_heart:"
+              onClick={[Function]}
+            >
+              💚
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :green_heart:
+            </code>
+            <p>
+              Fixing CI Build.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="arrow-down emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":arrow_down:"
+              onClick={[Function]}
+            >
+              ⬇️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :arrow_down:
+            </code>
+            <p>
+              Downgrading dependencies.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="arrow-up emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":arrow_up:"
+              onClick={[Function]}
+            >
+              ⬆️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :arrow_up:
+            </code>
+            <p>
+              Upgrading dependencies.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="pushpin emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":pushpin:"
+              onClick={[Function]}
+            >
+              📌
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :pushpin:
+            </code>
+            <p>
+              Pinning dependencies to specific versions.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="construction-worker emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":construction_worker:"
+              onClick={[Function]}
+            >
+              👷
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :construction_worker:
+            </code>
+            <p>
+              Adding CI build system.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="chart-with-upwards-trend emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":chart_with_upwards_trend:"
+              onClick={[Function]}
+            >
+              📈
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :chart_with_upwards_trend:
+            </code>
+            <p>
+              Adding analytics or tracking code.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="recycle emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":recycle:"
+              onClick={[Function]}
+            >
+              ♻️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :recycle:
+            </code>
+            <p>
+              Refactoring code.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="whale emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":whale:"
+              onClick={[Function]}
+            >
+              🐳
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :whale:
+            </code>
+            <p>
+              Work about Docker.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="heavy-plus-sign emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":heavy_plus_sign:"
+              onClick={[Function]}
+            >
+              ➕
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :heavy_plus_sign:
+            </code>
+            <p>
+              Adding a dependency.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="heavy-minus-sign emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":heavy_minus_sign:"
+              onClick={[Function]}
+            >
+              ➖
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :heavy_minus_sign:
+            </code>
+            <p>
+              Removing a dependency.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="wrench emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":wrench:"
+              onClick={[Function]}
+            >
+              🔧
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :wrench:
+            </code>
+            <p>
+              Changing configuration files.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="globe-with-meridians emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":globe_with_meridians:"
+              onClick={[Function]}
+            >
+              🌐
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :globe_with_meridians:
+            </code>
+            <p>
+              Internationalization and localization.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="pencil emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":pencil2:"
+              onClick={[Function]}
+            >
+              ✏️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :pencil2:
+            </code>
+            <p>
+              Fixing typos.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="poop emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":poop:"
+              onClick={[Function]}
+            >
+              💩
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :poop:
+            </code>
+            <p>
+              Writing bad code that needs to be improved.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="rewind emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":rewind:"
+              onClick={[Function]}
+            >
+              ⏪
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :rewind:
+            </code>
+            <p>
+              Reverting changes.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="twisted-rightwards-arrows emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":twisted_rightwards_arrows:"
+              onClick={[Function]}
+            >
+              🔀
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :twisted_rightwards_arrows:
+            </code>
+            <p>
+              Merging branches.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="package emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":package:"
+              onClick={[Function]}
+            >
+              📦
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :package:
+            </code>
+            <p>
+              Updating compiled files or packages.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="alien emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":alien:"
+              onClick={[Function]}
+            >
+              👽
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :alien:
+            </code>
+            <p>
+              Updating code due to external API changes.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="truck emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":truck:"
+              onClick={[Function]}
+            >
+              🚚
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :truck:
+            </code>
+            <p>
+              Moving or renaming files.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="page-facing-up emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":page_facing_up:"
+              onClick={[Function]}
+            >
+              📄
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :page_facing_up:
+            </code>
+            <p>
+              Adding or updating license.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="boom emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":boom:"
+              onClick={[Function]}
+            >
+              💥
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :boom:
+            </code>
+            <p>
+              Introducing breaking changes.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="bento emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":bento:"
+              onClick={[Function]}
+            >
+              🍱
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :bento:
+            </code>
+            <p>
+              Adding or updating assets.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="ok-hand emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":ok_hand:"
+              onClick={[Function]}
+            >
+              👌
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :ok_hand:
+            </code>
+            <p>
+              Updating code due to code review changes.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="wheelchair emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":wheelchair:"
+              onClick={[Function]}
+            >
+              ♿️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :wheelchair:
+            </code>
+            <p>
+              Improving accessibility.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="bulb emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":bulb:"
+              onClick={[Function]}
+            >
+              💡
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :bulb:
+            </code>
+            <p>
+              Documenting source code.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="beers emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":beers:"
+              onClick={[Function]}
+            >
+              🍻
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :beers:
+            </code>
+            <p>
+              Writing code drunkenly.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="speech-balloon emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":speech_balloon:"
+              onClick={[Function]}
+            >
+              💬
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :speech_balloon:
+            </code>
+            <p>
+              Updating text and literals.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="card-file-box emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":card_file_box:"
+              onClick={[Function]}
+            >
+              🗃
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :card_file_box:
+            </code>
+            <p>
+              Performing database related changes.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="loud-sound emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":loud_sound:"
+              onClick={[Function]}
+            >
+              🔊
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :loud_sound:
+            </code>
+            <p>
+              Adding logs.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="mute emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":mute:"
+              onClick={[Function]}
+            >
+              🔇
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :mute:
+            </code>
+            <p>
+              Removing logs.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="busts-in-silhouette emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":busts_in_silhouette:"
+              onClick={[Function]}
+            >
+              👥
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :busts_in_silhouette:
+            </code>
+            <p>
+              Adding contributor(s).
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="children-crossing emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":children_crossing:"
+              onClick={[Function]}
+            >
+              🚸
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :children_crossing:
+            </code>
+            <p>
+              Improving user experience / usability.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="building-construction emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":building_construction:"
+              onClick={[Function]}
+            >
+              🏗
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :building_construction:
+            </code>
+            <p>
+              Making architectural changes.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="iphone emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":iphone:"
+              onClick={[Function]}
+            >
+              📱
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :iphone:
+            </code>
+            <p>
+              Working on responsive design.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="clown-face emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":clown_face:"
+              onClick={[Function]}
+            >
+              🤡
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :clown_face:
+            </code>
+            <p>
+              Mocking things.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="egg emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":egg:"
+              onClick={[Function]}
+            >
+              🥚
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :egg:
+            </code>
+            <p>
+              Adding an easter egg.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="see-no-evil emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":see_no_evil:"
+              onClick={[Function]}
+            >
+              🙈
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :see_no_evil:
+            </code>
+            <p>
+              Adding or updating a .gitignore file
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="camera-flash emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":camera_flash:"
+              onClick={[Function]}
+            >
+              📸
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :camera_flash:
+            </code>
+            <p>
+              Adding or updating snapshots
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="alembic emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":alembic:"
+              onClick={[Function]}
+            >
+              ⚗
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :alembic:
+            </code>
+            <p>
+              Experimenting new things
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="mag emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":mag:"
+              onClick={[Function]}
+            >
+              🔍
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :mag:
+            </code>
+            <p>
+              Improving SEO
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="wheel-of-dharma emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":wheel_of_dharma:"
+              onClick={[Function]}
+            >
+              ☸️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :wheel_of_dharma:
+            </code>
+            <p>
+              Work about Kubernetes
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="label emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":label:"
+              onClick={[Function]}
+            >
+              🏷️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :label:
+            </code>
+            <p>
+              Adding or updating types (Flow, TypeScript)
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="seedling emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":seedling:"
+              onClick={[Function]}
+            >
+              🌱
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :seedling:
+            </code>
+            <p>
+              Adding or updating seed files
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="triangular-flag-on-post emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":triangular_flag_on_post:"
+              onClick={[Function]}
+            >
+              🚩
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :triangular_flag_on_post:
+            </code>
+            <p>
+              Adding, updating, or removing feature flags
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>,
+  <footer
+    className="footer"
+  >
+    <div
+      className="wrap"
+    >
+      <div
+        className="row middle-xs"
+      >
+        <div
+          className="col-sm-6 made-with-love"
+        >
+          <h3>
+            Made with 
+            <svg
+              className="icon icon-heart"
+            >
+              <use
+                xlinkHref="#icon-heart"
+              />
+            </svg>
+             by
+             
+            <a
+              href="https://carloscuesta.me"
+            >
+              Carlos Cuesta
+            </a>
+          </h3>
+        </div>
+        <div
+          className="col-sm-6 footer-nav"
+        >
+          <nav>
+            <a
+              href="/about"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              About
+            </a>
+            <a
+              href="/contributors"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Contributors
+            </a>
+            <a
+              href="https://github.com/carloscuesta/gitmoji"
+            >
+              GitHub
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>,
+]
+`;

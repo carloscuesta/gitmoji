@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContributorsList should match Contributor component 1`] = `
+<article
+  className="contributor col-xs-3 col-sm-2"
+>
+  <a
+    href="https://github.com/profile"
+  >
+    <img
+      className="contributor-picture"
+      src="https://github.com/avatar"
+    />
+  </a>
+</article>
+`;
+
+exports[`ContributorsList should render the component 1`] = `
+<div
+  className="row center-xs"
+/>
+`;
