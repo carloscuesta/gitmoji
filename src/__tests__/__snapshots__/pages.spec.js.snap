@@ -216,6 +216,35 @@ Array [
     <h2>
       An emoji guide for your commit messages
     </h2>
+    <div
+      className="header-buttons"
+    >
+      <a
+        className="btn btn-pink"
+      >
+        <svg
+          className="icon icon-star"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+        GitHub
+      </a>
+      <a
+        className="btn btn-pink"
+        target="_blank"
+      >
+        <svg
+          className="icon icon-twitter"
+        >
+          <use
+            xlinkHref="#icon-twitter"
+          />
+        </svg>
+        Tweet
+      </a>
+    </div>
   </header>,
   <main
     className="wrap"
@@ -947,6 +976,35 @@ Array [
     <h2>
       An emoji guide for your commit messages
     </h2>
+    <div
+      className="header-buttons"
+    >
+      <a
+        className="btn btn-pink"
+      >
+        <svg
+          className="icon icon-star"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+        GitHub
+      </a>
+      <a
+        className="btn btn-pink"
+        target="_blank"
+      >
+        <svg
+          className="icon icon-twitter"
+        >
+          <use
+            xlinkHref="#icon-twitter"
+          />
+        </svg>
+        Tweet
+      </a>
+    </div>
   </header>,
   <main
     className="wrap"
@@ -967,7 +1025,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":art:"
-              onClick={[Function]}
             >
               🎨
             </span>
@@ -996,7 +1053,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":zap:"
-              onClick={[Function]}
             >
               ⚡️
             </span>
@@ -1025,7 +1081,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":fire:"
-              onClick={[Function]}
             >
               🔥
             </span>
@@ -1054,7 +1109,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":bug:"
-              onClick={[Function]}
             >
               🐛
             </span>
@@ -1083,7 +1137,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":ambulance:"
-              onClick={[Function]}
             >
               🚑
             </span>
@@ -1112,7 +1165,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":sparkles:"
-              onClick={[Function]}
             >
               ✨
             </span>
@@ -1141,7 +1193,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":pencil:"
-              onClick={[Function]}
             >
               📝
             </span>
@@ -1170,7 +1221,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":rocket:"
-              onClick={[Function]}
             >
               🚀
             </span>
@@ -1199,7 +1249,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":lipstick:"
-              onClick={[Function]}
             >
               💄
             </span>
@@ -1228,7 +1277,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":tada:"
-              onClick={[Function]}
             >
               🎉
             </span>
@@ -1257,7 +1305,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":white_check_mark:"
-              onClick={[Function]}
             >
               ✅
             </span>
@@ -1286,7 +1333,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":lock:"
-              onClick={[Function]}
             >
               🔒
             </span>
@@ -1315,7 +1361,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":apple:"
-              onClick={[Function]}
             >
               🍎
             </span>
@@ -1344,7 +1389,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":penguin:"
-              onClick={[Function]}
             >
               🐧
             </span>
@@ -1373,7 +1417,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":checkered_flag:"
-              onClick={[Function]}
             >
               🏁
             </span>
@@ -1402,7 +1445,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":robot:"
-              onClick={[Function]}
             >
               🤖
             </span>
@@ -1431,7 +1473,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":green_apple:"
-              onClick={[Function]}
             >
               🍏
             </span>
@@ -1460,7 +1501,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":bookmark:"
-              onClick={[Function]}
             >
               🔖
             </span>
@@ -1489,7 +1529,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":rotating_light:"
-              onClick={[Function]}
             >
               🚨
             </span>
@@ -1518,7 +1557,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":construction:"
-              onClick={[Function]}
             >
               🚧
             </span>
@@ -1547,7 +1585,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":green_heart:"
-              onClick={[Function]}
             >
               💚
             </span>
@@ -1576,7 +1613,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":arrow_down:"
-              onClick={[Function]}
             >
               ⬇️
             </span>
@@ -1605,7 +1641,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":arrow_up:"
-              onClick={[Function]}
             >
               ⬆️
             </span>
@@ -1634,7 +1669,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":pushpin:"
-              onClick={[Function]}
             >
               📌
             </span>
@@ -1663,7 +1697,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":construction_worker:"
-              onClick={[Function]}
             >
               👷
             </span>
@@ -1692,7 +1725,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":chart_with_upwards_trend:"
-              onClick={[Function]}
             >
               📈
             </span>
@@ -1721,7 +1753,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":recycle:"
-              onClick={[Function]}
             >
               ♻️
             </span>
@@ -1750,7 +1781,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":whale:"
-              onClick={[Function]}
             >
               🐳
             </span>
@@ -1779,7 +1809,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":heavy_plus_sign:"
-              onClick={[Function]}
             >
               ➕
             </span>
@@ -1808,7 +1837,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":heavy_minus_sign:"
-              onClick={[Function]}
             >
               ➖
             </span>
@@ -1837,7 +1865,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":wrench:"
-              onClick={[Function]}
             >
               🔧
             </span>
@@ -1866,7 +1893,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":globe_with_meridians:"
-              onClick={[Function]}
             >
               🌐
             </span>
@@ -1895,7 +1921,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":pencil2:"
-              onClick={[Function]}
             >
               ✏️
             </span>
@@ -1924,7 +1949,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":poop:"
-              onClick={[Function]}
             >
               💩
             </span>
@@ -1953,7 +1977,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":rewind:"
-              onClick={[Function]}
             >
               ⏪
             </span>
@@ -1982,7 +2005,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":twisted_rightwards_arrows:"
-              onClick={[Function]}
             >
               🔀
             </span>
@@ -2011,7 +2033,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":package:"
-              onClick={[Function]}
             >
               📦
             </span>
@@ -2040,7 +2061,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":alien:"
-              onClick={[Function]}
             >
               👽
             </span>
@@ -2069,7 +2089,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":truck:"
-              onClick={[Function]}
             >
               🚚
             </span>
@@ -2098,7 +2117,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":page_facing_up:"
-              onClick={[Function]}
             >
               📄
             </span>
@@ -2127,7 +2145,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":boom:"
-              onClick={[Function]}
             >
               💥
             </span>
@@ -2156,7 +2173,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":bento:"
-              onClick={[Function]}
             >
               🍱
             </span>
@@ -2185,7 +2201,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":ok_hand:"
-              onClick={[Function]}
             >
               👌
             </span>
@@ -2214,7 +2229,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":wheelchair:"
-              onClick={[Function]}
             >
               ♿️
             </span>
@@ -2243,7 +2257,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":bulb:"
-              onClick={[Function]}
             >
               💡
             </span>
@@ -2272,7 +2285,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":beers:"
-              onClick={[Function]}
             >
               🍻
             </span>
@@ -2301,7 +2313,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":speech_balloon:"
-              onClick={[Function]}
             >
               💬
             </span>
@@ -2330,7 +2341,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":card_file_box:"
-              onClick={[Function]}
             >
               🗃
             </span>
@@ -2359,7 +2369,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":loud_sound:"
-              onClick={[Function]}
             >
               🔊
             </span>
@@ -2388,7 +2397,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":mute:"
-              onClick={[Function]}
             >
               🔇
             </span>
@@ -2417,7 +2425,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":busts_in_silhouette:"
-              onClick={[Function]}
             >
               👥
             </span>
@@ -2446,7 +2453,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":children_crossing:"
-              onClick={[Function]}
             >
               🚸
             </span>
@@ -2475,7 +2481,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":building_construction:"
-              onClick={[Function]}
             >
               🏗
             </span>
@@ -2504,7 +2509,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":iphone:"
-              onClick={[Function]}
             >
               📱
             </span>
@@ -2533,7 +2537,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":clown_face:"
-              onClick={[Function]}
             >
               🤡
             </span>
@@ -2562,7 +2565,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":egg:"
-              onClick={[Function]}
             >
               🥚
             </span>
@@ -2591,7 +2593,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":see_no_evil:"
-              onClick={[Function]}
             >
               🙈
             </span>
@@ -2620,7 +2621,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":camera_flash:"
-              onClick={[Function]}
             >
               📸
             </span>
@@ -2649,7 +2649,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":alembic:"
-              onClick={[Function]}
             >
               ⚗
             </span>
@@ -2678,7 +2677,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":mag:"
-              onClick={[Function]}
             >
               🔍
             </span>
@@ -2707,7 +2705,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":wheel_of_dharma:"
-              onClick={[Function]}
             >
               ☸️
             </span>
@@ -2736,7 +2733,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":label:"
-              onClick={[Function]}
             >
               🏷️
             </span>
@@ -2765,7 +2761,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":seedling:"
-              onClick={[Function]}
             >
               🌱
             </span>
@@ -2794,7 +2789,6 @@ Array [
             <span
               className="emoji-icon gitmoji"
               data-clipboard-text=":triangular_flag_on_post:"
-              onClick={[Function]}
             >
               🚩
             </span>

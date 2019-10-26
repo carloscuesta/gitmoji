@@ -10,7 +10,7 @@ import { gitmojis } from '../data/gitmojis.json'
 const Home = () => (
   <>
     <SEO />
-    <Layout>
+    <Layout headerWithSocialButtons>
       <GitmojiList gitmojis={gitmojis} />
     </Layout>
   </>

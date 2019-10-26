@@ -17,7 +17,6 @@ exports[`GitmojiList should render the component 1`] = `
         <span
           className="emoji-icon gitmoji"
           data-clipboard-text=":art:"
-          onClick={[Function]}
         >
           🎨
         </span>
@@ -46,7 +45,6 @@ exports[`GitmojiList should render the component 1`] = `
         <span
           className="emoji-icon gitmoji"
           data-clipboard-text=":zap:"
-          onClick={[Function]}
         >
           ⚡️
         </span>
@@ -75,7 +73,6 @@ exports[`GitmojiList should render the component 1`] = `
         <span
           className="emoji-icon gitmoji"
           data-clipboard-text=":fire:"
-          onClick={[Function]}
         >
           🔥
         </span>
@@ -104,7 +101,6 @@ exports[`GitmojiList should render the component 1`] = `
         <span
           className="emoji-icon gitmoji"
           data-clipboard-text=":bug:"
-          onClick={[Function]}
         >
           🐛
         </span>
@@ -133,7 +129,6 @@ exports[`GitmojiList should render the component 1`] = `
         <span
           className="emoji-icon gitmoji"
           data-clipboard-text=":ambulance:"
-          onClick={[Function]}
         >
           🚑
         </span>
@@ -162,7 +157,6 @@ exports[`GitmojiList should render the component 1`] = `
         <span
           className="emoji-icon gitmoji"
           data-clipboard-text=":sparkles:"
-          onClick={[Function]}
         >
           ✨
         </span>
