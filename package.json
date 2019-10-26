@@ -1,53 +1,68 @@
 {
   "name": "gitmoji",
   "version": "1.0.0",
-  "description": "An emoji guide for your commit messages",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "jsonvalidate": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
-    "contributors": "curl https://api.github.com/repos/carloscuesta/gitmoji/contributors -o ./src/data/contributors.json",
-    "build": "gulp build",
-    "deploy": "gulp deploy",
-    "start": "npm run contributors && gulp",
-    "test": "npm run jsonvalidate && gulp build"
+    "build": "next build",
+    "dev": "next dev",
+    "export": "next export && touch out/.nojekyll",
+    "flow": "flow",
+    "lint": "prettier --check src/**/*.{js,json,scss}",
+    "start": "next start",
+    "test": "jest --coverage",
+    "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carloscuesta/gitmoji.git"
+  "dependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "9.1.1",
+    "node-sass": "^4.13.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-test-renderer": "^16.11.0"
   },
-  "author": "Carlos Cuesta",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/carloscuesta/gitmoji/issues"
+  "devDependencies": {
+    "flow-bin": "^0.110.1",
+    "husky": "^3.0.9",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "jsonlint": "^1.6.3",
+    "lint-staged": "^10.0.0-1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prettier": "1.18.2"
   },
-  "pugLintConfig": {
-    "disallowHtmlText": true,
-    "disallowDuplicateAttributes": true,
-    "disallowClassAttributeWithStaticValue": true,
-    "disallowIdAttributeWithStaticValue": true,
-    "requireLowerCaseAttributes": true
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "always"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier --write src/**/*.{js,json,scss}",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run flow && npm run test"
+    }
   },
   "babel": {
     "presets": [
-      "es2015"
+      "next/babel",
+      "@babel/preset-flow"
     ]
   },
-  "homepage": "https://github.com/carloscuesta/gitmoji#readme",
-  "dependencies": {
-    "async": "^2.1.2",
-    "gulp": "^3.9.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-pug": "^3.3.0",
-    "gulp-pug-lint": "^0.1.6",
-    "gulp-sass": "^3.1.0",
-    "pdfkit": "^0.8.0",
-    "request": "^2.79.0"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "browser-sync": "^2.18.13",
-    "gulp-gh-pages": "^0.5.4",
-    "jsonlint": "^1.6.2"
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "testMatch": [
+      "**/*.(spec).(js)"
+    ],
+    "moduleNameMapper": {
+      "\\.(scss)$": "identity-obj-proxy"
+    }
   }
 }
