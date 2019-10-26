@@ -36,7 +36,7 @@ class InlineStylesHead extends Head {
 class CustomDocument extends Document {
   render() {
     return (
-      <html>
+      <html lang="en">
         <InlineStylesHead />
         <body>
           <Main />

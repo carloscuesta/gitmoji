@@ -233,6 +233,7 @@ Array [
     >
       <a
         className="btn btn-pink"
+        href="https://github.com/carloscuesta/gitmoji"
       >
         <svg
           className="icon icon-star"
@@ -245,6 +246,7 @@ Array [
       </a>
       <a
         className="btn btn-pink"
+        href="https://twitter.com/intent/tweet?text=gitmoji%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit%20messages%20by%20%40crloscuesta%20%F0%9F%98%8D%F0%9F%98%9C&url=https://gitmoji.carloscuesta.me"
         target="_blank"
       >
         <svg

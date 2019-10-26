@@ -13,7 +13,7 @@ const SEO = (props: Props) => (
     </title>
     <link
       rel="canonical"
-      href={`https://gitmoji.carloscuesta.me${props.pageUrl}`}
+      href={`https://gitmoji.carloscuesta.me${props.pageUrl || ''}`}
     />
     <meta name="author" content="Carlos Cuesta" />
     <meta
