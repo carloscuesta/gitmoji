@@ -5,7 +5,7 @@
 </p>
 <p align="center">
 	<a href="https://travis-ci.org/carloscuesta/gitmoji">
-		<img src="https://img.shields.io/travis/carloscuesta/gitmoji.svg?style=flat-square"
+		<img src="https://img.shields.io/travis/carloscuesta/gitmoji/master?style=flat-square"
 			 alt="Build Status">
 	</a>
 	<a href="https://gitmoji.carloscuesta.me">
