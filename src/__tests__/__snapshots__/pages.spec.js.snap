@@ -2811,6 +2811,34 @@ Array [
           </div>
         </div>
       </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="animation emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":dizzy:"
+            >
+              💫
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :dizzy:
+            </code>
+            <p>
+              For animation/transitions/motion
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </main>,
   <footer
