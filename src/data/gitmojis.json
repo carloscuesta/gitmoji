@@ -446,6 +446,13 @@
       "code": ":triangular_flag_on_post:",
       "description": "Adding, updating, or removing feature flags",
       "name": "triangular-flag-on-post"
+    },
+    {
+      "emoji": "💫",
+      "entity": "&#x1f4ab;",
+      "code": ":dizzy:",
+      "description": "Adding or updating animations and transitions",
+      "name": "animation"
     }
   ]
 }
