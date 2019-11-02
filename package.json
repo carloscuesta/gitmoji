@@ -15,6 +15,7 @@
   "dependencies": {
     "@babel/preset-flow": "^7.0.0",
     "@zeit/next-sass": "^1.0.1",
+    "clipboard": "^2.0.4",
     "next": "9.1.1",
     "node-sass": "^4.13.0",
     "react": "16.11.0",
