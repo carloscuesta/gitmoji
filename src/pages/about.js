@@ -85,10 +85,10 @@ const About = () => (
         <h1 id="contributing-gitmoji">Contributing to gitmoji</h1>
 
         <p>
-          Contributing to gitmoji it's a piece of cake 🍰! This project it's a
+          Contributing to gitmoji is a piece of 🍰! This project is a
           static website built with <i>Next.js</i>. All the gitmojis displayed
           are rendered from a JSON file. Before submitting any pull request,
-          please follow the next steps:
+          please follow these steps:
         </p>
 
         <ol>
