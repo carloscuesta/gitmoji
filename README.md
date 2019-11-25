@@ -28,6 +28,25 @@ To use gitmojis from your command line install [gitmoji-cli](https://github.com/
 npm i -g gitmoji-cli
 ```
 
+for yarn user.
+
+```bash
+yarn global add gitmoji-cli
+```
+
+After install successfully, then simply type `gitmoji` to get started.
+
+```bash
+gitmoji
+```
+
+To enter interactive mode. After staged your file using git, type `gitmoji -c` to commit your code.
+
+```bash
+git add <your-file>
+gitmoji -c
+```
+
 ## Contributing to gitmoji
 
 Contributing to gitmoji is a piece of :cake:, read the [contributing guidelines](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md). You can discuss emojis using the [issues section](https://github.com/carloscuesta/gitmoji/issues/new). To add a new emoji to the list create an issue and send a pull request, see [how to send a pull request and add a gitmoji](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md#how-to-add-a-gitmoji).
