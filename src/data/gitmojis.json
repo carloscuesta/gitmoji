@@ -453,6 +453,13 @@
       "code": ":dizzy:",
       "description": "Adding or updating animations and transitions",
       "name": "animation"
-    }
+    },
+    {
+      "emoji": "🍰",
+      "entity": "	&#xe046;",
+      "code": ":cake:",
+      "description": "Change/Bugfix was easy",
+      "name": "cake"
+    },
   ]
 }
