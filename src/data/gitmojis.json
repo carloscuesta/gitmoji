@@ -456,7 +456,7 @@
     },
     {
       "emoji": "🍰",
-      "entity": "	&#xe046;",
+      "entity": "&#xe046;",
       "code": ":cake:",
       "description": "Change/Bugfix was easy",
       "name": "cake"
