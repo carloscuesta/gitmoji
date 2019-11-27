@@ -2818,6 +2818,34 @@ Array [
           className="emoji-card"
         >
           <header
+            className="goal-net emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":goal_net:"
+            >
+              🥅
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :goal_net:
+            </code>
+            <p>
+              Catching errors
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
             className="animation emoji-header"
           >
             <span
