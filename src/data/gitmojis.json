@@ -453,6 +453,13 @@
       "code": ":dizzy:",
       "description": "Adding or updating animations and transitions",
       "name": "animation"
+    },
+    {
+      "emoji": "🥅",
+      "entity": "&#x1f945;",
+      "code": ":goal_net:",
+      "description": "Catching errors",
+      "name": "goal-net"
     }
   ]
 }
