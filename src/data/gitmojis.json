@@ -448,6 +448,13 @@
       "name": "triangular-flag-on-post"
     },
     {
+      "emoji": "🥅",
+      "entity": "&#x1F945;",
+      "code": ":goal_net:",
+      "description": "Catching errors",
+      "name": "goal-net"
+    },
+    {
       "emoji": "💫",
       "entity": "&#x1f4ab;",
       "code": ":dizzy:",
