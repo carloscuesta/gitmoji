@@ -2867,6 +2867,62 @@ Array [
           </div>
         </div>
       </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="file-cabinet emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":file_cabinet:"
+            >
+              🗄️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :file_cabinet:
+            </code>
+            <p>
+              Improving backend
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="computer-screen emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":computer_screen:"
+            >
+              🖥️
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :computer_screen:
+            </code>
+            <p>
+              Improving frontend
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </main>,
   <footer
