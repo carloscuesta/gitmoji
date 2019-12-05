@@ -464,14 +464,14 @@
     {
       "emoji":"🗄️",
       "entity": "&#x1F5C4",
-      "code": "file_cabinet",
+      "code": ":file_cabinet:",
       "description": "Improving backend",
       "name": "file-cabinet"
     },
     {
       "emoji":"🖥️",
       "entity":"&#x1F4BB",
-      "code": "computer_screen",
+      "code": ":computer_screen:",
       "description":"Improving frontend",
       "name": "computer-screen"
     }
