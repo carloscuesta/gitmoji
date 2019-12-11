@@ -460,6 +460,20 @@
       "code": ":dizzy:",
       "description": "Adding or updating animations and transitions",
       "name": "animation"
+    },
+    {
+      "emoji":"🗄️",
+      "entity": "&#x1F5C4",
+      "code": "file_cabinet",
+      "description": "Improving backend",
+      "name": ":file_cabinet:"
+    },
+    {
+      "emoji":"🖥️",
+      "entity":"&#x1F4BB",
+      "code": "computer_screen",
+      "description":"Improving frontend",
+      "name": ":computer_screen:"
     }
   ]
 }
