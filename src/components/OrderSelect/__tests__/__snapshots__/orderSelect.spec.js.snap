@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderSelect should render the component 1`] = `
+<div
+  className="order-select-wrapper"
+>
+  <ins>
+    🔀
+  </ins>
+  <select
+    className="order-select order-select-pink"
+    onChange={[Function]}
+  >
+    <option
+      value="default"
+    >
+      Default order
+    </option>
+    <option
+      value="name"
+    >
+      Emoji name
+    </option>
+    <option
+      value="description"
+    >
+      Description
+    </option>
+  </select>
+</div>
+`;
