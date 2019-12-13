@@ -1558,6 +1558,34 @@ Array [
           className="emoji-card"
         >
           <header
+            className="spider-web emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":spider_web:"
+            >
+              🕸
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :spider_web:
+            </code>
+            <p>
+              Removing deprecated code.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
             className="construction emoji-header"
           >
             <span

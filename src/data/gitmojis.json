@@ -134,6 +134,13 @@
       "name": "rotating-light"
     },
     {
+      "emoji": "🕸",
+      "entity": "&#x1f578;",
+      "code": ":spider_web:",
+      "description": "Removing deprecated code.",
+      "name": "spider-web"
+    },
+    {
       "emoji": "🚧",
       "entity": "&#x1f6a7;",
       "code": ":construction:",
