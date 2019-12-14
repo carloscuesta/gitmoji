@@ -3,9 +3,13 @@ import React from 'react'
 
 import Button from '../../Button'
 import Logo from '../Logo'
-import OrderSelect from "../../OrderSelect";
+import OrderSelect from '../../OrderSelect'
 
-type Props = { withHeadline: boolean, withSocialButtons: boolean, setOrder: function }
+type Props = {
+  withHeadline: boolean,
+  withSocialButtons: boolean,
+  setOrder: (order: string) => void
+}
 
 const Header = (props: Props) => (
   <header className="header">
@@ -29,7 +33,7 @@ const Header = (props: Props) => (
           target="_blank"
           text="Tweet"
         />
-        <OrderSelect onChange={props.setOrder} />
+        <OrderSelect setOrder={props.setOrder} />
       </div>
     )}
   </header>

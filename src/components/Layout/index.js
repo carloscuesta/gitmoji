@@ -6,16 +6,20 @@ import Header from './Header'
 import Navigation from './Navigation'
 import Footer from './Footer'
 
-type Props = { headerWithSocialButtons: boolean, children: React.Node, setOrder: function }
+type Props = {
+  headerWithSocialButtons: boolean,
+  children: React.Node,
+  setOrder: (order: string) => void
+}
 
 const Layout = (props: Props) => (
   <>
     <IconDefinitions />
     <Navigation />
     <Header
-        withHeadline
-        withSocialButtons={props.headerWithSocialButtons}
-        setOrder={props.setOrder}
+      withHeadline
+      withSocialButtons={props.headerWithSocialButtons}
+      setOrder={props.setOrder}
     />
     <main className="wrap">{props.children}</main>
     <Footer />
