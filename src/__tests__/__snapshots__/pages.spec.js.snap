@@ -2900,7 +2900,7 @@ Array [
           className="emoji-card"
         >
           <header
-            className="animation emoji-header"
+            className="dizzy emoji-header"
           >
             <span
               className="emoji-icon gitmoji"
