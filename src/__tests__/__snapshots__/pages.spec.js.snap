@@ -2839,6 +2839,34 @@ Array [
           </div>
         </div>
       </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="cake emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":cake:"
+            >
+              🍰
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :cake:
+            </code>
+            <p>
+              Change/Bugfix was easy
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </main>,
   <footer
