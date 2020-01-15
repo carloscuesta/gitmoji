@@ -2867,6 +2867,34 @@ Array [
           </div>
         </div>
       </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="wastebasket emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji"
+              data-clipboard-text=":wastebasket:"
+            >
+              🗑
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <code>
+              :wastebasket:
+            </code>
+            <p>
+              Deprecating code that needs to be cleaned up.
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </main>,
   <footer
