@@ -3,6 +3,7 @@ import React from 'react'
 
 import Button from '../../Button'
 import Logo from '../Logo'
+import SearchBox from '../../SearchBox'
 
 type Props = { withHeadline: boolean, withSocialButtons: boolean }
 
@@ -30,6 +31,7 @@ const Header = (props: Props) => (
         />
       </div>
     )}
+    <SearchBox />
   </header>
 )
 

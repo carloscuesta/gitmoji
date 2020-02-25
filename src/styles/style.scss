@@ -66,6 +66,20 @@ section {
     padding: 1em 0;
     text-align: center;
   }
+  input {
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+    width: 50%;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
 }
 
 .single-emoji-logo {
@@ -244,6 +258,11 @@ main.wrap {
   .footer-nav {
     flex-basis: 100%;
     max-width: 100%;
+  }
+  .header {
+    input {
+      font-size: 1em;
+    }
   }
 }
 

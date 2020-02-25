@@ -3,7 +3,7 @@ import React from 'react'
 import Clipboard from 'clipboard'
 
 import Gitmoji from './Gitmoji'
-
+import { store } from '../Store/store'
 type Props = {
   gitmojis: Array<{
     code: string,
@@ -14,6 +14,8 @@ type Props = {
 }
 
 const GitmojiList = (props: Props) => {
+  const filter = React.useContext(store).state
+
   React.useEffect(() => {
     const clipboard = new Clipboard('.gitmoji')
 
@@ -33,17 +35,29 @@ const GitmojiList = (props: Props) => {
     return () => clipboard.destroy()
   }, [])
 
+  const filterHandler = (gitmoji) => {
+    return (
+      ((gitmoji.description.toLowerCase().includes(filter.toLowerCase()) ||
+        gitmoji.name.toLowerCase().includes(filter.toLowerCase())) &&
+        filter !== '') ||
+      filter === ''
+    )
+  }
+
   return (
     <div className="row center-xs" id="gitmoji-list">
-      {props.gitmojis.map((gitmoji, index) => (
-        <Gitmoji
-          code={gitmoji.code}
-          description={gitmoji.description}
-          emoji={gitmoji.emoji}
-          key={index}
-          name={gitmoji.name}
-        />
-      ))}
+      {props.gitmojis.map(
+        (gitmoji, index) =>
+          filterHandler(gitmoji) && (
+            <Gitmoji
+              code={gitmoji.code}
+              description={gitmoji.description}
+              emoji={gitmoji.emoji}
+              key={index}
+              name={gitmoji.name}
+            />
+          )
+      )}
     </div>
   )
 }
