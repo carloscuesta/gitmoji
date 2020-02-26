@@ -259,6 +259,12 @@ Array [
         Tweet
       </a>
     </div>
+    <input
+      maxLength="70"
+      onChange={[Function]}
+      placeholder="Search your emoji"
+      type="text"
+    />
   </header>,
   <main
     className="wrap"
@@ -544,6 +550,12 @@ Array [
     <h2>
       An emoji guide for your commit messages
     </h2>
+    <input
+      maxLength="70"
+      onChange={[Function]}
+      placeholder="Search your emoji"
+      type="text"
+    />
   </header>,
   <main
     className="wrap"

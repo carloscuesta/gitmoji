@@ -37,10 +37,10 @@ const GitmojiList = (props: Props) => {
 
   const filterHandler = (gitmoji) => {
     return (
-      ((gitmoji.description.toLowerCase().includes(filter.toLowerCase()) ||
-        gitmoji.name.toLowerCase().includes(filter.toLowerCase())) &&
-        filter !== '') ||
-      filter === ''
+      filter &&
+      (filter === '' ||
+        (gitmoji.description.toLowerCase().includes(filter.toLowerCase()) ||
+          gitmoji.name.toLowerCase().includes(filter.toLowerCase())))
     )
   }
 

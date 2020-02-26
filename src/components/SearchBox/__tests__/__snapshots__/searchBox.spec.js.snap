@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox should render the component 1`] = `
+<input
+  maxLength="70"
+  onChange={[Function]}
+  placeholder="Search your emoji"
+  type="text"
+/>
+`;
