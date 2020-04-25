@@ -9,7 +9,7 @@ type Props = {
 
 const Gitmoji = (props: Props) => (
   <article className="emoji col-xs-12 col-sm-6 col-md-3">
-    <div className="emoji-card" data-clipboard-text={props.emoji}>
+    <div className="emoji-card">
       <header className={`${props.name} emoji-header`}>
         <span
           className="emoji-icon gitmoji-emoji"
