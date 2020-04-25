@@ -130,10 +130,29 @@ main.wrap {
   box-sizing: border-box;
 
   .gitmoji {
-    font-size: 5em;
-    cursor: pointer;
-    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
-      'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
+    &-emoji {
+      display: inline-block;
+      font-size: 5em;
+      cursor: pointer;
+      font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
+        'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
+
+      &:hover {
+        animation-name: bounce;
+        animation-duration: 0.5s;
+      }
+    }
+
+    &-code {
+      border-radius: 4px;
+      padding-bottom: 4px;
+      transition-duration: 0.3s;
+      border-bottom: solid 2px rgba(0, 0, 0, 0);
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 
   &-card {
@@ -257,6 +276,13 @@ main.wrap {
 @each $gitmoji, $color in ($gitmojis) {
   .#{$gitmoji} {
     background-color: $color;
+
+    & ~ .emoji-info .gitmoji-code {
+      &:hover {
+        background-color: rgba($color, 0.3);
+        box-shadow: 0 4px rgba($color, 0.6);
+      }
+    }
   }
 }
 
@@ -265,19 +291,54 @@ main.wrap {
   100% {
     color: #7ccdea;
   }
+
   16% {
     color: #0074d9;
   }
+
   32% {
     color: #2ecc40;
   }
+
   48% {
     color: #ffdc00;
   }
+
   64% {
     color: #b10dc9;
   }
+
   80% {
     color: #ff4136;
+  }
+}
+
+/*
+  This code has been obtained from:
+  https://github.com/daneden/animate.css/blob/master/source/attention_seekers/bounce.css
+*/
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -9px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -2px, 0);
   }
 }
