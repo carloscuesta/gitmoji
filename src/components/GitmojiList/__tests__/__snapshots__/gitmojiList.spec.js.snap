@@ -10,13 +10,14 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
+      data-clipboard-text="🎨"
     >
       <header
         className="art emoji-header"
       >
         <span
-          className="emoji-icon gitmoji"
-          data-clipboard-text=":art:"
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="🎨"
         >
           🎨
         </span>
@@ -24,9 +25,14 @@ exports[`GitmojiList should render the component 1`] = `
       <div
         className="emoji-info"
       >
-        <code>
-          :art:
-        </code>
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":art:"
+        >
+          <code>
+            :art:
+          </code>
+        </div>
         <p>
           Improving structure / format of the code.
         </p>
@@ -38,13 +44,14 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
+      data-clipboard-text="⚡️"
     >
       <header
         className="zap emoji-header"
       >
         <span
-          className="emoji-icon gitmoji"
-          data-clipboard-text=":zap:"
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="⚡️"
         >
           ⚡️
         </span>
@@ -52,9 +59,14 @@ exports[`GitmojiList should render the component 1`] = `
       <div
         className="emoji-info"
       >
-        <code>
-          :zap:
-        </code>
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":zap:"
+        >
+          <code>
+            :zap:
+          </code>
+        </div>
         <p>
           Improving performance.
         </p>
@@ -66,13 +78,14 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
+      data-clipboard-text="🔥"
     >
       <header
         className="fire emoji-header"
       >
         <span
-          className="emoji-icon gitmoji"
-          data-clipboard-text=":fire:"
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="🔥"
         >
           🔥
         </span>
@@ -80,9 +93,14 @@ exports[`GitmojiList should render the component 1`] = `
       <div
         className="emoji-info"
       >
-        <code>
-          :fire:
-        </code>
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":fire:"
+        >
+          <code>
+            :fire:
+          </code>
+        </div>
         <p>
           Removing code or files.
         </p>
@@ -94,13 +112,14 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
+      data-clipboard-text="🐛"
     >
       <header
         className="bug emoji-header"
       >
         <span
-          className="emoji-icon gitmoji"
-          data-clipboard-text=":bug:"
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="🐛"
         >
           🐛
         </span>
@@ -108,9 +127,14 @@ exports[`GitmojiList should render the component 1`] = `
       <div
         className="emoji-info"
       >
-        <code>
-          :bug:
-        </code>
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":bug:"
+        >
+          <code>
+            :bug:
+          </code>
+        </div>
         <p>
           Fixing a bug.
         </p>
@@ -122,13 +146,14 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
+      data-clipboard-text="🚑"
     >
       <header
         className="ambulance emoji-header"
       >
         <span
-          className="emoji-icon gitmoji"
-          data-clipboard-text=":ambulance:"
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="🚑"
         >
           🚑
         </span>
@@ -136,9 +161,14 @@ exports[`GitmojiList should render the component 1`] = `
       <div
         className="emoji-info"
       >
-        <code>
-          :ambulance:
-        </code>
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":ambulance:"
+        >
+          <code>
+            :ambulance:
+          </code>
+        </div>
         <p>
           Critical hotfix.
         </p>
@@ -150,13 +180,14 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
+      data-clipboard-text="✨"
     >
       <header
         className="sparkles emoji-header"
       >
         <span
-          className="emoji-icon gitmoji"
-          data-clipboard-text=":sparkles:"
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="✨"
         >
           ✨
         </span>
@@ -164,9 +195,14 @@ exports[`GitmojiList should render the component 1`] = `
       <div
         className="emoji-info"
       >
-        <code>
-          :sparkles:
-        </code>
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":sparkles:"
+        >
+          <code>
+            :sparkles:
+          </code>
+        </div>
         <p>
           Introducing new features.
         </p>
