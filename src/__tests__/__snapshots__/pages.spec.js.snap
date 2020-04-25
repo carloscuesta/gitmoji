@@ -1024,7 +1024,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🎨"
         >
           <header
             className="art emoji-header"
@@ -1058,7 +1057,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="⚡️"
         >
           <header
             className="zap emoji-header"
@@ -1092,7 +1090,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🔥"
         >
           <header
             className="fire emoji-header"
@@ -1126,7 +1123,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🐛"
         >
           <header
             className="bug emoji-header"
@@ -1160,7 +1156,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🚑"
         >
           <header
             className="ambulance emoji-header"
@@ -1194,7 +1189,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="✨"
         >
           <header
             className="sparkles emoji-header"
@@ -1228,7 +1222,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="📝"
         >
           <header
             className="pencil emoji-header"
@@ -1262,7 +1255,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🚀"
         >
           <header
             className="rocket emoji-header"
@@ -1296,7 +1288,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="💄"
         >
           <header
             className="lipstick emoji-header"
@@ -1330,7 +1321,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🎉"
         >
           <header
             className="tada emoji-header"
@@ -1364,7 +1354,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="✅"
         >
           <header
             className="white-check-mark emoji-header"
@@ -1398,7 +1387,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🔒"
         >
           <header
             className="lock emoji-header"
@@ -1432,7 +1420,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🍎"
         >
           <header
             className="apple emoji-header"
@@ -1466,7 +1453,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🐧"
         >
           <header
             className="penguin emoji-header"
@@ -1500,7 +1486,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🏁"
         >
           <header
             className="checkered-flag emoji-header"
@@ -1534,7 +1519,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🤖"
         >
           <header
             className="robot emoji-header"
@@ -1568,7 +1552,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🍏"
         >
           <header
             className="green-apple emoji-header"
@@ -1602,7 +1585,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🔖"
         >
           <header
             className="bookmark emoji-header"
@@ -1636,7 +1618,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🚨"
         >
           <header
             className="rotating-light emoji-header"
@@ -1670,7 +1651,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🚧"
         >
           <header
             className="construction emoji-header"
@@ -1704,7 +1684,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="💚"
         >
           <header
             className="green-heart emoji-header"
@@ -1738,7 +1717,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="⬇️"
         >
           <header
             className="arrow-down emoji-header"
@@ -1772,7 +1750,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="⬆️"
         >
           <header
             className="arrow-up emoji-header"
@@ -1806,7 +1783,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="📌"
         >
           <header
             className="pushpin emoji-header"
@@ -1840,7 +1816,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="👷"
         >
           <header
             className="construction-worker emoji-header"
@@ -1874,7 +1849,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="📈"
         >
           <header
             className="chart-with-upwards-trend emoji-header"
@@ -1908,7 +1882,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="♻️"
         >
           <header
             className="recycle emoji-header"
@@ -1942,7 +1915,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🐳"
         >
           <header
             className="whale emoji-header"
@@ -1976,7 +1948,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="➕"
         >
           <header
             className="heavy-plus-sign emoji-header"
@@ -2010,7 +1981,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="➖"
         >
           <header
             className="heavy-minus-sign emoji-header"
@@ -2044,7 +2014,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🔧"
         >
           <header
             className="wrench emoji-header"
@@ -2078,7 +2047,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🌐"
         >
           <header
             className="globe-with-meridians emoji-header"
@@ -2112,7 +2080,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="✏️"
         >
           <header
             className="pencil emoji-header"
@@ -2146,7 +2113,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="💩"
         >
           <header
             className="poop emoji-header"
@@ -2180,7 +2146,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="⏪"
         >
           <header
             className="rewind emoji-header"
@@ -2214,7 +2179,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🔀"
         >
           <header
             className="twisted-rightwards-arrows emoji-header"
@@ -2248,7 +2212,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="📦"
         >
           <header
             className="package emoji-header"
@@ -2282,7 +2245,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="👽"
         >
           <header
             className="alien emoji-header"
@@ -2316,7 +2278,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🚚"
         >
           <header
             className="truck emoji-header"
@@ -2350,7 +2311,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="📄"
         >
           <header
             className="page-facing-up emoji-header"
@@ -2384,7 +2344,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="💥"
         >
           <header
             className="boom emoji-header"
@@ -2418,7 +2377,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🍱"
         >
           <header
             className="bento emoji-header"
@@ -2452,7 +2410,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="👌"
         >
           <header
             className="ok-hand emoji-header"
@@ -2486,7 +2443,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="♿️"
         >
           <header
             className="wheelchair emoji-header"
@@ -2520,7 +2476,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="💡"
         >
           <header
             className="bulb emoji-header"
@@ -2554,7 +2509,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🍻"
         >
           <header
             className="beers emoji-header"
@@ -2588,7 +2542,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="💬"
         >
           <header
             className="speech-balloon emoji-header"
@@ -2622,7 +2575,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🗃"
         >
           <header
             className="card-file-box emoji-header"
@@ -2656,7 +2608,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🔊"
         >
           <header
             className="loud-sound emoji-header"
@@ -2690,7 +2641,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🔇"
         >
           <header
             className="mute emoji-header"
@@ -2724,7 +2674,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="👥"
         >
           <header
             className="busts-in-silhouette emoji-header"
@@ -2758,7 +2707,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🚸"
         >
           <header
             className="children-crossing emoji-header"
@@ -2792,7 +2740,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🏗"
         >
           <header
             className="building-construction emoji-header"
@@ -2826,7 +2773,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="📱"
         >
           <header
             className="iphone emoji-header"
@@ -2860,7 +2806,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🤡"
         >
           <header
             className="clown-face emoji-header"
@@ -2894,7 +2839,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🥚"
         >
           <header
             className="egg emoji-header"
@@ -2928,7 +2872,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🙈"
         >
           <header
             className="see-no-evil emoji-header"
@@ -2962,7 +2905,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="📸"
         >
           <header
             className="camera-flash emoji-header"
@@ -2996,7 +2938,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="⚗"
         >
           <header
             className="alembic emoji-header"
@@ -3030,7 +2971,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🔍"
         >
           <header
             className="mag emoji-header"
@@ -3064,7 +3004,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="☸️"
         >
           <header
             className="wheel-of-dharma emoji-header"
@@ -3098,7 +3037,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🏷️"
         >
           <header
             className="label emoji-header"
@@ -3132,7 +3070,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🌱"
         >
           <header
             className="seedling emoji-header"
@@ -3166,7 +3103,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🚩"
         >
           <header
             className="triangular-flag-on-post emoji-header"
@@ -3200,7 +3136,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🥅"
         >
           <header
             className="goal-net emoji-header"
@@ -3234,7 +3169,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="💫"
         >
           <header
             className="animation emoji-header"
@@ -3268,7 +3202,6 @@ Array [
       >
         <div
           className="emoji-card"
-          data-clipboard-text="🗑"
         >
           <header
             className="wastebasket emoji-header"

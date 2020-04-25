@@ -10,7 +10,6 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
-      data-clipboard-text="🎨"
     >
       <header
         className="art emoji-header"
@@ -44,7 +43,6 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
-      data-clipboard-text="⚡️"
     >
       <header
         className="zap emoji-header"
@@ -78,7 +76,6 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
-      data-clipboard-text="🔥"
     >
       <header
         className="fire emoji-header"
@@ -112,7 +109,6 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
-      data-clipboard-text="🐛"
     >
       <header
         className="bug emoji-header"
@@ -146,7 +142,6 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
-      data-clipboard-text="🚑"
     >
       <header
         className="ambulance emoji-header"
@@ -180,7 +175,6 @@ exports[`GitmojiList should render the component 1`] = `
   >
     <div
       className="emoji-card"
-      data-clipboard-text="✨"
     >
       <header
         className="sparkles emoji-header"
