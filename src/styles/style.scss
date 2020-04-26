@@ -147,10 +147,7 @@ main.wrap {
       border-radius: 4px;
       transition-duration: 0.3s;
       border-bottom: solid 2px rgba(0, 0, 0, 0);
-
-      &:hover {
-        cursor: pointer;
-      }
+      cursor: pointer;
     }
   }
 
