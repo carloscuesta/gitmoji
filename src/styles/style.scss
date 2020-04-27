@@ -31,6 +31,10 @@ a {
   }
 }
 
+#icon-heart {
+  color: #ff5a79;
+}
+
 code {
   font-family: Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
     'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -55,6 +59,7 @@ section {
   background-color: $yellow;
   padding: 4.5em 2em;
   text-align: center;
+  color: $black;
 
   h2 {
     padding: 0.5em 0;
@@ -266,6 +271,75 @@ main.wrap {
   html,
   body {
     font-size: 19px;
+  }
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+  $dark: darken($lightGray, 75%);
+  $dark-yellow: darken($yellow, 30%);
+  $dark-blue: darken(#00e5ff, 20%);
+  $dark-pink: #b12f5b;
+
+  html,
+  body {
+    background-color: $dark;
+    color: $lightGray;
+  }
+
+  .header {
+    background-color: $dark-yellow;
+    color: $lightGray;
+  }
+
+  pre {
+    background-color: $dark-yellow;
+  }
+
+  .emoji-card {
+    background-color: $dark;
+    box-shadow: 0 1px 2px 0 rgba(darken($lightGray, 60%), 0.6);
+
+    &:hover {
+      box-shadow: 0 10px 20px 0 rgba(darken($lightGray, 60%), 0.6);
+    }
+  }
+
+  a {
+    color: $dark-pink;
+  }
+
+  #icon-heart {
+    color: darken(#ff5a79, 30%);
+  }
+
+  .btn-pink {
+    background-color: $dark-pink;
+    color: $lightGray;
+    box-shadow: 0 4px darken($dark-pink, 20%);
+
+    &:hover {
+      box-shadow: 0 2px darken($dark-pink, 20%);
+    }
+
+    &:active {
+      box-shadow: 0 0 darken($dark-pink, 20%);
+    }
+  }
+
+  .footer {
+    background-color: $dark-blue;
+  }
+
+  .c-hamburger span {
+    background-color: $dark-pink;
+    &::before,
+    &::after {
+      background-color: $dark-pink;
+    }
+  }
+
+  .c-hamburger__input:checked ~ .modal {
+    background-color: $dark-pink;
   }
 }
 
