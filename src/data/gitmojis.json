@@ -467,6 +467,13 @@
       "code": ":wastebasket:",
       "description": "Deprecating code that needs to be cleaned up.",
       "name": "wastebasket"
+    },
+    {
+      "emoji": "🐌",
+      "entity": "&#x1F40C;",
+      "code": ":snail:",
+      "description": "Modifying or adding a shell script.",
+      "name": "snail"
     }
   ]
 }
