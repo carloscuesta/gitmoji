@@ -28,6 +28,13 @@
     margin: 0;
   }
 
+  .gitmoji-code {
+    padding: 0 4px;
+    border-radius: 4px;
+    background-color: rgba($black, 0.7);
+    color: $white;
+  }
+
   &.ns-show,
   &.ns-visible {
     pointer-events: auto;
@@ -84,7 +91,7 @@
 .ns-growl {
   top: 30px;
   left: 30px;
-  max-width: 300px;
+  max-width: 350px;
   border-radius: 5px;
 }
 
@@ -135,6 +142,7 @@
     opacity: 0;
     -webkit-transform: translate3d(0, 40px, 0) scale3d(0.1, 0.6, 1);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
@@ -147,6 +155,7 @@
     -webkit-transform: translate3d(0, 40px, 0) scale3d(0.1, 0.6, 1);
     transform: translate3d(0, 40px, 0) scale3d(0.1, 0.6, 1);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
