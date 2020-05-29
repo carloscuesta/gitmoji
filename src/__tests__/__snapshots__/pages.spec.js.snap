@@ -1029,8 +1029,8 @@ Array [
             className="art emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":art:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🎨"
             >
               🎨
             </span>
@@ -1038,9 +1038,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :art:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":art:"
+            >
+              <code>
+                :art:
+              </code>
+            </div>
             <p>
               Improving structure / format of the code.
             </p>
@@ -1057,8 +1062,8 @@ Array [
             className="zap emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":zap:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="⚡️"
             >
               ⚡️
             </span>
@@ -1066,9 +1071,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :zap:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":zap:"
+            >
+              <code>
+                :zap:
+              </code>
+            </div>
             <p>
               Improving performance.
             </p>
@@ -1085,8 +1095,8 @@ Array [
             className="fire emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":fire:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔥"
             >
               🔥
             </span>
@@ -1094,9 +1104,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :fire:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":fire:"
+            >
+              <code>
+                :fire:
+              </code>
+            </div>
             <p>
               Removing code or files.
             </p>
@@ -1113,8 +1128,8 @@ Array [
             className="bug emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":bug:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🐛"
             >
               🐛
             </span>
@@ -1122,9 +1137,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :bug:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":bug:"
+            >
+              <code>
+                :bug:
+              </code>
+            </div>
             <p>
               Fixing a bug.
             </p>
@@ -1141,8 +1161,8 @@ Array [
             className="ambulance emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":ambulance:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🚑"
             >
               🚑
             </span>
@@ -1150,9 +1170,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :ambulance:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":ambulance:"
+            >
+              <code>
+                :ambulance:
+              </code>
+            </div>
             <p>
               Critical hotfix.
             </p>
@@ -1169,8 +1194,8 @@ Array [
             className="sparkles emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":sparkles:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="✨"
             >
               ✨
             </span>
@@ -1178,9 +1203,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :sparkles:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":sparkles:"
+            >
+              <code>
+                :sparkles:
+              </code>
+            </div>
             <p>
               Introducing new features.
             </p>
@@ -1197,8 +1227,8 @@ Array [
             className="pencil emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":pencil:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="📝"
             >
               📝
             </span>
@@ -1206,9 +1236,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :pencil:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":pencil:"
+            >
+              <code>
+                :pencil:
+              </code>
+            </div>
             <p>
               Writing docs.
             </p>
@@ -1225,8 +1260,8 @@ Array [
             className="rocket emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":rocket:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🚀"
             >
               🚀
             </span>
@@ -1234,9 +1269,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :rocket:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":rocket:"
+            >
+              <code>
+                :rocket:
+              </code>
+            </div>
             <p>
               Deploying stuff.
             </p>
@@ -1253,8 +1293,8 @@ Array [
             className="lipstick emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":lipstick:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="💄"
             >
               💄
             </span>
@@ -1262,9 +1302,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :lipstick:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":lipstick:"
+            >
+              <code>
+                :lipstick:
+              </code>
+            </div>
             <p>
               Updating the UI and style files.
             </p>
@@ -1281,8 +1326,8 @@ Array [
             className="tada emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":tada:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🎉"
             >
               🎉
             </span>
@@ -1290,9 +1335,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :tada:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":tada:"
+            >
+              <code>
+                :tada:
+              </code>
+            </div>
             <p>
               Initial commit.
             </p>
@@ -1309,8 +1359,8 @@ Array [
             className="white-check-mark emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":white_check_mark:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="✅"
             >
               ✅
             </span>
@@ -1318,9 +1368,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :white_check_mark:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":white_check_mark:"
+            >
+              <code>
+                :white_check_mark:
+              </code>
+            </div>
             <p>
               Updating tests.
             </p>
@@ -1337,8 +1392,8 @@ Array [
             className="lock emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":lock:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔒"
             >
               🔒
             </span>
@@ -1346,9 +1401,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :lock:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":lock:"
+            >
+              <code>
+                :lock:
+              </code>
+            </div>
             <p>
               Fixing security issues.
             </p>
@@ -1365,8 +1425,8 @@ Array [
             className="apple emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":apple:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🍎"
             >
               🍎
             </span>
@@ -1374,9 +1434,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :apple:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":apple:"
+            >
+              <code>
+                :apple:
+              </code>
+            </div>
             <p>
               Fixing something on macOS.
             </p>
@@ -1393,8 +1458,8 @@ Array [
             className="penguin emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":penguin:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🐧"
             >
               🐧
             </span>
@@ -1402,9 +1467,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :penguin:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":penguin:"
+            >
+              <code>
+                :penguin:
+              </code>
+            </div>
             <p>
               Fixing something on Linux.
             </p>
@@ -1421,8 +1491,8 @@ Array [
             className="checkered-flag emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":checkered_flag:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🏁"
             >
               🏁
             </span>
@@ -1430,9 +1500,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :checkered_flag:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":checkered_flag:"
+            >
+              <code>
+                :checkered_flag:
+              </code>
+            </div>
             <p>
               Fixing something on Windows.
             </p>
@@ -1449,8 +1524,8 @@ Array [
             className="robot emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":robot:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🤖"
             >
               🤖
             </span>
@@ -1458,9 +1533,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :robot:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":robot:"
+            >
+              <code>
+                :robot:
+              </code>
+            </div>
             <p>
               Fixing something on Android.
             </p>
@@ -1477,8 +1557,8 @@ Array [
             className="green-apple emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":green_apple:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🍏"
             >
               🍏
             </span>
@@ -1486,9 +1566,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :green_apple:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":green_apple:"
+            >
+              <code>
+                :green_apple:
+              </code>
+            </div>
             <p>
               Fixing something on iOS.
             </p>
@@ -1505,8 +1590,8 @@ Array [
             className="bookmark emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":bookmark:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔖"
             >
               🔖
             </span>
@@ -1514,9 +1599,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :bookmark:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":bookmark:"
+            >
+              <code>
+                :bookmark:
+              </code>
+            </div>
             <p>
               Releasing / Version tags.
             </p>
@@ -1533,8 +1623,8 @@ Array [
             className="rotating-light emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":rotating_light:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🚨"
             >
               🚨
             </span>
@@ -1542,9 +1632,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :rotating_light:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":rotating_light:"
+            >
+              <code>
+                :rotating_light:
+              </code>
+            </div>
             <p>
               Removing linter warnings.
             </p>
@@ -1561,8 +1656,8 @@ Array [
             className="construction emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":construction:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🚧"
             >
               🚧
             </span>
@@ -1570,9 +1665,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :construction:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":construction:"
+            >
+              <code>
+                :construction:
+              </code>
+            </div>
             <p>
               Work in progress.
             </p>
@@ -1589,8 +1689,8 @@ Array [
             className="green-heart emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":green_heart:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="💚"
             >
               💚
             </span>
@@ -1598,9 +1698,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :green_heart:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":green_heart:"
+            >
+              <code>
+                :green_heart:
+              </code>
+            </div>
             <p>
               Fixing CI Build.
             </p>
@@ -1617,8 +1722,8 @@ Array [
             className="arrow-down emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":arrow_down:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="⬇️"
             >
               ⬇️
             </span>
@@ -1626,9 +1731,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :arrow_down:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":arrow_down:"
+            >
+              <code>
+                :arrow_down:
+              </code>
+            </div>
             <p>
               Downgrading dependencies.
             </p>
@@ -1645,8 +1755,8 @@ Array [
             className="arrow-up emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":arrow_up:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="⬆️"
             >
               ⬆️
             </span>
@@ -1654,9 +1764,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :arrow_up:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":arrow_up:"
+            >
+              <code>
+                :arrow_up:
+              </code>
+            </div>
             <p>
               Upgrading dependencies.
             </p>
@@ -1673,8 +1788,8 @@ Array [
             className="pushpin emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":pushpin:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="📌"
             >
               📌
             </span>
@@ -1682,9 +1797,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :pushpin:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":pushpin:"
+            >
+              <code>
+                :pushpin:
+              </code>
+            </div>
             <p>
               Pinning dependencies to specific versions.
             </p>
@@ -1701,8 +1821,8 @@ Array [
             className="construction-worker emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":construction_worker:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="👷"
             >
               👷
             </span>
@@ -1710,9 +1830,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :construction_worker:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":construction_worker:"
+            >
+              <code>
+                :construction_worker:
+              </code>
+            </div>
             <p>
               Adding CI build system.
             </p>
@@ -1729,8 +1854,8 @@ Array [
             className="chart-with-upwards-trend emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":chart_with_upwards_trend:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="📈"
             >
               📈
             </span>
@@ -1738,9 +1863,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :chart_with_upwards_trend:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":chart_with_upwards_trend:"
+            >
+              <code>
+                :chart_with_upwards_trend:
+              </code>
+            </div>
             <p>
               Adding analytics or tracking code.
             </p>
@@ -1757,8 +1887,8 @@ Array [
             className="recycle emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":recycle:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="♻️"
             >
               ♻️
             </span>
@@ -1766,9 +1896,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :recycle:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":recycle:"
+            >
+              <code>
+                :recycle:
+              </code>
+            </div>
             <p>
               Refactoring code.
             </p>
@@ -1785,8 +1920,8 @@ Array [
             className="whale emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":whale:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🐳"
             >
               🐳
             </span>
@@ -1794,9 +1929,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :whale:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":whale:"
+            >
+              <code>
+                :whale:
+              </code>
+            </div>
             <p>
               Work about Docker.
             </p>
@@ -1813,8 +1953,8 @@ Array [
             className="heavy-plus-sign emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":heavy_plus_sign:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="➕"
             >
               ➕
             </span>
@@ -1822,9 +1962,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :heavy_plus_sign:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":heavy_plus_sign:"
+            >
+              <code>
+                :heavy_plus_sign:
+              </code>
+            </div>
             <p>
               Adding a dependency.
             </p>
@@ -1841,8 +1986,8 @@ Array [
             className="heavy-minus-sign emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":heavy_minus_sign:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="➖"
             >
               ➖
             </span>
@@ -1850,9 +1995,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :heavy_minus_sign:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":heavy_minus_sign:"
+            >
+              <code>
+                :heavy_minus_sign:
+              </code>
+            </div>
             <p>
               Removing a dependency.
             </p>
@@ -1869,8 +2019,8 @@ Array [
             className="wrench emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":wrench:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔧"
             >
               🔧
             </span>
@@ -1878,9 +2028,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :wrench:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":wrench:"
+            >
+              <code>
+                :wrench:
+              </code>
+            </div>
             <p>
               Changing configuration files.
             </p>
@@ -1897,8 +2052,8 @@ Array [
             className="globe-with-meridians emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":globe_with_meridians:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🌐"
             >
               🌐
             </span>
@@ -1906,9 +2061,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :globe_with_meridians:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":globe_with_meridians:"
+            >
+              <code>
+                :globe_with_meridians:
+              </code>
+            </div>
             <p>
               Internationalization and localization.
             </p>
@@ -1925,8 +2085,8 @@ Array [
             className="pencil2 emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":pencil2:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="✏️"
             >
               ✏️
             </span>
@@ -1934,9 +2094,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :pencil2:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":pencil2:"
+            >
+              <code>
+                :pencil2:
+              </code>
+            </div>
             <p>
               Fixing typos.
             </p>
@@ -1953,8 +2118,8 @@ Array [
             className="poop emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":poop:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="💩"
             >
               💩
             </span>
@@ -1962,9 +2127,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :poop:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":poop:"
+            >
+              <code>
+                :poop:
+              </code>
+            </div>
             <p>
               Writing bad code that needs to be improved.
             </p>
@@ -1981,8 +2151,8 @@ Array [
             className="rewind emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":rewind:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="⏪"
             >
               ⏪
             </span>
@@ -1990,9 +2160,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :rewind:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":rewind:"
+            >
+              <code>
+                :rewind:
+              </code>
+            </div>
             <p>
               Reverting changes.
             </p>
@@ -2009,8 +2184,8 @@ Array [
             className="twisted-rightwards-arrows emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":twisted_rightwards_arrows:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔀"
             >
               🔀
             </span>
@@ -2018,9 +2193,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :twisted_rightwards_arrows:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":twisted_rightwards_arrows:"
+            >
+              <code>
+                :twisted_rightwards_arrows:
+              </code>
+            </div>
             <p>
               Merging branches.
             </p>
@@ -2037,8 +2217,8 @@ Array [
             className="package emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":package:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="📦"
             >
               📦
             </span>
@@ -2046,9 +2226,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :package:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":package:"
+            >
+              <code>
+                :package:
+              </code>
+            </div>
             <p>
               Updating compiled files or packages.
             </p>
@@ -2065,8 +2250,8 @@ Array [
             className="alien emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":alien:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="👽"
             >
               👽
             </span>
@@ -2074,9 +2259,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :alien:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":alien:"
+            >
+              <code>
+                :alien:
+              </code>
+            </div>
             <p>
               Updating code due to external API changes.
             </p>
@@ -2093,8 +2283,8 @@ Array [
             className="truck emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":truck:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🚚"
             >
               🚚
             </span>
@@ -2102,9 +2292,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :truck:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":truck:"
+            >
+              <code>
+                :truck:
+              </code>
+            </div>
             <p>
               Moving or renaming files.
             </p>
@@ -2121,8 +2316,8 @@ Array [
             className="page-facing-up emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":page_facing_up:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="📄"
             >
               📄
             </span>
@@ -2130,9 +2325,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :page_facing_up:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":page_facing_up:"
+            >
+              <code>
+                :page_facing_up:
+              </code>
+            </div>
             <p>
               Adding or updating license.
             </p>
@@ -2149,8 +2349,8 @@ Array [
             className="boom emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":boom:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="💥"
             >
               💥
             </span>
@@ -2158,9 +2358,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :boom:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":boom:"
+            >
+              <code>
+                :boom:
+              </code>
+            </div>
             <p>
               Introducing breaking changes.
             </p>
@@ -2177,8 +2382,8 @@ Array [
             className="bento emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":bento:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🍱"
             >
               🍱
             </span>
@@ -2186,9 +2391,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :bento:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":bento:"
+            >
+              <code>
+                :bento:
+              </code>
+            </div>
             <p>
               Adding or updating assets.
             </p>
@@ -2205,8 +2415,8 @@ Array [
             className="ok-hand emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":ok_hand:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="👌"
             >
               👌
             </span>
@@ -2214,9 +2424,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :ok_hand:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":ok_hand:"
+            >
+              <code>
+                :ok_hand:
+              </code>
+            </div>
             <p>
               Updating code due to code review changes.
             </p>
@@ -2233,8 +2448,8 @@ Array [
             className="wheelchair emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":wheelchair:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="♿️"
             >
               ♿️
             </span>
@@ -2242,9 +2457,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :wheelchair:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":wheelchair:"
+            >
+              <code>
+                :wheelchair:
+              </code>
+            </div>
             <p>
               Improving accessibility.
             </p>
@@ -2261,8 +2481,8 @@ Array [
             className="bulb emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":bulb:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="💡"
             >
               💡
             </span>
@@ -2270,9 +2490,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :bulb:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":bulb:"
+            >
+              <code>
+                :bulb:
+              </code>
+            </div>
             <p>
               Documenting source code.
             </p>
@@ -2289,8 +2514,8 @@ Array [
             className="beers emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":beers:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🍻"
             >
               🍻
             </span>
@@ -2298,9 +2523,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :beers:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":beers:"
+            >
+              <code>
+                :beers:
+              </code>
+            </div>
             <p>
               Writing code drunkenly.
             </p>
@@ -2317,8 +2547,8 @@ Array [
             className="speech-balloon emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":speech_balloon:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="💬"
             >
               💬
             </span>
@@ -2326,9 +2556,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :speech_balloon:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":speech_balloon:"
+            >
+              <code>
+                :speech_balloon:
+              </code>
+            </div>
             <p>
               Updating text and literals.
             </p>
@@ -2345,8 +2580,8 @@ Array [
             className="card-file-box emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":card_file_box:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🗃"
             >
               🗃
             </span>
@@ -2354,9 +2589,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :card_file_box:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":card_file_box:"
+            >
+              <code>
+                :card_file_box:
+              </code>
+            </div>
             <p>
               Performing database related changes.
             </p>
@@ -2373,8 +2613,8 @@ Array [
             className="loud-sound emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":loud_sound:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔊"
             >
               🔊
             </span>
@@ -2382,9 +2622,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :loud_sound:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":loud_sound:"
+            >
+              <code>
+                :loud_sound:
+              </code>
+            </div>
             <p>
               Adding logs.
             </p>
@@ -2401,8 +2646,8 @@ Array [
             className="mute emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":mute:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔇"
             >
               🔇
             </span>
@@ -2410,9 +2655,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :mute:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":mute:"
+            >
+              <code>
+                :mute:
+              </code>
+            </div>
             <p>
               Removing logs.
             </p>
@@ -2429,8 +2679,8 @@ Array [
             className="busts-in-silhouette emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":busts_in_silhouette:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="👥"
             >
               👥
             </span>
@@ -2438,9 +2688,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :busts_in_silhouette:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":busts_in_silhouette:"
+            >
+              <code>
+                :busts_in_silhouette:
+              </code>
+            </div>
             <p>
               Adding contributor(s).
             </p>
@@ -2457,8 +2712,8 @@ Array [
             className="children-crossing emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":children_crossing:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🚸"
             >
               🚸
             </span>
@@ -2466,9 +2721,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :children_crossing:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":children_crossing:"
+            >
+              <code>
+                :children_crossing:
+              </code>
+            </div>
             <p>
               Improving user experience / usability.
             </p>
@@ -2485,8 +2745,8 @@ Array [
             className="building-construction emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":building_construction:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🏗"
             >
               🏗
             </span>
@@ -2494,9 +2754,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :building_construction:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":building_construction:"
+            >
+              <code>
+                :building_construction:
+              </code>
+            </div>
             <p>
               Making architectural changes.
             </p>
@@ -2513,8 +2778,8 @@ Array [
             className="iphone emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":iphone:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="📱"
             >
               📱
             </span>
@@ -2522,9 +2787,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :iphone:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":iphone:"
+            >
+              <code>
+                :iphone:
+              </code>
+            </div>
             <p>
               Working on responsive design.
             </p>
@@ -2541,8 +2811,8 @@ Array [
             className="clown-face emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":clown_face:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🤡"
             >
               🤡
             </span>
@@ -2550,9 +2820,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :clown_face:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":clown_face:"
+            >
+              <code>
+                :clown_face:
+              </code>
+            </div>
             <p>
               Mocking things.
             </p>
@@ -2569,8 +2844,8 @@ Array [
             className="egg emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":egg:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🥚"
             >
               🥚
             </span>
@@ -2578,9 +2853,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :egg:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":egg:"
+            >
+              <code>
+                :egg:
+              </code>
+            </div>
             <p>
               Adding an easter egg.
             </p>
@@ -2597,8 +2877,8 @@ Array [
             className="see-no-evil emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":see_no_evil:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🙈"
             >
               🙈
             </span>
@@ -2606,9 +2886,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :see_no_evil:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":see_no_evil:"
+            >
+              <code>
+                :see_no_evil:
+              </code>
+            </div>
             <p>
               Adding or updating a .gitignore file
             </p>
@@ -2625,8 +2910,8 @@ Array [
             className="camera-flash emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":camera_flash:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="📸"
             >
               📸
             </span>
@@ -2634,9 +2919,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :camera_flash:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":camera_flash:"
+            >
+              <code>
+                :camera_flash:
+              </code>
+            </div>
             <p>
               Adding or updating snapshots
             </p>
@@ -2653,8 +2943,8 @@ Array [
             className="alembic emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":alembic:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="⚗"
             >
               ⚗
             </span>
@@ -2662,9 +2952,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :alembic:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":alembic:"
+            >
+              <code>
+                :alembic:
+              </code>
+            </div>
             <p>
               Experimenting new things
             </p>
@@ -2681,8 +2976,8 @@ Array [
             className="mag emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":mag:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔍"
             >
               🔍
             </span>
@@ -2690,9 +2985,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :mag:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":mag:"
+            >
+              <code>
+                :mag:
+              </code>
+            </div>
             <p>
               Improving SEO
             </p>
@@ -2709,8 +3009,8 @@ Array [
             className="wheel-of-dharma emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":wheel_of_dharma:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="☸️"
             >
               ☸️
             </span>
@@ -2718,9 +3018,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :wheel_of_dharma:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":wheel_of_dharma:"
+            >
+              <code>
+                :wheel_of_dharma:
+              </code>
+            </div>
             <p>
               Work about Kubernetes
             </p>
@@ -2737,8 +3042,8 @@ Array [
             className="label emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":label:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🏷️"
             >
               🏷️
             </span>
@@ -2746,9 +3051,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :label:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":label:"
+            >
+              <code>
+                :label:
+              </code>
+            </div>
             <p>
               Adding or updating types (Flow, TypeScript)
             </p>
@@ -2765,8 +3075,8 @@ Array [
             className="seedling emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":seedling:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🌱"
             >
               🌱
             </span>
@@ -2774,9 +3084,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :seedling:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":seedling:"
+            >
+              <code>
+                :seedling:
+              </code>
+            </div>
             <p>
               Adding or updating seed files
             </p>
@@ -2793,8 +3108,8 @@ Array [
             className="triangular-flag-on-post emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":triangular_flag_on_post:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🚩"
             >
               🚩
             </span>
@@ -2802,9 +3117,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :triangular_flag_on_post:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":triangular_flag_on_post:"
+            >
+              <code>
+                :triangular_flag_on_post:
+              </code>
+            </div>
             <p>
               Adding, updating, or removing feature flags
             </p>
@@ -2821,8 +3141,8 @@ Array [
             className="goal-net emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":goal_net:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🥅"
             >
               🥅
             </span>
@@ -2830,9 +3150,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :goal_net:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":goal_net:"
+            >
+              <code>
+                :goal_net:
+              </code>
+            </div>
             <p>
               Catching errors
             </p>
@@ -2849,8 +3174,8 @@ Array [
             className="animation emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":dizzy:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="💫"
             >
               💫
             </span>
@@ -2858,9 +3183,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :dizzy:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":dizzy:"
+            >
+              <code>
+                :dizzy:
+              </code>
+            </div>
             <p>
               Adding or updating animations and transitions
             </p>
@@ -2877,8 +3207,8 @@ Array [
             className="wastebasket emoji-header"
           >
             <span
-              className="emoji-icon gitmoji"
-              data-clipboard-text=":wastebasket:"
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🗑"
             >
               🗑
             </span>
@@ -2886,9 +3216,14 @@ Array [
           <div
             className="emoji-info"
           >
-            <code>
-              :wastebasket:
-            </code>
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":wastebasket:"
+            >
+              <code>
+                :wastebasket:
+              </code>
+            </div>
             <p>
               Deprecating code that needs to be cleaned up.
             </p>
