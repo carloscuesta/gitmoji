@@ -1024,6 +1024,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="art"
         >
           <header
             className="art emoji-header"
@@ -1057,6 +1058,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="zap"
         >
           <header
             className="zap emoji-header"
@@ -1090,6 +1092,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="fire"
         >
           <header
             className="fire emoji-header"
@@ -1123,6 +1126,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="bug"
         >
           <header
             className="bug emoji-header"
@@ -1156,6 +1160,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="ambulance"
         >
           <header
             className="ambulance emoji-header"
@@ -1189,6 +1194,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="sparkles"
         >
           <header
             className="sparkles emoji-header"
@@ -1222,6 +1228,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="pencil"
         >
           <header
             className="pencil emoji-header"
@@ -1255,6 +1262,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="rocket"
         >
           <header
             className="rocket emoji-header"
@@ -1288,6 +1296,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="lipstick"
         >
           <header
             className="lipstick emoji-header"
@@ -1321,6 +1330,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="tada"
         >
           <header
             className="tada emoji-header"
@@ -1354,6 +1364,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="white-check-mark"
         >
           <header
             className="white-check-mark emoji-header"
@@ -1387,6 +1398,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="lock"
         >
           <header
             className="lock emoji-header"
@@ -1420,6 +1432,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="apple"
         >
           <header
             className="apple emoji-header"
@@ -1453,6 +1466,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="penguin"
         >
           <header
             className="penguin emoji-header"
@@ -1486,6 +1500,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="checkered-flag"
         >
           <header
             className="checkered-flag emoji-header"
@@ -1519,6 +1534,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="robot"
         >
           <header
             className="robot emoji-header"
@@ -1552,6 +1568,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="green-apple"
         >
           <header
             className="green-apple emoji-header"
@@ -1585,6 +1602,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="bookmark"
         >
           <header
             className="bookmark emoji-header"
@@ -1618,6 +1636,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="rotating-light"
         >
           <header
             className="rotating-light emoji-header"
@@ -1651,6 +1670,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="construction"
         >
           <header
             className="construction emoji-header"
@@ -1684,6 +1704,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="green-heart"
         >
           <header
             className="green-heart emoji-header"
@@ -1717,6 +1738,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="arrow-down"
         >
           <header
             className="arrow-down emoji-header"
@@ -1750,6 +1772,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="arrow-up"
         >
           <header
             className="arrow-up emoji-header"
@@ -1783,6 +1806,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="pushpin"
         >
           <header
             className="pushpin emoji-header"
@@ -1816,6 +1840,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="construction-worker"
         >
           <header
             className="construction-worker emoji-header"
@@ -1849,6 +1874,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="chart-with-upwards-trend"
         >
           <header
             className="chart-with-upwards-trend emoji-header"
@@ -1882,6 +1908,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="recycle"
         >
           <header
             className="recycle emoji-header"
@@ -1915,6 +1942,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="whale"
         >
           <header
             className="whale emoji-header"
@@ -1948,6 +1976,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="heavy-plus-sign"
         >
           <header
             className="heavy-plus-sign emoji-header"
@@ -1981,6 +2010,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="heavy-minus-sign"
         >
           <header
             className="heavy-minus-sign emoji-header"
@@ -2014,6 +2044,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="wrench"
         >
           <header
             className="wrench emoji-header"
@@ -2047,6 +2078,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="globe-with-meridians"
         >
           <header
             className="globe-with-meridians emoji-header"
@@ -2080,6 +2112,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="pencil"
         >
           <header
             className="pencil emoji-header"
@@ -2113,6 +2146,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="poop"
         >
           <header
             className="poop emoji-header"
@@ -2146,6 +2180,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="rewind"
         >
           <header
             className="rewind emoji-header"
@@ -2179,6 +2214,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="twisted-rightwards-arrows"
         >
           <header
             className="twisted-rightwards-arrows emoji-header"
@@ -2212,6 +2248,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="package"
         >
           <header
             className="package emoji-header"
@@ -2245,6 +2282,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="alien"
         >
           <header
             className="alien emoji-header"
@@ -2278,6 +2316,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="truck"
         >
           <header
             className="truck emoji-header"
@@ -2311,6 +2350,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="page-facing-up"
         >
           <header
             className="page-facing-up emoji-header"
@@ -2344,6 +2384,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="boom"
         >
           <header
             className="boom emoji-header"
@@ -2377,6 +2418,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="bento"
         >
           <header
             className="bento emoji-header"
@@ -2410,6 +2452,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="ok-hand"
         >
           <header
             className="ok-hand emoji-header"
@@ -2443,6 +2486,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="wheelchair"
         >
           <header
             className="wheelchair emoji-header"
@@ -2476,6 +2520,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="bulb"
         >
           <header
             className="bulb emoji-header"
@@ -2509,6 +2554,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="beers"
         >
           <header
             className="beers emoji-header"
@@ -2542,6 +2588,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="speech-balloon"
         >
           <header
             className="speech-balloon emoji-header"
@@ -2575,6 +2622,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="card-file-box"
         >
           <header
             className="card-file-box emoji-header"
@@ -2608,6 +2656,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="loud-sound"
         >
           <header
             className="loud-sound emoji-header"
@@ -2641,6 +2690,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="mute"
         >
           <header
             className="mute emoji-header"
@@ -2674,6 +2724,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="busts-in-silhouette"
         >
           <header
             className="busts-in-silhouette emoji-header"
@@ -2707,6 +2758,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="children-crossing"
         >
           <header
             className="children-crossing emoji-header"
@@ -2740,6 +2792,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="building-construction"
         >
           <header
             className="building-construction emoji-header"
@@ -2773,6 +2826,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="iphone"
         >
           <header
             className="iphone emoji-header"
@@ -2806,6 +2860,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="clown-face"
         >
           <header
             className="clown-face emoji-header"
@@ -2839,6 +2894,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="egg"
         >
           <header
             className="egg emoji-header"
@@ -2872,6 +2928,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="see-no-evil"
         >
           <header
             className="see-no-evil emoji-header"
@@ -2905,6 +2962,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="camera-flash"
         >
           <header
             className="camera-flash emoji-header"
@@ -2938,6 +2996,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="alembic"
         >
           <header
             className="alembic emoji-header"
@@ -2971,6 +3030,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="mag"
         >
           <header
             className="mag emoji-header"
@@ -3004,6 +3064,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="wheel-of-dharma"
         >
           <header
             className="wheel-of-dharma emoji-header"
@@ -3037,6 +3098,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="label"
         >
           <header
             className="label emoji-header"
@@ -3070,6 +3132,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="seedling"
         >
           <header
             className="seedling emoji-header"
@@ -3103,6 +3166,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="triangular-flag-on-post"
         >
           <header
             className="triangular-flag-on-post emoji-header"
@@ -3136,6 +3200,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="goal-net"
         >
           <header
             className="goal-net emoji-header"
@@ -3169,6 +3234,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="animation"
         >
           <header
             className="animation emoji-header"
@@ -3202,6 +3268,7 @@ Array [
       >
         <div
           className="emoji-card"
+          id="wastebasket"
         >
           <header
             className="wastebasket emoji-header"
