@@ -4,12 +4,17 @@ type Props = {
   code: string,
   description: string,
   emoji: string,
-  name: string
+  name: string,
+  isSelected: boolean
 }
 
 const Gitmoji = (props: Props) => (
-  <article className="emoji col-xs-12 col-sm-6 col-md-3">
-    <div className="emoji-card">
+  <article
+    className={`emoji col-xs-12 col-sm-6 col-md-3${
+      !props.isSelected ? ' unselected' : ''
+    }`}
+  >
+    <div id={`${props.id}`} className={`emoji-card`}>
       <header className={`${props.name} emoji-header`}>
         <span
           className="emoji-icon gitmoji-emoji"

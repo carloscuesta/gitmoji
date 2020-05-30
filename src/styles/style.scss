@@ -129,6 +129,10 @@ main.wrap {
   display: flex;
   box-sizing: border-box;
 
+  &.unselected {
+    filter: blur(4px);
+  }
+
   .gitmoji {
     &-emoji {
       display: inline-block;

@@ -1,6 +1,7 @@
 // @flow
 import React from 'react'
 import Clipboard from 'clipboard'
+import { useRouter } from 'next/router'
 
 import Gitmoji from './Gitmoji'
 
@@ -14,6 +15,38 @@ type Props = {
 }
 
 const GitmojiList = (props: Props) => {
+  const router = useRouter()
+  let selectedGitmoji = undefined
+
+  if (router !== null) {
+    selectedGitmoji = router.query.gitmoji
+  }
+
+  const scrollToId = (id: string) => {
+    const elmt = document.getElementById(id)
+
+    if (elmt !== null) {
+      elmt.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      })
+    }
+  }
+
+  const gitmojiExists = (gitmojiName: string) => {
+    const matchingGitmojiIndex = props.gitmojis.findIndex(
+      (gitmoji) => gitmoji.name === gitmojiName
+    )
+
+    return matchingGitmojiIndex !== -1
+  }
+
+  if (gitmojiExists(selectedGitmoji)) {
+    scrollToId(selectedGitmoji)
+  } else {
+    selectedGitmoji = undefined
+  }
+
   React.useEffect(() => {
     const clipboard = new Clipboard('.gitmoji-code, .gitmoji-emoji')
 
@@ -49,6 +82,10 @@ const GitmojiList = (props: Props) => {
           emoji={gitmoji.emoji}
           key={index}
           name={gitmoji.name}
+          id={gitmoji.name}
+          isSelected={
+            selectedGitmoji === undefined || selectedGitmoji === gitmoji.name
+          }
         />
       ))}
     </div>
