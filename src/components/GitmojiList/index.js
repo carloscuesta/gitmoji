@@ -22,7 +22,7 @@ const GitmojiList = (props: Props) => {
     selectedGitmoji = router.query.gitmoji
   }
 
-  const scrollToId = (id: string) => {
+  const scrollToId = (id: string): void => {
     const elmt = document.getElementById(id)
 
     if (elmt !== null) {
@@ -33,7 +33,7 @@ const GitmojiList = (props: Props) => {
     }
   }
 
-  const gitmojiExists = (gitmojiName: string) => {
+  const gitmojiExists = (gitmojiName: any): boolean => {
     const matchingGitmojiIndex = props.gitmojis.findIndex(
       (gitmoji) => gitmoji.name === gitmojiName
     )
@@ -42,6 +42,7 @@ const GitmojiList = (props: Props) => {
   }
 
   if (gitmojiExists(selectedGitmoji)) {
+    selectedGitmoji = ((selectedGitmoji: any): string)
     scrollToId(selectedGitmoji)
   } else {
     selectedGitmoji = undefined
