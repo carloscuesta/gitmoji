@@ -1,3 +1,4 @@
+// @flow 
 import Cors from 'cors'
 import runMiddleware from './run-middleware'
 
