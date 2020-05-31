@@ -2115,7 +2115,7 @@ Array [
           id="pencil"
         >
           <header
-            className="pencil emoji-header"
+            className="pencil2 emoji-header"
           >
             <span
               className="emoji-icon gitmoji-emoji"
