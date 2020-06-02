@@ -17,13 +17,20 @@ const GitmojiList = (props: Props) => {
   const filter = React.useContext(store).state
 
   React.useEffect(() => {
-    const clipboard = new Clipboard('.gitmoji')
+    const clipboard = new Clipboard('.gitmoji-code, .gitmoji-emoji')
 
-    clipboard.on('success', function() {
+    clipboard.on('success', function(e) {
       window.ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
 
+      const elementClasses = e.trigger.classList
+      let notificationMessage = `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`
+
+      if (elementClasses.contains('gitmoji-emoji')) {
+        notificationMessage = `<p>Hey! Gitmoji emoji ${e.text} copied to the clipboard 😜</p>`
+      }
+
       var notification = new window.NotificationFx({
-        message: '<p>Hey! Gitmoji copied to the clipboard 😜</p>',
+        message: notificationMessage,
         layout: 'growl',
         effect: 'scale',
         type: 'notice'

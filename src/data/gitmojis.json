@@ -172,13 +172,13 @@
       "emoji": "👷",
       "entity": "&#x1f477;",
       "code": ":construction_worker:",
-      "description": "Adding CI build system.",
+      "description": "Adding or updating CI build system.",
       "name": "construction-worker"
     },
     {
       "emoji": "📈",
       "code": ":chart_with_upwards_trend:",
-      "description": "Adding analytics or tracking code.",
+      "description": "Adding or updating analytics or tracking code.",
       "name": "chart-with-upwards-trend"
     },
     {
@@ -228,7 +228,7 @@
       "entity": "&#59161;",
       "code": ":pencil2:",
       "description": "Fixing typos.",
-      "name": "pencil"
+      "name": "pencil2"
     },
     {
       "emoji": "💩",
@@ -339,7 +339,7 @@
       "emoji": "🔊",
       "entity": "&#128266;",
       "code": ":loud_sound:",
-      "description": "Adding logs.",
+      "description": "Adding or updating logs.",
       "name": "loud-sound"
     },
     {
@@ -353,7 +353,7 @@
       "emoji": "👥",
       "entity": "&#128101;",
       "code": ":busts_in_silhouette:",
-      "description": "Adding contributor(s).",
+      "description": "Adding or updating contributor(s).",
       "name": "busts-in-silhouette"
     },
     {
@@ -388,7 +388,7 @@
       "emoji": "🥚",
       "entity": "&#129370;",
       "code": ":egg:",
-      "description": "Adding an easter egg.",
+      "description": "Adding or updating an easter egg.",
       "name": "egg"
     },
     {
