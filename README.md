@@ -30,7 +30,7 @@ npm i -g gitmoji-cli
 
 ## Related tools
 
-[gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji 😜 It uses emojis in your commit messages to group them and create a markdown file with your changes.
+- [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji 😜 It uses emojis in your commit messages to group them and create a markdown file with your changes.
 
 ## Contributing to gitmoji
 
