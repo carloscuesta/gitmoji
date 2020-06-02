@@ -35,14 +35,11 @@ const GitmojiList = (props: Props) => {
     return () => clipboard.destroy()
   }, [])
 
-  const filterHandler = (gitmoji) => {
-    return (
-      filter === '' ||
-      (filter &&
-        (gitmoji.description.toLowerCase().includes(filter.toLowerCase()) ||
-          gitmoji.name.toLowerCase().includes(filter.toLowerCase())))
-    )
-  }
+  const filterHandler = (gitmoji) =>
+    filter === '' ||
+    (filter &&
+      (gitmoji.description.toLowerCase().includes(filter.toLowerCase()) ||
+        gitmoji.name.toLowerCase().includes(filter.toLowerCase())))
 
   return (
     <div className="row center-xs" id="gitmoji-list">
