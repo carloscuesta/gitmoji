@@ -28,13 +28,9 @@ To use gitmojis from your command line install [gitmoji-cli](https://github.com/
 npm i -g gitmoji-cli
 ```
 
-## Generating changelog [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog/)
+## Related tools
 
-To generate a changelog from your command line install [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog). It uses emojis in your commit messages to group them and create a markdown file with your changes.
-
-```bash
-npm i -g gitmoji-changelog
-```
+[gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji 😜 It uses emojis in your commit messages to group them and create a markdown file with your changes.
 
 ## Contributing to gitmoji
 
