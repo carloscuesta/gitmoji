@@ -36,7 +36,6 @@ const GitmojiList = (props: Props) => {
   }, [])
 
   const filterHandler = (gitmoji) => {
-    console.log(JSON.stringify(filter), 'filter')
     return (
       filter === '' ||
       (filter &&
