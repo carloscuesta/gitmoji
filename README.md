@@ -32,7 +32,7 @@ npm i -g gitmoji-cli
 
 ## Related tools
 
-- [`gitmoji-changelog.](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji.
+- [`gitmoji-changelog`](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji.
 
 ## Contributing to gitmoji
 
