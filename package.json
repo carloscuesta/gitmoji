@@ -1,6 +1,7 @@
 {
   "name": "gitmojis",
   "version": "1.0.0",
+  "description": "An emoji guide for your commit messages.",
   "private": false,
   "main": "src/data/gitmojis.json",
   "files": ["src/data/gitmojis.json"],
@@ -33,6 +34,21 @@
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "prettier": "1.18.2"
   },
+  "author": "Carlos Cuesta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloscuesta/gitmoji-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscuesta/gitmoji-cli.git"
+  },
+  "keywords": [
+     "gitmoji",
+     "emoji",
+     "carloscuesta",
+     "commit"
+  ],
   "prettier": {
     "semi": false,
     "singleQuote": true,
