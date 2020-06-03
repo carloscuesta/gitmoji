@@ -1,7 +1,7 @@
 {
-  "name": "gitmoji",
+  "name": "gitmojis",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "main": "src/data/gitmojis.json",
   "files": ["src/data/gitmojis.json"],
   "scripts": {
