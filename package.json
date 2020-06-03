@@ -1,7 +1,10 @@
 {
-  "name": "gitmoji",
+  "name": "gitmojis",
   "version": "1.0.0",
-  "private": true,
+  "description": "An emoji guide for your commit messages.",
+  "private": false,
+  "main": "src/data/gitmojis.json",
+  "files": ["src/data/gitmojis.json"],
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -10,9 +13,10 @@
     "lint": "prettier --check src/**/*.{js,json,scss}",
     "start": "next start",
     "test": "jest --coverage",
-    "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json"
+    "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
+    "prepublishOnly": "git checkout master && git pull && npm run validate:gitmojis"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
     "@zeit/next-sass": "^1.0.1",
     "clipboard": "^2.0.4",
@@ -20,9 +24,7 @@
     "node-sass": "^4.13.0",
     "react": "16.11.0",
     "react-dom": "16.11.0",
-    "react-test-renderer": "^16.11.0"
-  },
-  "devDependencies": {
+    "react-test-renderer": "^16.11.0",
     "flow-bin": "^0.110.1",
     "husky": "^3.0.9",
     "identity-obj-proxy": "^3.0.0",
@@ -32,6 +34,21 @@
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "prettier": "1.18.2"
   },
+  "author": "Carlos Cuesta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloscuesta/gitmoji-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscuesta/gitmoji-cli.git"
+  },
+  "keywords": [
+     "gitmoji",
+     "emoji",
+     "carloscuesta",
+     "commit"
+  ],
   "prettier": {
     "semi": false,
     "singleQuote": true,
