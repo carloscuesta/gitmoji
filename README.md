@@ -20,6 +20,8 @@
 
 **Using emojis** on **commit messages** provides an **easy way** of **identifying the purpose or intention of a commit** with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to use emojis easier.
 
+The gitmojis are published on the [following package](https://www.npmjs.com/package/gitmoji) in order to be used as a dependency 📦.
+
 ## Using [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli)
 
 To use gitmojis from your command line install [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli). A gitmoji interactive client for using emojis on commit messages.
@@ -30,7 +32,7 @@ npm i -g gitmoji-cli
 
 ## Related tools
 
-- [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji 😜 It uses emojis in your commit messages to group them and create a markdown file with your changes.
+- [`gitmoji-changelog.](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji.
 
 ## Contributing to gitmoji
 
