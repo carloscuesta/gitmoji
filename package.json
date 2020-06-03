@@ -2,6 +2,8 @@
   "name": "gitmoji",
   "version": "1.0.0",
   "private": true,
+  "main": "src/data/gitmojis.json",
+  "files": ["src/data/gitmojis.json"],
   "scripts": {
     "build": "next build",
     "dev": "next dev",
