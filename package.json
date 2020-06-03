@@ -12,7 +12,8 @@
     "lint": "prettier --check src/**/*.{js,json,scss}",
     "start": "next start",
     "test": "jest --coverage",
-    "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json"
+    "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
+    "prepublishOnly": "git checkout master && git pull && npm run validate:gitmojis"
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
