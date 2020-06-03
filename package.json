@@ -37,12 +37,13 @@
   "author": "Carlos Cuesta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/carloscuesta/gitmoji-cli/issues"
+    "url": "https://github.com/carloscuesta/gitmoji/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carloscuesta/gitmoji-cli.git"
+    "url": "git+https://github.com/carloscuesta/gitmoji.git"
   },
+  "homepage": "https://gitmoji.carloscuesta.me",
   "keywords": [
      "gitmoji",
      "emoji",
