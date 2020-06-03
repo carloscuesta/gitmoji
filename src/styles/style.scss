@@ -4,264 +4,337 @@
 @import '_includes/notifications';
 
 h1 {
-	font-size: 2em;
+  font-size: 2em;
 }
 
-html, body {
-	margin: 0;
-	padding: 0;
-	font-size: 16.5px;
-	font-family: Avenir, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue",
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16.5px;
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
 
 a {
-	transition: color .5s ease-in-out;
-	text-decoration: none;
-	color: $pink;
+  transition: color 0.5s ease-in-out;
+  text-decoration: none;
+  color: $pink;
 
-	&:hover {
-		animation: zomg .5s infinite;
-	}
+  &:hover {
+    animation: zomg 0.5s infinite;
+  }
 
-	&.btn:hover {
-		animation: none;
-	}
+  &.btn:hover {
+    animation: none;
+  }
 }
 
 code {
-	font-family: Avenir, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-	font-weight: 700;
-	font-size: 1.25em;
-	word-break: break-all;
+  font-weight: 700;
+  font-size: 1.25em;
+  word-break: break-all;
 }
 
 pre {
-	background-color: $yellow;
-	box-shadow: 0 4px darken($yellow, 15%);
-	padding: 1em;
-	border-radius: 4px
+  background-color: $yellow;
+  box-shadow: 0 4px darken($yellow, 15%);
+  padding: 1em;
+  border-radius: 4px;
 }
 
 section {
-	padding: .5em;
+  padding: 0.5em;
 }
 
 .header {
-	background-color: $yellow;
-	padding: 4.5em 2em;
-	text-align: center;
+  background-color: $yellow;
+  padding: 4.5em 2em;
+  text-align: center;
 
-	h2 {
-		padding: .5em 0;
-		margin: 0;
-		font-size: 2em;
-	}
+  h2 {
+    padding: 0.5em 0;
+    margin: 0;
+    font-size: 2em;
+  }
 
-	&-buttons {
-		padding: 1em 0;
-		text-align: center;
-	}
+  &-buttons {
+    padding: 1em 0;
+    text-align: center;
+  }
 }
 
 .single-emoji-logo {
-	opacity: 0;
+  opacity: 0;
 }
 
 .emoji-container {
-	background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .gitmoji-logo {
-	width: 100%;
-	height: 115px;
+  width: 100%;
+  height: 115px;
 }
 
 .btn {
-	display: inline-block;
-	cursor: pointer;
-	border-radius: 4px;
-	font-weight: 600;
-	padding: .75em 1em;
-	transition: none;
-	margin: .25em 0;
-	position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 0.75em 1em;
+  transition: none;
+  margin: 0.25em 0;
+  position: relative;
 
-	&:not(:first-child) {
-		margin-left: 1em;
-	}
+  &:not(:first-child) {
+    margin-left: 1em;
+  }
 
-	&-pink {
-		background-color: $pink;
-		color: $white;
-	    box-shadow: 0 4px darken($pink, 20%);
+  &-pink {
+    background-color: $pink;
+    color: $white;
+    box-shadow: 0 4px darken($pink, 20%);
 
-		&:hover {
-			top: 2px;
-			box-shadow: 0 2px darken($pink, 20%);
-		}
+    &:hover {
+      top: 2px;
+      box-shadow: 0 2px darken($pink, 20%);
+    }
 
-		&:active {
-			box-shadow: 0 0 $pink;
-			top: 4px;
-		}
-	}
+    &:active {
+      box-shadow: 0 0 $pink;
+      top: 4px;
+    }
+  }
 
-	.icon {
-		margin-right: .25em;
-	}
+  .icon {
+    margin-right: 0.25em;
+  }
 }
 
 .wrap {
-	max-width: 1100px;
-	margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 main.wrap {
-	padding: 3.5em 2em;
+  padding: 3.5em 2em;
 }
 
 .emoji {
-	display: flex;
-	box-sizing: border-box;
+  display: flex;
+  box-sizing: border-box;
 
-	.gitmoji {
-		font-size: 5em;
-		cursor: pointer;
-		font-family: "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
-	}
+  .gitmoji {
+    &-emoji {
+      display: inline-block;
+      font-size: 5em;
+      cursor: pointer;
+      font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
+        'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
 
-	&-card {
-		background-color: $white;
-		border-radius: 4px;
-		box-shadow: 0 1px 2px 0 rgba(168, 182, 191, .6);
-		flex: 1;
-		margin: 1em 0;
-		transition: all .25s ease-out;
-		text-align: center;
-		overflow: hidden;
+      &:hover {
+        animation-name: bounce;
+        animation-duration: 0.5s;
+      }
+    }
 
-		&:hover {
-			box-shadow: 0 10px 20px 0 rgba(168, 182, 191, .6);
-			transform: translateY(-1px);
-		}
-	}
+    &-code {
+      border-radius: 4px;
+      transition-duration: 0.3s;
+      border-bottom: solid 2px rgba(0, 0, 0, 0);
+      cursor: pointer;
+    }
+  }
 
-	&-info {
-		padding: 1.5em;
-		word-break: break-all;
+  &-card {
+    background-color: $white;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(168, 182, 191, 0.6);
+    flex: 1;
+    margin: 1em 0;
+    transition: all 0.25s ease-out;
+    text-align: center;
+    overflow: hidden;
 
-		p {
-			color: #999;
-		    word-break: normal;
-		}
-	}
+    &:hover {
+      box-shadow: 0 10px 20px 0 rgba(168, 182, 191, 0.6);
+      transform: translateY(-1px);
+    }
+  }
 
-	&-header {
-		align-self: flex-start;
-		padding-top: 2em;
-		padding-bottom: .85em;
-		border-top-left-radius: 4px;
-		border-top-right-radius: 4px;
-	}
+  &-info {
+    padding: 1.5em;
+    word-break: break-all;
 
-	&-data {
-		display: flex;
-		align-items: center;
-	}
+    p {
+      color: #999;
+      word-break: normal;
+    }
+  }
 
-	&-visible {
-		opacity: 1;
-	}
+  &-header {
+    align-self: flex-start;
+    padding-top: 2em;
+    padding-bottom: 0.85em;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  &-data {
+    display: flex;
+    align-items: center;
+  }
+
+  &-visible {
+    opacity: 1;
+  }
 }
 
 .contributor {
-	&-picture {
-		max-width: 100%;
-		border-radius: 50%;
-		padding: .5em;
-	}
+  &-picture {
+    max-width: 100%;
+    border-radius: 50%;
+    padding: 0.5em;
+  }
 }
 
 .icon {
-	width: 1em;
-	height: 1em;
+  width: 1em;
+  height: 1em;
 
-	&-heart {
-		margin: 0 .25em;
-	}
+  &-heart {
+    margin: 0 0.25em;
+  }
 }
 
 .footer {
-	padding: 1.5em;
-	background-color: #00e5ff;
-	color: $white;
+  padding: 1.5em;
+  background-color: #00e5ff;
+  color: $white;
 
-	nav {
-		-webkit-box-pack: end;
-		-ms-flex-pack: end;
-		justify-content: flex-end;
-		text-align: end;
+  nav {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: end;
 
-		a:after {
-			content: "·";
-			color: $white!important;
-			margin: 0 .75em;
-		}
+    a:after {
+      content: '·';
+      color: $white !important;
+      margin: 0 0.75em;
+    }
 
-		a:last-child:after {
-			content: "";
-			margin: 0;
-		}
-	}
+    a:last-child:after {
+      content: '';
+      margin: 0;
+    }
+  }
 }
 
-@media(max-width: 768px) {
-	footer nav, footer h3 {
-		justify-content: center!important;
-		text-align: center!important;
-	}
+@media (max-width: 768px) {
+  footer nav,
+  footer h3 {
+    justify-content: center !important;
+    text-align: center !important;
+  }
 
-	.emoji .gitmoji {
-		font-size: 50px;
-	}
+  .emoji .gitmoji {
+    font-size: 50px;
+  }
 
-	.emoji-header {
-		padding-bottom: 1em;
-	}
+  .emoji-header {
+    padding-bottom: 1em;
+  }
 
-	.header h2 {
-		display: none;
-	}
+  .header h2 {
+    display: none;
+  }
 
-	.made-with-love, .footer-nav {
-		flex-basis: 100%;
-		max-width: 100%
-	}
+  .made-with-love,
+  .footer-nav {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
 
-@media(min-width: 2048px) {
-	html, body {
-		font-size: 19px;
-	}
+@media (min-width: 2048px) {
+  html,
+  body {
+    font-size: 19px;
+  }
 }
 
 @each $gitmoji, $color in ($gitmojis) {
-	.#{$gitmoji} {
-		background-color: $color;
-	}
+  .#{$gitmoji} {
+    background-color: $color;
+
+    & ~ .emoji-info .gitmoji-code {
+      &:hover {
+        background-color: rgba($color, 0.3);
+        box-shadow: 0 4px rgba($color, 0.6);
+      }
+    }
+  }
 }
 
 @keyframes zomg {
-  0%, 100% { color: #7ccdea;}
-  16%      { color: #0074D9;}
-  32%      { color: #2ECC40;}
-  48%      { color: #FFDC00;}
-  64%      { color: #B10DC9;}
-  80%      { color: #FF4136;}
+  0%,
+  100% {
+    color: #7ccdea;
+  }
+
+  16% {
+    color: #0074d9;
+  }
+
+  32% {
+    color: #2ecc40;
+  }
+
+  48% {
+    color: #ffdc00;
+  }
+
+  64% {
+    color: #b10dc9;
+  }
+
+  80% {
+    color: #ff4136;
+  }
+}
+
+/*
+  This code has been obtained from:
+  https://github.com/daneden/animate.css/blob/master/source/attention_seekers/bounce.css
+*/
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -9px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -2px, 0);
+  }
 }

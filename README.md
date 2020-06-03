@@ -5,7 +5,7 @@
 </p>
 <p align="center">
 	<a href="https://travis-ci.org/carloscuesta/gitmoji">
-		<img src="https://img.shields.io/travis/carloscuesta/gitmoji.svg?style=flat-square"
+		<img src="https://img.shields.io/travis/carloscuesta/gitmoji/master?style=flat-square"
 			 alt="Build Status">
 	</a>
 	<a href="https://gitmoji.carloscuesta.me">
@@ -34,7 +34,17 @@ npm i -g gitmoji-cli
 
 ## Contributing to gitmoji
 
-Contributing to gitmoji it's a piece of :cake:, read the [contributing guidelines](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md). You can discuss emojis using the [issues section](https://github.com/carloscuesta/gitmoji/issues/new). To add a new emoji to the list create an issue and send a pull request, see [how to send a pull request and add a gitmoji](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md#how-to-add-a-gitmoji).
+Contributing to gitmoji is a piece of :cake:, read the [contributing guidelines](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md). You can discuss emojis using the [issues section](https://github.com/carloscuesta/gitmoji/issues/new). To add a new emoji to the list create an issue and send a pull request, see [how to send a pull request and add a gitmoji](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md#how-to-add-a-gitmoji).
+
+## Spread the word
+
+Are you using Gitmoji on your GitHub project? Set the Gitmoji badge on top of your readme using this code:
+
+```html
+<a href="https://gitmoji.carloscuesta.me">
+  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+</a>
+```
 
 ## License
 

@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GitmojiList should render the component 1`] = `
+<div
+  className="row center-xs"
+  id="gitmoji-list"
+>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+  >
+    <div
+      className="emoji-card"
+    >
+      <header
+        className="art emoji-header"
+      >
+        <span
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="🎨"
+        >
+          🎨
+        </span>
+      </header>
+      <div
+        className="emoji-info"
+      >
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":art:"
+        >
+          <code>
+            :art:
+          </code>
+        </div>
+        <p>
+          Improving structure / format of the code.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+  >
+    <div
+      className="emoji-card"
+    >
+      <header
+        className="zap emoji-header"
+      >
+        <span
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="⚡️"
+        >
+          ⚡️
+        </span>
+      </header>
+      <div
+        className="emoji-info"
+      >
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":zap:"
+        >
+          <code>
+            :zap:
+          </code>
+        </div>
+        <p>
+          Improving performance.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+  >
+    <div
+      className="emoji-card"
+    >
+      <header
+        className="fire emoji-header"
+      >
+        <span
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="🔥"
+        >
+          🔥
+        </span>
+      </header>
+      <div
+        className="emoji-info"
+      >
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":fire:"
+        >
+          <code>
+            :fire:
+          </code>
+        </div>
+        <p>
+          Removing code or files.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+  >
+    <div
+      className="emoji-card"
+    >
+      <header
+        className="bug emoji-header"
+      >
+        <span
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="🐛"
+        >
+          🐛
+        </span>
+      </header>
+      <div
+        className="emoji-info"
+      >
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":bug:"
+        >
+          <code>
+            :bug:
+          </code>
+        </div>
+        <p>
+          Fixing a bug.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+  >
+    <div
+      className="emoji-card"
+    >
+      <header
+        className="ambulance emoji-header"
+      >
+        <span
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="🚑"
+        >
+          🚑
+        </span>
+      </header>
+      <div
+        className="emoji-info"
+      >
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":ambulance:"
+        >
+          <code>
+            :ambulance:
+          </code>
+        </div>
+        <p>
+          Critical hotfix.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+  >
+    <div
+      className="emoji-card"
+    >
+      <header
+        className="sparkles emoji-header"
+      >
+        <span
+          className="emoji-icon gitmoji-emoji"
+          data-clipboard-text="✨"
+        >
+          ✨
+        </span>
+      </header>
+      <div
+        className="emoji-info"
+      >
+        <div
+          className="gitmoji-code"
+          data-clipboard-text=":sparkles:"
+        >
+          <code>
+            :sparkles:
+          </code>
+        </div>
+        <p>
+          Introducing new features.
+        </p>
+      </div>
+    </div>
+  </article>
+</div>
+`;
