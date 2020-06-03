@@ -14,7 +14,7 @@
     "test": "jest --coverage",
     "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
     "@zeit/next-sass": "^1.0.1",
     "clipboard": "^2.0.4",
@@ -22,9 +22,7 @@
     "node-sass": "^4.13.0",
     "react": "16.11.0",
     "react-dom": "16.11.0",
-    "react-test-renderer": "^16.11.0"
-  },
-  "devDependencies": {
+    "react-test-renderer": "^16.11.0",
     "flow-bin": "^0.110.1",
     "husky": "^3.0.9",
     "identity-obj-proxy": "^3.0.0",
