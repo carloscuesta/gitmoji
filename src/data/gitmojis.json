@@ -60,7 +60,7 @@
       "emoji": "💄",
       "entity": "&#ff99cc;",
       "code": ":lipstick:",
-      "description": "Updating the UI and style files.",
+      "description": "Adding or updating the UI and style files.",
       "name": "lipstick"
     },
     {
@@ -74,7 +74,7 @@
       "emoji": "✅",
       "entity": "&#x2705;",
       "code": ":white_check_mark:",
-      "description": "Updating tests.",
+      "description": "Adding or updating tests.",
       "name": "white-check-mark"
     },
     {
@@ -255,7 +255,7 @@
       "emoji": "📦",
       "entity": "&#1F4E6;",
       "code": ":package:",
-      "description": "Updating compiled files or packages.",
+      "description": "Adding or updating compiled files or packages.",
       "name": "package"
     },
     {
@@ -325,7 +325,7 @@
       "emoji": "💬",
       "entity": "&#128172;",
       "code": ":speech_balloon:",
-      "description": "Updating text and literals.",
+      "description": "Adding or updating text and literals.",
       "name": "speech-balloon"
     },
     {

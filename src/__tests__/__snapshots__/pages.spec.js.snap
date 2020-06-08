@@ -1311,7 +1311,7 @@ Array [
               </code>
             </div>
             <p>
-              Updating the UI and style files.
+              Adding or updating the UI and style files.
             </p>
           </div>
         </div>
@@ -1377,7 +1377,7 @@ Array [
               </code>
             </div>
             <p>
-              Updating tests.
+              Adding or updating tests.
             </p>
           </div>
         </div>
@@ -2235,7 +2235,7 @@ Array [
               </code>
             </div>
             <p>
-              Updating compiled files or packages.
+              Adding or updating compiled files or packages.
             </p>
           </div>
         </div>
@@ -2565,7 +2565,7 @@ Array [
               </code>
             </div>
             <p>
-              Updating text and literals.
+              Adding or updating text and literals.
             </p>
           </div>
         </div>
