@@ -2,7 +2,8 @@
 import React, { type Element } from 'react'
 import Clipboard from 'clipboard'
 
-import Gitmoji from './Gitmoji'
+import GitmojiCard from './GitmojiCard'
+import GitmojiRaw from './GitmojiRaw'
 
 type Props = {
   layout: string,
@@ -15,6 +16,32 @@ type Props = {
 }
 
 const GitmojiList = (props: Props): Element<'div'> => {
+  const { layout, gitmojis } = props
+
+  const gitmojiListRender = () => {
+    if (layout === 'grid') {
+      return gitmojis.map((gitmoji, index) => (
+        <GitmojiCard
+          code={gitmoji.code}
+          description={gitmoji.description}
+          emoji={gitmoji.emoji}
+          key={index}
+          name={gitmoji.name}
+        />
+      ))
+    }
+
+    return gitmojis.map((gitmoji, index) => (
+      <GitmojiRaw
+        code={gitmoji.code}
+        description={gitmoji.description}
+        emoji={gitmoji.emoji}
+        key={index}
+        name={gitmoji.name}
+      />
+    ))
+  }
+
   React.useEffect(() => {
     const clipboard = new Clipboard('.gitmoji-code, .gitmoji-emoji')
 
@@ -46,15 +73,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
       className={`row center-xs ${props.layout || props.layout}`}
       id="gitmoji-list"
     >
-      {props.gitmojis.map((gitmoji, index) => (
-        <Gitmoji
-          code={gitmoji.code}
-          description={gitmoji.description}
-          emoji={gitmoji.emoji}
-          key={index}
-          name={gitmoji.name}
-        />
-      ))}
+      {gitmojiListRender()}
     </div>
   )
 }
