@@ -157,7 +157,8 @@ main.wrap {
       }
     }
 
-    &-card {
+    &-card,
+    &-raw {
       background-color: $white;
       border-radius: 4px;
       box-shadow: 0 1px 2px 0 rgba(168, 182, 191, 0.6);
@@ -170,6 +171,59 @@ main.wrap {
       &:hover {
         box-shadow: 0 10px 20px 0 rgba(168, 182, 191, 0.6);
         transform: translateY(-1px);
+      }
+    }
+
+    &-raw {
+      display: flex;
+      width: 100%;
+      margin: 0.3em 0;
+
+      .emoji-header {
+        min-width: 5vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-top-right-radius: 0;
+
+        .gitmoji-emoji {
+          font-size: 1.5em;
+        }
+      }
+
+      .emoji-icon {
+        margin: 0.2em 0;
+      }
+
+      .emoji-info {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        padding-left: 0.5em;
+        width: 100%;
+
+        .gitmoji-code {
+          text-align: left;
+          padding: 0;
+          width: 45%;
+          min-width: 45%;
+
+          code {
+            padding: 0 0.5em;
+            width: auto;
+          }
+        }
+
+        p {
+          margin: 0;
+          text-align: left;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
       }
     }
 
@@ -198,65 +252,6 @@ main.wrap {
 
     &-visible {
       opacity: 1;
-    }
-  }
-
-  &.raw {
-    .emoji {
-      max-width: 50%;
-      flex-basis: 50% !important;
-
-      &-card {
-        display: flex;
-        width: 100%;
-        margin: 0.3em 0;
-      }
-
-      &-header {
-        width: 5vw;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0;
-        padding-bottom: 0;
-        border-top-right-radius: 0;
-      }
-
-      &-icon {
-        margin: 0.2em 0;
-      }
-
-      &-info {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        padding-top: 0;
-        padding-bottom: 0;
-
-        .gitmoji-code {
-          text-align: left;
-          padding: 0 0.5em;
-          min-width: 45%;
-
-          code {
-            padding: 0 0.5em;
-            width: auto;
-          }
-        }
-
-        p {
-          margin: 0;
-          text-align: left;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-        }
-      }
-
-      .gitmoji-emoji {
-        font-size: 1.5em;
-      }
     }
   }
 }
@@ -303,6 +298,11 @@ main.wrap {
 }
 
 @media (max-width: 768px) {
+
+  main.wrap {
+    padding: 1.5em 1em;
+  }
+
   footer nav,
   footer h3 {
     justify-content: center !important;
@@ -321,6 +321,28 @@ main.wrap {
     display: none;
   }
 
+  #gitmoji-list {
+    .emoji-raw {
+      .emoji-header {
+        min-width: 20vw;
+      }
+
+      .emoji-info {
+        .gitmoji-code {
+          width: 100%;
+
+          code {
+            font-size: 1em;
+          }
+        }
+
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+
   .made-with-love,
   .footer-nav {
     flex-basis: 100%;
@@ -329,17 +351,19 @@ main.wrap {
 }
 
 @media (min-width: 2048px) {
+
   html,
   body {
     font-size: 19px;
   }
 }
 
-@each $gitmoji, $color in ($gitmojis) {
+@each $gitmoji,
+$color in ($gitmojis) {
   .#{$gitmoji} {
     background-color: $color;
 
-    & ~ .emoji-info .gitmoji-code code {
+    &~.emoji-info .gitmoji-code code {
       &:hover {
         background-color: rgba($color, 0.3);
         box-shadow: 0 4px rgba($color, 0.6);
@@ -349,6 +373,7 @@ main.wrap {
 }
 
 @keyframes zomg {
+
   0%,
   100% {
     color: #7ccdea;
@@ -380,6 +405,7 @@ main.wrap {
   https://github.com/daneden/animate.css/blob/master/source/attention_seekers/bounce.css
 */
 @keyframes bounce {
+
   from,
   20%,
   53%,
