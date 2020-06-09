@@ -7,13 +7,24 @@ import GitmojiList from '../components/GitmojiList'
 import SEO from '../components/SEO'
 import { gitmojis } from '../data/gitmojis.json'
 
-const Home = () => (
-  <>
-    <SEO />
-    <Layout headerWithSocialButtons>
-      <GitmojiList gitmojis={gitmojis} />
-    </Layout>
-  </>
-)
+const Home = () => {
+  const [layout, setLayout] = React.useState('grid')
+
+  return (
+    <>
+      <SEO />
+      <Layout headerWithSocialButtons>
+        <button
+          onClick={() => {
+            setLayout(layout === 'grid' ? 'raw' : 'grid')
+          }}
+        >
+          Toggle
+        </button>
+        <GitmojiList gitmojis={gitmojis} layout={layout} />
+      </Layout>
+    </>
+  )
+}
 
 export default Home

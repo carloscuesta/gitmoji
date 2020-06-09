@@ -5,6 +5,7 @@ import Clipboard from 'clipboard'
 import Gitmoji from './Gitmoji'
 
 type Props = {
+  layout: string,
   gitmojis: Array<{
     code: string,
     description: string,
@@ -41,7 +42,10 @@ const GitmojiList = (props: Props): Element<'div'> => {
   }, [])
 
   return (
-    <div className="row center-xs" id="gitmoji-list">
+    <div
+      className={`row center-xs ${props.layout || props.layout}`}
+      id="gitmoji-list"
+    >
       {props.gitmojis.map((gitmoji, index) => (
         <Gitmoji
           code={gitmoji.code}
