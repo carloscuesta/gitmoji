@@ -6,7 +6,7 @@ import GitmojiCard from './GitmojiCard'
 import GitmojiRaw from './GitmojiRaw'
 
 type Props = {
-  layout: string,
+  layout: 'grid' | 'raw',
   gitmojis: Array<{
     code: string,
     description: string,
