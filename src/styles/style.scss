@@ -298,7 +298,6 @@ main.wrap {
 }
 
 @media (max-width: 768px) {
-
   main.wrap {
     padding: 1.5em 1em;
   }
@@ -351,19 +350,17 @@ main.wrap {
 }
 
 @media (min-width: 2048px) {
-
   html,
   body {
     font-size: 19px;
   }
 }
 
-@each $gitmoji,
-$color in ($gitmojis) {
+@each $gitmoji, $color in ($gitmojis) {
   .#{$gitmoji} {
     background-color: $color;
 
-    &~.emoji-info .gitmoji-code code {
+    & ~ .emoji-info .gitmoji-code code {
       &:hover {
         background-color: rgba($color, 0.3);
         box-shadow: 0 4px rgba($color, 0.6);
@@ -373,7 +370,6 @@ $color in ($gitmojis) {
 }
 
 @keyframes zomg {
-
   0%,
   100% {
     color: #7ccdea;
@@ -405,7 +401,6 @@ $color in ($gitmojis) {
   https://github.com/daneden/animate.css/blob/master/source/attention_seekers/bounce.css
 */
 @keyframes bounce {
-
   from,
   20%,
   53%,
