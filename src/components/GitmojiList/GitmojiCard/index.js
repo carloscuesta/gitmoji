@@ -7,7 +7,7 @@ type Props = {
   name: string,
 }
 
-const Gitmoji = (props: Props) => (
+const GitmojiCard = (props: Props) => (
   <article className="emoji col-xs-12 col-sm-6 col-md-3">
     <div className="emoji-card">
       <header className={`${props.name} emoji-header`}>
@@ -28,4 +28,4 @@ const Gitmoji = (props: Props) => (
   </article>
 )
 
-export default Gitmoji
+export default GitmojiCard
