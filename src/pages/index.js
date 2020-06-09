@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import '../styles/style.scss'
 import Layout from '../components/Layout'
+import ToggleLayoutButton from '../components/Button/ToggleLayoutButton'
 import GitmojiList from '../components/GitmojiList'
 import SEO from '../components/SEO'
 import { gitmojis } from '../data/gitmojis.json'
@@ -14,13 +15,12 @@ const Home = () => {
     <>
       <SEO />
       <Layout headerWithSocialButtons>
-        <button
+        <ToggleLayoutButton
+          layout={layout}
           onClick={() => {
             setLayout(layout === 'grid' ? 'raw' : 'grid')
           }}
-        >
-          Toggle
-        </button>
+        />
         <GitmojiList gitmojis={gitmojis} layout={layout} />
       </Layout>
     </>
