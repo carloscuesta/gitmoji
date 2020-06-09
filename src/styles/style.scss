@@ -83,6 +83,8 @@ section {
 
 .btn {
   display: inline-block;
+  border: none;
+  outline: none;
   cursor: pointer;
   border-radius: 4px;
   font-weight: 600;
@@ -95,19 +97,48 @@ section {
     margin-left: 1em;
   }
 
+  &:hover {
+    top: 2px;
+  }
+
+  &:active {
+    top: 4px;
+  }
+
   &-pink {
     background-color: $pink;
     color: $white;
     box-shadow: 0 4px darken($pink, 20%);
 
     &:hover {
-      top: 2px;
       box-shadow: 0 2px darken($pink, 20%);
     }
 
     &:active {
       box-shadow: 0 0 $pink;
-      top: 4px;
+    }
+  }
+
+  &-yellow {
+    background-color: $yellow;
+    color: $black;
+    box-shadow: 0 4px darken($yellow, 20%);
+
+    &:hover {
+      box-shadow: 0 2px darken($yellow, 20%);
+    }
+
+    &:active {
+      box-shadow: 0 0 $yellow;
+    }
+  }
+
+  &.layout {
+    align-self: flex-end;
+
+    svg {
+      margin: 0;
+      font-size: 1.5em;
     }
   }
 
@@ -122,7 +153,9 @@ section {
 }
 
 main.wrap {
-  padding: 3.5em 2em;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 3.5em 2em;
 }
 
 #gitmoji-list {
