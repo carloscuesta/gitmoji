@@ -1015,8 +1015,13 @@ Array [
   <main
     className="wrap"
   >
+    <button
+      onClick={[Function]}
+    >
+      Toggle
+    </button>
     <div
-      className="row center-xs"
+      className="row center-xs grid"
       id="gitmoji-list"
     >
       <article

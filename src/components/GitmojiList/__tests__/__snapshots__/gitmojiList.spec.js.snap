@@ -2,7 +2,7 @@
 
 exports[`GitmojiList should render the component 1`] = `
 <div
-  className="row center-xs"
+  className="row center-xs grid"
   id="gitmoji-list"
 >
   <article
