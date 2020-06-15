@@ -18,7 +18,7 @@ const Home = () => {
         <ToggleLayoutButton
           layout={layout}
           onClick={() => {
-            setLayout(layout === 'grid' ? 'raw' : 'grid')
+            setLayout(layout === 'grid' ? 'list' : 'grid')
           }}
         />
         <GitmojiList gitmojis={gitmojis} layout={layout} />

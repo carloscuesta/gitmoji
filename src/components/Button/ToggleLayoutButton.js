@@ -3,7 +3,7 @@ import React from 'react'
 
 import Icon from '../Icon'
 
-type Props = { layout: 'raw' | 'grid', onClick: () => void }
+type Props = { layout: 'list' | 'grid', onClick: () => void }
 
 const ToggleLayoutButton = (props: Props) => (
   <button className="btn btn-yellow layout" onClick={props.onClick}>
