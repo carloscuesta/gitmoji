@@ -177,6 +177,7 @@
     },
     {
       "emoji": "📈",
+      "entity": "&#x1F4C8;",
       "code": ":chart_with_upwards_trend:",
       "description": "Adding or updating analytics or tracking code.",
       "name": "chart-with-upwards-trend"
