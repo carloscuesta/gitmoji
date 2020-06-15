@@ -40,7 +40,7 @@ Contributing to gitmoji is a piece of :cake:, read the [contributing guidelines]
 
 ## Spread the word
 
-Are you using Gitmoji on your GitHub project? Set the Gitmoji badge on top of your readme using this code:
+Are you using Gitmoji on your project? Set the Gitmoji badge on top of your readme using this code:
 
 ```html
 <a href="https://gitmoji.carloscuesta.me">
