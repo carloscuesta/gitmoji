@@ -356,10 +356,13 @@ main.wrap {
   #gitmoji-list {
     .emoji-raw {
       .emoji-header {
-        min-width: 20vw;
+        min-width: 15vw;
       }
 
       .emoji-info {
+        flex-direction: column;
+        align-items: flex-start;
+
         .gitmoji-code {
           width: 100%;
 
@@ -369,7 +372,8 @@ main.wrap {
         }
 
         p {
-          display: none;
+          margin-left: 0.5em;
+          text-overflow: ellipsis;
         }
       }
     }
