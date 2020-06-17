@@ -295,11 +295,11 @@
       "name": "bento"
     },
     {
-      "emoji": "👌",
-      "entity": "&#x1f44c;",
-      "code": ":ok_hand:",
+      "emoji": "👀",
+      "entity": "&#128064;",
+      "code": ":eyes:",
       "description": "Updating code due to code review changes.",
-      "name": "ok-hand"
+      "name": "eyes"
     },
     {
       "emoji": "♿️",
