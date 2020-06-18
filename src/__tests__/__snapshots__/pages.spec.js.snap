@@ -2412,39 +2412,6 @@ Array [
           className="emoji-card"
         >
           <header
-            className="ok-hand emoji-header"
-          >
-            <span
-              className="emoji-icon gitmoji-emoji"
-              data-clipboard-text="👌"
-            >
-              👌
-            </span>
-          </header>
-          <div
-            className="emoji-info"
-          >
-            <div
-              className="gitmoji-code"
-              data-clipboard-text=":ok_hand:"
-            >
-              <code>
-                :ok_hand:
-              </code>
-            </div>
-            <p>
-              Updating code due to code review changes.
-            </p>
-          </div>
-        </div>
-      </article>
-      <article
-        className="emoji col-xs-12 col-sm-6 col-md-3"
-      >
-        <div
-          className="emoji-card"
-        >
-          <header
             className="wheelchair emoji-header"
           >
             <span
