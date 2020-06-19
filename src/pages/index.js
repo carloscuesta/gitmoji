@@ -5,7 +5,7 @@ import '../styles/style.scss'
 import Layout from '../components/Layout'
 import GitmojiList from '../components/GitmojiList'
 import SEO from '../components/SEO'
-import { gitmojis } from '../data/gitmojis.json'
+import gitmojis from '../data/gitmojis.json'
 
 const Home = () => (
   <>
