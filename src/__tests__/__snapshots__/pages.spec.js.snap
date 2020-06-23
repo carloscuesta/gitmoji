@@ -2049,6 +2049,39 @@ Array [
           className="emoji-card"
         >
           <header
+            className="hammer emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔨"
+            >
+              🔨
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":hammer:"
+            >
+              <code>
+                :hammer:
+              </code>
+            </div>
+            <p>
+              Adding or updating build scripts.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
             className="globe-with-meridians emoji-header"
           >
             <span
