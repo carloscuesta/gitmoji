@@ -176,6 +176,13 @@
       "name": "wrench"
     },
     {
+      "emoji": "🔨",
+      "entity": "&#128296;",
+      "code": ":hammer:",
+      "description": "Adding or updating build scripts.",
+      "name": "hammer"
+    },
+    {
       "emoji": "🌐",
       "entity": "&#127760;",
       "code": ":globe_with_meridians:",
