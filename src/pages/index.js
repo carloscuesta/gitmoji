@@ -15,10 +15,7 @@ const Home = () => {
     <>
       <SEO />
       <Layout headerWithSocialButtons layout={layout}>
-        <ToggleLayoutButtons
-          layout={layout}
-          onClick={setLayout}
-        />
+        <ToggleLayoutButtons layout={layout} onClick={setLayout} />
         <GitmojiList gitmojis={gitmojis} layout={layout} />
       </Layout>
     </>

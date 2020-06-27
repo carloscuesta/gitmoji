@@ -6,7 +6,11 @@ import Header from './Header'
 import Navigation from './Navigation'
 import Footer from './Footer'
 
-type Props = { headerWithSocialButtons: boolean, layout: 'grid' | 'list', children: React.Node }
+type Props = {
+  headerWithSocialButtons: boolean,
+  layout: 'grid' | 'list',
+  children: React.Node
+}
 
 const Layout = (props: Props): React.Node => (
   <>
