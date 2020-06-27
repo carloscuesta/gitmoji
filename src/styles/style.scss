@@ -134,7 +134,12 @@ section {
   }
 
   &.layout {
+    background-color: transparent;
     align-self: flex-end;
+
+    &.selected {
+      color: $pink;
+    }
 
     svg {
       margin: 0;
@@ -155,10 +160,34 @@ section {
 main.wrap {
   display: flex;
   flex-direction: column;
-  padding: 2em 2em 3.5em 2em;
+  align-items: center;
+  max-width: none;
+}
+
+.toggle-btn-group {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 2em;
+  margin-right: 2em;
+
+  .btn {
+    margin: 0 0.1em;
+    padding: 0.3em;
+  }
 }
 
 #gitmoji-list {
+  max-width: 100%;
+
+  &:not(.list) {
+    padding: 0 2em;
+    max-width: 1100px;
+  }
+  &:not(.grid) {
+    padding: 0;
+  }
+
   .emoji {
     display: flex;
     box-sizing: border-box;
@@ -205,6 +234,10 @@ main.wrap {
         box-shadow: 0 10px 20px 0 rgba(168, 182, 191, 0.6);
         transform: translateY(-1px);
       }
+    }
+
+    &-card {
+      margin: 1em 0;
     }
 
     &-raw {
@@ -307,6 +340,7 @@ main.wrap {
 }
 
 .footer {
+  margin-top: 3.5em;
   padding: 1.5em;
   background-color: #00e5ff;
   color: $white;
@@ -333,6 +367,12 @@ main.wrap {
 @media (max-width: 768px) {
   main.wrap {
     padding: 1.5em 1em;
+
+    &.list {
+      .emoji {
+        padding: 0;
+      }
+    }
   }
 
   footer nav,
@@ -351,6 +391,11 @@ main.wrap {
 
   .header h2 {
     display: none;
+  }
+
+  .toggle-btn-group {
+    width: auto;
+    margin: 0;
   }
 
   #gitmoji-list {
