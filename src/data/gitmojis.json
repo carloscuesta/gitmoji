@@ -360,9 +360,9 @@
     {
       "emoji": "📸",
       "entity": "&#128248;",
-      "code": ":camera_flash:",
+      "code": ":camera_with_flash:",
       "description": "Add or update snapshots",
-      "name": "camera-flash"
+      "name": "camera-with-flash"
     },
     {
       "emoji": "⚗",
