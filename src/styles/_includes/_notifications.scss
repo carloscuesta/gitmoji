@@ -171,3 +171,11 @@
     max-width: none;
   }
 }
+
+@media only screen and (prefers-color-scheme: dark) {
+  $dark-pink: #b05964;
+
+  .ns-effect-scale {
+    background: $dark-pink;
+  }
+}
