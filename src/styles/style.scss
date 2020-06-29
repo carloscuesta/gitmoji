@@ -274,11 +274,23 @@ main.wrap {
   }
 }
 
+@each $gitmoji, $color in ($gitmojis) {
+  .#{$gitmoji} {
+    background-color: $color;
+
+    & ~ .emoji-info .gitmoji-code {
+      &:hover {
+        background-color: rgba($color, 0.3);
+        box-shadow: 0 4px rgba($color, 0.6);
+      }
+    }
+  }
+}
+
 @media only screen and (prefers-color-scheme: dark) {
   $dark: darken($lightGray, 75%);
-  $dark-yellow: darken($yellow, 30%);
-  $dark-blue: darken(#00e5ff, 20%);
-  $dark-pink: #b12f5b;
+  $darker: darken($lightGray, 85%);
+  $dark-pink: #b05964;
 
   html,
   body {
@@ -287,20 +299,20 @@ main.wrap {
   }
 
   .header {
-    background-color: $dark-yellow;
+    background-color: $darker;
     color: $lightGray;
   }
 
   pre {
-    background-color: $dark-yellow;
+    background-color: $darker;
   }
 
   .emoji-card {
     background-color: $dark;
-    box-shadow: 0 1px 2px 0 rgba(darken($lightGray, 60%), 0.6);
+    box-shadow: 0 1px 2px 0 rgba($darker, 0.6);
 
     &:hover {
-      box-shadow: 0 10px 20px 0 rgba(darken($lightGray, 60%), 0.6);
+      box-shadow: 0 10px 20px 0 rgba($darker, 0.6);
     }
   }
 
@@ -309,7 +321,7 @@ main.wrap {
   }
 
   #icon-heart {
-    color: darken(#ff5a79, 30%);
+    color: $dark-pink;
   }
 
   .btn-pink {
@@ -327,7 +339,7 @@ main.wrap {
   }
 
   .footer {
-    background-color: $dark-blue;
+    background-color: $darker;
   }
 
   .c-hamburger span {
@@ -341,16 +353,16 @@ main.wrap {
   .c-hamburger__input:checked ~ .modal {
     background-color: $dark-pink;
   }
-}
 
-@each $gitmoji, $color in ($gitmojis) {
-  .#{$gitmoji} {
-    background-color: $color;
+  @each $gitmoji, $color in ($gitmojis) {
+    .#{$gitmoji} {
+      background-color: rgba($color, 0.6);
 
-    & ~ .emoji-info .gitmoji-code {
-      &:hover {
-        background-color: rgba($color, 0.3);
-        box-shadow: 0 4px rgba($color, 0.6);
+      & ~ .emoji-info .gitmoji-code {
+        &:hover {
+          background-color: rgba($color, 0.1);
+          box-shadow: 0 4px rgba($color, 0.3);
+        }
       }
     }
   }
