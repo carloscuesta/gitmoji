@@ -4,8 +4,8 @@
 	</a>
 </p>
 <p align="center">
-	<a href="https://travis-ci.org/carloscuesta/gitmoji">
-		<img src="https://img.shields.io/travis/carloscuesta/gitmoji/master?style=flat-square"
+	<a href="https://travis-ci.com/carloscuesta/gitmoji">
+		<img src="https://img.shields.io/travis/com/carloscuesta/gitmoji?style=flat-square"
 			 alt="Build Status">
 	</a>
 	<a href="https://gitmoji.carloscuesta.me">
@@ -33,6 +33,7 @@ npm i -g gitmoji-cli
 ## Related tools
 
 - [`gitmoji-changelog`](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji.
+- [`gitmemoji`](https://github.com/lalalilo/gitmemoji/): A game to learn gitmojis.
 
 ## Contributing to gitmoji
 
@@ -40,7 +41,7 @@ Contributing to gitmoji is a piece of :cake:, read the [contributing guidelines]
 
 ## Spread the word
 
-Are you using Gitmoji on your GitHub project? Set the Gitmoji badge on top of your readme using this code:
+Are you using Gitmoji on your project? Set the Gitmoji badge on top of your readme using this code:
 
 ```html
 <a href="https://gitmoji.carloscuesta.me">

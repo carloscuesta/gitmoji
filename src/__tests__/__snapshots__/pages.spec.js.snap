@@ -1329,7 +1329,7 @@ Array [
               </code>
             </div>
             <p>
-              Updating the UI and style files.
+              Adding or updating the UI and style files.
             </p>
           </div>
         </div>
@@ -1362,7 +1362,7 @@ Array [
               </code>
             </div>
             <p>
-              Initial commit.
+              Begining a project.
             </p>
           </div>
         </div>
@@ -1395,7 +1395,7 @@ Array [
               </code>
             </div>
             <p>
-              Updating tests.
+              Adding or updating tests.
             </p>
           </div>
         </div>
@@ -1429,171 +1429,6 @@ Array [
             </div>
             <p>
               Fixing security issues.
-            </p>
-          </div>
-        </div>
-      </article>
-      <article
-        className="emoji col-xs-12 col-sm-6 col-md-3"
-      >
-        <div
-          className="emoji-card"
-        >
-          <header
-            className="apple emoji-header"
-          >
-            <span
-              className="emoji-icon gitmoji-emoji"
-              data-clipboard-text="🍎"
-            >
-              🍎
-            </span>
-          </header>
-          <div
-            className="emoji-info"
-          >
-            <div
-              className="gitmoji-code"
-              data-clipboard-text=":apple:"
-            >
-              <code>
-                :apple:
-              </code>
-            </div>
-            <p>
-              Fixing something on macOS.
-            </p>
-          </div>
-        </div>
-      </article>
-      <article
-        className="emoji col-xs-12 col-sm-6 col-md-3"
-      >
-        <div
-          className="emoji-card"
-        >
-          <header
-            className="penguin emoji-header"
-          >
-            <span
-              className="emoji-icon gitmoji-emoji"
-              data-clipboard-text="🐧"
-            >
-              🐧
-            </span>
-          </header>
-          <div
-            className="emoji-info"
-          >
-            <div
-              className="gitmoji-code"
-              data-clipboard-text=":penguin:"
-            >
-              <code>
-                :penguin:
-              </code>
-            </div>
-            <p>
-              Fixing something on Linux.
-            </p>
-          </div>
-        </div>
-      </article>
-      <article
-        className="emoji col-xs-12 col-sm-6 col-md-3"
-      >
-        <div
-          className="emoji-card"
-        >
-          <header
-            className="checkered-flag emoji-header"
-          >
-            <span
-              className="emoji-icon gitmoji-emoji"
-              data-clipboard-text="🏁"
-            >
-              🏁
-            </span>
-          </header>
-          <div
-            className="emoji-info"
-          >
-            <div
-              className="gitmoji-code"
-              data-clipboard-text=":checkered_flag:"
-            >
-              <code>
-                :checkered_flag:
-              </code>
-            </div>
-            <p>
-              Fixing something on Windows.
-            </p>
-          </div>
-        </div>
-      </article>
-      <article
-        className="emoji col-xs-12 col-sm-6 col-md-3"
-      >
-        <div
-          className="emoji-card"
-        >
-          <header
-            className="robot emoji-header"
-          >
-            <span
-              className="emoji-icon gitmoji-emoji"
-              data-clipboard-text="🤖"
-            >
-              🤖
-            </span>
-          </header>
-          <div
-            className="emoji-info"
-          >
-            <div
-              className="gitmoji-code"
-              data-clipboard-text=":robot:"
-            >
-              <code>
-                :robot:
-              </code>
-            </div>
-            <p>
-              Fixing something on Android.
-            </p>
-          </div>
-        </div>
-      </article>
-      <article
-        className="emoji col-xs-12 col-sm-6 col-md-3"
-      >
-        <div
-          className="emoji-card"
-        >
-          <header
-            className="green-apple emoji-header"
-          >
-            <span
-              className="emoji-icon gitmoji-emoji"
-              data-clipboard-text="🍏"
-            >
-              🍏
-            </span>
-          </header>
-          <div
-            className="emoji-info"
-          >
-            <div
-              className="gitmoji-code"
-              data-clipboard-text=":green_apple:"
-            >
-              <code>
-                :green_apple:
-              </code>
-            </div>
-            <p>
-              Fixing something on iOS.
             </p>
           </div>
         </div>
@@ -1935,39 +1770,6 @@ Array [
           className="emoji-card"
         >
           <header
-            className="whale emoji-header"
-          >
-            <span
-              className="emoji-icon gitmoji-emoji"
-              data-clipboard-text="🐳"
-            >
-              🐳
-            </span>
-          </header>
-          <div
-            className="emoji-info"
-          >
-            <div
-              className="gitmoji-code"
-              data-clipboard-text=":whale:"
-            >
-              <code>
-                :whale:
-              </code>
-            </div>
-            <p>
-              Work about Docker.
-            </p>
-          </div>
-        </div>
-      </article>
-      <article
-        className="emoji col-xs-12 col-sm-6 col-md-3"
-      >
-        <div
-          className="emoji-card"
-        >
-          <header
             className="heavy-plus-sign emoji-header"
           >
             <span
@@ -2055,7 +1857,40 @@ Array [
               </code>
             </div>
             <p>
-              Changing configuration files.
+              Adding or updating configuration files.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="hammer emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🔨"
+            >
+              🔨
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":hammer:"
+            >
+              <code>
+                :hammer:
+              </code>
+            </div>
+            <p>
+              Adding or updating build scripts.
             </p>
           </div>
         </div>
@@ -2253,7 +2088,7 @@ Array [
               </code>
             </div>
             <p>
-              Updating compiled files or packages.
+              Adding or updating compiled files or packages.
             </p>
           </div>
         </div>
@@ -2430,39 +2265,6 @@ Array [
           className="emoji-card"
         >
           <header
-            className="ok-hand emoji-header"
-          >
-            <span
-              className="emoji-icon gitmoji-emoji"
-              data-clipboard-text="👌"
-            >
-              👌
-            </span>
-          </header>
-          <div
-            className="emoji-info"
-          >
-            <div
-              className="gitmoji-code"
-              data-clipboard-text=":ok_hand:"
-            >
-              <code>
-                :ok_hand:
-              </code>
-            </div>
-            <p>
-              Updating code due to code review changes.
-            </p>
-          </div>
-        </div>
-      </article>
-      <article
-        className="emoji col-xs-12 col-sm-6 col-md-3"
-      >
-        <div
-          className="emoji-card"
-        >
-          <header
             className="wheelchair emoji-header"
           >
             <span
@@ -2517,7 +2319,7 @@ Array [
               </code>
             </div>
             <p>
-              Documenting source code.
+              Adding or updating comments in source code.
             </p>
           </div>
         </div>
@@ -2583,7 +2385,7 @@ Array [
               </code>
             </div>
             <p>
-              Updating text and literals.
+              Adding or updating text and literals.
             </p>
           </div>
         </div>
@@ -3013,39 +2815,6 @@ Array [
             </div>
             <p>
               Improving SEO
-            </p>
-          </div>
-        </div>
-      </article>
-      <article
-        className="emoji col-xs-12 col-sm-6 col-md-3"
-      >
-        <div
-          className="emoji-card"
-        >
-          <header
-            className="wheel-of-dharma emoji-header"
-          >
-            <span
-              className="emoji-icon gitmoji-emoji"
-              data-clipboard-text="☸️"
-            >
-              ☸️
-            </span>
-          </header>
-          <div
-            className="emoji-info"
-          >
-            <div
-              className="gitmoji-code"
-              data-clipboard-text=":wheel_of_dharma:"
-            >
-              <code>
-                :wheel_of_dharma:
-              </code>
-            </div>
-            <p>
-              Work about Kubernetes
             </p>
           </div>
         </div>
