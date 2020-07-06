@@ -32,6 +32,7 @@ npm i -g gitmoji-cli
 
 ## Related tools
 
+- [`Gitmoji browser extension`](https://github.com/johannchopin/gitmoji-browser-extension): The Gitmoji extension to easily search and copy gitmojis 😜
 - [`gitmoji-changelog`](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji.
 - [`gitmemoji`](https://github.com/lalalilo/gitmemoji/): A game to learn gitmojis.
 
