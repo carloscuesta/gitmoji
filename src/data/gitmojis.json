@@ -85,6 +85,41 @@
       "name": "lock"
     },
     {
+        "emoji": "🍎",
+        "entity": "&#x1f34e;",
+        "code": ":apple:",
+        "description": "Fixing something on macOS.",
+        "name": "apple"
+    },
+    {
+        "emoji": "🐧",
+        "entity": "&#x1f427;",
+        "code": ":penguin:",
+        "description": "Fixing something on Linux.",
+        "name": "penguin"
+    },
+    {
+        "emoji": "🏁",
+        "entity": "&#x1f3c1;",
+        "code": ":checkered_flag:",
+        "description": "Fixing something on Windows.",
+        "name": "checkered-flag"
+    },
+    {
+        "emoji": "🤖",
+        "entity": "&#129302;",
+        "code": ":robot:",
+        "description": "Fixing something on Android.",
+        "name": "robot"
+    },
+    {
+        "emoji": "🍏",
+        "entity": "&#127823;",
+        "code": ":green_apple:",
+        "description": "Fixing something on iOS.",
+        "name": "green-apple"
+    },
+    {
       "emoji": "🔖",
       "entity": "&#x1f516;",
       "code": ":bookmark:",
@@ -167,6 +202,13 @@
       "code": ":heavy_minus_sign:",
       "description": "Removing a dependency.",
       "name": "heavy-minus-sign"
+    },
+    {
+        "emoji": "🐳",
+        "entity": "&#x1f433;",
+        "code": ":whale:",
+        "description": "Work about Docker.",
+        "name": "whale"
     },
     {
       "emoji": "🔧",
@@ -258,6 +300,13 @@
       "code": ":bento:",
       "description": "Adding or updating assets.",
       "name": "bento"
+    },
+    {
+        "emoji": "👌",
+        "entity": "&#x1f44c;",
+        "code": ":ok_hand:",
+        "description": "Updating code due to code review changes.",
+        "name": "ok-hand"
     },
     {
       "emoji": "♿️",
