@@ -266,8 +266,7 @@ main.wrap {
       .emoji-info {
         display: flex;
         align-items: center;
-        padding: 0;
-        padding-left: 0.5em;
+        padding: 0.5em 0 0.5em 0.5em;
         width: 100%;
 
         .gitmoji-code {
