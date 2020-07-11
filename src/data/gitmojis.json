@@ -183,6 +183,13 @@
       "name": "hammer"
     },
     {
+    "emoji": "🎛",
+    "entity": "&#127899;",
+    "code": ":control_knobs:",
+    "description": "Adding or updating existing API Logic",
+    "name": "control-knobs"
+    },
+    {
       "emoji": "🌐",
       "entity": "&#127760;",
       "code": ":globe_with_meridians:",
