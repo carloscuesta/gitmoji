@@ -22,7 +22,7 @@
     "next": "9.1.1",
     "node-sass": "^4.13.0",
     "react": "16.11.0",
-    "react-dom": "16.11.0",
+    "react-dom": "16.13.0",
     "react-test-renderer": "^16.11.0",
     "flow-bin": "^0.110.1",
     "husky": "^3.0.9",
