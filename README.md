@@ -35,7 +35,7 @@ npm i -g gitmoji-cli
 - [`gitmoji-changelog`](https://github.com/frinyvonnick/gitmoji-changelog/): A changelog generator for gitmoji.
 - [`gitmemoji`](https://github.com/lalalilo/gitmemoji/): A game to learn gitmojis.
 - [`gitmoji-browser-extension`](https://github.com/johannchopin/gitmoji-browser-extension): The Gitmoji extension to easily search and copy gitmojis 😜
-- [`gitmoji-support`](https://github.com/Lyokolux/espanso-gitmojis): a [package on Espanso Hub](https://hub.espanso.org/packages/gitmojis/) that support Gitmojis expansion for the tool [Espanso](https://espanso.org/)
+- [`espanso-gitmojis`](https://github.com/Lyokolux/espanso-gitmojis): A [package on espanso hub](https://hub.espanso.org/packages/gitmojis/) that support Gitmojis expansion for the tool [Espanso](https://espanso.org/)
 
 ## Contributing to gitmoji
 
@@ -47,10 +47,7 @@ Are you using Gitmoji on your project? Set the Gitmoji badge on top of your read
 
 ```html
 <a href="https://gitmoji.carloscuesta.me">
-  <img
-    src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
-    alt="Gitmoji"
-  />
+  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji" />
 </a>
 ```
 
