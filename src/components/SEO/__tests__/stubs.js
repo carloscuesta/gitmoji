@@ -1,4 +1,4 @@
 export const props = {
   pageUrl: '/about',
-  pageTitle: 'About'
+  pageTitle: 'About',
 }

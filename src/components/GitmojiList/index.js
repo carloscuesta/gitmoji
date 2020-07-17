@@ -9,15 +9,15 @@ type Props = {
     code: string,
     description: string,
     emoji: string,
-    name: string
-  }>
+    name: string,
+  }>,
 }
 
 const GitmojiList = (props: Props) => {
   React.useEffect(() => {
     const clipboard = new Clipboard('.gitmoji-code, .gitmoji-emoji')
 
-    clipboard.on('success', function(e) {
+    clipboard.on('success', function (e) {
       window.ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
 
       const elementClasses = e.trigger.classList
@@ -31,7 +31,7 @@ const GitmojiList = (props: Props) => {
         message: notificationMessage,
         layout: 'growl',
         effect: 'scale',
-        type: 'notice'
+        type: 'notice',
       })
 
       notification.show()

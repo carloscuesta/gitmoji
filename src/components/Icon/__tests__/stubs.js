@@ -1,3 +1,3 @@
 export const props = {
-  name: 'star'
+  name: 'star',
 }
