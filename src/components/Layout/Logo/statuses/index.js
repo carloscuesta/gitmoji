@@ -210,7 +210,7 @@ const LOGO_STATUSES: Object = {
   SEXY: 'sexy',
   SMILING: 'smiling',
   SUNGLASSES: 'sunglasses',
-  TONGUE: 'tongue'
+  TONGUE: 'tongue',
 }
 
 export default LOGO_STATUSES
