@@ -40,6 +40,27 @@ npm i -g gitmoji-cli
 
 Contributing to gitmoji is a piece of :cake:, read the [contributing guidelines](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md). You can discuss emojis using the [issues section](https://github.com/carloscuesta/gitmoji/issues/new). To add a new emoji to the list create an issue and send a pull request, see [how to send a pull request and add a gitmoji](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md#how-to-add-a-gitmoji).
 
+### Quickly get started with the gitmoji Docker image 🐳
+
+Building the Docker image is simple. Run the following command to create a locally available Docker image named `gitmoji`:
+
+`docker build -t gitmoji .`
+
+Once the Docker image is build, we can run it (thus creating a container) with the following command:
+
+`docker run -d -p 3000:80 gitmoji`
+
+The `-d` option is telling the container to run in [detached mode](https://www.freecodecamp.org/news/docker-detached-mode-explained), meaning it'll run in the background. The opposite of `-d` is `-it` which displays output from the container in the shell.
+
+The `-p` option maps a port on the host machine to a port in the container. The gitmoji container is an `nginx` web server serving the website on port 80. So, the above command will have http://localhost:3000 serve the site.
+
+#### Want to get the prebuilt Docker image?
+
+To deploy the preexisting Docker image run `docker run -d -p 3000:80 yardenshoham/gitmoji` and go to http://localhost:3000.
+
+
+
+
 ## Spread the word
 
 Are you using Gitmoji on your project? Set the Gitmoji badge on top of your readme using this code:
