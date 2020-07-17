@@ -25,7 +25,7 @@
     "react-dom": "16.13.0",
     "react-test-renderer": "^16.11.0",
     "flow-bin": "^0.129.0",
-    "husky": "^3.0.9",
+    "husky": "^4.2.5",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
     "jsonlint": "^1.6.3",
