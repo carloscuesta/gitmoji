@@ -1,0 +1,8 @@
+**
+
+!/package.json
+!/yarn.lock
+
+!/public
+!/src
+!/next.config.js
