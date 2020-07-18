@@ -4,28 +4,28 @@
       "emoji": "🎨",
       "entity": "&#x1f3a8;",
       "code": ":art:",
-      "description": "Improving structure / format of the code.",
+      "description": "Improve structure / format of the code.",
       "name": "art"
     },
     {
       "emoji": "⚡️",
       "entity": "&#x26a1;",
       "code": ":zap:",
-      "description": "Improving performance.",
+      "description": "Improve performance.",
       "name": "zap"
     },
     {
       "emoji": "🔥",
       "entity": "&#x1f525;",
       "code": ":fire:",
-      "description": "Removing code or files.",
+      "description": "Remove code or files.",
       "name": "fire"
     },
     {
       "emoji": "🐛",
       "entity": "&#x1f41b;",
       "code": ":bug:",
-      "description": "Fixing a bug.",
+      "description": "Fix a bug.",
       "name": "bug"
     },
     {
@@ -39,63 +39,63 @@
       "emoji": "✨",
       "entity": "&#x2728;",
       "code": ":sparkles:",
-      "description": "Introducing new features.",
+      "description": "Introduce new features.",
       "name": "sparkles"
     },
     {
       "emoji": "📝",
       "entity": "&#x1f4dd;",
       "code": ":pencil:",
-      "description": "Writing docs.",
+      "description": "Write docs.",
       "name": "pencil"
     },
     {
       "emoji": "🚀",
       "entity": "&#x1f680;",
       "code": ":rocket:",
-      "description": "Deploying stuff.",
+      "description": "Deploy stuff.",
       "name": "rocket"
     },
     {
       "emoji": "💄",
       "entity": "&#ff99cc;",
       "code": ":lipstick:",
-      "description": "Adding or updating the UI and style files.",
+      "description": "Add or update the UI and style files.",
       "name": "lipstick"
     },
     {
       "emoji": "🎉",
       "entity": "&#127881;",
       "code": ":tada:",
-      "description": "Beginning a project.",
+      "description": "Begin a project.",
       "name": "tada"
     },
     {
       "emoji": "✅",
       "entity": "&#x2705;",
       "code": ":white_check_mark:",
-      "description": "Adding or updating tests.",
+      "description": "Add or update tests.",
       "name": "white-check-mark"
     },
     {
       "emoji": "🔒",
       "entity": "&#x1f512;",
       "code": ":lock:",
-      "description": "Fixing security issues.",
+      "description": "Fix security issues.",
       "name": "lock"
     },
     {
       "emoji": "🔖",
       "entity": "&#x1f516;",
       "code": ":bookmark:",
-      "description": "Releasing / Version tags.",
+      "description": "Release / Version tags.",
       "name": "bookmark"
     },
     {
       "emoji": "🚨",
       "entity": "&#x1f6a8;",
       "code": ":rotating_light:",
-      "description": "Removing linter warnings.",
+      "description": "Remove linter warnings.",
       "name": "rotating-light"
     },
     {
@@ -109,77 +109,77 @@
       "emoji": "💚",
       "entity": "&#x1f49a;",
       "code": ":green_heart:",
-      "description": "Fixing CI Build.",
+      "description": "Fix CI Build.",
       "name": "green-heart"
     },
     {
       "emoji": "⬇️",
       "entity": "⬇️",
       "code": ":arrow_down:",
-      "description": "Downgrading dependencies.",
+      "description": "Downgrade dependencies.",
       "name": "arrow-down"
     },
     {
       "emoji": "⬆️",
       "entity": "⬆️",
       "code": ":arrow_up:",
-      "description": "Upgrading dependencies.",
+      "description": "Upgrade dependencies.",
       "name": "arrow-up"
     },
     {
       "emoji": "📌",
       "entity": "&#x1F4CC;",
       "code": ":pushpin:",
-      "description": "Pinning dependencies to specific versions.",
+      "description": "Pin dependencies to specific versions.",
       "name": "pushpin"
     },
     {
       "emoji": "👷",
       "entity": "&#x1f477;",
       "code": ":construction_worker:",
-      "description": "Adding or updating CI build system.",
+      "description": "Add or update CI build system.",
       "name": "construction-worker"
     },
     {
       "emoji": "📈",
       "entity": "&#x1F4C8;",
       "code": ":chart_with_upwards_trend:",
-      "description": "Adding or updating analytics or tracking code.",
+      "description": "Add or update analytics or track code.",
       "name": "chart-with-upwards-trend"
     },
     {
       "emoji": "♻️",
       "entity": "&#x2672;",
       "code": ":recycle:",
-      "description": "Refactoring code.",
+      "description": "Refactor code.",
       "name": "recycle"
     },
     {
       "emoji": "➕",
       "entity": "&#10133;",
       "code": ":heavy_plus_sign:",
-      "description": "Adding a dependency.",
+      "description": "Add a dependency.",
       "name": "heavy-plus-sign"
     },
     {
       "emoji": "➖",
       "entity": "&#10134;",
       "code": ":heavy_minus_sign:",
-      "description": "Removing a dependency.",
+      "description": "Remove a dependency.",
       "name": "heavy-minus-sign"
     },
     {
       "emoji": "🔧",
       "entity": "&#x1f527;",
       "code": ":wrench:",
-      "description": "Adding or updating configuration files.",
+      "description": "Add or update configuration files.",
       "name": "wrench"
     },
     {
       "emoji": "🔨",
       "entity": "&#128296;",
       "code": ":hammer:",
-      "description": "Adding or updating build scripts.",
+      "description": "Add or update build scripts.",
       "name": "hammer"
     },
     {
@@ -193,84 +193,84 @@
       "emoji": "✏️",
       "entity": "&#59161;",
       "code": ":pencil2:",
-      "description": "Fixing typos.",
+      "description": "Fix typos.",
       "name": "pencil2"
     },
     {
       "emoji": "💩",
       "entity": "&#58613;",
       "code": ":poop:",
-      "description": "Writing bad code that needs to be improved.",
+      "description": "Write bad code that needs to be improved.",
       "name": "poop"
     },
     {
       "emoji": "⏪",
       "entity": "&#9194;",
       "code": ":rewind:",
-      "description": "Reverting changes.",
+      "description": "Revert changes.",
       "name": "rewind"
     },
     {
       "emoji": "🔀",
       "entity": "&#128256;",
       "code": ":twisted_rightwards_arrows:",
-      "description": "Merging branches.",
+      "description": "Merge branches.",
       "name": "twisted-rightwards-arrows"
     },
     {
       "emoji": "📦",
       "entity": "&#1F4E6;",
       "code": ":package:",
-      "description": "Adding or updating compiled files or packages.",
+      "description": "Add or update compiled files or packages.",
       "name": "package"
     },
     {
       "emoji": "👽",
       "entity": "&#1F47D;",
       "code": ":alien:",
-      "description": "Updating code due to external API changes.",
+      "description": "Update code due to external API changes.",
       "name": "alien"
     },
     {
       "emoji": "🚚",
       "entity": "&#1F69A;",
       "code": ":truck:",
-      "description": "Moving or renaming files.",
+      "description": "Move or rename files.",
       "name": "truck"
     },
     {
       "emoji": "📄",
       "entity": "&#1F4C4;",
       "code": ":page_facing_up:",
-      "description": "Adding or updating license.",
+      "description": "Add or update license.",
       "name": "page-facing-up"
     },
     {
       "emoji": "💥",
       "entity": "&#x1f4a5;",
       "code": ":boom:",
-      "description": "Introducing breaking changes.",
+      "description": "Introduce breaking changes.",
       "name": "boom"
     },
     {
       "emoji": "🍱",
       "entity": "&#1F371",
       "code": ":bento:",
-      "description": "Adding or updating assets.",
+      "description": "Add or update assets.",
       "name": "bento"
     },
     {
       "emoji": "♿️",
       "entity": "&#9855;",
       "code": ":wheelchair:",
-      "description": "Improving accessibility.",
+      "description": "Improve accessibility.",
       "name": "wheelchair"
     },
     {
       "emoji": "💡",
       "entity": "&#128161;",
       "code": ":bulb:",
-      "description": "Adding or updating comments in source code.",
+      "description": "Add or update comments in source code.",
       "name": "bulb"
     },
     {
@@ -284,119 +284,119 @@
       "emoji": "💬",
       "entity": "&#128172;",
       "code": ":speech_balloon:",
-      "description": "Adding or updating text and literals.",
+      "description": "Add or update text and literals.",
       "name": "speech-balloon"
     },
     {
       "emoji": "🗃",
       "entity": "&#128451;",
       "code": ":card_file_box:",
-      "description": "Performing database related changes.",
+      "description": "Perform database related changes.",
       "name": "card-file-box"
     },
     {
       "emoji": "🔊",
       "entity": "&#128266;",
       "code": ":loud_sound:",
-      "description": "Adding or updating logs.",
+      "description": "Add or update logs.",
       "name": "loud-sound"
     },
     {
       "emoji": "🔇",
       "entity": "&#128263;",
       "code": ":mute:",
-      "description": "Removing logs.",
+      "description": "Remove logs.",
       "name": "mute"
     },
     {
       "emoji": "👥",
       "entity": "&#128101;",
       "code": ":busts_in_silhouette:",
-      "description": "Adding or updating contributor(s).",
+      "description": "Add or update contributor(s).",
       "name": "busts-in-silhouette"
     },
     {
       "emoji": "🚸",
       "entity": "&#128696;",
       "code": ":children_crossing:",
-      "description": "Improving user experience / usability.",
+      "description": "Improve user experience / usability.",
       "name": "children-crossing"
     },
     {
       "emoji": "🏗",
       "entity": "&#1f3d7;",
       "code": ":building_construction:",
-      "description": "Making architectural changes.",
+      "description": "Make architectural changes.",
       "name": "building-construction"
     },
     {
       "emoji": "📱",
       "entity": "&#128241;",
       "code": ":iphone:",
-      "description": "Working on responsive design.",
+      "description": "Work on responsive design.",
       "name": "iphone"
     },
     {
       "emoji": "🤡",
       "entity": "&#129313;",
       "code": ":clown_face:",
-      "description": "Mocking things.",
+      "description": "Mock things.",
       "name": "clown-face"
     },
     {
       "emoji": "🥚",
       "entity": "&#129370;",
       "code": ":egg:",
-      "description": "Adding or updating an easter egg.",
+      "description": "Add or update an easter egg.",
       "name": "egg"
     },
     {
       "emoji": "🙈",
       "entity": "&#8bdfe7;",
       "code": ":see_no_evil:",
-      "description": "Adding or updating a .gitignore file",
+      "description": "Add or update a .gitignore file",
       "name": "see-no-evil"
     },
     {
       "emoji": "📸",
       "entity": "&#128248;",
       "code": ":camera_flash:",
-      "description": "Adding or updating snapshots",
+      "description": "Add or update snapshots",
       "name": "camera-flash"
     },
     {
       "emoji": "⚗",
       "entity": "&#128248;",
       "code": ":alembic:",
-      "description": "Experimenting new things",
+      "description": "Experiment new things",
       "name": "alembic"
     },
     {
       "emoji": "🔍",
       "entity": "&#128269;",
       "code": ":mag:",
-      "description": "Improving SEO",
+      "description": "Improve SEO",
       "name": "mag"
     },
     {
       "emoji": "🏷️",
       "entity": "&#127991;",
       "code": ":label:",
-      "description": "Adding or updating types (Flow, TypeScript)",
+      "description": "Add or update types (Flow, TypeScript)",
       "name": "label"
     },
     {
       "emoji": "🌱",
       "entity": "&#127793;",
       "code": ":seedling:",
-      "description": "Adding or updating seed files",
+      "description": "Add or update seed files",
       "name": "seedling"
     },
     {
       "emoji": "🚩",
       "entity": "&#x1F6A9;",
       "code": ":triangular_flag_on_post:",
-      "description": "Adding, updating, or removing feature flags",
+      "description": "Add, update, or Remove feature flags",
       "name": "triangular-flag-on-post"
     },
     {
@@ -410,7 +410,7 @@
       "emoji": "💫",
       "entity": "&#x1f4ab;",
       "code": ":dizzy:",
-      "description": "Adding or updating animations and transitions",
+      "description": "Add or update animations and transitions",
       "name": "animation"
     },
     {
