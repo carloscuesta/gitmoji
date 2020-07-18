@@ -33,7 +33,7 @@ exports[`GitmojiList should render the component 1`] = `
           </code>
         </div>
         <p>
-          Improve structure / format of the code.
+          Improving structure / format of the code.
         </p>
       </div>
     </div>
@@ -66,7 +66,7 @@ exports[`GitmojiList should render the component 1`] = `
           </code>
         </div>
         <p>
-          Improve performance.
+          Improving performance.
         </p>
       </div>
     </div>
@@ -99,7 +99,7 @@ exports[`GitmojiList should render the component 1`] = `
           </code>
         </div>
         <p>
-          Remove code or files.
+          Removing code or files.
         </p>
       </div>
     </div>
@@ -132,7 +132,7 @@ exports[`GitmojiList should render the component 1`] = `
           </code>
         </div>
         <p>
-          Fix a bug.
+          Fixing a bug.
         </p>
       </div>
     </div>
@@ -198,7 +198,7 @@ exports[`GitmojiList should render the component 1`] = `
           </code>
         </div>
         <p>
-          Introduce new features.
+          Introducing new features.
         </p>
       </div>
     </div>
