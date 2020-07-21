@@ -6,7 +6,7 @@ import LOGO_STATUSES, {
   Sexy,
   Smiling,
   Sunglasses,
-  Tongue
+  Tongue,
 } from './statuses'
 
 export const getIconByStatus = (status: $Keys<typeof LOGO_STATUSES>) => {

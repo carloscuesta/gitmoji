@@ -1,4 +1,4 @@
 export const props = {
   profile: 'https://github.com/profile',
-  avatar: 'https://github.com/avatar'
+  avatar: 'https://github.com/avatar',
 }
