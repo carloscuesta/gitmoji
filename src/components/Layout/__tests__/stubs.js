@@ -1,3 +1,3 @@
 export const props = {
-  headerWithSocialButtons: true
+  headerWithSocialButtons: true,
 }
