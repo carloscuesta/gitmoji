@@ -7,14 +7,14 @@ import GitmojiRaw from './GitmojiRaw'
 import ToggleLayoutButtons from '../Button/ToggleLayoutButtons'
 
 type Props = {
-  layout: 'grid' | 'raw',
+  layout: 'grid' | 'list',
   gitmojis: Array<{
     code: string,
     description: string,
     emoji: string,
     name: string
   }>,
-  setLayout: (layout: 'grid' | 'raw') => void
+  setLayout: (layout: 'grid' | 'list') => void
 }
 
 const GitmojiList = (props: Props): Element<'div'> => {
