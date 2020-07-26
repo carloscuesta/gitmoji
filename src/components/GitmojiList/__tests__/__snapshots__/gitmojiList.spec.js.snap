@@ -5,6 +5,34 @@ exports[`GitmojiList should render the component 1`] = `
   className="row center-xs grid"
   id="gitmoji-list"
 >
+  <div
+    className="toggle-btn-group"
+  >
+    <button
+      className="btn layout selected"
+      onClick={[Function]}
+    >
+      <svg
+        className="icon icon-grid"
+      >
+        <use
+          xlinkHref="#icon-grid"
+        />
+      </svg>
+    </button>
+    <button
+      className="btn layout "
+      onClick={[Function]}
+    >
+      <svg
+        className="icon icon-list"
+      >
+        <use
+          xlinkHref="#icon-list"
+        />
+      </svg>
+    </button>
+  </div>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
   >
