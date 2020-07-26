@@ -14,10 +14,10 @@ const Home = () => {
     <>
       <SEO />
       <Layout headerWithSocialButtons layout={layout}>
-        <GitmojiList 
-          gitmojis={gitmojis} 
-          layout={layout} 
-          setLayout={setLayout} 
+        <GitmojiList
+          gitmojis={gitmojis}
+          layout={layout}
+          setLayout={setLayout}
         />
       </Layout>
     </>
