@@ -136,9 +136,11 @@ section {
   &.layout {
     background-color: transparent;
     align-self: flex-end;
+    opacity: 0.2;
 
     &.selected {
       color: $pink;
+      opacity: 1;
     }
 
     svg {
