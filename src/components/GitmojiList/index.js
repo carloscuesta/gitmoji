@@ -4,6 +4,7 @@ import Clipboard from 'clipboard'
 
 import GitmojiCard from './GitmojiCard'
 import GitmojiRaw from './GitmojiRaw'
+import ToggleLayoutButtons from '../Button/ToggleLayoutButtons'
 
 type Props = {
   layout: 'grid' | 'raw',
@@ -11,12 +12,13 @@ type Props = {
     code: string,
     description: string,
     emoji: string,
-    name: string,
+    name: string
   }>,
+  setLayout: (layout: 'grid' | 'raw') => void
 }
 
 const GitmojiList = (props: Props): Element<'div'> => {
-  const { layout, gitmojis } = props
+  const { layout, setLayout, gitmojis } = props
 
   const gitmojiListRender = () => {
     if (layout === 'grid') {
@@ -73,6 +75,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
       className={`row center-xs ${props.layout || props.layout}`}
       id="gitmoji-list"
     >
+      <ToggleLayoutButtons layout={layout} onClick={setLayout} />
       {gitmojiListRender()}
     </div>
   )
