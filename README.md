@@ -36,6 +36,7 @@ npm i -g gitmoji-cli
 - [`gitmemoji`](https://github.com/lalalilo/gitmemoji/): A game to learn gitmojis.
 - [`gitmoji-browser-extension`](https://github.com/johannchopin/gitmoji-browser-extension): The Gitmoji extension to easily search and copy gitmojis 😜
 - [`gitmoji-vscode`](https://github.com/vtrois/gitmoji-vscode): A VSCode extension for your git commit messages 😄
+- [`gitmoji-intellij-plugin`](https://plugins.jetbrains.com/plugin/12383-gitmoji): A Jetbrains suite plugin to easily add gitmoji when committing in the IDE
 
 ## Contributing to gitmoji
 
