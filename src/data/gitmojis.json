@@ -354,14 +354,14 @@
       "emoji": "🙈",
       "entity": "&#8bdfe7;",
       "code": ":see_no_evil:",
-      "description": "Add or update a .gitignore file",
+      "description": "Add or update a .gitignore file.",
       "name": "see-no-evil"
     },
     {
       "emoji": "📸",
       "entity": "&#128248;",
       "code": ":camera_flash:",
-      "description": "Add or update snapshots",
+      "description": "Add or update snapshots.",
       "name": "camera-flash"
     },
     {
@@ -375,42 +375,42 @@
       "emoji": "🔍",
       "entity": "&#128269;",
       "code": ":mag:",
-      "description": "Improve SEO",
+      "description": "Improve SEO.",
       "name": "mag"
     },
     {
       "emoji": "🏷️",
       "entity": "&#127991;",
       "code": ":label:",
-      "description": "Add or update types (Flow, TypeScript)",
+      "description": "Add or update types (Flow, TypeScript).",
       "name": "label"
     },
     {
       "emoji": "🌱",
       "entity": "&#127793;",
       "code": ":seedling:",
-      "description": "Add or update seed files",
+      "description": "Add or update seed files.",
       "name": "seedling"
     },
     {
       "emoji": "🚩",
       "entity": "&#x1F6A9;",
       "code": ":triangular_flag_on_post:",
-      "description": "Add, update, or Remove feature flags",
+      "description": "Add, update, or remove feature flags.",
       "name": "triangular-flag-on-post"
     },
     {
       "emoji": "🥅",
       "entity": "&#x1F945;",
       "code": ":goal_net:",
-      "description": "Catching errors",
+      "description": "Catching errors.",
       "name": "goal-net"
     },
     {
       "emoji": "💫",
       "entity": "&#x1f4ab;",
       "code": ":dizzy:",
-      "description": "Add or update animations and transitions",
+      "description": "Add or update animations and transitions.",
       "name": "animation"
     },
     {
