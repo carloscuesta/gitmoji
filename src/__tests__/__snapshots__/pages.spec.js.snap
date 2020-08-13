@@ -2136,7 +2136,7 @@ Array [
               </code>
             </div>
             <p>
-              Move or rename files.
+              Move or rename resources (e.g.: files, paths, routes).
             </p>
           </div>
         </div>
