@@ -1752,6 +1752,39 @@ Array [
           className="emoji-card"
         >
           <header
+            className="milky-way emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🌌"
+            >
+              🌌
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":milky_way:"
+            >
+              <code>
+                :milky_way:
+              </code>
+            </div>
+            <p>
+              Modify whitespace.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
             className="heavy-plus-sign emoji-header"
           >
             <span

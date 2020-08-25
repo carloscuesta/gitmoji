@@ -155,6 +155,13 @@
       "name": "recycle"
     },
     {
+      "emoji": "🌌",
+      "entity": "&#x1F30C;",
+      "code": ":milky_way:",
+      "description": "Modify whitespace.",
+      "name": "milky-way"
+    },
+    {
       "emoji": "➕",
       "entity": "&#10133;",
       "code": ":heavy_plus_sign:",
