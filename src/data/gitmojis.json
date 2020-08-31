@@ -277,7 +277,7 @@
       "emoji": "🍻",
       "entity": "&#x1f37b;",
       "code": ":beers:",
-      "description": "Writing code drunkenly.",
+      "description": "Write code drunkenly.",
       "name": "beers"
     },
     {
@@ -403,7 +403,7 @@
       "emoji": "🥅",
       "entity": "&#x1F945;",
       "code": ":goal_net:",
-      "description": "Catching errors.",
+      "description": "Catch errors.",
       "name": "goal-net"
     },
     {
@@ -417,7 +417,7 @@
       "emoji": "🗑",
       "entity": "&#x1F5D1;",
       "code": ":wastebasket:",
-      "description": "Deprecating code that needs to be cleaned up.",
+      "description": "Deprecate code that needs to be cleaned up.",
       "name": "wastebasket"
     }
   ]
