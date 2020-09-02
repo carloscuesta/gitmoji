@@ -1,6 +1,6 @@
 // @flow
 import React from 'react'
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { readFileSync } from 'fs'
 import { join } from 'path'
 
@@ -36,8 +36,10 @@ class InlineStylesHead extends Head {
 class CustomDocument extends Document {
   render() {
     return (
-      <html lang="en">
-        <InlineStylesHead />
+      <Html lang="en">
+        <Head>
+          <InlineStylesHead />
+        </Head>
         <body>
           <Main />
           <NextScript />
@@ -56,7 +58,7 @@ class CustomDocument extends Document {
             }}
           />
         </body>
-      </html>
+      </Html>
     )
   }
 }
