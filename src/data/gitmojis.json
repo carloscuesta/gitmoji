@@ -382,7 +382,7 @@
       "emoji": "🏷️",
       "entity": "&#127991;",
       "code": ":label:",
-      "description": "Add or update types (Flow, TypeScript).",
+      "description": "Add or update types.",
       "name": "label"
     },
     {
