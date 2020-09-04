@@ -368,7 +368,7 @@
       "emoji": "⚗",
       "entity": "&#128248;",
       "code": ":alembic:",
-      "description": "Experiment new things",
+      "description": "Perform experiments.",
       "name": "alembic"
     },
     {
@@ -382,7 +382,7 @@
       "emoji": "🏷️",
       "entity": "&#127991;",
       "code": ":label:",
-      "description": "Add or update types (Flow, TypeScript).",
+      "description": "Add or update types.",
       "name": "label"
     },
     {
