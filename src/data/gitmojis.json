@@ -419,6 +419,13 @@
       "code": ":wastebasket:",
       "description": "Deprecate code that needs to be cleaned up.",
       "name": "wastebasket"
-    }
+    },
+		{
+			"emoji": "💼",
+			"entity": "&#x1F4BC;" ,
+			"code": ":briefcase:",
+			"description": "Adding or updating business logic.",
+			"name": "briefcase"
+		}
   ]
 }

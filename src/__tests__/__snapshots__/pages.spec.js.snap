@@ -2999,6 +2999,39 @@ Array [
           </div>
         </div>
       </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="briefcase emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="💼"
+            >
+              💼
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":briefcase:"
+            >
+              <code>
+                :briefcase:
+              </code>
+            </div>
+            <p>
+              Adding or updating business logic.
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </main>,
   <footer
