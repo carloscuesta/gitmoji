@@ -45,9 +45,9 @@
     {
       "emoji": "📝",
       "entity": "&#x1f4dd;",
-      "code": ":pencil:",
+      "code": ":memo:",
       "description": "Add or update documentation.",
-      "name": "pencil"
+      "name": "memo"
     },
     {
       "emoji": "🚀",

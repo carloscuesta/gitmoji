@@ -1224,7 +1224,7 @@ Array [
           className="emoji-card"
         >
           <header
-            className="pencil emoji-header"
+            className="memo emoji-header"
           >
             <span
               className="emoji-icon gitmoji-emoji"
@@ -1238,10 +1238,10 @@ Array [
           >
             <div
               className="gitmoji-code"
-              data-clipboard-text=":pencil:"
+              data-clipboard-text=":memo:"
             >
               <code>
-                :pencil:
+                :memo:
               </code>
             </div>
             <p>
