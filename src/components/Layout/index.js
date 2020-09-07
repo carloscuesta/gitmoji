@@ -9,7 +9,7 @@ import Footer from './Footer'
 type Props = {
   headerWithSocialButtons: boolean,
   layout: 'grid' | 'list',
-  children: React.Node
+  children: React.Node,
 }
 
 const Layout = (props: Props): React.Node => (

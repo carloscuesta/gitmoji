@@ -4,7 +4,7 @@ type Props = {
   code: string,
   description: string,
   emoji: string,
-  name: string
+  name: string,
 }
 
 const GitmojiRaw = (props: Props) => (

@@ -12,9 +12,9 @@ type Props = {
     code: string,
     description: string,
     emoji: string,
-    name: string
+    name: string,
   }>,
-  setLayout: (layout: 'grid' | 'list') => void
+  setLayout: (layout: 'grid' | 'list') => void,
 }
 
 const GitmojiList = (props: Props): Element<'div'> => {
