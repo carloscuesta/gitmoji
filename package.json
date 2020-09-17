@@ -31,7 +31,7 @@
     "jsonlint": "^1.6.3",
     "lint-staged": "^10.0.0-1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "prettier": "2.1.1"
+    "prettier": "2.1.2"
   },
   "author": "Carlos Cuesta",
   "license": "MIT",
