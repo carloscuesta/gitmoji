@@ -9,7 +9,7 @@ import LOGO_STATUSES, {
   Tongue,
 } from './statuses'
 
-export const getIconByStatus = (status: $Keys<typeof LOGO_STATUSES>): void | Node => {
+export const getIconByStatus = (status: $Keys<typeof LOGO_STATUSES>): any => {
   switch (status) {
     case LOGO_STATUSES.JOY:
       return <Joy />
