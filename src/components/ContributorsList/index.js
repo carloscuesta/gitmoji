@@ -1,9 +1,9 @@
 // @flow
-import React from 'react'
+import React, { type Element } from 'react'
 
 import Contributor from './Contributor'
 
-const ContributorsList = () => {
+const ContributorsList = (): Element<'div'> => {
   const [contributors, setContributors] = React.useState([])
 
   React.useEffect(() => {

@@ -1,10 +1,10 @@
 // @flow
-import React from 'react'
+import React, { type Element } from 'react'
 import Link from 'next/link'
 
 import Icon from '../../Icon'
 
-const Footer = () => (
+const Footer = (): Element<'footer'> => (
   <footer className="footer">
     <div className="wrap">
       <div className="row middle-xs">

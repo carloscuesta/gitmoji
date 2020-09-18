@@ -1,12 +1,12 @@
 // @flow
-import React from 'react'
+import React, { type Element } from 'react'
 
 import Button from '../../Button'
 import Logo from '../Logo'
 
 type Props = { withHeadline: boolean, withSocialButtons: boolean }
 
-const Header = (props: Props) => (
+const Header = (props: Props): Element<'header'> => (
   <header className="header">
     <Logo />
     {props.withHeadline && <h2>An emoji guide for your commit messages</h2>}

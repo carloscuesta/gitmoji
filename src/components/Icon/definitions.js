@@ -1,7 +1,7 @@
 // @flow
-import React from 'react'
+import React, { type Element } from 'react'
 
-export const IconDefinitions = () => (
+export const IconDefinitions = (): Element<'svg'> => (
   <svg
     style={{ position: 'absolute', width: 0, height: 0 }}
     width={0}

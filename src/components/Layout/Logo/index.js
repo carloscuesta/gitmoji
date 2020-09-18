@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import React, { type Node, type Element } from 'react'
 import LOGO_STATUSES, {
   Joy,
   Loved,
@@ -9,7 +9,7 @@ import LOGO_STATUSES, {
   Tongue,
 } from './statuses'
 
-export const getIconByStatus = (status: $Keys<typeof LOGO_STATUSES>) => {
+export const getIconByStatus = (status: $Keys<typeof LOGO_STATUSES>): any => {
   switch (status) {
     case LOGO_STATUSES.JOY:
       return <Joy />
@@ -26,7 +26,7 @@ export const getIconByStatus = (status: $Keys<typeof LOGO_STATUSES>) => {
   }
 }
 
-const Logo = () => {
+const Logo = (): Element<'svg'> => {
   const statuses: Array<Object> = Object.values(LOGO_STATUSES).map(
     (status) => status
   )
