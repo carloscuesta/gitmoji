@@ -1,8 +1,8 @@
 // @flow
-import React from 'react'
+import React, { type Element } from 'react'
 import Link from 'next/link'
 
-const Navigation = () => (
+const Navigation = (): Element<'nav'> => (
   <nav className="nav row middle-xs">
     <input className="c-hamburger__input" id="hamburger-menu" type="checkbox" />
     <label className="c-hamburger c-hamburger--htx" htmlFor="hamburger-menu">

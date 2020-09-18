@@ -8,7 +8,7 @@ import Footer from './Footer'
 
 type Props = { headerWithSocialButtons: boolean, children: React.Node }
 
-const Layout = (props: Props) => (
+const Layout = (props: Props): React.Node => (
   <>
     <IconDefinitions />
     <Navigation />

@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import React, { type Element } from 'react'
 import Clipboard from 'clipboard'
 
 import Gitmoji from './Gitmoji'
@@ -13,7 +13,7 @@ type Props = {
   }>,
 }
 
-const GitmojiList = (props: Props) => {
+const GitmojiList = (props: Props): Element<'div'> => {
   React.useEffect(() => {
     const clipboard = new Clipboard('.gitmoji-code, .gitmoji-emoji')
 

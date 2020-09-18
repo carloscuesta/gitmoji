@@ -1,10 +1,10 @@
 // @flow
-import React from 'react'
+import React, { type Node } from 'react'
 import Head from 'next/head'
 
 type Props = { pageTitle?: string, pageUrl: string }
 
-const SEO = (props: Props) => (
+const SEO = (props: Props): Node => (
   <Head>
     <title>
       {`gitmoji ${

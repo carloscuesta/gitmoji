@@ -1,7 +1,7 @@
 // @flow
-import React from 'react'
+import React, { type Element } from 'react'
 
-export const Tongue = () => (
+export const Tongue = (): Element<'g'> => (
   <g id="tongue" transform="translate(304 32)">
     <g id="Group">
       <ellipse id="Oval" rx={39} ry={39} cy={39} cx={39} fill="#FFDD67" />
@@ -31,7 +31,7 @@ export const Tongue = () => (
   </g>
 )
 
-export const Sexy = () => (
+export const Sexy = (): Element<'g'> => (
   <g id="sexy" transform="translate(304 32)">
     <g id="Group">
       <ellipse id="Oval" rx={39} ry={39} cy={39} cx={39} fill="#FFDD67" />
@@ -82,7 +82,7 @@ export const Sexy = () => (
   </g>
 )
 
-export const Sunglasses = () => (
+export const Sunglasses = (): Element<'g'> => (
   <g id="sunglasses" transform="translate(304 32)">
     <g id="Group">
       <path
@@ -104,7 +104,7 @@ export const Sunglasses = () => (
   </g>
 )
 
-export const Smiling = () => (
+export const Smiling = (): Element<'g'> => (
   <g
     id="haha"
     className="single-emoji-logo emoji-visible"
@@ -143,7 +143,7 @@ export const Smiling = () => (
   </g>
 )
 
-export const Loved = () => (
+export const Loved = (): Element<'g'> => (
   <g id="loved" transform="translate(304 32)">
     <g id="Group">
       <path
@@ -170,7 +170,7 @@ export const Loved = () => (
   </g>
 )
 
-export const Joy = () => (
+export const Joy = (): Element<'g'> => (
   <g id="joy" transform="translate(304 32)">
     <g id="Group">
       <circle id="Oval" cy={39} cx={39} r={39} fill="#FFDD67" />
