@@ -112,7 +112,7 @@ Array [
           list
         </title>
         <path
-          class=""
+          className=""
           d="M149.333 216v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-80c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zM125.333 32H24C10.745 32 0 42.745 0 56v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24zm80 448H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm-24-424v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24zm24 264H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24z"
           fill="currentColor"
         />
@@ -319,7 +319,7 @@ Array [
         This project is Open Source, that means everyone can participate, suggesting, discussing and adding new emojis. Take a look at the
          
         <a
-          href="#contributing-gitmoji"
+          href="/#contributing-gitmoji"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
@@ -613,7 +613,7 @@ Array [
           list
         </title>
         <path
-          class=""
+          className=""
           d="M149.333 216v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-80c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zM125.333 32H24C10.745 32 0 42.745 0 56v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24zm80 448H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm-24-424v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24zm24 264H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24z"
           fill="currentColor"
         />
@@ -930,7 +930,7 @@ Array [
           list
         </title>
         <path
-          class=""
+          className=""
           d="M149.333 216v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-80c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zM125.333 32H24C10.745 32 0 42.745 0 56v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24zm80 448H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm-24-424v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24zm24 264H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24z"
           fill="currentColor"
         />
@@ -1101,31 +1101,36 @@ Array [
       id="gitmoji-list"
     >
       <div
-        className="toggle-btn-group"
+        className="toggle-layout-buttons"
       >
         <button
-          className="btn layout selected"
+          aria-label="Display emoji as grid"
+          aria-pressed={true}
+          className="btn"
           onClick={[Function]}
         >
-          <svg
-            className="icon icon-grid"
+          <div
+            className="layout-icon selected"
           >
-            <use
-              xlinkHref="#icon-grid"
-            />
-          </svg>
-        </button>
-        <button
-          className="btn layout "
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-list"
+            <svg
+              className="icon icon-grid"
+            >
+              <use
+                xlinkHref="#icon-grid"
+              />
+            </svg>
+          </div>
+          <div
+            className="layout-icon "
           >
-            <use
-              xlinkHref="#icon-list"
-            />
-          </svg>
+            <svg
+              className="icon icon-list"
+            >
+              <use
+                xlinkHref="#icon-list"
+              />
+            </svg>
+          </div>
         </button>
       </div>
       <article
