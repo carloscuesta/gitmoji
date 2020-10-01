@@ -133,22 +133,6 @@ section {
     }
   }
 
-  &.layout {
-    background-color: transparent;
-    align-self: flex-end;
-    opacity: 0.2;
-
-    &.selected {
-      color: $pink;
-      opacity: 1;
-    }
-
-    svg {
-      margin: 0;
-      font-size: 1.5em;
-    }
-  }
-
   .icon {
     margin-right: 0.25em;
   }
@@ -166,16 +150,37 @@ main.wrap {
   max-width: none;
 }
 
-.toggle-btn-group {
+.toggle-layout-buttons {
   display: flex;
   justify-content: flex-end;
   width: 100%;
   margin-top: 2em;
-  margin-right: 2em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 
-  .btn {
-    margin: 0 0.1em;
-    padding: 0.3em;
+  & > .btn {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    display: inline-flex;
+    font: inherit;
+  }
+
+  .layout-icon {
+    font-size: 1.25em;
+    color: $darkGray;
+
+    &.selected {
+      color: $pink;
+    }
+
+    & > .icon {
+      margin-right: 0;
+    }
+  }
+
+  .layout-icon + .layout-icon {
+    margin-left: 0.75em;
   }
 }
 
