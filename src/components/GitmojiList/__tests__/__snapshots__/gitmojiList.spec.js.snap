@@ -6,31 +6,36 @@ exports[`GitmojiList should render the component 1`] = `
   id="gitmoji-list"
 >
   <div
-    className="toggle-btn-group"
+    className="toggle-layout-buttons"
   >
     <button
-      className="btn layout selected"
+      aria-label="Display emoji as grid"
+      aria-pressed={true}
+      className="btn"
       onClick={[Function]}
     >
-      <svg
-        className="icon icon-grid"
+      <div
+        className="layout-icon selected"
       >
-        <use
-          xlinkHref="#icon-grid"
-        />
-      </svg>
-    </button>
-    <button
-      className="btn layout "
-      onClick={[Function]}
-    >
-      <svg
-        className="icon icon-list"
+        <svg
+          className="icon icon-grid"
+        >
+          <use
+            xlinkHref="#icon-grid"
+          />
+        </svg>
+      </div>
+      <div
+        className="layout-icon "
       >
-        <use
-          xlinkHref="#icon-list"
-        />
-      </svg>
+        <svg
+          className="icon icon-list"
+        >
+          <use
+            xlinkHref="#icon-list"
+          />
+        </svg>
+      </div>
     </button>
   </div>
   <article
