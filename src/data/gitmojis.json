@@ -95,7 +95,7 @@
       "emoji": "🚨",
       "entity": "&#x1f6a8;",
       "code": ":rotating_light:",
-      "description": "Fix compiler or linter warnings.",
+      "description": "Fix compiler / linter warnings.",
       "name": "rotating-light"
     },
     {
