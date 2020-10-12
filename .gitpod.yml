@@ -1,0 +1,11 @@
+tasks:
+  - init: yarn install
+    command: yarn dev
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - flowtype.flow-for-vscode@1.5.0:AwOT6wgHTF43loZQCAUMLA==

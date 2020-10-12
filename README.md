@@ -12,6 +12,9 @@
 		<img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
 			 alt="Gitmoji">
 	</a>
+  <a href="https://gitpod.io/from-referrer/">
+    <img src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue??style=flat-square&logo=gitpod" alt="Gitpod Ready-to-Code">
+  </a>
 </p>
 
 ## About
@@ -43,6 +46,17 @@ npm i -g gitmoji-cli
 ## Contributing to gitmoji
 
 Contributing to gitmoji is a piece of :cake:, read the [contributing guidelines](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md). You can discuss emojis using the [issues section](https://github.com/carloscuesta/gitmoji/issues/new). To add a new emoji to the list create an issue and send a pull request, see [how to send a pull request and add a gitmoji](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md#how-to-add-a-gitmoji).
+
+### Online one-click setup for code contributions
+
+You can use Gitpod(An Online Open Source VS Code like IDE which is free for Open Source) for contributing. With a single click it will launch a workspace and automatically:
+
+- clone the `gitmoji` repo.
+- install all of the dependencies.
+- run `yarn dev` and open preview for port `3000`.
+- install VS Code `Flow Language Support` extension. 
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
 ## Spread the word
 
