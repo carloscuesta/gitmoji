@@ -419,6 +419,13 @@
       "code": ":wastebasket:",
       "description": "Deprecate code that needs to be cleaned up.",
       "name": "wastebasket"
+    },
+    {
+      "emoji": "🎱",
+      "entity": "&#x1F3B1;",
+      "code": ":8ball:",
+      "description": "Setup or Configure K8S manifests.",
+      "name": "8ball"
     }
   ]
 }

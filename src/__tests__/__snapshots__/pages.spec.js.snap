@@ -2999,6 +2999,39 @@ Array [
           </div>
         </div>
       </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="8ball emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🎱"
+            >
+              🎱
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":8ball:"
+            >
+              <code>
+                :8ball:
+              </code>
+            </div>
+            <p>
+              Setup or Configure K8S manifests.
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </main>,
   <footer
