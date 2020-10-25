@@ -419,6 +419,13 @@
       "code": ":wastebasket:",
       "description": "Deprecate code that needs to be cleaned up.",
       "name": "wastebasket"
+    },
+    {
+      "emoji": "🐳",
+      "entity": "&#x1F433;",
+      "code": ":whale:",
+      "description": "Setup or Configure Dockerfile or docker-compose.yml.",
+      "name": "whale"
     }
   ]
 }
