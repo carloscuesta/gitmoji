@@ -425,7 +425,7 @@
       "entity": "&#x1F6C2;",
       "code": ":passport_control:",
       "description": "Work on code related to authorization, roles and permissions.",
-      "name": "passport_control"
+      "name": "passport-control"
     }
   ]
 }
