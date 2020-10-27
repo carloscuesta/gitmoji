@@ -225,6 +225,13 @@
       "name": "package"
     },
     {
+      "emoji": "⚙️",
+      "entity": "&#x2699;",
+      "code": ":gear:",
+      "description": "Add or update custom settings for the code editor.",
+      "name": "gear"
+    }
+    {
       "emoji": "👽",
       "entity": "&#1F47D;",
       "code": ":alien:",
