@@ -4,7 +4,9 @@
   "description": "An emoji guide for your commit messages.",
   "private": false,
   "main": "src/data/gitmojis.json",
-  "files": ["src/data/gitmojis.json"],
+  "files": [
+    "src/data/gitmojis.json"
+  ],
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -19,19 +21,19 @@
     "@babel/preset-flow": "^7.0.0",
     "@zeit/next-sass": "^1.0.1",
     "clipboard": "^2.0.4",
-    "next": "9.5.5",
-    "node-sass": "^4.13.0",
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
-    "react-test-renderer": "^16.11.0",
     "flow-bin": "^0.136.0",
     "husky": "^4.2.5",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.1.0",
     "jsonlint": "^1.6.3",
     "lint-staged": "^10.0.0-1",
+    "next": "^10.0.0",
+    "node-sass": "^4.13.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "prettier": "2.1.2"
+    "prettier": "2.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.1"
   },
   "author": "Carlos Cuesta",
   "license": "MIT",
@@ -44,10 +46,10 @@
   },
   "homepage": "https://gitmoji.carloscuesta.me",
   "keywords": [
-     "gitmoji",
-     "emoji",
-     "carloscuesta",
-     "commit"
+    "gitmoji",
+    "emoji",
+    "carloscuesta",
+    "commit"
   ],
   "prettier": {
     "semi": false,
