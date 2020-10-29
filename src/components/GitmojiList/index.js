@@ -20,18 +20,14 @@ const GitmojiList = (props: Props): Element<'div'> => {
     clipboard.on('success', function (e) {
       window.ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
 
-      const elementClasses = e.trigger.classList
-      let notificationMessage = `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`
-
-      if (elementClasses.contains('gitmoji-emoji')) {
-        notificationMessage = `<p>Hey! Gitmoji emoji ${e.text} copied to the clipboard 😜</p>`
-      }
-
-      var notification = new window.NotificationFx({
-        message: notificationMessage,
+      const notification = new window.NotificationFx({
+        message: e.trigger.classList.contains('gitmoji-emoji')
+          ? `<p>Hey! Gitmoji emoji ${e.text} copied to the clipboard 😜</p>`
+          : `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`,
         layout: 'growl',
         effect: 'scale',
         type: 'notice',
+        ttl: 2000,
       })
 
       notification.show()
