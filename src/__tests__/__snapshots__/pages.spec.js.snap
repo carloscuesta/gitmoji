@@ -2999,6 +2999,39 @@ Array [
           </div>
         </div>
       </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="passport-control emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🛂"
+            >
+              🛂
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":passport_control:"
+            >
+              <code>
+                :passport_control:
+              </code>
+            </div>
+            <p>
+              Work on code related to authorization, roles and permissions.
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </main>,
   <footer
