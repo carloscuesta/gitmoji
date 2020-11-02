@@ -4,8 +4,8 @@
 	</a>
 </p>
 <p align="center">
-	<a href="https://travis-ci.com/carloscuesta/gitmoji">
-		<img src="https://img.shields.io/travis/com/carloscuesta/gitmoji?style=flat-square"
+	<a href="https://github.com/carloscuesta/gitmoji/actions?query=workflow%3ACI+branch%3Amaster">
+		<img src="https://img.shields.io/github/workflow/status/carloscuesta/gitmoji/ci?style=flat-square"
 			 alt="Build Status">
 	</a>
 	<a href="https://gitmoji.carloscuesta.me">
