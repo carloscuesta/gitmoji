@@ -426,6 +426,13 @@
       "code": ":passport_control:",
       "description": "Work on code related to authorization, roles and permissions.",
       "name": "passport-control"
+    },
+    {
+      "emoji": "🧐",
+      "entity": "&#x1F9D0;",
+      "code": ":face_with_monocle:",
+      "description": "Data exploration/inspection.",
+      "name": "face-with-monocle"
     }
   ]
 }
