@@ -430,9 +430,9 @@
     {
       "emoji": "🧐",
       "entity": "&#x1F9D0;",
-      "code": ":face_with_monocle:",
+      "code": ":monocle_face:",
       "description": "Data exploration/inspection.",
-      "name": "face-with-monocle"
+      "name": "monocle-face"
     }
   ]
 }
