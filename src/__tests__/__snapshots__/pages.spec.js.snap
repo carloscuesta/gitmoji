@@ -3032,6 +3032,39 @@ Array [
           </div>
         </div>
       </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="simple-fix emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🩹"
+            >
+              🩹
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":adhesive_bandage:"
+            >
+              <code>
+                :adhesive_bandage:
+              </code>
+            </div>
+            <p>
+              Simple fix for a non-critical issue.
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </main>,
   <footer
