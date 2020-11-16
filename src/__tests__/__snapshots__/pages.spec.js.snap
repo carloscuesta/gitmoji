@@ -3039,7 +3039,7 @@ Array [
           className="emoji-card"
         >
           <header
-            className="simple-fix emoji-header"
+            className="adhesive-bandage emoji-header"
           >
             <span
               className="emoji-icon gitmoji-emoji"
