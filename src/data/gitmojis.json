@@ -426,6 +426,13 @@
       "code": ":passport_control:",
       "description": "Work on code related to authorization, roles and permissions.",
       "name": "passport-control"
+    },
+    {
+      "emoji": "🩹",
+      "entity": "&#x1FA79;",
+      "code": ":adhesive_bandage:",
+      "description": "Simple fix for a non-critical issue.",
+      "name": "adhesive-bandage"
     }
   ]
 }
