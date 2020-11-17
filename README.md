@@ -9,7 +9,7 @@
 			 alt="Build Status">
 	</a>
 	<a href="https://gitmoji.carloscuesta.me">
-		<img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
+		<img src="https://raw.githubusercontent.com/ThatXliner/gitmoji/master/public/static/gitmoji_badge.svg"
 			 alt="Gitmoji">
 	</a>
 </p>
@@ -50,7 +50,7 @@ Are you using Gitmoji on your project? Set the Gitmoji badge on top of your read
 
 ```html
 <a href="https://gitmoji.carloscuesta.me">
-  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+  <img src="https://raw.githubusercontent.com/ThatXliner/gitmoji/master/public/static/gitmoji_badge.svg" alt="Gitmoji">
 </a>
 ```
 
