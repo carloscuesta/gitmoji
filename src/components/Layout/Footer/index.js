@@ -2,7 +2,7 @@
 import React, { type Element } from 'react'
 import Link from 'next/link'
 
-import Icon from '../../Icon'
+import Icon from 'src/components/Icon'
 
 const Footer = (): Element<'footer'> => (
   <footer className="footer">

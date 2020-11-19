@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Layout from '../components/Layout'
-import ContributorsList from '../components/ContributorsList'
-import SEO from '../components/SEO'
+import Layout from 'src/components/Layout'
+import ContributorsList from 'src/components/ContributorsList'
+import SEO from 'src/components/SEO'
 
 const Contributors = () => (
   <>

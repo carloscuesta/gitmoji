@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
-import Layout from '../components/Layout'
-import Button from '../components/Button'
-import SEO from '../components/SEO'
+import Layout from 'src/components/Layout'
+import Button from 'src/components/Button'
+import SEO from 'src/components/SEO'
 
 const About = () => (
   <>

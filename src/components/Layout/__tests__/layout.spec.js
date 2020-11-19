@@ -1,8 +1,8 @@
 import renderer from 'react-test-renderer'
 
 import Layout from '../index'
-import { getIconByStatus } from '../Logo'
-import LOGO_STATUSES from '../Logo/statuses'
+import { getIconByStatus } from '../Header/Logo'
+import LOGO_STATUSES from '../Header/Logo/statuses'
 import * as stubs from './stubs'
 
 describe('Layout', () => {

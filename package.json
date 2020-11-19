@@ -22,6 +22,7 @@
     "clipboard": "^2.0.4",
     "flow-bin": "^0.138.0",
     "husky": "^4.2.5",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.1.0",
     "jsonlint": "^1.6.3",
     "lint-staged": "^10.0.0-1",
@@ -76,6 +77,10 @@
     ],
     "testMatch": [
       "**/*.(spec).(js)"
-    ]
+    ],
+    "moduleNameMapper": {
+      "^.+\\.css$": "identity-obj-proxy",
+      "src/(.*)$": "<rootDir>/src/$1"
+    }
   }
 }

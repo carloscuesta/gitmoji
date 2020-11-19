@@ -1,8 +1,8 @@
 // @flow
 import React, { type Element } from 'react'
 
-import Button from '../../Button'
-import Logo from '../Logo'
+import Button from 'src/components/Button'
+import Logo from './Logo'
 
 type Props = { withHeadline: boolean, withSocialButtons: boolean }
 

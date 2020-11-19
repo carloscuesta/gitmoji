@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react'
 
-import { IconDefinitions } from '../Icon'
+import { IconDefinitions } from 'src/components/Icon'
 import Header from './Header'
 import Navigation from './Navigation'
 import Footer from './Footer'

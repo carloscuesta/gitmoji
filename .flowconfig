@@ -1,5 +1,6 @@
 [ignore]
-.*/node_modules/jsonlint/.*
+<PROJECT_ROOT>/.next
+.*/node_modules/jsonlint-mod
 
 [include]
 
@@ -9,4 +10,4 @@
 
 [options]
 
-[strict]
+module.name_mapper='src\/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'

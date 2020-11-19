@@ -1,7 +1,7 @@
 // @flow
 import React, { type Element } from 'react'
 
-import Icon from '../Icon'
+import Icon from 'src/components/Icon'
 
 type Props = { target?: string, icon?: string, text: string, link: string }
 
