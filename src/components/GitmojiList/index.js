@@ -3,6 +3,7 @@ import React, { type Element } from 'react'
 import Clipboard from 'clipboard'
 
 import Gitmoji from './Gitmoji'
+import emojiColorsMap from './emojiColorsMap'
 
 type Props = {
   gitmojis: Array<{
@@ -15,14 +16,16 @@ type Props = {
 
 const GitmojiList = (props: Props): Element<'div'> => {
   React.useEffect(() => {
-    const clipboard = new Clipboard('.gitmoji-code, .gitmoji-emoji')
+    const clipboard = new Clipboard(
+      '.gitmoji-clipboard-emoji, .gitmoji-clipboard-code'
+    )
 
     clipboard.on('success', function (e) {
       window.ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
 
       const notification = new window.NotificationFx({
-        message: e.trigger.classList.contains('gitmoji-emoji')
-          ? `<p>Hey! Gitmoji emoji ${e.text} copied to the clipboard 😜</p>`
+        message: e.trigger.classList.contains('gitmoji-clipboard-emoji')
+          ? `<p>Hey! Gitmoji ${e.text} copied to the clipboard 😜</p>`
           : `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`,
         layout: 'growl',
         effect: 'scale',
@@ -38,6 +41,14 @@ const GitmojiList = (props: Props): Element<'div'> => {
 
   return (
     <div className="row center-xs" id="gitmoji-list">
+      <style>
+        {Object.entries(emojiColorsMap)
+          .map(
+            ([key, color]: Object) => `.${key} { background-color: ${color} }`
+          )
+          .reduce((memo, value) => memo + value, '')}
+      </style>
+
       {props.gitmojis.map((gitmoji, index) => (
         <Gitmoji
           code={gitmoji.code}

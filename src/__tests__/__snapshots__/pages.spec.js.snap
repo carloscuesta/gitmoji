@@ -452,27 +452,30 @@ exports[`Pages Index should render the page 1`] = `
     className="row center-xs"
     id="gitmoji-list"
   >
+    <style>
+      .adhesive-bandage { background-color: #fbcfb7 }.alembic { background-color: #7f39fb }.alien { background-color: #c5e763 }.ambulance { background-color: #fb584a }.animation { background-color: #ffdb3a }.arrow-down { background-color: #ef5350 }.arrow-up { background-color: #00e676 }.art { background-color: #ff7281 }.beers { background-color: #fbb64b }.bento { background-color: #ff5864 }.bookmark { background-color: #80deea }.boom { background-color: #f94f28 }.bug { background-color: #8cd842 }.building-construction { background-color: #ffe55f }.bulb { background-color: #ffce49 }.busts-in-silhouette { background-color: #ffce49 }.camera-flash { background-color: #00a9f0 }.card-file-box { background-color: #c5e763 }.chart-with-upwards-trend { background-color: #cedae6 }.children-crossing { background-color: #ffce49 }.clown-face { background-color: #ff7281 }.construction-worker { background-color: #64b5f6 }.construction { background-color: #ffb74d }.egg { background-color: #77e856 }.fire { background-color: #ff9d44 }.globe-with-meridians { background-color: #e7f4ff }.goal-net { background-color: #c7cb12 }.green-heart { background-color: #c5e763 }.hammer { background-color: #ffc400 }.heavy-minus-sign { background-color: #ef5350 }.heavy-plus-sign { background-color: #00e676 }.iphone { background-color: #40c4ff }.label { background-color: #cb63e6 }.lipstick { background-color: #80deea }.lock { background-color: #ffce49 }.loud-sound { background-color: #23b4d2 }.mag { background-color: #ffe55f }.memo { background-color: #00e676 }.mute { background-color: #e6ebef }.ok-hand { background-color: #c5e763 }.package { background-color: #fdd0ae }.page-facing-up { background-color: #d9e3e8 }.passport-control { background-color: #4dc6dc }.pencil { background-color: #ffce49 }.pencil2 { background-color: #ffce49 }.poop { background-color: #a78674 }.pushpin { background-color: #39c2f1 }.recycle { background-color: #77e856 }.rewind { background-color: #56d1d8 }.rocket { background-color: #00a9f0 }.rotating-light { background-color: #536dfe }.see-no-evil { background-color: #8bdfe7 }.seedling { background-color: #c5e763 }.sparkles { background-color: #ffe55f }.speech-balloon { background-color: #cedae6 }.tada { background-color: #f74d5f }.triangular-flag-on-post { background-color: #ffce49 }.truck { background-color: #ef584a }.twisted-rightwards-arrows { background-color: #56d1d8 }.wastebasket { background-color: #d9e3e8 }.wheelchair { background-color: #00b1fb }.white-check-mark { background-color: #77e856 }.wrench { background-color: #ffc400 }.zap { background-color: #40c4ff }
+    </style>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="art emoji-header"
+          className="art cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🎨"
           >
             🎨
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":art:"
           >
             <code>
@@ -489,23 +492,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="zap emoji-header"
+          className="zap cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⚡️"
           >
             ⚡️
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":zap:"
           >
             <code>
@@ -522,23 +525,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="fire emoji-header"
+          className="fire cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔥"
           >
             🔥
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":fire:"
           >
             <code>
@@ -555,23 +558,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="bug emoji-header"
+          className="bug cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🐛"
           >
             🐛
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bug:"
           >
             <code>
@@ -588,23 +591,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="ambulance emoji-header"
+          className="ambulance cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚑"
           >
             🚑
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":ambulance:"
           >
             <code>
@@ -621,23 +624,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="sparkles emoji-header"
+          className="sparkles cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="✨"
           >
             ✨
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":sparkles:"
           >
             <code>
@@ -654,23 +657,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="memo emoji-header"
+          className="memo cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📝"
           >
             📝
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":memo:"
           >
             <code>
@@ -687,23 +690,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="rocket emoji-header"
+          className="rocket cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚀"
           >
             🚀
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":rocket:"
           >
             <code>
@@ -720,23 +723,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="lipstick emoji-header"
+          className="lipstick cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💄"
           >
             💄
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":lipstick:"
           >
             <code>
@@ -753,23 +756,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="tada emoji-header"
+          className="tada cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🎉"
           >
             🎉
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":tada:"
           >
             <code>
@@ -786,23 +789,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="white-check-mark emoji-header"
+          className="white-check-mark cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="✅"
           >
             ✅
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":white_check_mark:"
           >
             <code>
@@ -819,23 +822,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="lock emoji-header"
+          className="lock cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔒"
           >
             🔒
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":lock:"
           >
             <code>
@@ -852,23 +855,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="bookmark emoji-header"
+          className="bookmark cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔖"
           >
             🔖
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bookmark:"
           >
             <code>
@@ -885,23 +888,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="rotating-light emoji-header"
+          className="rotating-light cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚨"
           >
             🚨
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":rotating_light:"
           >
             <code>
@@ -918,23 +921,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="construction emoji-header"
+          className="construction cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚧"
           >
             🚧
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":construction:"
           >
             <code>
@@ -951,23 +954,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="green-heart emoji-header"
+          className="green-heart cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💚"
           >
             💚
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":green_heart:"
           >
             <code>
@@ -984,23 +987,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="arrow-down emoji-header"
+          className="arrow-down cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⬇️"
           >
             ⬇️
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":arrow_down:"
           >
             <code>
@@ -1017,23 +1020,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="arrow-up emoji-header"
+          className="arrow-up cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⬆️"
           >
             ⬆️
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":arrow_up:"
           >
             <code>
@@ -1050,23 +1053,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="pushpin emoji-header"
+          className="pushpin cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📌"
           >
             📌
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":pushpin:"
           >
             <code>
@@ -1083,23 +1086,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="construction-worker emoji-header"
+          className="construction-worker cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="👷"
           >
             👷
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":construction_worker:"
           >
             <code>
@@ -1116,23 +1119,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="chart-with-upwards-trend emoji-header"
+          className="chart-with-upwards-trend cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📈"
           >
             📈
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":chart_with_upwards_trend:"
           >
             <code>
@@ -1149,23 +1152,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="recycle emoji-header"
+          className="recycle cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="♻️"
           >
             ♻️
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":recycle:"
           >
             <code>
@@ -1182,23 +1185,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="heavy-plus-sign emoji-header"
+          className="heavy-plus-sign cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="➕"
           >
             ➕
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":heavy_plus_sign:"
           >
             <code>
@@ -1215,23 +1218,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="heavy-minus-sign emoji-header"
+          className="heavy-minus-sign cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="➖"
           >
             ➖
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":heavy_minus_sign:"
           >
             <code>
@@ -1248,23 +1251,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="wrench emoji-header"
+          className="wrench cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔧"
           >
             🔧
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":wrench:"
           >
             <code>
@@ -1281,23 +1284,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="hammer emoji-header"
+          className="hammer cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔨"
           >
             🔨
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":hammer:"
           >
             <code>
@@ -1314,23 +1317,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="globe-with-meridians emoji-header"
+          className="globe-with-meridians cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🌐"
           >
             🌐
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":globe_with_meridians:"
           >
             <code>
@@ -1347,23 +1350,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="pencil2 emoji-header"
+          className="pencil2 cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="✏️"
           >
             ✏️
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":pencil2:"
           >
             <code>
@@ -1380,23 +1383,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="poop emoji-header"
+          className="poop cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💩"
           >
             💩
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":poop:"
           >
             <code>
@@ -1413,23 +1416,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="rewind emoji-header"
+          className="rewind cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⏪"
           >
             ⏪
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":rewind:"
           >
             <code>
@@ -1446,23 +1449,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="twisted-rightwards-arrows emoji-header"
+          className="twisted-rightwards-arrows cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔀"
           >
             🔀
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":twisted_rightwards_arrows:"
           >
             <code>
@@ -1479,23 +1482,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="package emoji-header"
+          className="package cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📦"
           >
             📦
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":package:"
           >
             <code>
@@ -1512,23 +1515,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="alien emoji-header"
+          className="alien cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="👽"
           >
             👽
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":alien:"
           >
             <code>
@@ -1545,23 +1548,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="truck emoji-header"
+          className="truck cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚚"
           >
             🚚
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":truck:"
           >
             <code>
@@ -1578,23 +1581,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="page-facing-up emoji-header"
+          className="page-facing-up cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📄"
           >
             📄
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":page_facing_up:"
           >
             <code>
@@ -1611,23 +1614,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="boom emoji-header"
+          className="boom cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💥"
           >
             💥
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":boom:"
           >
             <code>
@@ -1644,23 +1647,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="bento emoji-header"
+          className="bento cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🍱"
           >
             🍱
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bento:"
           >
             <code>
@@ -1677,23 +1680,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="wheelchair emoji-header"
+          className="wheelchair cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="♿️"
           >
             ♿️
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":wheelchair:"
           >
             <code>
@@ -1710,23 +1713,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="bulb emoji-header"
+          className="bulb cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💡"
           >
             💡
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bulb:"
           >
             <code>
@@ -1743,23 +1746,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="beers emoji-header"
+          className="beers cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🍻"
           >
             🍻
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":beers:"
           >
             <code>
@@ -1776,23 +1779,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="speech-balloon emoji-header"
+          className="speech-balloon cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💬"
           >
             💬
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":speech_balloon:"
           >
             <code>
@@ -1809,23 +1812,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="card-file-box emoji-header"
+          className="card-file-box cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🗃"
           >
             🗃
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":card_file_box:"
           >
             <code>
@@ -1842,23 +1845,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="loud-sound emoji-header"
+          className="loud-sound cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔊"
           >
             🔊
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":loud_sound:"
           >
             <code>
@@ -1875,23 +1878,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="mute emoji-header"
+          className="mute cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔇"
           >
             🔇
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":mute:"
           >
             <code>
@@ -1908,23 +1911,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="busts-in-silhouette emoji-header"
+          className="busts-in-silhouette cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="👥"
           >
             👥
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":busts_in_silhouette:"
           >
             <code>
@@ -1941,23 +1944,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="children-crossing emoji-header"
+          className="children-crossing cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚸"
           >
             🚸
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":children_crossing:"
           >
             <code>
@@ -1974,23 +1977,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="building-construction emoji-header"
+          className="building-construction cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🏗"
           >
             🏗
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":building_construction:"
           >
             <code>
@@ -2007,23 +2010,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="iphone emoji-header"
+          className="iphone cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📱"
           >
             📱
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":iphone:"
           >
             <code>
@@ -2040,23 +2043,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="clown-face emoji-header"
+          className="clown-face cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🤡"
           >
             🤡
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":clown_face:"
           >
             <code>
@@ -2073,23 +2076,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="egg emoji-header"
+          className="egg cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🥚"
           >
             🥚
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":egg:"
           >
             <code>
@@ -2106,23 +2109,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="see-no-evil emoji-header"
+          className="see-no-evil cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🙈"
           >
             🙈
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":see_no_evil:"
           >
             <code>
@@ -2139,23 +2142,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="camera-flash emoji-header"
+          className="camera-flash cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📸"
           >
             📸
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":camera_flash:"
           >
             <code>
@@ -2172,23 +2175,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="alembic emoji-header"
+          className="alembic cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⚗"
           >
             ⚗
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":alembic:"
           >
             <code>
@@ -2205,23 +2208,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="mag emoji-header"
+          className="mag cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔍"
           >
             🔍
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":mag:"
           >
             <code>
@@ -2238,23 +2241,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="label emoji-header"
+          className="label cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🏷️"
           >
             🏷️
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":label:"
           >
             <code>
@@ -2271,23 +2274,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="seedling emoji-header"
+          className="seedling cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🌱"
           >
             🌱
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":seedling:"
           >
             <code>
@@ -2304,23 +2307,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="triangular-flag-on-post emoji-header"
+          className="triangular-flag-on-post cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚩"
           >
             🚩
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":triangular_flag_on_post:"
           >
             <code>
@@ -2337,23 +2340,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="goal-net emoji-header"
+          className="goal-net cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🥅"
           >
             🥅
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":goal_net:"
           >
             <code>
@@ -2370,23 +2373,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="animation emoji-header"
+          className="animation cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💫"
           >
             💫
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":dizzy:"
           >
             <code>
@@ -2403,23 +2406,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="wastebasket emoji-header"
+          className="wastebasket cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🗑"
           >
             🗑
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":wastebasket:"
           >
             <code>
@@ -2436,23 +2439,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="passport-control emoji-header"
+          className="passport-control cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🛂"
           >
             🛂
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":passport_control:"
           >
             <code>
@@ -2469,23 +2472,23 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="emoji-card"
+        className="card"
       >
         <header
-          className="adhesive-bandage emoji-header"
+          className="adhesive-bandage cardHeader"
         >
           <span
-            className="emoji-icon gitmoji-emoji"
+            className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🩹"
           >
             🩹
           </span>
         </header>
         <div
-          className="emoji-info"
+          className="gitmojiInfo"
         >
           <div
-            className="gitmoji-code"
+            className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":adhesive_bandage:"
           >
             <code>
