@@ -1,4 +1,3 @@
-
 .footer {
   padding: 1.5em;
   background-color: var(--footerBackground);
@@ -18,14 +17,14 @@
   margin: 0 0.75em;
 }
 
-.footerNav a:last-child:after  {
+.footerNav a:last-child:after {
   content: '';
   margin: 0;
 }
 
-
 @media (max-width: 768px) {
-  .footer, .footerNav {
+  .footer,
+  .footerNav {
     justify-content: center;
     text-align: center;
   }

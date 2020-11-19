@@ -1,15 +1,32 @@
+import Router from 'next/router'
 import renderer from 'react-test-renderer'
 
 import Layout from '../index'
 import Status, { LOGO_STATUSES } from '../Header/Logo/Status'
 import * as stubs from './stubs'
 
+jest.mock('next/router', () => ({
+  pathname: '',
+  events: {
+    on: jest.fn(),
+    off: jest.fn(),
+  },
+}))
+
+Router.useRouter = () => ({
+  pathname: '',
+  events: {
+    off: jest.fn(),
+    on: jest.fn(),
+  },
+})
+
 describe('Layout', () => {
   beforeAll(() => {
     Math.random = jest.fn().mockReturnValue(1)
   })
 
-  it('should render the component with social buttons', () => {
+  it('should render the component', () => {
     const wrapper = renderer.create(
       <Layout {...stubs.props}>
         <p>Some children</p>
@@ -18,13 +35,34 @@ describe('Layout', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('should render the component without social buttons', () => {
-    const wrapper = renderer.create(
+  it('should subscribe to routeChangeStart using Router.events listener on mount', () => {
+    renderer.create(
       <Layout>
-        <p>Some children</p>
+        <h1>Some children</h1>
+        <h2>Hello!</h2>
       </Layout>
     )
-    expect(wrapper).toMatchSnapshot()
+
+    expect(Router.events.on).toHaveBeenCalledWith(
+      'routeChangeStart',
+      expect.any(Function)
+    )
+  })
+
+  it('should unsubscribe to routeChangeStart using Router.events on unMount', () => {
+    const wrapper = renderer.create(
+      <Layout>
+        <h1>Some children</h1>
+        <h2>Hello!</h2>
+      </Layout>
+    )
+
+    wrapper.unmount()
+
+    expect(Router.events.on).toHaveBeenCalledWith(
+      'routeChangeStart',
+      expect.any(Function)
+    )
   })
 
   describe('Logo', () => {

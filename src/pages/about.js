@@ -1,14 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 
-import Layout from 'src/components/Layout'
 import Button from 'src/components/Button'
 import SEO from 'src/components/SEO'
 
 const About = () => (
   <>
     <SEO pageTitle="About" pageUrl="/about" />
-    <Layout headerWithSocialButtons>
+    <main>
       <section>
         <h1>About</h1>
 
@@ -116,7 +115,7 @@ const About = () => (
           </li>
         </ol>
       </section>
-    </Layout>
+    </main>
   </>
 )
 

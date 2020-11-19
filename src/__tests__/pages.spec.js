@@ -1,12 +1,21 @@
 import renderer from 'react-test-renderer'
 
+import App from '../pages/_app'
 import Index from '../pages/index'
 import About from '../pages/about'
 import Contributors from '../pages/contributors'
+import * as stubs from './stubs'
 
 describe('Pages', () => {
-  beforeAll(() => {
-    Math.random = jest.fn().mockReturnValue(1)
+  describe('App', () => {
+    beforeAll(() => {
+      Math.random = jest.fn().mockReturnValue(1)
+    })
+
+    it('should render the page', () => {
+      const wrapper = renderer.create(<App {...stubs.appProps} />)
+      expect(wrapper).toMatchSnapshot()
+    })
   })
 
   describe('Index', () => {
