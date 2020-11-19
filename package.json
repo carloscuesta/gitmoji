@@ -11,7 +11,7 @@
     "build": "next build",
     "dev": "next dev",
     "flow": "flow",
-    "lint": "prettier --check src/**/*.{js,json,scss}",
+    "lint": "prettier --check src/**/*.{js,json,css}",
     "start": "next start",
     "test": "jest --coverage",
     "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
@@ -55,7 +55,7 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "prettier --write src/**/*.{js,json,scss}",
+      "prettier --write src/**/*.{js,json,css}",
       "git add"
     ]
   },
