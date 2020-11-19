@@ -1,0 +1,13 @@
+.link {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.linkActive {
+  text-decoration: underline;
+}

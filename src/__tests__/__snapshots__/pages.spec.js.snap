@@ -181,7 +181,7 @@ Array [
     className="header"
   >
     <svg
-      className="gitmoji-logo"
+      className="logo"
       height="137px"
       version="1.1"
       viewBox="0 0 457 137"
@@ -213,14 +213,16 @@ Array [
         </g>
       </g>
     </svg>
-    <h2>
+    <h2
+      className="title"
+    >
       An emoji guide for your commit messages
     </h2>
     <div
-      className="header-buttons"
+      className="buttons"
     >
       <a
-        className="btn btn-pink"
+        className="button"
         href="https://github.com/carloscuesta/gitmoji"
       >
         <svg
@@ -233,7 +235,7 @@ Array [
         GitHub
       </a>
       <a
-        className="btn btn-pink"
+        className="button"
         href="https://twitter.com/intent/tweet?text=gitmoji%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit%20messages%20by%20%40crloscuesta%20%F0%9F%98%8D%F0%9F%98%9C&url=https://gitmoji.carloscuesta.me"
         target="_blank"
       >
@@ -310,7 +312,7 @@ Array [
       </p>
       <div>
         <a
-          className="btn btn-pink"
+          className="button"
           href="https://github.com/carloscuesta/gitmoji"
         >
           <svg
@@ -323,7 +325,7 @@ Array [
           GitHub
         </a>
         <a
-          className="btn btn-pink"
+          className="button"
           href="https://twitter.com/intent/tweet?text=gitmoji%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit%20messages%20by%20%40crloscuesta%20%F0%9F%98%8D%F0%9F%98%9C&url=https://gitmoji.carloscuesta.me"
           target="_blank"
         >
@@ -423,7 +425,7 @@ Array [
         className="row middle-xs"
       >
         <div
-          className="col-sm-6 made-with-love"
+          className="col-sm-6 madeWithLove"
         >
           <h3>
             Made with 
@@ -444,7 +446,7 @@ Array [
           </h3>
         </div>
         <div
-          className="col-sm-6 footer-nav"
+          className="col-sm-6 footerNav"
         >
           <nav>
             <a
@@ -655,7 +657,7 @@ Array [
     className="header"
   >
     <svg
-      className="gitmoji-logo"
+      className="logo"
       height="137px"
       version="1.1"
       viewBox="0 0 457 137"
@@ -687,7 +689,9 @@ Array [
         </g>
       </g>
     </svg>
-    <h2>
+    <h2
+      className="title"
+    >
       An emoji guide for your commit messages
     </h2>
   </header>,
@@ -713,7 +717,7 @@ Array [
         className="row middle-xs"
       >
         <div
-          className="col-sm-6 made-with-love"
+          className="col-sm-6 madeWithLove"
         >
           <h3>
             Made with 
@@ -734,7 +738,7 @@ Array [
           </h3>
         </div>
         <div
-          className="col-sm-6 footer-nav"
+          className="col-sm-6 footerNav"
         >
           <nav>
             <a
@@ -945,7 +949,7 @@ Array [
     className="header"
   >
     <svg
-      className="gitmoji-logo"
+      className="logo"
       height="137px"
       version="1.1"
       viewBox="0 0 457 137"
@@ -977,14 +981,16 @@ Array [
         </g>
       </g>
     </svg>
-    <h2>
+    <h2
+      className="title"
+    >
       An emoji guide for your commit messages
     </h2>
     <div
-      className="header-buttons"
+      className="buttons"
     >
       <a
-        className="btn btn-pink"
+        className="button"
         href="https://github.com/carloscuesta/gitmoji"
       >
         <svg
@@ -997,7 +1003,7 @@ Array [
         GitHub
       </a>
       <a
-        className="btn btn-pink"
+        className="button"
         href="https://twitter.com/intent/tweet?text=gitmoji%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit%20messages%20by%20%40crloscuesta%20%F0%9F%98%8D%F0%9F%98%9C&url=https://gitmoji.carloscuesta.me"
         target="_blank"
       >
@@ -3077,7 +3083,7 @@ Array [
         className="row middle-xs"
       >
         <div
-          className="col-sm-6 made-with-love"
+          className="col-sm-6 madeWithLove"
         >
           <h3>
             Made with 
@@ -3098,7 +3104,7 @@ Array [
           </h3>
         </div>
         <div
-          className="col-sm-6 footer-nav"
+          className="col-sm-6 footerNav"
         >
           <nav>
             <a

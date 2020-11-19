@@ -1,0 +1,38 @@
+
+.footer {
+  padding: 1.5em;
+  background-color: var(--footerBackground);
+  color: var(--textInSecondary);
+}
+
+.footerNav {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.footerNav a:after {
+  content: '·';
+  color: var(--textInSecondary);
+  margin: 0 0.75em;
+}
+
+.footerNav a:last-child:after  {
+  content: '';
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  .footer, .footerNav {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .madeWithLove,
+  .footerNav {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

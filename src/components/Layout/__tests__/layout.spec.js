@@ -1,8 +1,7 @@
 import renderer from 'react-test-renderer'
 
 import Layout from '../index'
-import { getIconByStatus } from '../Header/Logo'
-import LOGO_STATUSES from '../Header/Logo/statuses'
+import Status, { LOGO_STATUSES } from '../Header/Logo/Status'
 import * as stubs from './stubs'
 
 describe('Layout', () => {
@@ -29,14 +28,14 @@ describe('Layout', () => {
   })
 
   describe('Logo', () => {
-    describe('getIconByStatus', () => {
-      const statuses = Object.values(LOGO_STATUSES).map((status) => status)
+    Object.values(LOGO_STATUSES)
+      .map((status) => status)
+      .forEach((status) => {
+        it('should render Logo with status ' + status, () => {
+          const wrapper = renderer.create(<Status status={status} />)
 
-      statuses.forEach((status) => {
-        it('should render component for status ' + status, () => {
-          expect(getIconByStatus(status)).toMatchSnapshot()
+          expect(wrapper).toMatchSnapshot()
         })
       })
-    })
   })
 })
