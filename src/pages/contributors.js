@@ -1,6 +1,5 @@
 import React from 'react'
 
-import '../styles/style.scss'
 import Layout from '../components/Layout'
 import ContributorsList from '../components/ContributorsList'
 import SEO from '../components/SEO'

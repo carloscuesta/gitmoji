@@ -1,8 +1,6 @@
 // @flow
 import React, { type Node } from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { readFileSync } from 'fs'
-import { join } from 'path'
 
 class CustomDocument extends Document {
   render(): Node {

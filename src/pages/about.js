@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-import '../styles/style.scss'
 import Layout from '../components/Layout'
 import Button from '../components/Button'
 import SEO from '../components/SEO'
