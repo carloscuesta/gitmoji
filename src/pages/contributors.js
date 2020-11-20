@@ -1,21 +1,19 @@
 import React from 'react'
 
-import '../styles/style.scss'
-import Layout from '../components/Layout'
-import ContributorsList from '../components/ContributorsList'
-import SEO from '../components/SEO'
+import ContributorsList from 'src/components/ContributorsList'
+import SEO from 'src/components/SEO'
 
 const Contributors = () => (
   <>
     <SEO pageTitle="Contributors" pageUrl="/contributors" />
 
-    <Layout>
+    <main>
       <section>
         <h1>Contributors</h1>
 
         <ContributorsList />
       </section>
-    </Layout>
+    </main>
   </>
 )
 

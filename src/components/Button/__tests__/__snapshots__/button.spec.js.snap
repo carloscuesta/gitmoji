@@ -2,7 +2,7 @@
 
 exports[`Button should render the component 1`] = `
 <a
-  className="btn btn-pink"
+  className="button"
   target="_blank"
 >
   <svg

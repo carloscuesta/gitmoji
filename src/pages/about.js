@@ -1,15 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 
-import '../styles/style.scss'
-import Layout from '../components/Layout'
-import Button from '../components/Button'
-import SEO from '../components/SEO'
+import Button from 'src/components/Button'
+import SEO from 'src/components/SEO'
 
 const About = () => (
   <>
     <SEO pageTitle="About" pageUrl="/about" />
-    <Layout headerWithSocialButtons>
+    <main>
       <section>
         <h1>About</h1>
 
@@ -43,12 +41,6 @@ const About = () => (
         </p>
 
         <div>
-          <Button
-            icon="star"
-            link="https://github.com/carloscuesta/gitmoji"
-            text="GitHub"
-          />
-
           <Button
             icon="twitter"
             link={
@@ -117,7 +109,7 @@ const About = () => (
           </li>
         </ol>
       </section>
-    </Layout>
+    </main>
   </>
 )
 

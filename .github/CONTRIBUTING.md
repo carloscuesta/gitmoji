@@ -33,9 +33,9 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 
 If you want to find the hexadecimal entity of icon, search for it in this site: <a>http://graphemica.com/</a>
 
-Then, after that you'll need to add a new color to [the vars.scss](https://github.com/carloscuesta/gitmoji/blob/master/src/styles/_includes/_vars.scss) file.
+Then, after that you'll need to add a new color to [the emojiColorsMap.js](https://github.com/carloscuesta/gitmoji/blob/master/src/components/GitmojiList/emojiColorsMap.js) file.
 
-You must follow the convention of adding a new item to the `$gitmojis array`. That matches the name that you added at the json file.
+You must follow the convention of adding a new item to the `gitmojis object`. That matches the name that you added at the json file.
 
 ## How to start gitmoji
 
@@ -54,4 +54,4 @@ $ cd gitmoji
 $ yarn install && yarn run dev
 ```
 
-The project is built with [Next.js](http://nextjs.org) and [SCSS](http://sass-lang.com)
+The project is built with [Next.js](http://nextjs.org)

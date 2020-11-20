@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ContributorsList should match Contributor component 1`] = `
+exports[`ContributorsList Contributor should render the component 1`] = `
 <article
-  className="contributor col-xs-3 col-sm-2"
+  className="col-xs-3 col-sm-2"
 >
   <a
     href="https://github.com/profile"
   >
     <img
-      className="contributor-picture"
+      className="picture"
       src="https://github.com/avatar"
     />
   </a>
