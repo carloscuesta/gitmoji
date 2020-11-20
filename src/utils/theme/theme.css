@@ -5,6 +5,7 @@
     --primaryShadow: #ffcc1b;
     --secondary: #ff5a79;
     --secondaryShadow: #f3002e;
+    --textInPrimary: #000000;
     --textInSecondary: #ffffff;
     --footerBackground: #00e5ff;
     --cardBackground: #ffffff;
@@ -20,21 +21,26 @@
 
 @media (prefers-color-scheme: dark) {
   html {
-    --background: #ffffff;
+    --background: #121212;
     --primary: #ffdd67;
     --primaryShadow: #ffcc1b;
     --secondary: #ff5a79;
     --secondaryShadow: #f3002e;
+    --textInPrimary: #000000;
     --textInSecondary: #ffffff;
     --footerBackground: #00e5ff;
-    --cardBackground: #ffffff;
-    --cardText: #999999;
-    --emojiCodeText: #000000;
-    --cardShadow: rgba(168, 182, 191, 0.6);
+    --cardBackground: #2b2b2b;
+    --cardText: #ffffff;
+    --emojiCodeText: #ffffff;
+    --cardShadow: none;
     --notificationText: #ffffff;
     --notificationShadow: rgba(0, 0, 0, 0.05);
     --notificationEmojiCodeColor: rgba(0, 0, 0, 0.85);
     --menuBackground: #ff5a79;
+  }
+
+  body {
+    color: var(--cardText);
   }
 }
 
@@ -78,9 +84,10 @@ section {
 
 pre {
   background-color: var(--primary);
-  box-shadow: 0 4px var(--primaryShadow);
-  padding: 1em;
   border-radius: 4px;
+  box-shadow: 0 4px var(--primaryShadow);
+  color: var(--textInPrimary);
+  padding: 1em;
 }
 
 .wrap {

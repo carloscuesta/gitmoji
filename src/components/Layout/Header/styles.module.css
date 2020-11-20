@@ -8,6 +8,7 @@
   padding: 0.5em 0;
   margin: 0;
   font-size: 2em;
+  color: var(--textInPrimary);
 }
 
 .buttons {
