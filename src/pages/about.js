@@ -42,12 +42,6 @@ const About = () => (
 
         <div>
           <Button
-            icon="star"
-            link="https://github.com/carloscuesta/gitmoji"
-            text="GitHub"
-          />
-
-          <Button
             icon="twitter"
             link={
               'https://twitter.com/intent/tweet?text=gitmoji' +
