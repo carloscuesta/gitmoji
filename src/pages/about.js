@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
+import CarbonAd from 'src/components/CarbonAd'
 import Button from 'src/components/Button'
 import SEO from 'src/components/SEO'
 
@@ -8,6 +9,7 @@ const About = () => (
   <>
     <SEO pageTitle="About" pageUrl="/about" />
     <main>
+      <CarbonAd />
       <section>
         <h1>About</h1>
 

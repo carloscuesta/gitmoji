@@ -2,6 +2,13 @@
 
 exports[`Pages About should render the page 1`] = `
 <main>
+  <div
+    className="jsx-3878451597 col-xs-12"
+  >
+    <div
+      className="jsx-3878451597 carbon-container row center-xs"
+    />
+  </div>
   <section>
     <h1>
       About
@@ -422,6 +429,13 @@ Array [
 
 exports[`Pages Contributors should render the page 1`] = `
 <main>
+  <div
+    className="jsx-3878451597 col-xs-12"
+  >
+    <div
+      className="jsx-3878451597 carbon-container row center-xs"
+    />
+  </div>
   <section>
     <h1>
       Contributors
@@ -435,6 +449,13 @@ exports[`Pages Contributors should render the page 1`] = `
 
 exports[`Pages Index should render the page 1`] = `
 <main>
+  <div
+    className="jsx-3878451597 col-xs-12"
+  >
+    <div
+      className="jsx-3878451597 carbon-container row center-xs"
+    />
+  </div>
   <div
     className="row center-xs"
     id="gitmoji-list"
