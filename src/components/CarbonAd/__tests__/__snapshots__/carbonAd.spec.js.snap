@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarbonAd should render the component 1`] = `
+<div
+  className="jsx-3652241495 col-xs-12"
+>
+  <div
+    className="jsx-3652241495 carbon-container row center-xs"
+  >
+    <script
+      async={true}
+      className="jsx-3652241495"
+      id="_carbonads_js"
+      src="//cdn.carbonads.com/carbon.js?serve=CE7DL5QJ&placement=gitmojicarloscuestame"
+      type="text/javascript"
+    />
+  </div>
+</div>
+`;
