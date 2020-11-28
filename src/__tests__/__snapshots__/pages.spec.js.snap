@@ -2,6 +2,21 @@
 
 exports[`Pages About should render the page 1`] = `
 <main>
+  <div
+    className="jsx-3652241495 col-xs-12"
+  >
+    <div
+      className="jsx-3652241495 carbon-container row center-xs"
+    >
+      <script
+        async={true}
+        className="jsx-3652241495"
+        id="_carbonads_js"
+        src="//cdn.carbonads.com/carbon.js?serve=CE7DL5QJ&placement=gitmojicarloscuestame"
+        type="text/javascript"
+      />
+    </div>
+  </div>
   <section>
     <h1>
       About
@@ -422,6 +437,21 @@ Array [
 
 exports[`Pages Contributors should render the page 1`] = `
 <main>
+  <div
+    className="jsx-3652241495 col-xs-12"
+  >
+    <div
+      className="jsx-3652241495 carbon-container row center-xs"
+    >
+      <script
+        async={true}
+        className="jsx-3652241495"
+        id="_carbonads_js"
+        src="//cdn.carbonads.com/carbon.js?serve=CE7DL5QJ&placement=gitmojicarloscuestame"
+        type="text/javascript"
+      />
+    </div>
+  </div>
   <section>
     <h1>
       Contributors
@@ -435,6 +465,21 @@ exports[`Pages Contributors should render the page 1`] = `
 
 exports[`Pages Index should render the page 1`] = `
 <main>
+  <div
+    className="jsx-3652241495 col-xs-12"
+  >
+    <div
+      className="jsx-3652241495 carbon-container row center-xs"
+    >
+      <script
+        async={true}
+        className="jsx-3652241495"
+        id="_carbonads_js"
+        src="//cdn.carbonads.com/carbon.js?serve=CE7DL5QJ&placement=gitmojicarloscuestame"
+        type="text/javascript"
+      />
+    </div>
+  </div>
   <div
     className="row center-xs"
     id="gitmoji-list"
