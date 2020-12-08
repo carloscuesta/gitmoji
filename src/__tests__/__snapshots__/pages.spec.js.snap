@@ -473,7 +473,7 @@ exports[`Pages Index should render the page 1`] = `
           className="searchInput"
           name="searchInput"
           onChange={[Function]}
-          placeholder="Search a Gitmoji by :code:"
+          placeholder="Search"
           type="text"
           value={null}
         />
