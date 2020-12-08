@@ -18,11 +18,14 @@ type Props = {
 const GitmojiList = (props: Props): Element<'div'> => {
   const [searchInput, setSearchInput] = React.useState(null)
   const gitmojis = searchInput
-    ? props.gitmojis.filter(
-        ({ code, description }) =>
-          code.includes(searchInput.toLowerCase()) ||
-          description.toLowerCase().includes(searchInput.toLowerCase())
-      )
+    ? props.gitmojis.filter(({ code, description }) => {
+        const lowerCasedSearch = searchInput.toLowerCase()
+
+        return (
+          code.includes(lowerCasedSearch) ||
+          description.toLowerCase().includes(lowerCasedSearch)
+        )
+      })
     : props.gitmojis
 
   React.useEffect(() => {
