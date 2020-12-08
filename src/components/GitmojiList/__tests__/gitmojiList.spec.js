@@ -9,7 +9,7 @@ describe('GitmojiList', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  describe('when user search the bookmark gitmoji', () => {
+  describe('when user search the fire gitmoji', () => {
     it('should filter the GitmojiList and find the fire gitmoji by code', () => {
       const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
       const instance = wrapper.root
