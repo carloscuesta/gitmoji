@@ -53,6 +53,9 @@ const Hamburger = (): Element<'div'> => {
               <MenuLink href="/contributors" text="Contributors" />
             </li>
             <li>
+              <MenuLink href="/related-tools" text="Related tools" />
+            </li>
+            <li>
               <MenuLink
                 href="https://github.com/carloscuesta/gitmoji"
                 text="GitHub"

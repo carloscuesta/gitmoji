@@ -4,6 +4,7 @@ import App from '../pages/_app'
 import Index from '../pages/index'
 import About from '../pages/about'
 import Contributors from '../pages/contributors'
+import RelatedTools from '../pages/related-tools'
 import * as stubs from './stubs'
 
 describe('Pages', () => {
@@ -35,6 +36,13 @@ describe('Pages', () => {
   describe('Contributors', () => {
     it('should render the page', () => {
       const wrapper = renderer.create(<Contributors />)
+      expect(wrapper).toMatchSnapshot()
+    })
+  })
+
+  describe('Related tools', () => {
+    it('should render the page', () => {
+      const wrapper = renderer.create(<RelatedTools />)
       expect(wrapper).toMatchSnapshot()
     })
   })
