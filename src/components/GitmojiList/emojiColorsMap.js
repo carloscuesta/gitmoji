@@ -64,4 +64,5 @@ export default {
   'white-check-mark': '#77e856',
   wrench: '#ffc400',
   zap: '#40c4ff',
+  'monocle-face': '#ffe55f',
 }

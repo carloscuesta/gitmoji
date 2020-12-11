@@ -433,6 +433,13 @@
       "code": ":adhesive_bandage:",
       "description": "Simple fix for a non-critical issue.",
       "name": "adhesive-bandage"
+    },
+    {
+      "emoji": "🧐",
+      "entity": "&#x1F9D0;",
+      "code": ":monocle_face:",
+      "description": "Data exploration/inspection.",
+      "name": "monocle-face"
     }
   ]
 }
