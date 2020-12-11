@@ -2525,6 +2525,39 @@ exports[`Pages Index should render the page 1`] = `
         </div>
       </div>
     </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+    >
+      <div
+        className="card"
+      >
+        <header
+          className="monocle-face cardHeader"
+        >
+          <span
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🧐"
+          >
+            🧐
+          </span>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <div
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":monocle_face:"
+          >
+            <code>
+              :monocle_face:
+            </code>
+          </div>
+          <p>
+            Data exploration/inspection.
+          </p>
+        </div>
+      </div>
+    </article>
   </div>
 </main>
 `;
