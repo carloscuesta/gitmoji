@@ -5,3 +5,5 @@ node_modules/
 .next
 out/
 coverage/
+public/robots.txt
+public/sitemap.xml
