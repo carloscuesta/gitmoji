@@ -1,0 +1,24 @@
+.button {
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  margin: 0.25em 0;
+  padding: 0.75em 1em;
+  position: relative;
+  transition: none;
+  background-color: var(--secondary);
+  color: var(--textInSecondary);
+  box-shadow: 0 4px var(--secondaryShadow);
+}
+
+.button:hover {
+  top: 2px;
+  box-shadow: 0 2px var(--secondaryShadow);
+  animation: none;
+}
+
+.button:active {
+  box-shadow: 0 0 var(--secondary);
+  top: 4px;
+}

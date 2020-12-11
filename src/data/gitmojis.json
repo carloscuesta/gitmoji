@@ -428,6 +428,13 @@
       "name": "passport-control"
     },
     {
+      "emoji": "🩹",
+      "entity": "&#x1FA79;",
+      "code": ":adhesive_bandage:",
+      "description": "Simple fix for a non-critical issue.",
+      "name": "adhesive-bandage"
+    },
+    {
       "emoji": "🧐",
       "entity": "&#x1F9D0;",
       "code": ":monocle_face:",

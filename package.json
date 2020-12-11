@@ -1,6 +1,6 @@
 {
   "name": "gitmojis",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "An emoji guide for your commit messages.",
   "private": false,
   "main": "src/data/gitmojis.json",
@@ -11,7 +11,7 @@
     "build": "next build",
     "dev": "next dev",
     "flow": "flow",
-    "lint": "prettier --check src/**/*.{js,json,scss}",
+    "lint": "prettier --check src/**/*.{js,json,css}",
     "start": "next start",
     "test": "jest --coverage",
     "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
@@ -19,18 +19,15 @@
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
-    "@zeit/next-sass": "^1.0.1",
     "clipboard": "^2.0.4",
-    "flow-bin": "^0.137.0",
+    "flow-bin": "^0.140.0",
     "husky": "^4.2.5",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.1.0",
     "jsonlint": "^1.6.3",
     "lint-staged": "^10.0.0-1",
     "next": "^10.0.0",
-    "node-sass": "^4.13.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "prettier": "2.1.2",
+    "prettier": "2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-test-renderer": "^17.0.1"
@@ -58,7 +55,7 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "prettier --write src/**/*.{js,json,scss}",
+      "prettier --write src/**/*.{js,json,css}",
       "git add"
     ]
   },
@@ -82,7 +79,8 @@
       "**/*.(spec).(js)"
     ],
     "moduleNameMapper": {
-      "\\.(scss)$": "identity-obj-proxy"
+      "^.+\\.css$": "identity-obj-proxy",
+      "src/(.*)$": "<rootDir>/src/$1"
     }
   }
 }

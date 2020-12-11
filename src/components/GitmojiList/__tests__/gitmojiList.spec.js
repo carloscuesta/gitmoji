@@ -8,4 +8,32 @@ describe('GitmojiList', () => {
     const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
     expect(wrapper).toMatchSnapshot()
   })
+
+  describe('when user search the fire gitmoji', () => {
+    it('should filter the GitmojiList and find the fire gitmoji by code', () => {
+      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
+      const instance = wrapper.root
+
+      renderer.act(() => {
+        instance
+          .findByType('input')
+          .props.onChange({ target: { value: 'Fire' } })
+      })
+
+      expect(instance.findAllByType('article').length).toEqual(1)
+    })
+
+    it('should filter the GitmojiList and find the fire gitmoji by description', () => {
+      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
+      const instance = wrapper.root
+
+      renderer.act(() => {
+        instance
+          .findByType('input')
+          .props.onChange({ target: { value: 'remove' } })
+      })
+
+      expect(instance.findAllByType('article').length).toEqual(1)
+    })
+  })
 })

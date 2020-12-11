@@ -1,0 +1,21 @@
+.header {
+  background-color: var(--primary);
+  padding: 4.5em 2em;
+  text-align: center;
+}
+
+.title {
+  padding: 0.5em 0;
+  margin: 0;
+  font-size: 2em;
+  color: var(--textInPrimary);
+}
+
+.buttons {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.buttons a:first-child {
+  margin-right: 1em;
+}

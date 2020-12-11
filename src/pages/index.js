@@ -1,18 +1,18 @@
 import React from 'react'
 import Head from 'next/head'
 
-import '../styles/style.scss'
-import Layout from '../components/Layout'
-import GitmojiList from '../components/GitmojiList'
-import SEO from '../components/SEO'
-import { gitmojis } from '../data/gitmojis.json'
+import { gitmojis } from 'src/data/gitmojis.json'
+import GitmojiList from 'src/components/GitmojiList'
+import CarbonAd from 'src/components/CarbonAd'
+import SEO from 'src/components/SEO'
 
 const Home = () => (
   <>
     <SEO />
-    <Layout headerWithSocialButtons>
+    <main>
+      <CarbonAd />
       <GitmojiList gitmojis={gitmojis} />
-    </Layout>
+    </main>
   </>
 )
 
