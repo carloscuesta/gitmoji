@@ -49,7 +49,7 @@ const About = () => (
               'https://twitter.com/intent/tweet?text=gitmoji' +
               '%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit' +
               '%20messages%20by%20%40crloscuesta%20%F0%9F%98%8D%F0%9F%98%9C' +
-              '&url=https://gitmoji.carloscuesta.me'
+              '&url=https://gitmoji.dev'
             }
             target="_blank"
             text="Tweet"
