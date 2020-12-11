@@ -9,8 +9,7 @@ const CarbonAd = (): Element<'div'> => {
       const carbonAdsScript = document.createElement('script')
 
       carbonAdsScript.src =
-        '//cdn.carbonads.com/carbon.js' +
-        '?serve=CE7DL5QJ&placement=gitmojicarloscuestame'
+        '//cdn.carbonads.com/carbon.js' + '?serve=CE7DL5QJ&placement=gitmojidev'
       carbonAdsScript.async = true
       carbonAdsScript.id = '_carbonads_js'
 
@@ -76,7 +75,7 @@ const CarbonAd = (): Element<'div'> => {
             bottom: 0;
             right: 0;
             padding: 6px 10px;
-            background: #f1f1f1;
+            background: var(--carbonAdBadgeBackground);
             text-align: center;
             text-transform: uppercase;
             letter-spacing: 0.5px;

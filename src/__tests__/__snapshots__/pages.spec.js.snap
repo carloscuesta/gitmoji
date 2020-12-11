@@ -3,10 +3,10 @@
 exports[`Pages About should render the page 1`] = `
 <main>
   <div
-    className="jsx-3878451597 col-xs-12"
+    className="jsx-2269568618 col-xs-12"
   >
     <div
-      className="jsx-3878451597 carbon-container row center-xs"
+      className="jsx-2269568618 carbon-container row center-xs"
     />
   </div>
   <section>
@@ -430,10 +430,10 @@ Array [
 exports[`Pages Contributors should render the page 1`] = `
 <main>
   <div
-    className="jsx-3878451597 col-xs-12"
+    className="jsx-2269568618 col-xs-12"
   >
     <div
-      className="jsx-3878451597 carbon-container row center-xs"
+      className="jsx-2269568618 carbon-container row center-xs"
     />
   </div>
   <section>
@@ -450,10 +450,10 @@ exports[`Pages Contributors should render the page 1`] = `
 exports[`Pages Index should render the page 1`] = `
 <main>
   <div
-    className="jsx-3878451597 col-xs-12"
+    className="jsx-2269568618 col-xs-12"
   >
     <div
-      className="jsx-3878451597 carbon-container row center-xs"
+      className="jsx-2269568618 carbon-container row center-xs"
     />
   </div>
   <div
@@ -2565,10 +2565,10 @@ exports[`Pages Index should render the page 1`] = `
 exports[`Pages Related tools should render the page 1`] = `
 <main>
   <div
-    className="jsx-3878451597 col-xs-12"
+    className="jsx-2269568618 col-xs-12"
   >
     <div
-      className="jsx-3878451597 carbon-container row center-xs"
+      className="jsx-2269568618 carbon-container row center-xs"
     />
   </div>
   <section>

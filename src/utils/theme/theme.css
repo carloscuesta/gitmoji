@@ -16,6 +16,7 @@
     --notificationShadow: rgba(0, 0, 0, 0.05);
     --notificationEmojiCodeColor: rgba(0, 0, 0, 0.85);
     --menuBackground: #ff5a79;
+    --carbonAdBadgeBackground: #f1f1f1;
   }
 }
 
@@ -37,6 +38,7 @@
     --notificationShadow: rgba(0, 0, 0, 0.05);
     --notificationEmojiCodeColor: rgba(0, 0, 0, 0.85);
     --menuBackground: #ff5a79;
+    --carbonAdBadgeBackground: #2b2b2b;
   }
 
   body {
