@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="https://gitmoji.carloscuesta.me">
+	<a href="https://gitmoji.dev">
 		<img src="https://cloud.githubusercontent.com/assets/7629661/20073135/4e3db2c2-a52b-11e6-85e1-661a8212045a.gif" width="456" alt="gitmoji">
 	</a>
 </p>
@@ -8,7 +8,7 @@
 		<img src="https://img.shields.io/github/workflow/status/carloscuesta/gitmoji/CI?style=flat-square"
 			 alt="Build Status">
 	</a>
-	<a href="https://gitmoji.carloscuesta.me">
+	<a href="https://gitmoji.dev">
 		<img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
 			 alt="Gitmoji">
 	</a>
@@ -16,7 +16,7 @@
 
 ## About
 
-[Gitmoji](https://gitmoji.carloscuesta.me) is an initiative to standardize and explain **the use of emojis on GitHub commit messages**.
+[Gitmoji](https://gitmoji.dev) is an initiative to standardize and explain **the use of emojis on GitHub commit messages**.
 
 **Using emojis** on **commit messages** provides an **easy way** of **identifying the purpose or intention of a commit** with only looking at the emojis used. As there are a lot of different emojis I found the need of creating a guide that can help to use emojis easier.
 
@@ -39,7 +39,7 @@ Contributing to gitmoji is a piece of :cake:, read the [contributing guidelines]
 Are you using Gitmoji on your project? Set the Gitmoji badge on top of your readme using this code:
 
 ```html
-<a href="https://gitmoji.carloscuesta.me">
+<a href="https://gitmoji.dev">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
 </a>
 ```
