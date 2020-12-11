@@ -2561,3 +2561,114 @@ exports[`Pages Index should render the page 1`] = `
   </div>
 </main>
 `;
+
+exports[`Pages Related tools should render the page 1`] = `
+<main>
+  <div
+    className="jsx-3878451597 col-xs-12"
+  >
+    <div
+      className="jsx-3878451597 carbon-container row center-xs"
+    />
+  </div>
+  <section>
+    <h1>
+      Related tools
+    </h1>
+    <p>
+      This is a list of tools which are related with the 
+      <b>
+        gitmoji
+      </b>
+       
+      convention.
+    </p>
+    <ul>
+      <li>
+        <a
+          href="https://github.com/frinyvonnick/gitmoji-changelog/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            gitmoji-changelog
+          </b>
+        </a>
+        : A changelog generator for gitmoji.
+      </li>
+      <li>
+        <a
+          href="https://github.com/lalalilo/gitmemoji/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            gitmemoji
+          </b>
+        </a>
+        : A game to learn gitmojis.
+      </li>
+      <li>
+        <a
+          href="https://github.com/johannchopin/gitmoji-browser-extension"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            gitmoji-browser-extension
+          </b>
+        </a>
+        : The Gitmoji extension to easily search and copy gitmojis.
+      </li>
+      <li>
+        <a
+          href="https://github.com/vtrois/gitmoji-vscode"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            gitmoji-vscode
+          </b>
+        </a>
+        : A VSCode extension for your git commit messages
+      </li>
+      <li>
+        <a
+          href="https://plugins.jetbrains.com/plugin/12383-gitmoji-plus-commit-button"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            gitmoji-intellij-plugin
+          </b>
+        </a>
+        : A Jetbrains suite plugin to easily add gitmoji when committing
+      </li>
+      <li>
+        <a
+          href="https://packagecontrol.io/packages/Gitmoji"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            gitmoji-sublimetext
+          </b>
+        </a>
+        : A Sublime Text plugin to add emojis in git commit messages.
+      </li>
+      <li>
+        <a
+          href="https://github.com/TimoZacherl/gitimoji"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            gitimoji
+          </b>
+        </a>
+        : A Gitmoji App for macOS.
+      </li>
+    </ul>
+  </section>
+</main>
+`;
