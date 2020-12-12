@@ -4,9 +4,24 @@ import GitmojiList from '../index'
 import * as stubs from './stubs'
 
 describe('GitmojiList', () => {
-  it('should render the component', () => {
-    const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
-    expect(wrapper).toMatchSnapshot()
+  describe('when is list mode', () => {
+    it('should render the component', () => {
+      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
+      expect(wrapper).toMatchSnapshot()
+    })
+  })
+
+  describe('when is not list mode', () => {
+    it('should render the component', () => {
+      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
+      const instance = wrapper.root
+
+      renderer.act(() => {
+        instance.findAllByType('button')[1].props.onClick()
+      })
+
+      expect(wrapper).toMatchSnapshot()
+    })
   })
 
   describe('when user search the fire gitmoji', () => {

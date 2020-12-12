@@ -17,6 +17,7 @@ type Props = {
 
 const GitmojiList = (props: Props): Element<'div'> => {
   const [searchInput, setSearchInput] = React.useState(null)
+  const [isListMode, setIsListMode] = React.useState(false)
   const gitmojis = searchInput
     ? props.gitmojis.filter(({ code, description }) => {
         const lowerCasedSearch = searchInput.toLowerCase()
@@ -63,7 +64,12 @@ const GitmojiList = (props: Props): Element<'div'> => {
       </style>
 
       <div className="col-xs-12">
-        <Toolbar searchInput={searchInput} setSearchInput={setSearchInput} />
+        <Toolbar
+          isListMode={isListMode}
+          searchInput={searchInput}
+          setIsListMode={setIsListMode}
+          setSearchInput={setSearchInput}
+        />
       </div>
 
       {gitmojis.length === 0 ? (
@@ -74,6 +80,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
             code={gitmoji.code}
             description={gitmoji.description}
             emoji={gitmoji.emoji}
+            isListMode={isListMode}
             key={index}
             name={gitmoji.name}
           />

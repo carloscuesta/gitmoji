@@ -1,10 +1,13 @@
 // @flow
 import React, { type Element } from 'react'
 
+import ListModeSelector from './ListModeSelector'
 import styles from './styles.module.css'
 
 type Props = {
+  isListMode: boolean,
   searchInput: ?string,
+  setIsListMode: Function,
   setSearchInput: Function,
 }
 
@@ -17,6 +20,11 @@ const Toolbar = (props: Props): Element<'div'> => (
       placeholder="Search your gitmoji..."
       type="text"
       value={props.searchInput}
+    />
+
+    <ListModeSelector
+      isListMode={props.isListMode}
+      setIsListMode={props.setIsListMode}
     />
   </div>
 )

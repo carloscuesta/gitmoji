@@ -272,6 +272,11 @@ main.wrap {
     flex-basis: 25%;
     max-width: 25%;
   }
+  .col-md-4 {
+    -ms-flex-preferred-size: 33.33333333%;
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+  }
 }
 
 /* Notifications */

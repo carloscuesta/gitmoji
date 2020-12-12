@@ -7,12 +7,19 @@ type Props = {
   code: string,
   description: string,
   emoji: string,
+  isListMode: boolean,
   name: string,
 }
 
 const Gitmoji = (props: Props): Element<'article'> => (
-  <article className={`${styles.emoji} col-xs-12 col-sm-6 col-md-3`}>
-    <div className={styles.card}>
+  <article
+    className={`${styles.emoji} col-xs-12 col-sm-6 ${
+      props.isListMode ? 'col-md-4' : 'col-md-3'
+    }`}
+  >
+    <div
+      className={`${styles.card} ${props.isListMode ? styles.cardList : ''}`}
+    >
       <header className={`${props.name} ${styles.cardHeader}`}>
         <span
           className={`gitmoji-clipboard-emoji ${styles.gitmoji}`}
