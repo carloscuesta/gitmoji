@@ -14,6 +14,33 @@
   overflow: hidden;
 }
 
+.cardList {
+  display: flex;
+}
+
+.cardList .gitmoji {
+  font-size: 3.5em;
+}
+
+.cardList .cardHeader {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.cardList .gitmojiInfo {
+  text-align: left;
+  padding: 1rem;
+}
+
+.cardList .gitmojiInfo p {
+  padding: 0;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
 .card:hover {
   box-shadow: 0 10px 20px 0 var(--cardShadow);
   transform: translateY(-1px);
@@ -65,7 +92,8 @@
 }
 
 @media (max-width: 768px) {
-  .gitmoji {
+  .gitmoji,
+  .cardList .gitmoji {
     font-size: 50px;
   }
 

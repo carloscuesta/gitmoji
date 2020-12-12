@@ -262,6 +262,33 @@ Array [
           r="2.5"
         />
       </symbol>
+      <symbol
+        id="icon-list"
+        viewBox="0 0 512 512"
+        x="0px"
+        y="0px"
+      >
+        <title>
+          list
+        </title>
+        <path
+          className=""
+          d="M149.333 216v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-80c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zM125.333 32H24C10.745 32 0 42.745 0 56v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24zm80 448H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm-24-424v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24zm24 264H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol
+        id="icon-grid"
+        viewBox="0 0 512 512"
+      >
+        <title>
+          grid
+        </title>
+        <path
+          d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z"
+          fill="currentColor"
+        />
+      </symbol>
     </defs>
   </svg>,
   <div
@@ -477,13 +504,43 @@ exports[`Pages Index should render the page 1`] = `
           type="text"
           value={null}
         />
+        <div
+          className="container"
+        >
+          <button
+            className="button buttonActive"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <svg
+              className="icon icon-grid"
+            >
+              <use
+                xlinkHref="#icon-grid"
+              />
+            </svg>
+          </button>
+          <button
+            className="button "
+            disabled={false}
+            onClick={[Function]}
+          >
+            <svg
+              className="icon icon-list"
+            >
+              <use
+                xlinkHref="#icon-list"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="art cardHeader"
@@ -516,7 +573,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="zap cardHeader"
@@ -549,7 +606,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="fire cardHeader"
@@ -582,7 +639,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="bug cardHeader"
@@ -615,7 +672,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="ambulance cardHeader"
@@ -648,7 +705,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="sparkles cardHeader"
@@ -681,7 +738,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="memo cardHeader"
@@ -714,7 +771,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="rocket cardHeader"
@@ -747,7 +804,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="lipstick cardHeader"
@@ -780,7 +837,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="tada cardHeader"
@@ -813,7 +870,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="white-check-mark cardHeader"
@@ -846,7 +903,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="lock cardHeader"
@@ -879,7 +936,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="bookmark cardHeader"
@@ -912,7 +969,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="rotating-light cardHeader"
@@ -945,7 +1002,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="construction cardHeader"
@@ -978,7 +1035,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="green-heart cardHeader"
@@ -1011,7 +1068,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="arrow-down cardHeader"
@@ -1044,7 +1101,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="arrow-up cardHeader"
@@ -1077,7 +1134,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="pushpin cardHeader"
@@ -1110,7 +1167,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="construction-worker cardHeader"
@@ -1143,7 +1200,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="chart-with-upwards-trend cardHeader"
@@ -1176,7 +1233,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="recycle cardHeader"
@@ -1209,7 +1266,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="heavy-plus-sign cardHeader"
@@ -1242,7 +1299,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="heavy-minus-sign cardHeader"
@@ -1275,7 +1332,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="wrench cardHeader"
@@ -1308,7 +1365,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="hammer cardHeader"
@@ -1341,7 +1398,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="globe-with-meridians cardHeader"
@@ -1374,7 +1431,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="pencil2 cardHeader"
@@ -1407,7 +1464,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="poop cardHeader"
@@ -1440,7 +1497,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="rewind cardHeader"
@@ -1473,7 +1530,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="twisted-rightwards-arrows cardHeader"
@@ -1506,7 +1563,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="package cardHeader"
@@ -1539,7 +1596,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="alien cardHeader"
@@ -1572,7 +1629,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="truck cardHeader"
@@ -1605,7 +1662,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="page-facing-up cardHeader"
@@ -1638,7 +1695,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="boom cardHeader"
@@ -1671,7 +1728,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="bento cardHeader"
@@ -1704,7 +1761,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="wheelchair cardHeader"
@@ -1737,7 +1794,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="bulb cardHeader"
@@ -1770,7 +1827,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="beers cardHeader"
@@ -1803,7 +1860,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="speech-balloon cardHeader"
@@ -1836,7 +1893,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="card-file-box cardHeader"
@@ -1869,7 +1926,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="loud-sound cardHeader"
@@ -1902,7 +1959,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="mute cardHeader"
@@ -1935,7 +1992,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="busts-in-silhouette cardHeader"
@@ -1968,7 +2025,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="children-crossing cardHeader"
@@ -2001,7 +2058,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="building-construction cardHeader"
@@ -2034,7 +2091,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="iphone cardHeader"
@@ -2067,7 +2124,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="clown-face cardHeader"
@@ -2100,7 +2157,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="egg cardHeader"
@@ -2133,7 +2190,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="see-no-evil cardHeader"
@@ -2166,7 +2223,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="camera-flash cardHeader"
@@ -2199,7 +2256,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="alembic cardHeader"
@@ -2232,7 +2289,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="mag cardHeader"
@@ -2265,7 +2322,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="label cardHeader"
@@ -2298,7 +2355,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="seedling cardHeader"
@@ -2331,7 +2388,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="triangular-flag-on-post cardHeader"
@@ -2364,7 +2421,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="goal-net cardHeader"
@@ -2397,7 +2454,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="animation cardHeader"
@@ -2430,7 +2487,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="wastebasket cardHeader"
@@ -2463,7 +2520,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="passport-control cardHeader"
@@ -2496,7 +2553,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="adhesive-bandage cardHeader"
@@ -2529,7 +2586,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card"
+        className="card "
       >
         <header
           className="monocle-face cardHeader"

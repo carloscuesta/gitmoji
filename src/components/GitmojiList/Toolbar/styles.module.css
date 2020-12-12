@@ -1,15 +1,30 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
 .searchInput {
   border-radius: 4px;
   border: 0;
   box-shadow: 0 2px 4px 0 var(--cardShadow);
   flex: 1;
   font-size: 1rem;
-  margin-bottom: 0.5rem;
-  margin-top: 1.5rem;
   outline: none;
   padding: 1rem;
+  margin-right: 1rem;
 }
 
-.container {
-  display: flex;
+@media (max-width: 430px) {
+  .searchInput {
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
 }
