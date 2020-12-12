@@ -17,6 +17,13 @@
   margin-right: 1rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  .searchInput {
+    background-color: var(--cardBackground);
+    color: var(--text);
+  }
+}
+
 @media (max-width: 430px) {
   .searchInput {
     margin: 0;
