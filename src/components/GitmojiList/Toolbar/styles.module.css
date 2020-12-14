@@ -12,7 +12,6 @@
   box-shadow: 0 2px 4px 0 var(--cardShadow);
   flex: 1;
   font-size: 1rem;
-  outline: none;
   padding: 1rem;
   margin-right: 1rem;
 }
