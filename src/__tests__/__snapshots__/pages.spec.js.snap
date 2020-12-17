@@ -545,24 +545,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="art cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🎨"
+            type="button"
           >
             🎨
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":art:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :art:
             </code>
-          </div>
+          </button>
           <p>
             Improve structure / format of the code.
           </p>
@@ -578,24 +581,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="zap cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⚡️"
+            type="button"
           >
             ⚡️
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":zap:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :zap:
             </code>
-          </div>
+          </button>
           <p>
             Improve performance.
           </p>
@@ -611,24 +617,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="fire cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔥"
+            type="button"
           >
             🔥
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":fire:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :fire:
             </code>
-          </div>
+          </button>
           <p>
             Remove code or files.
           </p>
@@ -644,24 +653,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="bug cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🐛"
+            type="button"
           >
             🐛
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bug:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :bug:
             </code>
-          </div>
+          </button>
           <p>
             Fix a bug.
           </p>
@@ -677,24 +689,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="ambulance cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚑"
+            type="button"
           >
             🚑
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":ambulance:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :ambulance:
             </code>
-          </div>
+          </button>
           <p>
             Critical hotfix.
           </p>
@@ -710,24 +725,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="sparkles cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="✨"
+            type="button"
           >
             ✨
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":sparkles:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :sparkles:
             </code>
-          </div>
+          </button>
           <p>
             Introduce new features.
           </p>
@@ -743,24 +761,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="memo cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📝"
+            type="button"
           >
             📝
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":memo:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :memo:
             </code>
-          </div>
+          </button>
           <p>
             Add or update documentation.
           </p>
@@ -776,24 +797,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="rocket cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚀"
+            type="button"
           >
             🚀
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":rocket:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :rocket:
             </code>
-          </div>
+          </button>
           <p>
             Deploy stuff.
           </p>
@@ -809,24 +833,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="lipstick cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💄"
+            type="button"
           >
             💄
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":lipstick:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :lipstick:
             </code>
-          </div>
+          </button>
           <p>
             Add or update the UI and style files.
           </p>
@@ -842,24 +869,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="tada cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🎉"
+            type="button"
           >
             🎉
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":tada:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :tada:
             </code>
-          </div>
+          </button>
           <p>
             Begin a project.
           </p>
@@ -875,24 +905,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="white-check-mark cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="✅"
+            type="button"
           >
             ✅
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":white_check_mark:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :white_check_mark:
             </code>
-          </div>
+          </button>
           <p>
             Add or update tests.
           </p>
@@ -908,24 +941,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="lock cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔒"
+            type="button"
           >
             🔒
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":lock:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :lock:
             </code>
-          </div>
+          </button>
           <p>
             Fix security issues.
           </p>
@@ -941,24 +977,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="bookmark cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔖"
+            type="button"
           >
             🔖
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bookmark:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :bookmark:
             </code>
-          </div>
+          </button>
           <p>
             Release / Version tags.
           </p>
@@ -974,24 +1013,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="rotating-light cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚨"
+            type="button"
           >
             🚨
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":rotating_light:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :rotating_light:
             </code>
-          </div>
+          </button>
           <p>
             Fix compiler / linter warnings.
           </p>
@@ -1007,24 +1049,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="construction cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚧"
+            type="button"
           >
             🚧
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":construction:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :construction:
             </code>
-          </div>
+          </button>
           <p>
             Work in progress.
           </p>
@@ -1040,24 +1085,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="green-heart cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💚"
+            type="button"
           >
             💚
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":green_heart:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :green_heart:
             </code>
-          </div>
+          </button>
           <p>
             Fix CI Build.
           </p>
@@ -1073,24 +1121,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="arrow-down cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⬇️"
+            type="button"
           >
             ⬇️
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":arrow_down:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :arrow_down:
             </code>
-          </div>
+          </button>
           <p>
             Downgrade dependencies.
           </p>
@@ -1106,24 +1157,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="arrow-up cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⬆️"
+            type="button"
           >
             ⬆️
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":arrow_up:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :arrow_up:
             </code>
-          </div>
+          </button>
           <p>
             Upgrade dependencies.
           </p>
@@ -1139,24 +1193,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="pushpin cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📌"
+            type="button"
           >
             📌
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":pushpin:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :pushpin:
             </code>
-          </div>
+          </button>
           <p>
             Pin dependencies to specific versions.
           </p>
@@ -1172,24 +1229,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="construction-worker cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="👷"
+            type="button"
           >
             👷
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":construction_worker:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :construction_worker:
             </code>
-          </div>
+          </button>
           <p>
             Add or update CI build system.
           </p>
@@ -1205,24 +1265,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="chart-with-upwards-trend cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📈"
+            type="button"
           >
             📈
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":chart_with_upwards_trend:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :chart_with_upwards_trend:
             </code>
-          </div>
+          </button>
           <p>
             Add or update analytics or track code.
           </p>
@@ -1238,24 +1301,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="recycle cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="♻️"
+            type="button"
           >
             ♻️
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":recycle:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :recycle:
             </code>
-          </div>
+          </button>
           <p>
             Refactor code.
           </p>
@@ -1271,24 +1337,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="heavy-plus-sign cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="➕"
+            type="button"
           >
             ➕
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":heavy_plus_sign:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :heavy_plus_sign:
             </code>
-          </div>
+          </button>
           <p>
             Add a dependency.
           </p>
@@ -1304,24 +1373,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="heavy-minus-sign cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="➖"
+            type="button"
           >
             ➖
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":heavy_minus_sign:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :heavy_minus_sign:
             </code>
-          </div>
+          </button>
           <p>
             Remove a dependency.
           </p>
@@ -1337,24 +1409,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="wrench cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔧"
+            type="button"
           >
             🔧
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":wrench:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :wrench:
             </code>
-          </div>
+          </button>
           <p>
             Add or update configuration files.
           </p>
@@ -1370,24 +1445,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="hammer cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔨"
+            type="button"
           >
             🔨
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":hammer:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :hammer:
             </code>
-          </div>
+          </button>
           <p>
             Add or update development scripts.
           </p>
@@ -1403,24 +1481,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="globe-with-meridians cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🌐"
+            type="button"
           >
             🌐
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":globe_with_meridians:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :globe_with_meridians:
             </code>
-          </div>
+          </button>
           <p>
             Internationalization and localization.
           </p>
@@ -1436,24 +1517,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="pencil2 cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="✏️"
+            type="button"
           >
             ✏️
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":pencil2:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :pencil2:
             </code>
-          </div>
+          </button>
           <p>
             Fix typos.
           </p>
@@ -1469,24 +1553,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="poop cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💩"
+            type="button"
           >
             💩
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":poop:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :poop:
             </code>
-          </div>
+          </button>
           <p>
             Write bad code that needs to be improved.
           </p>
@@ -1502,24 +1589,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="rewind cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⏪"
+            type="button"
           >
             ⏪
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":rewind:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :rewind:
             </code>
-          </div>
+          </button>
           <p>
             Revert changes.
           </p>
@@ -1535,24 +1625,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="twisted-rightwards-arrows cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔀"
+            type="button"
           >
             🔀
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":twisted_rightwards_arrows:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :twisted_rightwards_arrows:
             </code>
-          </div>
+          </button>
           <p>
             Merge branches.
           </p>
@@ -1568,24 +1661,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="package cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📦"
+            type="button"
           >
             📦
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":package:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :package:
             </code>
-          </div>
+          </button>
           <p>
             Add or update compiled files or packages.
           </p>
@@ -1601,24 +1697,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="alien cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="👽"
+            type="button"
           >
             👽
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":alien:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :alien:
             </code>
-          </div>
+          </button>
           <p>
             Update code due to external API changes.
           </p>
@@ -1634,24 +1733,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="truck cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚚"
+            type="button"
           >
             🚚
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":truck:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :truck:
             </code>
-          </div>
+          </button>
           <p>
             Move or rename resources (e.g.: files, paths, routes).
           </p>
@@ -1667,24 +1769,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="page-facing-up cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📄"
+            type="button"
           >
             📄
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":page_facing_up:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :page_facing_up:
             </code>
-          </div>
+          </button>
           <p>
             Add or update license.
           </p>
@@ -1700,24 +1805,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="boom cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💥"
+            type="button"
           >
             💥
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":boom:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :boom:
             </code>
-          </div>
+          </button>
           <p>
             Introduce breaking changes.
           </p>
@@ -1733,24 +1841,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="bento cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🍱"
+            type="button"
           >
             🍱
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bento:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :bento:
             </code>
-          </div>
+          </button>
           <p>
             Add or update assets.
           </p>
@@ -1766,24 +1877,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="wheelchair cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="♿️"
+            type="button"
           >
             ♿️
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":wheelchair:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :wheelchair:
             </code>
-          </div>
+          </button>
           <p>
             Improve accessibility.
           </p>
@@ -1799,24 +1913,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="bulb cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💡"
+            type="button"
           >
             💡
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bulb:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :bulb:
             </code>
-          </div>
+          </button>
           <p>
             Add or update comments in source code.
           </p>
@@ -1832,24 +1949,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="beers cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🍻"
+            type="button"
           >
             🍻
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":beers:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :beers:
             </code>
-          </div>
+          </button>
           <p>
             Write code drunkenly.
           </p>
@@ -1865,24 +1985,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="speech-balloon cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💬"
+            type="button"
           >
             💬
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":speech_balloon:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :speech_balloon:
             </code>
-          </div>
+          </button>
           <p>
             Add or update text and literals.
           </p>
@@ -1898,24 +2021,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="card-file-box cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🗃"
+            type="button"
           >
             🗃
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":card_file_box:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :card_file_box:
             </code>
-          </div>
+          </button>
           <p>
             Perform database related changes.
           </p>
@@ -1931,24 +2057,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="loud-sound cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔊"
+            type="button"
           >
             🔊
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":loud_sound:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :loud_sound:
             </code>
-          </div>
+          </button>
           <p>
             Add or update logs.
           </p>
@@ -1964,24 +2093,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="mute cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔇"
+            type="button"
           >
             🔇
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":mute:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :mute:
             </code>
-          </div>
+          </button>
           <p>
             Remove logs.
           </p>
@@ -1997,24 +2129,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="busts-in-silhouette cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="👥"
+            type="button"
           >
             👥
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":busts_in_silhouette:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :busts_in_silhouette:
             </code>
-          </div>
+          </button>
           <p>
             Add or update contributor(s).
           </p>
@@ -2030,24 +2165,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="children-crossing cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚸"
+            type="button"
           >
             🚸
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":children_crossing:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :children_crossing:
             </code>
-          </div>
+          </button>
           <p>
             Improve user experience / usability.
           </p>
@@ -2063,24 +2201,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="building-construction cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🏗"
+            type="button"
           >
             🏗
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":building_construction:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :building_construction:
             </code>
-          </div>
+          </button>
           <p>
             Make architectural changes.
           </p>
@@ -2096,24 +2237,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="iphone cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📱"
+            type="button"
           >
             📱
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":iphone:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :iphone:
             </code>
-          </div>
+          </button>
           <p>
             Work on responsive design.
           </p>
@@ -2129,24 +2273,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="clown-face cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🤡"
+            type="button"
           >
             🤡
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":clown_face:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :clown_face:
             </code>
-          </div>
+          </button>
           <p>
             Mock things.
           </p>
@@ -2162,24 +2309,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="egg cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🥚"
+            type="button"
           >
             🥚
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":egg:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :egg:
             </code>
-          </div>
+          </button>
           <p>
             Add or update an easter egg.
           </p>
@@ -2195,24 +2345,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="see-no-evil cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🙈"
+            type="button"
           >
             🙈
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":see_no_evil:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :see_no_evil:
             </code>
-          </div>
+          </button>
           <p>
             Add or update a .gitignore file.
           </p>
@@ -2228,24 +2381,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="camera-flash cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="📸"
+            type="button"
           >
             📸
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":camera_flash:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :camera_flash:
             </code>
-          </div>
+          </button>
           <p>
             Add or update snapshots.
           </p>
@@ -2261,24 +2417,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="alembic cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="⚗"
+            type="button"
           >
             ⚗
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":alembic:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :alembic:
             </code>
-          </div>
+          </button>
           <p>
             Perform experiments.
           </p>
@@ -2294,24 +2453,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="mag cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🔍"
+            type="button"
           >
             🔍
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":mag:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :mag:
             </code>
-          </div>
+          </button>
           <p>
             Improve SEO.
           </p>
@@ -2327,24 +2489,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="label cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🏷️"
+            type="button"
           >
             🏷️
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":label:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :label:
             </code>
-          </div>
+          </button>
           <p>
             Add or update types.
           </p>
@@ -2360,24 +2525,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="seedling cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🌱"
+            type="button"
           >
             🌱
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":seedling:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :seedling:
             </code>
-          </div>
+          </button>
           <p>
             Add or update seed files.
           </p>
@@ -2393,24 +2561,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="triangular-flag-on-post cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🚩"
+            type="button"
           >
             🚩
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":triangular_flag_on_post:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :triangular_flag_on_post:
             </code>
-          </div>
+          </button>
           <p>
             Add, update, or remove feature flags.
           </p>
@@ -2426,24 +2597,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="goal-net cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🥅"
+            type="button"
           >
             🥅
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":goal_net:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :goal_net:
             </code>
-          </div>
+          </button>
           <p>
             Catch errors.
           </p>
@@ -2459,24 +2633,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="animation cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="💫"
+            type="button"
           >
             💫
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":dizzy:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :dizzy:
             </code>
-          </div>
+          </button>
           <p>
             Add or update animations and transitions.
           </p>
@@ -2492,24 +2669,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="wastebasket cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🗑"
+            type="button"
           >
             🗑
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":wastebasket:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :wastebasket:
             </code>
-          </div>
+          </button>
           <p>
             Deprecate code that needs to be cleaned up.
           </p>
@@ -2525,24 +2705,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="passport-control cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🛂"
+            type="button"
           >
             🛂
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":passport_control:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :passport_control:
             </code>
-          </div>
+          </button>
           <p>
             Work on code related to authorization, roles and permissions.
           </p>
@@ -2558,24 +2741,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="adhesive-bandage cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🩹"
+            type="button"
           >
             🩹
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":adhesive_bandage:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :adhesive_bandage:
             </code>
-          </div>
+          </button>
           <p>
             Simple fix for a non-critical issue.
           </p>
@@ -2591,24 +2777,27 @@ exports[`Pages Index should render the page 1`] = `
         <header
           className="monocle-face cardHeader"
         >
-          <span
+          <button
             className="gitmoji-clipboard-emoji gitmoji"
             data-clipboard-text="🧐"
+            type="button"
           >
             🧐
-          </span>
+          </button>
         </header>
         <div
           className="gitmojiInfo"
         >
-          <div
+          <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":monocle_face:"
+            tabindex="-1"
+            type="button"
           >
             <code>
               :monocle_face:
             </code>
-          </div>
+          </button>
           <p>
             Data exploration/inspection.
           </p>

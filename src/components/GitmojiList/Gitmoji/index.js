@@ -21,20 +21,23 @@ const Gitmoji = (props: Props): Element<'article'> => (
       className={`${styles.card} ${props.isListMode ? styles.cardList : ''}`}
     >
       <header className={`${props.name} ${styles.cardHeader}`}>
-        <span
+        <button
+          type="button"
           className={`gitmoji-clipboard-emoji ${styles.gitmoji}`}
           data-clipboard-text={props.emoji}
         >
           {props.emoji}
-        </span>
+        </button>
       </header>
       <div className={styles.gitmojiInfo}>
-        <div
+        <button
+          type="button"
           className={`gitmoji-clipboard-code ${styles.gitmojiCode}`}
           data-clipboard-text={props.code}
+          tabindex="-1"
         >
           <code>{props.code}</code>
-        </div>
+        </button>
         <p>{props.description}</p>
       </div>
     </div>

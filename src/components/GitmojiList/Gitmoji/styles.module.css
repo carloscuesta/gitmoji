@@ -61,7 +61,16 @@
   border-top-right-radius: 4px;
 }
 
+.gitmoji,
+.gitmojiCode {
+  background-color: transparent;
+  border: none;
+  font: inherit;
+  padding: 0;
+}
+
 .gitmoji {
+  border-radius: none;
   cursor: pointer;
   display: inline-block;
   font-size: 5em;
@@ -69,7 +78,8 @@
     'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
 }
 
-.gitmoji:hover {
+.gitmoji:hover,
+.gitmoji:focus {
   animation-name: bounce;
   animation-duration: 0.5s;
 }
