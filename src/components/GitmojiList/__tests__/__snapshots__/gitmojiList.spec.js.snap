@@ -63,24 +63,27 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <header
         className="art cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🎨"
+          type="button"
         >
           🎨
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":art:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :art:
           </code>
-        </div>
+        </button>
         <p>
           Improve structure / format of the code.
         </p>
@@ -96,24 +99,27 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <header
         className="zap cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="⚡️"
+          type="button"
         >
           ⚡️
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":zap:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :zap:
           </code>
-        </div>
+        </button>
         <p>
           Improve performance.
         </p>
@@ -129,24 +135,27 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <header
         className="fire cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🔥"
+          type="button"
         >
           🔥
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":fire:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :fire:
           </code>
-        </div>
+        </button>
         <p>
           Remove code or files.
         </p>
@@ -162,24 +171,27 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <header
         className="bug cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🐛"
+          type="button"
         >
           🐛
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":bug:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :bug:
           </code>
-        </div>
+        </button>
         <p>
           Fix a bug.
         </p>
@@ -195,24 +207,27 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <header
         className="ambulance cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🚑"
+          type="button"
         >
           🚑
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":ambulance:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :ambulance:
           </code>
-        </div>
+        </button>
         <p>
           Critical hotfix.
         </p>
@@ -228,24 +243,27 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <header
         className="sparkles cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="✨"
+          type="button"
         >
           ✨
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":sparkles:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :sparkles:
           </code>
-        </div>
+        </button>
         <p>
           Introduce new features.
         </p>
@@ -318,24 +336,27 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <header
         className="art cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🎨"
+          type="button"
         >
           🎨
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":art:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :art:
           </code>
-        </div>
+        </button>
         <p>
           Improve structure / format of the code.
         </p>
@@ -351,24 +372,27 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <header
         className="zap cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="⚡️"
+          type="button"
         >
           ⚡️
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":zap:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :zap:
           </code>
-        </div>
+        </button>
         <p>
           Improve performance.
         </p>
@@ -384,24 +408,27 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <header
         className="fire cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🔥"
+          type="button"
         >
           🔥
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":fire:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :fire:
           </code>
-        </div>
+        </button>
         <p>
           Remove code or files.
         </p>
@@ -417,24 +444,27 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <header
         className="bug cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🐛"
+          type="button"
         >
           🐛
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":bug:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :bug:
           </code>
-        </div>
+        </button>
         <p>
           Fix a bug.
         </p>
@@ -450,24 +480,27 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <header
         className="ambulance cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🚑"
+          type="button"
         >
           🚑
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":ambulance:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :ambulance:
           </code>
-        </div>
+        </button>
         <p>
           Critical hotfix.
         </p>
@@ -483,24 +516,27 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <header
         className="sparkles cardHeader"
       >
-        <span
+        <button
           className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="✨"
+          type="button"
         >
           ✨
-        </span>
+        </button>
       </header>
       <div
         className="gitmojiInfo"
       >
-        <div
+        <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":sparkles:"
+          tabindex="-1"
+          type="button"
         >
           <code>
             :sparkles:
           </code>
-        </div>
+        </button>
         <p>
           Introduce new features.
         </p>
