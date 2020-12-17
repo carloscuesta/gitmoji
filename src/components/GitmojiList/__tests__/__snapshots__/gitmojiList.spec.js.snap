@@ -77,7 +77,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":art:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -113,7 +113,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":zap:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -149,7 +149,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":fire:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -185,7 +185,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":bug:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -221,7 +221,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":ambulance:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -257,7 +257,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":sparkles:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -350,7 +350,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":art:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -386,7 +386,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":zap:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -422,7 +422,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":fire:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -458,7 +458,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":bug:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -494,7 +494,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":ambulance:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>
@@ -530,7 +530,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         <button
           className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":sparkles:"
-          tabindex="-1"
+          tabIndex="-1"
           type="button"
         >
           <code>

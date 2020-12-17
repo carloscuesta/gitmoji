@@ -31,10 +31,10 @@ const Gitmoji = (props: Props): Element<'article'> => (
       </header>
       <div className={styles.gitmojiInfo}>
         <button
-          type="button"
           className={`gitmoji-clipboard-code ${styles.gitmojiCode}`}
           data-clipboard-text={props.code}
-          tabindex="-1"
+          tabIndex="-1"
+          type="button"
         >
           <code>{props.code}</code>
         </button>
