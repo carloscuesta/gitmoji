@@ -430,10 +430,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@corex/deepmerge@^2.4.24":
-  version "2.4.24"
-  resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-2.4.24.tgz#d02aa2bf1a5c7f3847d4227d6700419450909f63"
-  integrity sha512-TBYXnhxYU9kqDhUXm/rgDRRAxHVpX8Y3ZX+zmTmQuhRF9p7orsrx+P/lVXS7PcPnOFFVE3ZvyE5MIYFipecy8g==
+"@corex/deepmerge@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-2.5.3.tgz#ecdb8e4c0617ada2a5af0c0400f56562d1f0ea31"
+  integrity sha512-9q+jWQ6zqBc7iU2ItxYcoA+G/QUxPt0eo7d3PVNy30HOCpIEX/oZPmtoC3+XSJNyHdV39MGrq+EIpVh81jcapw==
 
 "@hapi/accept@5.0.1":
   version "5.0.1"
@@ -4558,11 +4558,11 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
 next-sitemap@^1.3.16:
-  version "1.3.16"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.3.16.tgz#51d336ae4a0b002d60c1d9e47577f7bab5189908"
-  integrity sha512-M+BkfxOTDhEt7KJ0HRGDgBftaOmzXk0T3rcOuyv5yzD5Z/yw0W8YqZnFSqwC0oJTFjhjtZPUBS6y0WwbqF9LcA==
+  version "1.3.20"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.3.20.tgz#48931d6b5c9fbfb66c0dea7a1f5bb93e85b11e73"
+  integrity sha512-e5IOuyeR6rE+lo68swB1V/wlr3jznudfbQncKW7tP/TBqU/fAC+FY337htjyRiWRW8pKlCL5iP3UPAst+xGuVg==
   dependencies:
-    "@corex/deepmerge" "^2.4.24"
+    "@corex/deepmerge" "^2.5.3"
     matcher "^3.0.0"
     minimist "^1.2.5"
 
