@@ -34,7 +34,11 @@
     "react-dom": "^17.0.1",
     "react-test-renderer": "^17.0.1"
   },
-  "author": "Carlos Cuesta",
+  "author": {
+    "name": "carloscuesta",
+    "email": "hi@carloscuesta.me",
+    "url": "https://carloscuesta.me"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/carloscuesta/gitmoji/issues"
