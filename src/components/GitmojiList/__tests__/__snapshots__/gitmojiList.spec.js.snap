@@ -83,6 +83,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :art:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline art"
+          />
         </button>
         <p>
           Improve structure / format of the code.
@@ -119,6 +122,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :zap:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline zap"
+          />
         </button>
         <p>
           Improve performance.
@@ -155,6 +161,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :fire:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline fire"
+          />
         </button>
         <p>
           Remove code or files.
@@ -191,6 +200,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :bug:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline bug"
+          />
         </button>
         <p>
           Fix a bug.
@@ -227,6 +239,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :ambulance:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline ambulance"
+          />
         </button>
         <p>
           Critical hotfix.
@@ -263,6 +278,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :sparkles:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline sparkles"
+          />
         </button>
         <p>
           Introduce new features.
@@ -356,6 +374,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :art:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline art"
+          />
         </button>
         <p>
           Improve structure / format of the code.
@@ -392,6 +413,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :zap:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline zap"
+          />
         </button>
         <p>
           Improve performance.
@@ -428,6 +452,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :fire:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline fire"
+          />
         </button>
         <p>
           Remove code or files.
@@ -464,6 +491,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :bug:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline bug"
+          />
         </button>
         <p>
           Fix a bug.
@@ -500,6 +530,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :ambulance:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline ambulance"
+          />
         </button>
         <p>
           Critical hotfix.
@@ -536,6 +569,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :sparkles:
           </code>
+          <span
+            className="gitmoji-clipboard-code-underline sparkles"
+          />
         </button>
         <p>
           Introduce new features.

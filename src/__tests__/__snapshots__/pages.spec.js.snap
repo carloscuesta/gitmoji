@@ -565,6 +565,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :art:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline art"
+            />
           </button>
           <p>
             Improve structure / format of the code.
@@ -601,6 +604,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :zap:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline zap"
+            />
           </button>
           <p>
             Improve performance.
@@ -637,6 +643,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :fire:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline fire"
+            />
           </button>
           <p>
             Remove code or files.
@@ -673,6 +682,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :bug:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline bug"
+            />
           </button>
           <p>
             Fix a bug.
@@ -709,6 +721,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :ambulance:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline ambulance"
+            />
           </button>
           <p>
             Critical hotfix.
@@ -745,6 +760,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :sparkles:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline sparkles"
+            />
           </button>
           <p>
             Introduce new features.
@@ -781,6 +799,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :memo:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline memo"
+            />
           </button>
           <p>
             Add or update documentation.
@@ -817,6 +838,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :rocket:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline rocket"
+            />
           </button>
           <p>
             Deploy stuff.
@@ -853,6 +877,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :lipstick:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline lipstick"
+            />
           </button>
           <p>
             Add or update the UI and style files.
@@ -889,6 +916,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :tada:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline tada"
+            />
           </button>
           <p>
             Begin a project.
@@ -925,6 +955,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :white_check_mark:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline white-check-mark"
+            />
           </button>
           <p>
             Add or update tests.
@@ -961,6 +994,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :lock:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline lock"
+            />
           </button>
           <p>
             Fix security issues.
@@ -997,6 +1033,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :bookmark:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline bookmark"
+            />
           </button>
           <p>
             Release / Version tags.
@@ -1033,6 +1072,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :rotating_light:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline rotating-light"
+            />
           </button>
           <p>
             Fix compiler / linter warnings.
@@ -1069,6 +1111,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :construction:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline construction"
+            />
           </button>
           <p>
             Work in progress.
@@ -1105,6 +1150,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :green_heart:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline green-heart"
+            />
           </button>
           <p>
             Fix CI Build.
@@ -1141,6 +1189,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :arrow_down:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline arrow-down"
+            />
           </button>
           <p>
             Downgrade dependencies.
@@ -1177,6 +1228,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :arrow_up:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline arrow-up"
+            />
           </button>
           <p>
             Upgrade dependencies.
@@ -1213,6 +1267,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :pushpin:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline pushpin"
+            />
           </button>
           <p>
             Pin dependencies to specific versions.
@@ -1249,6 +1306,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :construction_worker:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline construction-worker"
+            />
           </button>
           <p>
             Add or update CI build system.
@@ -1285,6 +1345,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :chart_with_upwards_trend:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline chart-with-upwards-trend"
+            />
           </button>
           <p>
             Add or update analytics or track code.
@@ -1321,6 +1384,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :recycle:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline recycle"
+            />
           </button>
           <p>
             Refactor code.
@@ -1357,6 +1423,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :heavy_plus_sign:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline heavy-plus-sign"
+            />
           </button>
           <p>
             Add a dependency.
@@ -1393,6 +1462,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :heavy_minus_sign:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline heavy-minus-sign"
+            />
           </button>
           <p>
             Remove a dependency.
@@ -1429,6 +1501,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :wrench:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline wrench"
+            />
           </button>
           <p>
             Add or update configuration files.
@@ -1465,6 +1540,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :hammer:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline hammer"
+            />
           </button>
           <p>
             Add or update development scripts.
@@ -1501,6 +1579,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :globe_with_meridians:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline globe-with-meridians"
+            />
           </button>
           <p>
             Internationalization and localization.
@@ -1537,6 +1618,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :pencil2:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline pencil2"
+            />
           </button>
           <p>
             Fix typos.
@@ -1573,6 +1657,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :poop:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline poop"
+            />
           </button>
           <p>
             Write bad code that needs to be improved.
@@ -1609,6 +1696,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :rewind:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline rewind"
+            />
           </button>
           <p>
             Revert changes.
@@ -1645,6 +1735,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :twisted_rightwards_arrows:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline twisted-rightwards-arrows"
+            />
           </button>
           <p>
             Merge branches.
@@ -1681,6 +1774,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :package:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline package"
+            />
           </button>
           <p>
             Add or update compiled files or packages.
@@ -1717,6 +1813,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :alien:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline alien"
+            />
           </button>
           <p>
             Update code due to external API changes.
@@ -1753,6 +1852,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :truck:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline truck"
+            />
           </button>
           <p>
             Move or rename resources (e.g.: files, paths, routes).
@@ -1789,6 +1891,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :page_facing_up:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline page-facing-up"
+            />
           </button>
           <p>
             Add or update license.
@@ -1825,6 +1930,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :boom:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline boom"
+            />
           </button>
           <p>
             Introduce breaking changes.
@@ -1861,6 +1969,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :bento:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline bento"
+            />
           </button>
           <p>
             Add or update assets.
@@ -1897,6 +2008,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :wheelchair:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline wheelchair"
+            />
           </button>
           <p>
             Improve accessibility.
@@ -1933,6 +2047,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :bulb:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline bulb"
+            />
           </button>
           <p>
             Add or update comments in source code.
@@ -1969,6 +2086,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :beers:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline beers"
+            />
           </button>
           <p>
             Write code drunkenly.
@@ -2005,6 +2125,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :speech_balloon:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline speech-balloon"
+            />
           </button>
           <p>
             Add or update text and literals.
@@ -2041,6 +2164,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :card_file_box:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline card-file-box"
+            />
           </button>
           <p>
             Perform database related changes.
@@ -2077,6 +2203,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :loud_sound:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline loud-sound"
+            />
           </button>
           <p>
             Add or update logs.
@@ -2113,6 +2242,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :mute:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline mute"
+            />
           </button>
           <p>
             Remove logs.
@@ -2149,6 +2281,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :busts_in_silhouette:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline busts-in-silhouette"
+            />
           </button>
           <p>
             Add or update contributor(s).
@@ -2185,6 +2320,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :children_crossing:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline children-crossing"
+            />
           </button>
           <p>
             Improve user experience / usability.
@@ -2221,6 +2359,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :building_construction:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline building-construction"
+            />
           </button>
           <p>
             Make architectural changes.
@@ -2257,6 +2398,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :iphone:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline iphone"
+            />
           </button>
           <p>
             Work on responsive design.
@@ -2293,6 +2437,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :clown_face:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline clown-face"
+            />
           </button>
           <p>
             Mock things.
@@ -2329,6 +2476,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :egg:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline egg"
+            />
           </button>
           <p>
             Add or update an easter egg.
@@ -2365,6 +2515,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :see_no_evil:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline see-no-evil"
+            />
           </button>
           <p>
             Add or update a .gitignore file.
@@ -2401,6 +2554,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :camera_flash:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline camera-flash"
+            />
           </button>
           <p>
             Add or update snapshots.
@@ -2437,6 +2593,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :alembic:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline alembic"
+            />
           </button>
           <p>
             Perform experiments.
@@ -2473,6 +2632,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :mag:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline mag"
+            />
           </button>
           <p>
             Improve SEO.
@@ -2509,6 +2671,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :label:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline label"
+            />
           </button>
           <p>
             Add or update types.
@@ -2545,6 +2710,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :seedling:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline seedling"
+            />
           </button>
           <p>
             Add or update seed files.
@@ -2581,6 +2749,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :triangular_flag_on_post:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline triangular-flag-on-post"
+            />
           </button>
           <p>
             Add, update, or remove feature flags.
@@ -2617,6 +2788,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :goal_net:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline goal-net"
+            />
           </button>
           <p>
             Catch errors.
@@ -2653,6 +2827,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :dizzy:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline animation"
+            />
           </button>
           <p>
             Add or update animations and transitions.
@@ -2689,6 +2866,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :wastebasket:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline wastebasket"
+            />
           </button>
           <p>
             Deprecate code that needs to be cleaned up.
@@ -2725,6 +2905,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :passport_control:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline passport-control"
+            />
           </button>
           <p>
             Work on code related to authorization, roles and permissions.
@@ -2761,6 +2944,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :adhesive_bandage:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline adhesive-bandage"
+            />
           </button>
           <p>
             Simple fix for a non-critical issue.
@@ -2797,6 +2983,9 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :monocle_face:
             </code>
+            <span
+              className="gitmoji-clipboard-code-underline monocle-face"
+            />
           </button>
           <p>
             Data exploration/inspection.
