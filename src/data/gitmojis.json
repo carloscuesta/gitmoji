@@ -533,7 +533,8 @@
       "entity": "&#x1FA7A;",
       "code": ":stethoscope:",
       "description": "Add or update healthcheck.",
-      "name": "stethoscope"
-    },
+      "name": "stethoscope",
+      "semver": null
+    }
   ]
 }
