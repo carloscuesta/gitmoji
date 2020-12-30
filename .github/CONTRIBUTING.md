@@ -11,9 +11,11 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 1. Fork [this repository](https://github.com/carloscuesta/gitmoji/fork).
 2. Create a new branch with the feature name. (Eg: add-emoji-deploy, fix-website-header)
 3. Make your changes.
-4. Commit your changes. Don't forget to add a commit title with an emoji and a description.
-5. Push your changes.
-6. Submit your pull request.
+4. Test you changes by running `yarn test`
+    - 4.1. If the snapshots are failing run `yarn test -u` and be sure that the new snapshots match your changes
+5. Commit your changes. Don't forget to add a commit title with an emoji and a description.
+6. Push your changes.
+7. Submit your pull request.
 
 ## How to add a gitmoji
 
