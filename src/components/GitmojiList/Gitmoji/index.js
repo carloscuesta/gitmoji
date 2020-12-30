@@ -37,6 +37,7 @@ const Gitmoji = (props: Props): Element<'article'> => (
           type="button"
         >
           <code>{props.code}</code>
+          <span className={`gitmoji-clipboard-code-underline ${props.name}`} />
         </button>
         <p>{props.description}</p>
       </div>

@@ -135,6 +135,22 @@ main.wrap {
   }
 }
 
+.gitmoji-clipboard-code-underline {
+  display: none;
+}
+
+.gitmoji-clipboard-code:hover .gitmoji-clipboard-code-underline {
+  position: absolute;
+  display: inline;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 1em; /* put it under the text */
+  height: 0.2em;
+  border-radius: 4px;
+  animation: 0.15s slideRight;
+}
+
 /* Flexboxgrid critical */
 
 .col-sm-2,
@@ -413,5 +429,11 @@ main.wrap {
     left: 10px;
     right: 10px;
     max-width: none;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    width: 0em;
   }
 }
