@@ -1,17 +1,16 @@
 // @flow
-import { useState, useEffect } from 'react'
-import { window } from 'browser-monads'
+import React from 'react'
 
 export default function useLocalStorage<T>(
   key: string,
   defaultValue: T
 ): [T, (((T) => T) | T) => void] {
-  const [state, setState] = useState<T>(defaultValue)
+  const [state, setState] = React.useState<T>(defaultValue)
 
-  useEffect(() => {
+  React.useLayoutEffect(() => {
     try {
       const localValue = window.localStorage.getItem(key)
-      if (localValue) {
+      if (localValue !== null) {
         setState(JSON.parse(localValue))
       }
     } catch (error) {
@@ -19,7 +18,7 @@ export default function useLocalStorage<T>(
     }
   }, [])
 
-  useEffect(() => {
+  React.useEffect(() => {
     window.localStorage.setItem(key, state)
   }, [state])
 

@@ -23,8 +23,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         className="container"
       >
         <button
-          className="button buttonActive"
-          disabled={true}
+          className="button "
+          disabled={false}
           onClick={[Function]}
         >
           <svg
@@ -36,8 +36,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           </svg>
         </button>
         <button
-          className="button "
-          disabled={false}
+          className="button buttonActive"
+          disabled={true}
           onClick={[Function]}
         >
           <svg
@@ -52,15 +52,19 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </div>
   <article
+<<<<<<< HEAD
     className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#ff7281",
       }
     }
+=======
+    className="emoji col-xs-12 col-sm-6 col-md-4"
+>>>>>>> Fix test snapshots and use guidelines
   >
     <div
-      className="card "
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -93,15 +97,19 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
+<<<<<<< HEAD
     className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#40c4ff",
       }
     }
+=======
+    className="emoji col-xs-12 col-sm-6 col-md-4"
+>>>>>>> Fix test snapshots and use guidelines
   >
     <div
-      className="card "
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -134,15 +142,19 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
+<<<<<<< HEAD
     className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#ff9d44",
       }
     }
+=======
+    className="emoji col-xs-12 col-sm-6 col-md-4"
+>>>>>>> Fix test snapshots and use guidelines
   >
     <div
-      className="card "
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -175,15 +187,19 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
+<<<<<<< HEAD
     className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#8cd842",
       }
     }
+=======
+    className="emoji col-xs-12 col-sm-6 col-md-4"
+>>>>>>> Fix test snapshots and use guidelines
   >
     <div
-      className="card "
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -216,15 +232,19 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
+<<<<<<< HEAD
     className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#fb584a",
       }
     }
+=======
+    className="emoji col-xs-12 col-sm-6 col-md-4"
+>>>>>>> Fix test snapshots and use guidelines
   >
     <div
-      className="card "
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -257,15 +277,19 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
+<<<<<<< HEAD
     className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#ffe55f",
       }
     }
+=======
+    className="emoji col-xs-12 col-sm-6 col-md-4"
+>>>>>>> Fix test snapshots and use guidelines
   >
     <div
-      className="card "
+      className="card cardList"
     >
       <header
         className="cardHeader"
