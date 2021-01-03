@@ -148,7 +148,7 @@ main.wrap {
   margin-top: 1em; /* put it under the text */
   height: 0.2em;
   border-radius: 4px;
-  transition-duration: 0.15s;
+  transition: width 0.15s;
 }
 
 .gitmoji-clipboard-code:hover .gitmoji-clipboard-code-underline {
