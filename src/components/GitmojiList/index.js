@@ -1,6 +1,7 @@
 // @flow
 import React, { type Element } from 'react'
 import Clipboard from 'clipboard'
+import qs from 'query-string'
 
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
@@ -16,7 +17,7 @@ type Props = {
 }
 
 const GitmojiList = (props: Props): Element<'div'> => {
-  const [searchInput, setSearchInput] = React.useState(null)
+  const [searchInput, setSearchInput] = React.useState('')
   const [isListMode, setIsListMode] = React.useState(false)
   const gitmojis = searchInput
     ? props.gitmojis.filter(({ code, description }) => {
@@ -28,6 +29,11 @@ const GitmojiList = (props: Props): Element<'div'> => {
         )
       })
     : props.gitmojis
+
+  React.useEffect(
+    () => setSearchInput(qs.parse(window.location.search)['search'] || ''),
+    []
+  )
 
   React.useEffect(() => {
     const clipboard = new Clipboard(

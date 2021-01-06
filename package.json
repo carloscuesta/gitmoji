@@ -30,6 +30,7 @@
     "next": "^10.0.0",
     "next-sitemap": "^1.3.16",
     "prettier": "2.2.1",
+    "query-string": "^6.13.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-test-renderer": "^17.0.1"
