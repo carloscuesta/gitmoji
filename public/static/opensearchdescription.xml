@@ -3,5 +3,5 @@
   <ShortName>Gitmoji</ShortName>
   <Description>An emoji guide for your commit messages.</Description>
   <Tags>gitmoji emoji git</Tags>
-  <Url type="text/html" template="https://gitmoji.dev/?q={searchTerms}"/>
+  <Url type="text/html" template="https://gitmoji.dev/?search={searchTerms}"/>
 </OpenSearchDescription>
