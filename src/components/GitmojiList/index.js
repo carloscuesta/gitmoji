@@ -1,7 +1,7 @@
 // @flow
 import React, { type Element } from 'react'
 import Clipboard from 'clipboard'
-import qs from 'query-string'
+import { useRouter } from 'next/router'
 
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
@@ -30,10 +30,12 @@ const GitmojiList = (props: Props): Element<'div'> => {
       })
     : props.gitmojis
 
-  React.useEffect(
-    () => setSearchInput(qs.parse(window.location.search)['search'] || ''),
-    []
-  )
+  const { query } = useRouter()
+  React.useEffect(() => {
+    if (query.search) {
+      setSearchInput(query.search)
+    }
+  }, [query.search])
 
   React.useEffect(() => {
     const clipboard = new Clipboard(
