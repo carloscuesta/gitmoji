@@ -3,5 +3,8 @@
   <ShortName>Gitmoji</ShortName>
   <Description>An emoji guide for your commit messages.</Description>
   <Tags>gitmoji emoji git</Tags>
+  <Image height="16" width="16" type="image/png">https://gitmoji.dev/static/favicon-16x16.png</Image>
+  <Image height="32" width="32" type="image/png">https://gitmoji.dev/static/favicon-32x32.png</Image>
+  <Image height="96" width="96" type="image/png">https://gitmoji.dev/static/favicon-96x96.png</Image>
   <Url type="text/html" template="https://gitmoji.dev/?search={searchTerms}"/>
 </OpenSearchDescription>
