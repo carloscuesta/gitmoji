@@ -7,6 +7,15 @@ import Contributors from '../pages/contributors'
 import RelatedTools from '../pages/related-tools'
 import * as stubs from './stubs'
 
+jest.mock('next/router', () => ({
+  query: {},
+  events: { on: jest.fn(), off: jest.fn() },
+  useRouter: jest.fn().mockImplementation(() => ({
+    query: {},
+    push: jest.fn(),
+  })),
+}))
+
 describe('Pages', () => {
   describe('App', () => {
     beforeAll(() => {
