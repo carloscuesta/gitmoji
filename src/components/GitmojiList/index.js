@@ -38,11 +38,9 @@ const GitmojiList = (props: Props): Element<'div'> => {
   }, [router.query.search])
 
   React.useEffect(() => {
-    router.push(
-      { query: searchInput ? { search: searchInput } : {} },
-      undefined,
-      { shallow: true }
-    )
+    if (router.query.search && !searchInput) {
+      router.push('/', undefined, { shallow: true })
+    }
   }, [searchInput])
 
   React.useEffect(() => {

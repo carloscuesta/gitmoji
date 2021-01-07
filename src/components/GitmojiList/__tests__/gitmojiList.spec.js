@@ -38,7 +38,7 @@ describe('GitmojiList', () => {
       Router.useRouter.mockReturnValue(stubs.routerMock())
     })
 
-    it('should find the fire gitmoji by code and update router.query', () => {
+    it('should find the fire gitmoji by code', () => {
       const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
       const instance = wrapper.root
       const query = 'Fire'
@@ -49,15 +49,10 @@ describe('GitmojiList', () => {
           .props.onChange({ target: { value: query } })
       })
 
-      expect(Router.useRouter().push).toHaveBeenLastCalledWith(
-        { query: { search: query } },
-        undefined,
-        { shallow: true }
-      )
       expect(instance.findAllByType('article').length).toEqual(1)
     })
 
-    it('should find the fire gitmoji by description and update router.query', () => {
+    it('should find the fire gitmoji by description', () => {
       const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
       const instance = wrapper.root
       const query = 'remove'
@@ -68,40 +63,7 @@ describe('GitmojiList', () => {
           .props.onChange({ target: { value: query } })
       })
 
-      expect(Router.useRouter().push).toHaveBeenLastCalledWith(
-        { query: { search: query } },
-        undefined,
-        { shallow: true }
-      )
       expect(instance.findAllByType('article').length).toEqual(1)
-    })
-  })
-
-  describe('when user deletes the search query', () => {
-    beforeAll(() => {
-      Router.useRouter.mockReturnValue(stubs.routerMock())
-    })
-
-    it('should clear the router.query', () => {
-      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
-      const instance = wrapper.root
-      const query = 'Fire'
-
-      renderer.act(() => {
-        instance
-          .findByType('input')
-          .props.onChange({ target: { value: query } })
-      })
-
-      renderer.act(() => {
-        instance.findByType('input').props.onChange({ target: { value: '' } })
-      })
-
-      expect(Router.useRouter().push).toHaveBeenLastCalledWith(
-        { query: {} },
-        undefined,
-        { shallow: true }
-      )
     })
   })
 
@@ -118,12 +80,22 @@ describe('GitmojiList', () => {
         wrapper.update(<GitmojiList {...stubs.props} />)
       })
 
-      expect(Router.useRouter().push).toHaveBeenCalledWith(
-        { query: { search: query } },
-        undefined,
-        { shallow: true }
-      )
       expect(wrapper.root.findByType('input').props.value).toEqual(query)
+    })
+
+    describe('when the user deletes the search input', () => {
+      it('should clear the query string', () => {
+        const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
+        const instance = wrapper.root
+
+        renderer.act(() => {
+          instance.findByType('input').props.onChange({ target: { value: '' } })
+        })
+
+        expect(Router.useRouter().push).toHaveBeenCalledWith('/', undefined, {
+          shallow: true,
+        })
+      })
     })
   })
 })

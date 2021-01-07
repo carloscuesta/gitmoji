@@ -12,7 +12,6 @@ jest.mock('next/router', () => ({
   events: { on: jest.fn(), off: jest.fn() },
   useRouter: jest.fn().mockImplementation(() => ({
     query: {},
-    push: jest.fn(),
   })),
 }))
 
