@@ -17,7 +17,7 @@ type Props = {
 }
 
 const GitmojiList = (props: Props): Element<'div'> => {
-  const { query } = useRouter()
+  const router = useRouter()
   const [searchInput, setSearchInput] = React.useState('')
   const [isListMode, setIsListMode] = React.useState(false)
   const gitmojis = searchInput
@@ -32,10 +32,18 @@ const GitmojiList = (props: Props): Element<'div'> => {
     : props.gitmojis
 
   React.useEffect(() => {
-    if (query.search) {
-      setSearchInput(query.search)
+    if (router.query.search) {
+      setSearchInput(router.query.search)
     }
-  }, [query.search])
+  }, [router.query.search])
+
+  React.useEffect(() => {
+    router.push(
+      { query: { ...(searchInput && { search: searchInput }) } },
+      undefined,
+      { shallow: true }
+    )
+  }, [searchInput])
 
   React.useEffect(() => {
     const clipboard = new Clipboard(
