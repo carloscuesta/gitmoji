@@ -39,7 +39,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
 
   React.useEffect(() => {
     router.push(
-      { query: { ...(searchInput && { search: searchInput }) } },
+      { query: searchInput ? { search: searchInput } : {} },
       undefined,
       { shallow: true }
     )
