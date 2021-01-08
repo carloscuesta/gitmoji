@@ -20,7 +20,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         onChange={[Function]}
         placeholder="Search your gitmoji..."
         type="text"
-        value={null}
+        value=""
       />
       <div
         className="container"
@@ -293,7 +293,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         onChange={[Function]}
         placeholder="Search your gitmoji..."
         type="text"
-        value={null}
+        value=""
       />
       <div
         className="container"

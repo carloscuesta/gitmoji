@@ -118,6 +118,11 @@ const SEO = (props: Props): Node => (
       name="google-site-verification"
       content="78vmlhi_erc-UGybxcGwHyiUtf04wzYExTLa-4LoWio"
     />
+    <link
+      rel="search"
+      type="application/opensearchdescription+xml"
+      href="/static/opensearchdescription.xml"
+    />
   </Head>
 )
 
