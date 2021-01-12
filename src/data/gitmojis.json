@@ -78,6 +78,13 @@
       "name": "white-check-mark"
     },
     {
+      "emoji": "🩺",
+      "entity": "&#x1FA7A;",
+      "code": ":stethoscope:",
+      "description": "Add or update healthcheck.",
+      "name": "stethoscope"
+    },
+    {
       "emoji": "🔒",
       "entity": "&#x1f512;",
       "code": ":lock:",
