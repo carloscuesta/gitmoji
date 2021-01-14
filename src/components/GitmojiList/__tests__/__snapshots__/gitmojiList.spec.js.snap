@@ -60,7 +60,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     }
   >
     <div
-      className="card  gitmoji-art"
+      className="card "
     >
       <header
         className="cardHeader"
@@ -101,7 +101,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     }
   >
     <div
-      className="card  gitmoji-zap"
+      className="card "
     >
       <header
         className="cardHeader"
@@ -142,7 +142,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     }
   >
     <div
-      className="card  gitmoji-fire"
+      className="card "
     >
       <header
         className="cardHeader"
@@ -183,7 +183,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     }
   >
     <div
-      className="card  gitmoji-bug"
+      className="card "
     >
       <header
         className="cardHeader"
@@ -224,7 +224,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     }
   >
     <div
-      className="card  gitmoji-ambulance"
+      className="card "
     >
       <header
         className="cardHeader"
@@ -265,7 +265,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     }
   >
     <div
-      className="card  gitmoji-sparkles"
+      className="card "
     >
       <header
         className="cardHeader"
@@ -360,7 +360,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     }
   >
     <div
-      className="card cardList gitmoji-art"
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -401,7 +401,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     }
   >
     <div
-      className="card cardList gitmoji-zap"
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -442,7 +442,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     }
   >
     <div
-      className="card cardList gitmoji-fire"
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -483,7 +483,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     }
   >
     <div
-      className="card cardList gitmoji-bug"
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -524,7 +524,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     }
   >
     <div
-      className="card cardList gitmoji-ambulance"
+      className="card cardList"
     >
       <header
         className="cardHeader"
@@ -565,7 +565,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     }
   >
     <div
-      className="card cardList gitmoji-sparkles"
+      className="card cardList"
     >
       <header
         className="cardHeader"
