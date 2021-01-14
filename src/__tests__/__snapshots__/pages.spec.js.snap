@@ -487,9 +487,6 @@ exports[`Pages Index should render the page 1`] = `
     className="row"
     id="gitmoji-list"
   >
-    <style>
-      .gitmoji-adhesive-bandage header, .gitmoji-adhesive-bandage .gitmoji-clipboard-code::after { background-color: #fbcfb7 }.gitmoji-alembic header, .gitmoji-alembic .gitmoji-clipboard-code::after { background-color: #7f39fb }.gitmoji-alien header, .gitmoji-alien .gitmoji-clipboard-code::after { background-color: #c5e763 }.gitmoji-ambulance header, .gitmoji-ambulance .gitmoji-clipboard-code::after { background-color: #fb584a }.gitmoji-animation header, .gitmoji-animation .gitmoji-clipboard-code::after { background-color: #ffdb3a }.gitmoji-arrow-down header, .gitmoji-arrow-down .gitmoji-clipboard-code::after { background-color: #ef5350 }.gitmoji-arrow-up header, .gitmoji-arrow-up .gitmoji-clipboard-code::after { background-color: #00e676 }.gitmoji-art header, .gitmoji-art .gitmoji-clipboard-code::after { background-color: #ff7281 }.gitmoji-beers header, .gitmoji-beers .gitmoji-clipboard-code::after { background-color: #fbb64b }.gitmoji-bento header, .gitmoji-bento .gitmoji-clipboard-code::after { background-color: #ff5864 }.gitmoji-bookmark header, .gitmoji-bookmark .gitmoji-clipboard-code::after { background-color: #80deea }.gitmoji-boom header, .gitmoji-boom .gitmoji-clipboard-code::after { background-color: #f94f28 }.gitmoji-bug header, .gitmoji-bug .gitmoji-clipboard-code::after { background-color: #8cd842 }.gitmoji-building-construction header, .gitmoji-building-construction .gitmoji-clipboard-code::after { background-color: #ffe55f }.gitmoji-bulb header, .gitmoji-bulb .gitmoji-clipboard-code::after { background-color: #ffce49 }.gitmoji-busts-in-silhouette header, .gitmoji-busts-in-silhouette .gitmoji-clipboard-code::after { background-color: #ffce49 }.gitmoji-camera-flash header, .gitmoji-camera-flash .gitmoji-clipboard-code::after { background-color: #00a9f0 }.gitmoji-card-file-box header, .gitmoji-card-file-box .gitmoji-clipboard-code::after { background-color: #c5e763 }.gitmoji-chart-with-upwards-trend header, .gitmoji-chart-with-upwards-trend .gitmoji-clipboard-code::after { background-color: #cedae6 }.gitmoji-children-crossing header, .gitmoji-children-crossing .gitmoji-clipboard-code::after { background-color: #ffce49 }.gitmoji-clown-face header, .gitmoji-clown-face .gitmoji-clipboard-code::after { background-color: #ff7281 }.gitmoji-construction-worker header, .gitmoji-construction-worker .gitmoji-clipboard-code::after { background-color: #64b5f6 }.gitmoji-construction header, .gitmoji-construction .gitmoji-clipboard-code::after { background-color: #ffb74d }.gitmoji-egg header, .gitmoji-egg .gitmoji-clipboard-code::after { background-color: #77e856 }.gitmoji-fire header, .gitmoji-fire .gitmoji-clipboard-code::after { background-color: #ff9d44 }.gitmoji-globe-with-meridians header, .gitmoji-globe-with-meridians .gitmoji-clipboard-code::after { background-color: #e7f4ff }.gitmoji-goal-net header, .gitmoji-goal-net .gitmoji-clipboard-code::after { background-color: #c7cb12 }.gitmoji-green-heart header, .gitmoji-green-heart .gitmoji-clipboard-code::after { background-color: #c5e763 }.gitmoji-hammer header, .gitmoji-hammer .gitmoji-clipboard-code::after { background-color: #ffc400 }.gitmoji-heavy-minus-sign header, .gitmoji-heavy-minus-sign .gitmoji-clipboard-code::after { background-color: #ef5350 }.gitmoji-heavy-plus-sign header, .gitmoji-heavy-plus-sign .gitmoji-clipboard-code::after { background-color: #00e676 }.gitmoji-iphone header, .gitmoji-iphone .gitmoji-clipboard-code::after { background-color: #40c4ff }.gitmoji-label header, .gitmoji-label .gitmoji-clipboard-code::after { background-color: #cb63e6 }.gitmoji-lipstick header, .gitmoji-lipstick .gitmoji-clipboard-code::after { background-color: #80deea }.gitmoji-lock header, .gitmoji-lock .gitmoji-clipboard-code::after { background-color: #ffce49 }.gitmoji-loud-sound header, .gitmoji-loud-sound .gitmoji-clipboard-code::after { background-color: #23b4d2 }.gitmoji-mag header, .gitmoji-mag .gitmoji-clipboard-code::after { background-color: #ffe55f }.gitmoji-memo header, .gitmoji-memo .gitmoji-clipboard-code::after { background-color: #00e676 }.gitmoji-mute header, .gitmoji-mute .gitmoji-clipboard-code::after { background-color: #e6ebef }.gitmoji-ok-hand header, .gitmoji-ok-hand .gitmoji-clipboard-code::after { background-color: #c5e763 }.gitmoji-package header, .gitmoji-package .gitmoji-clipboard-code::after { background-color: #fdd0ae }.gitmoji-page-facing-up header, .gitmoji-page-facing-up .gitmoji-clipboard-code::after { background-color: #d9e3e8 }.gitmoji-passport-control header, .gitmoji-passport-control .gitmoji-clipboard-code::after { background-color: #4dc6dc }.gitmoji-pencil header, .gitmoji-pencil .gitmoji-clipboard-code::after { background-color: #ffce49 }.gitmoji-pencil2 header, .gitmoji-pencil2 .gitmoji-clipboard-code::after { background-color: #ffce49 }.gitmoji-poop header, .gitmoji-poop .gitmoji-clipboard-code::after { background-color: #a78674 }.gitmoji-pushpin header, .gitmoji-pushpin .gitmoji-clipboard-code::after { background-color: #39c2f1 }.gitmoji-recycle header, .gitmoji-recycle .gitmoji-clipboard-code::after { background-color: #77e856 }.gitmoji-rewind header, .gitmoji-rewind .gitmoji-clipboard-code::after { background-color: #56d1d8 }.gitmoji-rocket header, .gitmoji-rocket .gitmoji-clipboard-code::after { background-color: #00a9f0 }.gitmoji-rotating-light header, .gitmoji-rotating-light .gitmoji-clipboard-code::after { background-color: #536dfe }.gitmoji-see-no-evil header, .gitmoji-see-no-evil .gitmoji-clipboard-code::after { background-color: #8bdfe7 }.gitmoji-seedling header, .gitmoji-seedling .gitmoji-clipboard-code::after { background-color: #c5e763 }.gitmoji-sparkles header, .gitmoji-sparkles .gitmoji-clipboard-code::after { background-color: #ffe55f }.gitmoji-speech-balloon header, .gitmoji-speech-balloon .gitmoji-clipboard-code::after { background-color: #cedae6 }.gitmoji-tada header, .gitmoji-tada .gitmoji-clipboard-code::after { background-color: #f74d5f }.gitmoji-triangular-flag-on-post header, .gitmoji-triangular-flag-on-post .gitmoji-clipboard-code::after { background-color: #ffce49 }.gitmoji-truck header, .gitmoji-truck .gitmoji-clipboard-code::after { background-color: #ef584a }.gitmoji-twisted-rightwards-arrows header, .gitmoji-twisted-rightwards-arrows .gitmoji-clipboard-code::after { background-color: #56d1d8 }.gitmoji-wastebasket header, .gitmoji-wastebasket .gitmoji-clipboard-code::after { background-color: #d9e3e8 }.gitmoji-wheelchair header, .gitmoji-wheelchair .gitmoji-clipboard-code::after { background-color: #00b1fb }.gitmoji-white-check-mark header, .gitmoji-white-check-mark .gitmoji-clipboard-code::after { background-color: #77e856 }.gitmoji-wrench header, .gitmoji-wrench .gitmoji-clipboard-code::after { background-color: #ffc400 }.gitmoji-zap header, .gitmoji-zap .gitmoji-clipboard-code::after { background-color: #40c4ff }.gitmoji-monocle-face header, .gitmoji-monocle-face .gitmoji-clipboard-code::after { background-color: #ffe55f }
-    </style>
     <div
       className="col-xs-12"
     >
@@ -538,6 +535,11 @@ exports[`Pages Index should render the page 1`] = `
     </div>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ff7281",
+        }
+      }
     >
       <div
         className="card  gitmoji-art"
@@ -574,6 +576,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#40c4ff",
+        }
+      }
     >
       <div
         className="card  gitmoji-zap"
@@ -610,6 +617,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ff9d44",
+        }
+      }
     >
       <div
         className="card  gitmoji-fire"
@@ -646,6 +658,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#8cd842",
+        }
+      }
     >
       <div
         className="card  gitmoji-bug"
@@ -682,6 +699,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#fb584a",
+        }
+      }
     >
       <div
         className="card  gitmoji-ambulance"
@@ -718,6 +740,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffe55f",
+        }
+      }
     >
       <div
         className="card  gitmoji-sparkles"
@@ -754,6 +781,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#00e676",
+        }
+      }
     >
       <div
         className="card  gitmoji-memo"
@@ -790,6 +822,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#00a9f0",
+        }
+      }
     >
       <div
         className="card  gitmoji-rocket"
@@ -826,6 +863,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#80deea",
+        }
+      }
     >
       <div
         className="card  gitmoji-lipstick"
@@ -862,6 +904,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#f74d5f",
+        }
+      }
     >
       <div
         className="card  gitmoji-tada"
@@ -898,6 +945,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#77e856",
+        }
+      }
     >
       <div
         className="card  gitmoji-white-check-mark"
@@ -934,6 +986,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffce49",
+        }
+      }
     >
       <div
         className="card  gitmoji-lock"
@@ -970,6 +1027,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#80deea",
+        }
+      }
     >
       <div
         className="card  gitmoji-bookmark"
@@ -1006,6 +1068,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#536dfe",
+        }
+      }
     >
       <div
         className="card  gitmoji-rotating-light"
@@ -1042,6 +1109,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffb74d",
+        }
+      }
     >
       <div
         className="card  gitmoji-construction"
@@ -1078,6 +1150,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#c5e763",
+        }
+      }
     >
       <div
         className="card  gitmoji-green-heart"
@@ -1114,6 +1191,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ef5350",
+        }
+      }
     >
       <div
         className="card  gitmoji-arrow-down"
@@ -1150,6 +1232,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#00e676",
+        }
+      }
     >
       <div
         className="card  gitmoji-arrow-up"
@@ -1186,6 +1273,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#39c2f1",
+        }
+      }
     >
       <div
         className="card  gitmoji-pushpin"
@@ -1222,6 +1314,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#64b5f6",
+        }
+      }
     >
       <div
         className="card  gitmoji-construction-worker"
@@ -1258,6 +1355,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#cedae6",
+        }
+      }
     >
       <div
         className="card  gitmoji-chart-with-upwards-trend"
@@ -1294,6 +1396,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#77e856",
+        }
+      }
     >
       <div
         className="card  gitmoji-recycle"
@@ -1330,6 +1437,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#00e676",
+        }
+      }
     >
       <div
         className="card  gitmoji-heavy-plus-sign"
@@ -1366,6 +1478,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ef5350",
+        }
+      }
     >
       <div
         className="card  gitmoji-heavy-minus-sign"
@@ -1402,6 +1519,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffc400",
+        }
+      }
     >
       <div
         className="card  gitmoji-wrench"
@@ -1438,6 +1560,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffc400",
+        }
+      }
     >
       <div
         className="card  gitmoji-hammer"
@@ -1474,6 +1601,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#e7f4ff",
+        }
+      }
     >
       <div
         className="card  gitmoji-globe-with-meridians"
@@ -1510,6 +1642,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffce49",
+        }
+      }
     >
       <div
         className="card  gitmoji-pencil2"
@@ -1546,6 +1683,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#a78674",
+        }
+      }
     >
       <div
         className="card  gitmoji-poop"
@@ -1582,6 +1724,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#56d1d8",
+        }
+      }
     >
       <div
         className="card  gitmoji-rewind"
@@ -1618,6 +1765,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#56d1d8",
+        }
+      }
     >
       <div
         className="card  gitmoji-twisted-rightwards-arrows"
@@ -1654,6 +1806,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#fdd0ae",
+        }
+      }
     >
       <div
         className="card  gitmoji-package"
@@ -1690,6 +1847,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#c5e763",
+        }
+      }
     >
       <div
         className="card  gitmoji-alien"
@@ -1726,6 +1888,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ef584a",
+        }
+      }
     >
       <div
         className="card  gitmoji-truck"
@@ -1762,6 +1929,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#d9e3e8",
+        }
+      }
     >
       <div
         className="card  gitmoji-page-facing-up"
@@ -1798,6 +1970,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#f94f28",
+        }
+      }
     >
       <div
         className="card  gitmoji-boom"
@@ -1834,6 +2011,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ff5864",
+        }
+      }
     >
       <div
         className="card  gitmoji-bento"
@@ -1870,6 +2052,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#00b1fb",
+        }
+      }
     >
       <div
         className="card  gitmoji-wheelchair"
@@ -1906,6 +2093,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffce49",
+        }
+      }
     >
       <div
         className="card  gitmoji-bulb"
@@ -1942,6 +2134,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#fbb64b",
+        }
+      }
     >
       <div
         className="card  gitmoji-beers"
@@ -1978,6 +2175,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#cedae6",
+        }
+      }
     >
       <div
         className="card  gitmoji-speech-balloon"
@@ -2014,6 +2216,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#c5e763",
+        }
+      }
     >
       <div
         className="card  gitmoji-card-file-box"
@@ -2050,6 +2257,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#23b4d2",
+        }
+      }
     >
       <div
         className="card  gitmoji-loud-sound"
@@ -2086,6 +2298,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#e6ebef",
+        }
+      }
     >
       <div
         className="card  gitmoji-mute"
@@ -2122,6 +2339,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffce49",
+        }
+      }
     >
       <div
         className="card  gitmoji-busts-in-silhouette"
@@ -2158,6 +2380,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffce49",
+        }
+      }
     >
       <div
         className="card  gitmoji-children-crossing"
@@ -2194,6 +2421,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffe55f",
+        }
+      }
     >
       <div
         className="card  gitmoji-building-construction"
@@ -2230,6 +2462,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#40c4ff",
+        }
+      }
     >
       <div
         className="card  gitmoji-iphone"
@@ -2266,6 +2503,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ff7281",
+        }
+      }
     >
       <div
         className="card  gitmoji-clown-face"
@@ -2302,6 +2544,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#77e856",
+        }
+      }
     >
       <div
         className="card  gitmoji-egg"
@@ -2338,6 +2585,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#8bdfe7",
+        }
+      }
     >
       <div
         className="card  gitmoji-see-no-evil"
@@ -2374,6 +2626,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#00a9f0",
+        }
+      }
     >
       <div
         className="card  gitmoji-camera-flash"
@@ -2410,6 +2667,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#7f39fb",
+        }
+      }
     >
       <div
         className="card  gitmoji-alembic"
@@ -2446,6 +2708,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffe55f",
+        }
+      }
     >
       <div
         className="card  gitmoji-mag"
@@ -2482,6 +2749,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#cb63e6",
+        }
+      }
     >
       <div
         className="card  gitmoji-label"
@@ -2518,6 +2790,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#c5e763",
+        }
+      }
     >
       <div
         className="card  gitmoji-seedling"
@@ -2554,6 +2831,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffce49",
+        }
+      }
     >
       <div
         className="card  gitmoji-triangular-flag-on-post"
@@ -2590,6 +2872,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#c7cb12",
+        }
+      }
     >
       <div
         className="card  gitmoji-goal-net"
@@ -2626,6 +2913,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffdb3a",
+        }
+      }
     >
       <div
         className="card  gitmoji-animation"
@@ -2662,6 +2954,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#d9e3e8",
+        }
+      }
     >
       <div
         className="card  gitmoji-wastebasket"
@@ -2698,6 +2995,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#4dc6dc",
+        }
+      }
     >
       <div
         className="card  gitmoji-passport-control"
@@ -2734,6 +3036,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#fbcfb7",
+        }
+      }
     >
       <div
         className="card  gitmoji-adhesive-bandage"
@@ -2770,6 +3077,11 @@ exports[`Pages Index should render the page 1`] = `
     </article>
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffe55f",
+        }
+      }
     >
       <div
         className="card  gitmoji-monocle-face"
