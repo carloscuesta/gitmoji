@@ -87,14 +87,27 @@
 }
 
 .gitmojiCode {
+  display: inline-block;
   position: relative;
   border-radius: 4px;
   transition-duration: 0.3s;
   cursor: pointer;
 }
 
-.gitmojiCode:hover {
+.gitmojiCode::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0.2em;
+  border-radius: 4px;
+  transition: width 0.15s;
   background-color: var(--emojiColor);
+}
+
+.gitmojiCode:hover::after {
+  width: 100%;
 }
 
 .gitmojiInfo {
