@@ -59,7 +59,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
         {Object.entries(emojiColorsMap)
           .map(
             ([key, color]: Object) =>
-              `.gitmoji-${key} header, .gitmoji-${key} .gitmoji-clipboard-code:hover { background-color: ${color} }`
+              `.gitmoji-${key} header, .gitmoji-${key} .gitmoji-clipboard-code::after { background-color: ${color} }`
           )
           .reduce((memo, value) => memo + value, '')}
       </style>

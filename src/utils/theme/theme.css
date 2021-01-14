@@ -135,6 +135,21 @@ main.wrap {
   }
 }
 
+.gitmoji-clipboard-code::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0.2em;
+  border-radius: 4px;
+  transition: width 0.15s;
+}
+
+.gitmoji-clipboard-code:hover::after {
+  width: 100%;
+}
+
 /* Flexboxgrid critical */
 
 .col-sm-2,
