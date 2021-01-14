@@ -488,7 +488,7 @@ exports[`Pages Index should render the page 1`] = `
     id="gitmoji-list"
   >
     <style>
-      .adhesive-bandage { background-color: #fbcfb7 }.alembic { background-color: #7f39fb }.alien { background-color: #c5e763 }.ambulance { background-color: #fb584a }.animation { background-color: #ffdb3a }.arrow-down { background-color: #ef5350 }.arrow-up { background-color: #00e676 }.art { background-color: #ff7281 }.beers { background-color: #fbb64b }.bento { background-color: #ff5864 }.bookmark { background-color: #80deea }.boom { background-color: #f94f28 }.bug { background-color: #8cd842 }.building-construction { background-color: #ffe55f }.bulb { background-color: #ffce49 }.busts-in-silhouette { background-color: #ffce49 }.camera-flash { background-color: #00a9f0 }.card-file-box { background-color: #c5e763 }.chart-with-upwards-trend { background-color: #cedae6 }.children-crossing { background-color: #ffce49 }.clown-face { background-color: #ff7281 }.construction-worker { background-color: #64b5f6 }.construction { background-color: #ffb74d }.egg { background-color: #77e856 }.fire { background-color: #ff9d44 }.globe-with-meridians { background-color: #e7f4ff }.goal-net { background-color: #c7cb12 }.green-heart { background-color: #c5e763 }.hammer { background-color: #ffc400 }.heavy-minus-sign { background-color: #ef5350 }.heavy-plus-sign { background-color: #00e676 }.iphone { background-color: #40c4ff }.label { background-color: #cb63e6 }.lipstick { background-color: #80deea }.lock { background-color: #ffce49 }.loud-sound { background-color: #23b4d2 }.mag { background-color: #ffe55f }.memo { background-color: #00e676 }.mute { background-color: #e6ebef }.ok-hand { background-color: #c5e763 }.package { background-color: #fdd0ae }.page-facing-up { background-color: #d9e3e8 }.passport-control { background-color: #4dc6dc }.pencil { background-color: #ffce49 }.pencil2 { background-color: #ffce49 }.poop { background-color: #a78674 }.pushpin { background-color: #39c2f1 }.recycle { background-color: #77e856 }.rewind { background-color: #56d1d8 }.rocket { background-color: #00a9f0 }.rotating-light { background-color: #536dfe }.see-no-evil { background-color: #8bdfe7 }.seedling { background-color: #c5e763 }.sparkles { background-color: #ffe55f }.speech-balloon { background-color: #cedae6 }.tada { background-color: #f74d5f }.triangular-flag-on-post { background-color: #ffce49 }.truck { background-color: #ef584a }.twisted-rightwards-arrows { background-color: #56d1d8 }.wastebasket { background-color: #d9e3e8 }.wheelchair { background-color: #00b1fb }.white-check-mark { background-color: #77e856 }.wrench { background-color: #ffc400 }.zap { background-color: #40c4ff }.monocle-face { background-color: #ffe55f }
+      .gitmoji-adhesive-bandage header, .gitmoji-adhesive-bandage .gitmoji-clipboard-code:hover { background-color: #fbcfb7 }.gitmoji-alembic header, .gitmoji-alembic .gitmoji-clipboard-code:hover { background-color: #7f39fb }.gitmoji-alien header, .gitmoji-alien .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-ambulance header, .gitmoji-ambulance .gitmoji-clipboard-code:hover { background-color: #fb584a }.gitmoji-animation header, .gitmoji-animation .gitmoji-clipboard-code:hover { background-color: #ffdb3a }.gitmoji-arrow-down header, .gitmoji-arrow-down .gitmoji-clipboard-code:hover { background-color: #ef5350 }.gitmoji-arrow-up header, .gitmoji-arrow-up .gitmoji-clipboard-code:hover { background-color: #00e676 }.gitmoji-art header, .gitmoji-art .gitmoji-clipboard-code:hover { background-color: #ff7281 }.gitmoji-beers header, .gitmoji-beers .gitmoji-clipboard-code:hover { background-color: #fbb64b }.gitmoji-bento header, .gitmoji-bento .gitmoji-clipboard-code:hover { background-color: #ff5864 }.gitmoji-bookmark header, .gitmoji-bookmark .gitmoji-clipboard-code:hover { background-color: #80deea }.gitmoji-boom header, .gitmoji-boom .gitmoji-clipboard-code:hover { background-color: #f94f28 }.gitmoji-bug header, .gitmoji-bug .gitmoji-clipboard-code:hover { background-color: #8cd842 }.gitmoji-building-construction header, .gitmoji-building-construction .gitmoji-clipboard-code:hover { background-color: #ffe55f }.gitmoji-bulb header, .gitmoji-bulb .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-busts-in-silhouette header, .gitmoji-busts-in-silhouette .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-camera-flash header, .gitmoji-camera-flash .gitmoji-clipboard-code:hover { background-color: #00a9f0 }.gitmoji-card-file-box header, .gitmoji-card-file-box .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-chart-with-upwards-trend header, .gitmoji-chart-with-upwards-trend .gitmoji-clipboard-code:hover { background-color: #cedae6 }.gitmoji-children-crossing header, .gitmoji-children-crossing .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-clown-face header, .gitmoji-clown-face .gitmoji-clipboard-code:hover { background-color: #ff7281 }.gitmoji-construction-worker header, .gitmoji-construction-worker .gitmoji-clipboard-code:hover { background-color: #64b5f6 }.gitmoji-construction header, .gitmoji-construction .gitmoji-clipboard-code:hover { background-color: #ffb74d }.gitmoji-egg header, .gitmoji-egg .gitmoji-clipboard-code:hover { background-color: #77e856 }.gitmoji-fire header, .gitmoji-fire .gitmoji-clipboard-code:hover { background-color: #ff9d44 }.gitmoji-globe-with-meridians header, .gitmoji-globe-with-meridians .gitmoji-clipboard-code:hover { background-color: #e7f4ff }.gitmoji-goal-net header, .gitmoji-goal-net .gitmoji-clipboard-code:hover { background-color: #c7cb12 }.gitmoji-green-heart header, .gitmoji-green-heart .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-hammer header, .gitmoji-hammer .gitmoji-clipboard-code:hover { background-color: #ffc400 }.gitmoji-heavy-minus-sign header, .gitmoji-heavy-minus-sign .gitmoji-clipboard-code:hover { background-color: #ef5350 }.gitmoji-heavy-plus-sign header, .gitmoji-heavy-plus-sign .gitmoji-clipboard-code:hover { background-color: #00e676 }.gitmoji-iphone header, .gitmoji-iphone .gitmoji-clipboard-code:hover { background-color: #40c4ff }.gitmoji-label header, .gitmoji-label .gitmoji-clipboard-code:hover { background-color: #cb63e6 }.gitmoji-lipstick header, .gitmoji-lipstick .gitmoji-clipboard-code:hover { background-color: #80deea }.gitmoji-lock header, .gitmoji-lock .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-loud-sound header, .gitmoji-loud-sound .gitmoji-clipboard-code:hover { background-color: #23b4d2 }.gitmoji-mag header, .gitmoji-mag .gitmoji-clipboard-code:hover { background-color: #ffe55f }.gitmoji-memo header, .gitmoji-memo .gitmoji-clipboard-code:hover { background-color: #00e676 }.gitmoji-mute header, .gitmoji-mute .gitmoji-clipboard-code:hover { background-color: #e6ebef }.gitmoji-ok-hand header, .gitmoji-ok-hand .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-package header, .gitmoji-package .gitmoji-clipboard-code:hover { background-color: #fdd0ae }.gitmoji-page-facing-up header, .gitmoji-page-facing-up .gitmoji-clipboard-code:hover { background-color: #d9e3e8 }.gitmoji-passport-control header, .gitmoji-passport-control .gitmoji-clipboard-code:hover { background-color: #4dc6dc }.gitmoji-pencil header, .gitmoji-pencil .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-pencil2 header, .gitmoji-pencil2 .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-poop header, .gitmoji-poop .gitmoji-clipboard-code:hover { background-color: #a78674 }.gitmoji-pushpin header, .gitmoji-pushpin .gitmoji-clipboard-code:hover { background-color: #39c2f1 }.gitmoji-recycle header, .gitmoji-recycle .gitmoji-clipboard-code:hover { background-color: #77e856 }.gitmoji-rewind header, .gitmoji-rewind .gitmoji-clipboard-code:hover { background-color: #56d1d8 }.gitmoji-rocket header, .gitmoji-rocket .gitmoji-clipboard-code:hover { background-color: #00a9f0 }.gitmoji-rotating-light header, .gitmoji-rotating-light .gitmoji-clipboard-code:hover { background-color: #536dfe }.gitmoji-see-no-evil header, .gitmoji-see-no-evil .gitmoji-clipboard-code:hover { background-color: #8bdfe7 }.gitmoji-seedling header, .gitmoji-seedling .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-sparkles header, .gitmoji-sparkles .gitmoji-clipboard-code:hover { background-color: #ffe55f }.gitmoji-speech-balloon header, .gitmoji-speech-balloon .gitmoji-clipboard-code:hover { background-color: #cedae6 }.gitmoji-tada header, .gitmoji-tada .gitmoji-clipboard-code:hover { background-color: #f74d5f }.gitmoji-triangular-flag-on-post header, .gitmoji-triangular-flag-on-post .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-truck header, .gitmoji-truck .gitmoji-clipboard-code:hover { background-color: #ef584a }.gitmoji-twisted-rightwards-arrows header, .gitmoji-twisted-rightwards-arrows .gitmoji-clipboard-code:hover { background-color: #56d1d8 }.gitmoji-wastebasket header, .gitmoji-wastebasket .gitmoji-clipboard-code:hover { background-color: #d9e3e8 }.gitmoji-wheelchair header, .gitmoji-wheelchair .gitmoji-clipboard-code:hover { background-color: #00b1fb }.gitmoji-white-check-mark header, .gitmoji-white-check-mark .gitmoji-clipboard-code:hover { background-color: #77e856 }.gitmoji-wrench header, .gitmoji-wrench .gitmoji-clipboard-code:hover { background-color: #ffc400 }.gitmoji-zap header, .gitmoji-zap .gitmoji-clipboard-code:hover { background-color: #40c4ff }.gitmoji-monocle-face header, .gitmoji-monocle-face .gitmoji-clipboard-code:hover { background-color: #ffe55f }
     </style>
     <div
       className="col-xs-12"
@@ -540,10 +540,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-art"
       >
         <header
-          className="art cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -565,9 +565,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :art:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline art"
-            />
           </button>
           <p>
             Improve structure / format of the code.
@@ -579,10 +576,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-zap"
       >
         <header
-          className="zap cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -604,9 +601,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :zap:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline zap"
-            />
           </button>
           <p>
             Improve performance.
@@ -618,10 +612,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-fire"
       >
         <header
-          className="fire cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -643,9 +637,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :fire:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline fire"
-            />
           </button>
           <p>
             Remove code or files.
@@ -657,10 +648,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-bug"
       >
         <header
-          className="bug cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -682,9 +673,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :bug:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline bug"
-            />
           </button>
           <p>
             Fix a bug.
@@ -696,10 +684,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-ambulance"
       >
         <header
-          className="ambulance cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -721,9 +709,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :ambulance:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline ambulance"
-            />
           </button>
           <p>
             Critical hotfix.
@@ -735,10 +720,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-sparkles"
       >
         <header
-          className="sparkles cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -760,9 +745,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :sparkles:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline sparkles"
-            />
           </button>
           <p>
             Introduce new features.
@@ -774,10 +756,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-memo"
       >
         <header
-          className="memo cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -799,9 +781,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :memo:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline memo"
-            />
           </button>
           <p>
             Add or update documentation.
@@ -813,10 +792,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-rocket"
       >
         <header
-          className="rocket cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -838,9 +817,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :rocket:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline rocket"
-            />
           </button>
           <p>
             Deploy stuff.
@@ -852,10 +828,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-lipstick"
       >
         <header
-          className="lipstick cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -877,9 +853,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :lipstick:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline lipstick"
-            />
           </button>
           <p>
             Add or update the UI and style files.
@@ -891,10 +864,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-tada"
       >
         <header
-          className="tada cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -916,9 +889,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :tada:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline tada"
-            />
           </button>
           <p>
             Begin a project.
@@ -930,10 +900,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-white-check-mark"
       >
         <header
-          className="white-check-mark cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -955,9 +925,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :white_check_mark:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline white-check-mark"
-            />
           </button>
           <p>
             Add or update tests.
@@ -969,10 +936,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-lock"
       >
         <header
-          className="lock cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -994,9 +961,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :lock:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline lock"
-            />
           </button>
           <p>
             Fix security issues.
@@ -1008,10 +972,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-bookmark"
       >
         <header
-          className="bookmark cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1033,9 +997,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :bookmark:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline bookmark"
-            />
           </button>
           <p>
             Release / Version tags.
@@ -1047,10 +1008,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-rotating-light"
       >
         <header
-          className="rotating-light cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1072,9 +1033,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :rotating_light:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline rotating-light"
-            />
           </button>
           <p>
             Fix compiler / linter warnings.
@@ -1086,10 +1044,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-construction"
       >
         <header
-          className="construction cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1111,9 +1069,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :construction:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline construction"
-            />
           </button>
           <p>
             Work in progress.
@@ -1125,10 +1080,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-green-heart"
       >
         <header
-          className="green-heart cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1150,9 +1105,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :green_heart:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline green-heart"
-            />
           </button>
           <p>
             Fix CI Build.
@@ -1164,10 +1116,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-arrow-down"
       >
         <header
-          className="arrow-down cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1189,9 +1141,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :arrow_down:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline arrow-down"
-            />
           </button>
           <p>
             Downgrade dependencies.
@@ -1203,10 +1152,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-arrow-up"
       >
         <header
-          className="arrow-up cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1228,9 +1177,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :arrow_up:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline arrow-up"
-            />
           </button>
           <p>
             Upgrade dependencies.
@@ -1242,10 +1188,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-pushpin"
       >
         <header
-          className="pushpin cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1267,9 +1213,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :pushpin:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline pushpin"
-            />
           </button>
           <p>
             Pin dependencies to specific versions.
@@ -1281,10 +1224,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-construction-worker"
       >
         <header
-          className="construction-worker cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1306,9 +1249,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :construction_worker:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline construction-worker"
-            />
           </button>
           <p>
             Add or update CI build system.
@@ -1320,10 +1260,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-chart-with-upwards-trend"
       >
         <header
-          className="chart-with-upwards-trend cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1345,9 +1285,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :chart_with_upwards_trend:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline chart-with-upwards-trend"
-            />
           </button>
           <p>
             Add or update analytics or track code.
@@ -1359,10 +1296,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-recycle"
       >
         <header
-          className="recycle cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1384,9 +1321,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :recycle:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline recycle"
-            />
           </button>
           <p>
             Refactor code.
@@ -1398,10 +1332,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-heavy-plus-sign"
       >
         <header
-          className="heavy-plus-sign cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1423,9 +1357,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :heavy_plus_sign:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline heavy-plus-sign"
-            />
           </button>
           <p>
             Add a dependency.
@@ -1437,10 +1368,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-heavy-minus-sign"
       >
         <header
-          className="heavy-minus-sign cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1462,9 +1393,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :heavy_minus_sign:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline heavy-minus-sign"
-            />
           </button>
           <p>
             Remove a dependency.
@@ -1476,10 +1404,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-wrench"
       >
         <header
-          className="wrench cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1501,9 +1429,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :wrench:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline wrench"
-            />
           </button>
           <p>
             Add or update configuration files.
@@ -1515,10 +1440,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-hammer"
       >
         <header
-          className="hammer cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1540,9 +1465,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :hammer:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline hammer"
-            />
           </button>
           <p>
             Add or update development scripts.
@@ -1554,10 +1476,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-globe-with-meridians"
       >
         <header
-          className="globe-with-meridians cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1579,9 +1501,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :globe_with_meridians:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline globe-with-meridians"
-            />
           </button>
           <p>
             Internationalization and localization.
@@ -1593,10 +1512,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-pencil2"
       >
         <header
-          className="pencil2 cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1618,9 +1537,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :pencil2:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline pencil2"
-            />
           </button>
           <p>
             Fix typos.
@@ -1632,10 +1548,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-poop"
       >
         <header
-          className="poop cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1657,9 +1573,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :poop:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline poop"
-            />
           </button>
           <p>
             Write bad code that needs to be improved.
@@ -1671,10 +1584,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-rewind"
       >
         <header
-          className="rewind cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1696,9 +1609,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :rewind:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline rewind"
-            />
           </button>
           <p>
             Revert changes.
@@ -1710,10 +1620,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-twisted-rightwards-arrows"
       >
         <header
-          className="twisted-rightwards-arrows cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1735,9 +1645,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :twisted_rightwards_arrows:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline twisted-rightwards-arrows"
-            />
           </button>
           <p>
             Merge branches.
@@ -1749,10 +1656,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-package"
       >
         <header
-          className="package cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1774,9 +1681,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :package:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline package"
-            />
           </button>
           <p>
             Add or update compiled files or packages.
@@ -1788,10 +1692,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-alien"
       >
         <header
-          className="alien cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1813,9 +1717,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :alien:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline alien"
-            />
           </button>
           <p>
             Update code due to external API changes.
@@ -1827,10 +1728,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-truck"
       >
         <header
-          className="truck cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1852,9 +1753,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :truck:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline truck"
-            />
           </button>
           <p>
             Move or rename resources (e.g.: files, paths, routes).
@@ -1866,10 +1764,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-page-facing-up"
       >
         <header
-          className="page-facing-up cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1891,9 +1789,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :page_facing_up:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline page-facing-up"
-            />
           </button>
           <p>
             Add or update license.
@@ -1905,10 +1800,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-boom"
       >
         <header
-          className="boom cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1930,9 +1825,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :boom:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline boom"
-            />
           </button>
           <p>
             Introduce breaking changes.
@@ -1944,10 +1836,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-bento"
       >
         <header
-          className="bento cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -1969,9 +1861,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :bento:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline bento"
-            />
           </button>
           <p>
             Add or update assets.
@@ -1983,10 +1872,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-wheelchair"
       >
         <header
-          className="wheelchair cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2008,9 +1897,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :wheelchair:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline wheelchair"
-            />
           </button>
           <p>
             Improve accessibility.
@@ -2022,10 +1908,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-bulb"
       >
         <header
-          className="bulb cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2047,9 +1933,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :bulb:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline bulb"
-            />
           </button>
           <p>
             Add or update comments in source code.
@@ -2061,10 +1944,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-beers"
       >
         <header
-          className="beers cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2086,9 +1969,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :beers:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline beers"
-            />
           </button>
           <p>
             Write code drunkenly.
@@ -2100,10 +1980,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-speech-balloon"
       >
         <header
-          className="speech-balloon cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2125,9 +2005,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :speech_balloon:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline speech-balloon"
-            />
           </button>
           <p>
             Add or update text and literals.
@@ -2139,10 +2016,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-card-file-box"
       >
         <header
-          className="card-file-box cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2164,9 +2041,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :card_file_box:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline card-file-box"
-            />
           </button>
           <p>
             Perform database related changes.
@@ -2178,10 +2052,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-loud-sound"
       >
         <header
-          className="loud-sound cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2203,9 +2077,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :loud_sound:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline loud-sound"
-            />
           </button>
           <p>
             Add or update logs.
@@ -2217,10 +2088,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-mute"
       >
         <header
-          className="mute cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2242,9 +2113,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :mute:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline mute"
-            />
           </button>
           <p>
             Remove logs.
@@ -2256,10 +2124,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-busts-in-silhouette"
       >
         <header
-          className="busts-in-silhouette cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2281,9 +2149,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :busts_in_silhouette:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline busts-in-silhouette"
-            />
           </button>
           <p>
             Add or update contributor(s).
@@ -2295,10 +2160,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-children-crossing"
       >
         <header
-          className="children-crossing cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2320,9 +2185,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :children_crossing:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline children-crossing"
-            />
           </button>
           <p>
             Improve user experience / usability.
@@ -2334,10 +2196,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-building-construction"
       >
         <header
-          className="building-construction cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2359,9 +2221,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :building_construction:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline building-construction"
-            />
           </button>
           <p>
             Make architectural changes.
@@ -2373,10 +2232,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-iphone"
       >
         <header
-          className="iphone cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2398,9 +2257,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :iphone:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline iphone"
-            />
           </button>
           <p>
             Work on responsive design.
@@ -2412,10 +2268,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-clown-face"
       >
         <header
-          className="clown-face cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2437,9 +2293,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :clown_face:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline clown-face"
-            />
           </button>
           <p>
             Mock things.
@@ -2451,10 +2304,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-egg"
       >
         <header
-          className="egg cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2476,9 +2329,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :egg:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline egg"
-            />
           </button>
           <p>
             Add or update an easter egg.
@@ -2490,10 +2340,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-see-no-evil"
       >
         <header
-          className="see-no-evil cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2515,9 +2365,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :see_no_evil:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline see-no-evil"
-            />
           </button>
           <p>
             Add or update a .gitignore file.
@@ -2529,10 +2376,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-camera-flash"
       >
         <header
-          className="camera-flash cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2554,9 +2401,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :camera_flash:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline camera-flash"
-            />
           </button>
           <p>
             Add or update snapshots.
@@ -2568,10 +2412,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-alembic"
       >
         <header
-          className="alembic cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2593,9 +2437,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :alembic:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline alembic"
-            />
           </button>
           <p>
             Perform experiments.
@@ -2607,10 +2448,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-mag"
       >
         <header
-          className="mag cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2632,9 +2473,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :mag:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline mag"
-            />
           </button>
           <p>
             Improve SEO.
@@ -2646,10 +2484,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-label"
       >
         <header
-          className="label cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2671,9 +2509,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :label:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline label"
-            />
           </button>
           <p>
             Add or update types.
@@ -2685,10 +2520,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-seedling"
       >
         <header
-          className="seedling cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2710,9 +2545,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :seedling:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline seedling"
-            />
           </button>
           <p>
             Add or update seed files.
@@ -2724,10 +2556,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-triangular-flag-on-post"
       >
         <header
-          className="triangular-flag-on-post cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2749,9 +2581,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :triangular_flag_on_post:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline triangular-flag-on-post"
-            />
           </button>
           <p>
             Add, update, or remove feature flags.
@@ -2763,10 +2592,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-goal-net"
       >
         <header
-          className="goal-net cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2788,9 +2617,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :goal_net:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline goal-net"
-            />
           </button>
           <p>
             Catch errors.
@@ -2802,10 +2628,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-animation"
       >
         <header
-          className="animation cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2827,9 +2653,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :dizzy:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline animation"
-            />
           </button>
           <p>
             Add or update animations and transitions.
@@ -2841,10 +2664,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-wastebasket"
       >
         <header
-          className="wastebasket cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2866,9 +2689,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :wastebasket:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline wastebasket"
-            />
           </button>
           <p>
             Deprecate code that needs to be cleaned up.
@@ -2880,10 +2700,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-passport-control"
       >
         <header
-          className="passport-control cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2905,9 +2725,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :passport_control:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline passport-control"
-            />
           </button>
           <p>
             Work on code related to authorization, roles and permissions.
@@ -2919,10 +2736,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-adhesive-bandage"
       >
         <header
-          className="adhesive-bandage cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2944,9 +2761,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :adhesive_bandage:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline adhesive-bandage"
-            />
           </button>
           <p>
             Simple fix for a non-critical issue.
@@ -2958,10 +2772,10 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
     >
       <div
-        className="card "
+        className="card  gitmoji-monocle-face"
       >
         <header
-          className="monocle-face cardHeader"
+          className="cardHeader"
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
@@ -2983,9 +2797,6 @@ exports[`Pages Index should render the page 1`] = `
             <code>
               :monocle_face:
             </code>
-            <span
-              className="gitmoji-clipboard-code-underline monocle-face"
-            />
           </button>
           <p>
             Data exploration/inspection.

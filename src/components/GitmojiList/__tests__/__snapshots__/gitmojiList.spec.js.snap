@@ -6,7 +6,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
   id="gitmoji-list"
 >
   <style>
-    .adhesive-bandage { background-color: #fbcfb7 }.alembic { background-color: #7f39fb }.alien { background-color: #c5e763 }.ambulance { background-color: #fb584a }.animation { background-color: #ffdb3a }.arrow-down { background-color: #ef5350 }.arrow-up { background-color: #00e676 }.art { background-color: #ff7281 }.beers { background-color: #fbb64b }.bento { background-color: #ff5864 }.bookmark { background-color: #80deea }.boom { background-color: #f94f28 }.bug { background-color: #8cd842 }.building-construction { background-color: #ffe55f }.bulb { background-color: #ffce49 }.busts-in-silhouette { background-color: #ffce49 }.camera-flash { background-color: #00a9f0 }.card-file-box { background-color: #c5e763 }.chart-with-upwards-trend { background-color: #cedae6 }.children-crossing { background-color: #ffce49 }.clown-face { background-color: #ff7281 }.construction-worker { background-color: #64b5f6 }.construction { background-color: #ffb74d }.egg { background-color: #77e856 }.fire { background-color: #ff9d44 }.globe-with-meridians { background-color: #e7f4ff }.goal-net { background-color: #c7cb12 }.green-heart { background-color: #c5e763 }.hammer { background-color: #ffc400 }.heavy-minus-sign { background-color: #ef5350 }.heavy-plus-sign { background-color: #00e676 }.iphone { background-color: #40c4ff }.label { background-color: #cb63e6 }.lipstick { background-color: #80deea }.lock { background-color: #ffce49 }.loud-sound { background-color: #23b4d2 }.mag { background-color: #ffe55f }.memo { background-color: #00e676 }.mute { background-color: #e6ebef }.ok-hand { background-color: #c5e763 }.package { background-color: #fdd0ae }.page-facing-up { background-color: #d9e3e8 }.passport-control { background-color: #4dc6dc }.pencil { background-color: #ffce49 }.pencil2 { background-color: #ffce49 }.poop { background-color: #a78674 }.pushpin { background-color: #39c2f1 }.recycle { background-color: #77e856 }.rewind { background-color: #56d1d8 }.rocket { background-color: #00a9f0 }.rotating-light { background-color: #536dfe }.see-no-evil { background-color: #8bdfe7 }.seedling { background-color: #c5e763 }.sparkles { background-color: #ffe55f }.speech-balloon { background-color: #cedae6 }.tada { background-color: #f74d5f }.triangular-flag-on-post { background-color: #ffce49 }.truck { background-color: #ef584a }.twisted-rightwards-arrows { background-color: #56d1d8 }.wastebasket { background-color: #d9e3e8 }.wheelchair { background-color: #00b1fb }.white-check-mark { background-color: #77e856 }.wrench { background-color: #ffc400 }.zap { background-color: #40c4ff }.monocle-face { background-color: #ffe55f }
+    .gitmoji-adhesive-bandage header, .gitmoji-adhesive-bandage .gitmoji-clipboard-code:hover { background-color: #fbcfb7 }.gitmoji-alembic header, .gitmoji-alembic .gitmoji-clipboard-code:hover { background-color: #7f39fb }.gitmoji-alien header, .gitmoji-alien .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-ambulance header, .gitmoji-ambulance .gitmoji-clipboard-code:hover { background-color: #fb584a }.gitmoji-animation header, .gitmoji-animation .gitmoji-clipboard-code:hover { background-color: #ffdb3a }.gitmoji-arrow-down header, .gitmoji-arrow-down .gitmoji-clipboard-code:hover { background-color: #ef5350 }.gitmoji-arrow-up header, .gitmoji-arrow-up .gitmoji-clipboard-code:hover { background-color: #00e676 }.gitmoji-art header, .gitmoji-art .gitmoji-clipboard-code:hover { background-color: #ff7281 }.gitmoji-beers header, .gitmoji-beers .gitmoji-clipboard-code:hover { background-color: #fbb64b }.gitmoji-bento header, .gitmoji-bento .gitmoji-clipboard-code:hover { background-color: #ff5864 }.gitmoji-bookmark header, .gitmoji-bookmark .gitmoji-clipboard-code:hover { background-color: #80deea }.gitmoji-boom header, .gitmoji-boom .gitmoji-clipboard-code:hover { background-color: #f94f28 }.gitmoji-bug header, .gitmoji-bug .gitmoji-clipboard-code:hover { background-color: #8cd842 }.gitmoji-building-construction header, .gitmoji-building-construction .gitmoji-clipboard-code:hover { background-color: #ffe55f }.gitmoji-bulb header, .gitmoji-bulb .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-busts-in-silhouette header, .gitmoji-busts-in-silhouette .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-camera-flash header, .gitmoji-camera-flash .gitmoji-clipboard-code:hover { background-color: #00a9f0 }.gitmoji-card-file-box header, .gitmoji-card-file-box .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-chart-with-upwards-trend header, .gitmoji-chart-with-upwards-trend .gitmoji-clipboard-code:hover { background-color: #cedae6 }.gitmoji-children-crossing header, .gitmoji-children-crossing .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-clown-face header, .gitmoji-clown-face .gitmoji-clipboard-code:hover { background-color: #ff7281 }.gitmoji-construction-worker header, .gitmoji-construction-worker .gitmoji-clipboard-code:hover { background-color: #64b5f6 }.gitmoji-construction header, .gitmoji-construction .gitmoji-clipboard-code:hover { background-color: #ffb74d }.gitmoji-egg header, .gitmoji-egg .gitmoji-clipboard-code:hover { background-color: #77e856 }.gitmoji-fire header, .gitmoji-fire .gitmoji-clipboard-code:hover { background-color: #ff9d44 }.gitmoji-globe-with-meridians header, .gitmoji-globe-with-meridians .gitmoji-clipboard-code:hover { background-color: #e7f4ff }.gitmoji-goal-net header, .gitmoji-goal-net .gitmoji-clipboard-code:hover { background-color: #c7cb12 }.gitmoji-green-heart header, .gitmoji-green-heart .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-hammer header, .gitmoji-hammer .gitmoji-clipboard-code:hover { background-color: #ffc400 }.gitmoji-heavy-minus-sign header, .gitmoji-heavy-minus-sign .gitmoji-clipboard-code:hover { background-color: #ef5350 }.gitmoji-heavy-plus-sign header, .gitmoji-heavy-plus-sign .gitmoji-clipboard-code:hover { background-color: #00e676 }.gitmoji-iphone header, .gitmoji-iphone .gitmoji-clipboard-code:hover { background-color: #40c4ff }.gitmoji-label header, .gitmoji-label .gitmoji-clipboard-code:hover { background-color: #cb63e6 }.gitmoji-lipstick header, .gitmoji-lipstick .gitmoji-clipboard-code:hover { background-color: #80deea }.gitmoji-lock header, .gitmoji-lock .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-loud-sound header, .gitmoji-loud-sound .gitmoji-clipboard-code:hover { background-color: #23b4d2 }.gitmoji-mag header, .gitmoji-mag .gitmoji-clipboard-code:hover { background-color: #ffe55f }.gitmoji-memo header, .gitmoji-memo .gitmoji-clipboard-code:hover { background-color: #00e676 }.gitmoji-mute header, .gitmoji-mute .gitmoji-clipboard-code:hover { background-color: #e6ebef }.gitmoji-ok-hand header, .gitmoji-ok-hand .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-package header, .gitmoji-package .gitmoji-clipboard-code:hover { background-color: #fdd0ae }.gitmoji-page-facing-up header, .gitmoji-page-facing-up .gitmoji-clipboard-code:hover { background-color: #d9e3e8 }.gitmoji-passport-control header, .gitmoji-passport-control .gitmoji-clipboard-code:hover { background-color: #4dc6dc }.gitmoji-pencil header, .gitmoji-pencil .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-pencil2 header, .gitmoji-pencil2 .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-poop header, .gitmoji-poop .gitmoji-clipboard-code:hover { background-color: #a78674 }.gitmoji-pushpin header, .gitmoji-pushpin .gitmoji-clipboard-code:hover { background-color: #39c2f1 }.gitmoji-recycle header, .gitmoji-recycle .gitmoji-clipboard-code:hover { background-color: #77e856 }.gitmoji-rewind header, .gitmoji-rewind .gitmoji-clipboard-code:hover { background-color: #56d1d8 }.gitmoji-rocket header, .gitmoji-rocket .gitmoji-clipboard-code:hover { background-color: #00a9f0 }.gitmoji-rotating-light header, .gitmoji-rotating-light .gitmoji-clipboard-code:hover { background-color: #536dfe }.gitmoji-see-no-evil header, .gitmoji-see-no-evil .gitmoji-clipboard-code:hover { background-color: #8bdfe7 }.gitmoji-seedling header, .gitmoji-seedling .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-sparkles header, .gitmoji-sparkles .gitmoji-clipboard-code:hover { background-color: #ffe55f }.gitmoji-speech-balloon header, .gitmoji-speech-balloon .gitmoji-clipboard-code:hover { background-color: #cedae6 }.gitmoji-tada header, .gitmoji-tada .gitmoji-clipboard-code:hover { background-color: #f74d5f }.gitmoji-triangular-flag-on-post header, .gitmoji-triangular-flag-on-post .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-truck header, .gitmoji-truck .gitmoji-clipboard-code:hover { background-color: #ef584a }.gitmoji-twisted-rightwards-arrows header, .gitmoji-twisted-rightwards-arrows .gitmoji-clipboard-code:hover { background-color: #56d1d8 }.gitmoji-wastebasket header, .gitmoji-wastebasket .gitmoji-clipboard-code:hover { background-color: #d9e3e8 }.gitmoji-wheelchair header, .gitmoji-wheelchair .gitmoji-clipboard-code:hover { background-color: #00b1fb }.gitmoji-white-check-mark header, .gitmoji-white-check-mark .gitmoji-clipboard-code:hover { background-color: #77e856 }.gitmoji-wrench header, .gitmoji-wrench .gitmoji-clipboard-code:hover { background-color: #ffc400 }.gitmoji-zap header, .gitmoji-zap .gitmoji-clipboard-code:hover { background-color: #40c4ff }.gitmoji-monocle-face header, .gitmoji-monocle-face .gitmoji-clipboard-code:hover { background-color: #ffe55f }
   </style>
   <div
     className="col-xs-12"
@@ -58,10 +58,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-3"
   >
     <div
-      className="card "
+      className="card  gitmoji-art"
     >
       <header
-        className="art cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -83,9 +83,6 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :art:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline art"
-          />
         </button>
         <p>
           Improve structure / format of the code.
@@ -97,10 +94,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-3"
   >
     <div
-      className="card "
+      className="card  gitmoji-zap"
     >
       <header
-        className="zap cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -122,9 +119,6 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :zap:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline zap"
-          />
         </button>
         <p>
           Improve performance.
@@ -136,10 +130,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-3"
   >
     <div
-      className="card "
+      className="card  gitmoji-fire"
     >
       <header
-        className="fire cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -161,9 +155,6 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :fire:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline fire"
-          />
         </button>
         <p>
           Remove code or files.
@@ -175,10 +166,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-3"
   >
     <div
-      className="card "
+      className="card  gitmoji-bug"
     >
       <header
-        className="bug cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -200,9 +191,6 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :bug:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline bug"
-          />
         </button>
         <p>
           Fix a bug.
@@ -214,10 +202,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-3"
   >
     <div
-      className="card "
+      className="card  gitmoji-ambulance"
     >
       <header
-        className="ambulance cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -239,9 +227,6 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :ambulance:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline ambulance"
-          />
         </button>
         <p>
           Critical hotfix.
@@ -253,10 +238,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-3"
   >
     <div
-      className="card "
+      className="card  gitmoji-sparkles"
     >
       <header
-        className="sparkles cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -278,9 +263,6 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           <code>
             :sparkles:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline sparkles"
-          />
         </button>
         <p>
           Introduce new features.
@@ -297,7 +279,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
   id="gitmoji-list"
 >
   <style>
-    .adhesive-bandage { background-color: #fbcfb7 }.alembic { background-color: #7f39fb }.alien { background-color: #c5e763 }.ambulance { background-color: #fb584a }.animation { background-color: #ffdb3a }.arrow-down { background-color: #ef5350 }.arrow-up { background-color: #00e676 }.art { background-color: #ff7281 }.beers { background-color: #fbb64b }.bento { background-color: #ff5864 }.bookmark { background-color: #80deea }.boom { background-color: #f94f28 }.bug { background-color: #8cd842 }.building-construction { background-color: #ffe55f }.bulb { background-color: #ffce49 }.busts-in-silhouette { background-color: #ffce49 }.camera-flash { background-color: #00a9f0 }.card-file-box { background-color: #c5e763 }.chart-with-upwards-trend { background-color: #cedae6 }.children-crossing { background-color: #ffce49 }.clown-face { background-color: #ff7281 }.construction-worker { background-color: #64b5f6 }.construction { background-color: #ffb74d }.egg { background-color: #77e856 }.fire { background-color: #ff9d44 }.globe-with-meridians { background-color: #e7f4ff }.goal-net { background-color: #c7cb12 }.green-heart { background-color: #c5e763 }.hammer { background-color: #ffc400 }.heavy-minus-sign { background-color: #ef5350 }.heavy-plus-sign { background-color: #00e676 }.iphone { background-color: #40c4ff }.label { background-color: #cb63e6 }.lipstick { background-color: #80deea }.lock { background-color: #ffce49 }.loud-sound { background-color: #23b4d2 }.mag { background-color: #ffe55f }.memo { background-color: #00e676 }.mute { background-color: #e6ebef }.ok-hand { background-color: #c5e763 }.package { background-color: #fdd0ae }.page-facing-up { background-color: #d9e3e8 }.passport-control { background-color: #4dc6dc }.pencil { background-color: #ffce49 }.pencil2 { background-color: #ffce49 }.poop { background-color: #a78674 }.pushpin { background-color: #39c2f1 }.recycle { background-color: #77e856 }.rewind { background-color: #56d1d8 }.rocket { background-color: #00a9f0 }.rotating-light { background-color: #536dfe }.see-no-evil { background-color: #8bdfe7 }.seedling { background-color: #c5e763 }.sparkles { background-color: #ffe55f }.speech-balloon { background-color: #cedae6 }.tada { background-color: #f74d5f }.triangular-flag-on-post { background-color: #ffce49 }.truck { background-color: #ef584a }.twisted-rightwards-arrows { background-color: #56d1d8 }.wastebasket { background-color: #d9e3e8 }.wheelchair { background-color: #00b1fb }.white-check-mark { background-color: #77e856 }.wrench { background-color: #ffc400 }.zap { background-color: #40c4ff }.monocle-face { background-color: #ffe55f }
+    .gitmoji-adhesive-bandage header, .gitmoji-adhesive-bandage .gitmoji-clipboard-code:hover { background-color: #fbcfb7 }.gitmoji-alembic header, .gitmoji-alembic .gitmoji-clipboard-code:hover { background-color: #7f39fb }.gitmoji-alien header, .gitmoji-alien .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-ambulance header, .gitmoji-ambulance .gitmoji-clipboard-code:hover { background-color: #fb584a }.gitmoji-animation header, .gitmoji-animation .gitmoji-clipboard-code:hover { background-color: #ffdb3a }.gitmoji-arrow-down header, .gitmoji-arrow-down .gitmoji-clipboard-code:hover { background-color: #ef5350 }.gitmoji-arrow-up header, .gitmoji-arrow-up .gitmoji-clipboard-code:hover { background-color: #00e676 }.gitmoji-art header, .gitmoji-art .gitmoji-clipboard-code:hover { background-color: #ff7281 }.gitmoji-beers header, .gitmoji-beers .gitmoji-clipboard-code:hover { background-color: #fbb64b }.gitmoji-bento header, .gitmoji-bento .gitmoji-clipboard-code:hover { background-color: #ff5864 }.gitmoji-bookmark header, .gitmoji-bookmark .gitmoji-clipboard-code:hover { background-color: #80deea }.gitmoji-boom header, .gitmoji-boom .gitmoji-clipboard-code:hover { background-color: #f94f28 }.gitmoji-bug header, .gitmoji-bug .gitmoji-clipboard-code:hover { background-color: #8cd842 }.gitmoji-building-construction header, .gitmoji-building-construction .gitmoji-clipboard-code:hover { background-color: #ffe55f }.gitmoji-bulb header, .gitmoji-bulb .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-busts-in-silhouette header, .gitmoji-busts-in-silhouette .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-camera-flash header, .gitmoji-camera-flash .gitmoji-clipboard-code:hover { background-color: #00a9f0 }.gitmoji-card-file-box header, .gitmoji-card-file-box .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-chart-with-upwards-trend header, .gitmoji-chart-with-upwards-trend .gitmoji-clipboard-code:hover { background-color: #cedae6 }.gitmoji-children-crossing header, .gitmoji-children-crossing .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-clown-face header, .gitmoji-clown-face .gitmoji-clipboard-code:hover { background-color: #ff7281 }.gitmoji-construction-worker header, .gitmoji-construction-worker .gitmoji-clipboard-code:hover { background-color: #64b5f6 }.gitmoji-construction header, .gitmoji-construction .gitmoji-clipboard-code:hover { background-color: #ffb74d }.gitmoji-egg header, .gitmoji-egg .gitmoji-clipboard-code:hover { background-color: #77e856 }.gitmoji-fire header, .gitmoji-fire .gitmoji-clipboard-code:hover { background-color: #ff9d44 }.gitmoji-globe-with-meridians header, .gitmoji-globe-with-meridians .gitmoji-clipboard-code:hover { background-color: #e7f4ff }.gitmoji-goal-net header, .gitmoji-goal-net .gitmoji-clipboard-code:hover { background-color: #c7cb12 }.gitmoji-green-heart header, .gitmoji-green-heart .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-hammer header, .gitmoji-hammer .gitmoji-clipboard-code:hover { background-color: #ffc400 }.gitmoji-heavy-minus-sign header, .gitmoji-heavy-minus-sign .gitmoji-clipboard-code:hover { background-color: #ef5350 }.gitmoji-heavy-plus-sign header, .gitmoji-heavy-plus-sign .gitmoji-clipboard-code:hover { background-color: #00e676 }.gitmoji-iphone header, .gitmoji-iphone .gitmoji-clipboard-code:hover { background-color: #40c4ff }.gitmoji-label header, .gitmoji-label .gitmoji-clipboard-code:hover { background-color: #cb63e6 }.gitmoji-lipstick header, .gitmoji-lipstick .gitmoji-clipboard-code:hover { background-color: #80deea }.gitmoji-lock header, .gitmoji-lock .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-loud-sound header, .gitmoji-loud-sound .gitmoji-clipboard-code:hover { background-color: #23b4d2 }.gitmoji-mag header, .gitmoji-mag .gitmoji-clipboard-code:hover { background-color: #ffe55f }.gitmoji-memo header, .gitmoji-memo .gitmoji-clipboard-code:hover { background-color: #00e676 }.gitmoji-mute header, .gitmoji-mute .gitmoji-clipboard-code:hover { background-color: #e6ebef }.gitmoji-ok-hand header, .gitmoji-ok-hand .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-package header, .gitmoji-package .gitmoji-clipboard-code:hover { background-color: #fdd0ae }.gitmoji-page-facing-up header, .gitmoji-page-facing-up .gitmoji-clipboard-code:hover { background-color: #d9e3e8 }.gitmoji-passport-control header, .gitmoji-passport-control .gitmoji-clipboard-code:hover { background-color: #4dc6dc }.gitmoji-pencil header, .gitmoji-pencil .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-pencil2 header, .gitmoji-pencil2 .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-poop header, .gitmoji-poop .gitmoji-clipboard-code:hover { background-color: #a78674 }.gitmoji-pushpin header, .gitmoji-pushpin .gitmoji-clipboard-code:hover { background-color: #39c2f1 }.gitmoji-recycle header, .gitmoji-recycle .gitmoji-clipboard-code:hover { background-color: #77e856 }.gitmoji-rewind header, .gitmoji-rewind .gitmoji-clipboard-code:hover { background-color: #56d1d8 }.gitmoji-rocket header, .gitmoji-rocket .gitmoji-clipboard-code:hover { background-color: #00a9f0 }.gitmoji-rotating-light header, .gitmoji-rotating-light .gitmoji-clipboard-code:hover { background-color: #536dfe }.gitmoji-see-no-evil header, .gitmoji-see-no-evil .gitmoji-clipboard-code:hover { background-color: #8bdfe7 }.gitmoji-seedling header, .gitmoji-seedling .gitmoji-clipboard-code:hover { background-color: #c5e763 }.gitmoji-sparkles header, .gitmoji-sparkles .gitmoji-clipboard-code:hover { background-color: #ffe55f }.gitmoji-speech-balloon header, .gitmoji-speech-balloon .gitmoji-clipboard-code:hover { background-color: #cedae6 }.gitmoji-tada header, .gitmoji-tada .gitmoji-clipboard-code:hover { background-color: #f74d5f }.gitmoji-triangular-flag-on-post header, .gitmoji-triangular-flag-on-post .gitmoji-clipboard-code:hover { background-color: #ffce49 }.gitmoji-truck header, .gitmoji-truck .gitmoji-clipboard-code:hover { background-color: #ef584a }.gitmoji-twisted-rightwards-arrows header, .gitmoji-twisted-rightwards-arrows .gitmoji-clipboard-code:hover { background-color: #56d1d8 }.gitmoji-wastebasket header, .gitmoji-wastebasket .gitmoji-clipboard-code:hover { background-color: #d9e3e8 }.gitmoji-wheelchair header, .gitmoji-wheelchair .gitmoji-clipboard-code:hover { background-color: #00b1fb }.gitmoji-white-check-mark header, .gitmoji-white-check-mark .gitmoji-clipboard-code:hover { background-color: #77e856 }.gitmoji-wrench header, .gitmoji-wrench .gitmoji-clipboard-code:hover { background-color: #ffc400 }.gitmoji-zap header, .gitmoji-zap .gitmoji-clipboard-code:hover { background-color: #40c4ff }.gitmoji-monocle-face header, .gitmoji-monocle-face .gitmoji-clipboard-code:hover { background-color: #ffe55f }
   </style>
   <div
     className="col-xs-12"
@@ -349,10 +331,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-4"
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-art"
     >
       <header
-        className="art cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -374,9 +356,6 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :art:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline art"
-          />
         </button>
         <p>
           Improve structure / format of the code.
@@ -388,10 +367,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-4"
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-zap"
     >
       <header
-        className="zap cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -413,9 +392,6 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :zap:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline zap"
-          />
         </button>
         <p>
           Improve performance.
@@ -427,10 +403,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-4"
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-fire"
     >
       <header
-        className="fire cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -452,9 +428,6 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :fire:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline fire"
-          />
         </button>
         <p>
           Remove code or files.
@@ -466,10 +439,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-4"
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-bug"
     >
       <header
-        className="bug cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -491,9 +464,6 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :bug:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline bug"
-          />
         </button>
         <p>
           Fix a bug.
@@ -505,10 +475,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-4"
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-ambulance"
     >
       <header
-        className="ambulance cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -530,9 +500,6 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :ambulance:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline ambulance"
-          />
         </button>
         <p>
           Critical hotfix.
@@ -544,10 +511,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     className="emoji col-xs-12 col-sm-6 col-md-4"
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-sparkles"
     >
       <header
-        className="sparkles cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -569,9 +536,6 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           <code>
             :sparkles:
           </code>
-          <span
-            className="gitmoji-clipboard-code-underline sparkles"
-          />
         </button>
         <p>
           Introduce new features.

@@ -18,9 +18,11 @@ const Gitmoji = (props: Props): Element<'article'> => (
     }`}
   >
     <div
-      className={`${styles.card} ${props.isListMode ? styles.cardList : ''}`}
+      className={`${styles.card} ${
+        props.isListMode ? styles.cardList : ''
+      } gitmoji-${props.name}`}
     >
-      <header className={`${props.name} ${styles.cardHeader}`}>
+      <header className={`${styles.cardHeader}`}>
         <button
           type="button"
           className={`gitmoji-clipboard-emoji ${styles.gitmoji}`}
@@ -37,7 +39,6 @@ const Gitmoji = (props: Props): Element<'article'> => (
           type="button"
         >
           <code>{props.code}</code>
-          <span className={`gitmoji-clipboard-code-underline ${props.name}`} />
         </button>
         <p>{props.description}</p>
       </div>
