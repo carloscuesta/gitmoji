@@ -542,7 +542,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-art"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -583,7 +583,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-zap"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -624,7 +624,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-fire"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -665,7 +665,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-bug"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -706,7 +706,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-ambulance"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -747,7 +747,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-sparkles"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -788,7 +788,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-memo"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -829,7 +829,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-rocket"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -870,7 +870,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-lipstick"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -911,7 +911,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-tada"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -952,7 +952,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-white-check-mark"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -993,7 +993,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-lock"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1034,7 +1034,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-bookmark"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1075,7 +1075,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-rotating-light"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1116,7 +1116,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-construction"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1157,7 +1157,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-green-heart"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1198,7 +1198,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-arrow-down"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1239,7 +1239,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-arrow-up"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1280,7 +1280,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-pushpin"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1321,7 +1321,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-construction-worker"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1362,7 +1362,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-chart-with-upwards-trend"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1403,7 +1403,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-recycle"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1444,7 +1444,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-heavy-plus-sign"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1485,7 +1485,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-heavy-minus-sign"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1526,7 +1526,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-wrench"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1567,7 +1567,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-hammer"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1608,7 +1608,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-globe-with-meridians"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1649,7 +1649,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-pencil2"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1690,7 +1690,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-poop"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1731,7 +1731,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-rewind"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1772,7 +1772,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-twisted-rightwards-arrows"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1813,7 +1813,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-package"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1854,7 +1854,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-alien"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1895,7 +1895,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-truck"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1936,7 +1936,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-page-facing-up"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -1977,7 +1977,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-boom"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2018,7 +2018,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-bento"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2059,7 +2059,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-wheelchair"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2100,7 +2100,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-bulb"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2141,7 +2141,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-beers"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2182,7 +2182,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-speech-balloon"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2223,7 +2223,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-card-file-box"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2264,7 +2264,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-loud-sound"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2305,7 +2305,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-mute"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2346,7 +2346,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-busts-in-silhouette"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2387,7 +2387,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-children-crossing"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2428,7 +2428,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-building-construction"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2469,7 +2469,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-iphone"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2510,7 +2510,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-clown-face"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2551,7 +2551,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-egg"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2592,7 +2592,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-see-no-evil"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2633,7 +2633,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-camera-flash"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2674,7 +2674,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-alembic"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2715,7 +2715,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-mag"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2756,7 +2756,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-label"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2797,7 +2797,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-seedling"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2838,7 +2838,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-triangular-flag-on-post"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2879,7 +2879,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-goal-net"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2920,7 +2920,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-animation"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -2961,7 +2961,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-wastebasket"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -3002,7 +3002,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-passport-control"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -3043,7 +3043,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-adhesive-bandage"
+        className="card "
       >
         <header
           className="cardHeader"
@@ -3084,7 +3084,7 @@ exports[`Pages Index should render the page 1`] = `
       }
     >
       <div
-        className="card  gitmoji-monocle-face"
+        className="card "
       >
         <header
           className="cardHeader"

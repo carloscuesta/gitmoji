@@ -20,9 +20,7 @@ const Gitmoji = (props: Props): Element<'article'> => (
     }`}
   >
     <div
-      className={`${styles.card} ${
-        props.isListMode ? styles.cardList : ''
-      } gitmoji-${props.name}`}
+      className={`${styles.card} ${props.isListMode ? styles.cardList : ''}`}
     >
       <header className={`${styles.cardHeader}`}>
         <button
