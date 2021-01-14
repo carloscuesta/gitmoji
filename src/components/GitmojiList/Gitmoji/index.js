@@ -1,6 +1,7 @@
 // @flow
 import React, { type Element } from 'react'
 
+import emojiColorsMap from '../emojiColorsMap'
 import styles from './styles.module.css'
 
 type Props = {
@@ -13,14 +14,17 @@ type Props = {
 
 const Gitmoji = (props: Props): Element<'article'> => (
   <article
+    style={{ '--emojiColor': emojiColorsMap[props.name] }}
     className={`${styles.emoji} col-xs-12 col-sm-6 ${
       props.isListMode ? 'col-md-4' : 'col-md-3'
     }`}
   >
     <div
-      className={`${styles.card} ${props.isListMode ? styles.cardList : ''}`}
+      className={`${styles.card} ${
+        props.isListMode ? styles.cardList : ''
+      } gitmoji-${props.name}`}
     >
-      <header className={`${props.name} ${styles.cardHeader}`}>
+      <header className={`${styles.cardHeader}`}>
         <button
           type="button"
           className={`gitmoji-clipboard-emoji ${styles.gitmoji}`}

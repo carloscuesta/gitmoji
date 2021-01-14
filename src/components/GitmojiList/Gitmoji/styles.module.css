@@ -54,6 +54,7 @@
 }
 
 .cardHeader {
+  background-color: var(--emojiColor);
   align-self: flex-start;
   padding-top: 2em;
   padding-bottom: 0.85em;
@@ -86,9 +87,27 @@
 }
 
 .gitmojiCode {
+  display: inline-block;
+  position: relative;
   border-radius: 4px;
   transition-duration: 0.3s;
   cursor: pointer;
+}
+
+.gitmojiCode::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0.2em;
+  border-radius: 4px;
+  transition: width 0.15s;
+  background-color: var(--emojiColor);
+}
+
+.gitmojiCode:hover::after {
+  width: 100%;
 }
 
 .gitmojiInfo {
@@ -110,5 +129,35 @@
 
   .cardHeader {
     padding-bottom: 1em;
+  }
+}
+
+/*
+  This code has been obtained from:
+  https://github.com/daneden/animate.css/blob/master/source/attention_seekers/bounce.css
+*/
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -9px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -2px, 0);
   }
 }

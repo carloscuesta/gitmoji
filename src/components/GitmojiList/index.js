@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
-import emojiColorsMap from './emojiColorsMap'
 
 type Props = {
   gitmojis: Array<{
@@ -69,14 +68,6 @@ const GitmojiList = (props: Props): Element<'div'> => {
 
   return (
     <div className="row" id="gitmoji-list">
-      <style>
-        {Object.entries(emojiColorsMap)
-          .map(
-            ([key, color]: Object) => `.${key} { background-color: ${color} }`
-          )
-          .reduce((memo, value) => memo + value, '')}
-      </style>
-
       <div className="col-xs-12">
         <Toolbar
           isListMode={isListMode}

@@ -5,9 +5,6 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
   className="row"
   id="gitmoji-list"
 >
-  <style>
-    .adhesive-bandage { background-color: #fbcfb7 }.alembic { background-color: #7f39fb }.alien { background-color: #c5e763 }.ambulance { background-color: #fb584a }.animation { background-color: #ffdb3a }.arrow-down { background-color: #ef5350 }.arrow-up { background-color: #00e676 }.art { background-color: #ff7281 }.beers { background-color: #fbb64b }.bento { background-color: #ff5864 }.bookmark { background-color: #80deea }.boom { background-color: #f94f28 }.bug { background-color: #8cd842 }.building-construction { background-color: #ffe55f }.bulb { background-color: #ffce49 }.busts-in-silhouette { background-color: #ffce49 }.camera-flash { background-color: #00a9f0 }.card-file-box { background-color: #c5e763 }.chart-with-upwards-trend { background-color: #cedae6 }.children-crossing { background-color: #ffce49 }.clown-face { background-color: #ff7281 }.construction-worker { background-color: #64b5f6 }.construction { background-color: #ffb74d }.egg { background-color: #77e856 }.fire { background-color: #ff9d44 }.globe-with-meridians { background-color: #e7f4ff }.goal-net { background-color: #c7cb12 }.green-heart { background-color: #c5e763 }.hammer { background-color: #ffc400 }.heavy-minus-sign { background-color: #ef5350 }.heavy-plus-sign { background-color: #00e676 }.iphone { background-color: #40c4ff }.label { background-color: #cb63e6 }.lipstick { background-color: #80deea }.lock { background-color: #ffce49 }.loud-sound { background-color: #23b4d2 }.mag { background-color: #ffe55f }.memo { background-color: #00e676 }.mute { background-color: #e6ebef }.ok-hand { background-color: #c5e763 }.package { background-color: #fdd0ae }.page-facing-up { background-color: #d9e3e8 }.passport-control { background-color: #4dc6dc }.pencil { background-color: #ffce49 }.pencil2 { background-color: #ffce49 }.poop { background-color: #a78674 }.pushpin { background-color: #39c2f1 }.recycle { background-color: #77e856 }.rewind { background-color: #56d1d8 }.rocket { background-color: #00a9f0 }.rotating-light { background-color: #536dfe }.see-no-evil { background-color: #8bdfe7 }.seedling { background-color: #c5e763 }.sparkles { background-color: #ffe55f }.speech-balloon { background-color: #cedae6 }.tada { background-color: #f74d5f }.triangular-flag-on-post { background-color: #ffce49 }.truck { background-color: #ef584a }.twisted-rightwards-arrows { background-color: #56d1d8 }.wastebasket { background-color: #d9e3e8 }.wheelchair { background-color: #00b1fb }.white-check-mark { background-color: #77e856 }.wrench { background-color: #ffc400 }.zap { background-color: #40c4ff }.monocle-face { background-color: #ffe55f }
-  </style>
   <div
     className="col-xs-12"
   >
@@ -56,12 +53,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
   </div>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#ff7281",
+      }
+    }
   >
     <div
-      className="card "
+      className="card  gitmoji-art"
     >
       <header
-        className="art cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -92,12 +94,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#40c4ff",
+      }
+    }
   >
     <div
-      className="card "
+      className="card  gitmoji-zap"
     >
       <header
-        className="zap cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -128,12 +135,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#ff9d44",
+      }
+    }
   >
     <div
-      className="card "
+      className="card  gitmoji-fire"
     >
       <header
-        className="fire cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -164,12 +176,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#8cd842",
+      }
+    }
   >
     <div
-      className="card "
+      className="card  gitmoji-bug"
     >
       <header
-        className="bug cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -200,12 +217,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#fb584a",
+      }
+    }
   >
     <div
-      className="card "
+      className="card  gitmoji-ambulance"
     >
       <header
-        className="ambulance cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -236,12 +258,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#ffe55f",
+      }
+    }
   >
     <div
-      className="card "
+      className="card  gitmoji-sparkles"
     >
       <header
-        className="sparkles cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -278,9 +305,6 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
   className="row"
   id="gitmoji-list"
 >
-  <style>
-    .adhesive-bandage { background-color: #fbcfb7 }.alembic { background-color: #7f39fb }.alien { background-color: #c5e763 }.ambulance { background-color: #fb584a }.animation { background-color: #ffdb3a }.arrow-down { background-color: #ef5350 }.arrow-up { background-color: #00e676 }.art { background-color: #ff7281 }.beers { background-color: #fbb64b }.bento { background-color: #ff5864 }.bookmark { background-color: #80deea }.boom { background-color: #f94f28 }.bug { background-color: #8cd842 }.building-construction { background-color: #ffe55f }.bulb { background-color: #ffce49 }.busts-in-silhouette { background-color: #ffce49 }.camera-flash { background-color: #00a9f0 }.card-file-box { background-color: #c5e763 }.chart-with-upwards-trend { background-color: #cedae6 }.children-crossing { background-color: #ffce49 }.clown-face { background-color: #ff7281 }.construction-worker { background-color: #64b5f6 }.construction { background-color: #ffb74d }.egg { background-color: #77e856 }.fire { background-color: #ff9d44 }.globe-with-meridians { background-color: #e7f4ff }.goal-net { background-color: #c7cb12 }.green-heart { background-color: #c5e763 }.hammer { background-color: #ffc400 }.heavy-minus-sign { background-color: #ef5350 }.heavy-plus-sign { background-color: #00e676 }.iphone { background-color: #40c4ff }.label { background-color: #cb63e6 }.lipstick { background-color: #80deea }.lock { background-color: #ffce49 }.loud-sound { background-color: #23b4d2 }.mag { background-color: #ffe55f }.memo { background-color: #00e676 }.mute { background-color: #e6ebef }.ok-hand { background-color: #c5e763 }.package { background-color: #fdd0ae }.page-facing-up { background-color: #d9e3e8 }.passport-control { background-color: #4dc6dc }.pencil { background-color: #ffce49 }.pencil2 { background-color: #ffce49 }.poop { background-color: #a78674 }.pushpin { background-color: #39c2f1 }.recycle { background-color: #77e856 }.rewind { background-color: #56d1d8 }.rocket { background-color: #00a9f0 }.rotating-light { background-color: #536dfe }.see-no-evil { background-color: #8bdfe7 }.seedling { background-color: #c5e763 }.sparkles { background-color: #ffe55f }.speech-balloon { background-color: #cedae6 }.tada { background-color: #f74d5f }.triangular-flag-on-post { background-color: #ffce49 }.truck { background-color: #ef584a }.twisted-rightwards-arrows { background-color: #56d1d8 }.wastebasket { background-color: #d9e3e8 }.wheelchair { background-color: #00b1fb }.white-check-mark { background-color: #77e856 }.wrench { background-color: #ffc400 }.zap { background-color: #40c4ff }.monocle-face { background-color: #ffe55f }
-  </style>
   <div
     className="col-xs-12"
   >
@@ -329,12 +353,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
   </div>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-4"
+    style={
+      Object {
+        "--emojiColor": "#ff7281",
+      }
+    }
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-art"
     >
       <header
-        className="art cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -365,12 +394,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-4"
+    style={
+      Object {
+        "--emojiColor": "#40c4ff",
+      }
+    }
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-zap"
     >
       <header
-        className="zap cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -401,12 +435,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-4"
+    style={
+      Object {
+        "--emojiColor": "#ff9d44",
+      }
+    }
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-fire"
     >
       <header
-        className="fire cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -437,12 +476,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-4"
+    style={
+      Object {
+        "--emojiColor": "#8cd842",
+      }
+    }
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-bug"
     >
       <header
-        className="bug cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -473,12 +517,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-4"
+    style={
+      Object {
+        "--emojiColor": "#fb584a",
+      }
+    }
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-ambulance"
     >
       <header
-        className="ambulance cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
@@ -509,12 +558,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-4"
+    style={
+      Object {
+        "--emojiColor": "#ffe55f",
+      }
+    }
   >
     <div
-      className="card cardList"
+      className="card cardList gitmoji-sparkles"
     >
       <header
-        className="sparkles cardHeader"
+        className="cardHeader"
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
