@@ -52,16 +52,12 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </div>
   <article
-<<<<<<< HEAD
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="emoji col-xs-12 col-sm-6 col-md-4"
     style={
       Object {
         "--emojiColor": "#ff7281",
       }
     }
-=======
-    className="emoji col-xs-12 col-sm-6 col-md-4"
->>>>>>> Fix test snapshots and use guidelines
   >
     <div
       className="card cardList"
@@ -97,16 +93,12 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
-<<<<<<< HEAD
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="emoji col-xs-12 col-sm-6 col-md-4"
     style={
       Object {
         "--emojiColor": "#40c4ff",
       }
     }
-=======
-    className="emoji col-xs-12 col-sm-6 col-md-4"
->>>>>>> Fix test snapshots and use guidelines
   >
     <div
       className="card cardList"
@@ -142,16 +134,12 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
-<<<<<<< HEAD
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="emoji col-xs-12 col-sm-6 col-md-4"
     style={
       Object {
         "--emojiColor": "#ff9d44",
       }
     }
-=======
-    className="emoji col-xs-12 col-sm-6 col-md-4"
->>>>>>> Fix test snapshots and use guidelines
   >
     <div
       className="card cardList"
@@ -187,16 +175,12 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
-<<<<<<< HEAD
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="emoji col-xs-12 col-sm-6 col-md-4"
     style={
       Object {
         "--emojiColor": "#8cd842",
       }
     }
-=======
-    className="emoji col-xs-12 col-sm-6 col-md-4"
->>>>>>> Fix test snapshots and use guidelines
   >
     <div
       className="card cardList"
@@ -232,16 +216,12 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
-<<<<<<< HEAD
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="emoji col-xs-12 col-sm-6 col-md-4"
     style={
       Object {
         "--emojiColor": "#fb584a",
       }
     }
-=======
-    className="emoji col-xs-12 col-sm-6 col-md-4"
->>>>>>> Fix test snapshots and use guidelines
   >
     <div
       className="card cardList"
@@ -277,16 +257,12 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </article>
   <article
-<<<<<<< HEAD
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="emoji col-xs-12 col-sm-6 col-md-4"
     style={
       Object {
         "--emojiColor": "#ffe55f",
       }
     }
-=======
-    className="emoji col-xs-12 col-sm-6 col-md-4"
->>>>>>> Fix test snapshots and use guidelines
   >
     <div
       className="card cardList"
@@ -376,7 +352,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     </div>
   </div>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-4"
+    className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#ff7281",
@@ -417,7 +393,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-4"
+    className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#40c4ff",
@@ -458,7 +434,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-4"
+    className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#ff9d44",
@@ -499,7 +475,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-4"
+    className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#8cd842",
@@ -540,7 +516,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-4"
+    className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#fb584a",
@@ -581,7 +557,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-4"
+    className="emoji col-xs-12 col-sm-6 col-md-3"
     style={
       Object {
         "--emojiColor": "#ffe55f",
