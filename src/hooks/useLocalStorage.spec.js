@@ -4,12 +4,17 @@ import renderer from 'react-test-renderer'
 
 function setup(...args) {
   let returnValue
+
   function TestComponent() {
     returnValue = useLocalStorage(...args)
-    return null
+    return returnValue[0]
   }
-  renderer.create(<TestComponent />)
-  return returnValue
+
+  renderer.act(() => {
+    renderer.create(<TestComponent />)
+  })
+
+  return returnValue || []
 }
 
 describe('useLocalStorage hook', () => {
@@ -17,25 +22,30 @@ describe('useLocalStorage hook', () => {
     window.localStorage.clear()
   })
 
-  it('should return value and setter function', () => {
-    const [value, setValue] = setup('key', 'value')
+  describe('when its initialized', () => {
+    it('should return value and setter function', async () => {
+      const [value, setValue] = setup('key', 'value')
 
-    expect(value).toBe('value')
-    expect(typeof setValue).toBe('function')
+      expect(value).toBe('value')
+      expect(typeof setValue).toBe('function')
+    })
   })
 
-  it('should return value from local storage if exists', () => {
-    window.localStorage.setItem('key1', false)
-    const [value, setValue] = setup('key1', true)
+  describe('when there is already a value on local storage', () => {
+    it('should return persisted value if exists', () => {
+      window.localStorage.setItem('key1', false)
 
-    expect(value).toBe(false)
+      const [value, setValue] = setup('key1', true)
+
+      expect(value).toBe(false)
+    })
+
+    // it('should save value', () => {
+    //   const [value, setValue] = setup('key2', true)
+
+    //   setValue(false)
+
+    //   expect(value).toBe(false)
+    // })
   })
-
-  // it('should save in local storage', () => {
-  //   const [value, setValue] = setup('key2', true)
-
-  //   setValue(false)
-
-  //   expect(value).toBe(false)
-  // })
 })
