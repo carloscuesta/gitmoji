@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
-import useLocalStorage from '../../hooks/useLocalStorage'
+import useLocalStorage from './hooks/useLocalStorage'
 
 type Props = {
   gitmojis: Array<{
@@ -19,10 +19,7 @@ type Props = {
 const GitmojiList = (props: Props): Element<'div'> => {
   const router = useRouter()
   const [searchInput, setSearchInput] = React.useState('')
-  const [isListMode, setIsListMode] = useLocalStorage<boolean>(
-    'isListMode',
-    false
-  )
+  const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
 
   const gitmojis = searchInput
     ? props.gitmojis.filter(({ code, description }) => {

@@ -7,14 +7,15 @@ export default function useLocalStorage<T>(
 ): [T, (((T) => T) | T) => void] {
   const [state, setState] = React.useState<T>(defaultValue)
 
-  React.useLayoutEffect(() => {
+  React.useEffect(() => {
     try {
       const localValue = window.localStorage.getItem(key)
+
       if (localValue !== null) {
         setState(JSON.parse(localValue))
       }
     } catch (error) {
-      console.error(`Error on load ${key} from localStorage`, error)
+      console.error(`ERROR: Loading ${key} from localStorage – ${error}`)
     }
   }, [])
 
