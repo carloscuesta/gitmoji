@@ -13,14 +13,14 @@ jest.mock('next/router', () => ({
 }))
 
 describe('GitmojiList', () => {
-  describe('when is list mode', () => {
+  describe('when is not list mode', () => {
     it('should render the component', () => {
       const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
       expect(wrapper).toMatchSnapshot()
     })
   })
 
-  describe('when is not list mode', () => {
+  describe('when is list mode', () => {
     it('should render the component', () => {
       const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
       const instance = wrapper.root
