@@ -4601,9 +4601,9 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
 next-sitemap@^1.3.16:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.4.5.tgz#009f99f279cab63ca64803830e467fae2aae2e27"
-  integrity sha512-gi7xeBiJrzcSJekT0xRh26KEEU8c+v4yenzy3BDehvm2rXzl2tOFbUoSESuQkv8iHm2Gz5WC8Og297t/VRGmkw==
+  version "1.4.13"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.4.13.tgz#2c7638f1a48a43db8aa138e53cf9c857e540052f"
+  integrity sha512-jaf6VsYHU5zIJUYiciN6xSrGqrMoT3xwrmLvCk+//B9jxg+aXqTdl3jKH9QYcHSf5aHo/skAmqMbiXZqaEfwjg==
   dependencies:
     "@corex/deepmerge" "^2.5.3"
     matcher "^3.0.0"
