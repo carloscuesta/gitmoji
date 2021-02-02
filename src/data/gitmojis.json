@@ -182,7 +182,7 @@
       "code": ":heavy_plus_sign:",
       "description": "Add a dependency.",
       "name": "heavy-plus-sign",
-      "semver": null
+      "semver": "patch"
     },
     {
       "emoji": "➖",
@@ -190,7 +190,7 @@
       "code": ":heavy_minus_sign:",
       "description": "Remove a dependency.",
       "name": "heavy-minus-sign",
-      "semver": null
+      "semver": "patch"
     },
     {
       "emoji": "🔧",
