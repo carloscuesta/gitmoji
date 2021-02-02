@@ -12,7 +12,7 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 2. Create a new branch with the feature name. (Eg: add-emoji-deploy, fix-website-header)
 3. Make your changes.
 4. Test you changes by running `yarn test`
-    - 4.1. If the snapshots are failing run `yarn test -u` and be sure that the new snapshots match your changes
+   - 4.1. If the snapshots are failing run `yarn test -u` and be sure that the new snapshots match your changes
 5. Commit your changes. Don't forget to add a commit title with an emoji and a description.
 6. Push your changes.
 7. Submit your pull request.
@@ -29,7 +29,8 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
   "entity": "entity (Ex: &#x1F440)",
   "code": ":code:",
   "description": "Enter the description for the gitmoji. Use present form for verbs.",
-  "name": "code (same as code but without ':' replace underscores for dashes _ => - )"
+  "name": "code (same as code but without ':' replace underscores for dashes _ => - )",
+  "semver": "The semantic versioning effect (can be `'major'`, `'minor'`, `'patch'` or `null` if the commit has no effect on the version)"
 }
 ```
 
