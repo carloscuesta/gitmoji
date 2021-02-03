@@ -36,6 +36,11 @@
             "type": "string",
             "id": "http://jsonschema.net/gitmojis/0/name",
             "required": true
+          },
+          "semver": {
+            "enum": ["major", "minor", "patch", null],
+            "id": "http://jsonschema.net/gitmojis/0/semver",
+            "required": true
           }
         }
       }
