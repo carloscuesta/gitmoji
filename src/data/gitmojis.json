@@ -503,6 +503,14 @@
       "description": "Data exploration/inspection.",
       "name": "monocle-face",
       "semver": null
+    },
+    {
+      "emoji": "🪦",
+      "entity": "&#x1FAA6;",
+      "code": ":headstone:",
+      "description": "Remove dead code",
+      "name": "headstone",
+      "semver": null
     }
   ]
 }
