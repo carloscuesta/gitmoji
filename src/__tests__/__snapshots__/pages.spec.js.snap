@@ -3116,6 +3116,47 @@ exports[`Pages Index should render the page 1`] = `
         </div>
       </div>
     </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#d9e3e8",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="⚰️"
+            type="button"
+          >
+            ⚰️
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":coffin:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :coffin:
+            </code>
+          </button>
+          <p>
+            Remove dead code
+          </p>
+        </div>
+      </div>
+    </article>
   </div>
 </main>
 `;
