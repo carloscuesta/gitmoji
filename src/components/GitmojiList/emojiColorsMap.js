@@ -29,6 +29,7 @@ export default {
   'goal-net': '#c7cb12',
   'green-heart': '#c5e763',
   hammer: '#ffc400',
+  headstone: '#d9e3e8',
   'heavy-minus-sign': '#ef5350',
   'heavy-plus-sign': '#00e676',
   iphone: '#40c4ff',
