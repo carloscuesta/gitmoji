@@ -1029,6 +1029,211 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
         Object {
+          "--emojiColor": "#ff7281",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🍎"
+            type="button"
+          >
+            🍎
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":apple:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :apple:
+            </code>
+          </button>
+          <p>
+            Fix something on macOS.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ff9d44",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🐧"
+            type="button"
+          >
+            🐧
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":penguin:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :penguin:
+            </code>
+          </button>
+          <p>
+            Fix something on Linux.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#56d1d8",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🏁"
+            type="button"
+          >
+            🏁
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":checkered_flag:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :checkered_flag:
+            </code>
+          </button>
+          <p>
+            Fix something on Windows.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#c5e763",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🤖"
+            type="button"
+          >
+            🤖
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":robot:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :robot:
+            </code>
+          </button>
+          <p>
+            Fix something on Android.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#d9e3e8",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🍏"
+            type="button"
+          >
+            🍏
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":green_apple:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :green_apple:
+            </code>
+          </button>
+          <p>
+            Fix something on iOS.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
           "--emojiColor": "#80deea",
         }
       }
@@ -1431,6 +1636,47 @@ exports[`Pages Index should render the page 1`] = `
           </button>
           <p>
             Refactor code.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#39c2f1",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🐳"
+            type="button"
+          >
+            🐳
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":whale:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :whale:
+            </code>
+          </button>
+          <p>
+            Work about Docker.
           </p>
         </div>
       </div>
@@ -2046,6 +2292,47 @@ exports[`Pages Index should render the page 1`] = `
           </button>
           <p>
             Add or update assets.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": undefined,
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="👌"
+            type="button"
+          >
+            👌
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":ok_hand:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :ok_hand:
+            </code>
+          </button>
+          <p>
+            Update code due to code review changes.
           </p>
         </div>
       </div>

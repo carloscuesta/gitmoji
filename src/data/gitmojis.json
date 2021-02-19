@@ -97,6 +97,46 @@
       "semver": "patch"
     },
     {
+      "emoji": "🍎",
+      "entity": "&#x1f34e;",
+      "code": ":apple:",
+      "description": "Fix something on macOS.",
+      "name": "apple",
+      "semver": "patch"
+    },
+    {
+      "emoji": "🐧",
+      "entity": "&#x1f427;",
+      "code": ":penguin:",
+      "description": "Fix something on Linux.",
+      "name": "penguin",
+      "semver": "patch"
+    },
+    {
+      "emoji": "🏁",
+      "entity": "&#x1f3c1;",
+      "code": ":checkered_flag:",
+      "description": "Fix something on Windows.",
+      "name": "checkered-flag",
+      "semver": "patch"
+    },
+    {
+      "emoji": "🤖",
+      "entity": "&#x1f916;",
+      "code": ":robot:",
+      "description": "Fix something on Android.",
+      "name": "robot",
+      "semver": "patch"
+    },
+    {
+      "emoji": "🍏",
+      "entity": "&#x1f34f;",
+      "code": ":green_apple:",
+      "description": "Fix something on iOS.",
+      "name": "green-apple",
+      "semver": "patch"
+    },
+    {
       "emoji": "🔖",
       "entity": "&#x1f516;",
       "code": ":bookmark:",
@@ -174,6 +214,14 @@
       "code": ":recycle:",
       "description": "Refactor code.",
       "name": "recycle",
+      "semver": null
+    },
+    {
+      "emoji": "🐳",
+      "entity": "&#x1f433;",
+      "code": ":whale:",
+      "description": "Work about Docker.",
+      "name": "whale",
       "semver": null
     },
     {
@@ -295,6 +343,14 @@
       "description": "Add or update assets.",
       "name": "bento",
       "semver": "patch"
+    },
+    {
+      "emoji": "👌",
+      "entity": "&#x1F44C;",
+      "code": ":ok_hand:",
+      "description": "Update code due to code review changes.",
+      "name": "ok-hand",
+      "semver": null
     },
     {
       "emoji": "♿️",
