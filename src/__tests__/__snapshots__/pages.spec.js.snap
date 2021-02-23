@@ -3152,7 +3152,7 @@ exports[`Pages Index should render the page 1`] = `
             </code>
           </button>
           <p>
-            Remove dead code
+            Remove dead code.
           </p>
         </div>
       </div>
