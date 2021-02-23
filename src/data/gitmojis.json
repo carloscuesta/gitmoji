@@ -508,7 +508,7 @@
       "emoji": "⚰️",
       "entity": "&#x26B0;",
       "code": ":coffin:",
-      "description": "Remove dead code",
+      "description": "Remove dead code.",
       "name": "coffin",
       "semver": null
     }
