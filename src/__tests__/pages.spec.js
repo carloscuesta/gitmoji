@@ -5,6 +5,8 @@ import Index from '../pages/index'
 import About from '../pages/about'
 import Contributors from '../pages/contributors'
 import RelatedTools from '../pages/related-tools'
+import GitmojisApi from '../pages/api/gitmojis'
+import gitmojisData from '../data/gitmojis.json'
 import * as stubs from './stubs'
 
 jest.mock('next/router', () => ({
@@ -52,6 +54,37 @@ describe('Pages', () => {
     it('should render the page', () => {
       const wrapper = renderer.create(<RelatedTools />)
       expect(wrapper).toMatchSnapshot()
+    })
+  })
+
+  describe('Api', () => {
+    describe('gitmojis endpoint', () => {
+      describe('when request method is GET', () => {
+        it('should set response status to 200 and gitmojis as body json', () => {
+          const request = stubs.request('GET')
+          const response = stubs.response()
+
+          GitmojisApi(request, response)
+
+          expect(response.status).toHaveBeenCalledWith(200)
+          expect(response.json).toHaveBeenCalledWith(gitmojisData)
+        })
+      })
+
+      describe('when request method is not GET', () => {
+        it('should setHeader, status 405 and end the request', () => {
+          const request = stubs.request('POST')
+          const response = stubs.response()
+
+          GitmojisApi(request, response)
+
+          expect(response.setHeader).toHaveBeenCalledWith('Allow', ['GET'])
+          expect(response.status).toHaveBeenCalledWith(405)
+          expect(response.json).toHaveBeenCalledWith({
+            error: `Error: method POST not allowed`,
+          })
+        })
+      })
     })
   })
 })
