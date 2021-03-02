@@ -3513,10 +3513,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-matcher@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/matcher/-/matcher-3.0.0.tgz#bd9060f4c5b70aa8041ccc6f80368760994f30ca"
-  integrity sha512-OkeDaAZ/bQCxeFAozM55PKcKU0yJMPGifLwV4Qgjitu+5MoAfSQN4lsLJeXZ1b8w0x+/Emda6MZgXS1jvsapng==
+matcher@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/matcher/-/matcher-4.0.0.tgz#a42a05a09aaed92e2d241eb91fddac689461ea51"
+  integrity sha512-S6x5wmcDmsDRRU/c2dkccDwQPXoFczc5+HpQ2lON8pnvHlnvHAHj5WlLVvw6n6vNyHuVugYrFohYxbS+pvFpKQ==
   dependencies:
     escape-string-regexp "^4.0.0"
 
@@ -3681,12 +3681,12 @@ natural-compare@^1.4.0:
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
 next-sitemap@^1.3.16:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.5.8.tgz#55f30371ba17dda4f7d3b7562b11aa6b0cc01050"
-  integrity sha512-udsvyH+QnD6MYMYtOYIhkeGo9umOmU+jIqf9980OLDofwhJgLDryPcRXaEiw065ajgNWK0pdnQMB5o+gT1e4xw==
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.5.10.tgz#045f6db26e1be0abcea16f46f417f858ec2f071e"
+  integrity sha512-3ytBjg5c0tnLe/kItOovrdFaTqG3RVFSFZx0CcF7gK9eHNhoYrqUP2duylgI7vq0l978uZZWQIfGF6zwKckLjw==
   dependencies:
     "@corex/deepmerge" "^2.5.3"
-    matcher "^3.0.0"
+    matcher "^4.0.0"
     minimist "^1.2.5"
 
 next@^10.0.0:
