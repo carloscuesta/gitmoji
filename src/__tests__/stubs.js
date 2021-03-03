@@ -5,6 +5,11 @@ export const appProps = {
 
 export const request = (method) => ({ method })
 
+export const requestWithQuery = (method, query) => ({
+  ...request(method),
+  query,
+})
+
 export const response = () => {
   const response = {}
 
