@@ -16,7 +16,8 @@
     "start": "next start",
     "test": "jest --coverage",
     "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
-    "prepublishOnly": "git checkout master && git pull && npm run validate:gitmojis"
+    "prepublishOnly": "git checkout master && git pull && npm run validate:gitmojis",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
@@ -64,12 +65,6 @@
       "prettier --write src/**/*.{js,json,css}",
       "git add"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run flow && npm run test"
-    }
   },
   "babel": {
     "presets": [
