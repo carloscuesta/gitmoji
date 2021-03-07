@@ -28,7 +28,7 @@
     "jest": "^26.1.0",
     "jsonlint": "^1.6.3",
     "lint-staged": "^10.0.0-1",
-    "next": "^10.0.0",
+    "next": "^10.0.8",
     "next-sitemap": "^1.3.16",
     "prettier": "2.2.1",
     "react": "^17.0.1",
