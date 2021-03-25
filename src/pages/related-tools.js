@@ -43,6 +43,11 @@ const tools: Array<{ name: string, description: string, link: string }> = [
     description: 'A Gitmoji App for macOS.',
     link: 'https://github.com/TimoZacherl/gitimoji',
   },
+  {
+    name: 'gitmoji-atom',
+    description: 'Gitmoji for Atom',
+    link: 'https://github.com/ThatXliner/gitmoji-atom',
+  },
 ]
 
 const RelatedTools = () => (
