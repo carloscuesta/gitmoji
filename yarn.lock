@@ -3513,9 +3513,9 @@ natural-compare@^1.4.0:
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
 next-sitemap@^1.3.16:
-  version "1.6.9"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.6.9.tgz#54ecfc2a6c4f7ef0a6d06a7c23d50efd298b4f6a"
-  integrity sha512-3KeFgaIrFPV6S51qkSPELOEgfl63gdpCG7ttR2XU7GsbjeNJegUbu+CUt4WoaK5mixtk6H6lEl8lM+MIf/hOWQ==
+  version "1.6.18"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.6.18.tgz#2674c7b2611b79f4f29443fe3fa9ab771ac2875e"
+  integrity sha512-EGJ38HqRAbxhmhrT3y7+KXi1odty1D/vD31sjMiK15XIYRZ9J0hWq/2wrAE6CvHwno4WbIoC3i1RBRIWHwYnxw==
   dependencies:
     "@corex/deepmerge" "^2.5.6"
     matcher "^4.0.0"
