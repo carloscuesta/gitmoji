@@ -20,6 +20,7 @@ const Toolbar = (props: Props): Element<'div'> => (
       placeholder="Search your gitmoji..."
       type="text"
       value={props.searchInput}
+      autofocus="true"
     />
 
     <ListModeSelector
