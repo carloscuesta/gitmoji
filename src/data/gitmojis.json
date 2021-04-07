@@ -33,7 +33,7 @@
       "semver": "patch"
     },
     {
-      "emoji": "🚑",
+      "emoji": "🚑️",
       "entity": "&#128657;",
       "code": ":ambulance:",
       "description": "Critical hotfix.",
@@ -89,7 +89,7 @@
       "semver": null
     },
     {
-      "emoji": "🔒",
+      "emoji": "🔒️",
       "entity": "&#x1f512;",
       "code": ":lock:",
       "description": "Fix security issues.",
@@ -233,7 +233,7 @@
       "semver": null
     },
     {
-      "emoji": "⏪",
+      "emoji": "⏪️",
       "entity": "&#9194;",
       "code": ":rewind:",
       "description": "Revert changes.",
@@ -249,7 +249,7 @@
       "semver": null
     },
     {
-      "emoji": "📦",
+      "emoji": "📦️",
       "entity": "&#1F4E6;",
       "code": ":package:",
       "description": "Add or update compiled files or packages.",
@@ -257,7 +257,7 @@
       "semver": "patch"
     },
     {
-      "emoji": "👽",
+      "emoji": "👽️",
       "entity": "&#1F47D;",
       "code": ":alien:",
       "description": "Update code due to external API changes.",
@@ -329,7 +329,7 @@
       "semver": "patch"
     },
     {
-      "emoji": "🗃",
+      "emoji": "🗃️",
       "entity": "&#128451;",
       "code": ":card_file_box:",
       "description": "Perform database related changes.",
@@ -369,7 +369,7 @@
       "semver": "patch"
     },
     {
-      "emoji": "🏗",
+      "emoji": "🏗️",
       "entity": "&#1f3d7;",
       "code": ":building_construction:",
       "description": "Make architectural changes.",
@@ -417,7 +417,7 @@
       "semver": null
     },
     {
-      "emoji": "⚗",
+      "emoji": "⚗️",
       "entity": "&#128248;",
       "code": ":alembic:",
       "description": "Perform experiments.",
@@ -425,7 +425,7 @@
       "semver": "patch"
     },
     {
-      "emoji": "🔍",
+      "emoji": "🔍️",
       "entity": "&#128269;",
       "code": ":mag:",
       "description": "Improve SEO.",
@@ -473,7 +473,7 @@
       "semver": "patch"
     },
     {
-      "emoji": "🗑",
+      "emoji": "🗑️",
       "entity": "&#x1F5D1;",
       "code": ":wastebasket:",
       "description": "Deprecate code that needs to be cleaned up.",
