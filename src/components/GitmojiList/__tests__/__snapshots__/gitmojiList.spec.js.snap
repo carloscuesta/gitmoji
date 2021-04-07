@@ -231,10 +231,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
-          data-clipboard-text="🚑"
+          data-clipboard-text="🚑️"
           type="button"
         >
-          🚑
+          🚑️
         </button>
       </header>
       <div
@@ -531,10 +531,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       >
         <button
           className="gitmoji-clipboard-emoji gitmoji"
-          data-clipboard-text="🚑"
+          data-clipboard-text="🚑️"
           type="button"
         >
-          🚑
+          🚑️
         </button>
       </header>
       <div
