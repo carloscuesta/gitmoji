@@ -713,10 +713,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🚑"
+            data-clipboard-text="🚑️"
             type="button"
           >
-            🚑
+            🚑️
           </button>
         </header>
         <div
@@ -1000,10 +1000,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔒"
+            data-clipboard-text="🔒️"
             type="button"
           >
-            🔒
+            🔒️
           </button>
         </header>
         <div
@@ -1738,10 +1738,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="⏪"
+            data-clipboard-text="⏪️"
             type="button"
           >
-            ⏪
+            ⏪️
           </button>
         </header>
         <div
@@ -1820,10 +1820,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="📦"
+            data-clipboard-text="📦️"
             type="button"
           >
-            📦
+            📦️
           </button>
         </header>
         <div
@@ -1861,10 +1861,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="👽"
+            data-clipboard-text="👽️"
             type="button"
           >
-            👽
+            👽️
           </button>
         </header>
         <div
@@ -2230,10 +2230,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🗃"
+            data-clipboard-text="🗃️"
             type="button"
           >
-            🗃
+            🗃️
           </button>
         </header>
         <div
@@ -2435,10 +2435,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🏗"
+            data-clipboard-text="🏗️"
             type="button"
           >
-            🏗
+            🏗️
           </button>
         </header>
         <div
@@ -2681,10 +2681,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="⚗"
+            data-clipboard-text="⚗️"
             type="button"
           >
-            ⚗
+            ⚗️
           </button>
         </header>
         <div
@@ -2722,10 +2722,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔍"
+            data-clipboard-text="🔍️"
             type="button"
           >
-            🔍
+            🔍️
           </button>
         </header>
         <div
@@ -2968,10 +2968,10 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🗑"
+            data-clipboard-text="🗑️"
             type="button"
           >
-            🗑
+            🗑️
           </button>
         </header>
         <div
