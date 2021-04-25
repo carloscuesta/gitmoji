@@ -16,7 +16,7 @@
     "start": "next start",
     "test": "jest --coverage",
     "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
-    "prepublishOnly": "git checkout master && git pull && npm run validate:gitmojis",
+    "prepublishOnly": "npm run validate:gitmojis",
     "prepare": "husky install"
   },
   "devDependencies": {
