@@ -2209,9 +2209,9 @@ find-up@^4.0.0, find-up@^4.1.0:
     path-exists "^4.0.0"
 
 flow-bin@^0.150.0:
-  version "0.150.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.150.0.tgz#213277bbaaf271ddc7c7b8fd2d994cd84901689e"
-  integrity sha512-s+0dcKJnZZO6mkS92YtJzBZ6vq7i1o77+NggEiiefPpCVsehwPlyRLmEnb6XN9OI5OfXp+kFnZt4q8a3zLNuUg==
+  version "0.150.1"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.150.1.tgz#a846c2e977c3af035636ce29bf1492c6b7db4ae6"
+  integrity sha512-YSAB7pJejm+8gTpucaQKrvD+Dvu1RdsAA+L/Vofn0AH1DS+vE2hBeUN+v2pcs5YJU0gjQUw9qO7j3w6KaaCglQ==
 
 for-in@^1.0.2:
   version "1.0.2"
