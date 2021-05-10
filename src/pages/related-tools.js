@@ -30,8 +30,7 @@ const tools: Array<{ name: string, description: string, link: string }> = [
     name: 'gitmoji-intellij-plugin',
     description:
       'A Jetbrains suite plugin to easily add gitmoji when committing',
-    link:
-      'https://plugins.jetbrains.com/plugin/12383-gitmoji-plus-commit-button',
+    link: 'https://plugins.jetbrains.com/plugin/12383-gitmoji-plus-commit-button',
   },
   {
     name: 'gitmoji-sublimetext',
