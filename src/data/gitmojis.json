@@ -65,6 +65,15 @@
       "semver": null
     },
     {
+
+      "emoji": "✍️",
+      "entity": "&#x270D;",
+      "code": ":writing_hand:",
+      "description": "Rewrite code.",
+      "name": "writing_hand",
+      "semver": null
+    },
+    {
       "emoji": "💄",
       "entity": "&#ff99cc;",
       "code": ":lipstick:",

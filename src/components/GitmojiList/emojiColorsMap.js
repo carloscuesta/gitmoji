@@ -23,6 +23,7 @@ export default {
   'clown-face': '#ff7281',
   'construction-worker': '#64b5f6',
   construction: '#ffb74d',
+  writing_hand: '#34ebab',
   egg: '#77e856',
   fire: '#ff9d44',
   'globe-with-meridians': '#e7f4ff',
