@@ -979,7 +979,7 @@ exports[`Pages Index should render the page 1`] = `
             </code>
           </button>
           <p>
-            Make the tests pass.
+            Add, update, or pass tests.
           </p>
         </div>
       </div>
@@ -3193,7 +3193,7 @@ exports[`Pages Index should render the page 1`] = `
             </code>
           </button>
           <p>
-            Add or update tests.
+            Add a failing test.
           </p>
         </div>
       </div>
