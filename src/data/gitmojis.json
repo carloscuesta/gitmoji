@@ -511,6 +511,14 @@
       "description": "Remove dead code.",
       "name": "coffin",
       "semver": null
+    },
+    {
+      "emoji": "🧪",
+      "entity": "&#x1F9EA;",
+      "code": ":test_tube:",
+      "description": "Add a test.",
+      "name": "test-tube",
+      "semver": null
     }
   ]
 }
