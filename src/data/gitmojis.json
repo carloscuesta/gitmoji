@@ -516,7 +516,7 @@
       "emoji": "🧪",
       "entity": "&#x1F9EA;",
       "code": ":test_tube:",
-      "description": "Add a test.",
+      "description": "Add a (failing) test.",
       "name": "test-tube",
       "semver": null
     }
