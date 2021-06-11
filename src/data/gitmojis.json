@@ -84,7 +84,7 @@
       "emoji": "✅",
       "entity": "&#x2705;",
       "code": ":white_check_mark:",
-      "description": "Add or update tests.",
+      "description": "Add, update, or pass tests.",
       "name": "white-check-mark",
       "semver": null
     },
@@ -510,6 +510,14 @@
       "code": ":coffin:",
       "description": "Remove dead code.",
       "name": "coffin",
+      "semver": null
+    },
+    {
+      "emoji": "🧪",
+      "entity": "&#x1F9EA;",
+      "code": ":test_tube:",
+      "description": "Add a failing test.",
+      "name": "test-tube",
       "semver": null
     }
   ]

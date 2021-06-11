@@ -57,6 +57,7 @@ export default {
   sparkles: '#ffe55f',
   'speech-balloon': '#cedae6',
   tada: '#f74d5f',
+  'test-tube': '#fb584a',
   'triangular-flag-on-post': '#ffce49',
   truck: '#ef584a',
   'twisted-rightwards-arrows': '#56d1d8',

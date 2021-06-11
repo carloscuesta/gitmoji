@@ -979,7 +979,7 @@ exports[`Pages Index should render the page 1`] = `
             </code>
           </button>
           <p>
-            Add or update tests.
+            Add, update, or pass tests.
           </p>
         </div>
       </div>
@@ -3153,6 +3153,47 @@ exports[`Pages Index should render the page 1`] = `
           </button>
           <p>
             Remove dead code.
+          </p>
+        </div>
+      </div>
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#fb584a",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🧪"
+            type="button"
+          >
+            🧪
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":test_tube:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :test_tube:
+            </code>
+          </button>
+          <p>
+            Add a failing test.
           </p>
         </div>
       </div>
