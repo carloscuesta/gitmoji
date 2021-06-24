@@ -519,6 +519,14 @@
       "description": "Add a failing test.",
       "name": "test-tube",
       "semver": null
+    },
+    {
+      "emoji": "🍎",
+      "entity": "&#127822;",
+      "code": ":apple:",
+      "description": "Add or update README file",
+      "name": "apple",
+      "semver": null
     }
   ]
 }
