@@ -47,6 +47,11 @@ const tools: Array<{ name: string, description: string, link: string }> = [
     description: 'Gitmoji for Atom',
     link: 'https://github.com/ThatXliner/gitmoji-atom',
   },
+  {
+    name: 'traymoji',
+    description: 'A Electron Tray App for Gitmojis',
+    link: 'https://github.com/CoenWarmer/traymoji',
+  },
 ]
 
 const RelatedTools = () => (

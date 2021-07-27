@@ -3320,6 +3320,18 @@ exports[`Pages Related tools should render the page 1`] = `
         </a>
         : Gitmoji for Atom
       </li>
+      <li>
+        <a
+          href="https://github.com/CoenWarmer/traymoji"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            traymoji
+          </b>
+        </a>
+        : A Electron Tray App for Gitmojis
+      </li>
     </ul>
   </section>
 </main>
