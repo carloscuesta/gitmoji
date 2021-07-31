@@ -9,9 +9,9 @@ public/robots.txt
 public/sitemap.xml
 
 # PWA files
-**/public/static/workbox-*.js
-**/public/static/sw.js
-**/public/static/workbox-*.js.map
-**/public/static/sw.js.map
-**/public/static/fallback-*.js
-**/public/static/fallback-*.js.map
+**/public/workbox-*.js
+**/public/sw.js
+**/public/workbox-*.js.map
+**/public/sw.js.map
+**/public/fallback-*.js
+**/public/fallback-*.js.map
