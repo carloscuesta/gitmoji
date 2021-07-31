@@ -78,5 +78,8 @@
       "src/(.*)$": "<rootDir>/src/$1"
     },
     "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "next-pwa": "^5.2.24"
   }
 }

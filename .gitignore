@@ -7,3 +7,11 @@ out/
 coverage/
 public/robots.txt
 public/sitemap.xml
+
+# PWA files
+**/public/static/workbox-*.js
+**/public/static/sw.js
+**/public/static/workbox-*.js.map
+**/public/static/sw.js.map
+**/public/static/fallback-*.js
+**/public/static/fallback-*.js.map
