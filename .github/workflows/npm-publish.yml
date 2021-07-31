@@ -1,0 +1,19 @@
+name: NPM Publish
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  npm-publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Install dependencies 📦
+      run: yarn
+    - name: Publish package to NPM 🚀
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
+      run: npm publish --token=${{ env.NPM_TOKEN }}

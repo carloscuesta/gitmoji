@@ -1,37 +1,91 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`GitmojiList should render the component 1`] = `
+exports[`GitmojiList when is list mode should render the component 1`] = `
 <div
-  className="row center-xs"
+  className="row"
   id="gitmoji-list"
 >
-  <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+  <div
+    className="col-xs-12"
   >
     <div
-      className="emoji-card"
+      className="container"
+    >
+      <input
+        className="searchInput"
+        name="searchInput"
+        onChange={[Function]}
+        placeholder="Search your gitmoji..."
+        type="text"
+        value=""
+      />
+      <div
+        className="container"
+      >
+        <button
+          className="button buttonActive"
+          disabled={true}
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-grid"
+          >
+            <use
+              xlinkHref="#icon-grid"
+            />
+          </svg>
+        </button>
+        <button
+          className="button "
+          disabled={false}
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-list"
+          >
+            <use
+              xlinkHref="#icon-list"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#ff7281",
+      }
+    }
+  >
+    <div
+      className="card "
     >
       <header
-        className="art emoji-header"
+        className="cardHeader"
       >
-        <span
-          className="emoji-icon gitmoji-emoji"
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🎨"
+          type="button"
         >
           🎨
-        </span>
+        </button>
       </header>
       <div
-        className="emoji-info"
+        className="gitmojiInfo"
       >
-        <div
-          className="gitmoji-code"
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":art:"
+          tabIndex="-1"
+          type="button"
         >
           <code>
             :art:
           </code>
-        </div>
+        </button>
         <p>
           Improve structure / format of the code.
         </p>
@@ -40,31 +94,39 @@ exports[`GitmojiList should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#40c4ff",
+      }
+    }
   >
     <div
-      className="emoji-card"
+      className="card "
     >
       <header
-        className="zap emoji-header"
+        className="cardHeader"
       >
-        <span
-          className="emoji-icon gitmoji-emoji"
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="⚡️"
+          type="button"
         >
           ⚡️
-        </span>
+        </button>
       </header>
       <div
-        className="emoji-info"
+        className="gitmojiInfo"
       >
-        <div
-          className="gitmoji-code"
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":zap:"
+          tabIndex="-1"
+          type="button"
         >
           <code>
             :zap:
           </code>
-        </div>
+        </button>
         <p>
           Improve performance.
         </p>
@@ -73,31 +135,39 @@ exports[`GitmojiList should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#ff9d44",
+      }
+    }
   >
     <div
-      className="emoji-card"
+      className="card "
     >
       <header
-        className="fire emoji-header"
+        className="cardHeader"
       >
-        <span
-          className="emoji-icon gitmoji-emoji"
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🔥"
+          type="button"
         >
           🔥
-        </span>
+        </button>
       </header>
       <div
-        className="emoji-info"
+        className="gitmojiInfo"
       >
-        <div
-          className="gitmoji-code"
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":fire:"
+          tabIndex="-1"
+          type="button"
         >
           <code>
             :fire:
           </code>
-        </div>
+        </button>
         <p>
           Remove code or files.
         </p>
@@ -106,31 +176,39 @@ exports[`GitmojiList should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#8cd842",
+      }
+    }
   >
     <div
-      className="emoji-card"
+      className="card "
     >
       <header
-        className="bug emoji-header"
+        className="cardHeader"
       >
-        <span
-          className="emoji-icon gitmoji-emoji"
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="🐛"
+          type="button"
         >
           🐛
-        </span>
+        </button>
       </header>
       <div
-        className="emoji-info"
+        className="gitmojiInfo"
       >
-        <div
-          className="gitmoji-code"
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":bug:"
+          tabIndex="-1"
+          type="button"
         >
           <code>
             :bug:
           </code>
-        </div>
+        </button>
         <p>
           Fix a bug.
         </p>
@@ -139,31 +217,39 @@ exports[`GitmojiList should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#fb584a",
+      }
+    }
   >
     <div
-      className="emoji-card"
+      className="card "
     >
       <header
-        className="ambulance emoji-header"
+        className="cardHeader"
       >
-        <span
-          className="emoji-icon gitmoji-emoji"
-          data-clipboard-text="🚑"
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
+          data-clipboard-text="🚑️"
+          type="button"
         >
-          🚑
-        </span>
+          🚑️
+        </button>
       </header>
       <div
-        className="emoji-info"
+        className="gitmojiInfo"
       >
-        <div
-          className="gitmoji-code"
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":ambulance:"
+          tabIndex="-1"
+          type="button"
         >
           <code>
             :ambulance:
           </code>
-        </div>
+        </button>
         <p>
           Critical hotfix.
         </p>
@@ -172,31 +258,339 @@ exports[`GitmojiList should render the component 1`] = `
   </article>
   <article
     className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#ffe55f",
+      }
+    }
   >
     <div
-      className="emoji-card"
+      className="card "
     >
       <header
-        className="sparkles emoji-header"
+        className="cardHeader"
       >
-        <span
-          className="emoji-icon gitmoji-emoji"
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
           data-clipboard-text="✨"
+          type="button"
         >
           ✨
-        </span>
+        </button>
       </header>
       <div
-        className="emoji-info"
+        className="gitmojiInfo"
       >
-        <div
-          className="gitmoji-code"
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
           data-clipboard-text=":sparkles:"
+          tabIndex="-1"
+          type="button"
         >
           <code>
             :sparkles:
           </code>
-        </div>
+        </button>
+        <p>
+          Introduce new features.
+        </p>
+      </div>
+    </div>
+  </article>
+</div>
+`;
+
+exports[`GitmojiList when is not list mode should render the component 1`] = `
+<div
+  className="row"
+  id="gitmoji-list"
+>
+  <div
+    className="col-xs-12"
+  >
+    <div
+      className="container"
+    >
+      <input
+        className="searchInput"
+        name="searchInput"
+        onChange={[Function]}
+        placeholder="Search your gitmoji..."
+        type="text"
+        value=""
+      />
+      <div
+        className="container"
+      >
+        <button
+          className="button buttonActive"
+          disabled={true}
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-grid"
+          >
+            <use
+              xlinkHref="#icon-grid"
+            />
+          </svg>
+        </button>
+        <button
+          className="button "
+          disabled={false}
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-list"
+          >
+            <use
+              xlinkHref="#icon-list"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#ff7281",
+      }
+    }
+  >
+    <div
+      className="card "
+    >
+      <header
+        className="cardHeader"
+      >
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
+          data-clipboard-text="🎨"
+          type="button"
+        >
+          🎨
+        </button>
+      </header>
+      <div
+        className="gitmojiInfo"
+      >
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
+          data-clipboard-text=":art:"
+          tabIndex="-1"
+          type="button"
+        >
+          <code>
+            :art:
+          </code>
+        </button>
+        <p>
+          Improve structure / format of the code.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#40c4ff",
+      }
+    }
+  >
+    <div
+      className="card "
+    >
+      <header
+        className="cardHeader"
+      >
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
+          data-clipboard-text="⚡️"
+          type="button"
+        >
+          ⚡️
+        </button>
+      </header>
+      <div
+        className="gitmojiInfo"
+      >
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
+          data-clipboard-text=":zap:"
+          tabIndex="-1"
+          type="button"
+        >
+          <code>
+            :zap:
+          </code>
+        </button>
+        <p>
+          Improve performance.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#ff9d44",
+      }
+    }
+  >
+    <div
+      className="card "
+    >
+      <header
+        className="cardHeader"
+      >
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
+          data-clipboard-text="🔥"
+          type="button"
+        >
+          🔥
+        </button>
+      </header>
+      <div
+        className="gitmojiInfo"
+      >
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
+          data-clipboard-text=":fire:"
+          tabIndex="-1"
+          type="button"
+        >
+          <code>
+            :fire:
+          </code>
+        </button>
+        <p>
+          Remove code or files.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#8cd842",
+      }
+    }
+  >
+    <div
+      className="card "
+    >
+      <header
+        className="cardHeader"
+      >
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
+          data-clipboard-text="🐛"
+          type="button"
+        >
+          🐛
+        </button>
+      </header>
+      <div
+        className="gitmojiInfo"
+      >
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
+          data-clipboard-text=":bug:"
+          tabIndex="-1"
+          type="button"
+        >
+          <code>
+            :bug:
+          </code>
+        </button>
+        <p>
+          Fix a bug.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#fb584a",
+      }
+    }
+  >
+    <div
+      className="card "
+    >
+      <header
+        className="cardHeader"
+      >
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
+          data-clipboard-text="🚑️"
+          type="button"
+        >
+          🚑️
+        </button>
+      </header>
+      <div
+        className="gitmojiInfo"
+      >
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
+          data-clipboard-text=":ambulance:"
+          tabIndex="-1"
+          type="button"
+        >
+          <code>
+            :ambulance:
+          </code>
+        </button>
+        <p>
+          Critical hotfix.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article
+    className="emoji col-xs-12 col-sm-6 col-md-3"
+    style={
+      Object {
+        "--emojiColor": "#ffe55f",
+      }
+    }
+  >
+    <div
+      className="card "
+    >
+      <header
+        className="cardHeader"
+      >
+        <button
+          className="gitmoji-clipboard-emoji gitmoji"
+          data-clipboard-text="✨"
+          type="button"
+        >
+          ✨
+        </button>
+      </header>
+      <div
+        className="gitmojiInfo"
+      >
+        <button
+          className="gitmoji-clipboard-code gitmojiCode"
+          data-clipboard-text=":sparkles:"
+          tabIndex="-1"
+          type="button"
+        >
+          <code>
+            :sparkles:
+          </code>
+        </button>
         <p>
           Introduce new features.
         </p>

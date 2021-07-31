@@ -11,10 +11,7 @@ const SEO = (props: Props): Node => (
         props.pageTitle ? '| ' + props.pageTitle + ' |' : '|'
       } An emoji guide for your commit messages`}
     </title>
-    <link
-      rel="canonical"
-      href={`https://gitmoji.carloscuesta.me${props.pageUrl || ''}`}
-    />
+    <link rel="canonical" href={`https://gitmoji.dev${props.pageUrl || ''}`} />
     <meta name="author" content="Carlos Cuesta" />
     <meta
       name="description"
@@ -29,10 +26,10 @@ const SEO = (props: Props): Node => (
     />
     <meta
       name="twitter:image"
-      content="https://gitmoji.carloscuesta.me/static/gitmoji.gif"
+      content="https://gitmoji.dev/static/gitmoji.gif"
     />
     <meta name="twitter:creator" content="@crloscuesta" />
-    <meta name="twitter:url" content="https://gitmoji.carloscuesta.me" />
+    <meta name="twitter:url" content="https://gitmoji.dev" />
     <meta property="og:title" content="gitmoji" />
     <meta
       name="og:description"
@@ -40,9 +37,9 @@ const SEO = (props: Props): Node => (
     />
     <meta
       property="og:image"
-      content="https://gitmoji.carloscuesta.me/static/gitmoji.gif"
+      content="https://gitmoji.dev/static/gitmoji.gif"
     />
-    <meta name="og:url" content="https://gitmoji.carloscuesta.me" />
+    <meta name="og:url" content="https://gitmoji.dev" />
     <meta name="robots" content="index, follow" />
     <link
       rel="apple-touch-icon"
@@ -120,6 +117,11 @@ const SEO = (props: Props): Node => (
     <meta
       name="google-site-verification"
       content="78vmlhi_erc-UGybxcGwHyiUtf04wzYExTLa-4LoWio"
+    />
+    <link
+      rel="search"
+      type="application/opensearchdescription+xml"
+      href="/static/opensearchdescription.xml"
     />
   </Head>
 )

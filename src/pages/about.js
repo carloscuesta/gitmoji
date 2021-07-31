@@ -1,15 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
 
-import '../styles/style.scss'
-import Layout from '../components/Layout'
-import Button from '../components/Button'
-import SEO from '../components/SEO'
+import CarbonAd from 'src/components/CarbonAd'
+import Button from 'src/components/Button'
+import SEO from 'src/components/SEO'
 
 const About = () => (
   <>
     <SEO pageTitle="About" pageUrl="/about" />
-    <Layout headerWithSocialButtons>
+    <main>
+      <CarbonAd />
       <section>
         <h1>About</h1>
 
@@ -44,18 +44,12 @@ const About = () => (
 
         <div>
           <Button
-            icon="star"
-            link="https://github.com/carloscuesta/gitmoji"
-            text="GitHub"
-          />
-
-          <Button
             icon="twitter"
             link={
               'https://twitter.com/intent/tweet?text=gitmoji' +
               '%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit' +
               '%20messages%20by%20%40crloscuesta%20%F0%9F%98%8D%F0%9F%98%9C' +
-              '&url=https://gitmoji.carloscuesta.me'
+              '&url=https://gitmoji.dev'
             }
             target="_blank"
             text="Tweet"
@@ -117,7 +111,7 @@ const About = () => (
           </li>
         </ol>
       </section>
-    </Layout>
+    </main>
   </>
 )
 

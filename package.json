@@ -1,6 +1,6 @@
 {
   "name": "gitmojis",
-  "version": "3.0.0",
+  "version": "3.4.0",
   "description": "An emoji guide for your commit messages.",
   "private": false,
   "main": "src/data/gitmojis.json",
@@ -11,31 +11,35 @@
     "build": "next build",
     "dev": "next dev",
     "flow": "flow",
-    "lint": "prettier --check src/**/*.{js,json,scss}",
+    "lint": "prettier --check src/**/*.{js,json,css}",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "test": "jest --coverage",
     "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
-    "prepublishOnly": "git checkout master && git pull && npm run validate:gitmojis"
+    "prepublishOnly": "npm run validate:gitmojis",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
-    "@zeit/next-sass": "^1.0.1",
     "clipboard": "^2.0.4",
-    "flow-bin": "^0.136.0",
-    "husky": "^4.2.5",
+    "flow-bin": "^0.156.0",
+    "husky": "^7.0.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^26.1.0",
+    "jest": "^27.0.1",
     "jsonlint": "^1.6.3",
-    "lint-staged": "^10.0.0-1",
-    "next": "^10.0.0",
-    "node-sass": "^4.13.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "prettier": "2.1.2",
+    "lint-staged": "^11.0.0",
+    "next": "^11.0.0",
+    "next-sitemap": "^1.3.16",
+    "prettier": "2.3.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-test-renderer": "^17.0.1"
   },
-  "author": "Carlos Cuesta",
+  "author": {
+    "name": "carloscuesta",
+    "email": "hi@carloscuesta.me",
+    "url": "https://carloscuesta.me"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/carloscuesta/gitmoji/issues"
@@ -44,7 +48,7 @@
     "type": "git",
     "url": "git+https://github.com/carloscuesta/gitmoji.git"
   },
-  "homepage": "https://gitmoji.carloscuesta.me",
+  "homepage": "https://gitmoji.dev",
   "keywords": [
     "gitmoji",
     "emoji",
@@ -58,20 +62,8 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "prettier --write src/**/*.{js,json,scss}",
+      "prettier --write src/**/*.{js,json,css}",
       "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run flow && npm run test"
-    }
-  },
-  "babel": {
-    "presets": [
-      "next/babel",
-      "@babel/preset-flow"
     ]
   },
   "jest": {
@@ -82,7 +74,9 @@
       "**/*.(spec).(js)"
     ],
     "moduleNameMapper": {
-      "\\.(scss)$": "identity-obj-proxy"
-    }
+      "^.+\\.css$": "identity-obj-proxy",
+      "src/(.*)$": "<rootDir>/src/$1"
+    },
+    "testEnvironment": "jsdom"
   }
 }

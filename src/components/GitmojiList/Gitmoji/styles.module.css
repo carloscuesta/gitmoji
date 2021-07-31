@@ -1,0 +1,163 @@
+.emoji {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: var(--cardBackground);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 var(--cardShadow);
+  flex: 1;
+  margin: 1em 0;
+  transition: all 0.25s ease-out;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cardList {
+  display: flex;
+}
+
+.cardList .gitmoji {
+  font-size: 3.5em;
+}
+
+.cardList .cardHeader {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.cardList .gitmojiInfo {
+  text-align: left;
+  padding: 1rem;
+}
+
+.cardList .gitmojiInfo p {
+  padding: 0;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 var(--cardShadow);
+  transform: translateY(-1px);
+}
+
+@media (prefers-color-scheme: dark) {
+  .card:hover {
+    box-shadow: none;
+    background-color: #3b3b3b;
+  }
+}
+
+.cardHeader {
+  background-color: var(--emojiColor);
+  align-self: flex-start;
+  padding-top: 2em;
+  padding-bottom: 0.85em;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.gitmoji,
+.gitmojiCode {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+}
+
+.gitmoji {
+  border-radius: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 5em;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
+    'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
+}
+
+.gitmoji:hover,
+.gitmoji:focus {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+}
+
+.gitmojiCode {
+  display: inline-block;
+  position: relative;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.gitmojiCode::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0.2em;
+  border-radius: 4px;
+  transition: width 0.15s;
+  background-color: var(--emojiColor);
+}
+
+.gitmojiCode:hover::after {
+  width: 100%;
+}
+
+.gitmojiInfo {
+  padding: 1.5em;
+  word-break: break-all;
+  color: var(--emojiCodeText);
+}
+
+.gitmojiInfo p {
+  color: var(--cardText);
+  word-break: normal;
+}
+
+@media (max-width: 768px) {
+  .gitmoji,
+  .cardList .gitmoji {
+    font-size: 50px;
+  }
+
+  .cardHeader {
+    padding-bottom: 1em;
+  }
+}
+
+/*
+  This code has been obtained from:
+  https://github.com/daneden/animate.css/blob/master/source/attention_seekers/bounce.css
+*/
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -9px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -2px, 0);
+  }
+}

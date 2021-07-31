@@ -11,9 +11,11 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 1. Fork [this repository](https://github.com/carloscuesta/gitmoji/fork).
 2. Create a new branch with the feature name. (Eg: add-emoji-deploy, fix-website-header)
 3. Make your changes.
-4. Commit your changes. Don't forget to add a commit title with an emoji and a description.
-5. Push your changes.
-6. Submit your pull request.
+4. Test you changes by running `yarn test`
+   - 4.1. If the snapshots are failing run `yarn test -u` and be sure that the new snapshots match your changes
+5. Commit your changes. Don't forget to add a commit title with an emoji and a description.
+6. Push your changes.
+7. Submit your pull request.
 
 ## How to add a gitmoji
 
@@ -27,15 +29,16 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
   "entity": "entity (Ex: &#x1F440)",
   "code": ":code:",
   "description": "Enter the description for the gitmoji. Use present form for verbs.",
-  "name": "code (same as code but without ':' replace underscores for dashes _ => - )"
+  "name": "code (same as code but without ':' replace underscores for dashes _ => - )",
+  "semver": "The semantic versioning effect (can be `'major'`, `'minor'`, `'patch'` or `null` if the commit has no effect on the version)"
 }
 ```
 
 If you want to find the hexadecimal entity of icon, search for it in this site: <a>http://graphemica.com/</a>
 
-Then, after that you'll need to add a new color to [the vars.scss](https://github.com/carloscuesta/gitmoji/blob/master/src/styles/_includes/_vars.scss) file.
+Then, after that you'll need to add a new color to [the emojiColorsMap.js](https://github.com/carloscuesta/gitmoji/blob/master/src/components/GitmojiList/emojiColorsMap.js) file.
 
-You must follow the convention of adding a new item to the `$gitmojis array`. That matches the name that you added at the json file.
+You must follow the convention of adding a new item to the `gitmojis object`. That matches the name that you added at the json file.
 
 ## How to start gitmoji
 
@@ -54,4 +57,4 @@ $ cd gitmoji
 $ yarn install && yarn run dev
 ```
 
-The project is built with [Next.js](http://nextjs.org) and [SCSS](http://sass-lang.com)
+The project is built with [Next.js](http://nextjs.org)
