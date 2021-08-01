@@ -67,4 +67,5 @@ export default {
   wrench: '#ffc400',
   zap: '#40c4ff',
   'monocle-face': '#ffe55f',
+  necktie: '#83beec',
 }
