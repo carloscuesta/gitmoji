@@ -110,7 +110,7 @@ const SEO = (props: Props): Node => (
       sizes="16x16"
       href="/static/favicon-16x16.png"
     />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/static/manifest.json" />
     <meta name="msapplication-TileColor" content="#FFDD67" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#FFDD67" />

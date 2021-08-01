@@ -3,6 +3,7 @@
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#FFDD67",
+  "background_color": "#FFF",
   "icons": [
     {
       "src": "/static/android-icon-36x36.png",
@@ -37,6 +38,12 @@
     {
       "src": "/static/android-icon-192x192.png",
       "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0"
+    },
+    {
+      "src": "/static/android-icon-512x512.png",
+      "sizes": "512x512",
       "type": "image/png",
       "density": "4.0"
     }
