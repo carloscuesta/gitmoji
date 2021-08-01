@@ -1,9 +1,12 @@
 import renderer from 'react-test-renderer'
+import { enableFetchMocks } from 'jest-fetch-mock'
 
 import App from '../pages/_app'
 import Index from '../pages/index'
 import About from '../pages/about'
-import Contributors from '../pages/contributors'
+import Contributors, {
+  getStaticProps as getContributorsStaticProps,
+} from '../pages/contributors'
 import RelatedTools from '../pages/related-tools'
 import GitmojisApi from '../pages/api/gitmojis'
 import gitmojisData from '../data/gitmojis.json'
@@ -44,8 +47,27 @@ describe('Pages', () => {
   })
 
   describe('Contributors', () => {
+    beforeAll(() => {
+      enableFetchMocks()
+    })
+
+    it('should fetch contributos from GitHub', async () => {
+      fetch.mockResponseOnce(JSON.stringify(stubs.contributorsMock))
+
+      const props = await getContributorsStaticProps()
+
+      expect(props).toEqual({
+        props: {
+          contributors: stubs.contributors,
+        },
+        revalidate: 3600 * 3,
+      })
+    })
+
     it('should render the page', () => {
-      const wrapper = renderer.create(<Contributors />)
+      const wrapper = renderer.create(
+        <Contributors contributors={stubs.contributors} />
+      )
       expect(wrapper).toMatchSnapshot()
     })
   })
