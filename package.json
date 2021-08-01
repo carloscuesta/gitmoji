@@ -26,6 +26,7 @@
     "husky": "^7.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.0.1",
+    "jest-fetch-mock": "^3.0.3",
     "jsonlint": "^1.6.3",
     "lint-staged": "^11.0.0",
     "next": "^11.0.0",

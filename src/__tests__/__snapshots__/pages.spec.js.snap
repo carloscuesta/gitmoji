@@ -469,7 +469,21 @@ exports[`Pages Contributors should render the page 1`] = `
     </h1>
     <div
       className="row center-xs"
-    />
+    >
+      <article
+        className="col-xs-3 col-sm-2"
+      >
+        <a
+          href="https://github.com/profile"
+          target="_blank"
+        >
+          <img
+            className="picture"
+            src="https://github.com/avatar"
+          />
+        </a>
+      </article>
+    </div>
   </section>
 </main>
 `;
