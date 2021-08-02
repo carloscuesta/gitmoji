@@ -519,6 +519,14 @@
       "description": "Add a failing test.",
       "name": "test-tube",
       "semver": null
+    },
+    {
+      "emoji": "👔",
+      "entity": "&#128084;",
+      "code": ":necktie:",
+      "description": "Add or update business logic",
+      "name": "necktie",
+      "semver": "patch"
     }
   ]
 }
