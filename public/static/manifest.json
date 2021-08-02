@@ -1,6 +1,6 @@
 {
   "name": "Gitmoji",
-  "display": "standalone",
+  "display": "minimal-ui",
   "start_url": "/",
   "theme_color": "#FFDD67",
   "background_color": "#FFF",
