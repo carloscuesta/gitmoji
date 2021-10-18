@@ -527,6 +527,14 @@
       "description": "Add or update business logic",
       "name": "necktie",
       "semver": "patch"
-    }
+    },
+    {
+      "emoji": "☁️",
+      "entity": "&#x2601;",
+      "code": ":cloud:",
+      "description": "Cloud or infrastructure related changes.",
+      "name": "cloud",
+      "semver": null
+    },
   ]
 }
