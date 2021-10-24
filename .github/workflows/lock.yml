@@ -1,7 +1,7 @@
 name: Lock Issues and PRs
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 * * *'
 jobs:
   lock:
     runs-on: ubuntu-latest
