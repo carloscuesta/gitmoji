@@ -16,6 +16,33 @@
   margin-right: 1rem;
 }
 
+.inputWrapper {
+  width: 100%;
+  margin-top: 0.357rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.kbdWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  padding: 0.425rem 1.5rem 0 0;
+}
+
+.kbd {
+  font-family: system-ui;
+  display: inline-flex;
+  align-items: center;
+  border: solid 1px;
+  padding: 0.5rem;
+  border-radius: 3px;
+  color: rgb(133, 133, 133);
+  border-color: rgb(133, 133, 133);
+}
+
 @media (prefers-color-scheme: dark) {
   .searchInput {
     background-color: var(--cardBackground);
@@ -32,5 +59,9 @@
   .container {
     flex-direction: column-reverse;
     align-items: stretch;
+  }
+
+  .kbd {
+    display: none;
   }
 }
