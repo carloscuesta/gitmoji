@@ -12,9 +12,10 @@ type Props = {
 }
 
 if (typeof window !== 'undefined') {
-  document.addEventListener('keydown', (event) => {
-    if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
-      document.querySelector('#searchInput').focus()
+  document.addEventListener('keydown', (event: KeyboardEvent) => {
+    const searchInput = document.querySelector('#searchInput')
+    if (searchInput && (event.ctrlKey || event.metaKey) && event.key === 'k') {
+      searchInput.focus()
     }
   })
 }
