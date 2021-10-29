@@ -16,7 +16,6 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       >
         <input
           className="searchInput"
-          id="searchInput"
           name="searchInput"
           onChange={[Function]}
           placeholder="Search your gitmoji..."
@@ -26,7 +25,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         <kbd
           className="kbd"
         >
-          ⌘K
+          ⌘
+           K
         </kbd>
       </div>
       <div
@@ -326,7 +326,6 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       >
         <input
           className="searchInput"
-          id="searchInput"
           name="searchInput"
           onChange={[Function]}
           placeholder="Search your gitmoji..."
@@ -336,7 +335,8 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         <kbd
           className="kbd"
         >
-          ⌘K
+          ⌘
+           K
         </kbd>
       </div>
       <div

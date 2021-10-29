@@ -512,7 +512,6 @@ exports[`Pages Index should render the page 1`] = `
         >
           <input
             className="searchInput"
-            id="searchInput"
             name="searchInput"
             onChange={[Function]}
             placeholder="Search your gitmoji..."
@@ -522,7 +521,8 @@ exports[`Pages Index should render the page 1`] = `
           <kbd
             className="kbd"
           >
-            ⌘K
+            ⌘
+             K
           </kbd>
         </div>
         <div
