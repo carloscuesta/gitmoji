@@ -27,6 +27,7 @@ describe('Layout', () => {
   })
 
   it('should render the component', () => {
+    jest.spyOn(window.navigator, 'platform', 'get').mockReturnValue('Mac')
     const wrapper = renderer.create(
       <Layout {...stubs.props}>
         <p>Some children</p>

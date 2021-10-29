@@ -20,9 +20,10 @@ const keyboardEventListener = (event: KeyboardEvent) => {
   }
 }
 
-const isMacOs =
+const isMacOs = () => {
   typeof window !== 'undefined' &&
-  window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
+    window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
+}
 
 const Toolbar = (props: Props): Element<'div'> => {
   useEffect(() => {
