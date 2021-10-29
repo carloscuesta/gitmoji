@@ -26,8 +26,8 @@
 .kbd {
   align-items: center;
   border-radius: 3px;
-  border: solid 1px rgb(133, 133, 133);
-  color: rgb(133, 133, 133);
+  border: solid 1px #999;
+  color: #595959;
   display: flex;
   font-family: system-ui;
   margin: 0.5rem;
