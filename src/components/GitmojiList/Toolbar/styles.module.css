@@ -6,41 +6,33 @@
   margin-top: 1.5rem;
 }
 
-.searchInput {
+.inputWrapper {
+  flex: 1;
+  display: flex;
   border-radius: 4px;
   border: 0;
   box-shadow: 0 2px 4px 0 var(--cardShadow);
-  flex: 1;
-  font-size: 1rem;
-  padding: 1rem;
   margin-right: 1rem;
 }
 
-.inputWrapper {
-  width: 100%;
-  margin-top: 0.357rem;
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.kbdWrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: flex;
-  padding: 0.425rem 1.5rem 0 0;
+.searchInput {
+  background-color: transparent;
+  border: none;
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 1rem;
 }
 
 .kbd {
-  font-family: system-ui;
-  display: inline-flex;
   align-items: center;
-  border: solid 1px;
-  padding: 0.5rem;
   border-radius: 3px;
+  border: solid 1px rgb(133, 133, 133);
   color: rgb(133, 133, 133);
-  border-color: rgb(133, 133, 133);
+  display: flex;
+  font-family: system-ui;
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 @media (prefers-color-scheme: dark) {

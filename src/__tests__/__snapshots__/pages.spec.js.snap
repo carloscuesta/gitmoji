@@ -519,15 +519,11 @@ exports[`Pages Index should render the page 1`] = `
             type="text"
             value=""
           />
-          <div
-            className="kbdWrapper"
+          <kbd
+            className="kbd"
           >
-            <kbd
-              className="kbd"
-            >
-              ⌘K
-            </kbd>
-          </div>
+            ⌘K
+          </kbd>
         </div>
         <div
           className="container"

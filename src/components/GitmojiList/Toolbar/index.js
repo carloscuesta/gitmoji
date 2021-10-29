@@ -32,9 +32,8 @@ const Toolbar = (props: Props): Element<'div'> => (
         type="text"
         value={props.searchInput}
       />
-      <div className={styles.kbdWrapper}>
-        <kbd className={styles.kbd}>⌘K</kbd>
-      </div>
+
+      <kbd className={styles.kbd}>⌘K</kbd>
     </div>
 
     <ListModeSelector
