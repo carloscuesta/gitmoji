@@ -56,6 +56,7 @@ export default {
   seedling: '#c5e763',
   sparkles: '#ffe55f',
   'speech-balloon': '#cedae6',
+  stethoscope: '#77e856',
   tada: '#f74d5f',
   'test-tube': '#fb584a',
   'triangular-flag-on-post': '#ffce49',
