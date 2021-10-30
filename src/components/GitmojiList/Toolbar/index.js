@@ -21,8 +21,9 @@ const keyboardEventListener = (event: KeyboardEvent) => {
 }
 
 const isMacOs = () => {
-  typeof window !== 'undefined' &&
-    window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
+  if (typeof window !== 'undefined') {
+    return window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
+  }
 }
 
 const Toolbar = (props: Props): Element<'div'> => {
@@ -49,7 +50,7 @@ const Toolbar = (props: Props): Element<'div'> => {
           value={props.searchInput}
         />
 
-        <kbd className={styles.kbd}>{isMacOs ? '⌘' : 'Ctrl'} K</kbd>
+        <kbd className={styles.kbd}>{isMacOs() ? '⌘' : 'Ctrl'} K</kbd>
       </div>
 
       <ListModeSelector
