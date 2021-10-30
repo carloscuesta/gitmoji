@@ -521,7 +521,7 @@ exports[`Pages Index should render the page 1`] = `
           <kbd
             className="kbd"
           >
-            ⌘
+            Ctrl
              K
           </kbd>
         </div>

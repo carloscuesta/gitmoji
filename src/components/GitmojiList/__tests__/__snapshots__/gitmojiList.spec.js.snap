@@ -25,7 +25,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         <kbd
           className="kbd"
         >
-          ⌘
+          Ctrl
            K
         </kbd>
       </div>
@@ -335,7 +335,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         <kbd
           className="kbd"
         >
-          ⌘
+          Ctrl
            K
         </kbd>
       </div>
