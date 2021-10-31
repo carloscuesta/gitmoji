@@ -1,5 +1,5 @@
 // @flow
-import React, { type Element, useEffect, createRef } from 'react'
+import React, { type Element, useEffect, useRef } from 'react'
 
 import ListModeSelector from './ListModeSelector'
 import styles from './styles.module.css'
@@ -11,15 +11,6 @@ type Props = {
   setSearchInput: Function,
 }
 
-const searchInputRef = createRef()
-const keyboardEventListener = (event: KeyboardEvent) => {
-  const searchInput = searchInputRef.current
-  if (searchInput && (event.ctrlKey || event.metaKey) && event.key === 'k') {
-    event.preventDefault()
-    searchInput.focus()
-  }
-}
-
 const isMacOs = () => {
   if (typeof window !== 'undefined') {
     return window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
@@ -27,6 +18,16 @@ const isMacOs = () => {
 }
 
 const Toolbar = (props: Props): Element<'div'> => {
+  const searchInputRef = useRef(null)
+
+  const keyboardEventListener = (event: KeyboardEvent) => {
+    const searchInput = searchInputRef.current
+    if (searchInput && (event.ctrlKey || event.metaKey) && event.key === 'k') {
+      event.preventDefault()
+      searchInput.focus()
+    }
+  }
+
   useEffect(() => {
     if (typeof window !== 'undefined') {
       document.addEventListener('keydown', keyboardEventListener, false)
@@ -35,7 +36,7 @@ const Toolbar = (props: Props): Element<'div'> => {
     return () => {
       document.removeEventListener('keydown', keyboardEventListener, false)
     }
-  })
+  }, [])
 
   return (
     <div className={styles.container}>
