@@ -20,15 +20,19 @@ const isMacOs = () => {
 const Toolbar = (props: Props): Element<'div'> => {
   const searchInputRef = useRef(null)
 
-  const keyboardEventListener = (event: KeyboardEvent) => {
-    const searchInput = searchInputRef.current
-    if (searchInput && (event.ctrlKey || event.metaKey) && event.key === 'k') {
-      event.preventDefault()
-      searchInput.focus()
-    }
-  }
-
   useEffect(() => {
+    const keyboardEventListener = (event: KeyboardEvent) => {
+      const searchInput = searchInputRef.current
+      if (
+        searchInput &&
+        (event.ctrlKey || event.metaKey) &&
+        event.key === 'k'
+      ) {
+        event.preventDefault()
+        searchInput.focus()
+      }
+    }
+
     if (typeof window !== 'undefined') {
       document.addEventListener('keydown', keyboardEventListener, false)
     }
