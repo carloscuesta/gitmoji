@@ -31,7 +31,7 @@
   align-items: center;
   border-radius: 3px;
   border: solid 1px #999;
-  color: #b8b8b8;
+  color: #595959;
   display: flex;
   font-family: system-ui;
   margin: 0.5rem;
@@ -42,6 +42,10 @@
   .searchInput {
     background-color: var(--cardBackground);
     color: var(--text);
+  }
+
+  .kbd {
+    color: #b8b8b8;
   }
 }
 
