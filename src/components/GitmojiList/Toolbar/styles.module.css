@@ -33,6 +33,10 @@
   outline: none;
 }
 
+.searchInput:focus {
+  outline: none;
+}
+
 .kbd {
   right: 0;
   align-items: center;
