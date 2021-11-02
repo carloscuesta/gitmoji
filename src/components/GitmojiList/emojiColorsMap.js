@@ -24,6 +24,7 @@ export default {
   'construction-worker': '#64b5f6',
   construction: '#ffb74d',
   egg: '#77e856',
+  factory: '#ae9066',
   fire: '#ff9d44',
   'globe-with-meridians': '#e7f4ff',
   'goal-net': '#c7cb12',
