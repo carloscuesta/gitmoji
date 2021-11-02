@@ -532,7 +532,7 @@
       "emoji": "🏭",
       "entity": "&#x1F3ED;",
       "code": ":factory:",
-      "description": "Add or update generated code",
+      "description": "Add or update auto generated code",
       "name": "factory",
       "semver": "patch"
     }
