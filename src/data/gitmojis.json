@@ -529,6 +529,14 @@
       "semver": "patch"
     },
     {
+      "emoji": "🩺",
+      "entity": "&#x1FA7A;",
+      "code": ":stethoscope:",
+      "description": "Add or update healthcheck.",
+      "name": "stethoscope",
+      "semver": null
+    },
+    {
       "emoji": "🏭",
       "entity": "&#x1F3ED;",
       "code": ":factory:",
