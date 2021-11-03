@@ -11,14 +11,24 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     <div
       className="container"
     >
-      <input
-        className="searchInput"
-        name="searchInput"
-        onChange={[Function]}
-        placeholder="Search your gitmoji..."
-        type="text"
-        value=""
-      />
+      <div
+        className="inputWrapper"
+      >
+        <input
+          className="searchInput"
+          name="searchInput"
+          onChange={[Function]}
+          placeholder="Search your gitmoji..."
+          type="text"
+          value=""
+        />
+        <kbd
+          className="kbd"
+        >
+          Ctrl
+           K
+        </kbd>
+      </div>
       <div
         className="container"
       >
@@ -311,14 +321,24 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     <div
       className="container"
     >
-      <input
-        className="searchInput"
-        name="searchInput"
-        onChange={[Function]}
-        placeholder="Search your gitmoji..."
-        type="text"
-        value=""
-      />
+      <div
+        className="inputWrapper"
+      >
+        <input
+          className="searchInput"
+          name="searchInput"
+          onChange={[Function]}
+          placeholder="Search your gitmoji..."
+          type="text"
+          value=""
+        />
+        <kbd
+          className="kbd"
+        >
+          Ctrl
+           K
+        </kbd>
+      </div>
       <div
         className="container"
       >
