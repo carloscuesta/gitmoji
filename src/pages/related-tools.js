@@ -53,8 +53,9 @@ const tools: Array<{ name: string, description: string, link: string }> = [
     link: 'https://github.com/CoenWarmer/traymoji',
   },
   {
-    name: 'paralenz/actions/gitmoji',
-    description: 'Github workflow to ensure that your pull requests always start with a gitmoji',
+    name: 'actions/gitmoji',
+    description:
+      'Github workflow to ensure that your pull requests always start with a gitmoji',
     link: 'https://github.com/paralenz/actions/tree/master/gitmoji',
   },
 ]
