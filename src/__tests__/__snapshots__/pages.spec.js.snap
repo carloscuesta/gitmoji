@@ -3304,6 +3304,47 @@ exports[`Pages Index should render the page 1`] = `
         </div>
       </div>
     </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ff6723",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🧱"
+            type="button"
+          >
+            🧱
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":brick:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :brick:
+            </code>
+          </button>
+          <p>
+            Infrastructure related changes.
+          </p>
+        </div>
+      </div>
+    </article>
   </div>
 </main>
 `;
