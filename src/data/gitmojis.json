@@ -541,7 +541,7 @@
       "entity": "&#x1f9f1;",
       "code": ":brick:",
       "description": "Infrastructure related changes.",
-      "name": "Brick",
+      "name": "brick",
       "semver": null
     }
   ]

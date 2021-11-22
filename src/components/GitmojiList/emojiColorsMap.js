@@ -69,4 +69,5 @@ export default {
   zap: '#40c4ff',
   'monocle-face': '#ffe55f',
   necktie: '#83beec',
+  brick: '#ff6723',
 }

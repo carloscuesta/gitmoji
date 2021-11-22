@@ -3308,7 +3308,7 @@ exports[`Pages Index should render the page 1`] = `
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
         Object {
-          "--emojiColor": undefined,
+          "--emojiColor": "#ff6723",
         }
       }
     >
