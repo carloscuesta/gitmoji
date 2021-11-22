@@ -23,7 +23,8 @@ A **gitmoji** should define an action not a scope, take that into consideration 
 
 1. Open the **gitmojis.json** file located at `src/data/gitmojis.json`.
 2. Add your emoji using the following code inside of the `gitmojis array []`:
-3. Save the file and create a pull request.
+3. Add a new color to [the emojiColorsMap.js](https://github.com/carloscuesta/gitmoji/blob/master/src/components/GitmojiList/emojiColorsMap.js) file. Matching the name you added at the JSON file.
+4. Save the file and create a pull request.
 
 ```json
 {
@@ -37,10 +38,6 @@ A **gitmoji** should define an action not a scope, take that into consideration 
 ```
 
 If you want to find the hexadecimal entity of icon, search for it in this site: <a>http://graphemica.com/</a>
-
-Then, after that you'll need to add a new color to [the emojiColorsMap.js](https://github.com/carloscuesta/gitmoji/blob/master/src/components/GitmojiList/emojiColorsMap.js) file.
-
-You must follow the convention of adding a new item to the `gitmojis object`. That matches the name that you added at the json file.
 
 ## How to start gitmoji
 
