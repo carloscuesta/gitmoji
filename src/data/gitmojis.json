@@ -539,9 +539,9 @@
     {
       "emoji": "🧱",
       "entity": "&#x1f9f1;",
-      "code": ":brick:",
+      "code": ":bricks:",
       "description": "Infrastructure related changes.",
-      "name": "brick",
+      "name": "bricks",
       "semver": null
     }
   ]

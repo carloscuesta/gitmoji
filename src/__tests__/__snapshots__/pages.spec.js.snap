@@ -3331,12 +3331,12 @@ exports[`Pages Index should render the page 1`] = `
         >
           <button
             className="gitmoji-clipboard-code gitmojiCode"
-            data-clipboard-text=":brick:"
+            data-clipboard-text=":bricks:"
             tabIndex="-1"
             type="button"
           >
             <code>
-              :brick:
+              :bricks:
             </code>
           </button>
           <p>
