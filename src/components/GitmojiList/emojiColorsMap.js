@@ -70,4 +70,5 @@ export default {
   'monocle-face': '#ffe55f',
   necktie: '#83beec',
   bricks: '#ff6723',
+  technologist: '#86B837',
 }
