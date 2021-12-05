@@ -136,10 +136,19 @@ exports[`Pages About should render the page 1`] = `
         After discussing the idea, feature or suggestion,
          
         <a
+          href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md"
+        >
+          read the contribution docs.
+        </a>
+      </li>
+      <li>
+        <a
           href="https://github.com/carloscuesta/gitmoji/fork"
         >
-          fork gitmoji
+          Create a fork
+           
         </a>
+        of gitmoji.
       </li>
       <li>
         Create a new branch with the feature name. (Eg: add-emoji-deploy, fix-website-header)

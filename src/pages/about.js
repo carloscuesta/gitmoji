@@ -94,9 +94,15 @@ const About = () => (
           </li>
           <li>
             After discussing the idea, feature or suggestion,{' '}
-            <a href="https://github.com/carloscuesta/gitmoji/fork">
-              fork gitmoji
+            <a href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md">
+              read the contribution docs.
             </a>
+          </li>
+          <li>
+            <a href="https://github.com/carloscuesta/gitmoji/fork">
+              Create a fork{' '}
+            </a>
+            of gitmoji.
           </li>
           <li>
             Create a new branch with the feature name. (Eg: add-emoji-deploy,

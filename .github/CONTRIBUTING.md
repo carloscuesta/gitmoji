@@ -19,7 +19,7 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 
 ## How to add a gitmoji
 
-A **gitmoji** should define an action not a scope, take that into consideration when trying to suggest a new addition!
+A **gitmoji** should define an action not a scope and it should answer the following question: _"What has been done in the commit?"_ instead of _how_, take that into consideration when trying to suggest a new addition!
 
 1. Open the **gitmojis.json** file located at `src/data/gitmojis.json`.
 2. Add your emoji using the following code inside of the `gitmojis array []`:
