@@ -23,8 +23,8 @@ const tools: Array<{ name: string, description: string, link: string }> = [
   },
   {
     name: 'gitmoji-vscode',
-    description: 'A VSCode extension for your git commit messages',
-    link: 'https://github.com/vtrois/gitmoji-vscode',
+    description: 'Gitmoji tool for git commit messages in VS Code',
+    link: 'https://github.com/seatonjiang/gitmoji-vscode',
   },
   {
     name: 'gitmoji-intellij-plugin',
