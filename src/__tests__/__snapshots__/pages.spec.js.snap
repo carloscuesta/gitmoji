@@ -3459,7 +3459,7 @@ exports[`Pages Related tools should render the page 1`] = `
       </li>
       <li>
         <a
-          href="https://github.com/vtrois/gitmoji-vscode"
+          href="https://github.com/seatonjiang/gitmoji-vscode"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -3467,7 +3467,7 @@ exports[`Pages Related tools should render the page 1`] = `
             gitmoji-vscode
           </b>
         </a>
-        : A VSCode extension for your git commit messages
+        : Gitmoji tool for git commit messages in VS Code
       </li>
       <li>
         <a
