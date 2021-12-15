@@ -62,13 +62,19 @@ h1 {
 }
 
 a {
-  transition: color 0.5s ease-in-out;
   text-decoration: none;
   color: var(--secondary);
 }
 
 a:hover {
   animation: zomg 0.5s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a:hover {
+    animation: none;
+    text-decoration: underline;
+  }
 }
 
 code {
