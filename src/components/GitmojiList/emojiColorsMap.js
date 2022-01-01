@@ -71,4 +71,5 @@ export default {
   necktie: '#83beec',
   bricks: '#ff6723',
   technologist: '#86B837',
+  skull: '#94A1A4',
 }

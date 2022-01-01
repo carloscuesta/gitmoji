@@ -551,6 +551,14 @@
       "description": "Improve developer experience",
       "name": "technologist",
       "semver": null
+    },
+    {
+      "emoji": "💀",
+      "entity": "&#1F480;",
+      "code": ":skull:",
+      "description": "Make a change you forgot to make in a previous commit.",
+      "name": "skull",
+      "semver": null
     }
   ]
 }
