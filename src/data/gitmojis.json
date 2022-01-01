@@ -551,6 +551,14 @@
       "description": "Improve developer experience",
       "name": "technologist",
       "semver": null
+    },
+    {
+      "emoji": "🔗",
+      "entity": "&#128279;",
+      "code": ":link:",
+      "description": "Fixed a broken link.",
+      "name": "link",
+      "semver": null
     }
   ]
 }
