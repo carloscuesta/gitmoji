@@ -298,6 +298,28 @@ Array [
           fill="currentColor"
         />
       </symbol>
+      <symbol
+        id="icon-pin"
+        viewBox="0 0 16 16"
+      >
+        <title>
+          pin
+        </title>
+        <path
+          d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354zm1.58 1.408-.002-.001.002.001zm-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a4.922 4.922 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a4.915 4.915 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.775 1.775 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14c.06.1.133.191.214.271a1.78 1.78 0 0 0 .37.282z"
+        />
+      </symbol>
+      <symbol
+        id="icon-pin-fill"
+        viewBox="0 0 16 16"
+      >
+        <title>
+          pin-fill
+        </title>
+        <path
+          d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z"
+        />
+      </symbol>
     </defs>
   </svg>,
   <div
@@ -567,7 +589,11 @@ exports[`Pages Index should render the page 1`] = `
       </div>
     </div>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ff7281",
@@ -605,10 +631,28 @@ exports[`Pages Index should render the page 1`] = `
             Improve structure / format of the code.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#40c4ff",
@@ -646,10 +690,28 @@ exports[`Pages Index should render the page 1`] = `
             Improve performance.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ff9d44",
@@ -687,10 +749,28 @@ exports[`Pages Index should render the page 1`] = `
             Remove code or files.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#8cd842",
@@ -728,10 +808,28 @@ exports[`Pages Index should render the page 1`] = `
             Fix a bug.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#fb584a",
@@ -769,10 +867,28 @@ exports[`Pages Index should render the page 1`] = `
             Critical hotfix.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffe55f",
@@ -810,10 +926,28 @@ exports[`Pages Index should render the page 1`] = `
             Introduce new features.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#00e676",
@@ -851,10 +985,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update documentation.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#00a9f0",
@@ -892,10 +1044,28 @@ exports[`Pages Index should render the page 1`] = `
             Deploy stuff.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#80deea",
@@ -933,10 +1103,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update the UI and style files.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#f74d5f",
@@ -974,10 +1162,28 @@ exports[`Pages Index should render the page 1`] = `
             Begin a project.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#77e856",
@@ -1015,10 +1221,28 @@ exports[`Pages Index should render the page 1`] = `
             Add, update, or pass tests.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffce49",
@@ -1056,10 +1280,28 @@ exports[`Pages Index should render the page 1`] = `
             Fix security issues.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#80deea",
@@ -1097,10 +1339,28 @@ exports[`Pages Index should render the page 1`] = `
             Release / Version tags.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#536dfe",
@@ -1138,10 +1398,28 @@ exports[`Pages Index should render the page 1`] = `
             Fix compiler / linter warnings.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffb74d",
@@ -1179,10 +1457,28 @@ exports[`Pages Index should render the page 1`] = `
             Work in progress.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#c5e763",
@@ -1220,10 +1516,28 @@ exports[`Pages Index should render the page 1`] = `
             Fix CI Build.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ef5350",
@@ -1261,10 +1575,28 @@ exports[`Pages Index should render the page 1`] = `
             Downgrade dependencies.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#00e676",
@@ -1302,10 +1634,28 @@ exports[`Pages Index should render the page 1`] = `
             Upgrade dependencies.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#39c2f1",
@@ -1343,10 +1693,28 @@ exports[`Pages Index should render the page 1`] = `
             Pin dependencies to specific versions.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#64b5f6",
@@ -1384,10 +1752,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update CI build system.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#cedae6",
@@ -1425,10 +1811,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update analytics or track code.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#77e856",
@@ -1466,10 +1870,28 @@ exports[`Pages Index should render the page 1`] = `
             Refactor code.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#00e676",
@@ -1507,10 +1929,28 @@ exports[`Pages Index should render the page 1`] = `
             Add a dependency.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ef5350",
@@ -1548,10 +1988,28 @@ exports[`Pages Index should render the page 1`] = `
             Remove a dependency.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffc400",
@@ -1589,10 +2047,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update configuration files.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffc400",
@@ -1630,10 +2106,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update development scripts.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#e7f4ff",
@@ -1671,10 +2165,28 @@ exports[`Pages Index should render the page 1`] = `
             Internationalization and localization.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffce49",
@@ -1712,10 +2224,28 @@ exports[`Pages Index should render the page 1`] = `
             Fix typos.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#a78674",
@@ -1753,10 +2283,28 @@ exports[`Pages Index should render the page 1`] = `
             Write bad code that needs to be improved.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#56d1d8",
@@ -1794,10 +2342,28 @@ exports[`Pages Index should render the page 1`] = `
             Revert changes.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#56d1d8",
@@ -1835,10 +2401,28 @@ exports[`Pages Index should render the page 1`] = `
             Merge branches.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#fdd0ae",
@@ -1876,10 +2460,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update compiled files or packages.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#c5e763",
@@ -1917,10 +2519,28 @@ exports[`Pages Index should render the page 1`] = `
             Update code due to external API changes.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ef584a",
@@ -1958,10 +2578,28 @@ exports[`Pages Index should render the page 1`] = `
             Move or rename resources (e.g.: files, paths, routes).
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#d9e3e8",
@@ -1999,10 +2637,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update license.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#f94f28",
@@ -2040,10 +2696,28 @@ exports[`Pages Index should render the page 1`] = `
             Introduce breaking changes.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ff5864",
@@ -2081,10 +2755,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update assets.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#00b1fb",
@@ -2122,10 +2814,28 @@ exports[`Pages Index should render the page 1`] = `
             Improve accessibility.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffce49",
@@ -2163,10 +2873,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update comments in source code.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#fbb64b",
@@ -2204,10 +2932,28 @@ exports[`Pages Index should render the page 1`] = `
             Write code drunkenly.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#cedae6",
@@ -2245,10 +2991,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update text and literals.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#c5e763",
@@ -2286,10 +3050,28 @@ exports[`Pages Index should render the page 1`] = `
             Perform database related changes.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#23b4d2",
@@ -2327,10 +3109,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update logs.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#e6ebef",
@@ -2368,10 +3168,28 @@ exports[`Pages Index should render the page 1`] = `
             Remove logs.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffce49",
@@ -2409,10 +3227,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update contributor(s).
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffce49",
@@ -2450,10 +3286,28 @@ exports[`Pages Index should render the page 1`] = `
             Improve user experience / usability.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffe55f",
@@ -2491,10 +3345,28 @@ exports[`Pages Index should render the page 1`] = `
             Make architectural changes.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#40c4ff",
@@ -2532,10 +3404,28 @@ exports[`Pages Index should render the page 1`] = `
             Work on responsive design.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ff7281",
@@ -2573,10 +3463,28 @@ exports[`Pages Index should render the page 1`] = `
             Mock things.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#77e856",
@@ -2614,10 +3522,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update an easter egg.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#8bdfe7",
@@ -2655,10 +3581,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update a .gitignore file.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#00a9f0",
@@ -2696,10 +3640,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update snapshots.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#7f39fb",
@@ -2737,10 +3699,28 @@ exports[`Pages Index should render the page 1`] = `
             Perform experiments.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffe55f",
@@ -2778,10 +3758,28 @@ exports[`Pages Index should render the page 1`] = `
             Improve SEO.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#cb63e6",
@@ -2819,10 +3817,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update types.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#c5e763",
@@ -2860,10 +3876,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update seed files.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffce49",
@@ -2901,10 +3935,28 @@ exports[`Pages Index should render the page 1`] = `
             Add, update, or remove feature flags.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#c7cb12",
@@ -2942,10 +3994,28 @@ exports[`Pages Index should render the page 1`] = `
             Catch errors.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffdb3a",
@@ -2983,10 +4053,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update animations and transitions.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#d9e3e8",
@@ -3024,10 +4112,28 @@ exports[`Pages Index should render the page 1`] = `
             Deprecate code that needs to be cleaned up.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#4dc6dc",
@@ -3065,10 +4171,28 @@ exports[`Pages Index should render the page 1`] = `
             Work on code related to authorization, roles and permissions.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#fbcfb7",
@@ -3106,10 +4230,28 @@ exports[`Pages Index should render the page 1`] = `
             Simple fix for a non-critical issue.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ffe55f",
@@ -3147,10 +4289,28 @@ exports[`Pages Index should render the page 1`] = `
             Data exploration/inspection.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#d9e3e8",
@@ -3188,10 +4348,28 @@ exports[`Pages Index should render the page 1`] = `
             Remove dead code.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#fb584a",
@@ -3229,10 +4407,28 @@ exports[`Pages Index should render the page 1`] = `
             Add a failing test.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#83beec",
@@ -3270,10 +4466,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update business logic
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#77e856",
@@ -3311,10 +4525,28 @@ exports[`Pages Index should render the page 1`] = `
             Add or update healthcheck.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#ff6723",
@@ -3352,10 +4584,28 @@ exports[`Pages Index should render the page 1`] = `
             Infrastructure related changes.
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
     <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
+      className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
       style={
         Object {
           "--emojiColor": "#86B837",
@@ -3393,6 +4643,20 @@ exports[`Pages Index should render the page 1`] = `
             Improve developer experience
           </p>
         </div>
+        <button
+          className="pin "
+          onClick={[Function]}
+          title="Pin me at the top"
+          type="button"
+        >
+          <svg
+            className="icon icon-pin"
+          >
+            <use
+              xlinkHref="#icon-pin"
+            />
+          </svg>
+        </button>
       </div>
     </article>
   </div>

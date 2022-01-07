@@ -20,7 +20,7 @@ export default function useLocalStorage<T>(
   }, [])
 
   React.useEffect(() => {
-    window.localStorage.setItem(key, state)
+    window.localStorage.setItem(key, JSON.stringify(state))
   }, [state])
 
   return [state, setState]

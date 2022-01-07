@@ -6,20 +6,24 @@ import { useRouter } from 'next/router'
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
 import useLocalStorage from './hooks/useLocalStorage'
+import { notify } from '../../utils/notification'
+
+type Gitmojis = {
+  code: string,
+  description: string,
+  emoji: string,
+  name: string,
+}
 
 type Props = {
-  gitmojis: Array<{
-    code: string,
-    description: string,
-    emoji: string,
-    name: string,
-  }>,
+  gitmojis: Array<Gitmojis>,
 }
 
 const GitmojiList = (props: Props): Element<'div'> => {
   const router = useRouter()
   const [searchInput, setSearchInput] = React.useState('')
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
+  const [pinneds, setPinneds] = useLocalStorage('pinneds', [])
 
   const gitmojis = searchInput
     ? props.gitmojis.filter(({ code, description }) => {
@@ -31,6 +35,39 @@ const GitmojiList = (props: Props): Element<'div'> => {
         )
       })
     : props.gitmojis
+
+  const addPinned = (code: string): void => {
+    setPinneds([...pinneds, code])
+    notify(
+      `<p>Gitmoji <span class="gitmoji-code">${code}</span> pinned to the top 😜</p>`
+    )
+  }
+
+  const removePinned = (code: string): void => {
+    setPinneds(pinneds.filter((pinned) => pinned !== code))
+    notify(
+      `<p>Gitmoji <span class="gitmoji-code">${code}</span> is unpinned 😜</p>`
+    )
+  }
+
+  const isPinned = (code: string): boolean => {
+    return pinneds.includes(code)
+  }
+
+  const sortPinnedGitmojis = (gitmojis: Array<Gitmojis>): Array<Gitmojis> => {
+    return gitmojis.sort((gitmoji) => {
+      if (isPinned(gitmoji.code)) return -1
+      return 0
+    })
+  }
+
+  const onPinClick = (code: string): void => {
+    if (isPinned(code)) {
+      removePinned(code)
+    } else {
+      addPinned(code)
+    }
+  }
 
   React.useEffect(() => {
     if (router.query.search) {
@@ -52,17 +89,11 @@ const GitmojiList = (props: Props): Element<'div'> => {
     clipboard.on('success', function (e) {
       window.ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
 
-      const notification = new window.NotificationFx({
-        message: e.trigger.classList.contains('gitmoji-clipboard-emoji')
-          ? `<p>Hey! Gitmoji ${e.text} copied to the clipboard 😜</p>`
-          : `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`,
-        layout: 'growl',
-        effect: 'scale',
-        type: 'notice',
-        ttl: 2000,
-      })
+      const message = e.trigger.classList.contains('gitmoji-clipboard-emoji')
+        ? `<p>Hey! Gitmoji ${e.text} copied to the clipboard 😜</p>`
+        : `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`
 
-      notification.show()
+      notify(message)
     })
 
     return () => clipboard.destroy()
@@ -82,7 +113,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
       {gitmojis.length === 0 ? (
         <h2>No gitmojis found for search: {searchInput}</h2>
       ) : (
-        gitmojis.map((gitmoji, index) => (
+        sortPinnedGitmojis([...gitmojis]).map((gitmoji, index) => (
           <Gitmoji
             code={gitmoji.code}
             description={gitmoji.description}
@@ -90,6 +121,8 @@ const GitmojiList = (props: Props): Element<'div'> => {
             isListMode={isListMode}
             key={index}
             name={gitmoji.name}
+            pinned={isPinned(gitmoji.code)}
+            onPinClick={() => onPinClick(gitmoji.code)}
           />
         ))
       )}

@@ -62,7 +62,11 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
     </div>
   </div>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#ff7281",
@@ -100,10 +104,28 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           Improve structure / format of the code.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#40c4ff",
@@ -141,10 +163,28 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           Improve performance.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#ff9d44",
@@ -182,10 +222,28 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           Remove code or files.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#8cd842",
@@ -223,10 +281,28 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           Fix a bug.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#fb584a",
@@ -264,10 +340,28 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           Critical hotfix.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#ffe55f",
@@ -305,6 +399,20 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           Introduce new features.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
 </div>
@@ -372,7 +480,11 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
     </div>
   </div>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#ff7281",
@@ -410,10 +522,28 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           Improve structure / format of the code.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#40c4ff",
@@ -451,10 +581,28 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           Improve performance.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#ff9d44",
@@ -492,10 +640,28 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           Remove code or files.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#8cd842",
@@ -533,10 +699,28 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           Fix a bug.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#fb584a",
@@ -574,10 +758,28 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           Critical hotfix.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
   <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+    className="
+        emoji col-xs-12 col-sm-6 
+        col-md-3
+        
+      "
     style={
       Object {
         "--emojiColor": "#ffe55f",
@@ -615,6 +817,20 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           Introduce new features.
         </p>
       </div>
+      <button
+        className="pin "
+        onClick={[Function]}
+        title="Pin me at the top"
+        type="button"
+      >
+        <svg
+          className="icon icon-pin"
+        >
+          <use
+            xlinkHref="#icon-pin"
+          />
+        </svg>
+      </button>
     </div>
   </article>
 </div>

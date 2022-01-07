@@ -4,6 +4,7 @@
 }
 
 .card {
+  position: relative;
   background-color: var(--cardBackground);
   border-radius: 4px;
   box-shadow: 0 1px 2px 0 var(--cardShadow);
@@ -44,6 +45,38 @@
 .card:hover {
   box-shadow: 0 10px 20px 0 var(--cardShadow);
   transform: translateY(-1px);
+}
+
+.card:hover .pin {
+  opacity: 1 !important;
+}
+
+.pin {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.pin:not(:focus):not(.active) {
+  opacity: 0;
+}
+
+.pin svg {
+  margin: 0;
+  transform: rotate(-45deg);
+  fill: var(--secondary);
+  filter: drop-shadow(1px 2px 1px rgba(0, 0, 0, 0.7));
+}
+
+.list .pin {
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
