@@ -47,10 +47,6 @@
   transform: translateY(-1px);
 }
 
-.card:hover .pin {
-  opacity: 1 !important;
-}
-
 .pin {
   position: absolute;
   top: 0.8rem;
@@ -60,10 +56,14 @@
   border: none;
   padding: 0;
   cursor: pointer;
+  opacity: 0;
 }
 
-.pin:not(:focus):not(.active) {
-  opacity: 0;
+.pin.active,
+.pin:focus,
+.card:focus-within .pin,
+.card:hover .pin {
+  opacity: 1;
 }
 
 .pin svg {
