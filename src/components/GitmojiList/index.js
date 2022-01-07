@@ -27,31 +27,6 @@ const GitmojiList = (props: Props): Element<'div'> => {
 
   const pinnedSet = new Set(pinneds)
 
-  const gitmojis = searchInput
-    ? props.gitmojis.filter(({ code, description }) => {
-        const lowerCasedSearch = searchInput.toLowerCase()
-
-        return (
-          code.includes(lowerCasedSearch) ||
-          description.toLowerCase().includes(lowerCasedSearch)
-        )
-      })
-    : props.gitmojis
-
-  const addPinned = (code: string): void => {
-    setPinneds((current) => [...current, code])
-    notify(
-      `<p>Gitmoji <span class="gitmoji-code">${code}</span> pinned to the top 😜</p>`
-    )
-  }
-
-  const removePinned = (code: string): void => {
-    setPinneds((current) => current.filter((pinned) => pinned !== code))
-    notify(
-      `<p>Gitmoji <span class="gitmoji-code">${code}</span> is unpinned 😜</p>`
-    )
-  }
-
   const isPinned = (code: string): boolean => {
     return pinnedSet.has(code)
   }
@@ -66,6 +41,41 @@ const GitmojiList = (props: Props): Element<'div'> => {
       },
     [pinnedSet]
   )
+
+  const getGitmojis = React.useMemo(
+    () => () => {
+      const gitmojis = sortPinnedGitmojis(props.gitmojis)
+      if (searchInput) {
+        return gitmojis.filter(({ code, description }) => {
+          const lowerCasedSearch = searchInput.toLowerCase()
+
+          return (
+            code.includes(lowerCasedSearch) ||
+            description.toLowerCase().includes(lowerCasedSearch)
+          )
+        })
+      }
+
+      return gitmojis
+    },
+    [searchInput]
+  )
+
+  const gitmojis = getGitmojis()
+
+  const addPinned = (code: string): void => {
+    setPinneds((current) => [...current, code])
+    notify(
+      `<p>Gitmoji <span class="gitmoji-code">${code}</span> pinned to the top 😜</p>`
+    )
+  }
+
+  const removePinned = (code: string): void => {
+    setPinneds((current) => current.filter((pinned) => pinned !== code))
+    notify(
+      `<p>Gitmoji <span class="gitmoji-code">${code}</span> is unpinned 😜</p>`
+    )
+  }
 
   const onPinClick = (code: string): void => {
     if (isPinned(code)) {
