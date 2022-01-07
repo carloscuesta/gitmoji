@@ -37,14 +37,14 @@ const GitmojiList = (props: Props): Element<'div'> => {
     : props.gitmojis
 
   const addPinned = (code: string): void => {
-    setPinneds([...pinneds, code])
+    setPinneds((current) => [...current, code])
     notify(
       `<p>Gitmoji <span class="gitmoji-code">${code}</span> pinned to the top 😜</p>`
     )
   }
 
   const removePinned = (code: string): void => {
-    setPinneds(pinneds.filter((pinned) => pinned !== code))
+    setPinneds((current) => current.filter((pinned) => pinned !== code))
     notify(
       `<p>Gitmoji <span class="gitmoji-code">${code}</span> is unpinned 😜</p>`
     )
