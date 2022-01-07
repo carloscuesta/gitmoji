@@ -56,12 +56,16 @@ const GitmojiList = (props: Props): Element<'div'> => {
     return pinnedSet.has(code)
   }
 
-  const sortPinnedGitmojis = (gitmojis: Array<Gitmojis>): Array<Gitmojis> => {
-    return gitmojis.sort((gitmoji) => {
-      if (isPinned(gitmoji.code)) return -1
-      return 0
-    })
-  }
+  const sortPinnedGitmojis = React.useMemo(
+    () =>
+      (gitmojis: Array<Gitmojis>): Array<Gitmojis> => {
+        return gitmojis.sort((gitmoji) => {
+          if (isPinned(gitmoji.code)) return -1
+          return 0
+        })
+      },
+    [pinnedSet]
+  )
 
   const onPinClick = (code: string): void => {
     if (isPinned(code)) {
