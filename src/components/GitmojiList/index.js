@@ -25,6 +25,8 @@ const GitmojiList = (props: Props): Element<'div'> => {
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
   const [pinneds, setPinneds] = useLocalStorage('pinneds', [])
 
+  const pinnedSet = new Set(pinneds)
+
   const gitmojis = searchInput
     ? props.gitmojis.filter(({ code, description }) => {
         const lowerCasedSearch = searchInput.toLowerCase()
@@ -51,7 +53,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
   }
 
   const isPinned = (code: string): boolean => {
-    return pinneds.includes(code)
+    return pinnedSet.has(code)
   }
 
   const sortPinnedGitmojis = (gitmojis: Array<Gitmojis>): Array<Gitmojis> => {
