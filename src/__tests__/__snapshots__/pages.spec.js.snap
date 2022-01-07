@@ -634,7 +634,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin art at the top"
           type="button"
         >
           <svg
@@ -693,7 +693,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin zap at the top"
           type="button"
         >
           <svg
@@ -752,7 +752,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin fire at the top"
           type="button"
         >
           <svg
@@ -811,7 +811,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin bug at the top"
           type="button"
         >
           <svg
@@ -870,7 +870,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin ambulance at the top"
           type="button"
         >
           <svg
@@ -929,7 +929,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin sparkles at the top"
           type="button"
         >
           <svg
@@ -988,7 +988,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin memo at the top"
           type="button"
         >
           <svg
@@ -1047,7 +1047,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin rocket at the top"
           type="button"
         >
           <svg
@@ -1106,7 +1106,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin lipstick at the top"
           type="button"
         >
           <svg
@@ -1165,7 +1165,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin tada at the top"
           type="button"
         >
           <svg
@@ -1224,7 +1224,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin white-check-mark at the top"
           type="button"
         >
           <svg
@@ -1283,7 +1283,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin lock at the top"
           type="button"
         >
           <svg
@@ -1342,7 +1342,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin bookmark at the top"
           type="button"
         >
           <svg
@@ -1401,7 +1401,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin rotating-light at the top"
           type="button"
         >
           <svg
@@ -1460,7 +1460,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin construction at the top"
           type="button"
         >
           <svg
@@ -1519,7 +1519,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin green-heart at the top"
           type="button"
         >
           <svg
@@ -1578,7 +1578,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin arrow-down at the top"
           type="button"
         >
           <svg
@@ -1637,7 +1637,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin arrow-up at the top"
           type="button"
         >
           <svg
@@ -1696,7 +1696,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin pushpin at the top"
           type="button"
         >
           <svg
@@ -1755,7 +1755,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin construction-worker at the top"
           type="button"
         >
           <svg
@@ -1814,7 +1814,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin chart-with-upwards-trend at the top"
           type="button"
         >
           <svg
@@ -1873,7 +1873,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin recycle at the top"
           type="button"
         >
           <svg
@@ -1932,7 +1932,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin heavy-plus-sign at the top"
           type="button"
         >
           <svg
@@ -1991,7 +1991,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin heavy-minus-sign at the top"
           type="button"
         >
           <svg
@@ -2050,7 +2050,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin wrench at the top"
           type="button"
         >
           <svg
@@ -2109,7 +2109,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin hammer at the top"
           type="button"
         >
           <svg
@@ -2168,7 +2168,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin globe-with-meridians at the top"
           type="button"
         >
           <svg
@@ -2227,7 +2227,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin pencil2 at the top"
           type="button"
         >
           <svg
@@ -2286,7 +2286,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin poop at the top"
           type="button"
         >
           <svg
@@ -2345,7 +2345,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin rewind at the top"
           type="button"
         >
           <svg
@@ -2404,7 +2404,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin twisted-rightwards-arrows at the top"
           type="button"
         >
           <svg
@@ -2463,7 +2463,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin package at the top"
           type="button"
         >
           <svg
@@ -2522,7 +2522,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin alien at the top"
           type="button"
         >
           <svg
@@ -2581,7 +2581,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin truck at the top"
           type="button"
         >
           <svg
@@ -2640,7 +2640,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin page-facing-up at the top"
           type="button"
         >
           <svg
@@ -2699,7 +2699,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin boom at the top"
           type="button"
         >
           <svg
@@ -2758,7 +2758,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin bento at the top"
           type="button"
         >
           <svg
@@ -2817,7 +2817,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin wheelchair at the top"
           type="button"
         >
           <svg
@@ -2876,7 +2876,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin bulb at the top"
           type="button"
         >
           <svg
@@ -2935,7 +2935,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin beers at the top"
           type="button"
         >
           <svg
@@ -2994,7 +2994,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin speech-balloon at the top"
           type="button"
         >
           <svg
@@ -3053,7 +3053,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin card-file-box at the top"
           type="button"
         >
           <svg
@@ -3112,7 +3112,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin loud-sound at the top"
           type="button"
         >
           <svg
@@ -3171,7 +3171,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin mute at the top"
           type="button"
         >
           <svg
@@ -3230,7 +3230,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin busts-in-silhouette at the top"
           type="button"
         >
           <svg
@@ -3289,7 +3289,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin children-crossing at the top"
           type="button"
         >
           <svg
@@ -3348,7 +3348,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin building-construction at the top"
           type="button"
         >
           <svg
@@ -3407,7 +3407,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin iphone at the top"
           type="button"
         >
           <svg
@@ -3466,7 +3466,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin clown-face at the top"
           type="button"
         >
           <svg
@@ -3525,7 +3525,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin egg at the top"
           type="button"
         >
           <svg
@@ -3584,7 +3584,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin see-no-evil at the top"
           type="button"
         >
           <svg
@@ -3643,7 +3643,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin camera-flash at the top"
           type="button"
         >
           <svg
@@ -3702,7 +3702,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin alembic at the top"
           type="button"
         >
           <svg
@@ -3761,7 +3761,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin mag at the top"
           type="button"
         >
           <svg
@@ -3820,7 +3820,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin label at the top"
           type="button"
         >
           <svg
@@ -3879,7 +3879,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin seedling at the top"
           type="button"
         >
           <svg
@@ -3938,7 +3938,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin triangular-flag-on-post at the top"
           type="button"
         >
           <svg
@@ -3997,7 +3997,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin goal-net at the top"
           type="button"
         >
           <svg
@@ -4056,7 +4056,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin animation at the top"
           type="button"
         >
           <svg
@@ -4115,7 +4115,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin wastebasket at the top"
           type="button"
         >
           <svg
@@ -4174,7 +4174,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin passport-control at the top"
           type="button"
         >
           <svg
@@ -4233,7 +4233,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin adhesive-bandage at the top"
           type="button"
         >
           <svg
@@ -4292,7 +4292,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin monocle-face at the top"
           type="button"
         >
           <svg
@@ -4351,7 +4351,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin coffin at the top"
           type="button"
         >
           <svg
@@ -4410,7 +4410,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin test-tube at the top"
           type="button"
         >
           <svg
@@ -4469,7 +4469,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin necktie at the top"
           type="button"
         >
           <svg
@@ -4528,7 +4528,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin stethoscope at the top"
           type="button"
         >
           <svg
@@ -4587,7 +4587,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin bricks at the top"
           type="button"
         >
           <svg
@@ -4646,7 +4646,7 @@ exports[`Pages Index should render the page 1`] = `
         <button
           className="pin "
           onClick={[Function]}
-          title="Pin me at the top"
+          title="Pin technologist at the top"
           type="button"
         >
           <svg

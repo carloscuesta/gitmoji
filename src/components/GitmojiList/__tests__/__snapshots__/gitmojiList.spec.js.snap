@@ -107,7 +107,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin art at the top"
         type="button"
       >
         <svg
@@ -166,7 +166,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin zap at the top"
         type="button"
       >
         <svg
@@ -225,7 +225,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin fire at the top"
         type="button"
       >
         <svg
@@ -284,7 +284,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin bug at the top"
         type="button"
       >
         <svg
@@ -343,7 +343,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin ambulance at the top"
         type="button"
       >
         <svg
@@ -402,7 +402,7 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin sparkles at the top"
         type="button"
       >
         <svg
@@ -525,7 +525,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin art at the top"
         type="button"
       >
         <svg
@@ -584,7 +584,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin zap at the top"
         type="button"
       >
         <svg
@@ -643,7 +643,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin fire at the top"
         type="button"
       >
         <svg
@@ -702,7 +702,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin bug at the top"
         type="button"
       >
         <svg
@@ -761,7 +761,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin ambulance at the top"
         type="button"
       >
         <svg
@@ -820,7 +820,7 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <button
         className="pin "
         onClick={[Function]}
-        title="Pin me at the top"
+        title="Pin sparkles at the top"
         type="button"
       >
         <svg
