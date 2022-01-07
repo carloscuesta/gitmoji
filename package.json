@@ -1,61 +1,37 @@
 {
-  "name": "gitmojis",
-  "version": "3.8.0",
-  "description": "An emoji guide for your commit messages.",
-  "private": false,
-  "main": "src/data/gitmojis.json",
-  "files": [
-    "src/data/gitmojis.json"
-  ],
+  "name": "gitmoji",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "export": "next export && touch out/.nojekyll",
     "flow": "flow",
-    "lint": "prettier --check src/**/*.{js,json,css}",
-    "postbuild": "next-sitemap",
+    "lint": "prettier --check src/**/*.{js,json,scss}",
     "start": "next start",
     "test": "jest --coverage",
-    "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
-    "prepublishOnly": "npm run validate:gitmojis",
-    "prepare": "husky install"
+    "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json"
+  },
+  "dependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "@zeit/next-sass": "^1.0.1",
+    "clipboard": "^2.0.4",
+    "next": "9.1.1",
+    "node-sass": "^4.13.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-test-renderer": "^16.11.0"
   },
   "devDependencies": {
-    "@babel/preset-flow": "^7.0.0",
-    "clipboard": "^2.0.4",
-    "flow-bin": "^0.168.0",
-    "husky": "^7.0.0",
+    "flow-bin": "^0.110.1",
+    "husky": "^3.0.9",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.0.1",
-    "jest-fetch-mock": "^3.0.3",
+    "jest": "^24.9.0",
     "jsonlint": "^1.6.3",
-    "lint-staged": "^12.0.2",
-    "next": "^12.0.0",
-    "next-sitemap": "^1.3.16",
-    "prettier": "2.5.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-test-renderer": "^17.0.1"
+    "lint-staged": "^10.0.0-1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prettier": "1.18.2"
   },
-  "author": {
-    "name": "carloscuesta",
-    "email": "hi@carloscuesta.me",
-    "url": "https://carloscuesta.me"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/carloscuesta/gitmoji/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carloscuesta/gitmoji.git"
-  },
-  "homepage": "https://gitmoji.dev",
-  "keywords": [
-    "gitmoji",
-    "emoji",
-    "carloscuesta",
-    "commit"
-  ],
   "prettier": {
     "semi": false,
     "singleQuote": true,
@@ -63,8 +39,20 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "prettier --write src/**/*.{js,json,css}",
+      "prettier --write src/**/*.{js,json,scss}",
       "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run flow && npm run test"
+    }
+  },
+  "babel": {
+    "presets": [
+      "next/babel",
+      "@babel/preset-flow"
     ]
   },
   "jest": {
@@ -75,12 +63,7 @@
       "**/*.(spec).(js)"
     ],
     "moduleNameMapper": {
-      "^.+\\.css$": "identity-obj-proxy",
-      "src/(.*)$": "<rootDir>/src/$1"
-    },
-    "testEnvironment": "jsdom"
-  },
-  "dependencies": {
-    "next-pwa": "^5.4.4"
+      "\\.(scss)$": "identity-obj-proxy"
+    }
   }
 }
