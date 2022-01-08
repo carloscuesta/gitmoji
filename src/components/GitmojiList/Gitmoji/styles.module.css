@@ -52,7 +52,8 @@
   display: flex;
   top: 0.4rem;
   right: 0.4rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  color: var(--secondary);
   border: solid 2px var(--secondary);
   border-radius: 4px;
   padding: 0.3rem;
@@ -69,9 +70,6 @@
 
 .pin svg {
   margin: 0;
-  transform: rotate(-45deg);
-  fill: var(--secondary);
-  filter: drop-shadow(1px 2px 1px rgba(0, 0, 0, 0.7));
 }
 
 .list .pin {
