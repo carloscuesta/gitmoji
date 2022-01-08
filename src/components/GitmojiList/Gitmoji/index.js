@@ -54,11 +54,11 @@ const Gitmoji = (props: Props): Element<'article'> => {
         </div>
         <button
           type="button"
-          className={`${styles.pin} ${pinned ? styles.active : ''}`}
+          className={`button ${styles.pin} ${pinned ? styles.active : ''}`}
           title={pinText}
           onClick={props.onPinClick}
         >
-          <Icon name={pinned ? 'pin-fill' : 'pin'} />
+          <Icon name="pin-fill" />
         </button>
       </div>
     </article>
