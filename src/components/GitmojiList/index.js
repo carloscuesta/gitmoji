@@ -40,24 +40,21 @@ const GitmojiList = (props: Props): Element<'div'> => {
     [pinneds]
   )
 
-  const getGitmojis = React.useMemo(
-    () => () => {
-      const gitmojis = sortPinnedGitmojis([...props.gitmojis])
-      if (searchInput) {
-        return gitmojis.filter(({ code, description }) => {
-          const lowerCasedSearch = searchInput.toLowerCase()
+  const getGitmojis = () => {
+    const gitmojis = sortPinnedGitmojis([...props.gitmojis])
+    if (searchInput) {
+      return gitmojis.filter(({ code, description }) => {
+        const lowerCasedSearch = searchInput.toLowerCase()
 
-          return (
-            code.includes(lowerCasedSearch) ||
-            description.toLowerCase().includes(lowerCasedSearch)
-          )
-        })
-      }
+        return (
+          code.includes(lowerCasedSearch) ||
+          description.toLowerCase().includes(lowerCasedSearch)
+        )
+      })
+    }
 
-      return gitmojis
-    },
-    [searchInput, pinneds]
-  )
+    return gitmojis
+  }
 
   const gitmojis = getGitmojis()
 
