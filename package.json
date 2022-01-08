@@ -81,6 +81,8 @@
     "testEnvironment": "jsdom"
   },
   "dependencies": {
-    "next-pwa": "^5.4.4"
+    "focus-trap-react": "^8.9.0",
+    "next-pwa": "^5.4.4",
+    "prop-types": "^15.8.1"
   }
 }
