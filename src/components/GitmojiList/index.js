@@ -44,7 +44,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
 
   const getGitmojis = React.useMemo(
     () => () => {
-      const gitmojis = sortPinnedGitmojis(props.gitmojis)
+      const gitmojis = sortPinnedGitmojis([...props.gitmojis])
       if (searchInput) {
         return gitmojis.filter(({ code, description }) => {
           const lowerCasedSearch = searchInput.toLowerCase()
@@ -58,7 +58,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
 
       return gitmojis
     },
-    [searchInput]
+    [searchInput, pinnedSet]
   )
 
   const gitmojis = getGitmojis()
@@ -129,7 +129,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
       {gitmojis.length === 0 ? (
         <h2>No gitmojis found for search: {searchInput}</h2>
       ) : (
-        sortPinnedGitmojis([...gitmojis]).map((gitmoji, index) => (
+        gitmojis.map((gitmoji, index) => (
           <Gitmoji
             code={gitmoji.code}
             description={gitmoji.description}
