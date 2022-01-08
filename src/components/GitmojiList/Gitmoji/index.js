@@ -58,7 +58,7 @@ const Gitmoji = (props: Props): Element<'article'> => {
           }
           onClick={props.onPinClick}
         >
-          <Icon name="pin-fill" />
+          <Icon name="star" />
         </button>
       </div>
     </article>
