@@ -25,10 +25,8 @@ const GitmojiList = (props: Props): Element<'div'> => {
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
   const [pinneds, setPinneds] = useLocalStorage('pinneds', [])
 
-  const pinnedSet = new Set(pinneds)
-
   const isPinned = (code: string): boolean => {
-    return pinnedSet.has(code)
+    return pinneds.includes(code)
   }
 
   const sortPinnedGitmojis = React.useMemo(
@@ -39,7 +37,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
           return 0
         })
       },
-    [pinnedSet]
+    [pinneds]
   )
 
   const getGitmojis = React.useMemo(
@@ -58,7 +56,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
 
       return gitmojis
     },
-    [searchInput, pinnedSet]
+    [searchInput, pinneds]
   )
 
   const gitmojis = getGitmojis()
