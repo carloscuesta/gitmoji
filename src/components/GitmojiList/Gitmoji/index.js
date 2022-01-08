@@ -18,8 +18,6 @@ type Props = {
 const Gitmoji = (props: Props): Element<'article'> => {
   const { pinned = false } = props
 
-  const pinText = `Pin ${props.name} at the top`
-
   return (
     <article
       style={{ '--emojiColor': emojiColorsMap[props.name] }}
@@ -55,7 +53,9 @@ const Gitmoji = (props: Props): Element<'article'> => {
         <button
           type="button"
           className={`button ${styles.pin} ${pinned ? styles.active : ''}`}
-          title={pinText}
+          title={
+            pinned ? `Unpin ${props.name}` : `Pin ${props.name} at the top`
+          }
           onClick={props.onPinClick}
         >
           <Icon name="pin-fill" />
