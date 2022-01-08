@@ -33,7 +33,7 @@ describe('useLocalStorage', () => {
 
       expect(window.localStorage.setItem).toHaveBeenCalledWith(
         stubs.localStorageMock.key,
-        `"${stubs.localStorageMock.value}"`
+        JSON.stringify(stubs.localStorageMock.value)
       )
     })
   })
