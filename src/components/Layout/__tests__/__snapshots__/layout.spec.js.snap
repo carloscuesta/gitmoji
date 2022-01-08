@@ -446,6 +446,88 @@ Array [
         />
       </svg>
     </button>
+    <dialog
+      open={false}
+    >
+      <nav
+        className="menu"
+      >
+        <div
+          className="closeContainer"
+        >
+          <button
+            aria-label="Close navigation menu"
+            className="button"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="48"
+              width="48"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M37.968 12.844L26.812 24L37.968 35.156L35.156 37.968L24 26.812L12.844 37.968L10.032 35.156L21.188 24L10.032 12.844L12.844 10.032L24 21.188L35.156 10.032L37.968 12.844Z"
+              />
+            </svg>
+          </button>
+        </div>
+        <ul
+          className="links"
+        >
+          <li>
+            <a
+              className="link false"
+              href="/"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              className="link false"
+              href="/about"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              className="link false"
+              href="/contributors"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Contributors
+            </a>
+          </li>
+          <li>
+            <a
+              className="link false"
+              href="/related-tools"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Related tools
+            </a>
+          </li>
+          <li>
+            <a
+              className="link"
+              href="https://github.com/carloscuesta/gitmoji"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </dialog>
   </div>,
   <header
     className="header"
