@@ -19,3 +19,7 @@
 .buttons a:first-child {
   margin-right: 1em;
 }
+
+.buttons a:first-child svg {
+  color: #ffdd67;
+}
