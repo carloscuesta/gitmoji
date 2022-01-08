@@ -105,16 +105,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin art at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin art at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -164,16 +165,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin zap at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin zap at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -223,16 +225,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin fire at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin fire at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -282,16 +285,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin bug at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin bug at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -341,16 +345,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin ambulance at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin ambulance at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -400,16 +405,17 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin sparkles at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin sparkles at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -523,16 +529,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin art at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin art at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -582,16 +589,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin zap at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin zap at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -641,16 +649,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin fire at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin fire at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -700,16 +709,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin bug at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin bug at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -759,16 +769,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin ambulance at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin ambulance at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>
@@ -818,16 +829,17 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         </p>
       </div>
       <button
-        className="pin "
+        aria-label="Pin sparkles at the top"
+        className="button pin "
         onClick={[Function]}
         title="Pin sparkles at the top"
         type="button"
       >
         <svg
-          className="icon icon-pin"
+          className="icon icon-star"
         >
           <use
-            xlinkHref="#icon-pin"
+            xlinkHref="#icon-star"
           />
         </svg>
       </button>

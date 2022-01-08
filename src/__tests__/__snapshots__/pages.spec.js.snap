@@ -209,7 +209,7 @@ Array [
         <path
           className="twitter"
           d="M62,25.2H39.1L32,3l-7.1,22.2H2l18.5,13.7l-7,22.1L32,47.3L50.5,61l-7.1-22.2L62,25.2z"
-          fill="#FFDD67"
+          fill="currentColor"
         />
       </symbol>
       <symbol
@@ -296,28 +296,6 @@ Array [
         <path
           d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z"
           fill="currentColor"
-        />
-      </symbol>
-      <symbol
-        id="icon-pin"
-        viewBox="0 0 16 16"
-      >
-        <title>
-          pin
-        </title>
-        <path
-          d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354zm1.58 1.408-.002-.001.002.001zm-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a4.922 4.922 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a4.915 4.915 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.775 1.775 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14c.06.1.133.191.214.271a1.78 1.78 0 0 0 .37.282z"
-        />
-      </symbol>
-      <symbol
-        id="icon-pin-fill"
-        viewBox="0 0 16 16"
-      >
-        <title>
-          pin-fill
-        </title>
-        <path
-          d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z"
         />
       </symbol>
     </defs>
@@ -632,16 +610,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin art at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin art at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -691,16 +670,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin zap at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin zap at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -750,16 +730,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin fire at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin fire at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -809,16 +790,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin bug at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin bug at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -868,16 +850,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin ambulance at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin ambulance at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -927,16 +910,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin sparkles at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin sparkles at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -986,16 +970,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin memo at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin memo at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1045,16 +1030,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin rocket at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin rocket at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1104,16 +1090,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin lipstick at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin lipstick at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1163,16 +1150,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin tada at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin tada at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1222,16 +1210,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin white-check-mark at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin white-check-mark at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1281,16 +1270,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin lock at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin lock at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1340,16 +1330,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin bookmark at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin bookmark at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1399,16 +1390,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin rotating-light at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin rotating-light at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1458,16 +1450,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin construction at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin construction at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1517,16 +1510,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin green-heart at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin green-heart at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1576,16 +1570,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin arrow-down at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin arrow-down at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1635,16 +1630,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin arrow-up at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin arrow-up at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1694,16 +1690,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin pushpin at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin pushpin at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1753,16 +1750,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin construction-worker at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin construction-worker at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1812,16 +1810,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin chart-with-upwards-trend at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin chart-with-upwards-trend at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1871,16 +1870,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin recycle at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin recycle at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1930,16 +1930,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin heavy-plus-sign at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin heavy-plus-sign at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -1989,16 +1990,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin heavy-minus-sign at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin heavy-minus-sign at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2048,16 +2050,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin wrench at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin wrench at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2107,16 +2110,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin hammer at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin hammer at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2166,16 +2170,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin globe-with-meridians at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin globe-with-meridians at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2225,16 +2230,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin pencil2 at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin pencil2 at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2284,16 +2290,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin poop at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin poop at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2343,16 +2350,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin rewind at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin rewind at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2402,16 +2410,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin twisted-rightwards-arrows at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin twisted-rightwards-arrows at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2461,16 +2470,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin package at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin package at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2520,16 +2530,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin alien at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin alien at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2579,16 +2590,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin truck at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin truck at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2638,16 +2650,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin page-facing-up at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin page-facing-up at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2697,16 +2710,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin boom at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin boom at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2756,16 +2770,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin bento at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin bento at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2815,16 +2830,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin wheelchair at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin wheelchair at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2874,16 +2890,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin bulb at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin bulb at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2933,16 +2950,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin beers at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin beers at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -2992,16 +3010,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin speech-balloon at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin speech-balloon at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3051,16 +3070,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin card-file-box at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin card-file-box at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3110,16 +3130,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin loud-sound at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin loud-sound at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3169,16 +3190,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin mute at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin mute at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3228,16 +3250,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin busts-in-silhouette at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin busts-in-silhouette at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3287,16 +3310,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin children-crossing at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin children-crossing at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3346,16 +3370,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin building-construction at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin building-construction at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3405,16 +3430,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin iphone at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin iphone at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3464,16 +3490,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin clown-face at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin clown-face at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3523,16 +3550,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin egg at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin egg at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3582,16 +3610,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin see-no-evil at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin see-no-evil at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3641,16 +3670,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin camera-flash at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin camera-flash at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3700,16 +3730,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin alembic at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin alembic at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3759,16 +3790,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin mag at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin mag at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3818,16 +3850,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin label at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin label at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3877,16 +3910,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin seedling at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin seedling at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3936,16 +3970,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin triangular-flag-on-post at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin triangular-flag-on-post at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -3995,16 +4030,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin goal-net at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin goal-net at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4054,16 +4090,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin animation at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin animation at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4113,16 +4150,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin wastebasket at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin wastebasket at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4172,16 +4210,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin passport-control at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin passport-control at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4231,16 +4270,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin adhesive-bandage at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin adhesive-bandage at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4290,16 +4330,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin monocle-face at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin monocle-face at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4349,16 +4390,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin coffin at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin coffin at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4408,16 +4450,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin test-tube at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin test-tube at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4467,16 +4510,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin necktie at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin necktie at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4526,16 +4570,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin stethoscope at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin stethoscope at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4585,16 +4630,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin bricks at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin bricks at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>
@@ -4644,16 +4690,17 @@ exports[`Pages Index should render the page 1`] = `
           </p>
         </div>
         <button
-          className="pin "
+          aria-label="Pin technologist at the top"
+          className="button pin "
           onClick={[Function]}
           title="Pin technologist at the top"
           type="button"
         >
           <svg
-            className="icon icon-pin"
+            className="icon icon-star"
           >
             <use
-              xlinkHref="#icon-pin"
+              xlinkHref="#icon-star"
             />
           </svg>
         </button>

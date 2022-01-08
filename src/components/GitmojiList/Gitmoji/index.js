@@ -16,9 +16,7 @@ type Props = {
 }
 
 const Gitmoji = (props: Props): Element<'article'> => {
-  const { pinned = false } = props
-
-  const pinText = pinned
+  const pinText = props.pinned
     ? `Unpin ${props.name}`
     : `Pin ${props.name} at the top`
 
@@ -56,7 +54,9 @@ const Gitmoji = (props: Props): Element<'article'> => {
         </div>
         <button
           type="button"
-          className={`button ${styles.pin} ${pinned ? styles.active : ''}`}
+          className={`button ${styles.pin} ${
+            props.pinned ? styles.active : ''
+          }`}
           title={pinText}
           aria-label={pinText}
           onClick={props.onPinClick}
@@ -66,6 +66,10 @@ const Gitmoji = (props: Props): Element<'article'> => {
       </div>
     </article>
   )
+}
+
+Gitmoji.defaultProps = {
+  pinned: false,
 }
 
 export default Gitmoji
