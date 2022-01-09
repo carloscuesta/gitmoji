@@ -1,5 +1,6 @@
 [ignore]
 <PROJECT_ROOT>/.next
+.*/node_modules/resolve/test/resolver/malformed_package_json
 .*/node_modules/jsonlint-mod
 
 [include]
