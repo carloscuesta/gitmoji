@@ -31,7 +31,7 @@ const Hamburger = (): Element<'div'> => {
         <OpenIcon />
       </button>
 
-      <dialog open={isOpen}>
+      {isOpen && (
         <FocusTrap active={isOpen}>
           <nav className={styles.menu}>
             <div className={styles.closeContainer}>
@@ -66,7 +66,7 @@ const Hamburger = (): Element<'div'> => {
             </ul>
           </nav>
         </FocusTrap>
-      </dialog>
+      )}
     </div>
   )
 }
