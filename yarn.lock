@@ -2584,11 +2584,6 @@ escape-string-regexp@^2.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
   integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
 
-escape-string-regexp@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
-  integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
-
 escodegen@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/escodegen/-/escodegen-2.0.0.tgz#5e32b12833e8aa8fa35e1bf0befa89380484c7dd"
@@ -4070,13 +4065,6 @@ makeerror@1.0.12:
   dependencies:
     tmpl "1.0.5"
 
-matcher@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/matcher/-/matcher-4.0.0.tgz#a42a05a09aaed92e2d241eb91fddac689461ea51"
-  integrity sha512-S6x5wmcDmsDRRU/c2dkccDwQPXoFczc5+HpQ2lON8pnvHlnvHAHj5WlLVvw6n6vNyHuVugYrFohYxbS+pvFpKQ==
-  dependencies:
-    escape-string-regexp "^4.0.0"
-
 md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/md5.js/-/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
@@ -4184,12 +4172,11 @@ next-pwa@^5.4.4:
     workbox-window "^6.4.2"
 
 next-sitemap@^1.3.16:
-  version "1.6.261"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.6.261.tgz#550aeb40b6b1273628237ff7efcfacf9d0244f26"
-  integrity sha512-4RGogAJE2IsMffeH1Lfa6eT85BI1TWO8Fn1hmwX1h40UnvIaJKephlLnp+3F4C4jXKDAZ6P+xHLtVPmyQznVPQ==
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.8.4.tgz#70c8c2babe037f018ca127ef7609d2bff0f0003b"
+  integrity sha512-UYk2HQiZk+0EM+Az7uRfj0Vxl8fJ/6FMiVPtTgQo7WwavGgkX57Ol5lcKjcty/vJyVdZOUIuyjGtGzz4QzajVA==
   dependencies:
     "@corex/deepmerge" "^2.6.148"
-    matcher "^4.0.0"
     minimist "^1.2.5"
 
 next@^12.0.0:
