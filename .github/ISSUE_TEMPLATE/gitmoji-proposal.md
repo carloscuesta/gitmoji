@@ -23,8 +23,9 @@ would use this emoji:
 
 ### Can't this use case be covered by another emoji?
 
-> Can't this use case be covered by another emoji? If maybe we can use another
-> emoji for this, what's the difference between the other emojis?
+> Can't this use case be covered by another emoji? Try thinking about what
+> other existing emojis work similar to this and describe what are the
+> differences between those similar ones and this proposed one.
 <!-- answer right below this line -->
 
 ### Does this emoji fall into the "how" category?
@@ -33,12 +34,13 @@ would use this emoji:
 > particular commit (:white_check_mark:, :lock:, :zap:...), not the "how" it was
 > done (the exceptions being :hankey:, :beers:). Does this emoji fall into the
 > "how" category? If that's the case we are probably gonna reject the idea, but
-> if you still think this one should be an inclusion, please spend some extra
-> time defending this aspect as well;
+> if you still think this one should be included, please spend some extra time
+> defending this aspect as well;
 <!-- answer right below this line -->
 
 ### Examples
 
 > When would one want to use this commit? In what situations? Try coming up with
-> more than one examples:
+> more than one example:
 <!-- examples right below this line -->
+
