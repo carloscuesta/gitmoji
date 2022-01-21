@@ -15,17 +15,30 @@ Hello @carloscuesta :sunglasses:!
 - Code: `:rainbow:` <!-- Emoji code on GitHub -->
 - Description: <!-- Create a short description of the new emoji to appear on the emoji cards -->
 
+## Describe the use case of your emoji
+
+<!-- Explain the creation of this emoji, what this is and when it should be used -->
+
+### Is this use case covered by an existing emoji?
+
 <!--
-Justify the creation of this emoji, while you write this, try to thing about
-the following questions:
-
-- Can't this use case be covered by another emoji? If maybe we can use another
-  emoji for this, what's the difference between the other emojis?
-
-- We are trying to always describe/categorize the "what" has been done in one
-  particular commit (:white_check_mark:, :lock:, :zap:...), not the "how" it
-  was done (the exceptions being :hankey:, :beers:). Does this emoji fall into
-  the "how" category? If that's the case we are probably gonna reject the idea,
-  but if you still think this one should be an inclusion, please spend some
-  extra time defending this aspect as well;
+Can we cover this use case with an existing emoji? Try thinking about what
+other existing emojis work similar to this and describe what are the
+differences between those similar ones and this proposed one.
 -->
+
+### Does this emoji fall into the "how" category?
+
+<!--
+We are trying to always describe/categorize the "what" has been done in one
+particular commit (:white_check_mark:, :lock:, :zap:...), not the "how" it was
+done (the exceptions being :hankey:, :beers:). Does this emoji fall into the
+"how" category?
+-->
+
+### Examples
+
+<!--
+Include some examples for using the emoji
+-->
+
