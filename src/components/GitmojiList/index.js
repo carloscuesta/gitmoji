@@ -29,34 +29,24 @@ const GitmojiList = (props: Props): Element<'div'> => {
     return pinneds.includes(code)
   }
 
-  const sortPinnedGitmojis = React.useMemo(
-    () =>
-      (gitmojis: Array<Gitmojis>): Array<Gitmojis> => {
-        return gitmojis.sort((gitmoji) => {
-          if (isPinned(gitmoji.code)) return -1
-          return 0
+  const gitmojis = (() => {
+    const emojis = props.gitmojis.sort((gitmoji) => {
+      if (isPinned(gitmoji.code)) return -1
+
+      return 0
+    })
+
+    return searchInput
+      ? emojis.filter(({ code, description }) => {
+          const lowerCasedSearch = searchInput.toLowerCase()
+
+          return (
+            code.includes(lowerCasedSearch) ||
+            description.toLowerCase().includes(lowerCasedSearch)
+          )
         })
-      },
-    [pinneds]
-  )
-
-  const getGitmojis = () => {
-    const gitmojis = sortPinnedGitmojis([...props.gitmojis])
-    if (searchInput) {
-      return gitmojis.filter(({ code, description }) => {
-        const lowerCasedSearch = searchInput.toLowerCase()
-
-        return (
-          code.includes(lowerCasedSearch) ||
-          description.toLowerCase().includes(lowerCasedSearch)
-        )
-      })
-    }
-
-    return gitmojis
-  }
-
-  const gitmojis = getGitmojis()
+      : emojis
+  })()
 
   const onPinClick = (code: string): void => {
     const isEmojiPinned = isPinned(code)
