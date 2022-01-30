@@ -50,7 +50,7 @@
 .pin {
   position: absolute;
   display: flex;
-  top: 0.4rem;
+  bottom: 0.4rem;
   right: 0.4rem;
   font-size: 1.5rem;
   color: var(--secondary);
@@ -73,7 +73,7 @@
 }
 
 .list .pin {
-  top: 0.2rem;
+  bottom: 0.2rem;
   right: 0.2rem;
   font-size: 1rem;
 }

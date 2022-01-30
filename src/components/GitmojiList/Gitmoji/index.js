@@ -61,7 +61,7 @@ const Gitmoji = (props: Props): Element<'article'> => {
           aria-label={pinText}
           onClick={props.onPinClick}
         >
-          <Icon name="star" />
+          <Icon name="heart" />
         </button>
       </div>
     </article>

@@ -617,10 +617,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -677,10 +677,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -737,10 +737,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -797,10 +797,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -857,10 +857,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -917,10 +917,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -977,10 +977,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1037,10 +1037,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1097,10 +1097,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1157,10 +1157,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1217,10 +1217,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1277,10 +1277,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1337,10 +1337,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1397,10 +1397,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1457,10 +1457,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1517,10 +1517,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1577,10 +1577,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1637,10 +1637,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1697,10 +1697,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1757,10 +1757,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1817,10 +1817,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1877,10 +1877,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1937,10 +1937,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -1997,10 +1997,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2057,10 +2057,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2117,10 +2117,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2177,10 +2177,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2237,10 +2237,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2297,10 +2297,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2357,10 +2357,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2417,10 +2417,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2477,10 +2477,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2537,10 +2537,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2597,10 +2597,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2657,10 +2657,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2717,10 +2717,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2777,10 +2777,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2837,10 +2837,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2897,10 +2897,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -2957,10 +2957,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3017,10 +3017,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3077,10 +3077,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3137,10 +3137,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3197,10 +3197,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3257,10 +3257,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3317,10 +3317,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3377,10 +3377,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3437,10 +3437,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3497,10 +3497,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3557,10 +3557,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3617,10 +3617,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3677,10 +3677,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3737,10 +3737,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3797,10 +3797,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3857,10 +3857,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3917,10 +3917,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -3977,10 +3977,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4037,10 +4037,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4097,10 +4097,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4157,10 +4157,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4217,10 +4217,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4277,10 +4277,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4337,10 +4337,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4397,10 +4397,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4457,10 +4457,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4517,10 +4517,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4577,10 +4577,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4637,10 +4637,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>
@@ -4697,10 +4697,10 @@ exports[`Pages Index should render the page 1`] = `
           type="button"
         >
           <svg
-            className="icon icon-star"
+            className="icon icon-heart"
           >
             <use
-              xlinkHref="#icon-star"
+              xlinkHref="#icon-heart"
             />
           </svg>
         </button>

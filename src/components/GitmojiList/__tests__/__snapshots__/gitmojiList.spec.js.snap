@@ -112,10 +112,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -172,10 +172,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -232,10 +232,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -292,10 +292,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -352,10 +352,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -412,10 +412,10 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -536,10 +536,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -596,10 +596,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -656,10 +656,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -716,10 +716,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -776,10 +776,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
@@ -836,10 +836,10 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         type="button"
       >
         <svg
-          className="icon icon-star"
+          className="icon icon-heart"
         >
           <use
-            xlinkHref="#icon-star"
+            xlinkHref="#icon-heart"
           />
         </svg>
       </button>
