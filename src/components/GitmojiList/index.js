@@ -58,26 +58,19 @@ const GitmojiList = (props: Props): Element<'div'> => {
 
   const gitmojis = getGitmojis()
 
-  const addPinned = (code: string): void => {
-    setPinneds((current) => [...current, code])
-    notify(
-      `<p>Gitmoji <span class="gitmoji-code">${code}</span> pinned to the top 😜</p>`
-    )
-  }
-
-  const removePinned = (code: string): void => {
-    setPinneds((current) => current.filter((pinned) => pinned !== code))
-    notify(
-      `<p>Gitmoji <span class="gitmoji-code">${code}</span> is unpinned 😜</p>`
-    )
-  }
-
   const onPinClick = (code: string): void => {
-    if (isPinned(code)) {
-      removePinned(code)
+    const isEmojiPinned = isPinned(code)
+    const message = `<p>Gitmoji <span class="gitmoji-code">${code}</span> ${
+      isEmojiPinned ? 'pinned to the top' : 'unpinned'
+    } 😜</p>`
+
+    if (isEmojiPinned) {
+      setPinneds((current) => current.filter((pinned) => pinned !== code))
     } else {
-      addPinned(code)
+      setPinneds((emojis) => [...emojis, code])
     }
+
+    return notify(message)
   }
 
   React.useEffect(() => {
