@@ -2292,10 +2292,10 @@ find-up@^4.0.0, find-up@^4.1.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-flow-bin@^0.169.0:
-  version "0.169.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.169.0.tgz#3c25ecefc165929159f30b8eb5b8b74cc7ead9a7"
-  integrity sha512-CflYPrd4KiMh5RyvoJbkM5Az1PKDzFBCu3tHqNcZkHeCbYgtLAcYVTs1w8aKDXfTiBSPZ7B9u5KT5RdmsY2mzQ==
+flow-bin@^0.170.0:
+  version "0.170.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.170.0.tgz#1da264de9868cc20a338f801bedc370e3e06f5cc"
+  integrity sha512-h4qy4f5loKdeLhj7TRM6XQWhmPpnfjDcOg6GPDuJnLAQuB60LJIHZ8QL3hxMf0oA++NkiYx62Vr8oHu+UZ2bGQ==
 
 focus-trap-react@^8.9.0:
   version "8.9.1"
