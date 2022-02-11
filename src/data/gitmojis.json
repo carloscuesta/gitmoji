@@ -97,6 +97,14 @@
       "semver": "patch"
     },
     {
+      "emoji": "🔐",
+      "entity": "&#x1f510;",
+      "code": ":closed_lock_with_key:",
+      "description": "Add or update secrets.",
+      "name": "closed-lock-with-key",
+      "semver": null
+    },
+    {
       "emoji": "🔖",
       "entity": "&#x1f516;",
       "code": ":bookmark:",
