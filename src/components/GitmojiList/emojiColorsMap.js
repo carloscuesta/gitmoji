@@ -36,6 +36,7 @@ export default {
   label: '#cb63e6',
   lipstick: '#80deea',
   lock: '#ffce49',
+  'closed-lock-with-key': '#83beec',
   'loud-sound': '#23b4d2',
   mag: '#ffe55f',
   memo: '#00e676',
