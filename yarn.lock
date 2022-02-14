@@ -2305,16 +2305,16 @@ flow-bin@^0.171.0:
   integrity sha512-2HEiXAyE60ztGs+loFk6XSskL69THL6tSjzopUcbwgfrdbuZ5Jhv23qh1jUKP5AZJh0NNwxaFZ6To2p6xR+GEA==
 
 focus-trap-react@^8.9.0:
-  version "8.9.1"
-  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-8.9.1.tgz#5f2b3bce6a7c4de6485fd6f4c5e8c0cbaa6e9ad3"
-  integrity sha512-QGVw4ch1ZfT2IcCL1ehBgrwnFuPA0nP7hXcrZzC8SThbktt/jiXCWQSKhA2WL0nVbxTiZ7YpIu/foTekp+dcqA==
+  version "8.9.2"
+  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-8.9.2.tgz#af19c6d65bedeba925859d7ec51c41d8d2c30855"
+  integrity sha512-m6TQQHLcqkisc6Qq92q1yYzzOaxo34Szh5FQOXzky7028PXFEhuUxScTbT7EG9qL0QG7B+oR2ZbxyU0lK4kIwQ==
   dependencies:
-    focus-trap "^6.7.2"
+    focus-trap "^6.7.3"
 
-focus-trap@^6.7.2:
-  version "6.7.2"
-  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-6.7.2.tgz#02e63b12f4d4b3d00bfac4309cfd223e9b4ed44e"
-  integrity sha512-mRVv9QPCXITaDreu+pNXiPk1Rpn0WQtGvGrDo3Z/s2kdwtzFw/WOPfbLkdxWWvcahoInm9eRztuQOr1RNyQGrw==
+focus-trap@^6.7.3:
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-6.7.3.tgz#b5dc195b49c90001f08a63134471d1e6dd381ddd"
+  integrity sha512-8xCEKndV4KrseGhFKKKmczVA14yx1/hnmFICPOjcFjToxCJYj/NHH43tPc3YE/PLnLRNZoFug0EcWkGQde/miQ==
   dependencies:
     tabbable "^5.2.1"
 
