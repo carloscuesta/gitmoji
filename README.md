@@ -30,6 +30,18 @@ To use gitmojis from your command line install [gitmoji-cli](https://github.com/
 npm i -g gitmoji-cli
 ```
 
+## Example of usage
+
+In case you need some ideas to integrate gitmoji in your project, here's a practical way to use it:
+
+```
+<intention> [scope?][:?] <message>
+```
+
+- `intention`: An emoji from the list.
+- `scope`: An optional string that adds contextual information for the scope of the change.
+- `message:` A brief explanation of the change.
+
 ## Contributing to gitmoji
 
 Contributing to gitmoji is a piece of :cake:, read the [contributing guidelines](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md). You can discuss emojis using the [issues section](https://github.com/carloscuesta/gitmoji/issues/new). To add a new emoji to the list create an issue and send a pull request, see [how to send a pull request and add a gitmoji](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md#how-to-add-a-gitmoji).
