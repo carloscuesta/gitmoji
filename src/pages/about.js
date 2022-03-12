@@ -76,6 +76,32 @@ const About = () => (
       </section>
 
       <section>
+        <h1>Example of usage</h1>
+
+        <p>
+          In case you need some ideas to integrate gitmoji in your project,
+          here's a practical way to use it:
+        </p>
+
+        <ul>
+          <li>
+            <b>intention</b>: An emoji from the list.
+          </li>
+          <li>
+            <b>scope</b>: An optional string that adds contextual information
+            for the scope of the change.
+          </li>
+          <li>
+            <b>message</b>: A brief explanation of the change.
+          </li>
+        </ul>
+
+        <pre>
+          <code>&lt;intention&gt; [scope?][:?] &lt;message&gt;</code>
+        </pre>
+      </section>
+
+      <section>
         <h1 id="contributing-gitmoji">Contributing to gitmoji</h1>
 
         <p>
