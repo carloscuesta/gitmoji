@@ -48,6 +48,11 @@ const tools: Array<{ name: string, description: string, link: string }> = [
     link: 'https://github.com/ThatXliner/gitmoji-atom',
   },
   {
+    name: 'gitmoji-regex',
+    description: 'A Gitmoji::Regex for Ruby.',
+    link: 'https://github.com/pboling/gitmoji-regex',
+  },
+  {
     name: 'traymoji',
     description: 'A Electron Tray App for Gitmojis',
     link: 'https://github.com/CoenWarmer/traymoji',
