@@ -17,3 +17,8 @@ jobs:
       env:
         NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
       run: npm publish --token=${{ env.NPM_TOKEN }}
+    - name: Publish GitHub Release 📝
+      uses: softprops/action-gh-release@v1
+      with:
+        name: gitmoji ${{github.ref_name}}
+        generate_release_notes: true
