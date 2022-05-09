@@ -2538,18 +2538,18 @@ flow-bin@^0.177.0:
   integrity sha512-hEm9VDf07iGcfjiCaxZAbpp/bRcgPf/Q3f7UucWpMotrM0MmyZ2hCBvhw53XCd3M7+fP8eyZKRvUWtrMqEC/Sg==
 
 focus-trap-react@^8.9.0:
-  version "8.11.0"
-  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-8.11.0.tgz#72ad1614161c719ce54b41f087b73ee573fa4eda"
-  integrity sha512-fTRDBnbzRuoIu7DyOqr2G6o15x8f0O7th5pFvx0HwE3LDqlgjpN6+C5hhnoQLXwaDobbvpYDsZ1R04nD0a9CCA==
+  version "8.11.1"
+  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-8.11.1.tgz#dabda599f6834b8f55368494525167fa0128007c"
+  integrity sha512-ZFElB120Ntdxnq0aSWnzQqQ5QY1XUt8T1yuud/BIYAriMTWvyQghsk558ASSSV0iflaUgFQNRjKq3IEFEjGQGA==
   dependencies:
-    focus-trap "^6.9.0"
+    focus-trap "^6.9.1"
 
-focus-trap@^6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-6.9.0.tgz#d72a1ba17ac1b500bd857c6b01f072b8cfd97f6e"
-  integrity sha512-Yv3ieSeAPbfjzjU6xIuF1yAGw0kIKO5EkEJL9o/8MYfBcr99cV7dE6rJM4slk1itDHHeEhoNorQVzvEIT1rNsw==
+focus-trap@^6.9.1:
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-6.9.1.tgz#38d85b77fc86164dbe393b58b97bb8fb6dd1b343"
+  integrity sha512-TcIk4k52Mk5IWTJWdaq5AEoxDUp7znnws+5A1RBe/1X03t1Zw4ylNMajJ3aXG/J9S3TkuSUzRPB+l0RCO0nYVg==
   dependencies:
-    tabbable "^5.3.1"
+    tabbable "^5.3.2"
 
 form-data@^4.0.0:
   version "4.0.0"
@@ -4679,10 +4679,10 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-tabbable@^5.3.1:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-5.3.1.tgz#059f2a19b829efce2a0ec05785a47dd3bcd0a25b"
-  integrity sha512-NtO7I7eoAHR+JwwcNsi/PipamtAEebYDnur/k9wM6n238HHy/+1O4+7Zx7e/JaDAbKJPlIFYsfsV/6tPqTOQvg==
+tabbable@^5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-5.3.2.tgz#66d6119ee8a533634c3f17deb0caa1c379e36ac7"
+  integrity sha512-6G/8EWRFx8CiSe2++/xHhXkmCRq2rHtDtZbQFHx34cvDfZzIBfvwG9zGUNTWMXWLCYvDj3aQqOzdl3oCxKuBkQ==
 
 temp-dir@^2.0.0:
   version "2.0.0"
