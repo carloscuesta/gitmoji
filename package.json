@@ -1,6 +1,9 @@
 {
   "name": "gitmojis",
   "version": "3.9.0",
+  "engines": {
+    "node": "16"
+  },
   "description": "An emoji guide for your commit messages.",
   "private": false,
   "main": "src/data/gitmojis.json",
@@ -85,5 +88,8 @@
   "dependencies": {
     "focus-trap-react": "^8.9.0",
     "next-pwa": "^5.4.4"
+  },
+  "volta": {
+    "node": "16.15.0"
   }
 }
