@@ -18,7 +18,7 @@ exports[`Pages About should render the page 1`] = `
         Gitmoji is an emoji guide for GitHub commit messages
       </strong>
       . Aims to be a standarization cheatsheet - guide for using
-
+       
       <a
         href="https://emoji.muan.co"
       >
@@ -30,17 +30,17 @@ exports[`Pages About should render the page 1`] = `
       <strong>
         Using emojis
       </strong>
-       on
+       on 
       <strong>
         commit messages
       </strong>
-
-      provides an
+       
+      provides an 
       <strong>
         easy way
       </strong>
        of
-
+       
       <strong>
         identifying the purpose or intention of a commit
       </strong>
@@ -48,7 +48,7 @@ exports[`Pages About should render the page 1`] = `
     </p>
     <p>
       This project is Open Source, that means everyone can participate, suggesting, discussing and adding new emojis. Take a look at the
-
+       
       <a
         href="/#contributing-gitmoji"
         onClick={[Function]}
@@ -56,9 +56,9 @@ exports[`Pages About should render the page 1`] = `
       >
         contributing section
       </a>
-
+       
       and
-
+       
       <a
         href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md"
       >
@@ -86,7 +86,7 @@ exports[`Pages About should render the page 1`] = `
   <section>
     <h1>
       Using gitmoji with
-
+       
       <a
         href="https://github.com/carloscuesta/gitmoji-cli"
       >
@@ -95,7 +95,7 @@ exports[`Pages About should render the page 1`] = `
     </h1>
     <p>
       An easy solution for using gitmoji from your command line, is to install
-
+       
       <a
         href="https://github.com/carloscuesta/gitmoji-cli"
       >
@@ -149,7 +149,7 @@ exports[`Pages About should render the page 1`] = `
       Contributing to gitmoji
     </h1>
     <p>
-      Contributing to gitmoji is a piece of 🍰! This project is a static website built with
+      Contributing to gitmoji is a piece of 🍰! This project is a static website built with 
       <i>
         Next.js
       </i>
@@ -162,12 +162,12 @@ exports[`Pages About should render the page 1`] = `
         >
           Create an issue
         </a>
-
+         
         filling the template.
       </li>
       <li>
         After discussing the idea, feature or suggestion,
-
+         
         <a
           href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md"
         >
@@ -179,7 +179,7 @@ exports[`Pages About should render the page 1`] = `
           href="https://github.com/carloscuesta/gitmoji/fork"
         >
           Create a fork
-
+           
         </a>
         of gitmoji.
       </li>
@@ -188,12 +188,12 @@ exports[`Pages About should render the page 1`] = `
       </li>
       <li>
         Make your changes and send a
-
+         
         <a
           href="https://help.github.com/articles/creating-a-pull-request/"
         >
           pull request
-
+           
         </a>
         .
       </li>
@@ -448,7 +448,7 @@ Array [
           className="col-sm-6 madeWithLove"
         >
           <h3>
-            Made with
+            Made with 
             <svg
               className="icon icon-heart"
             >
@@ -457,7 +457,7 @@ Array [
               />
             </svg>
              by
-
+             
             <a
               href="https://carloscuesta.me"
             >
@@ -3487,11 +3487,11 @@ exports[`Pages Related tools should render the page 1`] = `
       Related tools
     </h1>
     <p>
-      This is a list of tools which are related with the
+      This is a list of tools which are related with the 
       <b>
         gitmoji
       </b>
-
+       
       convention.
     </p>
     <ul>
@@ -3619,7 +3619,8 @@ exports[`Pages Related tools should render the page 1`] = `
         <a
           href="https://github.com/techouse/alfred-gitmoji"
           rel="noopener noreferrer"
-          target="_blank">
+          target="_blank"
+        >
           <b>
             alfred-gitmoji
           </b>
