@@ -3615,6 +3615,18 @@ exports[`Pages Related tools should render the page 1`] = `
         </a>
         : A Electron Tray App for Gitmojis
       </li>
+      <li>
+        <a
+          href="https://github.com/techouse/alfred-gitmoji"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            alfred-gitmoji
+          </b>
+        </a>
+        : Gitmoji Workflow for Alfred
+      </li>
     </ul>
   </section>
 </main>
