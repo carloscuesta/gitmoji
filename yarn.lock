@@ -2532,10 +2532,10 @@ find-up@^4.0.0, find-up@^4.1.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-flow-bin@^0.178.0:
-  version "0.178.1"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.178.1.tgz#c0ce2f50080d00b29018c6f044b1d2edac9a9e2d"
-  integrity sha512-B6vFVkAoilnRTAwhGiVCPb777cVjIW9VwbLJTTg2vRbXjLgYIZJMmU0mit7ZSsvoOucT5WBwrrC8M0wkRoeSZA==
+flow-bin@^0.179.0:
+  version "0.179.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.179.0.tgz#a9afbedda1687726296bfc8bd34247a6aae34d4f"
+  integrity sha512-odCiPkX5Vjrgupqxq2cjib0GtzAjGRHVkLk4TG15N4B+Fd2ghb8HSW6zrdX9GwaXrsuocxm5+oVzkaaUYUf+Pg==
 
 focus-trap-react@^8.9.0:
   version "8.11.1"
