@@ -3469,6 +3469,47 @@ exports[`Pages Index should render the page 1`] = `
         </div>
       </div>
     </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#b3c0b1",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="💸"
+            type="button"
+          >
+            💸
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":money_with_wings:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :money_with_wings:
+            </code>
+          </button>
+          <p>
+            Add sponsorships or money related infrastructure.
+          </p>
+        </div>
+      </div>
+    </article>
   </div>
 </main>
 `;
