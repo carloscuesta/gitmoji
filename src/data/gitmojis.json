@@ -559,6 +559,14 @@
       "description": "Improve developer experience",
       "name": "technologist",
       "semver": null
+    },
+    {
+      "emoji": "💸",
+      "entity": "&#x1F4B8;",
+      "code": ":money_with_wings:",
+      "description": "Add sponsorships or money related infrastructure.",
+      "name": "money-with-wings",
+      "semver": null
     }
   ]
 }

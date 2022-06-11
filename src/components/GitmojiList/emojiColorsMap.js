@@ -72,4 +72,5 @@ export default {
   necktie: '#83beec',
   bricks: '#ff6723',
   technologist: '#86B837',
+  'money-with-wings': '#b3c0b1',
 }
