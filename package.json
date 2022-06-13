@@ -86,7 +86,7 @@
     "testEnvironment": "jsdom"
   },
   "dependencies": {
-    "focus-trap-react": "^8.9.0",
+    "focus-trap-react": "^9.0.0",
     "next-pwa": "^5.4.4"
   },
   "volta": {
