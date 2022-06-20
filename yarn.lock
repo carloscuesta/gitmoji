@@ -2547,11 +2547,12 @@ flow-bin@^0.180.0:
   integrity sha512-jEZoIwOxzrtQ0erUu94nEzlqUoX7OAMeVs0CjO0rN6b7SDBhI5IysVRvGSQkkFWBJpy5VQ9lvzBYzq5Sq9vcmg==
 
 focus-trap-react@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-9.0.0.tgz#4ce24e80e702fbefea7d75ac82a81b8420bc437e"
-  integrity sha512-LvS2NXFf8elJcEnkGXOKCt26g9LOHEePYUGSgM4FLNCV2Oa6UWHShM/YYz7hYyBWoYhl9IPG6b6okc3dUG7WbQ==
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-9.0.2.tgz#5ed03f7653c9be62a39f75bfeae88c21c8505ef0"
+  integrity sha512-ZwhO5by6KG5r3dy48Lk00A1/0zNYw1Z3RZTN6O6kgAPsWFcwTFszOcQ1dLSfM8pIxpS/ttc7wTttJowjVT3jpg==
   dependencies:
     focus-trap "^6.9.4"
+    tabbable "^5.3.3"
 
 focus-trap@^6.9.4:
   version "6.9.4"
