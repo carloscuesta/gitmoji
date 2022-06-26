@@ -3668,6 +3668,18 @@ exports[`Pages Related tools should render the page 1`] = `
         </a>
         : Gitmoji Workflow for Alfred
       </li>
+      <li>
+        <a
+          href="https://github.com/patrick-fu/GitmojiApp"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            gitmojiapp
+          </b>
+        </a>
+        : A Flutter Gitmoji App for macOS, Linux, and Windows
+      </li>
     </ul>
   </section>
 </main>
