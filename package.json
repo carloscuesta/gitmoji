@@ -25,7 +25,7 @@
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
     "clipboard": "^2.0.4",
-    "flow-bin": "^0.181.1",
+    "flow-bin": "^0.182.0",
     "husky": "^8.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.0.3",
