@@ -276,7 +276,7 @@
       "emoji": "🚚",
       "entity": "&#1F69A;",
       "code": ":truck:",
-      "description": "Move or rename resources (e.g.: files, paths, routes).",
+      "description": "Move or rename resources (e.g. files, paths, routes).",
       "name": "truck",
       "semver": null
     },
