@@ -12,3 +12,4 @@ public/sitemap.xml
 public/workbox-*.js
 public/sw.js
 public/*.map
+*.log

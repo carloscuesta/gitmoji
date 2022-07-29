@@ -16,7 +16,9 @@ jobs:
     - name: Publish package to NPM 🚀
       env:
         NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
-      run: npm publish --token=${{ env.NPM_TOKEN }}
+      run: |
+        npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+        npm publish --token=${{ env.NPM_TOKEN }}
     - name: Publish GitHub Release 📝
       uses: softprops/action-gh-release@v1
       with:
