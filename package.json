@@ -26,6 +26,7 @@
     "@babel/preset-flow": "^7.0.0",
     "clipboard": "^2.0.4",
     "flow-bin": "^0.183.0",
+    "focus-trap-react": "^9.0.0",
     "husky": "^8.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.0.3",
@@ -34,6 +35,7 @@
     "jsonlint": "^1.6.3",
     "lint-staged": "^13.0.0",
     "next": "^12.0.0",
+    "next-pwa": "^5.4.4",
     "next-sitemap": "^2.1.5",
     "prettier": "2.7.1",
     "prop-types": "^15.8.1",
@@ -84,10 +86,6 @@
       "src/(.*)$": "<rootDir>/src/$1"
     },
     "testEnvironment": "jsdom"
-  },
-  "dependencies": {
-    "focus-trap-react": "^9.0.0",
-    "next-pwa": "^5.4.4"
   },
   "volta": {
     "node": "16.15.0"
