@@ -3510,6 +3510,47 @@ exports[`Pages Index should render the page 1`] = `
         </div>
       </div>
     </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#ffbe7b",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🧵"
+            type="button"
+          >
+            🧵
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":thread:"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              :thread:
+            </code>
+          </button>
+          <p>
+            Add or update code related to multithreading or concurrency.
+          </p>
+        </div>
+      </div>
+    </article>
   </div>
 </main>
 `;

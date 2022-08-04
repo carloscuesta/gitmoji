@@ -567,6 +567,14 @@
       "description": "Add sponsorships or money related infrastructure.",
       "name": "money-with-wings",
       "semver": null
+    },
+    {
+      "emoji": "🧵",
+      "entity": "&#x1F9F5;",
+      "code": ":thread:",
+      "description": "Add or update code related to multithreading or concurrency.",
+      "name": "thread",
+      "semver": null
     }
   ]
 }
