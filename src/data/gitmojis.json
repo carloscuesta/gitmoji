@@ -178,7 +178,7 @@
     },
     {
       "emoji": "♻️",
-      "entity": "&#x2672;",
+      "entity": "&#x267b;",
       "code": ":recycle:",
       "description": "Refactor code.",
       "name": "recycle",
