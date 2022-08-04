@@ -73,5 +73,5 @@ export default {
   bricks: '#ff6723',
   technologist: '#86B837',
   'money-with-wings': '#b3c0b1',
-  thread: '#ffbe7b'
+  thread: '#ffbe7b',
 }
