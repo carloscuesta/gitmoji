@@ -53,6 +53,7 @@ exports[`Pages About should render the page 1`] = `
         href="/#contributing-gitmoji"
         onClick={[Function]}
         onMouseEnter={[Function]}
+        onTouchStart={[Function]}
       >
         contributing section
       </a>
@@ -473,6 +474,7 @@ Array [
               href="/about"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               About
             </a>
@@ -480,6 +482,7 @@ Array [
               href="/contributors"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               Contributors
             </a>

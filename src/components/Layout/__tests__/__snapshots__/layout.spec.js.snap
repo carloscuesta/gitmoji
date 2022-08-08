@@ -565,6 +565,7 @@ Array [
               href="/about"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               About
             </a>
@@ -572,6 +573,7 @@ Array [
               href="/contributors"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               Contributors
             </a>
