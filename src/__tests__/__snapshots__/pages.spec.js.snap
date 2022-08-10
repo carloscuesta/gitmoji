@@ -3554,6 +3554,47 @@ exports[`Pages Index should render the page 1`] = `
         </div>
       </div>
     </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        Object {
+          "--emojiColor": "#c5e763",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="💾"
+            type="button"
+          >
+            💾
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text="floppy_disk"
+            tabIndex="-1"
+            type="button"
+          >
+            <code>
+              floppy_disk
+            </code>
+          </button>
+          <p>
+            Integrate with external datasource
+          </p>
+        </div>
+      </div>
+    </article>
   </div>
 </main>
 `;

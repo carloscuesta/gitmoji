@@ -575,6 +575,14 @@
       "description": "Add or update code related to multithreading or concurrency.",
       "name": "thread",
       "semver": null
+    },
+    {
+      "emoji": "💾",
+      "entity": "&#x1F4BE",
+      "code": "floppy_disk",
+      "description": "Integrate with external datasource",
+      "name": "floppy-disk",
+      "semver": null
     }
   ]
 }
