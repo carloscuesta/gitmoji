@@ -67,6 +67,12 @@ const tools: Array<{ name: string, description: string, link: string }> = [
     description: 'A Flutter Gitmoji App for macOS, Linux, and Windows',
     link: 'https://github.com/patrick-fu/GitmojiApp',
   },
+  {
+    name: 'githubmoji',
+    description:
+      'A Firefox addon that adds a predictive gitmoji picker to GitHub commit message inputs.',
+    link: 'https://github.com/ma1ted/githubmoji',
+  },
 ]
 
 const RelatedTools = () => (

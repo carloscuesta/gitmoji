@@ -3724,6 +3724,18 @@ exports[`Pages Related tools should render the page 1`] = `
         </a>
         : A Flutter Gitmoji App for macOS, Linux, and Windows
       </li>
+      <li>
+        <a
+          href="https://github.com/ma1ted/githubmoji"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            githubmoji
+          </b>
+        </a>
+        : A Firefox addon that adds a predictive gitmoji picker to GitHub commit message inputs.
+      </li>
     </ul>
   </section>
 </main>
