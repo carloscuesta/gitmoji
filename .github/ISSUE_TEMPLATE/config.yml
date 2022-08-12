@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 😍 Contribution Guide
+    url: https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md#contributing-to-gitmoji
+    about: Please read through before making any contribution.

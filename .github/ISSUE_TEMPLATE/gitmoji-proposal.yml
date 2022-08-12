@@ -1,0 +1,77 @@
+name: 😜 Gitmoji proposal
+description: Suggest a new gitmoji!
+labels: [emoji]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in the project and taking the time to fill out this gitmoji suggestion!
+  - type: input
+    id: emoji-symbol
+    attributes:
+      label: Emoji symbol
+      description: The emoji symbol you want to suggest.
+      placeholder: "🚀"
+    validations:
+      required: true
+  - type: input
+    id: emoji-shortcode
+    attributes:
+      label: Emoji code
+      description: The ":shortcode:" of the emoji on GitHub.
+      placeholder: ":rocket:"
+    validations:
+      required: true
+  - type: input
+    id: emoji-description
+    attributes:
+      label: Emoji description
+      description: A short description of the emoji.
+      placeholder: What this emoji should be used for?
+    validations:
+      required: true
+  - type: textarea
+    id: emoji-use-case
+    attributes:
+      label: Describe the use case of your emoji
+      description: Explain the creation of this emoji, what this is and when it should be used
+      placeholder: Use case
+    validations:
+      required: true
+  - type: dropdown
+    id: emoji-use-case-covered
+    attributes:
+      label: Is this use case covered by an existing emoji?
+      options:
+        - "Yes ✅"
+        - "No ❌"
+    validations:
+      required: true
+  - type: textarea
+    id: emoji-what-how
+    attributes:
+      label:  Does this emoji fall into the "how" category?
+      description: Explain the creation of this emoji, what this is and when it should be used
+      placeholder: We are trying to always describe/categorize the "what" has been done in one particular commit (:white_check_mark:, :lock:, :zap:...), not the "how" it was done (the exceptions being :hankey:, :beers:)
+    validations:
+      required: true
+  - type: textarea
+    id: emoji-examples
+    attributes:
+      label:  Examples
+      description: Include some examples using this emoji.
+      placeholder: Examples
+    validations:
+      required: true
+  - type: checkboxes
+    id: checkboxes
+    attributes:
+      label: Validations
+      description: Before submitting the issue, please make sure you do the following
+      options:
+        - label: Follow our [Code of Conduct](https://github.com/carloscuesta/gitmoji/blob/master/CODE_OF_CONDUCT.md)
+          required: true
+        - label: Read the [Contributing Guide](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md).
+          required: true
+        - label: Check that there isn't already an issue requesting the emoji.
+          required: true

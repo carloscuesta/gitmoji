@@ -1,0 +1,48 @@
+name: 🐛 Bug report
+description: Report an issue
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear description the bug. If you want to contribute to fix this issue, tell us in the description.
+      placeholder: Description
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **required**, otherwise the issue might be closed without further notice.
+      placeholder: Reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System Info
+      description: Output of `npx envinfo --system --binaries --browsers`
+      render: Shell
+      placeholder: Paste the output of the following command 
+    validations:
+      required: true
+  - type: checkboxes
+    id: validations
+    attributes:
+      label: Validations
+      description: Before submitting the issue, please make sure you do the following
+      options:
+        - label: Follow our [Code of Conduct](https://github.com/carloscuesta/gitmoji/blob/master/CODE_OF_CONDUCT.md)
+          required: true
+        - label: Read the [Contributing Guide](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md).
+          required: true
+        - label: Check that there isn't already an issue that reports the same bug to avoid creating duplicates.
+          required: true
+        - label: Check that this is a concrete bug. For Q&A, please open a GitHub Discussion instead.
+          required: true
+        - label: The provided reproduction is a [minimal reproducible](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.
+          required: true
