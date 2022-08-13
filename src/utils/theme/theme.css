@@ -1,46 +1,44 @@
-@media (prefers-color-scheme: light) {
-  html {
-    --background: #ffffff;
-    --primary: #ffdd67;
-    --primaryShadow: #ffcc1b;
-    --secondary: #ff5a79;
-    --secondaryShadow: #f3002e;
-    --textInPrimary: #000000;
-    --textInSecondary: #ffffff;
-    --footerBackground: #00e5ff;
-    --cardBackground: #ffffff;
-    --cardText: #999999;
-    --emojiCodeText: #000000;
-    --cardShadow: rgba(168, 182, 191, 0.6);
-    --notificationText: #ffffff;
-    --notificationShadow: rgba(0, 0, 0, 0.05);
-    --notificationEmojiCodeColor: rgba(0, 0, 0, 0.85);
-    --menuBackground: #ff5a79;
-    --carbonAdBadgeBackground: #f1f1f1;
-  }
+:root {
+  --background: #ffffff;
+  --primary: #ffdd67;
+  --primaryShadow: #ffcc1b;
+  --secondary: #ff5a79;
+  --secondaryShadow: #f3002e;
+  --textInPrimary: #000000;
+  --textInSecondary: #ffffff;
+  --footerBackground: #00e5ff;
+  --cardBackground: #ffffff;
+  --cardText: #999999;
+  --emojiCodeText: #000000;
+  --cardShadow: rgba(168, 182, 191, 0.6);
+  --notificationText: #ffffff;
+  --notificationShadow: rgba(0, 0, 0, 0.05);
+  --notificationEmojiCodeColor: rgba(0, 0, 0, 0.85);
+  --menuBackground: #ff5a79;
+  --carbonAdBadgeBackground: #f1f1f1;
+}
+
+[data-theme='dark'] {
+  --background: #121212;
+  --primary: #ffdd67;
+  --primaryShadow: #ffcc1b;
+  --secondary: #ff5a79;
+  --secondaryShadow: #f3002e;
+  --textInPrimary: #000000;
+  --textInSecondary: #ffffff;
+  --footerBackground: #00e5ff;
+  --cardBackground: #2b2b2b;
+  --cardText: #ffffff;
+  --emojiCodeText: #ffffff;
+  --cardShadow: none;
+  --notificationText: #ffffff;
+  --notificationShadow: rgba(0, 0, 0, 0.05);
+  --notificationEmojiCodeColor: rgba(0, 0, 0, 0.85);
+  --menuBackground: #ff5a79;
+  --carbonAdBadgeBackground: #2b2b2b;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    --background: #121212;
-    --primary: #ffdd67;
-    --primaryShadow: #ffcc1b;
-    --secondary: #ff5a79;
-    --secondaryShadow: #f3002e;
-    --textInPrimary: #000000;
-    --textInSecondary: #ffffff;
-    --footerBackground: #00e5ff;
-    --cardBackground: #2b2b2b;
-    --cardText: #ffffff;
-    --emojiCodeText: #ffffff;
-    --cardShadow: none;
-    --notificationText: #ffffff;
-    --notificationShadow: rgba(0, 0, 0, 0.05);
-    --notificationEmojiCodeColor: rgba(0, 0, 0, 0.85);
-    --menuBackground: #ff5a79;
-    --carbonAdBadgeBackground: #2b2b2b;
-  }
-
   body {
     color: var(--cardText);
   }
