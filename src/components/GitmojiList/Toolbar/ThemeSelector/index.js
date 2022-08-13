@@ -7,6 +7,7 @@ import styles from './styles.module.css'
 const ThemeSelector = () => {
   const [isMounted, setIsMounted] = useState(false)
   const { resolvedTheme, setTheme } = useTheme()
+  const nextTheme = resolvedTheme === 'light' ? 'dark' : 'light'
 
   useEffect(() => setIsMounted(true), [])
 
@@ -19,11 +20,8 @@ const ThemeSelector = () => {
   }
 
   return (
-    <button
-      className={`${styles.button}`}
-      onClick={() => setTheme(resolvedTheme === 'light' ? 'dark' : 'light')}
-    >
-      <Icon name={resolvedTheme === 'light' ? 'dark' : 'light'} />
+    <button className={`${styles.button}`} onClick={() => setTheme(nextTheme)}>
+      <Icon name={nextTheme} />
     </button>
   )
 }
