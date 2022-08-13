@@ -2,6 +2,7 @@
 import React, { type Element, useEffect, useRef } from 'react'
 
 import ListModeSelector from './ListModeSelector'
+import ThemeSelector from './ThemeSelector'
 import styles from './styles.module.css'
 
 type Props = {
@@ -57,6 +58,8 @@ const Toolbar = (props: Props): Element<'div'> => {
 
         <kbd className={styles.kbd}>{isMacOs() ? '⌘' : 'Ctrl'} K</kbd>
       </div>
+
+      <ThemeSelector />
 
       <ListModeSelector
         isListMode={props.isListMode}

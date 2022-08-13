@@ -1,0 +1,19 @@
+.button {
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  background-color: transparent;
+  box-shadow: 0 2px 4px 0 var(--cardShadow);
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  margin: 8px;
+  width: 48px;
+}
+
+.button svg {
+  margin: 0;
+}
