@@ -12,9 +12,9 @@ type Props = {
 }
 
 const isMacOs = () => {
-  if (typeof window !== 'undefined') {
-    return window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
-  }
+  return typeof window === 'undefined'
+    ? true
+    : window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
 }
 
 const Toolbar = (props: Props): Element<'div'> => {
