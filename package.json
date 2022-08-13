@@ -37,6 +37,7 @@
     "next": "^12.0.0",
     "next-pwa": "^5.4.4",
     "next-sitemap": "^2.1.5",
+    "next-themes": "^0.2.0",
     "prettier": "2.7.1",
     "prop-types": "^15.8.1",
     "react": "^18.0.0",
@@ -89,5 +90,6 @@
   },
   "volta": {
     "node": "16.15.0"
-  }
+  },
+  "dependencies": {}
 }
