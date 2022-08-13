@@ -30,34 +30,50 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         </kbd>
       </div>
       <div
-        className="container"
+        className="actionsContainer"
       >
         <button
-          className="button buttonActive"
-          disabled={true}
+          className="button"
           onClick={[Function]}
         >
           <svg
-            className="icon icon-grid"
+            className="icon icon-light"
           >
             <use
-              xlinkHref="#icon-grid"
+              xlinkHref="#icon-light"
             />
           </svg>
         </button>
-        <button
-          className="button "
-          disabled={false}
-          onClick={[Function]}
+        <div
+          className="container"
         >
-          <svg
-            className="icon icon-list"
+          <button
+            className="button buttonActive"
+            disabled={true}
+            onClick={[Function]}
           >
-            <use
-              xlinkHref="#icon-list"
-            />
-          </svg>
-        </button>
+            <svg
+              className="icon icon-grid"
+            >
+              <use
+                xlinkHref="#icon-grid"
+              />
+            </svg>
+          </button>
+          <button
+            className="button "
+            disabled={false}
+            onClick={[Function]}
+          >
+            <svg
+              className="icon icon-list"
+            >
+              <use
+                xlinkHref="#icon-list"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -340,34 +356,46 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         </kbd>
       </div>
       <div
-        className="container"
+        className="actionsContainer"
       >
-        <button
-          className="button buttonActive"
-          disabled={true}
-          onClick={[Function]}
+        <div
+          className="container"
         >
-          <svg
-            className="icon icon-grid"
-          >
-            <use
-              xlinkHref="#icon-grid"
-            />
-          </svg>
-        </button>
-        <button
-          className="button "
-          disabled={false}
-          onClick={[Function]}
+          <button
+            className="button"
+            disabled={true}
+          />
+        </div>
+        <div
+          className="container"
         >
-          <svg
-            className="icon icon-list"
+          <button
+            className="button buttonActive"
+            disabled={true}
+            onClick={[Function]}
           >
-            <use
-              xlinkHref="#icon-list"
-            />
-          </svg>
-        </button>
+            <svg
+              className="icon icon-grid"
+            >
+              <use
+                xlinkHref="#icon-grid"
+              />
+            </svg>
+          </button>
+          <button
+            className="button "
+            disabled={false}
+            onClick={[Function]}
+          >
+            <svg
+              className="icon icon-list"
+            >
+              <use
+                xlinkHref="#icon-list"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   </div>

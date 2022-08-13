@@ -6,6 +6,10 @@
   margin-top: 1.5rem;
 }
 
+.actionsContainer {
+  display: flex;
+}
+
 .inputWrapper {
   flex: 1;
   display: flex;
@@ -59,7 +63,7 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 568px) {
   .searchInput {
     margin: 0;
     margin-top: 0.5rem;

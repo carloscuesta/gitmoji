@@ -205,6 +205,13 @@ exports[`Pages About should render the page 1`] = `
 
 exports[`Pages App should render the page 1`] = `
 Array [
+  <script
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "!function(){try{var d=document.documentElement,n='data-theme',s='setAttribute';var e=localStorage.getItem('theme');if('system'===e||(!e&&true)){var t='(prefers-color-scheme: dark)',m=window.matchMedia(t);if(m.media!==t||m.matches){d.style.colorScheme = 'dark';d[s](n,'dark')}else{d.style.colorScheme = 'light';d[s](n,'light')}}else if(e){d[s](n,e|| '')}if(e==='light'||e==='dark')d.style.colorScheme=e}catch(e){}}()",
+      }
+    }
+  />,
   <svg
     height={0}
     style={
@@ -329,6 +336,30 @@ Array [
         </title>
         <path
           d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol
+        id="icon-light"
+        viewBox="0 0 24 24"
+      >
+        <title>
+          light
+        </title>
+        <path
+          d="M3.563 18.563l1.781-1.828 1.406 1.406-1.781 1.828zM11.016 22.453v-2.953h1.969v2.953h-1.969zM12 5.484q2.484 0 4.242 1.758t1.758 4.242-1.758 4.242-4.242 1.758-4.242-1.758-1.758-4.242 1.758-4.242 4.242-1.758zM20.016 10.5h3v2.016h-3v-2.016zM17.25 18.141l1.406-1.359 1.781 1.781-1.406 1.406zM20.438 4.453l-1.781 1.781-1.406-1.406 1.781-1.781zM12.984 0.563v2.953h-1.969v-2.953h1.969zM3.984 10.5v2.016h-3v-2.016h3zM6.75 4.828l-1.406 1.406-1.781-1.781 1.406-1.406z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol
+        id="icon-dark"
+        viewBox="0 0 24 24"
+      >
+        <title>
+          dark
+        </title>
+        <path
+          d="M9.984 2.016q4.172 0 7.102 2.93t2.93 7.055-2.93 7.055-7.102 2.93q-2.719 0-4.969-1.313 2.297-1.313 3.633-3.633t1.336-5.039-1.336-5.039-3.633-3.633q2.25-1.313 4.969-1.313z"
           fill="currentColor"
         />
       </symbol>
@@ -571,34 +602,50 @@ exports[`Pages Index should render the page 1`] = `
           </kbd>
         </div>
         <div
-          className="container"
+          className="actionsContainer"
         >
           <button
-            className="button buttonActive"
-            disabled={true}
+            className="button"
             onClick={[Function]}
           >
             <svg
-              className="icon icon-grid"
+              className="icon icon-light"
             >
               <use
-                xlinkHref="#icon-grid"
+                xlinkHref="#icon-light"
               />
             </svg>
           </button>
-          <button
-            className="button "
-            disabled={false}
-            onClick={[Function]}
+          <div
+            className="container"
           >
-            <svg
-              className="icon icon-list"
+            <button
+              className="button buttonActive"
+              disabled={true}
+              onClick={[Function]}
             >
-              <use
-                xlinkHref="#icon-list"
-              />
-            </svg>
-          </button>
+              <svg
+                className="icon icon-grid"
+              >
+                <use
+                  xlinkHref="#icon-grid"
+                />
+              </svg>
+            </button>
+            <button
+              className="button "
+              disabled={false}
+              onClick={[Function]}
+            >
+              <svg
+                className="icon icon-list"
+              >
+                <use
+                  xlinkHref="#icon-list"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>
