@@ -329,6 +329,14 @@
       "semver": null
     },
     {
+      "emoji": "🚬",
+      "entity": "&#x1F6AC;",
+      "code": ":cigar:",
+      "description": "Write code while high.",
+      "name": "cigar",
+      "semver": null
+    },
+    {
       "emoji": "💬",
       "entity": "&#128172;",
       "code": ":speech_balloon:",
