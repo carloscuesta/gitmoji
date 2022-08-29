@@ -204,10 +204,10 @@ exports[`Pages About should render the page 1`] = `
 `;
 
 exports[`Pages App should render the page 1`] = `
-Array [
+[
   <script
     dangerouslySetInnerHTML={
-      Object {
+      {
         "__html": "!function(){try{var d=document.documentElement,n='data-theme',s='setAttribute';var e=localStorage.getItem('theme');if('system'===e||(!e&&true)){var t='(prefers-color-scheme: dark)',m=window.matchMedia(t);if(m.media!==t||m.matches){d.style.colorScheme = 'dark';d[s](n,'dark')}else{d.style.colorScheme = 'light';d[s](n,'light')}}else if(e){d[s](n,e|| '')}if(e==='light'||e==='dark')d.style.colorScheme=e}catch(e){}}()",
       }
     }
@@ -215,7 +215,7 @@ Array [
   <svg
     height={0}
     style={
-      Object {
+      {
         "height": 0,
         "position": "absolute",
         "width": 0,
@@ -652,7 +652,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ff7281",
         }
       }
@@ -693,7 +693,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#40c4ff",
         }
       }
@@ -734,7 +734,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ff9d44",
         }
       }
@@ -775,7 +775,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#8cd842",
         }
       }
@@ -816,7 +816,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#fb584a",
         }
       }
@@ -857,7 +857,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffe55f",
         }
       }
@@ -898,7 +898,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#00e676",
         }
       }
@@ -939,7 +939,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#00a9f0",
         }
       }
@@ -980,7 +980,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#80deea",
         }
       }
@@ -1021,7 +1021,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#f74d5f",
         }
       }
@@ -1062,7 +1062,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#77e856",
         }
       }
@@ -1103,7 +1103,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffce49",
         }
       }
@@ -1144,7 +1144,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#83beec",
         }
       }
@@ -1185,7 +1185,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#80deea",
         }
       }
@@ -1226,7 +1226,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#536dfe",
         }
       }
@@ -1267,7 +1267,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffb74d",
         }
       }
@@ -1308,7 +1308,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#c5e763",
         }
       }
@@ -1349,7 +1349,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ef5350",
         }
       }
@@ -1390,7 +1390,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#00e676",
         }
       }
@@ -1431,7 +1431,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#39c2f1",
         }
       }
@@ -1472,7 +1472,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#64b5f6",
         }
       }
@@ -1513,7 +1513,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#cedae6",
         }
       }
@@ -1554,7 +1554,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#77e856",
         }
       }
@@ -1595,7 +1595,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#00e676",
         }
       }
@@ -1636,7 +1636,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ef5350",
         }
       }
@@ -1677,7 +1677,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffc400",
         }
       }
@@ -1718,7 +1718,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffc400",
         }
       }
@@ -1759,7 +1759,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#e7f4ff",
         }
       }
@@ -1800,7 +1800,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffce49",
         }
       }
@@ -1841,7 +1841,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#a78674",
         }
       }
@@ -1882,7 +1882,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#56d1d8",
         }
       }
@@ -1923,7 +1923,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#56d1d8",
         }
       }
@@ -1964,7 +1964,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#fdd0ae",
         }
       }
@@ -2005,7 +2005,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#c5e763",
         }
       }
@@ -2046,7 +2046,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ef584a",
         }
       }
@@ -2087,7 +2087,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#d9e3e8",
         }
       }
@@ -2128,7 +2128,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#f94f28",
         }
       }
@@ -2169,7 +2169,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ff5864",
         }
       }
@@ -2210,7 +2210,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#00b1fb",
         }
       }
@@ -2251,7 +2251,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffce49",
         }
       }
@@ -2292,7 +2292,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#fbb64b",
         }
       }
@@ -2333,7 +2333,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#cedae6",
         }
       }
@@ -2374,7 +2374,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#c5e763",
         }
       }
@@ -2415,7 +2415,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#23b4d2",
         }
       }
@@ -2456,7 +2456,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#e6ebef",
         }
       }
@@ -2497,7 +2497,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffce49",
         }
       }
@@ -2538,7 +2538,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffce49",
         }
       }
@@ -2579,7 +2579,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffe55f",
         }
       }
@@ -2620,7 +2620,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#40c4ff",
         }
       }
@@ -2661,7 +2661,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ff7281",
         }
       }
@@ -2702,7 +2702,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#77e856",
         }
       }
@@ -2743,7 +2743,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#8bdfe7",
         }
       }
@@ -2784,7 +2784,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#00a9f0",
         }
       }
@@ -2825,7 +2825,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#7f39fb",
         }
       }
@@ -2866,7 +2866,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffe55f",
         }
       }
@@ -2907,7 +2907,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#cb63e6",
         }
       }
@@ -2948,7 +2948,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#c5e763",
         }
       }
@@ -2989,7 +2989,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffce49",
         }
       }
@@ -3030,7 +3030,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#c7cb12",
         }
       }
@@ -3071,7 +3071,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffdb3a",
         }
       }
@@ -3112,7 +3112,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#d9e3e8",
         }
       }
@@ -3153,7 +3153,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#4dc6dc",
         }
       }
@@ -3194,7 +3194,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#fbcfb7",
         }
       }
@@ -3235,7 +3235,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffe55f",
         }
       }
@@ -3276,7 +3276,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#d9e3e8",
         }
       }
@@ -3317,7 +3317,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#fb584a",
         }
       }
@@ -3358,7 +3358,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#83beec",
         }
       }
@@ -3399,7 +3399,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#77e856",
         }
       }
@@ -3440,7 +3440,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ff6723",
         }
       }
@@ -3481,7 +3481,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#86B837",
         }
       }
@@ -3522,7 +3522,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#b3c0b1",
         }
       }
@@ -3563,7 +3563,7 @@ exports[`Pages Index should render the page 1`] = `
     <article
       className="emoji col-xs-12 col-sm-6 col-md-3"
       style={
-        Object {
+        {
           "--emojiColor": "#ffbe7b",
         }
       }

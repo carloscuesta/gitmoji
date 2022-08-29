@@ -4,7 +4,7 @@ exports[`Icon should match Definitions 1`] = `
 <svg
   height={0}
   style={
-    Object {
+    {
       "height": 0,
       "position": "absolute",
       "width": 0,

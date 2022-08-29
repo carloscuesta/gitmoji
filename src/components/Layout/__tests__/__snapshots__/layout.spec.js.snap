@@ -297,11 +297,11 @@ exports[`Layout Logo should render Logo with status tongue 1`] = `
 `;
 
 exports[`Layout should render the component 1`] = `
-Array [
+[
   <svg
     height={0}
     style={
-      Object {
+      {
         "height": 0,
         "position": "absolute",
         "width": 0,
