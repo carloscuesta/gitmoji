@@ -2446,9 +2446,9 @@ find-up@^4.0.0, find-up@^4.1.0:
     path-exists "^4.0.0"
 
 flow-bin@^0.185.1:
-  version "0.185.1"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.185.1.tgz#dbd3728405ff5aefd147e6c30a27381e9926ffb1"
-  integrity sha512-TUDZmyXpyKZin3oYtPke1wS5mT2ErCXEPuPsX1s6GgWhP7H7Z/qj6pg7CPcCYt5yNn2Im6k5VWx6J7/5a2stXA==
+  version "0.185.2"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.185.2.tgz#b45a07d45cf641198e86e47848e35f64b0688c4c"
+  integrity sha512-Vphs8Z4Qo17dzlPKe/l8M85JvGn1Tf5NV6xESZLg8p9ktdIbNUYaxnq/WBQPoESiLrGdrC2v+rfezfh3tvxkvQ==
 
 focus-trap-react@^9.0.0:
   version "9.0.2"
