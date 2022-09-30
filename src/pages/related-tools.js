@@ -73,6 +73,11 @@ const tools: Array<{ name: string, description: string, link: string }> = [
       'A Firefox addon that adds a predictive gitmoji picker to GitHub commit message inputs.',
     link: 'https://github.com/ma1ted/githubmoji',
   },
+  {
+    name: 'gitmoji-changelog-action',
+    description: 'GitHub Action for gitmoji-changelog',
+    link: 'https://github.com/sercanuste/gitmoji-changelog-action',
+  },
 ]
 
 const RelatedTools = () => (
