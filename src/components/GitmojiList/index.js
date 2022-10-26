@@ -22,12 +22,13 @@ const GitmojiList = (props: Props): Element<'div'> => {
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
 
   const gitmojis = searchInput
-    ? props.gitmojis.filter(({ code, description }) => {
+    ? props.gitmojis.filter(({ emoji, code, description }) => {
         const lowerCasedSearch = searchInput.toLowerCase()
 
         return (
           code.includes(lowerCasedSearch) ||
-          description.toLowerCase().includes(lowerCasedSearch)
+          description.toLowerCase().includes(lowerCasedSearch) ||
+          emoji == searchInput
         )
       })
     : props.gitmojis
