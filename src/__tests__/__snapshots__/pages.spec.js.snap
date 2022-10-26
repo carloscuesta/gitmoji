@@ -57,8 +57,7 @@ exports[`Pages About should render the page 1`] = `
       >
         contributing section
       </a>
-       
-      and
+       and
        
       <a
         href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md"

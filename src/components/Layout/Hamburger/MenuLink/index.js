@@ -25,14 +25,11 @@ const MenuLink = (props: Props): Node | Element<'a'> => {
   }
 
   return (
-    <Link href={props.href}>
-      <a
-        className={[styles.link, isUserOnLinkPage && styles.linkActive].join(
-          ' '
-        )}
-      >
-        {props.text}
-      </a>
+    <Link
+      className={[styles.link, isUserOnLinkPage && styles.linkActive].join(' ')}
+      href={props.href}
+    >
+      {props.text}
     </Link>
   )
 }
