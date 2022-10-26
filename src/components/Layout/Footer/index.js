@@ -17,12 +17,8 @@ const Footer = (): Element<'footer'> => (
         </div>
         <div className={`col-sm-6 ${styles.footerNav}`}>
           <nav>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-            <Link href="/contributors">
-              <a>Contributors</a>
-            </Link>
+            <Link href="/about">About</Link>
+            <Link href="/contributors">Contributors</Link>
             <a href="https://github.com/carloscuesta/gitmoji">GitHub</a>
           </nav>
         </div>

@@ -32,10 +32,7 @@ const About = () => (
         <p>
           This project is Open Source, that means everyone can participate,
           suggesting, discussing and adding new emojis. Take a look at the{' '}
-          <Link href="#contributing-gitmoji">
-            <a>contributing section</a>
-          </Link>{' '}
-          and{' '}
+          <Link href="#contributing-gitmoji">contributing section</Link> and{' '}
           <a href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md">
             guidelines for contributing
           </a>
