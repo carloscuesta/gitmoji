@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 import CarbonAd from 'src/components/CarbonAd'
 import Button from 'src/components/Button'

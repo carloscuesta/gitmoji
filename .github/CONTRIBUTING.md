@@ -2,7 +2,7 @@
 
 Hello!
 
-Thanks for contributing on [gitmoji](https://github.com/carloscuesta/gitmoji). Before implementing new features and changes, feel free to [submit an issue](https://github.com/carloscuesta/gitmoji/issues/new). We're going to talk here :stuck_out_tongue_winking_eye:.
+Thanks for contributing on [gitmoji](https://github.com/carloscuesta/gitmoji). Before implementing new features and changes, please [submit an issue](https://github.com/carloscuesta/gitmoji/issues/new). We will discuss here! :stuck_out_tongue_winking_eye:.
 
 If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLATE` when creating an issue and take a look at the contributing section.
 
@@ -18,8 +18,6 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 7. Submit your pull request.
 
 ## How to add a gitmoji
-
-A **gitmoji** should define an action not a scope and it should answer the following question: _"What has been done in the commit?"_ instead of _how_, take that into consideration when trying to suggest a new addition!
 
 1. Open the **gitmojis.json** file located at `src/data/gitmojis.json`.
 2. Add your emoji using the following code inside of the `gitmojis array []`:
@@ -38,6 +36,8 @@ A **gitmoji** should define an action not a scope and it should answer the follo
 ```
 
 If you want to find the hexadecimal entity of icon, search for it in this site: <a>http://graphemica.com/</a>
+
+Every suggestion will be reviewed carefully, ⚠️ take into account that not every suggestion will be accepted! 
 
 ## How to start gitmoji
 
