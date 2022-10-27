@@ -65,6 +65,20 @@ describe('GitmojiList', () => {
 
       expect(instance.findAllByType('article').length).toEqual(1)
     })
+
+    it('should find the fire gitmoji by emoji', () => {
+      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
+      const instance = wrapper.root
+      const query = '🔥'
+
+      renderer.act(() => {
+        instance
+          .findByType('input')
+          .props.onChange({ target: { value: query } })
+      })
+
+      expect(instance.findAllByType('article').length).toEqual(1)
+    })
   })
 
   describe('when search is provided by query string', () => {
