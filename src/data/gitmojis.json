@@ -575,6 +575,14 @@
       "description": "Add or update code related to multithreading or concurrency.",
       "name": "thread",
       "semver": null
+    },
+    {
+      "emoji": "🦺",
+      "entity": "&#x1F9BA;",
+      "code": ":safety_vest:",
+      "description": "Add or update code related to validation.",
+      "name": "safety-vest",
+      "semver": null
     }
   ]
 }
