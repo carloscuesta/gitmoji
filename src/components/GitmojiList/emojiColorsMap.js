@@ -53,6 +53,7 @@ export default {
   rewind: '#56d1d8',
   rocket: '#00a9f0',
   'rotating-light': '#536dfe',
+  'safety-vest': '#f2ad52',
   'see-no-evil': '#8bdfe7',
   seedling: '#c5e763',
   sparkles: '#ffe55f',
