@@ -1,5 +1,5 @@
 // @flow
-import React, { type Node } from 'react'
+import { type Node } from 'react'
 
 import Joy from './Joy'
 import Loved from './Loved'

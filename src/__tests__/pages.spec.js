@@ -22,7 +22,7 @@ jest.mock('next/router', () => ({
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
-  value: jest.fn().mockImplementation((query) => ({
+  value: jest.fn().mockImplementation(() => ({
     addListener: jest.fn(),
   })),
 })

@@ -1,5 +1,5 @@
 // @flow
-import React, { type Element, useEffect, useRef } from 'react'
+import { type Element, useEffect, useRef } from 'react'
 
 import ListModeSelector from './ListModeSelector'
 import ThemeSelector from './ThemeSelector'

@@ -1,11 +1,12 @@
-import React from 'react'
+// @flow
+import { type Node } from 'react'
 import Link from 'next/link'
 
 import CarbonAd from 'src/components/CarbonAd'
 import Button from 'src/components/Button'
 import SEO from 'src/components/SEO'
 
-const About = () => (
+const About = (): Node => (
   <>
     <SEO pageTitle="About" pageUrl="/about" />
     <main>
@@ -16,7 +17,7 @@ const About = () => (
         <p>
           <strong>Gitmoji is an emoji guide for GitHub commit messages</strong>.
           Aims to be a standarization cheatsheet - guide for using{' '}
-          <a href="https://emoji.muan.co">emojis</a> on GitHub's commit
+          <a href="https://emoji.muan.co">emojis</a> on GitHub&#39;s commit
           messages.
         </p>
 
@@ -77,7 +78,7 @@ const About = () => (
 
         <p>
           In case you need some ideas to integrate gitmoji in your project,
-          here's a practical way to use it:
+          here&#39;s a practical way to use it:
         </p>
 
         <ul>
