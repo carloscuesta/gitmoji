@@ -23,8 +23,18 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.18.6",
     "clipboard": "^2.0.4",
+    "eslint": "^8.26.0",
+    "eslint-config-next": "^13.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-jest": "^27.1.3",
+    "eslint-plugin-react": "^7.31.10",
     "flow-bin": "^0.190.0",
     "focus-trap-react": "^10.0.0",
     "husky": "^8.0.0",
