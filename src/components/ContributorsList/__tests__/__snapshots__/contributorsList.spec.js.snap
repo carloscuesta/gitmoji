@@ -5,6 +5,7 @@ exports[`ContributorsList Contributor should render the component 1`] = `
   className="col-xs-3 col-sm-2"
 >
   <a
+    rel="noreferrer"
     target="_blank"
   >
     <img
@@ -23,6 +24,7 @@ exports[`ContributorsList should render the component 1`] = `
   >
     <a
       href="https://github.com/profile"
+      rel="noreferrer"
       target="_blank"
     >
       <img
