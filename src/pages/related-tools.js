@@ -1,7 +1,7 @@
-import React from 'react'
+// @flow
+import { type Node } from 'react'
 
 import CarbonAd from 'src/components/CarbonAd'
-import Button from 'src/components/Button'
 import SEO from 'src/components/SEO'
 
 const tools: Array<{ name: string, description: string, link: string }> = [
@@ -79,7 +79,7 @@ const tools: Array<{ name: string, description: string, link: string }> = [
   },
 ]
 
-const RelatedTools = () => (
+const RelatedTools = (): Node => (
   <>
     <SEO pageTitle="Related tools" pageUrl="/related-tools" />
     <main>

@@ -1,5 +1,5 @@
 // @flow
-import React, { type Node } from 'react'
+import { type Node } from 'react'
 import Head from 'next/head'
 
 type Props = { pageTitle?: string, pageUrl: string }

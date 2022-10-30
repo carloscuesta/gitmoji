@@ -1,5 +1,4 @@
-import React from 'react'
-
+// @flow
 import ContributorsList from 'src/components/ContributorsList'
 import CarbonAd from 'src/components/CarbonAd'
 import SEO from 'src/components/SEO'

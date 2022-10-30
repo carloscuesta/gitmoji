@@ -1,5 +1,5 @@
 // @flow
-import React, { type Element } from 'react'
+import { type Element } from 'react'
 
 import Icon from 'src/components/Icon'
 import styles from './styles.module.css'

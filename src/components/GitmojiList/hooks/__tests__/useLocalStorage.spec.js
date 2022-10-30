@@ -1,9 +1,9 @@
-import React from 'react'
 import renderer from 'react-test-renderer'
 
 import useLocalStorage from '../useLocalStorage'
 import * as stubs from './stubs'
 
+// eslint-disable-next-line react/prop-types
 const TestComponent = ({ storageKey, storageValue }) => {
   useLocalStorage(storageKey, storageValue)
 
