@@ -7,6 +7,7 @@ out/
 coverage/
 public/robots.txt
 public/sitemap.xml
+.eslintcache
 
 # next-pwa
 public/workbox-*.js
