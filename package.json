@@ -14,7 +14,7 @@
     "build": "next build",
     "dev": "next dev",
     "flow": "flow",
-    "lint": "prettier --check src/**/*.{js,json,css}",
+    "lint": "eslint src && prettier --check src/**/*.{js,json,css}",
     "postbuild": "next-sitemap",
     "start": "next start",
     "test": "jest --coverage",
@@ -81,6 +81,7 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
+      "eslint --cache --fix",
       "prettier --write src/**/*.{js,json,css}",
       "git add"
     ]
@@ -100,6 +101,80 @@
   },
   "volta": {
     "node": "16.15.0"
+  },
+  "eslintConfig": {
+    "parser": "@babel/eslint-parser",
+    "env": {
+      "jest": true,
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:flowtype/recommended",
+      "plugin:react/recommended",
+      "prettier",
+      "plugin:@next/next/recommended"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module",
+      "requireConfigFile": false,
+      "babelOptions": {
+        "presets": [
+          "next/babel",
+          "@babel/preset-react",
+          "@babel/preset-flow"
+        ]
+      }
+    },
+    "plugins": [
+      "react",
+      "flowtype"
+    ],
+    "rules": {
+      "flowtype/require-valid-file-annotation": [
+        2,
+        "always",
+        {
+          "annotationStyle": "line"
+        }
+      ],
+      "react/react-in-jsx-scope": "off",
+      "@next/next/no-img-element": "off",
+      "react/no-unknown-property": ["error", { "ignore": ["jsx", "global"] }]
+    },
+    "overrides": [
+      {
+        "files": [
+          "*.spec.js",
+          "stubs.js",
+          "**/__mocks__/*.js"
+        ],
+        "rules": {
+          "flowtype/require-valid-file-annotation": 0
+        }
+      }
+    ],
+    "settings": {
+      "react": {
+        "version": "detect",
+        "flowVersion": "detect"
+      },
+      "import/resolver": {
+        "alias": {
+          "map": [
+            [
+              "src",
+              "./src"
+            ]
+          ]
+        }
+      }
+    }
   },
   "dependencies": {}
 }
