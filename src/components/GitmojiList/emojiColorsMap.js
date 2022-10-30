@@ -75,4 +75,5 @@ export default {
   technologist: '#86B837',
   'money-with-wings': '#b3c0b1',
   thread: '#ffbe7b',
+  broom: '#6781DB',
 }

@@ -583,6 +583,14 @@
       "description": "Add or update code related to validation.",
       "name": "safety-vest",
       "semver": null
+    },
+    {
+      "emoji": "🧹",
+      "entity": "&#x1F9F9;",
+      "code": ":broom:",
+      "description": "Clean your code",
+      "name": "broom",
+      "semver": null
     }
   ]
 }
