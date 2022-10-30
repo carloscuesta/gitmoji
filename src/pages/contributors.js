@@ -1,4 +1,6 @@
 // @flow
+import { type Node } from 'react'
+
 import ContributorsList from 'src/components/ContributorsList'
 import CarbonAd from 'src/components/CarbonAd'
 import SEO from 'src/components/SEO'
@@ -7,7 +9,7 @@ type Props = {
   contributors: Array<{ avatar: string, url: string, id: string }>,
 }
 
-const Contributors = (props: Props) => (
+const Contributors = (props: Props): Node => (
   <>
     <SEO pageTitle="Contributors" pageUrl="/contributors" />
 
@@ -22,7 +24,10 @@ const Contributors = (props: Props) => (
   </>
 )
 
-export const getStaticProps = async (): Promise<Props> => {
+export const getStaticProps = async (): Promise<{
+  props: Props,
+  revalidate: number,
+}> => {
   const response = await fetch(
     'https://api.github.com/repos/carloscuesta/gitmoji/contributors'
   )

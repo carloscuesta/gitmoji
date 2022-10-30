@@ -1,11 +1,11 @@
 // @flow
-import { useEffect, useState } from 'react'
+import { type Element, useEffect, useState } from 'react'
 import { useTheme } from 'next-themes'
 
 import Icon from 'src/components/Icon'
 import styles from './styles.module.css'
 
-const ThemeSelector = () => {
+const ThemeSelector = (): Element<'div' | 'button'> => {
   const [isMounted, setIsMounted] = useState(false)
   const { resolvedTheme, setTheme } = useTheme()
   const nextTheme = resolvedTheme === 'light' ? 'dark' : 'light'
