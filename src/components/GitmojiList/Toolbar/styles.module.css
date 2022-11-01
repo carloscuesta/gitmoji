@@ -53,14 +53,12 @@
   padding: 0.25rem 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  .searchInput {
-    color: var(--text);
-  }
+[data-theme='dark'] .searchInput {
+  color: var(--text);
+}
 
-  .kbd {
-    color: #b8b8b8;
-  }
+[data-theme='dark'] .kbd {
+  color: #b8b8b8;
 }
 
 @media (max-width: 568px) {

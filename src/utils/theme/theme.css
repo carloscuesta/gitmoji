@@ -38,10 +38,8 @@
   --carbonAdBadgeBackground: #2b2b2b;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: var(--cardText);
-  }
+[data-theme='dark'] body {
+  color: var(--cardText);
 }
 
 html,
