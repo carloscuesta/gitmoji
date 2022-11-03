@@ -1,5 +1,5 @@
 // @flow
-import React, { type Element } from 'react'
+import { type Element } from 'react'
 
 export const Joy = (): Element<'g'> => (
   <g id="joy" transform="translate(304 32)">

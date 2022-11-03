@@ -14,7 +14,7 @@
     "build": "next build",
     "dev": "next dev",
     "flow": "flow",
-    "lint": "prettier --check src/**/*.{js,json,css}",
+    "lint": "eslint src && prettier --check src/**/*.{js,json,css}",
     "postbuild": "next-sitemap",
     "start": "next start",
     "test": "jest --coverage",
@@ -23,9 +23,19 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.18.6",
     "clipboard": "^2.0.4",
-    "flow-bin": "^0.190.0",
+    "eslint": "^8.26.0",
+    "eslint-config-next": "^13.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-jest": "^27.1.3",
+    "eslint-plugin-react": "^7.31.10",
+    "flow-bin": "^0.191.0",
     "focus-trap-react": "^10.0.0",
     "husky": "^8.0.0",
     "identity-obj-proxy": "^3.0.0",
@@ -71,6 +81,7 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
+      "eslint --cache --fix",
       "prettier --write src/**/*.{js,json,css}",
       "git add"
     ]
@@ -90,6 +101,80 @@
   },
   "volta": {
     "node": "16.15.0"
+  },
+  "eslintConfig": {
+    "parser": "@babel/eslint-parser",
+    "env": {
+      "jest": true,
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:flowtype/recommended",
+      "plugin:react/recommended",
+      "prettier",
+      "plugin:@next/next/recommended"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module",
+      "requireConfigFile": false,
+      "babelOptions": {
+        "presets": [
+          "next/babel",
+          "@babel/preset-react",
+          "@babel/preset-flow"
+        ]
+      }
+    },
+    "plugins": [
+      "react",
+      "flowtype"
+    ],
+    "rules": {
+      "flowtype/require-valid-file-annotation": [
+        2,
+        "always",
+        {
+          "annotationStyle": "line"
+        }
+      ],
+      "react/react-in-jsx-scope": "off",
+      "@next/next/no-img-element": "off",
+      "react/no-unknown-property": ["error", { "ignore": ["jsx", "global"] }]
+    },
+    "overrides": [
+      {
+        "files": [
+          "*.spec.js",
+          "stubs.js",
+          "**/__mocks__/*.js"
+        ],
+        "rules": {
+          "flowtype/require-valid-file-annotation": 0
+        }
+      }
+    ],
+    "settings": {
+      "react": {
+        "version": "detect",
+        "flowVersion": "detect"
+      },
+      "import/resolver": {
+        "alias": {
+          "map": [
+            [
+              "src",
+              "./src"
+            ]
+          ]
+        }
+      }
+    }
   },
   "dependencies": {}
 }

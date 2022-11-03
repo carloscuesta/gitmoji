@@ -1,5 +1,5 @@
 // @flow
-import React, { type Node, type Element } from 'react'
+import { type Node, type Element } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
