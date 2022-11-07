@@ -50,7 +50,7 @@ exports[`Pages About should render the page 1`] = `
       This project is Open Source, that means everyone can participate, suggesting, discussing and adding new emojis. Take a look at the
        
       <a
-        href="/#contributing-gitmoji"
+        href="#contributing-gitmoji"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onTouchStart={[Function]}
