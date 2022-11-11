@@ -583,6 +583,14 @@
       "description": "Add or update code related to validation.",
       "name": "safety-vest",
       "semver": null
+    },
+    {
+      "emoji": "📫",
+      "entity": "&#x1f4eb;",
+      "code": ":mailbox:",
+      "description": "Apply pull request suggestions.",
+      "name": "mailbox",
+      "semver": null
     }
   ]
 }
