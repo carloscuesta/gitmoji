@@ -9,7 +9,5 @@ so we can talk about features and discuss implementations.
 
 <!-- Explanation about your pull request, what changes you've made -->
 
-## Tests
+## Linked issues
 
-<!-- Ensure that all the tests passed -->
-- [ ] All tests passed.
