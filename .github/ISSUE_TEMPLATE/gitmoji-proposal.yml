@@ -47,12 +47,14 @@ body:
         - "No ❌"
     validations:
       required: true
-  - type: textarea
+  - type: checkboxes
     id: emoji-what-how
     attributes:
       label:  Does this emoji fall into the "how" category?
-      description: Explain the creation of this emoji, what this is and when it should be used
-      placeholder: We are trying to always describe/categorize the "what" has been done in one particular commit (:white_check_mark:, :lock:, :zap:...), not the "how" it was done (the exceptions being :hankey:, :beers:)
+      description: We are trying to always describe/categorize the "what" has been done in one particular commit (:white_check_mark:, :lock:, :zap:...), not the "how" it was done (the exceptions being :hankey:, :beers:)
+      options:
+        - label: This proposal do not describe "how" a commit was made, but do in fact describe "what" is the contents of the commit about.
+          required: true
     validations:
       required: true
   - type: textarea
