@@ -3391,7 +3391,7 @@ exports[`Pages Index should render the page 1`] = `
             </code>
           </button>
           <p>
-            Add or update business logic
+            Add or update business logic.
           </p>
         </div>
       </div>
@@ -3514,7 +3514,7 @@ exports[`Pages Index should render the page 1`] = `
             </code>
           </button>
           <p>
-            Improve developer experience
+            Improve developer experience.
           </p>
         </div>
       </div>
