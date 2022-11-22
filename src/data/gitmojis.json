@@ -532,7 +532,7 @@
       "emoji": "👔",
       "entity": "&#128084;",
       "code": ":necktie:",
-      "description": "Add or update business logic",
+      "description": "Add or update business logic.",
       "name": "necktie",
       "semver": "patch"
     },
@@ -556,7 +556,7 @@
       "emoji": "🧑‍💻",
       "entity": "&#129489;&#8205;&#128187;",
       "code": ":technologist:",
-      "description": "Improve developer experience",
+      "description": "Improve developer experience.",
       "name": "technologist",
       "semver": null
     },
