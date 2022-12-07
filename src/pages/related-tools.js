@@ -77,6 +77,11 @@ const tools: Array<{ name: string, description: string, link: string }> = [
     description: 'GitHub Action for gitmoji-changelog',
     link: 'https://github.com/sercanuste/gitmoji-changelog-action',
   },
+  {
+    name: 'raycast-gitmoji-search',
+    description: 'Gitmoji extension for Raycast',
+    link: 'https://www.raycast.com/ricoberger/gitmoji',
+  },
 ]
 
 const RelatedTools = (): Node => (
