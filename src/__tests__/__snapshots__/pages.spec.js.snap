@@ -3836,6 +3836,18 @@ exports[`Pages Related tools should render the page 1`] = `
         </a>
         : GitHub Action for gitmoji-changelog
       </li>
+      <li>
+        <a
+          href="https://www.raycast.com/ricoberger/gitmoji"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            raycast-gitmoji-search
+          </b>
+        </a>
+        : Gitmoji extension for Raycast
+      </li>
     </ul>
   </section>
 </main>
