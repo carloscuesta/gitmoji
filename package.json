@@ -35,7 +35,7 @@
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-jest": "^27.1.3",
     "eslint-plugin-react": "^7.31.10",
-    "flow-bin": "^0.194.0",
+    "flow-bin": "^0.195.1",
     "focus-trap-react": "^10.0.0",
     "husky": "^8.0.0",
     "identity-obj-proxy": "^3.0.0",
