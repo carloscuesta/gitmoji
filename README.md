@@ -5,7 +5,7 @@
 </p>
 <p align="center">
 	<a href="https://github.com/carloscuesta/gitmoji/actions?query=workflow%3ACI+branch%3Amaster">
-		<img src="https://img.shields.io/github/workflow/status/carloscuesta/gitmoji/CI?style=flat-square"
+		<img src="https://img.shields.io/github/actions/workflow/status/carloscuesta/gitmoji/ci.yml?branch=master&style=flat-square"
 			 alt="Build Status">
 	</a>
 	<a href="https://gitmoji.dev">
