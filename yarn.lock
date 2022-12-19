@@ -3206,10 +3206,10 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
-flow-bin@^0.195.1:
-  version "0.195.1"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.195.1.tgz#5a1c18f12541b61301f12725b8d219cb6247b465"
-  integrity sha512-vWF6E5NoYyZbPq9Nw/pscBu9BDp65VOnTj54LuwV7aqlcrS+Pg1c3cndmN52P5rsp86lPUg0FGODUQ6FoQNkUw==
+flow-bin@^0.196.0:
+  version "0.196.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.196.0.tgz#171952a2f30c48e45f4e9b6ac4a51968594c222d"
+  integrity sha512-FnLpDvRV8ELcpxSeYBo4SPADUk0OMReX8zV/1dOF63PesO8tHVBJX/CI1JOdx2emzXRs3Lv8/UMz9+x2OpYsSg==
 
 focus-trap-react@^10.0.0:
   version "10.0.2"
