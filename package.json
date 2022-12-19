@@ -5,7 +5,7 @@
     "node": "16"
   },
   "description": "An emoji guide for your commit messages.",
-  "private": false,
+  "private": true,
   "main": "src/data/gitmojis.json",
   "files": [
     "src/data/gitmojis.json"
@@ -176,5 +176,8 @@
       }
     }
   },
-  "dependencies": {}
+  "dependencies": {},
+  "workspaces": [
+    "packages/*"
+  ]
 }
