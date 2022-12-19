@@ -1,5 +1,5 @@
 // @flow
-import gitmojisData from 'src/data/gitmojis.json'
+import gitmojisData from 'gitmojis'
 
 const gitmojis = (request: { method: string }, response: Object): void => {
   const { method } = request
