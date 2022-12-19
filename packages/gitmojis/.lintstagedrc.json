@@ -1,0 +1,3 @@
+{
+  "./src/*.json": ["prettier --write ./src/*.json"]
+}
