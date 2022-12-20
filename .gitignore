@@ -5,12 +5,6 @@ node_modules/
 .next
 out/
 coverage/
-public/robots.txt
-public/sitemap.xml
+packages/website/public/*
 .eslintcache
-
-# next-pwa
-public/workbox-*.js
-public/sw.js
-public/*.map
 *.log
