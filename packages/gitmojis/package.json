@@ -8,8 +8,8 @@
     "src/gitmojis.json"
   ],
   "scripts": {
-    "test": "jsonlint ./src/gitmojis.json -V ./src/schema.json",
-    "prepublishOnly": "yarn run test"
+    "lint": "jsonlint ./src/gitmojis.json -V ./src/schema.json",
+    "prepublishOnly": "yarn run lint"
   },
   "devDependencies": {
     "jsonlint": "^1.6.3",
