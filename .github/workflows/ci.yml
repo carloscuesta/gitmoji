@@ -21,7 +21,7 @@ jobs:
         cache: 'yarn'
         node-version: ${{ matrix.node-version }}
     - name: Install dependencies 📦
-      run: yarn install --frozen-lockfile
+      run: yarn install --immutable
     - name: Lint 🎨
       run: yarn turbo lint
     - name: Flow types 🏷

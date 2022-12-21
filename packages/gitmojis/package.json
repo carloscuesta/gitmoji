@@ -1,6 +1,5 @@
 {
   "name": "gitmojis",
-  "private": false,
   "version": "3.13.0",
   "description": "An emoji guide for your commit messages.",
   "main": "src/gitmojis.json",
@@ -36,6 +35,5 @@
     "emoji",
     "carloscuesta",
     "commit"
-  ],
-  "dependencies": {}
+  ]
 }
