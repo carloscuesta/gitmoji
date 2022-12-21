@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "lint": "jsonlint ./src/gitmojis.json -V ./src/schema.json",
-    "prepublishOnly": "yarn run lint"
+    "publishPackage": "npm publish",
+    "prepublishPackage": "yarn run lint"
   },
   "devDependencies": {
     "jsonlint": "^1.6.3",

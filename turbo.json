@@ -15,6 +15,9 @@
     },
     "build": {
       "outputs": [".next/**"]
+    },
+    "publishPackage": {
+      "outputs": []
     }
   }
 }
