@@ -5,7 +5,6 @@ node_modules/
 .next
 out/
 coverage/
-packages/website/public/*
 .eslintcache
 *.log
 .pnp.*
@@ -15,3 +14,15 @@ packages/website/public/*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# next-pwa
+public/workbox-*.js
+public/workbox-*.js
+public/sw.js
+public/sw.js
+public/*.map
+
+# next-sitemap
+public/robots.txt
+public/sitemap.xml
+public/sitemap.xml
