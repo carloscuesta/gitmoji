@@ -16,13 +16,13 @@ coverage/
 !.yarn/versions
 
 # next-pwa
-public/workbox-*.js
-public/workbox-*.js
-public/sw.js
-public/sw.js
-public/*.map
+packages/website/public/workbox-*.js
+packages/website/public/workbox-*.js
+packages/website/public/sw.js
+packages/website/public/sw.js
+packages/website/public/*.map
 
 # next-sitemap
-public/robots.txt
-public/sitemap.xml
-public/sitemap.xml
+packages/website/public/robots.txt
+packages/website/public/sitemap.xml
+packages/website/public/sitemap-*.xml
