@@ -19,9 +19,9 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 
 ## How to add a gitmoji
 
-1. Open the **gitmojis.json** file located at `src/data/gitmojis.json`.
+1. Open the **gitmojis.json** file located at `packages/gitmojis/src/gitmojis.json`.
 2. Add your emoji using the following code inside of the `gitmojis array []`:
-3. Add a new color to [the emojiColorsMap.js](https://github.com/carloscuesta/gitmoji/blob/master/src/components/GitmojiList/emojiColorsMap.js) file. Matching the name you added at the JSON file.
+3. Add a new color to [the emojiColorsMap.js](https://github.com/carloscuesta/gitmoji/blob/master/packages/website/src/components/GitmojiList/emojiColorsMap.js) file. Matching the name you added at the JSON file.
 4. Save the file and create a pull request.
 
 ```json
@@ -37,9 +37,9 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 
 If you want to find the hexadecimal entity of icon, search for it in this site: <a>http://graphemica.com/</a>
 
-Every suggestion will be reviewed carefully, ⚠️ take into account that not every suggestion will be accepted! 
+Every suggestion will be reviewed carefully, ⚠️ take into account that not every suggestion will be accepted!
 
-## How to start gitmoji
+## How to start the website
 
 If you want to make changes to the site, follow the next steps:
 
@@ -50,7 +50,7 @@ $ git clone https://github.com/carloscuesta/gitmoji.git
 $ cd gitmoji
 ```
 
-2. Install the dependencies and start the development task.
+2. Install the dependencies and start the development server.
 
 ```bash
 $ yarn install && yarn run dev
