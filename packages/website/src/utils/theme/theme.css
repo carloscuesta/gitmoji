@@ -8,6 +8,7 @@
   --textInSecondary: #ffffff;
   --footerBackground: #00e5ff;
   --cardBackground: #ffffff;
+  --buttonBackground: #ffffff;
   --cardText: #999999;
   --emojiCodeText: #000000;
   --cardShadow: rgba(168, 182, 191, 0.6);
@@ -28,6 +29,7 @@
   --textInSecondary: #ffffff;
   --footerBackground: #00e5ff;
   --cardBackground: #2b2b2b;
+  --buttonBackground: #2b2b2b;
   --cardText: #ffffff;
   --emojiCodeText: #ffffff;
   --cardShadow: none;
