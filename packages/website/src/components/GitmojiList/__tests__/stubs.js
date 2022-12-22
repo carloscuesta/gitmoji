@@ -1,4 +1,4 @@
-import { gitmojis } from '../../../data/gitmojis.json'
+import { gitmojis } from 'gitmojis'
 
 export const props = {
   gitmojis: gitmojis.slice(0, 6),

@@ -1,0 +1,39 @@
+{
+  "name": "gitmojis",
+  "version": "3.13.0",
+  "description": "An emoji guide for your commit messages.",
+  "main": "src/gitmojis.json",
+  "files": [
+    "src/gitmojis.json"
+  ],
+  "scripts": {
+    "lint": "jsonlint ./src/gitmojis.json -V ./src/schema.json",
+    "publishPackage": "npm publish",
+    "prepublishPackage": "yarn run lint"
+  },
+  "devDependencies": {
+    "jsonlint": "^1.6.3",
+    "lint-staged": "^13.0.0",
+    "prettier": "2.8.1"
+  },
+  "author": {
+    "name": "carloscuesta",
+    "email": "hi@carloscuesta.me",
+    "url": "https://carloscuesta.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloscuesta/gitmoji/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscuesta/gitmoji.git"
+  },
+  "homepage": "https://gitmoji.dev",
+  "keywords": [
+    "gitmoji",
+    "emoji",
+    "carloscuesta",
+    "commit"
+  ]
+}

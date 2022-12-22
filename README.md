@@ -52,7 +52,10 @@ Are you using Gitmoji on your project? Set the Gitmoji badge on top of your read
 
 ```html
 <a href="https://gitmoji.dev">
-  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+  <img
+    src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
+    alt="Gitmoji"
+  />
 </a>
 ```
 

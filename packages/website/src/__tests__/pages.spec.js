@@ -1,5 +1,6 @@
 import renderer from 'react-test-renderer'
 import { enableFetchMocks } from 'jest-fetch-mock'
+import gitmojisData from 'gitmojis'
 
 import App from '../pages/_app'
 import Index from '../pages/index'
@@ -9,7 +10,6 @@ import Contributors, {
 } from '../pages/contributors'
 import RelatedTools from '../pages/related-tools'
 import GitmojisApi from '../pages/api/gitmojis'
-import gitmojisData from '../data/gitmojis.json'
 import * as stubs from './stubs'
 
 jest.mock('next/router', () => ({

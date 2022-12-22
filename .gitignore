@@ -5,12 +5,24 @@ node_modules/
 .next
 out/
 coverage/
-public/robots.txt
-public/sitemap.xml
 .eslintcache
+*.log
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # next-pwa
 public/workbox-*.js
+public/workbox-*.js
+public/sw.js
 public/sw.js
 public/*.map
-*.log
+
+# next-sitemap
+public/robots.txt
+public/sitemap.xml
+public/sitemap.xml
