@@ -6,10 +6,10 @@
   align-items: center;
   border-radius: 4px;
   border: none;
-  color: var(--text);
+  color: var(--cardText);
   cursor: pointer;
   display: flex;
-  background-color: var(--buttonBackground);
+  background-color: var(--cardBackground);
   box-shadow: 0 2px 4px 0 var(--cardShadow);
   font-size: 16px;
   height: 48px;
