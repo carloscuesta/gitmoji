@@ -82,6 +82,12 @@ const tools: Array<{ name: string, description: string, link: string }> = [
     description: 'Gitmoji extension for Raycast',
     link: 'https://www.raycast.com/ricoberger/gitmoji',
   },
+  {
+    name: 'commitlint-plugin-gitmoji',
+    description:
+      'Commitlint plugin that checks if the commit message contains a Gitmoji',
+    link: 'https://github.com/arvinxx/gitmoji-commit-workflow/tree/master/packages/commitlint-config',
+  },
 ]
 
 const RelatedTools = (): Node => (
