@@ -6,11 +6,10 @@
     "node": "16"
   },
   "scripts": {
-    "build": "next build",
+    "build": "next build && next-sitemap",
     "dev": "next dev",
     "flow": "flow",
     "lint": "eslint ./src && prettier --check ./src/**/*.{js,css}",
-    "postbuild": "next-sitemap",
     "start": "next start",
     "test": "FORCE_COLOR=1 jest --coverage"
   },
