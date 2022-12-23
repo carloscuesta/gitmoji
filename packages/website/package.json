@@ -9,7 +9,7 @@
     "build": "next build && next-sitemap",
     "dev": "next dev",
     "flow": "flow",
-    "lint": "eslint ./src && prettier --check ./src/**/*.{js,css}",
+    "lint": "eslint ./src && prettier --check ./src/**/*.{ts,tsx,css}",
     "start": "next start",
     "test": "FORCE_COLOR=1 jest --coverage"
   },
@@ -92,7 +92,7 @@
     "node": "16.15.0"
   },
   "eslintConfig": {
-    "parser": "@babel/eslint-parser",
+    "parser": "@typescript-eslint/parser",
     "env": {
       "jest": true,
       "browser": true,
@@ -100,7 +100,7 @@
     },
     "extends": [
       "eslint:recommended",
-      "plugin:flowtype/recommended",
+      "plugin:@typescript-eslint/recommended",
       "plugin:react/recommended",
       "prettier",
       "plugin:@next/next/recommended"
@@ -114,24 +114,15 @@
       "requireConfigFile": false,
       "babelOptions": {
         "presets": [
-          "next/babel",
-          "@babel/preset-react",
-          "@babel/preset-flow"
+          "next/babel"
         ]
       }
     },
     "plugins": [
       "react",
-      "flowtype"
+      "@typescript-eslint"
     ],
     "rules": {
-      "flowtype/require-valid-file-annotation": [
-        2,
-        "always",
-        {
-          "annotationStyle": "line"
-        }
-      ],
       "react/react-in-jsx-scope": "off",
       "@next/next/no-img-element": "off",
       "react/no-unknown-property": [
@@ -144,22 +135,9 @@
         }
       ]
     },
-    "overrides": [
-      {
-        "files": [
-          "*.spec.js",
-          "stubs.js",
-          "**/__mocks__/*.js"
-        ],
-        "rules": {
-          "flowtype/require-valid-file-annotation": 0
-        }
-      }
-    ],
     "settings": {
       "react": {
-        "version": "detect",
-        "flowVersion": "detect"
+        "version": "detect"
       },
       "import/resolver": {
         "alias": {
