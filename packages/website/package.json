@@ -7,6 +7,7 @@
   },
   "scripts": {
     "build": "next build && next-sitemap",
+    "tscheck": "yarn tsc --noEmit",
     "dev": "next dev",
     "lint": "eslint ./src && prettier --check ./src/**/*.{ts,tsx,css}",
     "start": "next start",

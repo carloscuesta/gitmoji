@@ -7,7 +7,7 @@
     "lint": {
       "outputs": []
     },
-    "flow": {
+    "tscheck": {
       "outputs": []
     },
     "test": {

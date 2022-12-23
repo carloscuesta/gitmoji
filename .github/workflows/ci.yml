@@ -24,7 +24,7 @@ jobs:
       run: yarn install --immutable
     - name: Lint 🎨
       run: yarn turbo lint
-    - name: Flow types 🏷
-      run: yarn turbo flow
+    - name: TypeScript check 🏷
+      run: yarn turbo tscheck
     - name: Tests ✅
       run: yarn turbo test
