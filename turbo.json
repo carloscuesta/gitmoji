@@ -17,6 +17,7 @@
       "outputs": ["packages/website/.next/**", "packages/website/public/**"]
     },
     "publishPackage": {
+      "dependsOn": ["^lint"],
       "outputs": []
     }
   }

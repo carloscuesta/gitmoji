@@ -8,8 +8,7 @@
   ],
   "scripts": {
     "lint": "jsonlint ./src/gitmojis.json -V ./src/schema.json",
-    "publishPackage": "npm publish",
-    "prepublishPackage": "yarn run lint"
+    "publishPackage": "npm publish"
   },
   "devDependencies": {
     "jsonlint": "^1.6.3",
