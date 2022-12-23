@@ -8,7 +8,6 @@
   "scripts": {
     "build": "next build && next-sitemap",
     "dev": "next dev",
-    "flow": "flow",
     "lint": "eslint ./src && prettier --check ./src/**/*.{ts,tsx,css}",
     "start": "next start",
     "test": "FORCE_COLOR=1 jest --coverage"
