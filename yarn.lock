@@ -4460,12 +4460,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flow-bin@npm:^0.195.1":
-  version: 0.195.2
-  resolution: "flow-bin@npm:0.195.2"
+"flow-bin@npm:^0.196.3":
+  version: 0.196.3
+  resolution: "flow-bin@npm:0.196.3"
   bin:
     flow: cli.js
-  checksum: 04664a1b47dc3b6edf01a89833f311349c8aca89411b67cde97d8e82f7c50fdd5a457846bc4496a8942fff0d23dc1747cf01f1c6abe2300488394f81103c0d3e
+  checksum: 7c3022ffd56d1c4984d94748deb9bf43a2c15189df65982f3768e41dfebc83aa67769c928cfaa3b798c8bd0de7b4939fb5d8d58bd8c4b42a6f816beb6be0a62d
   languageName: node
   linkType: hard
 
@@ -8806,7 +8806,7 @@ __metadata:
     eslint-plugin-flowtype: ^8.0.3
     eslint-plugin-jest: ^27.1.3
     eslint-plugin-react: ^7.31.10
-    flow-bin: ^0.195.1
+    flow-bin: ^0.196.3
     focus-trap-react: ^10.0.0
     gitmojis: "workspace:*"
     identity-obj-proxy: ^3.0.0
