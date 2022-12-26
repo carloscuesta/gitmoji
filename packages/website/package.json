@@ -14,7 +14,7 @@
     "test": "FORCE_COLOR=1 jest --coverage"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.6",
+    "@babel/core": "^7.20.7",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.18.6",
