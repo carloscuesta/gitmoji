@@ -20,7 +20,7 @@
     "@babel/preset-react": "^7.18.6",
     "clipboard": "^2.0.4",
     "eslint": "^8.26.0",
-    "eslint-config-next": "^13.0.0",
+    "eslint-config-next": "^13.1.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-flowtype": "^8.0.3",
