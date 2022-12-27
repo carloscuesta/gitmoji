@@ -1,10 +1,7 @@
-// @flow
-import { type Node } from 'react'
-
 import CarbonAd from 'src/components/CarbonAd'
 import SEO from 'src/components/SEO'
 
-const tools: Array<{ name: string, description: string, link: string }> = [
+const tools = [
   {
     name: 'gitmoji-changelog',
     description: 'A changelog generator for gitmoji.',
@@ -84,7 +81,7 @@ const tools: Array<{ name: string, description: string, link: string }> = [
   },
 ]
 
-const RelatedTools = (): Node => (
+const RelatedTools = () => (
   <>
     <SEO pageTitle="Related tools" pageUrl="/related-tools" />
     <main>
