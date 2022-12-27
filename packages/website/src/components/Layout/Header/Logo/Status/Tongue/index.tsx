@@ -1,7 +1,4 @@
-// @flow
-import { type Element } from 'react'
-
-export const Tongue = (): Element<'g'> => (
+export const Tongue = () => (
   <g id="tongue" transform="translate(304 32)">
     <g id="Group">
       <ellipse id="Oval" rx={39} ry={39} cy={39} cx={39} fill="#FFDD67" />

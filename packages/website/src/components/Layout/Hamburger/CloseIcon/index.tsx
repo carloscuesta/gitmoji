@@ -1,7 +1,4 @@
-// @flow
-import { type Element } from 'react'
-
-const CloseIcon = (): Element<'svg'> => (
+const CloseIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="48"

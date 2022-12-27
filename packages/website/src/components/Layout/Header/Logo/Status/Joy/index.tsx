@@ -1,7 +1,4 @@
-// @flow
-import { type Element } from 'react'
-
-export const Joy = (): Element<'g'> => (
+export const Joy = () => (
   <g id="joy" transform="translate(304 32)">
     <g id="Group">
       <circle id="Oval" cy={39} cx={39} r={39} fill="#FFDD67" />

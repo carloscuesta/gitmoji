@@ -1,11 +1,9 @@
-// @flow
-import { type Element } from 'react'
 import Link from 'next/link'
 
 import Icon from 'src/components/Icon'
 import styles from './styles.module.css'
 
-const Footer = (): Element<'footer'> => (
+const Footer = () => (
   <footer className={styles.footer}>
     <div className="wrap">
       <div className="row middle-xs">

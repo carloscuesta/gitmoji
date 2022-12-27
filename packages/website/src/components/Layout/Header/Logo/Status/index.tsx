@@ -1,6 +1,3 @@
-// @flow
-import { type Node } from 'react'
-
 import Joy from './Joy'
 import Loved from './Loved'
 import Sexy from './Sexy'
@@ -8,18 +5,20 @@ import Smiling from './Smiling'
 import Sunglasses from './Sunglasses'
 import Tongue from './Tongue'
 
-export const LOGO_STATUSES: Object = {
-  JOY: 'joy',
-  LOVED: 'loved',
-  SEXY: 'sexy',
-  SMILING: 'smiling',
-  SUNGLASSES: 'sunglasses',
-  TONGUE: 'tongue',
-}
+export const LOGO_STATUSES = {
+  JOY: 'JOY',
+  LOVED: 'LOVED',
+  SEXY: 'SEXY',
+  SMILING: 'SMILING',
+  SUNGLASSES: 'SUNGLASSES',
+  TONGUE: 'TONGUE',
+} as const
 
-type Props = { status: $Keys<typeof LOGO_STATUSES> }
+export type EmojiLogoStatus = keyof typeof LOGO_STATUSES | null
 
-const Status = (props: Props): Node => {
+type Props = { status: EmojiLogoStatus }
+
+const Status = (props: Props) => {
   switch (props.status) {
     case LOGO_STATUSES.JOY:
       return <Joy />
@@ -33,9 +32,9 @@ const Status = (props: Props): Node => {
       return <Sunglasses />
     case LOGO_STATUSES.TONGUE:
       return <Tongue />
+    default:
+      return null
   }
-
-  return null
 }
 
 export default Status

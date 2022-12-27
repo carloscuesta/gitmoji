@@ -1,16 +1,13 @@
-// @flow
-import React, { type Element } from 'react'
+import { useState, useEffect } from 'react'
 
-import Status, { LOGO_STATUSES } from './Status'
+import Status, { LOGO_STATUSES, type EmojiLogoStatus } from './Status'
 import styles from './styles.module.css'
 
-const Logo = (): Element<'svg'> => {
-  const statuses: Array<Object> = Object.values(LOGO_STATUSES).map(
-    (status) => status
-  )
-  const [status, setStatus] = React.useState('')
+const Logo = () => {
+  const statuses = Object.values(LOGO_STATUSES)
+  const [status, setStatus] = useState<EmojiLogoStatus>(null)
 
-  React.useEffect(() => {
+  useEffect(() => {
     setStatus(statuses[Math.floor(Math.random() * statuses.length)])
   }, [])
 

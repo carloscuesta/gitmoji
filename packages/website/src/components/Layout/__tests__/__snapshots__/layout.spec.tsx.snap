@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Layout Logo should render Logo with status joy 1`] = `
+exports[`Layout Logo should render Logo with status JOY 1`] = `
 <g
   id="joy"
   transform="translate(304 32)"
@@ -57,7 +57,7 @@ exports[`Layout Logo should render Logo with status joy 1`] = `
 </g>
 `;
 
-exports[`Layout Logo should render Logo with status loved 1`] = `
+exports[`Layout Logo should render Logo with status LOVED 1`] = `
 <g
   id="loved"
   transform="translate(304 32)"
@@ -89,7 +89,7 @@ exports[`Layout Logo should render Logo with status loved 1`] = `
 </g>
 `;
 
-exports[`Layout Logo should render Logo with status sexy 1`] = `
+exports[`Layout Logo should render Logo with status SEXY 1`] = `
 <g
   id="sexy"
   transform="translate(304 32)"
@@ -168,7 +168,7 @@ exports[`Layout Logo should render Logo with status sexy 1`] = `
 </g>
 `;
 
-exports[`Layout Logo should render Logo with status smiling 1`] = `
+exports[`Layout Logo should render Logo with status SMILING 1`] = `
 <g
   id="haha"
   transform="translate(304 32)"
@@ -214,7 +214,7 @@ exports[`Layout Logo should render Logo with status smiling 1`] = `
 </g>
 `;
 
-exports[`Layout Logo should render Logo with status sunglasses 1`] = `
+exports[`Layout Logo should render Logo with status SUNGLASSES 1`] = `
 <g
   id="sunglasses"
   transform="translate(304 32)"
@@ -241,7 +241,7 @@ exports[`Layout Logo should render Logo with status sunglasses 1`] = `
 </g>
 `;
 
-exports[`Layout Logo should render Logo with status tongue 1`] = `
+exports[`Layout Logo should render Logo with status TONGUE 1`] = `
 <g
   id="tongue"
   transform="translate(304 32)"

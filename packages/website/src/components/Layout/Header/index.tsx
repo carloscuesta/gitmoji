@@ -1,13 +1,10 @@
-// @flow
-import { type Element } from 'react'
-
 import Button from 'src/components/Button'
 import Logo from './Logo'
 import styles from './styles.module.css'
 
 type Props = { withHeadline: boolean }
 
-const Header = (props: Props): Element<'header'> => (
+const Header = (props: Props) => (
   <header className={styles.header}>
     <Logo />
     {props.withHeadline && (

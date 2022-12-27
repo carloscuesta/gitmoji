@@ -1,5 +1,4 @@
-// @flow
-import React, { type Element } from 'react'
+import { useState, useEffect } from 'react'
 import Router from 'next/router'
 import FocusTrap from 'focus-trap-react'
 
@@ -8,10 +7,10 @@ import OpenIcon from './OpenIcon'
 import CloseIcon from './CloseIcon'
 import styles from './styles.module.css'
 
-const Hamburger = (): Element<'div'> => {
-  const [isOpen, setIsOpen] = React.useState(false)
+const Hamburger = () => {
+  const [isOpen, setIsOpen] = useState(false)
 
-  React.useEffect(() => {
+  useEffect(() => {
     const onRouteChangeStart = () => {
       setIsOpen(false)
     }

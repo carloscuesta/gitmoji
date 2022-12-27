@@ -13,14 +13,6 @@ jest.mock('next/router', () => ({
   },
 }))
 
-Router.useRouter = () => ({
-  pathname: '',
-  events: {
-    off: jest.fn(),
-    on: jest.fn(),
-  },
-})
-
 describe('Layout', () => {
   beforeAll(() => {
     Math.random = jest.fn().mockReturnValue(1)
