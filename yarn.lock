@@ -1491,10 +1491,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@corex/deepmerge@npm:^2.6.148":
-  version: 2.6.148
-  resolution: "@corex/deepmerge@npm:2.6.148"
-  checksum: b80b6b3e408901151de26e27b519a43cda1771a81e5390ff10cd6b47add0139bb315ca44112ff076d68ac887d7cfe237c9fb33868efb04839c4afb7c38864385
+"@corex/deepmerge@npm:^4.0.29":
+  version: 4.0.29
+  resolution: "@corex/deepmerge@npm:4.0.29"
+  checksum: 78626fd29cb9cbd2953ce5a06f963132c9b4837bb76397982d255131533b61c3ef447f0d295f300aa6b2c3ead182a6fe2e4763181e06a2124df28c08205de1d2
   languageName: node
   linkType: hard
 
@@ -6460,7 +6460,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0":
+"minimist@npm:^1.2.0, minimist@npm:^1.2.7":
   version: 1.2.7
   resolution: "minimist@npm:1.2.7"
   checksum: 7346574a1038ca23c32e02252f603801f09384dd1d78b69a943a4e8c2c28730b80e96193882d3d3b22a063445f460e48316b29b8a25addca2d7e5e8f75478bec
@@ -6622,17 +6622,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-sitemap@npm:^2.1.5":
-  version: 2.5.28
-  resolution: "next-sitemap@npm:2.5.28"
+"next-sitemap@npm:^3.1.43":
+  version: 3.1.43
+  resolution: "next-sitemap@npm:3.1.43"
   dependencies:
-    "@corex/deepmerge": ^2.6.148
-    minimist: ^1.2.6
+    "@corex/deepmerge": ^4.0.29
+    minimist: ^1.2.7
   peerDependencies:
+    "@next/env": "*"
     next: "*"
   bin:
-    next-sitemap: bin/next-sitemap
-  checksum: 8d60a645df3e67da68a649bec0e839f4308124286456f051513ef74103bf6914ab370ebb2b57ff79db1f685988b6c35053fd6679324edd9a9426ca9f7d1c84bd
+    next-sitemap: bin/next-sitemap.mjs
+    next-sitemap-cjs: bin/next-sitemap.cjs
+  checksum: 70630056b77bf570053614919ab8a8313f439679d7a8f27976ed51be913c121ff157114112f7e99d0617f82c5e32b88e7eeb505bab0b46b704bd4afb2b0195ef
   languageName: node
   linkType: hard
 
@@ -8816,7 +8818,7 @@ __metadata:
     lint-staged: ^13.0.0
     next: ^13.1.1
     next-pwa: ^5.4.4
-    next-sitemap: ^2.1.5
+    next-sitemap: ^3.1.43
     next-themes: ^0.2.0
     prettier: 2.8.1
     prop-types: ^15.8.1
