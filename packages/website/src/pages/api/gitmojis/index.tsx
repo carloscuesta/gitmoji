@@ -1,7 +1,7 @@
-// @flow
+import type { NextApiRequest, NextApiResponse } from 'next'
 import gitmojisData from 'gitmojis'
 
-const gitmojis = (request: { method: string }, response: Object): void => {
+const gitmojis = (request: NextApiRequest, response: NextApiResponse): void => {
   const { method } = request
 
   if (method === 'GET') {
