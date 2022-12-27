@@ -1,10 +1,9 @@
-// @flow
-import React, { type Element } from 'react'
+import { useRef, useEffect } from 'react'
 
-const CarbonAd = (): Element<'div'> => {
-  const adsContainer: Object = React.useRef(null)
+const CarbonAd = () => {
+  const adsContainer = useRef<HTMLDivElement>(null)
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (adsContainer.current) {
       const carbonAdsScript = document.createElement('script')
 
