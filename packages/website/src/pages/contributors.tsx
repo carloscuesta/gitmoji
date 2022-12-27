@@ -1,15 +1,18 @@
-// @flow
-import { type Node } from 'react'
+import { GetStaticProps, InferGetStaticPropsType } from 'next'
 
 import ContributorsList from 'src/components/ContributorsList'
 import CarbonAd from 'src/components/CarbonAd'
 import SEO from 'src/components/SEO'
 
-type Props = {
-  contributors: Array<{ avatar: string, url: string, id: string }>,
+type Contributor = {
+  avatar: string
+  id: string
+  url: string
 }
 
-const Contributors = (props: Props): Node => (
+const Contributors = (
+  props: InferGetStaticPropsType<typeof getStaticProps>
+) => (
   <>
     <SEO pageTitle="Contributors" pageUrl="/contributors" />
 
@@ -24,14 +27,19 @@ const Contributors = (props: Props): Node => (
   </>
 )
 
-export const getStaticProps = async (): Promise<{
-  props: Props,
-  revalidate: number,
-}> => {
+export const getStaticProps: GetStaticProps<{
+  contributors: Contributor[]
+}> = async () => {
+  type GitHubContributor = {
+    avatar_url: string
+    id: string
+    html_url: string
+    login: string
+  }
   const response = await fetch(
     'https://api.github.com/repos/carloscuesta/gitmoji/contributors'
   )
-  const contributors = await response.json()
+  const contributors: GitHubContributor[] = await response.json()
 
   return {
     props: {
