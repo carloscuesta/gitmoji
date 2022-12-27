@@ -7,9 +7,7 @@ import * as stubs from './stubs'
 describe('ContributorsList', () => {
   describe('Contributor', () => {
     it('should render the component', () => {
-      const wrapper = renderer.create(
-        <Contributor contributor={stubs.contributor} />
-      )
+      const wrapper = renderer.create(<Contributor {...stubs.contributor} />)
       expect(wrapper).toMatchSnapshot()
     })
   })

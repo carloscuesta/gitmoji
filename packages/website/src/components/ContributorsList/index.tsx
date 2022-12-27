@@ -1,17 +1,14 @@
-// @flow
-import { type Element } from 'react'
-
 import Contributor from './Contributor'
 
 type Props = {
   contributors: Array<{
-    avatar: string,
-    id: string,
-    url: string,
-  }>,
+    avatar: string
+    id: string
+    url: string
+  }>
 }
 
-const ContributorsList = (props: Props): Element<'div'> => (
+const ContributorsList = (props: Props) => (
   <div className="row center-xs">
     {props.contributors.map((contributor) => (
       <Contributor
