@@ -1,12 +1,10 @@
-// @flow
-import { type Node } from 'react'
 import Link from 'next/link'
 
 import CarbonAd from 'src/components/CarbonAd'
 import Button from 'src/components/Button'
 import SEO from 'src/components/SEO'
 
-const About = (): Node => (
+const About = () => (
   <>
     <SEO pageTitle="About" pageUrl="/about" />
     <main>
