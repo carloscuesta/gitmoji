@@ -3,8 +3,13 @@ import renderer from 'react-test-renderer'
 import useLocalStorage from '../useLocalStorage'
 import * as stubs from './stubs'
 
-// eslint-disable-next-line react/prop-types
-const TestComponent = ({ storageKey, storageValue }) => {
+const TestComponent = ({
+  storageKey,
+  storageValue,
+}: {
+  storageKey: string
+  storageValue: string
+}) => {
   useLocalStorage(storageKey, storageValue)
 
   return null
@@ -15,10 +20,12 @@ Object.defineProperty(window, 'localStorage', {
   value: { setItem: jest.fn(), getItem: jest.fn() },
 })
 
+const getItem = window.localStorage.getItem as jest.Mock
+
 describe('useLocalStorage', () => {
   describe('when value is not persisted', () => {
     beforeAll(() => {
-      window.localStorage.getItem.mockReturnValue(null)
+      getItem.mockReturnValue(null)
     })
 
     it('should call localStorage.setItem', () => {
@@ -29,7 +36,12 @@ describe('useLocalStorage', () => {
         />
       )
 
-      wrapper.update()
+      wrapper.update(
+        <TestComponent
+          storageKey={stubs.localStorageMock.key}
+          storageValue={stubs.localStorageMock.value}
+        />
+      )
 
       expect(window.localStorage.setItem).toHaveBeenCalledWith(
         stubs.localStorageMock.key,
@@ -42,7 +54,7 @@ describe('useLocalStorage', () => {
     const consoleError = console.error
 
     beforeAll(() => {
-      window.localStorage.getItem.mockReturnValue(new Error('Test'))
+      getItem.mockReturnValue(new Error('Test'))
 
       Object.defineProperty(console, 'error', {
         writable: true,
@@ -65,7 +77,12 @@ describe('useLocalStorage', () => {
         />
       )
 
-      wrapper.update()
+      wrapper.update(
+        <TestComponent
+          storageKey={stubs.localStorageMock.key}
+          storageValue={stubs.localStorageMock.value}
+        />
+      )
 
       expect(console.error).toHaveBeenCalledWith(expect.any(String))
     })

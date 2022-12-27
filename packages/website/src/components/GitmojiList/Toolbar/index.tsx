@@ -1,15 +1,14 @@
-// @flow
-import { type Element, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 import ListModeSelector from './ListModeSelector'
 import ThemeSelector from './ThemeSelector'
 import styles from './styles.module.css'
 
 type Props = {
-  isListMode: boolean,
-  searchInput: ?string,
-  setIsListMode: Function,
-  setSearchInput: Function,
+  isListMode: boolean
+  searchInput?: string
+  setIsListMode: (searchInput: boolean) => void
+  setSearchInput: (searchInput: string) => void
 }
 
 const isMacOs = () => {
@@ -18,8 +17,8 @@ const isMacOs = () => {
     : window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
 }
 
-const Toolbar = (props: Props): Element<'div'> => {
-  const searchInputRef = useRef(null)
+const Toolbar = (props: Props) => {
+  const searchInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     const keyboardEventListener = (event: KeyboardEvent) => {

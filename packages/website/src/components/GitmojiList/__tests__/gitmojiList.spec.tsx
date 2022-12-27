@@ -1,4 +1,4 @@
-import Router from 'next/router'
+import { useRouter } from 'next/router'
 import renderer from 'react-test-renderer'
 
 import GitmojiList from '../index'
@@ -11,6 +11,8 @@ jest.mock('next/router', () => ({
     push: jest.fn(),
   })),
 }))
+
+const useRouterMock = useRouter as jest.Mock
 
 describe('GitmojiList', () => {
   describe('when is not list mode', () => {
@@ -35,7 +37,7 @@ describe('GitmojiList', () => {
 
   describe('when user search the fire gitmoji', () => {
     beforeAll(() => {
-      Router.useRouter.mockReturnValue(stubs.routerMock())
+      useRouterMock.mockReturnValue(stubs.routerMock())
     })
 
     it('should find the fire gitmoji by code', () => {
@@ -83,7 +85,7 @@ describe('GitmojiList', () => {
 
   describe('when search is provided by query string', () => {
     beforeAll(() => {
-      Router.useRouter.mockReturnValue(stubs.routerMock({ search: 'fire' }))
+      useRouterMock.mockReturnValue(stubs.routerMock({ search: 'fire' }))
     })
 
     it('should set the search input value to query.search', () => {
@@ -106,7 +108,7 @@ describe('GitmojiList', () => {
           instance.findByType('input').props.onChange({ target: { value: '' } })
         })
 
-        expect(Router.useRouter().push).toHaveBeenCalledWith('/', undefined, {
+        expect(useRouterMock().push).toHaveBeenCalledWith('/', undefined, {
           shallow: true,
         })
       })

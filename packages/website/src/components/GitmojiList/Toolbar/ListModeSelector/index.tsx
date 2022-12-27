@@ -1,15 +1,12 @@
-// @flow
-import { type Element } from 'react'
-
 import Icon from 'src/components/Icon'
 import styles from './styles.module.css'
 
 type Props = {
-  isListMode: boolean,
-  setIsListMode: Function,
+  isListMode: boolean
+  setIsListMode: (isListMode: boolean) => void
 }
 
-const ListModeSelector = (props: Props): Element<'div'> => (
+const ListModeSelector = (props: Props) => (
   <div className={styles.container}>
     <button
       className={`${styles.button} ${

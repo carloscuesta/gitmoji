@@ -1,4 +1,3 @@
-// @flow
 export default {
   'adhesive-bandage': '#fbcfb7',
   alembic: '#7f39fb',
@@ -75,4 +74,4 @@ export default {
   technologist: '#86B837',
   'money-with-wings': '#b3c0b1',
   thread: '#ffbe7b',
-}
+} as const

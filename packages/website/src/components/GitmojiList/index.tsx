@@ -1,5 +1,4 @@
-// @flow
-import React, { type Element } from 'react'
+import { useEffect, useState } from 'react'
 import Clipboard from 'clipboard'
 import { useRouter } from 'next/router'
 
@@ -9,16 +8,16 @@ import useLocalStorage from './hooks/useLocalStorage'
 
 type Props = {
   gitmojis: Array<{
-    code: string,
-    description: string,
-    emoji: string,
-    name: string,
-  }>,
+    code: string
+    description: string
+    emoji: string
+    name: string
+  }>
 }
 
-const GitmojiList = (props: Props): Element<'div'> => {
+const GitmojiList = (props: Props) => {
   const router = useRouter()
-  const [searchInput, setSearchInput] = React.useState('')
+  const [searchInput, setSearchInput] = useState('')
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
 
   const gitmojis = searchInput
@@ -33,27 +32,27 @@ const GitmojiList = (props: Props): Element<'div'> => {
       })
     : props.gitmojis
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (router.query.search) {
-      setSearchInput(router.query.search)
+      setSearchInput(router.query.search as string)
     }
   }, [router.query.search])
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (router.query.search && !searchInput) {
       router.push('/', undefined, { shallow: true })
     }
   }, [searchInput])
 
-  React.useEffect(() => {
+  useEffect(() => {
     const clipboard = new Clipboard(
       '.gitmoji-clipboard-emoji, .gitmoji-clipboard-code'
     )
 
     clipboard.on('success', function (e) {
-      window.ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
+      ;(window as any).ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
 
-      const notification = new window.NotificationFx({
+      const notification = new (window as any).NotificationFx({
         message: e.trigger.classList.contains('gitmoji-clipboard-emoji')
           ? `<p>Hey! Gitmoji ${e.text} copied to the clipboard 😜</p>`
           : `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`,
@@ -90,6 +89,8 @@ const GitmojiList = (props: Props): Element<'div'> => {
             emoji={gitmoji.emoji}
             isListMode={isListMode}
             key={index}
+            // @ts-expect-error: This should be replaced with something like:
+            // typeof gitmojis[number]['name'] but JSON can't be exported `as const`
             name={gitmoji.name}
           />
         ))
