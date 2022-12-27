@@ -1,12 +1,9 @@
-// @flow
-import { type Element } from 'react'
-
 import Icon from 'src/components/Icon'
 import styles from './styles.module.css'
 
-type Props = { target?: string, icon?: string, text: string, link: string }
+type Props = { target?: string; icon?: string; text: string; link: string }
 
-const Button = (props: Props): Element<'a'> => (
+const Button = (props: Props) => (
   <a
     className={styles.button}
     target={props.target && props.target}
