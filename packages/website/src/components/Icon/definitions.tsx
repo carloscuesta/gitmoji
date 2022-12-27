@@ -1,7 +1,4 @@
-// @flow
-import { type Element } from 'react'
-
-export const IconDefinitions = (): Element<'svg'> => (
+export const IconDefinitions = () => (
   <svg
     style={{ position: 'absolute', width: 0, height: 0 }}
     width={0}
