@@ -1,13 +1,10 @@
-// @flow
-import React, { type Node } from 'react'
+import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'next-themes'
 
 import Layout from 'src/components/Layout'
 import 'src/utils/theme/theme.css'
 
-type Props = { Component: typeof React.Component, pageProps: Object }
-
-const App = (props: Props): Node => (
+const App = (props: AppProps) => (
   <ThemeProvider>
     <Layout>
       <props.Component {...props.pageProps} />
