@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn turbo flow && yarn turbo test
+yarn turbo tscheck && yarn turbo test

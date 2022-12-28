@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContributorsList Contributor should render the component 1`] = `
+<article
+  className="col-xs-3 col-sm-2"
+>
+  <a
+    href="https://github.com/profile"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <img
+      className="picture"
+      src="https://github.com/avatar"
+    />
+  </a>
+</article>
+`;
+
+exports[`ContributorsList should render the component 1`] = `
+<div
+  className="row center-xs"
+>
+  <article
+    className="col-xs-3 col-sm-2"
+  >
+    <a
+      href="https://github.com/profile"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        className="picture"
+        src="https://github.com/avatar"
+      />
+    </a>
+  </article>
+</div>
+`;

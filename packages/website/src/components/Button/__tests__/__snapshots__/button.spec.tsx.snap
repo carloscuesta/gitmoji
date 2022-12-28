@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render the component 1`] = `
+<a
+  className="button"
+  href="/"
+  target="_blank"
+>
+  <svg
+    className="icon icon-star"
+  >
+    <use
+      xlinkHref="#icon-star"
+    />
+  </svg>
+  GitHub
+</a>
+`;

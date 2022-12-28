@@ -26,3 +26,6 @@ packages/website/public/*.map
 packages/website/public/robots.txt
 packages/website/public/sitemap.xml
 packages/website/public/sitemap-*.xml
+
+# TS
+*.tsbuildinfo
