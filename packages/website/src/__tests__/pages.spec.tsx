@@ -1,6 +1,7 @@
 import renderer from 'react-test-renderer'
-import { enableFetchMocks } from 'jest-fetch-mock'
+import fetchMock, { enableFetchMocks } from 'jest-fetch-mock'
 import gitmojisData from 'gitmojis'
+import { createMocks } from 'node-mocks-http'
 
 import App from '../pages/_app'
 import Index from '../pages/index'
@@ -34,6 +35,7 @@ describe('Pages', () => {
     })
 
     it('should render the page', () => {
+      // @ts-expect-error We don't need to pass router to test the App component.
       const wrapper = renderer.create(<App {...stubs.appProps} />)
       expect(wrapper).toMatchSnapshot()
     })
@@ -59,9 +61,9 @@ describe('Pages', () => {
     })
 
     it('should fetch contributos from GitHub', async () => {
-      fetch.mockResponseOnce(JSON.stringify(stubs.contributorsMock))
+      fetchMock.mockResponseOnce(JSON.stringify(stubs.contributorsMock))
 
-      const props = await getContributorsStaticProps()
+      const props = await getContributorsStaticProps({})
 
       expect(props).toEqual({
         props: {
@@ -90,26 +92,24 @@ describe('Pages', () => {
     describe('gitmojis endpoint', () => {
       describe('when request method is GET', () => {
         it('should set response status to 200 and gitmojis as body json', () => {
-          const request = stubs.request('GET')
-          const response = stubs.response()
+          const { req, res } = createMocks({ method: 'GET' })
 
-          GitmojisApi(request, response)
+          GitmojisApi(req, res)
 
-          expect(response.status).toHaveBeenCalledWith(200)
-          expect(response.json).toHaveBeenCalledWith(gitmojisData)
+          expect(res.statusCode).toEqual(200)
+          expect(res._getJSONData()).toEqual(gitmojisData)
         })
       })
 
       describe('when request method is not GET', () => {
         it('should setHeader, status 405 and end the request', () => {
-          const request = stubs.request('POST')
-          const response = stubs.response()
+          const { req, res } = createMocks({ method: 'POST' })
 
-          GitmojisApi(request, response)
+          GitmojisApi(req, res)
 
-          expect(response.setHeader).toHaveBeenCalledWith('Allow', ['GET'])
-          expect(response.status).toHaveBeenCalledWith(405)
-          expect(response.json).toHaveBeenCalledWith({
+          expect(res.getHeaders().allow).toEqual(['GET'])
+          expect(res.statusCode).toEqual(405)
+          expect(res._getJSONData()).toEqual({
             error: `Error: method POST not allowed`,
           })
         })

@@ -3,10 +3,10 @@
 exports[`Pages About should render the page 1`] = `
 <main>
   <div
-    className="jsx-2269568618 col-xs-12"
+    className="jsx-f88da8e0e7f3559f col-xs-12"
   >
     <div
-      className="jsx-2269568618 carbon-container row center-xs"
+      className="jsx-f88da8e0e7f3559f carbon-container row center-xs"
     />
   </div>
   <section>
@@ -532,10 +532,10 @@ exports[`Pages App should render the page 1`] = `
 exports[`Pages Contributors should render the page 1`] = `
 <main>
   <div
-    className="jsx-2269568618 col-xs-12"
+    className="jsx-f88da8e0e7f3559f col-xs-12"
   >
     <div
-      className="jsx-2269568618 carbon-container row center-xs"
+      className="jsx-f88da8e0e7f3559f carbon-container row center-xs"
     />
   </div>
   <section>
@@ -567,10 +567,10 @@ exports[`Pages Contributors should render the page 1`] = `
 exports[`Pages Index should render the page 1`] = `
 <main>
   <div
-    className="jsx-2269568618 col-xs-12"
+    className="jsx-f88da8e0e7f3559f col-xs-12"
   >
     <div
-      className="jsx-2269568618 carbon-container row center-xs"
+      className="jsx-f88da8e0e7f3559f carbon-container row center-xs"
     />
   </div>
   <div
@@ -677,7 +677,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":art:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -718,7 +718,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":zap:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -759,7 +759,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":fire:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -800,7 +800,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bug:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -841,7 +841,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":ambulance:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -882,7 +882,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":sparkles:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -923,7 +923,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":memo:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -964,7 +964,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":rocket:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1005,7 +1005,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":lipstick:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1046,7 +1046,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":tada:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1087,7 +1087,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":white_check_mark:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1128,7 +1128,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":lock:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1169,7 +1169,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":closed_lock_with_key:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1210,7 +1210,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bookmark:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1251,7 +1251,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":rotating_light:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1292,7 +1292,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":construction:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1333,7 +1333,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":green_heart:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1374,7 +1374,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":arrow_down:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1415,7 +1415,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":arrow_up:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1456,7 +1456,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":pushpin:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1497,7 +1497,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":construction_worker:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1538,7 +1538,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":chart_with_upwards_trend:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1579,7 +1579,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":recycle:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1620,7 +1620,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":heavy_plus_sign:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1661,7 +1661,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":heavy_minus_sign:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1702,7 +1702,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":wrench:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1743,7 +1743,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":hammer:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1784,7 +1784,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":globe_with_meridians:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1825,7 +1825,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":pencil2:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1866,7 +1866,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":poop:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1907,7 +1907,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":rewind:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1948,7 +1948,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":twisted_rightwards_arrows:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -1989,7 +1989,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":package:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2030,7 +2030,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":alien:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2071,7 +2071,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":truck:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2112,7 +2112,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":page_facing_up:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2153,7 +2153,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":boom:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2194,7 +2194,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bento:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2235,7 +2235,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":wheelchair:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2276,7 +2276,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bulb:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2317,7 +2317,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":beers:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2358,7 +2358,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":speech_balloon:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2399,7 +2399,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":card_file_box:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2440,7 +2440,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":loud_sound:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2481,7 +2481,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":mute:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2522,7 +2522,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":busts_in_silhouette:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2563,7 +2563,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":children_crossing:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2604,7 +2604,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":building_construction:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2645,7 +2645,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":iphone:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2686,7 +2686,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":clown_face:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2727,7 +2727,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":egg:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2768,7 +2768,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":see_no_evil:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2809,7 +2809,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":camera_flash:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2850,7 +2850,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":alembic:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2891,7 +2891,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":mag:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2932,7 +2932,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":label:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -2973,7 +2973,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":seedling:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3014,7 +3014,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":triangular_flag_on_post:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3055,7 +3055,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":goal_net:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3096,7 +3096,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":dizzy:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3137,7 +3137,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":wastebasket:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3178,7 +3178,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":passport_control:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3219,7 +3219,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":adhesive_bandage:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3260,7 +3260,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":monocle_face:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3301,7 +3301,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":coffin:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3342,7 +3342,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":test_tube:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3383,7 +3383,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":necktie:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3424,7 +3424,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":stethoscope:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3465,7 +3465,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":bricks:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3506,7 +3506,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":technologist:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3547,7 +3547,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":money_with_wings:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3588,7 +3588,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":thread:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3629,7 +3629,7 @@ exports[`Pages Index should render the page 1`] = `
           <button
             className="gitmoji-clipboard-code gitmojiCode"
             data-clipboard-text=":safety_vest:"
-            tabIndex="-1"
+            tabIndex={-1}
             type="button"
           >
             <code>
@@ -3649,10 +3649,10 @@ exports[`Pages Index should render the page 1`] = `
 exports[`Pages Related tools should render the page 1`] = `
 <main>
   <div
-    className="jsx-2269568618 col-xs-12"
+    className="jsx-f88da8e0e7f3559f col-xs-12"
   >
     <div
-      className="jsx-2269568618 carbon-container row center-xs"
+      className="jsx-f88da8e0e7f3559f carbon-container row center-xs"
     />
   </div>
   <section>
