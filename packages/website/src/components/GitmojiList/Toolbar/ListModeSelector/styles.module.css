@@ -9,7 +9,7 @@
   color: var(--text);
   cursor: pointer;
   display: flex;
-  background-color: transparent;
+  background-color: var(--cardBackground);
   box-shadow: 0 2px 4px 0 var(--cardShadow);
   font-size: 16px;
   height: 48px;
