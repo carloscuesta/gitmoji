@@ -3,7 +3,7 @@
   align-items: center;
   border-radius: 4px;
   border: none;
-  color: var(--cardText);
+  color: var(--text);
   cursor: pointer;
   background-color: var(--cardBackground);
   box-shadow: 0 2px 4px 0 var(--cardShadow);

@@ -6,7 +6,7 @@
   align-items: center;
   border-radius: 4px;
   border: none;
-  color: var(--cardText);
+  color: var(--text);
   cursor: pointer;
   display: flex;
   background-color: var(--cardBackground);
