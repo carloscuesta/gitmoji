@@ -25,6 +25,8 @@
     "eslint-config-next": "^13.1.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^27.1.3",
     "eslint-plugin-react": "^7.31.10",
     "focus-trap-react": "^10.0.0",
@@ -85,7 +87,8 @@
       "plugin:@typescript-eslint/recommended",
       "plugin:react/recommended",
       "prettier",
-      "plugin:@next/next/recommended"
+      "plugin:@next/next/recommended",
+      "plugin:import/typescript"
     ],
     "parserOptions": {
       "ecmaFeatures": {
@@ -102,7 +105,8 @@
     },
     "plugins": [
       "react",
-      "@typescript-eslint"
+      "@typescript-eslint",
+      "import"
     ],
     "rules": {
       "react/react-in-jsx-scope": "off",
@@ -114,6 +118,24 @@
             "jsx",
             "global"
           ]
+        }
+      ],
+      "import/order": [
+        "error",
+        {
+          "groups": [
+            [
+              "builtin",
+              "external"
+            ],
+            [
+              "internal",
+              "parent",
+              "sibling",
+              "index"
+            ]
+          ],
+          "newlines-between": "always"
         }
       ]
     },
@@ -129,7 +151,9 @@
               "./src"
             ]
           ]
-        }
+        },
+        "typescript": true,
+        "node": true
       }
     }
   }
