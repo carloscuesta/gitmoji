@@ -6,6 +6,7 @@
   "files": [
     "src/gitmojis.json"
   ],
+  "types": "src/gitmojis.d.ts",
   "scripts": {
     "lint": "jsonlint ./src/gitmojis.json -V ./src/schema.json",
     "publishPackage": "npm publish"
