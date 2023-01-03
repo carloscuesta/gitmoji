@@ -1,46 +1,40 @@
 {
   "type": "object",
-  "$schema": "http://json-schema.org/draft-03/schema",
-  "id": "http://jsonschema.net",
-  "required": true,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "required": ["gitmojis"],
   "properties": {
     "gitmojis": {
       "type": "array",
-      "id": "http://jsonschema.net/gitmojis",
-      "required": true,
+      "minItems": 1,
+      "uniqueItems": true,
       "items": {
         "type": "object",
-        "id": "http://jsonschema.net/gitmojis/0",
-        "required": true,
+        "required": [
+          "emoji",
+          "entity",
+          "code",
+          "description",
+          "name",
+          "semver"
+        ],
         "properties": {
           "code": {
-            "type": "string",
-            "id": "http://jsonschema.net/gitmojis/0/code",
-            "required": true
+            "type": "string"
           },
           "entity": {
-            "type": "string",
-            "id": "http://jsonschema.net/gitmojis/0/entity"
+            "type": "string"
           },
           "description": {
-            "type": "string",
-            "id": "http://jsonschema.net/gitmojis/0/description",
-            "required": true
+            "type": "string"
           },
           "emoji": {
-            "type": "string",
-            "id": "http://jsonschema.net/gitmojis/0/emoji",
-            "required": true
+            "type": "string"
           },
           "name": {
-            "type": "string",
-            "id": "http://jsonschema.net/gitmojis/0/name",
-            "required": true
+            "type": "string"
           },
           "semver": {
-            "enum": ["major", "minor", "patch", null],
-            "id": "http://jsonschema.net/gitmojis/0/semver",
-            "required": true
+            "enum": ["major", "minor", "patch", null]
           }
         }
       }
