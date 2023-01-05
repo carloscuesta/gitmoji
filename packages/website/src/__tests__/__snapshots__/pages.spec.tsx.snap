@@ -3643,6 +3643,21 @@ exports[`Pages Index should render the page 1`] = `
       </div>
     </article>
   </div>
+  <div
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      {
+        "bottom": 16,
+        "left": 16,
+        "pointerEvents": "none",
+        "position": "fixed",
+        "right": 16,
+        "top": 16,
+        "zIndex": 9999,
+      }
+    }
+  />
 </main>
 `;
 
