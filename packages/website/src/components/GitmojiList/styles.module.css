@@ -1,0 +1,42 @@
+.gitmojiCode {
+  padding: 0 4px;
+  border-radius: 4px;
+  background-color: var(--notificationEmojiCodeColor);
+  color: var(--notificationText);
+}
+
+.closeButton {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  overflow: hidden;
+  text-indent: 100%;
+  cursor: pointer;
+  backface-visibility: hidden;
+}
+
+.closeButton:hover,
+.closeButton:focus {
+  outline: none;
+}
+
+.closeButton::before,
+.closeButton::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  background: var(--notificationText);
+}
+
+.closeButton::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.closeButton::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}

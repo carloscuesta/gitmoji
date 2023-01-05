@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react'
 import Clipboard from 'clipboard'
 import { useRouter } from 'next/router'
 import type { Gitmoji as GitmojiType } from 'gitmojis'
+import toast from 'react-hot-toast'
 
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
 import useLocalStorage from './hooks/useLocalStorage'
+import styles from './styles.module.css'
 
 type Props = {
   gitmojis: readonly GitmojiType[]
@@ -48,17 +50,29 @@ const GitmojiList = (props: Props) => {
     clipboard.on('success', function (e) {
       ;(window as any).ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
 
-      const notification = new (window as any).NotificationFx({
-        message: e.trigger.classList.contains('gitmoji-clipboard-emoji')
-          ? `<p>Hey! Gitmoji ${e.text} copied to the clipboard 😜</p>`
-          : `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`,
-        layout: 'growl',
-        effect: 'scale',
-        type: 'notice',
-        ttl: 2000,
-      })
-
-      notification.show()
+      toast(
+        (t) => (
+          <span className={styles.notification}>
+            <p>
+              Hey! Gitmoji <span className={styles.gitmojiCode}>{e.text}</span>{' '}
+              copied to the clipboard 😜
+            </p>
+            <span
+              className={styles.closeButton}
+              onClick={() => toast.dismiss(t.id)}
+            />
+          </span>
+        ),
+        {
+          id: 'clipboard',
+          style: {
+            background: '#ff5a79',
+            color: '#ffffff',
+            fontWeight: 600,
+            fontSize: '90%',
+          },
+        }
+      )
     })
 
     return () => clipboard.destroy()
