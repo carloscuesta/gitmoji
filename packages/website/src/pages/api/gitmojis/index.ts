@@ -1,7 +1,10 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import gitmojis from 'gitmojis'
+import { gitmojis } from 'gitmojis'
 
-const getGitmojis = (request: NextApiRequest, response: NextApiResponse): void => {
+const getGitmojis = (
+  request: NextApiRequest,
+  response: NextApiResponse
+): void => {
   const { method } = request
 
   if (method === 'GET') {
