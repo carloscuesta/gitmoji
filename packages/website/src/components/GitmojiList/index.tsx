@@ -1,18 +1,14 @@
 import { useEffect, useState } from 'react'
 import Clipboard from 'clipboard'
 import { useRouter } from 'next/router'
+import type { Gitmoji as GitmojiType } from 'gitmojis'
 
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
 import useLocalStorage from './hooks/useLocalStorage'
 
 type Props = {
-  gitmojis: Array<{
-    code: string
-    description: string
-    emoji: string
-    name: string
-  }>
+  gitmojis: readonly GitmojiType[]
 }
 
 const GitmojiList = (props: Props) => {

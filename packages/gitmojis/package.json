@@ -8,11 +8,11 @@
   ],
   "types": "src/gitmojis.d.ts",
   "scripts": {
-    "lint": "jsonlint ./src/gitmojis.json -V ./src/schema.json",
+    "lint": "ajv --spec=draft2020 validate -s ./src/schema.json -d ./src/gitmojis.json",
     "publishPackage": "npm publish"
   },
   "devDependencies": {
-    "jsonlint": "^1.6.3",
+    "ajv-cli": "^5.0.0",
     "lint-staged": "^13.0.0",
     "prettier": "2.8.1"
   },
