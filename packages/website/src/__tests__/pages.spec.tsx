@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer'
 import fetchMock, { enableFetchMocks } from 'jest-fetch-mock'
-import gitmojisData from 'gitmojis'
+import { gitmojis } from 'gitmojis'
 import { createMocks } from 'node-mocks-http'
 
 import App from '../pages/_app'
@@ -97,7 +97,7 @@ describe('Pages', () => {
           GitmojisApi(req, res)
 
           expect(res.statusCode).toEqual(200)
-          expect(res._getJSONData()).toEqual(gitmojisData)
+          expect(res._getJSONData()).toEqual({ gitmojis })
         })
       })
 
