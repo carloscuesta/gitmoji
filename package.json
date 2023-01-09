@@ -12,7 +12,7 @@
     "dev": "yarn turbo dev"
   },
   "devDependencies": {
-    "husky": "^8.0.0",
+    "husky": "^8.0.3",
     "lint-staged": "^13.0.0",
     "prettier": "2.8.1",
     "turbo": "^1.6.3"
