@@ -4,7 +4,9 @@
   "description": "An emoji guide for your commit messages.",
   "main": "src/gitmojis.json",
   "files": [
-    "src/gitmojis.json"
+    "src/gitmojis.d.ts",
+    "src/gitmojis.json",
+    "src/schema.json"
   ],
   "types": "src/gitmojis.d.ts",
   "scripts": {
