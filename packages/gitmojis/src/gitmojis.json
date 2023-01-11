@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/carloscuesta/gitmoji/master/packages/gitmojis/src/schema.json",
+  "$schema": "https://gitmoji.dev/api/gitmojis/schema",
   "gitmojis": [
     {
       "emoji": "🎨",
