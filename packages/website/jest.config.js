@@ -14,7 +14,7 @@ module.exports = createJestConfig({
     "**/*.(spec).(tsx)"
   ],
   "moduleNameMapper": {
-    "src/(.*)$": "<rootDir>/src/$1"
+    "^src/(.*)$": "<rootDir>/src/$1"
   },
   "testEnvironment": "jsdom"
 })
