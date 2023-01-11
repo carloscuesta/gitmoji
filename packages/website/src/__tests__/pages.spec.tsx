@@ -1,6 +1,7 @@
 import renderer from 'react-test-renderer'
 import fetchMock, { enableFetchMocks } from 'jest-fetch-mock'
 import gitmojisData from 'gitmojis'
+import gitmojisSchema from 'gitmojis/src/schema.json'
 import { createMocks } from 'node-mocks-http'
 
 import App from '../pages/_app'
@@ -11,6 +12,7 @@ import Contributors, {
 } from '../pages/contributors'
 import RelatedTools from '../pages/related-tools'
 import GitmojisApi from '../pages/api/gitmojis'
+import SchemaGitmojisApi from '../pages/api/gitmojis/schema'
 import * as stubs from './stubs'
 
 jest.mock('next/router', () => ({
@@ -106,6 +108,33 @@ describe('Pages', () => {
           const { req, res } = createMocks({ method: 'POST' })
 
           GitmojisApi(req, res)
+
+          expect(res.getHeaders().allow).toEqual(['GET'])
+          expect(res.statusCode).toEqual(405)
+          expect(res._getJSONData()).toEqual({
+            error: `Error: method POST not allowed`,
+          })
+        })
+      })
+    })
+
+    describe('schema endpoint', () => {
+      describe('when request method is GET', () => {
+        it('should set response status to 200 and gitmojis as body json', async () => {
+          const { req, res } = createMocks({ method: 'GET' })
+
+          SchemaGitmojisApi(req, res)
+
+          expect(res.statusCode).toEqual(200)
+          expect(res._getJSONData()).toEqual(gitmojisSchema)
+        })
+      })
+
+      describe('when request method is not GET', () => {
+        it('should setHeader, status 405 and end the request', () => {
+          const { req, res } = createMocks({ method: 'POST' })
+
+          SchemaGitmojisApi(req, res)
 
           expect(res.getHeaders().allow).toEqual(['GET'])
           expect(res.statusCode).toEqual(405)
