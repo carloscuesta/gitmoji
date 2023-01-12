@@ -1,4 +1,4 @@
-declare module 'gitmojis' {
+declare module "gitmojis" {
   type Gitmoji = {
     /**
      * Gitmoji unicode character
@@ -22,13 +22,15 @@ declare module 'gitmojis' {
     /**
      * Gitmoji semver range. Can be `null` if not specified.
      */
-    readonly semver: 'patch' | 'minor' | 'major' | null;
+    readonly semver: "patch" | "minor" | "major" | null;
     /**
      * Gitmoji character formatted as a shortcode.
      * @example ':art:', ':zap:', ':fire:', ':bug:'
      */
     readonly code: `:${string}:`;
-  }
+  };
 
   export const gitmojis: readonly Gitmoji[];
+
+  export const schema: readonly any;
 }

@@ -2,9 +2,8 @@
   "name": "gitmojis",
   "version": "3.13.2",
   "description": "An emoji guide for your commit messages.",
-  "main": "src/gitmojis.json",
+  "main": "src/index.js",
   "files": [
-    "src/gitmojis.d.ts",
     "src/gitmojis.json",
     "src/schema.json"
   ],

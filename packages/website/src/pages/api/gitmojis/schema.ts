@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import gitmojisSchema from 'gitmojis/src/schema.json'
+import { schema } from 'gitmojis'
 
 const getGitmojis = (
   request: NextApiRequest,
@@ -8,7 +8,7 @@ const getGitmojis = (
   const { method } = request
 
   if (method === 'GET') {
-    response.status(200).json(gitmojisSchema)
+    response.status(200).json(schema)
     return
   }
 
