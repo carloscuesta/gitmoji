@@ -9,7 +9,8 @@
   ],
   "types": "src/gitmojis.d.ts",
   "scripts": {
-    "lint": "ajv --spec=draft2020 validate -s ./src/schema.json -d ./src/gitmojis.json",
+    "lint:json": "ajv --spec=draft2020 validate -s ./src/schema.json -d ./src/gitmojis.json",
+    "lint": "yarn run lint:json && prettier --check ./src/**/*.{js,json,ts}",
     "publishPackage": "npm publish"
   },
   "devDependencies": {
@@ -36,5 +37,10 @@
     "emoji",
     "carloscuesta",
     "commit"
-  ]
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "always"
+  }
 }
