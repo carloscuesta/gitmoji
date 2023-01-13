@@ -1,4 +1,5 @@
 {
   "./src/*.json": ["prettier --write ./src/*.json"],
-  "./src/*.ts": ["prettier --write ./src/*.ts"]
+  "./src/*.ts": ["prettier --write ./src/*.ts"],
+  "./src/*.js": ["prettier --write ./src/*.js"]
 }

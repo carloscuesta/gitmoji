@@ -1,5 +1,5 @@
 import { Toaster } from 'react-hot-toast'
-import gitmojis from 'gitmojis'
+import { gitmojis } from 'gitmojis'
 
 import GitmojiList from 'src/components/GitmojiList'
 import CarbonAd from 'src/components/CarbonAd'
@@ -10,7 +10,7 @@ const Home = () => (
     <SEO />
     <main>
       <CarbonAd />
-      <GitmojiList gitmojis={gitmojis.gitmojis} />
+      <GitmojiList gitmojis={gitmojis} />
       <Toaster position="top-left" />
     </main>
   </>

@@ -4,31 +4,33 @@ declare module 'gitmojis' {
      * Gitmoji unicode character
      * @example '🎨', '⚡️', '🔥', '🐛'
      */
-    readonly emoji: string;
+    readonly emoji: string
     /**
      * Gitmoji hexadecimal entity.
      * @example '&#x1f3a8;', '&#x26a1;', '&#x1f525;', '&#x1f41b;'
      */
-    readonly entity: `&#${string};`;
+    readonly entity: `&#${string};`
     /**
      * Gitmoji use-case description.
      */
-    readonly description: string;
+    readonly description: string
     /**
      * Gitmoji name.
      * @example 'art', 'zap', 'fire', 'bug'
      */
-    readonly name: string;
+    readonly name: string
     /**
      * Gitmoji semver range. Can be `null` if not specified.
      */
-    readonly semver: 'patch' | 'minor' | 'major' | null;
+    readonly semver: 'patch' | 'minor' | 'major' | null
     /**
      * Gitmoji character formatted as a shortcode.
      * @example ':art:', ':zap:', ':fire:', ':bug:'
      */
-    readonly code: `:${string}:`;
+    readonly code: `:${string}:`
   }
 
-  export const gitmojis: readonly Gitmoji[];
+  export const gitmojis: readonly Gitmoji[]
+
+  export const schema: readonly any
 }
