@@ -1,4 +1,5 @@
 {
   "*.json": ["prettier --write *.json"],
-  "*.md": ["prettier --write *.md"]
+  "*.md": ["prettier --write *.md"],
+  "*.yml": ["prettier --write *.yml"]
 }
