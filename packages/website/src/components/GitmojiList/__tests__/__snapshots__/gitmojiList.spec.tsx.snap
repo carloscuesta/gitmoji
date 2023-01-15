@@ -102,21 +102,35 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":art:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":art:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :art:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Improve structure / format of the code.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -145,21 +159,35 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":zap:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":zap:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :zap:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Improve performance.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -188,21 +216,35 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":fire:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":fire:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :fire:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Remove code or files.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -231,21 +273,35 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":bug:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":bug:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :bug:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Fix a bug.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -274,21 +330,35 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":ambulance:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":ambulance:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :ambulance:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Critical hotfix.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -317,21 +387,35 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":sparkles:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":sparkles:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :sparkles:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Introduce new features.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -430,21 +514,35 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":art:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":art:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :art:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Improve structure / format of the code.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -473,21 +571,35 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":zap:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":zap:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :zap:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Improve performance.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -516,21 +628,35 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":fire:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":fire:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :fire:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Remove code or files.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -559,21 +685,35 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":bug:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":bug:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :bug:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Fix a bug.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -602,21 +742,35 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":ambulance:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":ambulance:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :ambulance:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Critical hotfix.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>
@@ -645,21 +799,35 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
       <div
         className="gitmojiInfo"
       >
-        <button
-          className="gitmoji-clipboard-code gitmojiCode"
-          data-clipboard-text=":sparkles:"
-          tabIndex={-1}
-          type="button"
+        <div
+          className="gitmojiInfoName"
         >
-          <code>
-            <span>
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":sparkles:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
               :sparkles:
-            </span>
-          </code>
-        </button>
+            </code>
+          </button>
+        </div>
         <p>
           Introduce new features.
         </p>
+        <div
+          className="gitmojiActions"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon icon-star"
+          >
+            <use
+              xlinkHref="#icon-star"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </article>

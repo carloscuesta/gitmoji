@@ -1,5 +1,6 @@
 import emojiColorsMap from '../emojiColorsMap'
 import styles from './styles.module.css'
+import Icon from 'src/components/Icon'
 
 type Props = {
   code: string
@@ -7,6 +8,8 @@ type Props = {
   emoji: string
   isListMode: boolean
   name: keyof typeof emojiColorsMap
+  isPinned: boolean
+  onPinClick: () => void
 }
 
 const Gitmoji = (props: Props) => {
@@ -34,6 +37,7 @@ const Gitmoji = (props: Props) => {
           </button>
         </header>
         <div className={styles.gitmojiInfo}>
+          <div className={styles.gitmojiInfoName}>
           <button
             className={`gitmoji-clipboard-code ${styles.gitmojiCode}`}
             data-clipboard-text={props.code}
@@ -50,7 +54,17 @@ const Gitmoji = (props: Props) => {
               )}
             </code>
           </button>
+          </div>
           <p>{props.description}</p>
+          {props.isPinned ? (
+            <div className={styles.gitmojiActions} onClick={props.onPinClick}>
+              <Icon name="star-fill" />
+            </div>
+          ) : (
+            <div className={styles.gitmojiActions} onClick={props.onPinClick}>
+              <Icon name="star" />
+            </div>
+          )}
         </div>
       </div>
     </article>

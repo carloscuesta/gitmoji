@@ -17,18 +17,59 @@ const GitmojiList = (props: Props) => {
   const router = useRouter()
   const [searchInput, setSearchInput] = useState('')
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
+  const [pinneds, setPinneds] = useLocalStorage<Array<string>>('pinneds', [])
 
-  const gitmojis = searchInput
-    ? props.gitmojis.filter(({ emoji, code, description }) => {
-        const lowerCasedSearch = searchInput.toLowerCase()
+  const isPinned = (code: string): boolean => {
+    return pinneds.includes(code)
+  }
 
-        return (
-          code.includes(lowerCasedSearch) ||
-          description.toLowerCase().includes(lowerCasedSearch) ||
-          emoji == searchInput
-        )
-      })
-    : props.gitmojis
+  const emojis = [...props.gitmojis].sort((gitmoji) =>
+    isPinned(gitmoji.code) ? -1 : 0
+  )
+
+  const gitmojis = (() =>
+    searchInput
+      ? emojis.filter(({ emoji, code, description }) => {
+          const lowerCasedSearch = searchInput.toLowerCase()
+
+          return (
+            code.includes(lowerCasedSearch) ||
+            description.toLowerCase().includes(lowerCasedSearch) ||
+            emoji == searchInput
+          )
+        })
+      : emojis)()
+
+  const onPinClick = (code: string, emoji: string): void => {
+    if (isPinned(code)) {
+      setPinneds((current) => current.filter((pinned) => pinned !== code))
+    } else {
+      setPinneds((emojis) => [...emojis, code])
+    }
+
+    toast(
+      (t) => (
+        <span className={styles.notification}>
+          <p>
+            Hey! Gitmoji <span className={styles.gitmojiCode}>{emoji}</span>{' '}
+            {isPinned(code) ? 'unpinned' : 'pinned'}!
+          </p>
+          <span
+            className={styles.closeButton}
+            onClick={() => toast.dismiss(t.id)}
+          />
+        </span>
+      ),
+      {
+        style: {
+          background: '#ff5a79',
+          color: '#ffffff',
+          fontWeight: 600,
+          fontSize: '90%',
+        },
+      }
+    )
+  }
 
   useEffect(() => {
     if (router.query.search) {
@@ -100,6 +141,8 @@ const GitmojiList = (props: Props) => {
             // @ts-expect-error: This should be replaced with something like:
             // typeof gitmojis[number]['name'] but JSON can't be exported `as const`
             name={gitmoji.name}
+            isPinned={isPinned(gitmoji.code)}
+            onPinClick={() => onPinClick(gitmoji.code, gitmoji.emoji)}
           />
         ))
       )}
