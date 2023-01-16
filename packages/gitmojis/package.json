@@ -16,7 +16,8 @@
   "devDependencies": {
     "ajv-cli": "^5.0.0",
     "lint-staged": "^13.0.0",
-    "prettier": "2.8.3"
+    "prettier": "2.8.3",
+    "unbuild": "^1.1.1"
   },
   "author": {
     "name": "carloscuesta",
