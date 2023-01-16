@@ -1,14 +1,21 @@
 {
   "name": "gitmojis",
+  "type": "module",
   "version": "3.13.3",
   "description": "An emoji guide for your commit messages.",
-  "main": "src/index.js",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
   "files": [
-    "src/gitmojis.json",
-    "src/schema.json"
+    "dist"
   ],
-  "types": "src/gitmojis.d.ts",
   "scripts": {
+    "build": "unbuild",
     "lint:json": "ajv --spec=draft2020 validate -s ./src/schema.json -d ./src/gitmojis.json",
     "lint": "yarn run lint:json && prettier --check ./src/**/*.{js,json,ts}",
     "publishPackage": "npm publish"
