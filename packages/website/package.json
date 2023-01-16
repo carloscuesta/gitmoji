@@ -21,7 +21,7 @@
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
     "clipboard": "^2.0.4",
-    "eslint": "^8.31.0",
+    "eslint": "^8.32.0",
     "eslint-config-next": "^13.1.2",
     "eslint-config-prettier": "^8.6.0",
     "eslint-import-resolver-alias": "^1.1.2",
