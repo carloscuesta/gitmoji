@@ -2520,6 +2520,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/analytics@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@vercel/analytics@npm:0.1.8"
+  peerDependencies:
+    react: ^16.8||^17||^18
+  checksum: e837f66494372d557e32383e7ab7192a40da242a16d4f650f61b6e0c5ea282b2a37120ec125d3c5d5e3228c3d1957f48c93d299b4b466169e9d7a853a8014c3a
+  languageName: node
+  linkType: hard
+
 "abab@npm:^2.0.6":
   version: 2.0.6
   resolution: "abab@npm:2.0.6"
@@ -4811,6 +4820,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gitmoji@workspace:."
   dependencies:
+    "@vercel/analytics": ^0.1.8
     husky: ^8.0.3
     lint-staged: ^13.0.0
     prettier: 2.8.3
