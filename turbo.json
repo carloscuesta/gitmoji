@@ -2,15 +2,19 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "dev": {
+      "dependsOn": ["^build"],
       "cache": false
     },
     "lint": {
+      "dependsOn": ["^build"],
       "outputs": []
     },
     "tscheck": {
+      "dependsOn": ["^build"],
       "outputs": []
     },
     "test": {
+      "dependsOn": ["^build"],
       "outputs": ["coverage/**"]
     },
     "build": {
