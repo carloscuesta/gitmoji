@@ -1,14 +1,22 @@
 {
   "name": "gitmojis",
+  "type": "module",
   "version": "3.13.3",
   "description": "An emoji guide for your commit messages.",
-  "main": "src/index.js",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
   "files": [
-    "src/gitmojis.json",
-    "src/schema.json"
+    "dist"
   ],
-  "types": "src/gitmojis.d.ts",
   "scripts": {
+    "dev": "nodemon --exec 'yarn build' --watch ./src",
+    "build": "unbuild",
     "lint:json": "ajv --spec=draft2020 validate -s ./src/schema.json -d ./src/gitmojis.json",
     "lint": "yarn run lint:json && prettier --check ./src/**/*.{js,json,ts}",
     "publishPackage": "npm publish"
@@ -16,7 +24,9 @@
   "devDependencies": {
     "ajv-cli": "^5.0.0",
     "lint-staged": "^13.0.0",
-    "prettier": "2.8.3"
+    "nodemon": "^2.0.20",
+    "prettier": "2.8.3",
+    "unbuild": "^1.1.1"
   },
   "author": {
     "name": "carloscuesta",
