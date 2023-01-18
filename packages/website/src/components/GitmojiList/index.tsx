@@ -42,9 +42,11 @@ const GitmojiList = (props: Props) => {
 
   const onPinClick = (code: string, emoji: string): void => {
     if (isPinned(code)) {
-      setPinneds((current) => current.filter((pinned) => pinned !== code))
+      setPinneds((current: string[]) =>
+        current.filter((pinned) => pinned !== code)
+      )
     } else {
-      setPinneds((emojis) => [...emojis, code])
+      setPinneds((emojis: string[]) => [...emojis, code])
     }
 
     toast(

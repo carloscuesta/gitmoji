@@ -8,6 +8,8 @@ exports[`Button should render the component 1`] = `
 >
   <svg
     className="icon icon-star"
+    height="1em"
+    width="1em"
   >
     <use
       xlinkHref="#icon-star"

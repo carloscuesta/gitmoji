@@ -431,6 +431,8 @@ exports[`Pages App should render the page 1`] = `
       >
         <svg
           className="icon icon-star-fill"
+          height="1em"
+          width="1em"
         >
           <use
             xlinkHref="#icon-star-fill"
@@ -445,6 +447,8 @@ exports[`Pages App should render the page 1`] = `
       >
         <svg
           className="icon icon-twitter-x"
+          height="1em"
+          width="1em"
         >
           <use
             xlinkHref="#icon-twitter-x"
@@ -479,6 +483,8 @@ exports[`Pages App should render the page 1`] = `
             Made with 
             <svg
               className="icon icon-heart"
+              height="1em"
+              width="1em"
             >
               <use
                 xlinkHref="#icon-heart"
@@ -601,6 +607,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-light"
+              height="1em"
+              width="1em"
             >
               <use
                 xlinkHref="#icon-light"
@@ -617,6 +625,8 @@ exports[`Pages Index should render the page 1`] = `
             >
               <svg
                 className="icon icon-grid"
+                height="1em"
+                width="1em"
               >
                 <use
                   xlinkHref="#icon-grid"
@@ -630,6 +640,8 @@ exports[`Pages Index should render the page 1`] = `
             >
               <svg
                 className="icon icon-list"
+                height="1em"
+                width="1em"
               >
                 <use
                   xlinkHref="#icon-list"
@@ -683,6 +695,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -735,6 +749,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -787,6 +803,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -839,6 +857,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -891,6 +911,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -943,6 +965,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -995,6 +1019,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1047,6 +1073,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1099,6 +1127,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1151,6 +1181,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1217,6 +1249,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1269,6 +1303,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1342,6 +1378,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1394,6 +1432,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1453,6 +1493,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1505,6 +1547,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1564,6 +1608,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1623,6 +1669,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1682,6 +1730,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1734,6 +1784,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1793,6 +1845,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1866,6 +1920,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1918,6 +1974,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -1984,6 +2042,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2050,6 +2110,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2102,6 +2164,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2154,6 +2218,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2220,6 +2286,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2272,6 +2340,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2324,6 +2394,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2376,6 +2448,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2442,6 +2516,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2494,6 +2570,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2546,6 +2624,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2598,6 +2678,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2664,6 +2746,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2716,6 +2800,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2768,6 +2854,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2820,6 +2908,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2872,6 +2962,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2924,6 +3016,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -2983,6 +3077,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3049,6 +3145,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3108,6 +3206,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3160,6 +3260,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3226,6 +3328,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3285,6 +3389,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3344,6 +3450,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3396,6 +3504,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3455,6 +3565,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3507,6 +3619,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3573,6 +3687,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3632,6 +3748,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3684,6 +3802,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3736,6 +3856,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3788,6 +3910,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3840,6 +3964,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3913,6 +4039,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -3972,6 +4100,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4024,6 +4154,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4076,6 +4208,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4135,6 +4269,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4194,6 +4330,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4253,6 +4391,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4305,6 +4445,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4364,6 +4506,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4416,6 +4560,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4468,6 +4614,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4520,6 +4668,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4572,6 +4722,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4638,6 +4790,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4690,6 +4844,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"
@@ -4749,6 +4905,8 @@ exports[`Pages Index should render the page 1`] = `
           >
             <svg
               className="icon icon-star"
+              height="20px"
+              width="20px"
             >
               <use
                 xlinkHref="#icon-star"

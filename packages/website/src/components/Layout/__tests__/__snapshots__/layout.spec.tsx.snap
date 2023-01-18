@@ -546,6 +546,8 @@ exports[`Layout should render the component 1`] = `
       >
         <svg
           className="icon icon-star-fill"
+          height="1em"
+          width="1em"
         >
           <use
             xlinkHref="#icon-star-fill"
@@ -560,6 +562,8 @@ exports[`Layout should render the component 1`] = `
       >
         <svg
           className="icon icon-twitter-x"
+          height="1em"
+          width="1em"
         >
           <use
             xlinkHref="#icon-twitter-x"
@@ -592,6 +596,8 @@ exports[`Layout should render the component 1`] = `
             Made with 
             <svg
               className="icon icon-heart"
+              height="1em"
+              width="1em"
             >
               <use
                 xlinkHref="#icon-heart"

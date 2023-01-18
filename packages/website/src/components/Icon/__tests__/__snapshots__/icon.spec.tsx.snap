@@ -184,6 +184,8 @@ exports[`Icon should match Definitions 1`] = `
 exports[`Icon should render the component 1`] = `
 <svg
   className="icon icon-star"
+  height="1em"
+  width="1em"
 >
   <use
     xlinkHref="#icon-star"

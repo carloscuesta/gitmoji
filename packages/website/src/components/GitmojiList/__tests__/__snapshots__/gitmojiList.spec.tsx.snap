@@ -38,6 +38,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-light"
+            height="1em"
+            width="1em"
           >
             <use
               xlinkHref="#icon-light"
@@ -54,6 +56,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           >
             <svg
               className="icon icon-grid"
+              height="1em"
+              width="1em"
             >
               <use
                 xlinkHref="#icon-grid"
@@ -67,6 +71,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
           >
             <svg
               className="icon icon-list"
+              height="1em"
+              width="1em"
             >
               <use
                 xlinkHref="#icon-list"
@@ -125,6 +131,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -182,6 +190,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -239,6 +249,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -296,6 +308,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -353,6 +367,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -410,6 +426,8 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -466,6 +484,8 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           >
             <svg
               className="icon icon-grid"
+              height="1em"
+              width="1em"
             >
               <use
                 xlinkHref="#icon-grid"
@@ -479,6 +499,8 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
           >
             <svg
               className="icon icon-list"
+              height="1em"
+              width="1em"
             >
               <use
                 xlinkHref="#icon-list"
@@ -537,6 +559,8 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -594,6 +618,8 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -651,6 +677,8 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -708,6 +736,8 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -765,6 +795,8 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"
@@ -822,6 +854,8 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
         >
           <svg
             className="icon icon-star"
+            height="20px"
+            width="20px"
           >
             <use
               xlinkHref="#icon-star"

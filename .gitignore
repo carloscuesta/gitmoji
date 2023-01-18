@@ -23,3 +23,6 @@ packages/website/public/sitemap-*.xml
 
 # TS
 *.tsbuildinfo
+
+# IDE
+.idea/

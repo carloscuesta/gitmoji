@@ -44,7 +44,6 @@
 .cardList .gitmojiInfo p {
   padding: 0;
   margin: 0;
-  padding-top: 0.5rem;
 }
 
 .card:hover {
@@ -124,10 +123,12 @@
   padding: 1.5em;
   word-break: break-all;
   display: grid;
+  grid-gap: 0.5rem;
   color: var(--emojiCodeText);
 }
 
 .gitmojiInfo p {
+  margin: 0;
   color: var(--cardText);
   word-break: normal;
 }
@@ -141,34 +142,7 @@
 
 .gitmojiActions svg:hover {
   cursor: pointer;
-  animation: zomgSVG 0.5s infinite;
-}
-
-@keyframes zomgSVG {
-  0%,
-  100% {
-    fill: #7ccdea;
-  }
-
-  16% {
-    fill: #0074d9;
-  }
-
-  32% {
-    fill: #2ecc40;
-  }
-
-  48% {
-    fill: #ffdc00;
-  }
-
-  64% {
-    fill: #b10dc9;
-  }
-
-  80% {
-    fill: #ff4136;
-  }
+  fill: var(--emojiColor);
 }
 
 @media (max-width: 768px) {
