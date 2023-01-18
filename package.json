@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "dev": "yarn turbo dev"
+    "dev": "yarn turbo --parallel dev"
   },
   "devDependencies": {
     "@vercel/analytics": "^0.1.8",
