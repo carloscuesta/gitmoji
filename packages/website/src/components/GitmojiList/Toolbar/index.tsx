@@ -58,10 +58,12 @@ const Toolbar = (props: Props) => {
       <div className={styles.actionsContainer}>
         <ThemeSelector />
 
-        <ListModeSelector
-          isListMode={props.isListMode}
-          setIsListMode={props.setIsListMode}
-        />
+        <ClientOnly>
+          <ListModeSelector
+            isListMode={props.isListMode}
+            setIsListMode={props.setIsListMode}
+          />
+        </ClientOnly>
       </div>
     </div>
   )

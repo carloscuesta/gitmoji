@@ -8,6 +8,7 @@ import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
 import useLocalStorage from './hooks/useLocalStorage'
 import styles from './styles.module.css'
+import ClientOnly from 'src/components/ClientOnly'
 
 type Props = {
   gitmojis: readonly GitmojiType[]
@@ -133,20 +134,24 @@ const GitmojiList = (props: Props) => {
       {gitmojis.length === 0 ? (
         <h2>No gitmojis found for search: {searchInput}</h2>
       ) : (
-        gitmojis.map((gitmoji, index) => (
-          <Gitmoji
-            code={gitmoji.code}
-            description={gitmoji.description}
-            emoji={gitmoji.emoji}
-            isListMode={isListMode}
-            key={index}
-            // @ts-expect-error: This should be replaced with something like:
-            // typeof gitmojis[number]['name'] but JSON can't be exported `as const`
-            name={gitmoji.name}
-            isPinned={isPinned(gitmoji.code)}
-            onPinClick={() => onPinClick(gitmoji.code, gitmoji.emoji)}
-          />
-        ))
+        <ClientOnly>
+          <>
+            {gitmojis.map((gitmoji, index) => (
+              <Gitmoji
+                code={gitmoji.code}
+                description={gitmoji.description}
+                emoji={gitmoji.emoji}
+                isListMode={isListMode}
+                key={index}
+                // @ts-expect-error: This should be replaced with something like:
+                // typeof gitmojis[number]['name'] but JSON can't be exported `as const`
+                name={gitmoji.name}
+                isPinned={isPinned(gitmoji.code)}
+                onPinClick={() => onPinClick(gitmoji.code, gitmoji.emoji)}
+              />
+            ))}
+          </>
+        </ClientOnly>
       )}
     </div>
   )
