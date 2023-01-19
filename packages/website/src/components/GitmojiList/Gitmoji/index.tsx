@@ -56,15 +56,18 @@ const Gitmoji = (props: Props) => {
           </button>
           </div>
           <p>{props.description}</p>
-          <div className={styles.gitmojiActions} onClick={props.onPinClick}>
-            <div className={styles.gitmojiActionsContainer}>
-              <Icon
-                name={props.isPinned ? 'star-fill' : 'star'}
-                height="20px"
-                width="20px"
-              />
-            </div>
-          </div>
+        </div>
+        <div
+          className={`${styles.gitmojiActions} ${
+            !props.isPinned && styles.gitmojiShowOnHover
+          }`}
+          onClick={props.onPinClick}
+        >
+          <Icon
+            name={props.isPinned ? 'star-fill' : 'star'}
+            height="20px"
+            width="20px"
+          />
         </div>
       </div>
     </article>

@@ -4,7 +4,7 @@
 }
 
 .card {
-  display: grid;
+  position: relative;
   background-color: var(--cardBackground);
   border-radius: 4px;
   box-shadow: 0 1px 2px 0 var(--cardShadow);
@@ -42,7 +42,7 @@
 }
 
 .cardList .gitmojiInfo p {
-  padding: 0;
+  padding: 0.5rem 1rem 0 0;
   margin: 0;
 }
 
@@ -120,37 +120,45 @@
 }
 
 .gitmojiInfo {
+  position: relative;
   padding: 1.5em;
   word-break: break-all;
-  display: grid;
-  grid-gap: 0.5rem;
   color: var(--emojiCodeText);
 }
 
 .gitmojiInfo p {
-  margin: 0;
+  margin-bottom: 0;
   color: var(--cardText);
   word-break: normal;
 }
 
 .gitmojiActions {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   fill: currentColor;
-}
-
-.gitmojiActionsContainer {
   display: flex;
-  margin: -16px;
   padding: 12px;
 }
 
-.gitmojiActionsContainer svg {
+.gitmojiShowOnHover {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.card:hover .gitmojiShowOnHover {
+  opacity: 1;
+}
+
+.gitmojiActions {
+  transition: fill 0.3s linear;
+}
+
+.gitmojiActions svg {
   margin: 0;
 }
 
-.gitmojiActionsContainer:hover {
+.gitmojiActions:hover {
   cursor: pointer;
   fill: var(--emojiColor);
 }
