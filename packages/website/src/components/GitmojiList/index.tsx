@@ -17,7 +17,7 @@ const GitmojiList = (props: Props) => {
   const router = useRouter()
   const [searchInput, setSearchInput] = useState('')
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
-  const [pinneds, setPinneds] = useLocalStorage<Array<string>>('pinneds', [])
+  const [pinneds, setPinneds] = useLocalStorage<string[]>('pinneds', [])
 
   const isPinned = (code: string): boolean => {
     return pinneds.includes(code)
