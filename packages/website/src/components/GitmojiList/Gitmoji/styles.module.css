@@ -140,7 +140,17 @@
   fill: currentColor;
 }
 
-.gitmojiActions svg:hover {
+.gitmojiActionsContainer {
+  display: flex;
+  margin: -16px;
+  padding: 12px;
+}
+
+.gitmojiActionsContainer svg {
+  margin: 0;
+}
+
+.gitmojiActionsContainer:hover {
   cursor: pointer;
   fill: var(--emojiColor);
 }

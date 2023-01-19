@@ -693,15 +693,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -747,15 +751,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -801,15 +809,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -855,15 +867,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -909,15 +925,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -963,15 +983,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1017,15 +1041,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1071,15 +1099,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1125,15 +1157,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1179,15 +1215,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1247,15 +1287,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1301,15 +1345,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1376,15 +1424,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1430,15 +1482,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1491,15 +1547,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1545,15 +1605,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1606,15 +1670,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1667,15 +1735,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1728,15 +1800,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1782,15 +1858,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1843,15 +1923,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1918,15 +2002,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1972,15 +2060,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2040,15 +2132,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2108,15 +2204,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2162,15 +2262,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2216,15 +2320,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2284,15 +2392,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2338,15 +2450,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2392,15 +2508,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2446,15 +2566,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2514,15 +2638,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2568,15 +2696,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2622,15 +2754,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2676,15 +2812,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2744,15 +2884,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2798,15 +2942,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2852,15 +3000,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2906,15 +3058,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2960,15 +3116,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3014,15 +3174,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3075,15 +3239,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3143,15 +3311,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3204,15 +3376,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3258,15 +3434,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3326,15 +3506,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3387,15 +3571,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3448,15 +3636,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3502,15 +3694,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3563,15 +3759,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3617,15 +3817,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3685,15 +3889,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3746,15 +3954,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3800,15 +4012,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3854,15 +4070,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3908,15 +4128,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -3962,15 +4186,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4037,15 +4265,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4098,15 +4330,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4152,15 +4388,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4206,15 +4446,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4267,15 +4511,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4328,15 +4576,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4389,15 +4641,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4443,15 +4699,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4504,15 +4764,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4558,15 +4822,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4612,15 +4880,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4666,15 +4938,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4720,15 +4996,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4788,15 +5068,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4842,15 +5126,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -4903,15 +5191,19 @@ exports[`Pages Index should render the page 1`] = `
             className="gitmojiActions"
             onClick={[Function]}
           >
-            <svg
-              className="icon icon-star"
-              height="20px"
-              width="20px"
+            <div
+              className="gitmojiActionsContainer"
             >
-              <use
-                xlinkHref="#icon-star"
-              />
-            </svg>
+              <svg
+                className="icon icon-star"
+                height="20px"
+                width="20px"
+              >
+                <use
+                  xlinkHref="#icon-star"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
