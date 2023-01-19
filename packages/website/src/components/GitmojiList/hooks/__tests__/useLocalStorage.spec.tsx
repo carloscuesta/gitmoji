@@ -1,4 +1,4 @@
-import renderer from 'react-test-renderer'
+import renderer, { act } from 'react-test-renderer'
 
 import useLocalStorage from '../useLocalStorage'
 import * as stubs from './stubs'
@@ -10,9 +10,16 @@ const TestComponent = ({
   storageKey: string
   storageValue: string
 }) => {
-  useLocalStorage(storageKey, storageValue)
-
-  return null
+  const [value, setValue] = useLocalStorage(storageKey, storageValue)
+  return (
+    <div>
+      <span data-testid="value">{value}</span>
+      <button
+        onClick={() => setValue(stubs.localStorageMock.newValue)}
+        data-testid="set-button"
+      />
+    </div>
+  )
 }
 
 Object.defineProperty(window, 'localStorage', {
@@ -28,24 +35,40 @@ describe('useLocalStorage', () => {
       getItem.mockReturnValue(null)
     })
 
-    it('should call localStorage.setItem', () => {
-      const wrapper = renderer.create(
+    it('should call localStorage.get', () => {
+      renderer.create(
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}
         />,
       )
 
-      wrapper.update(
+      expect(window.localStorage.getItem).toHaveBeenCalledWith(
+        stubs.localStorageMock.key
+      )
+    })
+
+    it('should call localStorage.set', () => {
+      const component = renderer.create(
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}
         />,
       )
+      const setButton = component.root.findByProps({
+        'data-testid': 'set-button',
+      })
 
+      act(() => {
+        setButton.props.onClick()
+      })
+
+      const value = component.root.findByProps({ 'data-testid': 'value' })
+        .children[0]
+      expect(value).toBe(stubs.localStorageMock.newValue)
       expect(window.localStorage.setItem).toHaveBeenCalledWith(
         stubs.localStorageMock.key,
-        stubs.localStorageMock.value,
+        JSON.stringify(stubs.localStorageMock.newValue)
       )
     })
   })
