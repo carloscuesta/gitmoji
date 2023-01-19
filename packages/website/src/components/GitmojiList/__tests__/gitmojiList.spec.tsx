@@ -3,6 +3,7 @@ import renderer from 'react-test-renderer'
 
 import GitmojiList from '../index'
 import * as stubs from './stubs'
+import ClientOnly from 'src/components/ClientOnly'
 
 jest.mock('next/router', () => ({
   query: {},
@@ -17,7 +18,9 @@ const useRouterMock = useRouter as jest.Mock
 describe('GitmojiList', () => {
   describe('when is not list mode', () => {
     it('should render the component', () => {
-      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
+      const wrapper = renderer.create(
+        <GitmojiList {...stubs.props} isTest={true} />
+      )
       expect(wrapper).toMatchSnapshot()
     })
   })

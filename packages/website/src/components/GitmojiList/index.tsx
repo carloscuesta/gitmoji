@@ -12,6 +12,7 @@ import ClientOnly from 'src/components/ClientOnly'
 
 type Props = {
   gitmojis: readonly GitmojiType[]
+  isTest?: boolean
 }
 
 const GitmojiList = (props: Props) => {
@@ -134,7 +135,7 @@ const GitmojiList = (props: Props) => {
       {gitmojis.length === 0 ? (
         <h2>No gitmojis found for search: {searchInput}</h2>
       ) : (
-        <ClientOnly>
+        <ClientOnly isTest={props.isTest || false}>
           <>
             {gitmojis.map((gitmoji, index) => (
               <Gitmoji
