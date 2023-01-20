@@ -3,7 +3,6 @@ import renderer from 'react-test-renderer'
 
 import GitmojiList from '../index'
 import * as stubs from './stubs'
-import ClientOnly from 'src/components/ClientOnly'
 
 jest.mock('next/router', () => ({
   query: {},
