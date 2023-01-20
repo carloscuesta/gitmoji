@@ -474,6 +474,40 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
             disabled={true}
           />
         </div>
+        <div
+          className="container"
+        >
+          <button
+            className="button buttonActive"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <svg
+              className="icon icon-grid"
+              height="1em"
+              width="1em"
+            >
+              <use
+                xlinkHref="#icon-grid"
+              />
+            </svg>
+          </button>
+          <button
+            className="button "
+            disabled={false}
+            onClick={[Function]}
+          >
+            <svg
+              className="icon icon-list"
+              height="1em"
+              width="1em"
+            >
+              <use
+                xlinkHref="#icon-list"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   </div>

@@ -8,11 +8,9 @@ import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
 import useLocalStorage from './hooks/useLocalStorage'
 import styles from './styles.module.css'
-import ClientOnly from 'src/components/ClientOnly'
 
 type Props = {
   gitmojis: readonly GitmojiType[]
-  isTest?: boolean
 }
 
 const GitmojiList = (props: Props) => {
@@ -20,14 +18,21 @@ const GitmojiList = (props: Props) => {
   const [searchInput, setSearchInput] = useState('')
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
   const [pinneds, setPinneds] = useLocalStorage<string[]>('pinneds', [])
+  const [isMounted, setIsMounted] = useState<boolean>(false)
 
   const isPinned = (code: string): boolean => {
     return pinneds.includes(code)
   }
 
-  const emojis = [...props.gitmojis].sort((gitmoji) =>
-    isPinned(gitmoji.code) ? -1 : 0
-  )
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
+
+  const emojis = [...props.gitmojis]
+
+  if (isMounted) {
+    emojis.sort((gitmoji) => (isPinned(gitmoji.code) ? -1 : 0))
+  }
 
   const gitmojis = (() =>
     searchInput
@@ -125,7 +130,7 @@ const GitmojiList = (props: Props) => {
     <div className="row" id="gitmoji-list">
       <div className="col-xs-12">
         <Toolbar
-          isListMode={isListMode}
+          isListMode={isMounted && isListMode}
           searchInput={searchInput}
           setIsListMode={setIsListMode}
           setSearchInput={setSearchInput}
@@ -135,24 +140,20 @@ const GitmojiList = (props: Props) => {
       {gitmojis.length === 0 ? (
         <h2>No gitmojis found for search: {searchInput}</h2>
       ) : (
-        <ClientOnly isTest={props.isTest || false}>
-          <>
-            {gitmojis.map((gitmoji, index) => (
-              <Gitmoji
-                code={gitmoji.code}
-                description={gitmoji.description}
-                emoji={gitmoji.emoji}
-                isListMode={isListMode}
-                key={index}
-                // @ts-expect-error: This should be replaced with something like:
-                // typeof gitmojis[number]['name'] but JSON can't be exported `as const`
-                name={gitmoji.name}
-                isPinned={isPinned(gitmoji.code)}
-                onPinClick={() => onPinClick(gitmoji.code, gitmoji.emoji)}
-              />
-            ))}
-          </>
-        </ClientOnly>
+        gitmojis.map((gitmoji, index) => (
+          <Gitmoji
+            code={gitmoji.code}
+            description={gitmoji.description}
+            emoji={gitmoji.emoji}
+            isListMode={isMounted && isListMode}
+            key={index}
+            // @ts-expect-error: This should be replaced with something like:
+            // typeof gitmojis[number]['name'] but JSON can't be exported `as const`
+            name={gitmoji.name}
+            isPinned={isMounted && isPinned(gitmoji.code)}
+            onPinClick={() => onPinClick(gitmoji.code, gitmoji.emoji)}
+          />
+        ))
       )}
     </div>
   )

@@ -17,9 +17,7 @@ const useRouterMock = useRouter as jest.Mock
 describe('GitmojiList', () => {
   describe('when is not list mode', () => {
     it('should render the component', () => {
-      const wrapper = renderer.create(
-        <GitmojiList {...stubs.props} isTest={true} />
-      )
+      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
       expect(wrapper).toMatchSnapshot()
     })
   })
