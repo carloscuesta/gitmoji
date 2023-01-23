@@ -35,7 +35,7 @@
     "jest-environment-jsdom": "^29.0.1",
     "jest-fetch-mock": "^3.0.3",
     "lint-staged": "^13.0.0",
-    "next": "^13.1.4",
+    "next": "^13.1.5",
     "next-pwa": "^5.4.4",
     "next-sitemap": "^3.1.47",
     "next-themes": "^0.2.0",
