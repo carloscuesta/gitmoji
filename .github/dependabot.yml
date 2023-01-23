@@ -8,6 +8,7 @@ updates:
   open-pull-requests-limit: 10
   labels:
       - "dependencies"
+  versioning-strategy: increase
 
 - package-ecosystem: "github-actions"
   directory: "/"
