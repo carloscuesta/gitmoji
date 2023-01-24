@@ -652,33 +652,22 @@ exports[`Pages Index should render the page 1`] = `
         </div>
       </div>
     </div>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ff7281",
-        }
-      }
+    <div
+      className="gitmojiList row"
     >
-      <div
-        className="card "
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ff7281",
+          }
+        }
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🎨"
-            type="button"
-          >
-            🎨
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -699,40 +688,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#40c4ff",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#40c4ff",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="⚡️"
-            type="button"
-          >
-            ⚡️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -753,40 +733,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ff9d44",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ff9d44",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔥"
-            type="button"
-          >
-            🔥
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -807,40 +778,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#8cd842",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#8cd842",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🐛"
-            type="button"
-          >
-            🐛
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -861,40 +823,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#fb584a",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#fb584a",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🚑️"
-            type="button"
-          >
-            🚑️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -915,40 +868,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffe55f",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffe55f",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="✨"
-            type="button"
-          >
-            ✨
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -969,40 +913,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#00e676",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#00e676",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="📝"
-            type="button"
-          >
-            📝
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1023,40 +958,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#00a9f0",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#00a9f0",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🚀"
-            type="button"
-          >
-            🚀
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1077,40 +1003,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#80deea",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#80deea",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="💄"
-            type="button"
-          >
-            💄
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1131,40 +1048,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#f74d5f",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#f74d5f",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🎉"
-            type="button"
-          >
-            🎉
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1185,40 +1093,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#77e856",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#77e856",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="✅"
-            type="button"
-          >
-            ✅
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1253,40 +1152,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffce49",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffce49",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔒️"
-            type="button"
-          >
-            🔒️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1307,40 +1197,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#83beec",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#83beec",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔐"
-            type="button"
-          >
-            🔐
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1382,40 +1263,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#80deea",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#80deea",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔖"
-            type="button"
-          >
-            🔖
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1436,40 +1308,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#536dfe",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#536dfe",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🚨"
-            type="button"
-          >
-            🚨
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1497,40 +1360,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffb74d",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffb74d",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🚧"
-            type="button"
-          >
-            🚧
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1551,40 +1405,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#c5e763",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#c5e763",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="💚"
-            type="button"
-          >
-            💚
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1612,40 +1457,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ef5350",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ef5350",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="⬇️"
-            type="button"
-          >
-            ⬇️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1673,40 +1509,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#00e676",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#00e676",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="⬆️"
-            type="button"
-          >
-            ⬆️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1734,40 +1561,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#39c2f1",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#39c2f1",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="📌"
-            type="button"
-          >
-            📌
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1788,40 +1606,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#64b5f6",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#64b5f6",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="👷"
-            type="button"
-          >
-            👷
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1849,40 +1658,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#cedae6",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#cedae6",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="📈"
-            type="button"
-          >
-            📈
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1924,40 +1724,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#77e856",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#77e856",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="♻️"
-            type="button"
-          >
-            ♻️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -1978,40 +1769,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#00e676",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#00e676",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="➕"
-            type="button"
-          >
-            ➕
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2046,40 +1828,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ef5350",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ef5350",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="➖"
-            type="button"
-          >
-            ➖
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2114,40 +1887,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffc400",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffc400",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔧"
-            type="button"
-          >
-            🔧
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2168,40 +1932,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffc400",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffc400",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔨"
-            type="button"
-          >
-            🔨
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2222,40 +1977,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#e7f4ff",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#e7f4ff",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🌐"
-            type="button"
-          >
-            🌐
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2290,40 +2036,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffce49",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffce49",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="✏️"
-            type="button"
-          >
-            ✏️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2344,40 +2081,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#a78674",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#a78674",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="💩"
-            type="button"
-          >
-            💩
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2398,40 +2126,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#56d1d8",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#56d1d8",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="⏪️"
-            type="button"
-          >
-            ⏪️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2452,40 +2171,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#56d1d8",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#56d1d8",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔀"
-            type="button"
-          >
-            🔀
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2520,40 +2230,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#fdd0ae",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#fdd0ae",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="📦️"
-            type="button"
-          >
-            📦️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2574,40 +2275,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#c5e763",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#c5e763",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="👽️"
-            type="button"
-          >
-            👽️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2628,40 +2320,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ef584a",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ef584a",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🚚"
-            type="button"
-          >
-            🚚
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2682,40 +2365,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#d9e3e8",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#d9e3e8",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="📄"
-            type="button"
-          >
-            📄
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2750,40 +2424,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#f94f28",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#f94f28",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="💥"
-            type="button"
-          >
-            💥
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2804,40 +2469,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ff5864",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ff5864",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🍱"
-            type="button"
-          >
-            🍱
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2858,40 +2514,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#00b1fb",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#00b1fb",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="♿️"
-            type="button"
-          >
-            ♿️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2912,40 +2559,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffce49",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffce49",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="💡"
-            type="button"
-          >
-            💡
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -2966,40 +2604,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#fbb64b",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#fbb64b",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🍻"
-            type="button"
-          >
-            🍻
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3020,40 +2649,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#cedae6",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#cedae6",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="💬"
-            type="button"
-          >
-            💬
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3081,40 +2701,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#c5e763",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#c5e763",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🗃️"
-            type="button"
-          >
-            🗃️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3149,40 +2760,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#23b4d2",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#23b4d2",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔊"
-            type="button"
-          >
-            🔊
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3210,40 +2812,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#e6ebef",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#e6ebef",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔇"
-            type="button"
-          >
-            🔇
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3264,40 +2857,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffce49",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffce49",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="👥"
-            type="button"
-          >
-            👥
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3332,40 +2916,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffce49",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffce49",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🚸"
-            type="button"
-          >
-            🚸
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3393,40 +2968,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffe55f",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffe55f",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🏗️"
-            type="button"
-          >
-            🏗️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3454,40 +3020,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#40c4ff",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#40c4ff",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="📱"
-            type="button"
-          >
-            📱
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3508,40 +3065,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ff7281",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ff7281",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🤡"
-            type="button"
-          >
-            🤡
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3569,40 +3117,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#77e856",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#77e856",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🥚"
-            type="button"
-          >
-            🥚
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3623,40 +3162,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#8bdfe7",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#8bdfe7",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🙈"
-            type="button"
-          >
-            🙈
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3691,40 +3221,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#00a9f0",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#00a9f0",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="📸"
-            type="button"
-          >
-            📸
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3752,40 +3273,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#7f39fb",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#7f39fb",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="⚗️"
-            type="button"
-          >
-            ⚗️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3806,40 +3318,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffe55f",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffe55f",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🔍️"
-            type="button"
-          >
-            🔍️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3860,40 +3363,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#cb63e6",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#cb63e6",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🏷️"
-            type="button"
-          >
-            🏷️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3914,40 +3408,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#c5e763",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#c5e763",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🌱"
-            type="button"
-          >
-            🌱
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -3968,40 +3453,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffce49",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffce49",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🚩"
-            type="button"
-          >
-            🚩
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4043,40 +3519,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#c7cb12",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#c7cb12",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🥅"
-            type="button"
-          >
-            🥅
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4104,40 +3571,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffdb3a",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffdb3a",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="💫"
-            type="button"
-          >
-            💫
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4158,40 +3616,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#d9e3e8",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#d9e3e8",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🗑️"
-            type="button"
-          >
-            🗑️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4212,40 +3661,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#4dc6dc",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#4dc6dc",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🛂"
-            type="button"
-          >
-            🛂
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4273,40 +3713,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#fbcfb7",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#fbcfb7",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🩹"
-            type="button"
-          >
-            🩹
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4334,40 +3765,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffe55f",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffe55f",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🧐"
-            type="button"
-          >
-            🧐
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4395,40 +3817,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#d9e3e8",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#d9e3e8",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="⚰️"
-            type="button"
-          >
-            ⚰️
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4449,40 +3862,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#fb584a",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#fb584a",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🧪"
-            type="button"
-          >
-            🧪
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4510,40 +3914,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#83beec",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#83beec",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="👔"
-            type="button"
-          >
-            👔
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4564,40 +3959,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#77e856",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#77e856",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🩺"
-            type="button"
-          >
-            🩺
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4618,40 +4004,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ff6723",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ff6723",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🧱"
-            type="button"
-          >
-            🧱
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4672,40 +4049,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#86B837",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#86B837",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🧑‍💻"
-            type="button"
-          >
-            🧑‍💻
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4726,40 +4094,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#b3c0b1",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#b3c0b1",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="💸"
-            type="button"
-          >
-            💸
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4794,40 +4153,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#ffbe7b",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#ffbe7b",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🧵"
-            type="button"
-          >
-            🧵
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4848,40 +4198,31 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
-    <article
-      className="emoji col-xs-12 col-sm-6 col-md-3"
-      style={
-        {
-          "--emojiColor": "#f2ad52",
+      </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+        style={
+          {
+            "--emojiColor": "#f2ad52",
+          }
         }
-      }
-    >
-      <div
-        className="card "
       >
-        <header
-          className="cardHeader"
-        >
-          <button
-            className="gitmoji-clipboard-emoji gitmoji"
-            data-clipboard-text="🦺"
-            type="button"
-          >
-            🦺
-          </button>
-        </header>
         <div
-          className="gitmojiInfo"
+          className="card "
         >
-          <div
-            className="gitmojiInfoName"
+          <header
+            className="cardHeader"
           >
             <code>
               <span>
@@ -4909,13 +4250,19 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
-            <use
-              xlinkHref="#icon-star"
-            />
-          </svg>
+            <svg
+              className="icon icon-star"
+              height="20px"
+              width="20px"
+            >
+              <use
+                xlinkHref="#icon-star"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
+    </div>
   </div>
   <div
     onMouseEnter={[Function]}

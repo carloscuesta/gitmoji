@@ -136,25 +136,26 @@ const GitmojiList = (props: Props) => {
           setSearchInput={setSearchInput}
         />
       </div>
-
-      {gitmojis.length === 0 ? (
-        <h2>No gitmojis found for search: {searchInput}</h2>
-      ) : (
-        gitmojis.map((gitmoji, index) => (
-          <Gitmoji
-            code={gitmoji.code}
-            description={gitmoji.description}
-            emoji={gitmoji.emoji}
-            isListMode={isMounted && isListMode}
-            key={index}
-            // @ts-expect-error: This should be replaced with something like:
-            // typeof gitmojis[number]['name'] but JSON can't be exported `as const`
-            name={gitmoji.name}
-            isPinned={isMounted && isPinned(gitmoji.code)}
-            onPinClick={() => onPinClick(gitmoji.code, gitmoji.emoji)}
-          />
-        ))
-      )}
+      <div className={`${styles.gitmojiList} row`}>
+        {gitmojis.length === 0 ? (
+          <h2>No gitmojis found for search: {searchInput}</h2>
+        ) : (
+          gitmojis.map((gitmoji, index) => (
+            <Gitmoji
+              code={gitmoji.code}
+              description={gitmoji.description}
+              emoji={gitmoji.emoji}
+              isListMode={isMounted && isListMode}
+              key={index}
+              // @ts-expect-error: This should be replaced with something like:
+              // typeof gitmojis[number]['name'] but JSON can't be exported `as const`
+              name={gitmoji.name}
+              isPinned={isMounted && isPinned(gitmoji.code)}
+              onPinClick={() => onPinClick(gitmoji.code, gitmoji.emoji)}
+            />
+          ))
+        )}
+      </div>
     </div>
   )
 }

@@ -1,3 +1,23 @@
+.gitmojiList {
+  display: flex;
+  animation: fadeInFromNone 0.5s ease-out;
+}
+
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  50% {
+    display: none;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
 .gitmojiCode {
   padding: 0 4px;
   border-radius: 4px;
