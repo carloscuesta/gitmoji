@@ -4,7 +4,7 @@ type Props = {
   children: React.ReactElement
 }
 
-const ClientOnly: React.FC<Props> = (props) => {
+const ClientOnly = (props: Props) => {
   const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => setIsMounted(true), [])
