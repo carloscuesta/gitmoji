@@ -190,9 +190,8 @@ main.wrap {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -0.5rem;
-  margin-left: -0.5rem;
 }
+
 .col-xs-12,
 .col-xs-3 {
   -webkit-box-flex: 0;

@@ -1,6 +1,6 @@
 .gitmojiList {
+  width: 100%;
   display: flex;
-  animation: fadeInFromNone 0.5s ease-out;
 }
 
 @keyframes fadeInFromNone {
