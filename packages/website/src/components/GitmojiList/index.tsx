@@ -3,10 +3,10 @@ import Clipboard from 'clipboard'
 import { useRouter } from 'next/router'
 import type { Gitmoji as GitmojiType } from 'gitmojis'
 import toast from 'react-hot-toast'
+import { useLocalStorage } from 'usehooks-ts'
 
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
-import useLocalStorage from './hooks/useLocalStorage'
 import styles from './styles.module.css'
 
 type Props = {
@@ -16,7 +16,10 @@ type Props = {
 const GitmojiList = (props: Props) => {
   const router = useRouter()
   const [searchInput, setSearchInput] = useState('')
-  const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
+  const [isListMode, setIsListMode] = useLocalStorage<boolean>(
+    'isListMode',
+    false
+  )
   const [pinneds, setPinneds] = useLocalStorage<string[]>('pinneds', [])
   const [isMounted, setIsMounted] = useState<boolean>(false)
 
