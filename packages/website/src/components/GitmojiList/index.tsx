@@ -20,22 +20,22 @@ const GitmojiList = (props: Props) => {
     'isListMode',
     false
   )
-  const [pinneds, setPinneds] = useLocalStorage<string[]>('pinneds', [])
+  const [pinnedEmojis, setPinnedEmojis] = useLocalStorage<string[]>(
+    'pinnedEmojis',
+    []
+  )
   const [isMounted, setIsMounted] = useState<boolean>(false)
+  const [emojis, setEmojis] = useState([...props.gitmojis])
 
-  const isPinned = (code: string): boolean => {
-    return pinneds.includes(code)
-  }
+  const isPinned = (code: string): boolean => pinnedEmojis.includes(code)
 
   useEffect(() => {
     setIsMounted(true)
   }, [])
 
-  const emojis = [...props.gitmojis]
-
-  if (isMounted) {
-    emojis.sort((gitmoji) => (isPinned(gitmoji.code) ? -1 : 0))
-  }
+  useEffect(() => {
+    setEmojis(emojis.sort((gitmoji) => (isPinned(gitmoji.code) ? -1 : 0)))
+  }, [isMounted])
 
   const gitmojis = (() =>
     searchInput
@@ -52,11 +52,11 @@ const GitmojiList = (props: Props) => {
 
   const onPinClick = (code: string, emoji: string): void => {
     if (isPinned(code)) {
-      setPinneds((current: string[]) =>
+      setPinnedEmojis((current: string[]) =>
         current.filter((pinned) => pinned !== code)
       )
     } else {
-      setPinneds((emojis: string[]) => [...emojis, code])
+      setPinnedEmojis((emojis: string[]) => [...emojis, code])
     }
 
     toast(
