@@ -46,7 +46,7 @@
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.0",
     "react-test-renderer": "^18.2.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.5"
   },
   "author": {
     "name": "carloscuesta",
