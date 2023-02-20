@@ -12,7 +12,7 @@
     "dev": "yarn turbo --parallel dev"
   },
   "devDependencies": {
-    "@vercel/analytics": "^0.1.8",
+    "@vercel/analytics": "^0.1.10",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "prettier": "2.8.4",
