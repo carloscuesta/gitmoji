@@ -40,13 +40,30 @@ const Gitmoji = (props: Props) => {
             tabIndex={-1}
             type="button"
           >
-            <code>{props.code}</code>
+            <code>
+              {replaceWithJSX(
+                props.code,
+                '_',
+                <>
+                  _<wbr />
+                </>
+              )}
+            </code>
           </button>
           <p>{props.description}</p>
         </div>
       </div>
     </article>
   )
+}
+
+const replaceWithJSX = (text: string, find: string, replace: JSX.Element) => {
+  const nodes: (string | JSX.Element)[] = text.split(find)
+  const first = nodes.shift()
+
+  return nodes
+    .reduce((newNodes, part) => [...newNodes, replace, part], [first])
+    .map((el, index) => <span key={index}>{el}</span>)
 }
 
 export default Gitmoji
