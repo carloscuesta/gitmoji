@@ -37,7 +37,7 @@
     "lint-staged": "^13.1.2",
     "next": "^13.2.1",
     "next-pwa": "^5.4.4",
-    "next-sitemap": "^3.1.54",
+    "next-sitemap": "^4.0.2",
     "next-themes": "^0.2.0",
     "node-mocks-http": "^1.12.1",
     "prettier": "2.8.4",
