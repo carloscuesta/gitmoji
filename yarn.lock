@@ -1508,10 +1508,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@corex/deepmerge@npm:^4.0.29":
-  version: 4.0.29
-  resolution: "@corex/deepmerge@npm:4.0.29"
-  checksum: 78626fd29cb9cbd2953ce5a06f963132c9b4837bb76397982d255131533b61c3ef447f0d295f300aa6b2c3ead182a6fe2e4763181e06a2124df28c08205de1d2
+"@corex/deepmerge@npm:^4.0.37":
+  version: 4.0.37
+  resolution: "@corex/deepmerge@npm:4.0.37"
+  checksum: f6f5daf29762f691dbc1104c092639897d65219e809f7c1028f7797e361c7787bd247bfd09e81f31b70386f1611ed9c4c137dd45c404b4da2f606a6cca51c6d8
   languageName: node
   linkType: hard
 
@@ -7485,7 +7485,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0, minimist@npm:^1.2.7":
+"minimist@npm:^1.2.0":
   version: 1.2.7
   resolution: "minimist@npm:1.2.7"
   checksum: 7346574a1038ca23c32e02252f603801f09384dd1d78b69a943a4e8c2c28730b80e96193882d3d3b22a063445f460e48316b29b8a25addca2d7e5e8f75478bec
@@ -7496,6 +7496,13 @@ __metadata:
   version: 1.2.6
   resolution: "minimist@npm:1.2.6"
   checksum: d15428cd1e11eb14e1233bcfb88ae07ed7a147de251441d61158619dfb32c4d7e9061d09cab4825fdee18ecd6fce323228c8c47b5ba7cd20af378ca4048fb3fb
+  languageName: node
+  linkType: hard
+
+"minimist@npm:^1.2.8":
+  version: 1.2.8
+  resolution: "minimist@npm:1.2.8"
+  checksum: 75a6d645fb122dad29c06a7597bddea977258957ed88d7a6df59b5cd3fe4a527e253e9bbf2e783e4b73657f9098b96a5fe96ab8a113655d4109108577ecf85b0
   languageName: node
   linkType: hard
 
@@ -7710,19 +7717,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-sitemap@npm:^3.1.54":
-  version: 3.1.54
-  resolution: "next-sitemap@npm:3.1.54"
+"next-sitemap@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "next-sitemap@npm:4.0.2"
   dependencies:
-    "@corex/deepmerge": ^4.0.29
-    minimist: ^1.2.7
+    "@corex/deepmerge": ^4.0.37
+    minimist: ^1.2.8
   peerDependencies:
     "@next/env": "*"
     next: "*"
   bin:
     next-sitemap: bin/next-sitemap.mjs
     next-sitemap-cjs: bin/next-sitemap.cjs
-  checksum: 946a6ed1d9f2c14bc71a284df50a271f394979da74dc44a0cb5a632865616096426ae3525283c2e8b755efe41aaceef7bd84e8e530a397646731a41c53ac3177
+  checksum: 800baf84ac0878791f632f6877495ad23f3d84f02766fd959bd9348ed845fcff0a8e65092491168da628dd23a886faa3397dc44c4df1e52268698425a4ee0e94
   languageName: node
   linkType: hard
 
@@ -10186,7 +10193,7 @@ __metadata:
     lint-staged: ^13.1.2
     next: ^13.2.1
     next-pwa: ^5.4.4
-    next-sitemap: ^3.1.54
+    next-sitemap: ^4.0.2
     next-themes: ^0.2.0
     node-mocks-http: ^1.12.1
     prettier: 2.8.4
