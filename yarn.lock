@@ -3027,12 +3027,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/analytics@npm:^0.1.10":
-  version: 0.1.10
-  resolution: "@vercel/analytics@npm:0.1.10"
+"@vercel/analytics@npm:^0.1.11":
+  version: 0.1.11
+  resolution: "@vercel/analytics@npm:0.1.11"
   peerDependencies:
     react: ^16.8||^17||^18
-  checksum: e6f6741f47363e32105593e003c7034a48af417019e2c6bf90156f65cee6432cac32b01ac89fe14b985161bb8639757047696de0c9e7dcd44217387828734e0c
+  checksum: 05b8180ac6e23ebe7c09d74c43f8ee78c408cd0b6546e676389cbf4fba44dfeeae3648c9b52e2421be64fe3aeee8b026e6ea4bdfc0589fb5780670f2b090a167
   languageName: node
   linkType: hard
 
@@ -5534,7 +5534,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gitmoji@workspace:."
   dependencies:
-    "@vercel/analytics": ^0.1.10
+    "@vercel/analytics": ^0.1.11
     husky: ^8.0.3
     lint-staged: ^13.1.2
     prettier: 2.8.4
