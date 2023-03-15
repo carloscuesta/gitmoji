@@ -681,7 +681,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :art:
+              <span>
+                :art:
+              </span>
             </code>
           </button>
           <p>
@@ -722,7 +724,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :zap:
+              <span>
+                :zap:
+              </span>
             </code>
           </button>
           <p>
@@ -763,7 +767,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :fire:
+              <span>
+                :fire:
+              </span>
             </code>
           </button>
           <p>
@@ -804,7 +810,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :bug:
+              <span>
+                :bug:
+              </span>
             </code>
           </button>
           <p>
@@ -845,7 +853,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :ambulance:
+              <span>
+                :ambulance:
+              </span>
             </code>
           </button>
           <p>
@@ -886,7 +896,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :sparkles:
+              <span>
+                :sparkles:
+              </span>
             </code>
           </button>
           <p>
@@ -927,7 +939,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :memo:
+              <span>
+                :memo:
+              </span>
             </code>
           </button>
           <p>
@@ -968,7 +982,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :rocket:
+              <span>
+                :rocket:
+              </span>
             </code>
           </button>
           <p>
@@ -1009,7 +1025,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :lipstick:
+              <span>
+                :lipstick:
+              </span>
             </code>
           </button>
           <p>
@@ -1050,7 +1068,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :tada:
+              <span>
+                :tada:
+              </span>
             </code>
           </button>
           <p>
@@ -1091,7 +1111,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :white_check_mark:
+              <span>
+                :white
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                check
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                mark:
+              </span>
             </code>
           </button>
           <p>
@@ -1132,7 +1168,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :lock:
+              <span>
+                :lock:
+              </span>
             </code>
           </button>
           <p>
@@ -1173,7 +1211,30 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :closed_lock_with_key:
+              <span>
+                :closed
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                lock
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                with
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                key:
+              </span>
             </code>
           </button>
           <p>
@@ -1214,7 +1275,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :bookmark:
+              <span>
+                :bookmark:
+              </span>
             </code>
           </button>
           <p>
@@ -1255,7 +1318,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :rotating_light:
+              <span>
+                :rotating
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                light:
+              </span>
             </code>
           </button>
           <p>
@@ -1296,7 +1368,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :construction:
+              <span>
+                :construction:
+              </span>
             </code>
           </button>
           <p>
@@ -1337,7 +1411,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :green_heart:
+              <span>
+                :green
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                heart:
+              </span>
             </code>
           </button>
           <p>
@@ -1378,7 +1461,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :arrow_down:
+              <span>
+                :arrow
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                down:
+              </span>
             </code>
           </button>
           <p>
@@ -1419,7 +1511,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :arrow_up:
+              <span>
+                :arrow
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                up:
+              </span>
             </code>
           </button>
           <p>
@@ -1460,7 +1561,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :pushpin:
+              <span>
+                :pushpin:
+              </span>
             </code>
           </button>
           <p>
@@ -1501,7 +1604,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :construction_worker:
+              <span>
+                :construction
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                worker:
+              </span>
             </code>
           </button>
           <p>
@@ -1542,7 +1654,30 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :chart_with_upwards_trend:
+              <span>
+                :chart
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                with
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                upwards
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                trend:
+              </span>
             </code>
           </button>
           <p>
@@ -1583,7 +1718,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :recycle:
+              <span>
+                :recycle:
+              </span>
             </code>
           </button>
           <p>
@@ -1624,7 +1761,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :heavy_plus_sign:
+              <span>
+                :heavy
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                plus
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                sign:
+              </span>
             </code>
           </button>
           <p>
@@ -1665,7 +1818,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :heavy_minus_sign:
+              <span>
+                :heavy
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                minus
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                sign:
+              </span>
             </code>
           </button>
           <p>
@@ -1706,7 +1875,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :wrench:
+              <span>
+                :wrench:
+              </span>
             </code>
           </button>
           <p>
@@ -1747,7 +1918,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :hammer:
+              <span>
+                :hammer:
+              </span>
             </code>
           </button>
           <p>
@@ -1788,7 +1961,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :globe_with_meridians:
+              <span>
+                :globe
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                with
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                meridians:
+              </span>
             </code>
           </button>
           <p>
@@ -1829,7 +2018,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :pencil2:
+              <span>
+                :pencil2:
+              </span>
             </code>
           </button>
           <p>
@@ -1870,7 +2061,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :poop:
+              <span>
+                :poop:
+              </span>
             </code>
           </button>
           <p>
@@ -1911,7 +2104,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :rewind:
+              <span>
+                :rewind:
+              </span>
             </code>
           </button>
           <p>
@@ -1952,7 +2147,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :twisted_rightwards_arrows:
+              <span>
+                :twisted
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                rightwards
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                arrows:
+              </span>
             </code>
           </button>
           <p>
@@ -1993,7 +2204,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :package:
+              <span>
+                :package:
+              </span>
             </code>
           </button>
           <p>
@@ -2034,7 +2247,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :alien:
+              <span>
+                :alien:
+              </span>
             </code>
           </button>
           <p>
@@ -2075,7 +2290,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :truck:
+              <span>
+                :truck:
+              </span>
             </code>
           </button>
           <p>
@@ -2116,7 +2333,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :page_facing_up:
+              <span>
+                :page
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                facing
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                up:
+              </span>
             </code>
           </button>
           <p>
@@ -2157,7 +2390,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :boom:
+              <span>
+                :boom:
+              </span>
             </code>
           </button>
           <p>
@@ -2198,7 +2433,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :bento:
+              <span>
+                :bento:
+              </span>
             </code>
           </button>
           <p>
@@ -2239,7 +2476,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :wheelchair:
+              <span>
+                :wheelchair:
+              </span>
             </code>
           </button>
           <p>
@@ -2280,7 +2519,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :bulb:
+              <span>
+                :bulb:
+              </span>
             </code>
           </button>
           <p>
@@ -2321,7 +2562,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :beers:
+              <span>
+                :beers:
+              </span>
             </code>
           </button>
           <p>
@@ -2362,7 +2605,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :speech_balloon:
+              <span>
+                :speech
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                balloon:
+              </span>
             </code>
           </button>
           <p>
@@ -2403,7 +2655,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :card_file_box:
+              <span>
+                :card
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                file
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                box:
+              </span>
             </code>
           </button>
           <p>
@@ -2444,7 +2712,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :loud_sound:
+              <span>
+                :loud
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                sound:
+              </span>
             </code>
           </button>
           <p>
@@ -2485,7 +2762,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :mute:
+              <span>
+                :mute:
+              </span>
             </code>
           </button>
           <p>
@@ -2526,7 +2805,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :busts_in_silhouette:
+              <span>
+                :busts
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                in
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                silhouette:
+              </span>
             </code>
           </button>
           <p>
@@ -2567,7 +2862,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :children_crossing:
+              <span>
+                :children
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                crossing:
+              </span>
             </code>
           </button>
           <p>
@@ -2608,7 +2912,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :building_construction:
+              <span>
+                :building
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                construction:
+              </span>
             </code>
           </button>
           <p>
@@ -2649,7 +2962,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :iphone:
+              <span>
+                :iphone:
+              </span>
             </code>
           </button>
           <p>
@@ -2690,7 +3005,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :clown_face:
+              <span>
+                :clown
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                face:
+              </span>
             </code>
           </button>
           <p>
@@ -2731,7 +3055,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :egg:
+              <span>
+                :egg:
+              </span>
             </code>
           </button>
           <p>
@@ -2772,7 +3098,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :see_no_evil:
+              <span>
+                :see
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                no
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                evil:
+              </span>
             </code>
           </button>
           <p>
@@ -2813,7 +3155,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :camera_flash:
+              <span>
+                :camera
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                flash:
+              </span>
             </code>
           </button>
           <p>
@@ -2854,7 +3205,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :alembic:
+              <span>
+                :alembic:
+              </span>
             </code>
           </button>
           <p>
@@ -2895,7 +3248,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :mag:
+              <span>
+                :mag:
+              </span>
             </code>
           </button>
           <p>
@@ -2936,7 +3291,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :label:
+              <span>
+                :label:
+              </span>
             </code>
           </button>
           <p>
@@ -2977,7 +3334,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :seedling:
+              <span>
+                :seedling:
+              </span>
             </code>
           </button>
           <p>
@@ -3018,7 +3377,30 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :triangular_flag_on_post:
+              <span>
+                :triangular
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                flag
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                on
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                post:
+              </span>
             </code>
           </button>
           <p>
@@ -3059,7 +3441,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :goal_net:
+              <span>
+                :goal
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                net:
+              </span>
             </code>
           </button>
           <p>
@@ -3100,7 +3491,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :dizzy:
+              <span>
+                :dizzy:
+              </span>
             </code>
           </button>
           <p>
@@ -3141,7 +3534,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :wastebasket:
+              <span>
+                :wastebasket:
+              </span>
             </code>
           </button>
           <p>
@@ -3182,7 +3577,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :passport_control:
+              <span>
+                :passport
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                control:
+              </span>
             </code>
           </button>
           <p>
@@ -3223,7 +3627,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :adhesive_bandage:
+              <span>
+                :adhesive
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                bandage:
+              </span>
             </code>
           </button>
           <p>
@@ -3264,7 +3677,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :monocle_face:
+              <span>
+                :monocle
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                face:
+              </span>
             </code>
           </button>
           <p>
@@ -3305,7 +3727,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :coffin:
+              <span>
+                :coffin:
+              </span>
             </code>
           </button>
           <p>
@@ -3346,7 +3770,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :test_tube:
+              <span>
+                :test
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                tube:
+              </span>
             </code>
           </button>
           <p>
@@ -3387,7 +3820,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :necktie:
+              <span>
+                :necktie:
+              </span>
             </code>
           </button>
           <p>
@@ -3428,7 +3863,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :stethoscope:
+              <span>
+                :stethoscope:
+              </span>
             </code>
           </button>
           <p>
@@ -3469,7 +3906,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :bricks:
+              <span>
+                :bricks:
+              </span>
             </code>
           </button>
           <p>
@@ -3510,7 +3949,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :technologist:
+              <span>
+                :technologist:
+              </span>
             </code>
           </button>
           <p>
@@ -3551,7 +3992,23 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :money_with_wings:
+              <span>
+                :money
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                with
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                wings:
+              </span>
             </code>
           </button>
           <p>
@@ -3592,7 +4049,9 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :thread:
+              <span>
+                :thread:
+              </span>
             </code>
           </button>
           <p>
@@ -3633,7 +4092,16 @@ exports[`Pages Index should render the page 1`] = `
             type="button"
           >
             <code>
-              :safety_vest:
+              <span>
+                :safety
+              </span>
+              <span>
+                _
+                <wbr />
+              </span>
+              <span>
+                vest:
+              </span>
             </code>
           </button>
           <p>

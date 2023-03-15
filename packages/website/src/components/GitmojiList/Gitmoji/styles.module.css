@@ -35,6 +35,10 @@
   padding: 1rem;
 }
 
+.cardList .gitmojiCode {
+  text-align: left;
+}
+
 .cardList .gitmojiInfo p {
   padding: 0;
   margin: 0;
@@ -90,6 +94,7 @@
   border-radius: 4px;
   transition-duration: 0.3s;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .gitmojiCode::after {
