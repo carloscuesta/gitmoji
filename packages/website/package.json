@@ -39,7 +39,7 @@
     "next-pwa": "^5.4.4",
     "next-sitemap": "^4.0.6",
     "next-themes": "^0.2.0",
-    "node-mocks-http": "^1.12.1",
+    "node-mocks-http": "^1.12.2",
     "prettier": "2.8.4",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",

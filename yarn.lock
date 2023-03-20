@@ -7919,9 +7919,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-mocks-http@npm:^1.12.1":
-  version: 1.12.1
-  resolution: "node-mocks-http@npm:1.12.1"
+"node-mocks-http@npm:^1.12.2":
+  version: 1.12.2
+  resolution: "node-mocks-http@npm:1.12.2"
   dependencies:
     accepts: ^1.3.7
     content-disposition: ^0.5.3
@@ -7933,7 +7933,7 @@ __metadata:
     parseurl: ^1.3.3
     range-parser: ^1.2.0
     type-is: ^1.6.18
-  checksum: 80b2ef4967d95e5804f4be5edd13bab06e6cad7c00813e32fd1958189ee8c4c68b833aabcbb2b39194b412b14504a7724e628d74ca5956a83221e0fa838aaf92
+  checksum: 39e50b7146bd37fd56a0588ee3df46fd310f76395d52e9b8889545910aca6cc8e8a41de3cdd3e103903d4bbfc556e67624fcbe934c0bd3b0cca6ee1358a0f440
   languageName: node
   linkType: hard
 
@@ -10265,7 +10265,7 @@ __metadata:
     next-pwa: ^5.4.4
     next-sitemap: ^4.0.6
     next-themes: ^0.2.0
-    node-mocks-http: ^1.12.1
+    node-mocks-http: ^1.12.2
     prettier: 2.8.4
     prop-types: ^15.8.1
     react: ^18.2.0
