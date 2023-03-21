@@ -5,6 +5,7 @@ import { createMocks } from 'node-mocks-http'
 
 import App from '../pages/_app'
 import Index from '../pages/index'
+import Specification from '../pages/specification'
 import About from '../pages/about'
 import Contributors, {
   getStaticProps as getContributorsStaticProps,
@@ -52,6 +53,13 @@ describe('Pages', () => {
   describe('About', () => {
     it('should render the page', () => {
       const wrapper = renderer.create(<About />)
+      expect(wrapper).toMatchSnapshot()
+    })
+  })
+
+  describe('Specification', () => {
+    it('should render the page', () => {
+      const wrapper = renderer.create(<Specification />)
       expect(wrapper).toMatchSnapshot()
     })
   })
