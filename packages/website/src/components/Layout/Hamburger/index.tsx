@@ -51,6 +51,9 @@ const Hamburger = () => {
                 <MenuLink href="/about" text="About" />
               </li>
               <li>
+                <MenuLink href="/specification" text="Specification" />
+              </li>
+              <li>
                 <MenuLink href="/contributors" text="Contributors" />
               </li>
               <li>
