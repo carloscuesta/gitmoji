@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 import CarbonAd from 'src/components/CarbonAd'
-import Button from 'src/components/Button'
 import SEO from 'src/components/SEO'
 
 const About = () => (
@@ -37,20 +36,6 @@ const About = () => (
           </a>
           .
         </p>
-
-        <div>
-          <Button
-            icon="twitter"
-            link={
-              'https://twitter.com/intent/tweet?text=gitmoji' +
-              '%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit' +
-              '%20messages%20by%20%40crloscuesta%20%F0%9F%98%8D%F0%9F%98%9C' +
-              '&url=https://gitmoji.dev'
-            }
-            target="_blank"
-            text="Tweet"
-          />
-        </div>
       </section>
 
       <section>
@@ -72,29 +57,12 @@ const About = () => (
       </section>
 
       <section>
-        <h1>Example of usage</h1>
+        <h1 id="specification">Specification</h1>
 
         <p>
-          In case you need some ideas to integrate gitmoji in your project,
-          here&#39;s a practical way to use it:
+          To understand how to use gitmoji properly, please check the official
+          specification <Link href="/specification">here</Link> 👈.
         </p>
-
-        <ul>
-          <li>
-            <b>intention</b>: An emoji from the list.
-          </li>
-          <li>
-            <b>scope</b>: An optional string that adds contextual information
-            for the scope of the change.
-          </li>
-          <li>
-            <b>message</b>: A brief explanation of the change.
-          </li>
-        </ul>
-
-        <pre>
-          <code>&lt;intention&gt; [scope?][:?] &lt;message&gt;</code>
-        </pre>
       </section>
 
       <section>
