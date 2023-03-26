@@ -79,6 +79,11 @@ const tools = [
     description: 'Gitmoji extension for Raycast',
     link: 'https://www.raycast.com/ricoberger/gitmoji',
   },
+  {
+    name: 'genmoji',
+    description: 'Gitmoji commit message generation using AI',
+    link: 'https://genmoji.xyz',
+  },
 ]
 
 const RelatedTools = () => (
