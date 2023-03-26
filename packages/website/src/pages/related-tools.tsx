@@ -82,7 +82,7 @@ const tools = [
   {
     name: 'genmoji',
     description: 'Gitmoji commit message generation using AI',
-    link: 'https://genmoji.xyz',
+    link: 'https://github.com/segersniels/genmoji',
   },
 ]
 
