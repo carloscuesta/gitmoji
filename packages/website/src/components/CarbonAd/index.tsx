@@ -1,10 +1,15 @@
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, useState } from 'react'
 
 const CarbonAd = () => {
   const adsContainer = useRef<HTMLDivElement>(null)
+  const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
-    if (adsContainer.current) {
+    setIsMounted(true)
+  }, [])
+
+  useEffect(() => {
+    if (adsContainer.current && isMounted) {
       const carbonAdsScript = document.createElement('script')
 
       carbonAdsScript.src =
@@ -14,7 +19,7 @@ const CarbonAd = () => {
 
       adsContainer.current.appendChild(carbonAdsScript)
     }
-  }, [adsContainer])
+  }, [adsContainer, isMounted])
 
   return (
     <div className="col-xs-12">
@@ -89,11 +94,15 @@ const CarbonAd = () => {
           }
 
           .carbon-container {
-            min-height: 90px;
+            height: 100px;
           }
         `}
       </style>
-      <div ref={adsContainer} className="carbon-container row center-xs" />
+      {isMounted ? (
+        <div ref={adsContainer} className="carbon-container row center-xs" />
+      ) : (
+        <div className="carbon-container row center-xs" />
+      )}
     </div>
   )
 }

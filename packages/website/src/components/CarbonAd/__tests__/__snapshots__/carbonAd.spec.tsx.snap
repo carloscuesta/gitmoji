@@ -2,10 +2,10 @@
 
 exports[`CarbonAd should render the component 1`] = `
 <div
-  className="jsx-f88da8e0e7f3559f col-xs-12"
+  className="jsx-b734095dc71c6fb7 col-xs-12"
 >
   <div
-    className="jsx-f88da8e0e7f3559f carbon-container row center-xs"
+    className="jsx-b734095dc71c6fb7 carbon-container row center-xs"
   />
 </div>
 `;
