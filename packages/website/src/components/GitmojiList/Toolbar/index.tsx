@@ -1,7 +1,9 @@
 import { useEffect, useRef } from 'react'
+import dynamic from 'next/dynamic'
 
 import ListModeSelector from './ListModeSelector'
 import ThemeSelector from './ThemeSelector'
+const Kbd = dynamic(() => import('./Kbd'), { ssr: false })
 import styles from './styles.module.css'
 
 type Props = {
@@ -9,12 +11,6 @@ type Props = {
   searchInput?: string
   setIsListMode: (searchInput: boolean) => void
   setSearchInput: (searchInput: string) => void
-}
-
-const isMacOs = () => {
-  return typeof window === 'undefined'
-    ? true
-    : window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
 }
 
 const Toolbar = (props: Props) => {
@@ -55,7 +51,7 @@ const Toolbar = (props: Props) => {
           value={props.searchInput}
         />
 
-        <kbd className={styles.kbd}>{isMacOs() ? '⌘' : 'Ctrl'} K</kbd>
+        <Kbd />
       </div>
 
       <div className={styles.actionsContainer}>

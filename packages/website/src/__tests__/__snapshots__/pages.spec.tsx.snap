@@ -564,12 +564,6 @@ exports[`Pages Index should render the page 1`] = `
             type="search"
             value=""
           />
-          <kbd
-            className="kbd"
-          >
-            Ctrl
-             K
-          </kbd>
         </div>
         <div
           className="actionsContainer"

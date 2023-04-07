@@ -1,0 +1,21 @@
+.kbd {
+  right: 0;
+  align-items: center;
+  border-radius: 3px;
+  border: solid 1px #999;
+  color: #595959;
+  display: flex;
+  font-family: system-ui;
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+[data-theme='dark'] .kbd {
+  color: #b8b8b8;
+}
+
+@media (max-width: 568px) {
+  .kbd {
+    display: none;
+  }
+}
