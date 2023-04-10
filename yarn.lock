@@ -5636,7 +5636,7 @@ __metadata:
   dependencies:
     "@vercel/analytics": ^0.1.11
     husky: ^8.0.3
-    lint-staged: ^13.2.0
+    lint-staged: ^13.2.1
     prettier: 2.8.7
     turbo: ^1.8.8
   languageName: unknown
@@ -5647,7 +5647,7 @@ __metadata:
   resolution: "gitmojis@workspace:packages/gitmojis"
   dependencies:
     ajv-cli: ^5.0.0
-    lint-staged: ^13.2.0
+    lint-staged: ^13.2.1
     nodemon: ^2.0.22
     prettier: 2.8.7
     unbuild: ^1.2.0
@@ -7301,9 +7301,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^13.2.0":
-  version: 13.2.0
-  resolution: "lint-staged@npm:13.2.0"
+"lint-staged@npm:^13.2.1":
+  version: 13.2.1
+  resolution: "lint-staged@npm:13.2.1"
   dependencies:
     chalk: 5.2.0
     cli-truncate: ^3.1.0
@@ -7320,7 +7320,7 @@ __metadata:
     yaml: ^2.2.1
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: dcaa8fbbde567eb8ac27230a18b3a22f30c278c524c0e27cf7d4110d662d5d33ed68a585a2e1b05075ef1c262e853f557a5ae046188b723603246d63e6b9f07b
+  checksum: 5788d3fe38e69b7f7b7f700284d4e10738978a0916bc77d3f6253c43a030fc4f01f89c09da349fb658f929f3393d8b1e3eaabaac5b604416ebc33476640b51ce
   languageName: node
   linkType: hard
 
@@ -10375,7 +10375,7 @@ __metadata:
     jest: ^29.5.0
     jest-environment-jsdom: ^29.5.0
     jest-fetch-mock: ^3.0.3
-    lint-staged: ^13.2.0
+    lint-staged: ^13.2.1
     next: ^13.2.4
     next-pwa: ^5.4.4
     next-sitemap: ^4.0.6
