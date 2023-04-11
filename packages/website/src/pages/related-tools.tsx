@@ -89,7 +89,7 @@ const tools = [
     name: 'genmoji',
     description: 'Gitmoji commit message generation using AI',
     link: 'https://github.com/segersniels/genmoji',
-  }
+  },
 ]
 
 const RelatedTools = () => (
