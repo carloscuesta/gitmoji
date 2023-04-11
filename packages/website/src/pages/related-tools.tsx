@@ -80,6 +80,12 @@ const tools = [
     link: 'https://www.raycast.com/ricoberger/gitmoji',
   },
   {
+    name: 'gitmoji-fuzzy-hook',
+    description:
+      'Fuzzy finder git-commit-hook for prepending a gitmoji (cmd & GUI).',
+    link: 'https://gitlab.com/raabf/gitmoji-fuzzy-hook',
+  },
+  {
     name: 'genmoji',
     description: 'Gitmoji commit message generation using AI',
     link: 'https://github.com/segersniels/genmoji',
