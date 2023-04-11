@@ -12,6 +12,7 @@
     "dev": "yarn turbo --parallel dev"
   },
   "devDependencies": {
+    "@types/google.analytics": "^0.0.42",
     "@vercel/analytics": "^0.1.11",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",

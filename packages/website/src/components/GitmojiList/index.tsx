@@ -48,7 +48,7 @@ const GitmojiList = (props: Props) => {
     )
 
     clipboard.on('success', function (e) {
-      ;(window as any).ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
+      window.ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
 
       toast(
         (t) => (

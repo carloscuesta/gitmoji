@@ -1,5 +1,7 @@
+import type { AppProps as NextAppProps } from 'next/app'
+
 export const appProps = {
-  Component: (props: any) => <div {...props}>Component</div>,
+  Component: (props: NextAppProps) => <div {...props}>Component</div>,
   pageProps: { test: '' },
 }
 
