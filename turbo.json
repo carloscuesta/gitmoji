@@ -19,7 +19,8 @@
       "outputs": ["coverage/**"]
     },
     "build": {
-      "outputs": [".next/**", "public/**", "dist/**"]
+      "outputs": [".next/**", "public/**", "dist/**"],
+      "dependsOn": ["^build"]
     },
     "publishPackage": {
       "dependsOn": ["^lint"],
