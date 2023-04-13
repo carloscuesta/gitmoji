@@ -30,6 +30,10 @@ To use gitmojis from your command line install [gitmoji-cli](https://github.com/
 npm i -g gitmoji-cli
 ```
 
+## Using [gitmoji-ai](https://github.com/Lendable/gitmoji-ai)
+
+With [gitmoji-ai](https://github.com/Lendable/gitmoji-ai), let ChatGPT choose the perfect gitmoji for you and add it to your commit message - all with zero effort! Thanks to its smart integration with a git hook, it's fully automated - install and forget. The only requirement is valid OpenAI API key.
+
 ## Example of usage
 
 In case you need some ideas to integrate gitmoji in your project, here's a practical way to use it:
