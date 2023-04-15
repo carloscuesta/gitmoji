@@ -221,7 +221,7 @@ exports[`Pages App should render the page 1`] = `
           star fill
         </title>
         <path
-          d="M438.6,41.5l90.2,182.8c6.3,12.7,18.4,21.5,32.4,23.6l201.8,29.3c35.3,5.1,49.4,48.6,23.9,73.5L641,493 c-10.1,9.9-14.8,24.2-12.4,38.1l34.5,201c6,35.2-30.9,62-62.5,45.4l-180.5-94.9c-12.5-6.6-27.6-6.6-40.1,0l-180.5,94.9 c-31.6,16.6-68.6-10.2-62.5-45.4l34.5-201c2.4-14-2.2-28.2-12.4-38.1l-146-142.3c-25.6-24.9-11.5-68.4,23.9-73.5l201.8-29.3 c14-2,26.2-10.8,32.4-23.6l90.2-182.8C377.2,9.5,422.8,9.5,438.6,41.5z"
+          d="M438.6,41.5l90.2,182.8c6.3,12.7,18.4,21.5,32.4,23.6l201.8,29.3c35.3,5.1,49.4,48.6,23.9,73.5L641,493  c-10.1,9.9-14.8,24.2-12.4,38.1l34.5,201c6,35.2-30.9,62-62.5,45.4l-180.5-94.9c-12.5-6.6-27.6-6.6-40.1,0l-180.5,94.9  c-31.6,16.6-68.6-10.2-62.5-45.4l34.5-201c2.4-14-2.2-28.2-12.4-38.1l-146-142.3c-25.6-24.9-11.5-68.4,23.9-73.5l201.8-29.3  c14-2,26.2-10.8,32.4-23.6l90.2-182.8C377.2,9.5,422.8,9.5,438.6,41.5z"
           fill="#ffdd67"
         />
       </symbol>
@@ -235,7 +235,7 @@ exports[`Pages App should render the page 1`] = `
           star
         </title>
         <path
-          d="M787,350.7c25.6-24.9,11.5-68.3-23.9-73.5l-201.8-29.3c-14-2-26.2-10.8-32.4-23.6L438.6,41.5 c-15.8-32-61.5-32-77.2,0l-90.2,182.8c-6.3,12.7-18.4,21.5-32.4,23.6L36.9,277.2c-35.3,5.1-49.4,48.5-23.9,73.5l146,142.3 c10.1,9.9,14.8,24.2,12.4,38.1l-34.5,201c-6,35.2,30.9,62,62.5,45.4L380,682.6c12.5-6.6,27.6-6.6,40.1,0l180.5,94.9 c31.6,16.6,68.6-10.2,62.5-45.4l-34.5-201c-2.4-14,2.2-28.2,12.4-38.1L787,350.7z M577.6,428c-31.6,30.8-45.9,75.1-38.5,118.5 l18.1,105.8l-95-50C443.1,592.3,421.6,587,400,587c-21.6,0-43.1,5.3-62.2,15.3l-95.1,50l18.2-105.9c7.5-43.4-6.9-87.6-38.5-118.4 l-76.9-75l106.3-15.4c43.6-6.3,81.2-33.7,100.7-73.2l47.5-96.3l47.5,96.3c19.5,39.5,57.2,66.9,100.8,73.2l106.2,15.4L577.6,428z"
+          d="M787,350.7c25.6-24.9,11.5-68.3-23.9-73.5l-201.8-29.3c-14-2-26.2-10.8-32.4-23.6L438.6,41.5  c-15.8-32-61.5-32-77.2,0l-90.2,182.8c-6.3,12.7-18.4,21.5-32.4,23.6L36.9,277.2c-35.3,5.1-49.4,48.5-23.9,73.5l146,142.3  c10.1,9.9,14.8,24.2,12.4,38.1l-34.5,201c-6,35.2,30.9,62,62.5,45.4L380,682.6c12.5-6.6,27.6-6.6,40.1,0l180.5,94.9  c31.6,16.6,68.6-10.2,62.5-45.4l-34.5-201c-2.4-14,2.2-28.2,12.4-38.1L787,350.7z M577.6,428c-31.6,30.8-45.9,75.1-38.5,118.5  l18.1,105.8l-95-50C443.1,592.3,421.6,587,400,587c-21.6,0-43.1,5.3-62.2,15.3l-95.1,50l18.2-105.9c7.5-43.4-6.9-87.6-38.5-118.4  l-76.9-75l106.3-15.4c43.6-6.3,81.2-33.7,100.7-73.2l47.5-96.3l47.5,96.3c19.5,39.5,57.2,66.9,100.8,73.2l106.2,15.4L577.6,428z"
         />
       </symbol>
       <symbol
@@ -669,24 +669,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :art:
-              </span>
-            </code>
-          </button>
-          <p>
-            Improve structure / format of the code.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🎨"
+              type="button"
+            >
+              🎨
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":art:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :art:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Improve structure / format of the code.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -714,24 +730,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :zap:
-              </span>
-            </code>
-          </button>
-          <p>
-            Improve performance.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="⚡️"
+              type="button"
+            >
+              ⚡️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":zap:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :zap:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Improve performance.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -759,24 +791,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :fire:
-              </span>
-            </code>
-          </button>
-          <p>
-            Remove code or files.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔥"
+              type="button"
+            >
+              🔥
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":fire:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :fire:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Remove code or files.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -804,24 +852,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :bug:
-              </span>
-            </code>
-          </button>
-          <p>
-            Fix a bug.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🐛"
+              type="button"
+            >
+              🐛
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":bug:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :bug:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Fix a bug.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -849,24 +913,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :ambulance:
-              </span>
-            </code>
-          </button>
-          <p>
-            Critical hotfix.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🚑️"
+              type="button"
+            >
+              🚑️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":ambulance:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :ambulance:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Critical hotfix.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -894,24 +974,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :sparkles:
-              </span>
-            </code>
-          </button>
-          <p>
-            Introduce new features.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="✨"
+              type="button"
+            >
+              ✨
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":sparkles:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :sparkles:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Introduce new features.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -939,24 +1035,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :memo:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update documentation.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="📝"
+              type="button"
+            >
+              📝
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":memo:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :memo:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update documentation.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -984,24 +1096,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :rocket:
-              </span>
-            </code>
-          </button>
-          <p>
-            Deploy stuff.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🚀"
+              type="button"
+            >
+              🚀
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":rocket:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :rocket:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Deploy stuff.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1029,24 +1157,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :lipstick:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update the UI and style files.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="💄"
+              type="button"
+            >
+              💄
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":lipstick:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :lipstick:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update the UI and style files.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1074,24 +1218,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :tada:
-              </span>
-            </code>
-          </button>
-          <p>
-            Begin a project.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🎉"
+              type="button"
+            >
+              🎉
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":tada:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :tada:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Begin a project.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1119,38 +1279,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :white
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                check
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                mark:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add, update, or pass tests.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="✅"
+              type="button"
+            >
+              ✅
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":white_check_mark:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :white
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    check
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    mark:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add, update, or pass tests.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1197,6 +1373,30 @@ exports[`Pages Index should render the page 1`] = `
             height="20px"
             width="20px"
           >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":lock:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :lock:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Fix security issues.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
+          >
             <svg
               className="icon icon-star"
               height="20px"
@@ -1223,45 +1423,61 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :closed
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                lock
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                with
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                key:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update secrets.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔐"
+              type="button"
+            >
+              🔐
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":closed_lock_with_key:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :closed
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    lock
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    with
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    key:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update secrets.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1289,24 +1505,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :bookmark:
-              </span>
-            </code>
-          </button>
-          <p>
-            Release / Version tags.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔖"
+              type="button"
+            >
+              🔖
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":bookmark:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :bookmark:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Release / Version tags.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1334,31 +1566,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :rotating
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                light:
-              </span>
-            </code>
-          </button>
-          <p>
-            Fix compiler / linter warnings.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🚨"
+              type="button"
+            >
+              🚨
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":rotating_light:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :rotating
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    light:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Fix compiler / linter warnings.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1386,24 +1634,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :construction:
-              </span>
-            </code>
-          </button>
-          <p>
-            Work in progress.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🚧"
+              type="button"
+            >
+              🚧
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":construction:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :construction:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Work in progress.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1431,31 +1695,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :green
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                heart:
-              </span>
-            </code>
-          </button>
-          <p>
-            Fix CI Build.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="💚"
+              type="button"
+            >
+              💚
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":green_heart:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :green
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    heart:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Fix CI Build.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1483,31 +1763,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :arrow
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                down:
-              </span>
-            </code>
-          </button>
-          <p>
-            Downgrade dependencies.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="⬇️"
+              type="button"
+            >
+              ⬇️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":arrow_down:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :arrow
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    down:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Downgrade dependencies.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1535,31 +1831,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :arrow
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                up:
-              </span>
-            </code>
-          </button>
-          <p>
-            Upgrade dependencies.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="⬆️"
+              type="button"
+            >
+              ⬆️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":arrow_up:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :arrow
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    up:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Upgrade dependencies.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1587,24 +1899,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :pushpin:
-              </span>
-            </code>
-          </button>
-          <p>
-            Pin dependencies to specific versions.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="📌"
+              type="button"
+            >
+              📌
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":pushpin:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :pushpin:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Pin dependencies to specific versions.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1632,31 +1960,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :construction
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                worker:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update CI build system.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="👷"
+              type="button"
+            >
+              👷
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":construction_worker:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :construction
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    worker:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update CI build system.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1684,45 +2028,61 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :chart
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                with
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                upwards
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                trend:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update analytics or track code.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="📈"
+              type="button"
+            >
+              📈
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":chart_with_upwards_trend:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :chart
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    with
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    upwards
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    trend:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update analytics or track code.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1750,24 +2110,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :recycle:
-              </span>
-            </code>
-          </button>
-          <p>
-            Refactor code.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="♻️"
+              type="button"
+            >
+              ♻️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":recycle:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :recycle:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Refactor code.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1795,38 +2171,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :heavy
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                plus
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                sign:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add a dependency.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="➕"
+              type="button"
+            >
+              ➕
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":heavy_plus_sign:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :heavy
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    plus
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    sign:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add a dependency.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1854,38 +2246,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :heavy
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                minus
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                sign:
-              </span>
-            </code>
-          </button>
-          <p>
-            Remove a dependency.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="➖"
+              type="button"
+            >
+              ➖
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":heavy_minus_sign:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :heavy
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    minus
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    sign:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Remove a dependency.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1913,24 +2321,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :wrench:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update configuration files.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔧"
+              type="button"
+            >
+              🔧
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":wrench:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :wrench:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update configuration files.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -1958,24 +2382,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :hammer:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update development scripts.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔨"
+              type="button"
+            >
+              🔨
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":hammer:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :hammer:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update development scripts.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2003,38 +2443,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :globe
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                with
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                meridians:
-              </span>
-            </code>
-          </button>
-          <p>
-            Internationalization and localization.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🌐"
+              type="button"
+            >
+              🌐
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":globe_with_meridians:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :globe
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    with
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    meridians:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Internationalization and localization.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2062,24 +2518,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :pencil2:
-              </span>
-            </code>
-          </button>
-          <p>
-            Fix typos.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="✏️"
+              type="button"
+            >
+              ✏️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":pencil2:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :pencil2:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Fix typos.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2107,24 +2579,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :poop:
-              </span>
-            </code>
-          </button>
-          <p>
-            Write bad code that needs to be improved.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="💩"
+              type="button"
+            >
+              💩
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":poop:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :poop:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Write bad code that needs to be improved.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2152,24 +2640,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :rewind:
-              </span>
-            </code>
-          </button>
-          <p>
-            Revert changes.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="⏪️"
+              type="button"
+            >
+              ⏪️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":rewind:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :rewind:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Revert changes.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2197,38 +2701,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :twisted
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                rightwards
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                arrows:
-              </span>
-            </code>
-          </button>
-          <p>
-            Merge branches.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔀"
+              type="button"
+            >
+              🔀
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":twisted_rightwards_arrows:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :twisted
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    rightwards
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    arrows:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Merge branches.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2256,24 +2776,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :package:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update compiled files or packages.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="📦️"
+              type="button"
+            >
+              📦️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":package:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :package:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update compiled files or packages.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2301,24 +2837,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :alien:
-              </span>
-            </code>
-          </button>
-          <p>
-            Update code due to external API changes.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="👽️"
+              type="button"
+            >
+              👽️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":alien:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :alien:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Update code due to external API changes.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2346,24 +2898,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :truck:
-              </span>
-            </code>
-          </button>
-          <p>
-            Move or rename resources (e.g.: files, paths, routes).
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🚚"
+              type="button"
+            >
+              🚚
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":truck:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :truck:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Move or rename resources (e.g.: files, paths, routes).
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2391,38 +2959,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :page
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                facing
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                up:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update license.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="📄"
+              type="button"
+            >
+              📄
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":page_facing_up:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :page
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    facing
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    up:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update license.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2450,24 +3034,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :boom:
-              </span>
-            </code>
-          </button>
-          <p>
-            Introduce breaking changes.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="💥"
+              type="button"
+            >
+              💥
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":boom:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :boom:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Introduce breaking changes.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2495,24 +3095,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :bento:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update assets.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🍱"
+              type="button"
+            >
+              🍱
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":bento:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :bento:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update assets.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2540,24 +3156,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :wheelchair:
-              </span>
-            </code>
-          </button>
-          <p>
-            Improve accessibility.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="♿️"
+              type="button"
+            >
+              ♿️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":wheelchair:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :wheelchair:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Improve accessibility.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2585,24 +3217,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :bulb:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update comments in source code.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="💡"
+              type="button"
+            >
+              💡
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":bulb:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :bulb:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update comments in source code.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2630,24 +3278,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :beers:
-              </span>
-            </code>
-          </button>
-          <p>
-            Write code drunkenly.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🍻"
+              type="button"
+            >
+              🍻
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":beers:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :beers:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Write code drunkenly.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2675,31 +3339,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :speech
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                balloon:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update text and literals.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="💬"
+              type="button"
+            >
+              💬
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":speech_balloon:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :speech
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    balloon:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update text and literals.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2727,38 +3407,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :card
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                file
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                box:
-              </span>
-            </code>
-          </button>
-          <p>
-            Perform database related changes.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🗃️"
+              type="button"
+            >
+              🗃️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":card_file_box:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :card
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    file
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    box:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Perform database related changes.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2786,31 +3482,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :loud
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                sound:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update logs.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔊"
+              type="button"
+            >
+              🔊
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":loud_sound:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :loud
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    sound:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update logs.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2838,24 +3550,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :mute:
-              </span>
-            </code>
-          </button>
-          <p>
-            Remove logs.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔇"
+              type="button"
+            >
+              🔇
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":mute:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :mute:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Remove logs.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2883,38 +3611,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :busts
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                in
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                silhouette:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update contributor(s).
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="👥"
+              type="button"
+            >
+              👥
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":busts_in_silhouette:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :busts
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    in
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    silhouette:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update contributor(s).
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2942,31 +3686,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :children
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                crossing:
-              </span>
-            </code>
-          </button>
-          <p>
-            Improve user experience / usability.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🚸"
+              type="button"
+            >
+              🚸
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":children_crossing:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :children
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    crossing:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Improve user experience / usability.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -2994,31 +3754,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :building
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                construction:
-              </span>
-            </code>
-          </button>
-          <p>
-            Make architectural changes.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🏗️"
+              type="button"
+            >
+              🏗️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":building_construction:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :building
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    construction:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Make architectural changes.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3046,24 +3822,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :iphone:
-              </span>
-            </code>
-          </button>
-          <p>
-            Work on responsive design.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="📱"
+              type="button"
+            >
+              📱
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":iphone:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :iphone:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Work on responsive design.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3091,31 +3883,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :clown
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                face:
-              </span>
-            </code>
-          </button>
-          <p>
-            Mock things.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🤡"
+              type="button"
+            >
+              🤡
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":clown_face:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :clown
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    face:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Mock things.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3143,24 +3951,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :egg:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update an easter egg.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🥚"
+              type="button"
+            >
+              🥚
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":egg:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :egg:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update an easter egg.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3188,38 +4012,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :see
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                no
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                evil:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update a .gitignore file.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🙈"
+              type="button"
+            >
+              🙈
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":see_no_evil:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :see
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    no
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    evil:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update a .gitignore file.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3247,31 +4087,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :camera
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                flash:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update snapshots.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="📸"
+              type="button"
+            >
+              📸
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":camera_flash:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :camera
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    flash:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update snapshots.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3299,24 +4155,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :alembic:
-              </span>
-            </code>
-          </button>
-          <p>
-            Perform experiments.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="⚗️"
+              type="button"
+            >
+              ⚗️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":alembic:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :alembic:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Perform experiments.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3344,24 +4216,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :mag:
-              </span>
-            </code>
-          </button>
-          <p>
-            Improve SEO.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔍️"
+              type="button"
+            >
+              🔍️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":mag:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :mag:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Improve SEO.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3389,24 +4277,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :label:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update types.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🏷️"
+              type="button"
+            >
+              🏷️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":label:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :label:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update types.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3434,24 +4338,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :seedling:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update seed files.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🌱"
+              type="button"
+            >
+              🌱
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":seedling:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :seedling:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update seed files.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3479,45 +4399,61 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :triangular
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                flag
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                on
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                post:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add, update, or remove feature flags.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🚩"
+              type="button"
+            >
+              🚩
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":triangular_flag_on_post:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :triangular
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    flag
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    on
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    post:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add, update, or remove feature flags.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3545,31 +4481,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :goal
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                net:
-              </span>
-            </code>
-          </button>
-          <p>
-            Catch errors.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🥅"
+              type="button"
+            >
+              🥅
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":goal_net:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :goal
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    net:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Catch errors.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3597,24 +4549,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :dizzy:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update animations and transitions.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="💫"
+              type="button"
+            >
+              💫
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":dizzy:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :dizzy:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update animations and transitions.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3642,24 +4610,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :wastebasket:
-              </span>
-            </code>
-          </button>
-          <p>
-            Deprecate code that needs to be cleaned up.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🗑️"
+              type="button"
+            >
+              🗑️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":wastebasket:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :wastebasket:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Deprecate code that needs to be cleaned up.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3687,31 +4671,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :passport
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                control:
-              </span>
-            </code>
-          </button>
-          <p>
-            Work on code related to authorization, roles and permissions.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🛂"
+              type="button"
+            >
+              🛂
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":passport_control:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :passport
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    control:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Work on code related to authorization, roles and permissions.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3739,31 +4739,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :adhesive
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                bandage:
-              </span>
-            </code>
-          </button>
-          <p>
-            Simple fix for a non-critical issue.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🩹"
+              type="button"
+            >
+              🩹
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":adhesive_bandage:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :adhesive
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    bandage:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Simple fix for a non-critical issue.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3791,31 +4807,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :monocle
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                face:
-              </span>
-            </code>
-          </button>
-          <p>
-            Data exploration/inspection.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🧐"
+              type="button"
+            >
+              🧐
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":monocle_face:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :monocle
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    face:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Data exploration/inspection.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3843,24 +4875,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :coffin:
-              </span>
-            </code>
-          </button>
-          <p>
-            Remove dead code.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="⚰️"
+              type="button"
+            >
+              ⚰️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":coffin:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :coffin:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Remove dead code.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3888,31 +4936,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :test
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                tube:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add a failing test.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🧪"
+              type="button"
+            >
+              🧪
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":test_tube:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :test
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    tube:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add a failing test.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3940,24 +5004,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :necktie:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update business logic.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="👔"
+              type="button"
+            >
+              👔
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":necktie:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :necktie:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update business logic.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -3985,24 +5065,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :stethoscope:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update healthcheck.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🩺"
+              type="button"
+            >
+              🩺
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":stethoscope:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :stethoscope:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update healthcheck.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -4030,24 +5126,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :bricks:
-              </span>
-            </code>
-          </button>
-          <p>
-            Infrastructure related changes.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🧱"
+              type="button"
+            >
+              🧱
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":bricks:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :bricks:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Infrastructure related changes.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -4075,24 +5187,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :technologist:
-              </span>
-            </code>
-          </button>
-          <p>
-            Improve developer experience.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🧑‍💻"
+              type="button"
+            >
+              🧑‍💻
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":technologist:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :technologist:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Improve developer experience.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -4120,38 +5248,54 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :money
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                with
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                wings:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add sponsorships or money related infrastructure.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="💸"
+              type="button"
+            >
+              💸
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":money_with_wings:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :money
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    with
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    wings:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add sponsorships or money related infrastructure.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -4179,24 +5323,40 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :thread:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update code related to multithreading or concurrency.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🧵"
+              type="button"
+            >
+              🧵
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":thread:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :thread:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update code related to multithreading or concurrency.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"
@@ -4224,31 +5384,47 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :safety
-              </span>
-              <span>
-                _
-                <wbr />
-              </span>
-              <span>
-                vest:
-              </span>
-            </code>
-          </button>
-          <p>
-            Add or update code related to validation.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🦺"
+              type="button"
+            >
+              🦺
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
+          >
+            <div
+              className="gitmojiInfoName"
+            >
+              <button
+                className="gitmoji-clipboard-code gitmojiCode"
+                data-clipboard-text=":safety_vest:"
+                tabIndex={-1}
+                type="button"
+              >
+                <code>
+                  <span>
+                    :safety
+                  </span>
+                  <span>
+                    _
+                    <wbr />
+                  </span>
+                  <span>
+                    vest:
+                  </span>
+                </code>
+              </button>
+            </div>
+            <p>
+              Add or update code related to validation.
+            </p>
+          </div>
+          <div
+            className="gitmojiActions gitmojiShowOnHover"
+            onClick={[Function]}
           >
             <svg
               className="icon icon-star"

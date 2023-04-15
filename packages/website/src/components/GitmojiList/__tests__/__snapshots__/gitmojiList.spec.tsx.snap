@@ -121,7 +121,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :art:
+                <span>
+                  :art:
+                </span>
               </code>
             </button>
           </div>
@@ -180,7 +182,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :zap:
+                <span>
+                  :zap:
+                </span>
               </code>
             </button>
           </div>
@@ -239,7 +243,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :fire:
+                <span>
+                  :fire:
+                </span>
               </code>
             </button>
           </div>
@@ -298,7 +304,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :bug:
+                <span>
+                  :bug:
+                </span>
               </code>
             </button>
           </div>
@@ -357,7 +365,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :ambulance:
+                <span>
+                  :ambulance:
+                </span>
               </code>
             </button>
           </div>
@@ -416,7 +426,9 @@ exports[`GitmojiList when is list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :sparkles:
+                <span>
+                  :sparkles:
+                </span>
               </code>
             </button>
           </div>
@@ -553,7 +565,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :art:
+                <span>
+                  :art:
+                </span>
               </code>
             </button>
           </div>
@@ -612,7 +626,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :zap:
+                <span>
+                  :zap:
+                </span>
               </code>
             </button>
           </div>
@@ -671,7 +687,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :fire:
+                <span>
+                  :fire:
+                </span>
               </code>
             </button>
           </div>
@@ -730,7 +748,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :bug:
+                <span>
+                  :bug:
+                </span>
               </code>
             </button>
           </div>
@@ -789,7 +809,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :ambulance:
+                <span>
+                  :ambulance:
+                </span>
               </code>
             </button>
           </div>
@@ -848,7 +870,9 @@ exports[`GitmojiList when is not list mode should render the component 1`] = `
               type="button"
             >
               <code>
-                :sparkles:
+                <span>
+                  :sparkles:
+                </span>
               </code>
             </button>
           </div>
