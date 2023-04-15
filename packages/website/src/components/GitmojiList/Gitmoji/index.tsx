@@ -38,22 +38,22 @@ const Gitmoji = (props: Props) => {
         </header>
         <div className={styles.gitmojiInfo}>
           <div className={styles.gitmojiInfoName}>
-          <button
-            className={`gitmoji-clipboard-code ${styles.gitmojiCode}`}
-            data-clipboard-text={props.code}
-            tabIndex={-1}
-            type="button"
-          >
-            <code>
-              {replaceWithJSX(
-                props.code,
-                '_',
-                <>
-                  _<wbr />
-                </>,
-              )}
-            </code>
-          </button>
+            <button
+              className={`gitmoji-clipboard-code ${styles.gitmojiCode}`}
+              data-clipboard-text={props.code}
+              tabIndex={-1}
+              type="button"
+            >
+              <code>
+                {replaceWithJSX(
+                  props.code,
+                  '_',
+                  <>
+                    _<wbr />
+                  </>
+                )}
+              </code>
+            </button>
           </div>
           <p>{props.description}</p>
         </div>
