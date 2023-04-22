@@ -584,6 +584,14 @@
       "description": "Add or update code related to validation.",
       "name": "safety-vest",
       "semver": null
+    },
+    {
+      "emoji": "⛄",
+      "entity": "&#x26C4;;",
+      "code": ":snowman:",
+      "description": "Add or update code related to snowman.",
+      "name": "snowman",
+      "semver": null
     }
   ]
 }
