@@ -8046,9 +8046,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-sitemap@npm:^4.0.7":
-  version: 4.0.7
-  resolution: "next-sitemap@npm:4.0.7"
+"next-sitemap@npm:^4.0.8":
+  version: 4.0.8
+  resolution: "next-sitemap@npm:4.0.8"
   dependencies:
     "@corex/deepmerge": ^4.0.37
     minimist: ^1.2.8
@@ -8058,7 +8058,7 @@ __metadata:
   bin:
     next-sitemap: bin/next-sitemap.mjs
     next-sitemap-cjs: bin/next-sitemap.cjs
-  checksum: 55f3a693b5e6d47aaac946b51d55aa37fa58995f7082f65a4128b0be665d4ef7cabe0099568834e496f3770cde267da7a8de03b3b570cde0124d25e7b05159e1
+  checksum: e431dfee04768a0dadf465b98a230f4190390b42c58df4806af7a8127c04703497bdf9e87771a9a11762b0510e1f41eea654813dfecac36dcb83a74795262c38
   languageName: node
   linkType: hard
 
@@ -10554,7 +10554,7 @@ __metadata:
     lint-staged: ^13.2.1
     next: ^13.3.1
     next-pwa: ^5.4.4
-    next-sitemap: ^4.0.7
+    next-sitemap: ^4.0.8
     next-themes: ^0.2.0
     node-mocks-http: ^1.12.2
     prettier: 2.8.8
