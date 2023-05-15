@@ -29,7 +29,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-react": "^7.32.2",
-    "focus-trap-react": "^10.1.1",
+    "focus-trap-react": "^10.1.2",
     "gitmojis": "workspace:*",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",

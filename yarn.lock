@@ -5573,26 +5573,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"focus-trap-react@npm:^10.1.1":
-  version: 10.1.1
-  resolution: "focus-trap-react@npm:10.1.1"
+"focus-trap-react@npm:^10.1.2":
+  version: 10.1.2
+  resolution: "focus-trap-react@npm:10.1.2"
   dependencies:
-    focus-trap: ^7.4.0
-    tabbable: ^6.1.1
+    focus-trap: ^7.4.1
+    tabbable: ^6.1.2
   peerDependencies:
     prop-types: ^15.8.1
     react: ">=16.3.0"
     react-dom: ">=16.3.0"
-  checksum: 66bf8d9efa0efda77b7dc2591736fa38e2892151362db7543ea81e70187b8d2e25f471a31175eb0596a862ec8c6391c943bc5fbf69cfaaeb61c0ef2aa3e4750c
+  checksum: db6ff798011d37b6152dd969a07e82560aeaf88c0394475816ec73a680687c0865d436926af034502e25808876babbde1672d54e75ccd9263792c738471e0d14
   languageName: node
   linkType: hard
 
-"focus-trap@npm:^7.4.0":
-  version: 7.4.0
-  resolution: "focus-trap@npm:7.4.0"
+"focus-trap@npm:^7.4.1":
+  version: 7.4.1
+  resolution: "focus-trap@npm:7.4.1"
   dependencies:
-    tabbable: ^6.1.1
-  checksum: e55d07295f1facf3a82fb7b78713c196f893a82a04ec9a8ab95306a3099ac8fc30dba982651e4fa8a0f3fba623e3120baf419a1c31da3c25223c0bfbece340aa
+    tabbable: ^6.1.2
+  checksum: 33d0f219f2b5d318205c589d20c485db0dafcea0b82cc756e714920bf18d769b488bab7e13041e85a90788e46dff7f513998849c3b392f99691b7dd205f82e6a
   languageName: node
   linkType: hard
 
@@ -9856,10 +9856,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tabbable@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "tabbable@npm:6.1.1"
-  checksum: 348639497262241ce8e0ccb0664ea582a386183107299ee8f27cf7b56bc84f36e09eaf667d3cb4201e789634012a91f7129bcbd49760abe874fbace35b4cf429
+"tabbable@npm:^6.1.2":
+  version: 6.1.2
+  resolution: "tabbable@npm:6.1.2"
+  checksum: 1e2d9af4f172a3793f491bab10263c26903c2be6a5c4ab723d69d1ba2054828d22a50add9ba7fc42735468871d40054d906fa4f0a9dc2fbd4feff875e84c1a89
   languageName: node
   linkType: hard
 
@@ -10545,7 +10545,7 @@ __metadata:
     eslint-plugin-import: ^2.27.5
     eslint-plugin-jest: ^27.2.1
     eslint-plugin-react: ^7.32.2
-    focus-trap-react: ^10.1.1
+    focus-trap-react: ^10.1.2
     gitmojis: "workspace:*"
     jest: ^29.5.0
     jest-environment-jsdom: ^29.5.0
