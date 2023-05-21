@@ -2,7 +2,7 @@
   "name": "gitmoji",
   "private": true,
   "engines": {
-    "node": "16"
+    "node": "18"
   },
   "workspaces": [
     "packages/*"
