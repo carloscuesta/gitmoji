@@ -427,7 +427,7 @@
     },
     {
       "emoji": "⚗️",
-      "entity": "&#128248;",
+      "entity": "&#x2697;",
       "code": ":alembic:",
       "description": "Perform experiments.",
       "name": "alembic",
