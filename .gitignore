@@ -8,12 +8,6 @@ coverage/
 .eslintcache
 *.log
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
 
 # next-pwa
 packages/website/public/workbox-*.js
