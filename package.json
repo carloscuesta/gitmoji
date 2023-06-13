@@ -2,7 +2,8 @@
   "name": "gitmoji",
   "private": true,
   "engines": {
-    "node": "18"
+    "node": "18",
+    "pnpm": ">=8"
   },
   "scripts": {
     "prepare": "husky install",
