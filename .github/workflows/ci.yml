@@ -18,13 +18,13 @@ jobs:
       - name: Install Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          cache: "yarn"
+          cache: "pnpm"
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies 📦
-        run: yarn install --immutable
+        run: pnpm install
       - name: Lint 🎨
-        run: yarn turbo lint
+        run: pnpm exec turbo lint
       - name: TypeScript check 🏷
-        run: yarn turbo tscheck
+        run: pnpm exec turbo tscheck
       - name: Tests ✅
-        run: yarn turbo test
+        run: pnpm exec turbo test
