@@ -53,7 +53,7 @@ $ cd gitmoji
 2. Install the dependencies and start the development server.
 
 ```bash
-$ pnpm install install && pnpm run dev
+$ pnpm install && pnpm run dev
 ```
 
 The project is built with [Next.js](http://nextjs.org)
