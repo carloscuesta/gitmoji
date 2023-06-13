@@ -11,8 +11,8 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
 1. Fork [this repository](https://github.com/carloscuesta/gitmoji/fork).
 2. Create a new branch with the feature name. (Eg: add-emoji-deploy, fix-website-header)
 3. Make your changes.
-4. Test you changes by running `yarn turbo test`
-   - 4.1. If the snapshots are failing run `yarn turbo test -- -u` and be sure that the new snapshots match your changes
+4. Test you changes by running `pnpm exec turbo test`
+   - 4.1. If the snapshots are failing run `pnpm exec turbo test -- -u` and be sure that the new snapshots match your changes
 5. Commit your changes. Don't forget to add a commit title with an emoji and a description.
 6. Push your changes.
 7. Submit your pull request.
@@ -53,7 +53,7 @@ $ cd gitmoji
 2. Install the dependencies and start the development server.
 
 ```bash
-$ yarn install && yarn run dev
+$ pnpm install install && pnpm run dev
 ```
 
 The project is built with [Next.js](http://nextjs.org)
