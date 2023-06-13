@@ -15,10 +15,10 @@
     "dist"
   ],
   "scripts": {
-    "dev": "nodemon --exec 'yarn build' --watch ./src",
+    "dev": "nodemon --exec 'pnpm run build' --watch ./src",
     "build": "unbuild",
     "lint:json": "ajv --spec=draft2020 validate -s ./src/schema.json -d ./src/gitmojis.json",
-    "lint": "yarn run lint:json && prettier --check ./src/**/*.{js,json,ts}",
+    "lint": "pnpm run lint:json && prettier --check ./src/**/*.{js,json,ts}",
     "publishPackage": "npm publish"
   },
   "devDependencies": {
