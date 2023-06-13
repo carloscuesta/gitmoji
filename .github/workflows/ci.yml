@@ -24,8 +24,8 @@ jobs:
       - name: Install dependencies 📦
         run: pnpm install
       - name: Lint 🎨
-        run: pnpm exec turbo lint
+        run: pnpm turbo lint
       - name: TypeScript check 🏷
-        run: pnpm exec turbo tscheck
+        run: pnpm turbo tscheck
       - name: Tests ✅
-        run: pnpm exec turbo test
+        run: pnpm turbo test

@@ -16,13 +16,13 @@ jobs:
       - name: Install dependencies 📦
         run: pnpm install
       - name: Build 👷‍♂️
-        run: pnpm exec turbo run build --filter=gitmojis
+        run: pnpm turbo run build --filter=gitmojis
       - name: Publish package to NPM 🚀
         env:
           NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
         run: |
           npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
-          pnpm exec turbo publishPackage
+          pnpm turbo publishPackage
       - name: Publish GitHub Release 📝
         uses: softprops/action-gh-release@v1
         with:

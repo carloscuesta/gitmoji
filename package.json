@@ -6,7 +6,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "dev": "pnpm exec turbo --parallel dev"
+    "dev": "pnpm turbo --parallel dev"
   },
   "devDependencies": {
     "@vercel/analytics": "^1.0.1",

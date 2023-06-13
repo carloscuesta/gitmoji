@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-pnpm exec turbo tscheck && pnpm exec turbo test
+pnpm turbo tscheck && pnpm turbo test
