@@ -3,11 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "node": "16"
+    "node": "18"
   },
   "scripts": {
     "build": "next build && next-sitemap",
-    "tscheck": "yarn tsc --noEmit",
+    "tscheck": "pnpm exec tsc --noEmit",
     "dev": "next dev",
     "lint": "eslint ./src && prettier --check ./src/**/*.{ts,tsx,css}",
     "start": "next start",
