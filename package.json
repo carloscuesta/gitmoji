@@ -2,14 +2,12 @@
   "name": "gitmoji",
   "private": true,
   "engines": {
-    "node": "18"
+    "node": "18",
+    "pnpm": ">=8"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "prepare": "husky install",
-    "dev": "yarn turbo --parallel dev"
+    "dev": "pnpm turbo --parallel dev"
   },
   "devDependencies": {
     "@vercel/analytics": "^1.0.1",
@@ -21,5 +19,5 @@
   "volta": {
     "node": "16.15.0"
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "pnpm@8.6.2"
 }

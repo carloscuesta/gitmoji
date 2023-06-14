@@ -8,20 +8,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
       - uses: actions/setup-node@v3
         with:
-          cache: "yarn"
+          cache: "pnpm"
           node-version: "18"
       - name: Install dependencies 📦
-        run: yarn install --immutable
+        run: pnpm install
       - name: Build 👷‍♂️
-        run: yarn turbo run build --filter=gitmojis
+        run: pnpm turbo run build --filter=gitmojis
       - name: Publish package to NPM 🚀
         env:
           NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
         run: |
           npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
-          yarn turbo publishPackage
+          pnpm turbo publishPackage
       - name: Publish GitHub Release 📝
         uses: softprops/action-gh-release@v1
         with:
