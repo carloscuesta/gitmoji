@@ -18,7 +18,7 @@
     "@types/jest": "^29.5.2",
     "@types/react": "^18.2.11",
     "@types/react-test-renderer": "^18.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
     "@typescript-eslint/parser": "^5.59.11",
     "clipboard": "^2.0.11",
     "eslint": "^8.42.0",
