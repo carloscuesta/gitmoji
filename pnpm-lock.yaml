@@ -51,8 +51,8 @@ importers:
         specifier: ^29.5.2
         version: 29.5.2
       '@types/react':
-        specifier: ^18.2.12
-        version: 18.2.12
+        specifier: ^18.2.14
+        version: 18.2.14
       '@types/react-test-renderer':
         specifier: ^18.0.0
         version: 18.0.0
@@ -2374,11 +2374,11 @@ packages:
   /@types/react-test-renderer@18.0.0:
     resolution: {integrity: sha512-C7/5FBJ3g3sqUahguGi03O79b8afNeSD6T8/GU50oQrJCU0bVCCGQHaGKUbg2Ce8VQEEqTw8/HiS6lXHHdgkdQ==}
     dependencies:
-      '@types/react': 18.2.12
+      '@types/react': 18.2.14
     dev: true
 
-  /@types/react@18.2.12:
-    resolution: {integrity: sha512-ndmBMLCgn38v3SntMeoJaIrO6tGHYKMEBohCUmw8HoLLQdRMOIGXfeYaBTLe2lsFaSB3MOK1VXscYFnmLtTSmw==}
+  /@types/react@18.2.14:
+    resolution: {integrity: sha512-A0zjq+QN/O0Kpe30hA1GidzyFjatVvrpIvWLxD+xv67Vt91TWWgco9IvrJBkeyHm1trGaFS/FSGqPlhyeZRm0g==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
