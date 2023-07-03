@@ -114,8 +114,8 @@ importers:
         specifier: ^5.6.0
         version: 5.6.0(@babel/core@7.22.5)(next@13.4.7)(webpack@5.86.0)
       next-sitemap:
-        specifier: ^4.1.3
-        version: 4.1.3(@next/env@13.4.7)(next@13.4.7)
+        specifier: ^4.1.8
+        version: 4.1.8(next@13.4.7)
       next-themes:
         specifier: ^0.2.0
         version: 0.2.0(next@13.4.7)(react-dom@18.2.0)(react@18.2.0)
@@ -6013,12 +6013,11 @@ packages:
       - webpack
     dev: true
 
-  /next-sitemap@4.1.3(@next/env@13.4.7)(next@13.4.7):
-    resolution: {integrity: sha512-eCvbXMCqbD/rYx912y4FzGOqPCbWOIBL4UkgVY5R15eCXygKFKWzEVZGPNVBDu2KVpRCeG943NibOchfyQGDhQ==}
+  /next-sitemap@4.1.8(next@13.4.7):
+    resolution: {integrity: sha512-XAXpBHX4o89JfMgvrm0zimlZwpu2iBPXHpimJMUrqOZSc4C2oB1Lv89mxuVON9IE8HOezaM+w4GjJxcYCuGPTQ==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
-      '@next/env': '*'
       next: '*'
     dependencies:
       '@corex/deepmerge': 4.0.43
