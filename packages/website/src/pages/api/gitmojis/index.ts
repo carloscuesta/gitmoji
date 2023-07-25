@@ -3,7 +3,7 @@ import { gitmojis } from 'gitmojis'
 
 const getGitmojis = (
   request: NextApiRequest,
-  response: NextApiResponse
+  response: NextApiResponse,
 ): void => {
   const { method } = request
 

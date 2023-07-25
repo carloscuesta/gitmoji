@@ -44,7 +44,7 @@ const GitmojiList = (props: Props) => {
 
   useEffect(() => {
     const clipboard = new Clipboard(
-      '.gitmoji-clipboard-emoji, .gitmoji-clipboard-code'
+      '.gitmoji-clipboard-emoji, .gitmoji-clipboard-code',
     )
 
     clipboard.on('success', function (e) {
@@ -71,7 +71,7 @@ const GitmojiList = (props: Props) => {
             fontWeight: 600,
             fontSize: '90%',
           },
-        }
+        },
       )
     })
 

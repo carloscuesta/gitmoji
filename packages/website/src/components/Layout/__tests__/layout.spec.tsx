@@ -22,7 +22,7 @@ describe('Layout', () => {
     const wrapper = renderer.create(
       <Layout {...stubs.props}>
         <p>Some children</p>
-      </Layout>
+      </Layout>,
     )
     expect(wrapper).toMatchSnapshot()
   })
@@ -32,12 +32,12 @@ describe('Layout', () => {
       <Layout>
         <h1>Some children</h1>
         <h2>Hello!</h2>
-      </Layout>
+      </Layout>,
     )
 
     expect(Router.events.on).toHaveBeenCalledWith(
       'routeChangeStart',
-      expect.any(Function)
+      expect.any(Function),
     )
   })
 
@@ -46,14 +46,14 @@ describe('Layout', () => {
       <Layout>
         <h1>Some children</h1>
         <h2>Hello!</h2>
-      </Layout>
+      </Layout>,
     )
 
     wrapper.unmount()
 
     expect(Router.events.on).toHaveBeenCalledWith(
       'routeChangeStart',
-      expect.any(Function)
+      expect.any(Function),
     )
   })
 

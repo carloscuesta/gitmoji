@@ -11,7 +11,7 @@ type Contributor = {
 }
 
 const Contributors = (
-  props: InferGetStaticPropsType<typeof getStaticProps>
+  props: InferGetStaticPropsType<typeof getStaticProps>,
 ) => (
   <>
     <SEO pageTitle="Contributors" pageUrl="/contributors" />
@@ -37,7 +37,7 @@ export const getStaticProps: GetStaticProps<{
     login: string
   }
   const response = await fetch(
-    'https://api.github.com/repos/carloscuesta/gitmoji/contributors'
+    'https://api.github.com/repos/carloscuesta/gitmoji/contributors',
   )
   const contributors: GitHubContributor[] = await response.json()
 

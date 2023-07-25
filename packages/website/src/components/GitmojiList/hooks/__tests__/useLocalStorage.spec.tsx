@@ -33,19 +33,19 @@ describe('useLocalStorage', () => {
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}
-        />
+        />,
       )
 
       wrapper.update(
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}
-        />
+        />,
       )
 
       expect(window.localStorage.setItem).toHaveBeenCalledWith(
         stubs.localStorageMock.key,
-        stubs.localStorageMock.value
+        stubs.localStorageMock.value,
       )
     })
   })
@@ -74,14 +74,14 @@ describe('useLocalStorage', () => {
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}
-        />
+        />,
       )
 
       wrapper.update(
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}
-        />
+        />,
       )
 
       expect(console.error).toHaveBeenCalledWith(expect.any(String))
