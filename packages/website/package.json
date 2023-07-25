@@ -40,7 +40,7 @@
     "next-sitemap": "^4.1.8",
     "next-themes": "^0.2.0",
     "node-mocks-http": "^1.12.2",
-    "prettier": "2.8.8",
+    "prettier": "3.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
