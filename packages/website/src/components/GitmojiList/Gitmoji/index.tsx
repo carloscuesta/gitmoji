@@ -46,7 +46,7 @@ const Gitmoji = (props: Props) => {
                 '_',
                 <>
                   _<wbr />
-                </>
+                </>,
               )}
             </code>
           </button>

@@ -84,7 +84,7 @@ describe('Pages', () => {
 
     it('should render the page', () => {
       const wrapper = renderer.create(
-        <Contributors contributors={stubs.contributors} />
+        <Contributors contributors={stubs.contributors} />,
       )
       expect(wrapper).toMatchSnapshot()
     })
