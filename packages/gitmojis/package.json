@@ -25,7 +25,7 @@
     "ajv-cli": "^5.0.0",
     "lint-staged": "^13.2.3",
     "nodemon": "^3.0.1",
-    "prettier": "3.0.0",
+    "prettier": "3.0.1",
     "unbuild": "^1.2.1"
   },
   "author": {
