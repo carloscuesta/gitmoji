@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/fetch-mock": "^7.3.5",
     "@types/jest": "^29.5.3",
-    "@types/react": "^18.2.18",
+    "@types/react": "^18.2.20",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^6.4.0",
