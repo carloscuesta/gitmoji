@@ -48,8 +48,6 @@ const GitmojiList = (props: Props) => {
     )
 
     clipboard.on('success', function (e) {
-      ;(window as any).ga('send', 'event', 'Gitmoji', 'Copy to Clipboard')
-
       toast(
         (t) => (
           <span className={styles.notification}>

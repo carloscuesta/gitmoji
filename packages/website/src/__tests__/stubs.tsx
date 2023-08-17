@@ -1,5 +1,5 @@
 export const appProps = {
-  Component: (props: any) => <div {...props}>Component</div>,
+  Component: (props: object) => <div {...props}>Component</div>,
   pageProps: { test: '' },
 }
 
