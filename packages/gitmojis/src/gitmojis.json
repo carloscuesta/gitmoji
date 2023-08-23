@@ -478,7 +478,7 @@
       "entity": "&#x1f4ab;",
       "code": ":dizzy:",
       "description": "Add or update animations and transitions.",
-      "name": "animation",
+      "name": "dizzy",
       "semver": "patch"
     },
     {
