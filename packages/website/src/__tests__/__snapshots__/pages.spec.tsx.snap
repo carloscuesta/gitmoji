@@ -1354,24 +1354,16 @@ exports[`Pages Index should render the page 1`] = `
           <header
             className="cardHeader"
           >
-            <code>
-              <span>
-                :lock:
-              </span>
-            </code>
-          </button>
-          <p>
-            Fix security or privacy issues.
-          </p>
-        </div>
-        <div
-          className="gitmojiActions gitmojiShowOnHover"
-          onClick={[Function]}
-        >
-          <svg
-            className="icon icon-star"
-            height="20px"
-            width="20px"
+            <button
+              className="gitmoji-clipboard-emoji gitmoji"
+              data-clipboard-text="🔒️"
+              type="button"
+            >
+              🔒️
+            </button>
+          </header>
+          <div
+            className="gitmojiInfo"
           >
             <div
               className="gitmojiInfoName"
@@ -1390,7 +1382,7 @@ exports[`Pages Index should render the page 1`] = `
               </button>
             </div>
             <p>
-              Fix security issues.
+              Fix security or privacy issues.
             </p>
           </div>
           <div

@@ -18,11 +18,11 @@ const GitmojiList = (props: Props) => {
   const [searchInput, setSearchInput] = useState('')
   const [isListMode, setIsListMode] = useLocalStorage<boolean>(
     'isListMode',
-    false
+    false,
   )
   const [pinnedEmojis, setPinnedEmojis] = useLocalStorage<string[]>(
     'pinnedEmojis',
-    []
+    [],
   )
   const [isMounted, setIsMounted] = useState<boolean>(false)
   const [emojis, setEmojis] = useState([...props.gitmojis])
@@ -53,7 +53,7 @@ const GitmojiList = (props: Props) => {
   const onPinClick = (code: string, emoji: string): void => {
     if (isPinned(code)) {
       setPinnedEmojis((current: string[]) =>
-        current.filter((pinned) => pinned !== code)
+        current.filter((pinned) => pinned !== code),
       )
     } else {
       setPinnedEmojis((emojis: string[]) => [...emojis, code])
@@ -79,7 +79,7 @@ const GitmojiList = (props: Props) => {
           fontWeight: 600,
           fontSize: '90%',
         },
-      }
+      },
     )
   }
 
