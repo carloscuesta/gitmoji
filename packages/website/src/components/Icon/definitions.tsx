@@ -53,6 +53,10 @@ export const IconDefinitions = () => (
         </g>
         <circle cx="15.1" cy="24.9" r="2.5" fill="#3e4347" />
       </symbol>
+      <symbol id="icon-twitter-x" viewBox="0 0 48 35">
+        <title>twitter-x</title>
+        <path d="M12.91 5.477l14.813 19.882-14.907 16.164h3.356l13.05-14.152 10.544 14.152h11.418l-15.645-21L49.414 5.477H46.06l-12.02 13.035-9.71-13.035zm4.934 2.48h5.242L46.25 39.043h-5.246zm0 0"></path>
+      </symbol>
       <symbol id="icon-list" x="0px" y="0px" viewBox="0 0 512 512">
         <title>list</title>
         <path
