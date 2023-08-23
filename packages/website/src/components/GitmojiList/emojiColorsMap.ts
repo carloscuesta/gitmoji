@@ -3,7 +3,7 @@ export default {
   alembic: '#7f39fb',
   alien: '#c5e763',
   ambulance: '#fb584a',
-  animation: '#ffdb3a',
+  dizzy: '#ffdb3a',
   'arrow-down': '#ef5350',
   'arrow-up': '#00e676',
   art: '#ff7281',
