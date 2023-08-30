@@ -17,7 +17,7 @@ const Header = (props: Props) => (
         text="GitHub"
       />
       <Button
-        icon="twitter"
+        icon="twitter-x"
         link={
           'https://twitter.com/intent/tweet?text=gitmoji' +
           '%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit' +
@@ -25,7 +25,7 @@ const Header = (props: Props) => (
           '&url=https://gitmoji.dev'
         }
         target="_blank"
-        text="Tweet"
+        text="Share"
       />
     </div>
   </header>
