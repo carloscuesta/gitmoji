@@ -1151,7 +1151,7 @@ exports[`Pages Index should render the page 1`] = `
             </code>
           </button>
           <p>
-            Fix security issues.
+            Fix security or privacy issues.
           </p>
         </div>
       </div>

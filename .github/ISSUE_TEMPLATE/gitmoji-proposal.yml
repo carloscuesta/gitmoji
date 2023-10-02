@@ -50,7 +50,7 @@ body:
   - type: checkboxes
     id: emoji-what-how
     attributes:
-      label:  Does this emoji fall into the "how" or the "what" category?
+      label: Does this emoji fall into the "how" or the "what" category?
       description: |
         We are trying to always describe/categorize "what" has been done in a particular commit, not the "how" it was done (the exceptions being :poop: and :beers:).
 
@@ -59,7 +59,7 @@ body:
         | Examples of "what" commits                    | Examples of "how" commits                         |
         | --------------------------                    | -------------------------                         |
         | :white_check_mark: Add, update, or pass tests | :hankey: Write bad code that needs to be improved |
-        | :lock: Fix security issues                    | :beers: Write code drunkenly                      |
+        | :lock: Fix security or privacy issues         | :beers: Write code drunkenly                      |
         | :zap: Improve performance                     | :robot: Write an automated commit by a script     |
       options:
         - label: This proposal do **not** describe "how" a commit was made, but does in fact describe "what" is the contents of the commit about.
@@ -69,7 +69,7 @@ body:
   - type: textarea
     id: emoji-examples
     attributes:
-      label:  Examples
+      label: Examples
       description: Include some examples using this emoji.
       placeholder: Examples
     validations:
