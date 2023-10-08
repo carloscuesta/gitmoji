@@ -36,7 +36,7 @@ const Specification = () => (
           </li>
         </ul>
 
-        <pre>
+        <pre className="overflow-x-adjust">
           <code>&lt;intention&gt; [scope?][:?] &lt;message&gt;</code>
         </pre>
       </section>

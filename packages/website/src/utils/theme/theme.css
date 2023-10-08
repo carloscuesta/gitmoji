@@ -114,6 +114,27 @@ pre {
   padding: 1em;
 }
 
+.overflow-x-adjust {
+  overflow-x: auto;
+}
+
+.overflow-x-adjust::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+
+.overflow-x-adjust::-webkit-scrollbar-track {
+  background-color: var(--secondary);
+}
+
+.overflow-x-adjust::-webkit-scrollbar-thumb {
+  background-color: var(--secondaryShadow);
+}
+
+.overflow-x-adjust::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
+
 .wrap {
   max-width: 1100px;
   margin: 0 auto;
