@@ -119,17 +119,6 @@ pre {
 }
 
 
-.overflow-x-adjust::-webkit-scrollbar-track {
-  background-color: var(--secondary);
-}
-
-.overflow-x-adjust::-webkit-scrollbar-thumb {
-  background-color: var(--secondaryShadow);
-}
-
-.overflow-x-adjust::-webkit-scrollbar-thumb:hover {
-  background-color: #555555;
-}
 
 .wrap {
   max-width: 1100px;
