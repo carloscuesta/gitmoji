@@ -118,10 +118,6 @@ pre {
   overflow-x: auto;
 }
 
-.overflow-x-adjust::-webkit-scrollbar {
-  width: 10px;
-  height: 4px;
-}
 
 .overflow-x-adjust::-webkit-scrollbar-track {
   background-color: var(--secondary);
