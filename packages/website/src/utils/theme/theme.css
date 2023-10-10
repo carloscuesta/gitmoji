@@ -114,6 +114,10 @@ pre {
   padding: 1em;
 }
 
+.overflow-x-adjust {
+  overflow-x: auto;
+}
+
 .wrap {
   max-width: 1100px;
   margin: 0 auto;

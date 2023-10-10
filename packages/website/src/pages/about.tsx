@@ -51,7 +51,7 @@ const About = () => (
           A gitmoji interactive client for using emojis on commit messages.
         </p>
 
-        <pre>
+        <pre className="overflow-x-adjust">
           <code>$ npm i -g gitmoji-cli</code>
         </pre>
       </section>

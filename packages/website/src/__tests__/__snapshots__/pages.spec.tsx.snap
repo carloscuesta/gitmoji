@@ -87,7 +87,9 @@ exports[`Pages About should render the page 1`] = `
       </a>
       . A gitmoji interactive client for using emojis on commit messages.
     </p>
-    <pre>
+    <pre
+      className="overflow-x-adjust"
+    >
       <code>
         $ npm i -g gitmoji-cli
       </code>
@@ -4154,7 +4156,9 @@ exports[`Pages Specification should render the page 1`] = `
         : A brief explanation of the change.
       </li>
     </ul>
-    <pre>
+    <pre
+      className="overflow-x-adjust"
+    >
       <code>
         &lt;intention&gt; [scope?][:?] &lt;message&gt;
       </code>
