@@ -93,7 +93,7 @@
       "emoji": "🔒️",
       "entity": "&#x1f512;",
       "code": ":lock:",
-      "description": "Fix security issues.",
+      "description": "Fix security or privacy issues.",
       "name": "lock",
       "semver": "patch"
     },
