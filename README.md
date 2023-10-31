@@ -40,7 +40,7 @@ In case you need some ideas to integrate gitmoji in your project, here's a pract
 
 - `intention`: An emoji from the list.
 - `scope`: An optional string that adds contextual information for the scope of the change.
-- `message:` A brief explanation of the change.
+- `message`: A brief explanation of the change.
 
 ## Contributing to gitmoji
 
