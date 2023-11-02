@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/fetch-mock": "^7.3.5",
-    "@types/jest": "^29.5.3",
+    "@types/jest": "^29.5.7",
     "@types/react": "^18.2.25",
     "@types/react-test-renderer": "^18.0.3",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
@@ -31,7 +31,7 @@
     "eslint-plugin-react": "^7.33.2",
     "focus-trap-react": "^10.2.2",
     "gitmojis": "workspace:*",
-    "jest": "^29.6.2",
+    "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.6.4",
     "jest-fetch-mock": "^3.0.3",
     "lint-staged": "^14.0.1",
