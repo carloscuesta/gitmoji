@@ -19,7 +19,7 @@
     "@types/react": "^18.2.25",
     "@types/react-test-renderer": "^18.0.3",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
-    "@typescript-eslint/parser": "^6.5.0",
+    "@typescript-eslint/parser": "^6.9.1",
     "clipboard": "^2.0.11",
     "eslint": "^8.48.0",
     "eslint-config-next": "^14.0.1",
