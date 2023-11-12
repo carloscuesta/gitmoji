@@ -114,6 +114,10 @@ pre {
   padding: 1em;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-x-adjust {
   overflow-x: auto;
 }
