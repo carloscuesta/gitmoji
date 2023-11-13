@@ -20,6 +20,14 @@ const Hamburger = () => {
     return () => Router.events.off('routeChangeStart', onRouteChangeStart)
   }, [])
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add('overflow-hidden')
+    } else {
+      document.body.classList.remove('overflow-hidden')
+    }
+  }, [isOpen])
+
   return (
     <div className={styles.hamburger}>
       <button
