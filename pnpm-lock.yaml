@@ -8,9 +8,6 @@ importers:
 
   .:
     devDependencies:
-      '@vercel/analytics':
-        specifier: ^1.1.1
-        version: 1.1.1
       husky:
         specifier: ^8.0.3
         version: 8.0.3
@@ -62,6 +59,9 @@ importers:
       '@typescript-eslint/parser':
         specifier: ^6.9.1
         version: 6.9.1(eslint@8.48.0)(typescript@5.2.2)
+      '@vercel/analytics':
+        specifier: ^1.1.1
+        version: 1.1.1
       clipboard:
         specifier: ^2.0.11
         version: 2.0.11
