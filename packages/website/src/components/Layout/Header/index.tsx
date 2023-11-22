@@ -12,7 +12,7 @@ const Header = (props: Props) => (
     )}
     <div className={styles.buttons}>
       <Button
-        icon="star"
+        icon="star-fill"
         link="https://github.com/carloscuesta/gitmoji"
         text="GitHub"
       />
