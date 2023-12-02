@@ -42,8 +42,8 @@ importers:
   packages/website:
     devDependencies:
       '@types/fetch-mock':
-        specifier: ^7.3.7
-        version: 7.3.7
+        specifier: ^7.3.8
+        version: 7.3.8
       '@types/jest':
         specifier: ^29.5.7
         version: 29.5.7
@@ -2483,8 +2483,8 @@ packages:
     resolution: {integrity: sha512-LG4opVs2ANWZ1TJoKc937iMmNstM/d0ae1vNbnBvBhqCSezgVUOzcLCqbI5elV8Vy6WKwKjaqR+zO9VKirBBCA==}
     dev: true
 
-  /@types/fetch-mock@7.3.7:
-    resolution: {integrity: sha512-VKtaL2UUTFLXN+JoBOhF0elvQ5eu7ViSVAJDnogsDz4ygWV8/SaAKfJjFbZkHeV/jpAotObjitXM+VZcs+mwGQ==}
+  /@types/fetch-mock@7.3.8:
+    resolution: {integrity: sha512-ztsIGiyUvD0GaqPc9/hb8k20gnr6lupqA6SFtqt+8v2mtHhNO/Ebb6/b7N6af/7x0A7s1C8nxrEGzajMBqz8qA==}
     dev: true
 
   /@types/glob@7.2.0:
