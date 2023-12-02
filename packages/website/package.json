@@ -33,7 +33,7 @@
     "focus-trap-react": "^10.2.2",
     "gitmojis": "workspace:*",
     "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.6.4",
+    "jest-environment-jsdom": "^29.7.0",
     "jest-fetch-mock": "^3.0.3",
     "lint-staged": "^14.0.1",
     "next": "^13.5.4",
