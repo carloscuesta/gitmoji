@@ -45,8 +45,8 @@ importers:
         specifier: ^7.3.8
         version: 7.3.8
       '@types/jest':
-        specifier: ^29.5.7
-        version: 29.5.7
+        specifier: ^29.5.11
+        version: 29.5.11
       '@types/react':
         specifier: ^18.2.41
         version: 18.2.41
@@ -2516,8 +2516,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest@29.5.7:
-    resolution: {integrity: sha512-HLyetab6KVPSiF+7pFcUyMeLsx25LDNDemw9mGsJBkai/oouwrjTycocSDYopMEwFhN2Y4s9oPyOCZNofgSt2g==}
+  /@types/jest@29.5.11:
+    resolution: {integrity: sha512-S2mHmYIVe13vrm6q4kN6fLYYAka15ALQki/vgDC3mIukEOx8WJlv0kQPM+d4w8Gp6u0uSdKND04IlTXBv0rwnQ==}
     dependencies:
       expect: 29.7.0
       pretty-format: 29.7.0
