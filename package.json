@@ -10,7 +10,7 @@
     "dev": "pnpm turbo --parallel dev"
   },
   "devDependencies": {
-    "husky": "^8.0.3",
+    "husky": "^9.0.7",
     "lint-staged": "^15.2.0",
     "prettier": "3.1.0",
     "turbo": "1.12.2"
