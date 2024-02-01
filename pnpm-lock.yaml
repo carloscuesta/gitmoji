@@ -60,8 +60,8 @@ importers:
         specifier: ^6.13.1
         version: 6.13.1(eslint@8.56.0)(typescript@5.3.3)
       '@vercel/analytics':
-        specifier: ^1.1.1
-        version: 1.1.1
+        specifier: ^1.1.2
+        version: 1.1.2
       clipboard:
         specifier: ^2.0.11
         version: 2.0.11
@@ -2864,8 +2864,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vercel/analytics@1.1.1:
-    resolution: {integrity: sha512-+NqgNmSabg3IFfxYhrWCfB/H+RCUOCR5ExRudNG2+pcRehq628DJB5e1u1xqwpLtn4pAYii4D98w7kofORAGQA==}
+  /@vercel/analytics@1.1.2:
+    resolution: {integrity: sha512-CodhkLCQ/EHzjX8k+Qg+OzTBY0UadykrcfolfSOJVZZY/ZJM5nbhztm9KdbYvMfqKlasAr1+OYy0ThZnDA/MYA==}
     dependencies:
       server-only: 0.0.1
     dev: true

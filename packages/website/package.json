@@ -20,7 +20,7 @@
     "@types/react-test-renderer": "^18.0.7",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.13.1",
-    "@vercel/analytics": "^1.1.1",
+    "@vercel/analytics": "^1.1.2",
     "clipboard": "^2.0.11",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.1.0",
