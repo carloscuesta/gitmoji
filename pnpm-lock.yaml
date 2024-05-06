@@ -91,7 +91,7 @@ importers:
         version: 7.34.1(eslint@8.57.0)
       focus-trap-react:
         specifier: ^10.2.3
-        version: 10.2.3(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
+        version: 10.2.3(prop-types@15.8.1)(react-dom@18.3.1)(react@18.2.0)
       gitmojis:
         specifier: workspace:*
         version: link:../gitmojis
@@ -109,7 +109,7 @@ importers:
         version: 15.2.2
       next:
         specifier: ^14.2.3
-        version: 14.2.3(@babel/core@7.22.11)(react-dom@18.2.0)(react@18.2.0)
+        version: 14.2.3(@babel/core@7.22.11)(react-dom@18.3.1)(react@18.2.0)
       next-pwa:
         specifier: ^5.6.0
         version: 5.6.0(@babel/core@7.22.11)(next@14.2.3)(webpack@5.86.0)
@@ -118,7 +118,7 @@ importers:
         version: 4.2.3(next@14.2.3)
       next-themes:
         specifier: ^0.3.0
-        version: 0.3.0(react-dom@18.2.0)(react@18.2.0)
+        version: 0.3.0(react-dom@18.3.1)(react@18.2.0)
       node-mocks-http:
         specifier: ^1.13.0
         version: 1.13.0
@@ -132,11 +132,11 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
       react-dom:
-        specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ^18.3.1
+        version: 18.3.1(react@18.2.0)
       react-hot-toast:
         specifier: ^2.4.1
-        version: 2.4.1(csstype@3.1.2)(react-dom@18.2.0)(react@18.2.0)
+        version: 2.4.1(csstype@3.1.2)(react-dom@18.3.1)(react@18.2.0)
       react-test-renderer:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
@@ -2902,7 +2902,7 @@ packages:
       react:
         optional: true
     dependencies:
-      next: 14.2.3(@babel/core@7.22.11)(react-dom@18.2.0)(react@18.2.0)
+      next: 14.2.3(@babel/core@7.22.11)(react-dom@18.3.1)(react@18.2.0)
       react: 18.2.0
       server-only: 0.0.1
     dev: true
@@ -4858,7 +4858,7 @@ packages:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
-  /focus-trap-react@10.2.3(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0):
+  /focus-trap-react@10.2.3(prop-types@15.8.1)(react-dom@18.3.1)(react@18.2.0):
     resolution: {integrity: sha512-YXBpFu/hIeSu6NnmV2xlXzOYxuWkoOtar9jzgp3lOmjWLWY59C/b8DtDHEAV4SPU07Nd/t+nS/SBNGkhUBFmEw==}
     peerDependencies:
       prop-types: ^15.8.1
@@ -4868,7 +4868,7 @@ packages:
       focus-trap: 7.5.4
       prop-types: 15.8.1
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       tabbable: 6.2.0
     dev: true
 
@@ -6624,7 +6624,7 @@ packages:
       babel-loader: 8.3.0(@babel/core@7.22.11)(webpack@5.86.0)
       clean-webpack-plugin: 4.0.0(webpack@5.86.0)
       globby: 11.1.0
-      next: 14.2.3(@babel/core@7.22.11)(react-dom@18.2.0)(react@18.2.0)
+      next: 14.2.3(@babel/core@7.22.11)(react-dom@18.3.1)(react@18.2.0)
       terser-webpack-plugin: 5.3.9(webpack@5.86.0)
       workbox-webpack-plugin: 6.6.0(webpack@5.86.0)
       workbox-window: 6.6.0
@@ -6649,20 +6649,20 @@ packages:
       '@next/env': 13.4.16
       fast-glob: 3.3.1
       minimist: 1.2.8
-      next: 14.2.3(@babel/core@7.22.11)(react-dom@18.2.0)(react@18.2.0)
+      next: 14.2.3(@babel/core@7.22.11)(react-dom@18.3.1)(react@18.2.0)
     dev: true
 
-  /next-themes@0.3.0(react-dom@18.2.0)(react@18.2.0):
+  /next-themes@0.3.0(react-dom@18.3.1)(react@18.2.0):
     resolution: {integrity: sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w==}
     peerDependencies:
       react: ^16.8 || ^17 || ^18
       react-dom: ^16.8 || ^17 || ^18
     dependencies:
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
     dev: true
 
-  /next@14.2.3(@babel/core@7.22.11)(react-dom@18.2.0)(react@18.2.0):
+  /next@14.2.3(@babel/core@7.22.11)(react-dom@18.3.1)(react@18.2.0):
     resolution: {integrity: sha512-dowFkFTR8v79NPJO4QsBUtxv0g9BrS/phluVpMAt2ku7H+cbcBJlopXjkWlwxrk/xGqMemr7JkGPGemPrLLX7A==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -6687,7 +6687,7 @@ packages:
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       styled-jsx: 5.1.1(@babel/core@7.22.11)(react@18.2.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.2.3
@@ -7173,17 +7173,17 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /react-dom@18.2.0(react@18.2.0):
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  /react-dom@18.3.1(react@18.2.0):
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.3.1
     dependencies:
       loose-envify: 1.4.0
       react: 18.2.0
-      scheduler: 0.23.0
+      scheduler: 0.23.2
     dev: true
 
-  /react-hot-toast@2.4.1(csstype@3.1.2)(react-dom@18.2.0)(react@18.2.0):
+  /react-hot-toast@2.4.1(csstype@3.1.2)(react-dom@18.3.1)(react@18.2.0):
     resolution: {integrity: sha512-j8z+cQbWIM5LY37pR6uZR6D4LfseplqnuAO4co4u8917hBUvXlEqyP1ZzqVLcqoyUesZZv/ImreoCeHVDpE5pQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7192,7 +7192,7 @@ packages:
     dependencies:
       goober: 2.1.13(csstype@3.1.2)
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
     transitivePeerDependencies:
       - csstype
     dev: true
@@ -7476,6 +7476,12 @@ packages:
 
   /scheduler@0.23.0:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: true
+
+  /scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
     dependencies:
       loose-envify: 1.4.0
     dev: true
