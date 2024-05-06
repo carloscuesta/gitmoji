@@ -17,7 +17,7 @@
     "@types/fetch-mock": "^7.3.8",
     "@types/jest": "^29.5.12",
     "@types/react": "^18.2.66",
-    "@types/react-test-renderer": "^18.0.7",
+    "@types/react-test-renderer": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
     "@typescript-eslint/parser": "^7.8.0",
     "@vercel/analytics": "^1.2.2",
@@ -46,7 +46,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.4.1",
-    "react-test-renderer": "^18.2.0",
+    "react-test-renderer": "^18.3.1",
     "typescript": "^5.4.5"
   },
   "author": {
