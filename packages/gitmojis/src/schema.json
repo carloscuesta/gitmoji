@@ -1,8 +1,11 @@
 {
   "type": "object",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "required": ["gitmojis"],
+  "required": ["gitmoji_version", "gitmojis"],
   "properties": {
+    "gitmoji_version": {
+      "type": "string"
+    },
     "gitmojis": {
       "type": "array",
       "minItems": 1,
