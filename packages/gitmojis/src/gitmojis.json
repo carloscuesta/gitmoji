@@ -584,6 +584,14 @@
       "description": "Add or update code related to validation.",
       "name": "safety-vest",
       "semver": null
+    },
+    {
+      "emoji": "🐳",
+      "entity": "&#x1f433;",
+      "code": ":whale:",
+      "description": "Add or update Dockerfile",
+      "name": "Whale",
+      "semver": null
     }
   ]
 }
