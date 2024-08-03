@@ -29,7 +29,7 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^28.6.0",
-    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react": "^7.35.0",
     "focus-trap-react": "^10.2.3",
     "gitmojis": "workspace:*",
     "jest": "^29.7.0",
