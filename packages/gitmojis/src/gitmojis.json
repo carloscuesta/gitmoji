@@ -258,7 +258,7 @@
       "semver": null
     },
     {
-      "emoji": "📦️",
+      "emoji": "📦",
       "entity": "&#1F4E6;",
       "code": ":package:",
       "description": "Add or update compiled files or packages.",
