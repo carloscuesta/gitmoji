@@ -48,8 +48,8 @@ importers:
         specifier: ^29.5.12
         version: 29.5.12
       '@types/react':
-        specifier: ^18.3.3
-        version: 18.3.3
+        specifier: ^18.3.5
+        version: 18.3.5
       '@types/react-test-renderer':
         specifier: ^18.3.0
         version: 18.3.0
@@ -2570,11 +2570,11 @@ packages:
   /@types/react-test-renderer@18.3.0:
     resolution: {integrity: sha512-HW4MuEYxfDbOHQsVlY/XtOvNHftCVEPhJF2pQXXwcUiUF+Oyb0usgp48HSgpK5rt8m9KZb22yqOeZm+rrVG8gw==}
     dependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.5
     dev: true
 
-  /@types/react@18.3.3:
-    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
+  /@types/react@18.3.5:
+    resolution: {integrity: sha512-WeqMfGJLGuLCqHGYRGHxnKrXcTitc6L/nBUWfWPcTarG3t9PsquqUMuVeXZeca+mglY4Vo5GZjCi0A3Or2lnxA==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.2
