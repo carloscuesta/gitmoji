@@ -21,6 +21,11 @@ const tools = [
 				description: 'A Flutter Gitmoji App for macOS, Linux, and Windows',
 				link: 'https://github.com/patrick-fu/GitmojiApp',
 			},
+			{
+				name: 'gitmojiBar',
+				description: 'MacOS menubar for easy copy gitmoji',
+				link: 'https://github.com/techinpark/gitmojiBar',
+			},
 		],
 	},
 	{
@@ -42,6 +47,11 @@ const tools = [
 				description: 'Gitmoji commit message generation using AI',
 				link: 'https://github.com/segersniels/genmoji',
 			},
+			{
+				name: 'gitmoji-semver',
+				description: 'Just commit with gitmoji, and you’ll get auto versioning by semantic versioning and auto release to github',
+				link: 'https://github.com/nkmr-jp/gitmoji-semver',
+			},
 		],
 	},
 	{
@@ -58,6 +68,11 @@ const tools = [
 				description:
 				'A Firefox addon that adds a predictive gitmoji picker to GitHub commit message inputs',
 				link: 'https://github.com/ma1ted/githubmoji',
+			},
+			{
+				name: 'githubmoji',
+				description: 'A Firefox addon that adds a predictive gitmoji picker to GitHub commit message inputs',
+				link: 'https://github.com/malted/githubmoji',
 			},
 		],
 	},
@@ -85,6 +100,26 @@ const tools = [
 				description: 'Gitmoji for Atom',
 				link: 'https://github.com/ThatXliner/gitmoji-atom',
 			},
+			{
+				name: 'gitmoji.nvim',
+				description: 'Gitmojis for Neovim using nvim-cmp',
+				link: 'https://github.com/Dynge/gitmoji.nvim',
+			},
+			{
+				name: 'Neo gitmoji',
+				description: 'Telescope integration for gitmoji (NeoVim)',
+				link: 'https:https://github.com/HenriqueArtur/neo-gitmoji.nvim/',
+			},
+			{
+				name: 'Gitmoji Commit',
+				description: 'VS Code extension for composing Gitmoji commit messages',
+				link: 'https://github.com/benjaminadk/emojigit',
+			},
+			{
+				name: 'telescope-gitmoji.nvim',
+				description: 'A Telescope integration of gitmoji (Neovim)',
+				link: 'https://github.com/olacin/telescope-gitmoji.nvim',
+			}
 		],
 	},
 	{
@@ -124,16 +159,26 @@ const tools = [
 				description: 'A game to learn gitmojis',
 				link: 'https://github.com/ImBIOS/gitmemoji/',
 			},
+			{
+				name: 'Anki deck',
+				description: 'Learn gitmojis using Anki, a spaced repetition software',
+				link: 'https://ankiweb.net/shared/info/813391103',
+			},
 		],
 	},
 	{
-		emoji: '🔍',
-		title: 'Regular expressions',
+		emoji: '🧰',
+		title: 'Programming language integration',
 		items: [
 			{
 				name: 'gitmoji-regex',
 				description: 'A Gitmoji::Regex for Ruby',
 				link: 'https://github.com/pboling/gitmoji-regex',
+			},
+			{
+				name: 'convert-gitmoji',
+				description: 'Simple way to replace strings with gitmojis in TypeScript',
+				link: 'https://github.com/Intevel/convert-gitmoji',
 			},
 		],
 	},
