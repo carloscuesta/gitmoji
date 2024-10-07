@@ -178,6 +178,7 @@ const tools = [
 	},
 ]
 
+var slug = require('slug')
 const RelatedTools = () => (
   <>
     <SEO pageTitle="Related tools" pageUrl="/related-tools" />
@@ -192,7 +193,7 @@ const RelatedTools = () => (
         </p>
 				{tools.map((section) => (
 					<>
-						<h2>{section.emoji} {section.title}</h2>
+						<h2 id={slug(section.title)}><a style={{color: 'inherit'}} href={"#"+slug(section.title)}>{section.emoji} {section.title}</a></h2>
 						<ul>
 							{section.items.map((tool) => (
 								<li key={tool.name} >
