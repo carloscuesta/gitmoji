@@ -24,7 +24,7 @@
   "devDependencies": {
     "ajv-cli": "^5.0.0",
     "lint-staged": "^15.2.10",
-    "nodemon": "^3.1.4",
+    "nodemon": "^3.1.7",
     "prettier": "3.3.3",
     "unbuild": "^2.0.0"
   },
