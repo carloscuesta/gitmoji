@@ -90,8 +90,8 @@ importers:
         specifier: ^7.37.4
         version: 7.37.4(eslint@8.57.0)
       focus-trap-react:
-        specifier: ^10.3.0
-        version: 10.3.0(prop-types@15.8.1)(react-dom@18.3.1)(react@18.3.1)
+        specifier: ^11.0.3
+        version: 11.0.3(@types/react-dom@19.0.3)(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1)
       gitmojis:
         specifier: workspace:*
         version: link:../gitmojis
@@ -2662,6 +2662,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
+  /@types/react-dom@19.0.3(@types/react@18.3.12):
+    resolution: {integrity: sha512-0Knk+HJiMP/qOZgMyNFamlIjw9OFCsyC2ZbigmEEyXXixgre6IQpm/4V+r3qH4GC1JPvRJKInw+on2rV6YZLeA==}
+    peerDependencies:
+      '@types/react': ^19.0.0
+    dependencies:
+      '@types/react': 18.3.12
+    dev: true
+
   /@types/react-test-renderer@18.3.0:
     resolution: {integrity: sha512-HW4MuEYxfDbOHQsVlY/XtOvNHftCVEPhJF2pQXXwcUiUF+Oyb0usgp48HSgpK5rt8m9KZb22yqOeZm+rrVG8gw==}
     dependencies:
@@ -5204,22 +5212,24 @@ packages:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
-  /focus-trap-react@10.3.0(prop-types@15.8.1)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-XrCTj44uNE0clTA47y1AbIb7tM7w6+zi6WrJzb4RxRe3uAIIivkBCwlsCqe7R3vPRT/LCQzfe4+N/KjtJMQMgw==}
+  /focus-trap-react@11.0.3(@types/react-dom@19.0.3)(@types/react@18.3.12)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-tS1+enWS/gwCHk2WIF3KpM2oz7Y3HsnRImzHZNRgCBLWXzNG4XQVlJgbqdLr4lBKRXGdDBjQYitSh1bf2xe4Ag==}
     peerDependencies:
-      prop-types: ^15.8.1
-      react: '>=16.3.0'
-      react-dom: '>=16.3.0'
+      '@types/react': ^18.0.0 || ^19.0.0
+      '@types/react-dom': ^18.0.0 || ^19.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
     dependencies:
-      focus-trap: 7.6.0
-      prop-types: 15.8.1
+      '@types/react': 18.3.12
+      '@types/react-dom': 19.0.3(@types/react@18.3.12)
+      focus-trap: 7.6.4
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       tabbable: 6.2.0
     dev: true
 
-  /focus-trap@7.6.0:
-    resolution: {integrity: sha512-1td0l3pMkWJLFipobUcGaf+5DTY4PLDDrcqoSaKP8ediO/CoWCCYk/fT/Y2A4e6TNB+Sh6clRJCjOPPnKoNHnQ==}
+  /focus-trap@7.6.4:
+    resolution: {integrity: sha512-xx560wGBk7seZ6y933idtjJQc1l+ck+pI3sKvhKozdBV1dRZoKhkW5xoCaFv9tQiX5RH1xfSxjuNu6g+lmN/gw==}
     dependencies:
       tabbable: 6.2.0
     dev: true
