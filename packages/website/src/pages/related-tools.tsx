@@ -90,6 +90,11 @@ const tools = [
     description: 'Gitmoji commit message generation using AI',
     link: 'https://github.com/segersniels/genmoji',
   },
+  {
+    name: 'gitmoji-plus-flow-launcher',
+    description: 'A flow launcher plugin to search and copy gitmojis',
+    link: 'https://github.com/tho-myr/Flow.Launcher.Plugin.Gitmoji_Plus',
+  },
 ]
 
 const RelatedTools = () => (
