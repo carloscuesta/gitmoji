@@ -26,7 +26,7 @@
     "lint-staged": "^15.4.3",
     "nodemon": "^3.1.7",
     "prettier": "3.4.2",
-    "unbuild": "^3.3.1"
+    "unbuild": "^3.5.0"
   },
   "author": {
     "name": "carloscuesta",
