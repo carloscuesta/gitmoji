@@ -78,7 +78,8 @@
   cursor: pointer;
   display: inline-block;
   font-size: 5em;
-  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
+  font-family:
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
     'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
 }
 
