@@ -4089,6 +4089,7 @@ exports[`Pages Index should render the page 1`] = `
     </article>
   </div>
   <div
+    id="_rht_toaster"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     style={
