@@ -1,7 +1,7 @@
 {
   "name": "gitmojis",
   "type": "module",
-  "version": "3.14.0",
+  "version": "3.15.0",
   "description": "An emoji guide for your commit messages.",
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
