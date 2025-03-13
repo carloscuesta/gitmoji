@@ -592,6 +592,14 @@
       "description": "Improve offline support.",
       "name": "airplane",
       "semver": null
+    },
+    {
+      "emoji": "🧬",
+      "entity": "&#x1F9EC;",
+      "code": ":dna:",
+      "description": "Add or update mutation tests.",
+      "name": "dna",
+      "semver": null
     }
   ]
 }
