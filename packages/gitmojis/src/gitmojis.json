@@ -661,8 +661,16 @@
       "emoji": "🥡",
       "entity": "&#x1F961;",
       "code": ":takeout_box:",
-      "description": "xample, demostration or use case.",
+      "description": "Example, demostration or use case.",
       "name": "takeout-box",
+      "semver": null
+    },
+    {
+      "emoji": "🔗",
+      "entity": "&#x1F517;",
+      "code": ":link:",
+      "description": "Changes related to URI/URLs.",
+      "name": "link",
       "semver": null
     }
   ]
