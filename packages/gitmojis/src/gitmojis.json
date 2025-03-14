@@ -640,6 +640,14 @@
       "description": "Mapping properties or fields between objects.",
       "name": "paperclips",
       "semver": null
+    },
+    {
+      "emoji": "🛸",
+      "entity": "&#x1F6F8;",
+      "code": ":flying_saucer:",
+      "description": "Extract code into a separate function or new file.",
+      "name": "flying-saucer",
+      "semver": null
     }
   ]
 }
