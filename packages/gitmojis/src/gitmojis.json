@@ -603,10 +603,18 @@
     },
     {
       "emoji": "🦯",
-      "entity": "&#x1F9AF",
+      "entity": "&#x1F9AF;",
       "code": ":probing_cane:",
       "description": "Code not tested or written blind.",
       "name": "probing-cane",
+      "semver": null
+    },
+    {
+      "emoji": "↔️",
+      "entity": "&#x2194;",
+      "code": ":left_right_arrow:",
+      "description": "Change/Migrate Dependency",
+      "name": "left-right-arrow",
       "semver": null
     }
   ]
