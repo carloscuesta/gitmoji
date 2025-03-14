@@ -656,6 +656,14 @@
       "description": "Applying the boy scout rule.",
       "name": "tent",
       "semver": null
+    },
+    {
+      "emoji": "🥡",
+      "entity": "&#x1F961;",
+      "code": ":takeout_box:",
+      "description": "xample, demostration or use case.",
+      "name": "takeout-box",
+      "semver": null
     }
   ]
 }
