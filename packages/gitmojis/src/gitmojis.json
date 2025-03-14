@@ -624,6 +624,14 @@
       "description": "Add or update a code generator instructions.",
       "name": "robot",
       "semver": null
+    },
+    {
+      "emoji": "🎛️",
+      "entity": "&#x1F39B;",
+      "code": ":control_knobs:",
+      "description": "Add/update default values.",
+      "name": "control-knobs",
+      "semver": null
     }
   ]
 }
