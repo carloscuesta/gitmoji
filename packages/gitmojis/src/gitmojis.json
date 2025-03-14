@@ -600,6 +600,14 @@
       "description": "Add or update mutation tests.",
       "name": "dna",
       "semver": null
+    },
+    {
+      "emoji": "🦯",
+      "entity": "&#x1F9AF",
+      "code": ":probing_cane:",
+      "description": "Code not tested or written blind.",
+      "name": "probing-cane",
+      "semver": null
     }
   ]
 }
