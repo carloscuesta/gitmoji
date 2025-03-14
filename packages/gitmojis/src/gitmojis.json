@@ -632,6 +632,14 @@
       "description": "Add/update default values.",
       "name": "control-knobs",
       "semver": null
+    },
+    {
+      "emoji": "🖇",
+      "entity": "&#x1F587;",
+      "code": ":paperclips:",
+      "description": "Mapping properties or fields between objects.",
+      "name": "paperclips",
+      "semver": null
     }
   ]
 }
