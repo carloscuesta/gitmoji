@@ -648,6 +648,14 @@
       "description": "Extract code into a separate function or new file.",
       "name": "flying-saucer",
       "semver": null
+    },
+    {
+      "emoji": "⛺",
+      "entity": "&#x26FA;",
+      "code": ":tent:",
+      "description": "Applying the boy scout rule.",
+      "name": "tent",
+      "semver": null
     }
   ]
 }
