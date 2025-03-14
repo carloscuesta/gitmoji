@@ -613,8 +613,16 @@
       "emoji": "↔️",
       "entity": "&#x2194;",
       "code": ":left_right_arrow:",
-      "description": "Change/Migrate Dependency",
+      "description": "Change/Migrate Dependency.",
       "name": "left-right-arrow",
+      "semver": null
+    },
+    {
+      "emoji": "🤖",
+      "entity": "&#x1F916;",
+      "code": ":robot:",
+      "description": "Add or update a code generator instructions.",
+      "name": "robot",
       "semver": null
     }
   ]
