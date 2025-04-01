@@ -14,7 +14,7 @@
     "test": "FORCE_COLOR=1 jest --coverage"
   },
   "devDependencies": {
-    "@types/fetch-mock": "^7.3.8",
+    "@types/fetch-mock": "^9.2.2",
     "@types/jest": "^29.5.14",
     "@types/react": "^18.3.12",
     "@types/react-test-renderer": "^18.3.0",
