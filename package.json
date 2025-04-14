@@ -13,7 +13,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "prettier": "3.5.3",
-    "turbo": "2.4.0"
+    "turbo": "2.5.0"
   },
   "volta": {
     "node": "16.15.0"
