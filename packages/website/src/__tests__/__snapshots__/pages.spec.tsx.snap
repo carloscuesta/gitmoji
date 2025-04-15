@@ -179,9 +179,35 @@ exports[`Pages App should render the page 1`] = `
   <script
     dangerouslySetInnerHTML={
       {
-        "__html": "!function(){try{var d=document.documentElement,n='data-theme',s='setAttribute';var e=localStorage.getItem('theme');if('system'===e||(!e&&true)){var t='(prefers-color-scheme: dark)',m=window.matchMedia(t);if(m.media!==t||m.matches){d.style.colorScheme = 'dark';d[s](n,'dark')}else{d.style.colorScheme = 'light';d[s](n,'light')}}else if(e){d[s](n,e|| '')}if(e==='light'||e==='dark')d.style.colorScheme=e}catch(e){}}()",
+        "__html": "((e, s, n, l, o, d, u, h)=>{
+    let m = document.documentElement, w = [
+        "light",
+        "dark"
+    ];
+    function p(r) {
+        (Array.isArray(e) ? e : [
+            e
+        ]).forEach((y)=>{
+            let k = y === "class", S = k && d ? o.map((f)=>d[f] || f) : o;
+            k ? (m.classList.remove(...S), m.classList.add(d && d[r] ? d[r] : r)) : m.setAttribute(y, r);
+        }), C(r);
+    }
+    function C(r) {
+        h && w.includes(r) && (m.style.colorScheme = r);
+    }
+    function a() {
+        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    if (l) p(l);
+    else try {
+        let r = localStorage.getItem(s) || n, y = u && r === "system" ? a() : r;
+        p(y);
+    } catch (r) {}
+})("data-theme","theme","system",null,["light","dark"],null,true,true)",
       }
     }
+    nonce=""
+    suppressHydrationWarning={true}
   />,
   <svg
     height={0}
