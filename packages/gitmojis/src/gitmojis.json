@@ -592,6 +592,14 @@
       "description": "Improve offline support.",
       "name": "airplane",
       "semver": null
+    },
+    {
+      "emoji": "😎",
+      "entity": "&#x1F60E;",
+      "code": ":sunglasses:",
+      "description": "Vibecoding in style.",
+      "name": "sunglasses",
+      "semver": null
     }
   ]
 }
