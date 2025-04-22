@@ -75,4 +75,5 @@ export default {
   'money-with-wings': '#b3c0b1',
   thread: '#ffbe7b',
   airplane: '#74d4ec',
+  sunglasses: '#000000'
 } as const
