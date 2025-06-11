@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="70"
+   height="20"
+   role="img"
+   aria-label="gitmoji: 😜"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="gitmoji.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs8">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#s"
+       id="linearGradient22"
+       x2="0"
+       y2="37.416574"
+       gradientTransform="scale(1.8708287,0.53452248)"
+       x1="0"
+       y1="0"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="7.1064232"
+     inkscape:cx="47.210811"
+     inkscape:cy="33.912982"
+     inkscape:window-width="1464"
+     inkscape:window-height="846"
+     inkscape:window-x="1920"
+     inkscape:window-y="618"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <title
+     id="title1">gitmoji: 😜</title>
+  <linearGradient
+     id="s"
+     x2="0"
+     y2="100%">
+    <stop
+       offset="0"
+       stop-color="#bbb"
+       stop-opacity=".1"
+       id="stop1" />
+    <stop
+       offset="1"
+       stop-opacity=".1"
+       id="stop2" />
+  </linearGradient>
+  <clipPath
+     id="r">
+    <rect
+       width="70"
+       height="20"
+       rx="3"
+       fill="#fff"
+       id="rect2" />
+  </clipPath>
+  <g
+     clip-path="url(#r)"
+     id="g5">
+    <rect
+       width="49"
+       height="20"
+       fill="#555"
+       id="rect3" />
+    <rect
+       x="49"
+       width="21"
+       height="20"
+       fill="#ffdd67"
+       id="rect4"
+       style="fill:#ffcc4d;fill-opacity:1" />
+    <rect
+       width="70"
+       height="20"
+       fill="url(#s)"
+       id="rect5"
+       style="fill:url(#linearGradient22);stroke-width:1"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     fill="#fff"
+     text-anchor="middle"
+     font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+     text-rendering="geometricPrecision"
+     font-size="110"
+     id="g8">
+    <text
+       aria-hidden="true"
+       x="255"
+       y="150"
+       fill="#010101"
+       fill-opacity=".3"
+       transform="scale(.1)"
+       textLength="390"
+       id="text5">gitmoji</text>
+    <text
+       x="255"
+       y="140"
+       transform="scale(.1)"
+       fill="#fff"
+       textLength="390"
+       id="text6">gitmoji</text>
+  </g>
+  <g
+     id="g9"
+     transform="matrix(0.46132334,0,0,0.46132334,14.668087,42.821397)"
+     style="stroke:none;stroke-opacity:1">
+    <g
+       id="g10"
+       transform="matrix(1.1049658,0,0,1.1049658,-16.568468,-74.750759)"
+       style="stroke-width:1.48562;stroke-dasharray:none">
+      <path
+         fill="#66471b"
+         d="m 99.889836,-0.63773632 c -0.06,-0.135 -1.499,-3.29699998 -4.457,-3.29699998 -2.957,0 -4.397,3.16199998 -4.457,3.29699998 -0.092,0.207 -0.032,0.449 0.144,0.591 0.177,0.143 0.427,0.147 0.61,0.014 0.013,-0.009 1.262,-0.902 3.703,-0.902 2.426,0 3.674,0.881 3.702,0.901 0.088,0.066 0.193,0.099 0.298,0.099 0.11,0 0.221,-0.037 0.311,-0.109 0.179,-0.142 0.238,-0.386 0.146,-0.594 z"
+         id="path2"
+         style="stroke:none;stroke-width:1.48562;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         fill="#f5f8fa"
+         d="m 115.43284,-2.9527363 c 0,3.58999998 -2.91,6.5 -6.5,6.5 -3.59,0 -6.5,-2.91000002 -6.5,-6.5 0,-3.59 2.91,-6.5 6.5,-6.5 3.59,0 6.5,2.91 6.5,6.5 z"
+         id="path3"
+         style="stroke:none;stroke-width:1.48562;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         fill="#292f33"
+         cx="108.93284"
+         cy="-2.9527364"
+         r="2.5"
+         id="circle3"
+         style="stroke:none;stroke-width:1.48562;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         fill="#66471b"
+         d="m 91.432836,4.8092637 c 0,3.964 4.596,9.0000003 11.000004,9.0000003 6.404,0 11,-5.0000003 11,-9.0000003 0,0 -10.333,2.756 -22.000004,0 z"
+         id="path4"
+         style="stroke:none;stroke-width:1.48562;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         fill="#e8596e"
+         d="m 102.97784,7.1512637 -1.091,-0.005 c -3.216004,-0.074 -5.454004,-0.596 -5.454004,-0.596 v 6.9610003 c 0,3 2,6 6.000004,6 4,0 6,-3 6,-6 V 6.5912637 c -1.922,0.394 -3.787,0.542 -5.455,0.56 z"
+         id="path5"
+         style="stroke:none;stroke-width:1.48562;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         fill="#dd2f45"
+         d="m 102.43284,15.390264 c 0.301,0 0.545,-0.244 0.545,-0.545 V 7.1512637 l -1.091,-0.005 v 7.6990003 c 10e-4,0.301 0.245,0.545 0.546,0.545 z"
+         id="path6"
+         style="stroke:none;stroke-width:1.48562;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>gitmoji: 😜</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
