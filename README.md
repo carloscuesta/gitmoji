@@ -9,7 +9,7 @@
 			 alt="Build Status">
 	</a>
 	<a href="https://gitmoji.dev">
-		<img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
+		<img src="gitmoji-badge.svg"
 			 alt="Gitmoji">
 	</a>
 </p>
