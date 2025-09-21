@@ -7,20 +7,17 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x]
     env:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
-      - name: Install Node.js ${{ matrix.node-version }}
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           cache: "pnpm"
-          node-version: ${{ matrix.node-version }}
+          node-version-file: ".node-version"
       - name: Install dependencies 📦
         run: pnpm install
       - name: Lint 🎨
