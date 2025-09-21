@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "node": "18"
+    "node": "22"
   },
   "scripts": {
     "build": "next build && next-sitemap",
@@ -73,9 +73,6 @@
     "semi": false,
     "singleQuote": true,
     "arrowParens": "always"
-  },
-  "volta": {
-    "node": "16.15.0"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",

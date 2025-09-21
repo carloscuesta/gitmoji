@@ -2,7 +2,7 @@
   "name": "gitmoji",
   "private": true,
   "engines": {
-    "node": "18",
+    "node": "22",
     "pnpm": ">=8"
   },
   "scripts": {
@@ -14,9 +14,6 @@
     "lint-staged": "^15.4.3",
     "prettier": "3.5.3",
     "turbo": "2.5.4"
-  },
-  "volta": {
-    "node": "16.15.0"
   },
   "packageManager": "pnpm@8.6.2"
 }
