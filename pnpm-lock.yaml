@@ -69,8 +69,8 @@ importers:
         specifier: ^8.57.0
         version: 8.57.0
       eslint-config-next:
-        specifier: ^15.2.1
-        version: 15.2.1(eslint@8.57.0)(typescript@5.8.2)
+        specifier: ^15.5.4
+        version: 15.5.4(eslint@8.57.0)(typescript@5.8.2)
       eslint-config-prettier:
         specifier: ^10.1.5
         version: 10.1.5(eslint@8.57.0)
@@ -2365,8 +2365,8 @@ packages:
     resolution: {integrity: sha512-KBiBKrDY6kxTQWGzKjQB7QirL3PiiOkV7KW98leHFjtVRKtft76Ra5qSA/SL75xT44dp6hOcqiiJ6iievLOYug==}
     dev: true
 
-  /@next/eslint-plugin-next@15.2.1:
-    resolution: {integrity: sha512-6ppeToFd02z38SllzWxayLxjjNfzvc7Wm07gQOKSLjyASvKcXjNStZrLXMHuaWkhjqxe+cnhb2uzfWXm1VEj/Q==}
+  /@next/eslint-plugin-next@15.5.4:
+    resolution: {integrity: sha512-SR1vhXNNg16T4zffhJ4TS7Xn7eq4NfKfcOsRwea7RIAHrjRpI9ALYbamqIJqkAhowLlERffiwk0FMvTLNdnVtw==}
     dependencies:
       fast-glob: 3.3.1
     dev: true
@@ -2780,8 +2780,8 @@ packages:
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
     dev: true
 
-  /@rushstack/eslint-patch@1.10.5:
-    resolution: {integrity: sha512-kkKUDVlII2DQiKy7UstOR1ErJP8kUKAQ4oa+SQtM0K+lPdmmjj0YnnxBgtTVYH7mUKtbsxeFC9y0AmK7Yb78/A==}
+  /@rushstack/eslint-patch@1.12.0:
+    resolution: {integrity: sha512-5EwMtOqvJMMa3HbmxLlF74e+3/HhwBTMcvt3nqVJgGCozO6hzIPOBlwm8mGVNR9SN2IJpxSnlxczyDjcn7qIyw==}
     dev: true
 
   /@sinclair/typebox@0.27.8:
@@ -3945,7 +3945,7 @@ packages:
     dependencies:
       baseline-browser-mapping: 2.8.6
       caniuse-lite: 1.0.30001743
-      electron-to-chromium: 1.5.222
+      electron-to-chromium: 1.5.223
       node-releases: 2.0.21
       update-browserslist-db: 1.1.3(browserslist@4.26.2)
     dev: true
@@ -4652,8 +4652,8 @@ packages:
     resolution: {integrity: sha512-AidaH9JETVRr9DIPGfp1kAarm/W6hRJTPuCnkF+2MqhF4KaAgRIcBc8nvjk+YMXZhwfISof/7WG29eS4iGxQLQ==}
     dev: true
 
-  /electron-to-chromium@1.5.222:
-    resolution: {integrity: sha512-gA7psSwSwQRE60CEoLz6JBCQPIxNeuzB2nL8vE03GK/OHxlvykbLyeiumQy1iH5C2f3YbRAZpGCMT12a/9ih9w==}
+  /electron-to-chromium@1.5.223:
+    resolution: {integrity: sha512-qKm55ic6nbEmagFlTFczML33rF90aU+WtrJ9MdTCThrcvDNdUHN4p6QfVN78U06ZmguqXIyMPyYhw2TrbDUwPQ==}
     dev: true
 
   /emittery@0.13.1:
@@ -4933,8 +4933,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-next@15.2.1(eslint@8.57.0)(typescript@5.8.2):
-    resolution: {integrity: sha512-mhsprz7l0no8X+PdDnVHF4dZKu9YBJp2Rf6ztWbXBLJ4h6gxmW//owbbGJMBVUU+PibGJDAqZhW4pt8SC8HSow==}
+  /eslint-config-next@15.5.4(eslint@8.57.0)(typescript@5.8.2):
+    resolution: {integrity: sha512-BzgVVuT3kfJes8i2GHenC1SRJ+W3BTML11lAOYFOOPzrk2xp66jBOAGEFRw+3LkYCln5UzvFsLhojrshb5Zfaw==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -4942,8 +4942,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 15.2.1
-      '@rushstack/eslint-patch': 1.10.5
+      '@next/eslint-plugin-next': 15.5.4
+      '@rushstack/eslint-patch': 1.12.0
       '@typescript-eslint/eslint-plugin': 8.13.0(@typescript-eslint/parser@8.29.0)(eslint@8.57.0)(typescript@5.8.2)
       '@typescript-eslint/parser': 8.29.0(eslint@8.57.0)(typescript@5.8.2)
       eslint: 8.57.0
