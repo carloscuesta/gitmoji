@@ -13,7 +13,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.6",
     "prettier": "3.5.3",
-    "turbo": "2.5.4"
+    "turbo": "2.5.8"
   },
   "packageManager": "pnpm@8.6.2"
 }
