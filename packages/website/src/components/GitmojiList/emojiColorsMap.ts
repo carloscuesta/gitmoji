@@ -75,4 +75,5 @@ export default {
   'money-with-wings': '#b3c0b1',
   thread: '#ffbe7b',
   airplane: '#74d4ec',
+  't-rex': '#56d1d8',
 } as const

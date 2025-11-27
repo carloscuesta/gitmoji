@@ -592,6 +592,14 @@
       "description": "Improve offline support.",
       "name": "airplane",
       "semver": null
+    },
+    {
+      "emoji": "🦖",
+      "entity": "&#x2708;",
+      "code": ":t-rex:",
+      "description": "Code that adds backwards compatibility.",
+      "name": "t-rex",
+      "semver": null
     }
   ]
 }
