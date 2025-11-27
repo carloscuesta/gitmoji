@@ -4156,6 +4156,49 @@ exports[`Pages Index should render the page 1`] = `
         </div>
       </div>
     </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+      style={
+        {
+          "--emojiColor": "#56d1d8",
+        }
+      }
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="cardHeader"
+        >
+          <button
+            className="gitmoji-clipboard-emoji gitmoji"
+            data-clipboard-text="🦖"
+            type="button"
+          >
+            🦖
+          </button>
+        </header>
+        <div
+          className="gitmojiInfo"
+        >
+          <button
+            className="gitmoji-clipboard-code gitmojiCode"
+            data-clipboard-text=":t-rex:"
+            tabIndex={-1}
+            type="button"
+          >
+            <code>
+              <span>
+                :t-rex:
+              </span>
+            </code>
+          </button>
+          <p>
+            Code that adds backwards compatibility.
+          </p>
+        </div>
+      </div>
+    </article>
   </div>
   <div
     id="_rht_toaster"
