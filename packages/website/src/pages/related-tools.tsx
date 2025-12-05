@@ -10,7 +10,7 @@ const tools = [
   {
     name: 'gitmemoji',
     description: 'A game to learn gitmojis.',
-    link: 'https://github.com/ImBIOS/gitmemoji/',
+    link: 'https://github.com/Lezurex/gitmemoji/',
   },
   {
     name: 'gitmoji-browser-extension',
