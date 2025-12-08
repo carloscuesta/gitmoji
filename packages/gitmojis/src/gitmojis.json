@@ -600,6 +600,14 @@
       "description": "Code that adds backwards compatibility.",
       "name": "t-rex",
       "semver": null
+    },
+    {
+      "emoji": "🧭",
+      "entity": "&#x2708;",
+      "code": ":navigation:",
+      "description": "Adds or improves navigation, menus, or routing.",
+      "name": "navigation",
+      "semver": null
     }
   ]
 }
