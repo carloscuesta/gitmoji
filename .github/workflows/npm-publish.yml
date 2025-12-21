@@ -3,6 +3,9 @@ on:
   push:
     tags:
       - "v*"
+permissions:
+  id-token: write
+  contents: read
 jobs:
   npm-publish:
     runs-on: ubuntu-latest
@@ -18,11 +21,7 @@ jobs:
       - name: Build 👷‍♂️
         run: pnpm turbo run build --filter=gitmojis
       - name: Publish package to NPM 🚀
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
-        run: |
-          npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
-          pnpm turbo publishPackage
+        run: pnpm turbo publishPackage
       - name: Publish GitHub Release 📝
         uses: softprops/action-gh-release@v2
         with:
