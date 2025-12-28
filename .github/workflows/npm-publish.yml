@@ -5,7 +5,7 @@ on:
       - "v*"
 permissions:
   id-token: write
-  contents: read
+  contents: write
 jobs:
   npm-publish:
     runs-on: ubuntu-latest
