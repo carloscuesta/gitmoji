@@ -76,4 +76,5 @@ export default {
   thread: '#ffbe7b',
   airplane: '#74d4ec',
   't-rex': '#56d1d8',
+  navigation: '#ffc400',
 } as const
