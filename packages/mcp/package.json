@@ -1,0 +1,61 @@
+{
+  "name": "gitmoji-mcp",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "MCP server for gitmoji data",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "bin": {
+    "gitmoji-mcp": "./dist/index.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "nodemon --exec 'pnpm run build' --watch ./src",
+    "build": "unbuild",
+    "lint": "prettier --check ./src/**/*.ts",
+    "tscheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "gitmojis": "workspace:*",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "lint-staged": "^16.2.6",
+    "nodemon": "^3.1.9",
+    "prettier": "3.6.2",
+    "typescript": "^5.9.3",
+    "unbuild": "^3.5.0",
+    "vitest": "^3.0.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloscuesta/gitmoji/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscuesta/gitmoji.git"
+  },
+  "homepage": "https://gitmoji.dev",
+  "keywords": [
+    "gitmoji",
+    "mcp",
+    "model-context-protocol",
+    "emoji",
+    "commit"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "always"
+  }
+}
