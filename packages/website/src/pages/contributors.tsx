@@ -51,7 +51,6 @@ export const getStaticProps: GetStaticProps<{
           url: contributor.html_url,
         })),
     },
-    revalidate: 3600 * 3,
   }
 }
 

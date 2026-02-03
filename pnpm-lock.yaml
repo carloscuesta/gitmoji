@@ -59,9 +59,6 @@ importers:
       '@typescript-eslint/parser':
         specifier: ^8.53.0
         version: 8.53.0(eslint@8.57.0)(typescript@5.9.3)
-      '@vercel/analytics':
-        specifier: ^1.6.1
-        version: 1.6.1(next@14.2.35)(react@18.3.1)
       clipboard:
         specifier: ^2.0.11
         version: 2.0.11
@@ -3621,36 +3618,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /@vercel/analytics@1.6.1(next@14.2.35)(react@18.3.1):
-    resolution: {integrity: sha512-oH9He/bEM+6oKlv3chWuOOcp8Y6fo6/PSro8hEkgCW3pu9/OiCXiUpRUogDh3Fs3LH2sosDrx8CxeOLBEE+afg==}
-    peerDependencies:
-      '@remix-run/react': ^2
-      '@sveltejs/kit': ^1 || ^2
-      next: '>= 13'
-      react: ^18 || ^19 || ^19.0.0-rc
-      svelte: '>= 4'
-      vue: ^3
-      vue-router: ^4
-    peerDependenciesMeta:
-      '@remix-run/react':
-        optional: true
-      '@sveltejs/kit':
-        optional: true
-      next:
-        optional: true
-      react:
-        optional: true
-      svelte:
-        optional: true
-      vue:
-        optional: true
-      vue-router:
-        optional: true
-    dependencies:
-      next: 14.2.35(@babel/core@7.28.6)(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
-    dev: true
 
   /@webassemblyjs/ast@1.14.1:
     resolution: {integrity: sha512-nuBEDgQfm1ccRp/8bCQrx1frohyufl4JlbMMZ4P1wpeOfDhF6FQkxZJ1b/e+PLwr6X1Nhw6OLme5usuBWYBvuQ==}

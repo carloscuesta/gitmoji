@@ -6,7 +6,7 @@
     "node": "22"
   },
   "scripts": {
-    "build": "next build && next-sitemap",
+    "build": "node scripts/generate-api.js && next build && next-sitemap",
     "tscheck": "pnpm exec tsc --noEmit",
     "dev": "next dev",
     "lint": "eslint ./src && prettier --check ./src/**/*.{ts,tsx,css}",
@@ -20,7 +20,6 @@
     "@types/react-test-renderer": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.52.0",
     "@typescript-eslint/parser": "^8.53.0",
-    "@vercel/analytics": "^1.6.1",
     "clipboard": "^2.0.11",
     "eslint": "^8.57.0",
     "eslint-config-next": "^15.5.4",

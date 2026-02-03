@@ -21,5 +21,8 @@ packages/website/public/robots.txt
 packages/website/public/sitemap.xml
 packages/website/public/sitemap-*.xml
 
+# gitmojis
+packages/website/public/api/
+
 # TS
 *.tsbuildinfo
