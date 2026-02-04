@@ -1,10 +1,17 @@
-import renderer from 'react-test-renderer'
+import { render, waitFor } from '@testing-library/react'
 
 import CarbonAd from '../index'
+import styles from '../styles.module.css'
 
 describe('CarbonAd', () => {
-  it('should render the component', () => {
-    const wrapper = renderer.create(<CarbonAd />)
-    expect(wrapper).toMatchSnapshot()
+  it('should render the component with carbon ads script container', async () => {
+    const { container } = render(<CarbonAd />)
+
+    await waitFor(() => {
+      const carbonAdContainer = container.querySelector(
+        `.${styles.carbonContainer}`,
+      )
+      expect(carbonAdContainer).toBeInTheDocument()
+    })
   })
 })

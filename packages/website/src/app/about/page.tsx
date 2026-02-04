@@ -1,11 +1,17 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 
 import CarbonAd from 'src/components/CarbonAd'
-import SEO from 'src/components/SEO'
 
-const About = () => (
-  <>
-    <SEO pageTitle="About" pageUrl="/about" />
+export const metadata: Metadata = {
+  title: 'gitmoji | About | An emoji guide for your commit messages',
+  alternates: {
+    canonical: '/about',
+  },
+}
+
+export default function About() {
+  return (
     <main>
       <CarbonAd />
       <section>
@@ -13,9 +19,8 @@ const About = () => (
 
         <p>
           <strong>Gitmoji is an emoji guide for GitHub commit messages</strong>.
-          Aims to be a standarization cheatsheet - guide for using{' '}
-          <a href="https://emoji.muan.co">emojis</a> on GitHub&#39;s commit
-          messages.
+          Aims to be a standarization cheatsheet - guide for using emojis on
+          GitHub&#39;s commit messages.
         </p>
 
         <p>
@@ -108,7 +113,5 @@ const About = () => (
         </ol>
       </section>
     </main>
-  </>
-)
-
-export default About
+  )
+}

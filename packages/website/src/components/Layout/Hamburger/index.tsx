@@ -1,5 +1,7 @@
+'use client'
+
 import { useState, useEffect } from 'react'
-import Router from 'next/router'
+import { usePathname } from 'next/navigation'
 import FocusTrap from 'focus-trap-react'
 
 import MenuLink from './MenuLink'
@@ -8,17 +10,12 @@ import CloseIcon from './CloseIcon'
 import styles from './styles.module.css'
 
 const Hamburger = () => {
+  const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
-    const onRouteChangeStart = () => {
-      setIsOpen(false)
-    }
-
-    Router.events.on('routeChangeStart', onRouteChangeStart)
-
-    return () => Router.events.off('routeChangeStart', onRouteChangeStart)
-  }, [])
+    setIsOpen(false)
+  }, [pathname])
 
   useEffect(() => {
     if (isOpen) {

@@ -1,5 +1,13 @@
+import type { Metadata } from 'next'
+
 import CarbonAd from 'src/components/CarbonAd'
-import SEO from 'src/components/SEO'
+
+export const metadata: Metadata = {
+  title: 'gitmoji | Related tools | An emoji guide for your commit messages',
+  alternates: {
+    canonical: '/related-tools',
+  },
+}
 
 const tools = [
   {
@@ -97,9 +105,8 @@ const tools = [
   },
 ]
 
-const RelatedTools = () => (
-  <>
-    <SEO pageTitle="Related tools" pageUrl="/related-tools" />
+export default function RelatedTools() {
+  return (
     <main>
       <CarbonAd />
       <section>
@@ -122,7 +129,5 @@ const RelatedTools = () => (
         </ul>
       </section>
     </main>
-  </>
-)
-
-export default RelatedTools
+  )
+}

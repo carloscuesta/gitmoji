@@ -12,9 +12,11 @@ async function jestConfig() {
       "**/*.(spec).(tsx)"
     ],
     "moduleNameMapper": {
-      "src/(.*)$": "<rootDir>/src/$1"
+      "src/(.*)$": "<rootDir>/src/$1",
+      "\\.svg$": "<rootDir>/__mocks__/svg.js"
     },
     "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"],
     "reporters": [
       "default",
       "github-actions"

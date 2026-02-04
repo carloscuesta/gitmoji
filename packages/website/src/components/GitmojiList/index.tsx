@@ -1,6 +1,8 @@
+'use client'
+
 import { useEffect, useState } from 'react'
 import Clipboard from 'clipboard'
-import { useRouter } from 'next/router'
+import { useRouter, useSearchParams } from 'next/navigation'
 import type { Gitmoji as GitmojiType } from 'gitmojis'
 import toast from 'react-hot-toast'
 
@@ -15,6 +17,7 @@ type Props = {
 
 const GitmojiList = (props: Props) => {
   const router = useRouter()
+  const searchParams = useSearchParams()
   const [searchInput, setSearchInput] = useState('')
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
 
@@ -31,16 +34,18 @@ const GitmojiList = (props: Props) => {
     : props.gitmojis
 
   useEffect(() => {
-    if (router.query.search) {
-      setSearchInput(router.query.search as string)
+    const search = searchParams.get('search')
+    if (search) {
+      setSearchInput(search)
     }
-  }, [router.query.search])
+  }, [searchParams])
 
   useEffect(() => {
-    if (router.query.search && !searchInput) {
-      router.push('/', undefined, { shallow: true })
+    const search = searchParams.get('search')
+    if (search && !searchInput) {
+      router.push('/')
     }
-  }, [searchInput])
+  }, [searchInput, searchParams, router])
 
   useEffect(() => {
     const clipboard = new Clipboard(

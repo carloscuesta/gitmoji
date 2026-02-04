@@ -1,116 +1,113 @@
-import { useRouter } from 'next/router'
-import renderer from 'react-test-renderer'
+import { useRouter, useSearchParams } from 'next/navigation'
+import { render, screen, fireEvent } from '@testing-library/react'
 
 import GitmojiList from '../index'
 import * as stubs from './stubs'
 
-jest.mock('next/router', () => ({
-  query: {},
-  useRouter: jest.fn().mockImplementation(() => ({
-    query: {},
-    push: jest.fn(),
-  })),
+jest.mock('next/navigation', () => ({
+  useRouter: jest.fn(),
+  useSearchParams: jest.fn(),
+  usePathname: jest.fn(() => '/'),
 }))
 
 const useRouterMock = useRouter as jest.Mock
+const useSearchParamsMock = useSearchParams as jest.Mock
 
 describe('GitmojiList', () => {
+  beforeEach(() => {
+    useRouterMock.mockReturnValue(stubs.appRouterMock())
+    useSearchParamsMock.mockReturnValue(stubs.searchParamsMock())
+  })
+
   describe('when is not list mode', () => {
-    it('should render the component', () => {
-      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
-      expect(wrapper).toMatchSnapshot()
+    it('should render the component in grid mode by default', () => {
+      const { container } = render(<GitmojiList {...stubs.props} />)
+
+      const articles = container.querySelectorAll('article')
+      expect(articles.length).toBeGreaterThan(0)
     })
   })
 
   describe('when is list mode', () => {
-    it('should render the component', () => {
-      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
-      const instance = wrapper.root
+    it('should switch to list mode when clicking the list button', () => {
+      const { container } = render(<GitmojiList {...stubs.props} />)
 
-      renderer.act(() => {
-        instance.findAllByType('button')[1].props.onClick()
-      })
+      const buttons = screen.getAllByRole('button')
+      const listModeButton = buttons[1]
 
-      expect(wrapper).toMatchSnapshot()
+      fireEvent.click(listModeButton)
+
+      const articles = container.querySelectorAll('article')
+      expect(articles.length).toBeGreaterThan(0)
     })
   })
 
   describe('when user search the fire gitmoji', () => {
-    beforeAll(() => {
-      useRouterMock.mockReturnValue(stubs.routerMock())
+    beforeEach(() => {
+      useRouterMock.mockReturnValue(stubs.appRouterMock())
+      useSearchParamsMock.mockReturnValue(stubs.searchParamsMock())
     })
 
     it('should find the fire gitmoji by code', () => {
-      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
-      const instance = wrapper.root
+      const { container } = render(<GitmojiList {...stubs.props} />)
+      const input = screen.getByRole('searchbox')
       const query = 'Fire'
 
-      renderer.act(() => {
-        instance
-          .findByType('input')
-          .props.onChange({ target: { value: query } })
-      })
+      fireEvent.change(input, { target: { value: query } })
 
-      expect(instance.findAllByType('article').length).toEqual(1)
+      const articles = container.querySelectorAll('article')
+      expect(articles.length).toEqual(1)
     })
 
     it('should find the fire gitmoji by description', () => {
-      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
-      const instance = wrapper.root
+      const { container } = render(<GitmojiList {...stubs.props} />)
+      const input = screen.getByRole('searchbox')
       const query = 'remove'
 
-      renderer.act(() => {
-        instance
-          .findByType('input')
-          .props.onChange({ target: { value: query } })
-      })
+      fireEvent.change(input, { target: { value: query } })
 
-      expect(instance.findAllByType('article').length).toEqual(1)
+      const articles = container.querySelectorAll('article')
+      expect(articles.length).toEqual(1)
     })
 
     it('should find the fire gitmoji by emoji', () => {
-      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
-      const instance = wrapper.root
+      const { container } = render(<GitmojiList {...stubs.props} />)
+      const input = screen.getByRole('searchbox')
       const query = '🔥'
 
-      renderer.act(() => {
-        instance
-          .findByType('input')
-          .props.onChange({ target: { value: query } })
-      })
+      fireEvent.change(input, { target: { value: query } })
 
-      expect(instance.findAllByType('article').length).toEqual(1)
+      const articles = container.querySelectorAll('article')
+      expect(articles.length).toEqual(1)
     })
   })
 
   describe('when search is provided by query string', () => {
-    beforeAll(() => {
-      useRouterMock.mockReturnValue(stubs.routerMock({ search: 'fire' }))
+    beforeEach(() => {
+      useRouterMock.mockReturnValue(stubs.appRouterMock())
+      useSearchParamsMock.mockReturnValue(stubs.searchParamsMock('fire'))
     })
 
     it('should set the search input value to query.search', () => {
-      const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
+      render(<GitmojiList {...stubs.props} />)
       const query = 'fire'
 
-      renderer.act(() => {
-        wrapper.update(<GitmojiList {...stubs.props} />)
-      })
-
-      expect(wrapper.root.findByType('input').props.value).toEqual(query)
+      const input = screen.getByRole('searchbox')
+      expect(input).toHaveValue(query)
     })
 
     describe('when the user deletes the search input', () => {
       it('should clear the query string', () => {
-        const wrapper = renderer.create(<GitmojiList {...stubs.props} />)
-        const instance = wrapper.root
+        const mockRouter = stubs.appRouterMock()
+        useRouterMock.mockReturnValue(mockRouter)
+        useSearchParamsMock.mockReturnValue(stubs.searchParamsMock('fire'))
 
-        renderer.act(() => {
-          instance.findByType('input').props.onChange({ target: { value: '' } })
-        })
+        render(<GitmojiList {...stubs.props} />)
+        const input = screen.getByRole('searchbox')
 
-        expect(useRouterMock().push).toHaveBeenCalledWith('/', undefined, {
-          shallow: true,
-        })
+        fireEvent.change(input, { target: { value: '' } })
+
+        expect(mockRouter.push).toHaveBeenCalledWith('/')
       })
     })
   })

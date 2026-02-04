@@ -3,7 +3,7 @@ import Header from './Header'
 import Hamburger from './Hamburger'
 import Footer from './Footer'
 
-type Props = { children: JSX.Element[] | JSX.Element }
+type Props = { children: React.ReactNode }
 
 const Layout = (props: Props) => (
   <>
