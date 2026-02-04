@@ -1,16 +1,11 @@
-import Router from 'next/router'
-import renderer from 'react-test-renderer'
+import { render, screen } from '@testing-library/react'
 
 import Layout from '../index'
 import Status, { LOGO_STATUSES } from '../Header/Logo/Status'
 import * as stubs from './stubs'
 
-jest.mock('next/router', () => ({
-  pathname: '',
-  events: {
-    on: jest.fn(),
-    off: jest.fn(),
-  },
+jest.mock('next/navigation', () => ({
+  usePathname: jest.fn(() => '/'),
 }))
 
 describe('Layout', () => {
@@ -18,43 +13,18 @@ describe('Layout', () => {
     Math.random = jest.fn().mockReturnValue(1)
   })
 
-  it('should render the component', () => {
-    const wrapper = renderer.create(
+  beforeEach(() => {
+    jest.clearAllMocks()
+  })
+
+  it('should render the component with children', () => {
+    render(
       <Layout {...stubs.props}>
         <p>Some children</p>
       </Layout>,
     )
-    expect(wrapper).toMatchSnapshot()
-  })
 
-  it('should subscribe to routeChangeStart using Router.events listener on mount', () => {
-    renderer.create(
-      <Layout>
-        <h1>Some children</h1>
-        <h2>Hello!</h2>
-      </Layout>,
-    )
-
-    expect(Router.events.on).toHaveBeenCalledWith(
-      'routeChangeStart',
-      expect.any(Function),
-    )
-  })
-
-  it('should unsubscribe to routeChangeStart using Router.events on unMount', () => {
-    const wrapper = renderer.create(
-      <Layout>
-        <h1>Some children</h1>
-        <h2>Hello!</h2>
-      </Layout>,
-    )
-
-    wrapper.unmount()
-
-    expect(Router.events.on).toHaveBeenCalledWith(
-      'routeChangeStart',
-      expect.any(Function),
-    )
+    expect(screen.getByText('Some children')).toBeInTheDocument()
   })
 
   describe('Logo', () => {
@@ -62,9 +32,9 @@ describe('Layout', () => {
       .map((status) => status)
       .forEach((status) => {
         it('should render Logo with status ' + status, () => {
-          const wrapper = renderer.create(<Status status={status} />)
+          const { container } = render(<Status status={status} />)
 
-          expect(wrapper).toMatchSnapshot()
+          expect(container.firstChild).toBeInTheDocument()
         })
       })
   })

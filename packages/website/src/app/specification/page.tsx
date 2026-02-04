@@ -1,11 +1,17 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 
 import CarbonAd from 'src/components/CarbonAd'
-import SEO from 'src/components/SEO'
 
-const Specification = () => (
-  <>
-    <SEO pageTitle="Specification" pageUrl="/about" />
+export const metadata: Metadata = {
+  title: 'gitmoji | Specification | An emoji guide for your commit messages',
+  alternates: {
+    canonical: '/specification',
+  },
+}
+
+export default function Specification() {
+  return (
     <main>
       <CarbonAd />
       <section>
@@ -115,7 +121,5 @@ const Specification = () => (
         </ul>
       </section>
     </main>
-  </>
-)
-
-export default Specification
+  )
+}

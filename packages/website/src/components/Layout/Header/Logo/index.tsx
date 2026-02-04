@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useEffect } from 'react'
 
 import Status, { LOGO_STATUSES, type EmojiLogoStatus } from './Status'

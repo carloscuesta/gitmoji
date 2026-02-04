@@ -1,11 +1,13 @@
-import { useEffect, useState } from 'react'
+'use client'
+
+import { Suspense, useEffect, useState } from 'react'
 import Clipboard from 'clipboard'
-import { useRouter } from 'next/router'
 import type { Gitmoji as GitmojiType } from 'gitmojis'
 import toast from 'react-hot-toast'
 
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
+import SearchParamsSync from './SearchParamsSync'
 import useLocalStorage from './hooks/useLocalStorage'
 import styles from './styles.module.css'
 
@@ -14,7 +16,6 @@ type Props = {
 }
 
 const GitmojiList = (props: Props) => {
-  const router = useRouter()
   const [searchInput, setSearchInput] = useState('')
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
 
@@ -29,18 +30,6 @@ const GitmojiList = (props: Props) => {
         )
       })
     : props.gitmojis
-
-  useEffect(() => {
-    if (router.query.search) {
-      setSearchInput(router.query.search as string)
-    }
-  }, [router.query.search])
-
-  useEffect(() => {
-    if (router.query.search && !searchInput) {
-      router.push('/', undefined, { shallow: true })
-    }
-  }, [searchInput])
 
   useEffect(() => {
     const clipboard = new Clipboard(
@@ -78,6 +67,12 @@ const GitmojiList = (props: Props) => {
 
   return (
     <div className="row" id="gitmoji-list">
+      <Suspense fallback={null}>
+        <SearchParamsSync
+          searchInput={searchInput}
+          setSearchInput={setSearchInput}
+        />
+      </Suspense>
       <div className="col-xs-12">
         <Toolbar
           isListMode={isListMode}

@@ -57,8 +57,12 @@ const Gitmoji = (props: Props) => {
   )
 }
 
-const replaceWithJSX = (text: string, find: string, replace: JSX.Element) => {
-  const nodes: (string | JSX.Element)[] = text.split(find)
+const replaceWithJSX = (
+  text: string,
+  find: string,
+  replace: React.JSX.Element,
+) => {
+  const nodes: (string | React.JSX.Element)[] = text.split(find)
   const first = nodes.shift()
 
   return nodes

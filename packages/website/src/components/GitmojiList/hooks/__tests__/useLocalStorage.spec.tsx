@@ -1,4 +1,4 @@
-import renderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
 
 import useLocalStorage from '../useLocalStorage'
 import * as stubs from './stubs'
@@ -21,29 +21,34 @@ Object.defineProperty(window, 'localStorage', {
 })
 
 const getItem = window.localStorage.getItem as jest.Mock
+const setItem = window.localStorage.setItem as jest.Mock
 
 describe('useLocalStorage', () => {
+  beforeEach(() => {
+    jest.clearAllMocks()
+  })
+
   describe('when value is not persisted', () => {
-    beforeAll(() => {
+    beforeEach(() => {
       getItem.mockReturnValue(null)
     })
 
     it('should call localStorage.setItem', () => {
-      const wrapper = renderer.create(
+      const { rerender } = render(
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}
         />,
       )
 
-      wrapper.update(
+      rerender(
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}
         />,
       )
 
-      expect(window.localStorage.setItem).toHaveBeenCalledWith(
+      expect(setItem).toHaveBeenCalledWith(
         stubs.localStorageMock.key,
         stubs.localStorageMock.value,
       )
@@ -53,8 +58,10 @@ describe('useLocalStorage', () => {
   describe('when there is an error', () => {
     const consoleError = console.error
 
-    beforeAll(() => {
-      getItem.mockReturnValue(new Error('Test'))
+    beforeEach(() => {
+      getItem.mockImplementation(() => {
+        throw new Error('Test')
+      })
 
       Object.defineProperty(console, 'error', {
         writable: true,
@@ -62,7 +69,7 @@ describe('useLocalStorage', () => {
       })
     })
 
-    afterAll(() => {
+    afterEach(() => {
       Object.defineProperty(console, 'error', {
         writable: true,
         value: consoleError,
@@ -70,14 +77,14 @@ describe('useLocalStorage', () => {
     })
 
     it('should call console.error', () => {
-      const wrapper = renderer.create(
+      const { rerender } = render(
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}
         />,
       )
 
-      wrapper.update(
+      rerender(
         <TestComponent
           storageKey={stubs.localStorageMock.key}
           storageValue={stubs.localStorageMock.value}

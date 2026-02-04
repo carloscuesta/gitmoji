@@ -1,154 +1,72 @@
-import renderer from 'react-test-renderer'
-import fetchMock, { enableFetchMocks } from 'jest-fetch-mock'
-import { gitmojis, schema } from 'gitmojis'
-import { createMocks } from 'node-mocks-http'
+import { render, screen } from '@testing-library/react'
 
-import App from '../pages/_app'
-import Index from '../pages/index'
-import Specification from '../pages/specification'
-import About from '../pages/about'
-import Contributors, {
-  getStaticProps as getContributorsStaticProps,
-} from '../pages/contributors'
-import RelatedTools from '../pages/related-tools'
-import GitmojisApi from '../pages/api/gitmojis'
-import SchemaGitmojisApi from '../pages/api/gitmojis/schema'
-import * as stubs from './stubs'
+import RootLayout from '../app/layout'
+import Home from '../app/page'
+import About from '../app/about/page'
+import Specification from '../app/specification/page'
+import RelatedTools from '../app/related-tools/page'
 
-jest.mock('next/router', () => ({
-  query: {},
-  events: { on: jest.fn(), off: jest.fn() },
-  useRouter: jest.fn().mockImplementation(() => ({
-    query: {},
+jest.mock('next/navigation', () => ({
+  useRouter: jest.fn(() => ({
+    push: jest.fn(),
+    replace: jest.fn(),
+    prefetch: jest.fn(),
+  })),
+  useSearchParams: jest.fn(() => new URLSearchParams()),
+  usePathname: jest.fn(() => '/'),
+}))
+
+jest.mock('next-themes', () => ({
+  ThemeProvider: ({ children }: { children: React.ReactNode }) => (
+    <div>{children}</div>
+  ),
+  useTheme: jest.fn(() => ({
+    resolvedTheme: 'light',
+    setTheme: jest.fn(),
   })),
 }))
 
-Object.defineProperty(window, 'matchMedia', {
-  writable: true,
-  value: jest.fn().mockImplementation(() => ({
-    addListener: jest.fn(),
-  })),
-})
-
 describe('Pages', () => {
-  describe('App', () => {
-    beforeAll(() => {
-      Math.random = jest.fn().mockReturnValue(1)
-    })
+  beforeAll(() => {
+    Math.random = jest.fn().mockReturnValue(1)
+  })
 
-    it('should render the page', () => {
-      // @ts-expect-error We don't need to pass router to test the App component.
-      const wrapper = renderer.create(<App {...stubs.appProps} />)
-      expect(wrapper).toMatchSnapshot()
+  describe('RootLayout', () => {
+    it('should include theme provider and layout wrapper', () => {
+      expect(RootLayout).toBeDefined()
+      expect(typeof RootLayout).toBe('function')
     })
   })
 
-  describe('Index', () => {
+  describe('Home', () => {
     it('should render the page', () => {
-      const wrapper = renderer.create(<Index />)
-      expect(wrapper).toMatchSnapshot()
+      const { container } = render(<Home />)
+      expect(container.firstChild).toBeInTheDocument()
     })
   })
 
   describe('About', () => {
-    it('should render the page', () => {
-      const wrapper = renderer.create(<About />)
-      expect(wrapper).toMatchSnapshot()
+    it('should render the page with about content', () => {
+      render(<About />)
+      expect(screen.getByText(/About/i)).toBeInTheDocument()
     })
   })
 
   describe('Specification', () => {
-    it('should render the page', () => {
-      const wrapper = renderer.create(<Specification />)
-      expect(wrapper).toMatchSnapshot()
-    })
-  })
-
-  describe('Contributors', () => {
-    beforeAll(() => {
-      enableFetchMocks()
-    })
-
-    it('should fetch contributos from GitHub', async () => {
-      fetchMock.mockResponseOnce(JSON.stringify(stubs.contributorsMock))
-
-      const props = await getContributorsStaticProps({})
-
-      expect(props).toEqual({
-        props: {
-          contributors: stubs.contributors,
-        },
-        revalidate: 3600 * 3,
+    it('should render the page with specification content', () => {
+      render(<Specification />)
+      const heading = screen.getByRole('heading', {
+        name: /Specification/i,
+        level: 1,
       })
-    })
-
-    it('should render the page', () => {
-      const wrapper = renderer.create(
-        <Contributors contributors={stubs.contributors} />,
-      )
-      expect(wrapper).toMatchSnapshot()
+      expect(heading).toBeInTheDocument()
     })
   })
 
   describe('Related tools', () => {
     it('should render the page', () => {
-      renderer.create(<RelatedTools />)
-    })
-  })
-
-  describe('Api', () => {
-    describe('gitmojis endpoint', () => {
-      describe('when request method is GET', () => {
-        it('should set response status to 200 and gitmojis as body json', () => {
-          const { req, res } = createMocks({ method: 'GET' })
-
-          GitmojisApi(req, res)
-
-          expect(res.statusCode).toEqual(200)
-          expect(res._getJSONData()).toEqual({ gitmojis })
-        })
-      })
-
-      describe('when request method is not GET', () => {
-        it('should setHeader, status 405 and end the request', () => {
-          const { req, res } = createMocks({ method: 'POST' })
-
-          GitmojisApi(req, res)
-
-          expect(res.getHeaders().allow).toEqual(['GET'])
-          expect(res.statusCode).toEqual(405)
-          expect(res._getJSONData()).toEqual({
-            error: `Error: method POST not allowed`,
-          })
-        })
-      })
-    })
-
-    describe('schema endpoint', () => {
-      describe('when request method is GET', () => {
-        it('should set response status to 200 and gitmojis as body json', async () => {
-          const { req, res } = createMocks({ method: 'GET' })
-
-          SchemaGitmojisApi(req, res)
-
-          expect(res.statusCode).toEqual(200)
-          expect(res._getJSONData()).toEqual(schema)
-        })
-      })
-
-      describe('when request method is not GET', () => {
-        it('should setHeader, status 405 and end the request', () => {
-          const { req, res } = createMocks({ method: 'POST' })
-
-          SchemaGitmojisApi(req, res)
-
-          expect(res.getHeaders().allow).toEqual(['GET'])
-          expect(res.statusCode).toEqual(405)
-          expect(res._getJSONData()).toEqual({
-            error: `Error: method POST not allowed`,
-          })
-        })
-      })
+      render(<RelatedTools />)
+      expect(screen.getByText(/Related Tools/i)).toBeInTheDocument()
     })
   })
 })

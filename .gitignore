@@ -26,3 +26,6 @@ packages/website/public/api/
 
 # TS
 *.tsbuildinfo
+
+# Turbo
+.turbo

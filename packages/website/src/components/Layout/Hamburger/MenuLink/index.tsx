@@ -1,13 +1,15 @@
+'use client'
+
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { usePathname } from 'next/navigation'
 
 import styles from './styles.module.css'
 
 type Props = { href: string; text: string }
 
 const MenuLink = (props: Props) => {
-  const router: { pathname: string } = useRouter()
-  const isUserOnLinkPage: boolean = props.href === router.pathname
+  const pathname = usePathname()
+  const isUserOnLinkPage: boolean = props.href === pathname
 
   if (!props.href.startsWith('/')) {
     return (
