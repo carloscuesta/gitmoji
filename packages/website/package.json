@@ -23,7 +23,7 @@
     "@types/fetch-mock": "^7.3.8",
     "@types/jest": "^29.5.14",
     "@types/react": "^19.2.14",
-    "@typescript-eslint/eslint-plugin": "^8.52.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.2",
     "@typescript-eslint/parser": "^8.57.2",
     "clipboard": "^2.0.11",
     "eslint": "^9.39.2",
