@@ -14,7 +14,7 @@
     "test": "FORCE_COLOR=1 jest --coverage"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "3.3.3",
+    "@eslint/eslintrc": "3.3.5",
     "@eslint/js": "10.0.1",
     "@next/eslint-plugin-next": "16.1.6",
     "@testing-library/jest-dom": "6.9.1",
