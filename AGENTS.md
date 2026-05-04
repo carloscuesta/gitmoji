@@ -14,8 +14,18 @@ A gitmoji commit message is composed using the following pieces:
 
 ### Format
 
+if there is a scope
+
 ```
-<intention> [scope?][:?] <message>
+<intention> <scope>: <message>
+
+[optional body]
+```
+
+if there is not a scope
+
+```
+<intention> <message>
 
 [optional body]
 ```
