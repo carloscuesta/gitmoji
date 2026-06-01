@@ -102,8 +102,8 @@ importers:
         specifier: ^7.37.5
         version: 7.37.5(eslint@10.2.1)
       focus-trap-react:
-        specifier: ^12.0.0
-        version: 12.0.0(@types/react-dom@19.2.3)(@types/react@19.2.14)(react-dom@19.2.4)(react@19.2.4)
+        specifier: ^12.0.2
+        version: 12.0.2(@types/react-dom@19.2.3)(@types/react@19.2.14)(react-dom@19.2.4)(react@19.2.4)
       gitmojis:
         specifier: workspace:*
         version: link:../gitmojis
@@ -4326,8 +4326,8 @@ packages:
     resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
     dev: true
 
-  /focus-trap-react@12.0.0(@types/react-dom@19.2.3)(@types/react@19.2.14)(react-dom@19.2.4)(react@19.2.4):
-    resolution: {integrity: sha512-bTPk+jbG0Q3zqHjY7KjdmjqMKGKVrKbMwXxHX9+FTYENWxmLryJVoI3ZfStRSJ26uPipl+th9DIPhCyjeEBYdg==}
+  /focus-trap-react@12.0.2(@types/react-dom@19.2.3)(@types/react@19.2.14)(react-dom@19.2.4)(react@19.2.4):
+    resolution: {integrity: sha512-74OXbMiEOEDfynxLwhntTEbBbL+nSvGyBaLQ8tfnDuLPBLR+bgdE4oMaK8DOt/u9YH+9JFKJ+MuIYInSX7Rk5g==}
     peerDependencies:
       '@types/react': ^18.0.0 || ^19.0.0
       '@types/react-dom': ^18.0.0 || ^19.0.0
@@ -4336,14 +4336,14 @@ packages:
     dependencies:
       '@types/react': 19.2.14
       '@types/react-dom': 19.2.3(@types/react@19.2.14)
-      focus-trap: 8.0.0
+      focus-trap: 8.2.1
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
       tabbable: 6.4.0
     dev: true
 
-  /focus-trap@8.0.0:
-    resolution: {integrity: sha512-Aa84FOGHs99vVwufDMdq2qgOwXPC2e9U66GcqBhn1/jEHPDhJaP8PYhkIbqG9lhfL5Kddk/567lj46LLHYCRUw==}
+  /focus-trap@8.2.1:
+    resolution: {integrity: sha512-6CxwrrFRquH7pDXb1mWxudkU9LSfYBMRZutpgddb2o6iwCk7cIRrBhyY3c8SGKcmIKdeMTrGSNg4Bedh2RSF/w==}
     dependencies:
       tabbable: 6.4.0
     dev: true
