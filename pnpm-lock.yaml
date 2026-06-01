@@ -15,8 +15,8 @@ importers:
         specifier: ^16.4.0
         version: 16.4.0
       prettier:
-        specifier: 3.8.1
-        version: 3.8.1
+        specifier: 3.8.3
+        version: 3.8.3
       turbo:
         specifier: 2.9.14
         version: 2.9.14
@@ -33,8 +33,8 @@ importers:
         specifier: ^3.1.14
         version: 3.1.14
       prettier:
-        specifier: 3.8.1
-        version: 3.8.1
+        specifier: 3.8.3
+        version: 3.8.3
       unbuild:
         specifier: ^3.6.1
         version: 3.6.1(typescript@5.9.3)
@@ -132,8 +132,8 @@ importers:
         specifier: ^1.17.2
         version: 1.17.2
       prettier:
-        specifier: 3.8.1
-        version: 3.8.1
+        specifier: 3.8.3
+        version: 3.8.3
       prop-types:
         specifier: ^15.8.1
         version: 15.8.1
@@ -6691,8 +6691,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@3.8.1:
-    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+  /prettier@3.8.3:
+    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
