@@ -37,6 +37,7 @@
 
 .cardList .gitmojiCode {
   text-align: left;
+  white-space: nowrap;
 }
 
 .cardList .gitmojiInfo p {
@@ -95,7 +96,10 @@
   border-radius: 4px;
   transition-duration: 0.3s;
   cursor: pointer;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 .gitmojiCode::after {
@@ -116,7 +120,9 @@
 
 .gitmojiInfo {
   padding: 1.5em;
-  word-break: break-all;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  overflow: hidden;
   color: var(--emojiCodeText);
 }
 
