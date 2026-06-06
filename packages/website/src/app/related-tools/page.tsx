@@ -103,6 +103,11 @@ const tools = [
     description: 'A flow launcher plugin to search and copy gitmojis',
     link: 'https://github.com/tho-myr/Flow.Launcher.Plugin.Gitmoji_Plus',
   },
+  {
+    name: 'neo-gitmoji.nvim',
+    description: 'A Telescope integration for gitmoji in Neovim.',
+    link: 'https://github.com/HenriqueArtur/neo-gitmoji.nvim',
+  },
 ]
 
 export default function RelatedTools() {
