@@ -600,6 +600,14 @@
       "description": "Code that adds backwards compatibility.",
       "name": "t-rex",
       "semver": null
+    },
+    {
+      "emoji": "🌐",
+      "entity": "&#x1f310;",
+      "code": ":globe_with_meridians:",
+      "description": "Internationalize and localize the application.",
+      "name": "globe-with-meridians",
+      "semver": "patch"
     }
   ]
 }
