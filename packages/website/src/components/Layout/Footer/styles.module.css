@@ -2,6 +2,8 @@
   padding: 1.5em;
   background-color: var(--footerBackground);
   color: var(--textInSecondary);
+  position: sticky;
+  top: 100vh;
 }
 
 .footerNav {
