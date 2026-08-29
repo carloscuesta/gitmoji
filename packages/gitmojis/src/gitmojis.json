@@ -600,6 +600,14 @@
       "description": "Code that adds backwards compatibility.",
       "name": "t-rex",
       "semver": null
+    },
+    {
+      "emoji": "🤖",
+      "entity": "&#129302;",
+      "code": ":robot:",
+      "description": "Code written by AI or a coding agent",
+      "name": "robot",
+      "semver": null
     }
   ]
 }
