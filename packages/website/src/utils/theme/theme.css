@@ -42,6 +42,11 @@
   color: var(--cardText);
 }
 
+html {
+  scrollbar-gutter: stable;
+  scrollbar-color: var(--secondary) var(--background);
+}
+
 html,
 body {
   background-color: var(--background);
@@ -61,6 +66,11 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 h1 {
