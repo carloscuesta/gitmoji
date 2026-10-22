@@ -595,7 +595,7 @@
     },
     {
       "emoji": "🦖",
-      "entity": "&#x2708;",
+      "entity": "&#x1F996;",
       "code": ":t-rex:",
       "description": "Code that adds backwards compatibility.",
       "name": "t-rex",
