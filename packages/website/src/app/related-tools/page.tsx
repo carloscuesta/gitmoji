@@ -103,6 +103,12 @@ const tools = [
     description: 'A flow launcher plugin to search and copy gitmojis',
     link: 'https://github.com/tho-myr/Flow.Launcher.Plugin.Gitmoji_Plus',
   },
+  {
+    name: 'gitoryx',
+    description:
+      'A native Git GUI with a built-in gitmoji picker for macOS & Windows.',
+    link: 'https://www.gitoryx.com',
+  },
 ]
 
 export default function RelatedTools() {
