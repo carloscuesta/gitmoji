@@ -57,8 +57,8 @@ importers:
         specifier: 16.3.2
         version: 16.3.2(@testing-library/dom@10.4.2)(@types/react-dom@19.3.0)(@types/react@19.2.14)(react-dom@19.2.4)(react@19.2.4)
       '@testing-library/user-event':
-        specifier: 14.6.1
-        version: 14.6.1(@testing-library/dom@10.4.2)
+        specifier: 14.6.8
+        version: 14.6.8(@testing-library/dom@10.4.2)
       '@types/fetch-mock':
         specifier: ^7.3.8
         version: 7.3.8
@@ -2181,8 +2181,8 @@ packages:
       react-dom: 19.2.4(react@19.2.4)
     dev: true
 
-  /@testing-library/user-event@14.6.1(@testing-library/dom@10.4.2):
-    resolution: {integrity: sha512-vq7fv0rnt+QTXgPxr5Hjc210p6YKq2kmdziLgnsZGgLJ9e6VAShx1pACLuRjd/AS/sr7phAR58OIIpf0LlmQNw==}
+  /@testing-library/user-event@14.6.8(@testing-library/dom@10.4.2):
+    resolution: {integrity: sha512-vgSSqnANMnkcYR/vUNDbwS7aM3OErRLNUG8vCVVlj4oc6cKffUrccX7UAS5AmJQQNZTSibi9z5GvvRZ0aYgUCQ==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
